@@ -1,36 +1,43 @@
 # CARLA-RL-Base
 
-![Python](https://img.shields.io/badge/Python-3.10-blue)
-![CARLA](https://img.shields.io/badge/CARLA-0.9.15-orange)
-![Gymnasium](https://img.shields.io/badge/Gymnasium-RL-green)
-![Scenic](https://img.shields.io/badge/Scenic-3.1.1-purple)
+<p align="center">
+  <b>English</b> |
+  <a href="README.zh-CN.md">简体中文</a>
+</p>
 
-面向自动驾驶强化学习的 CARLA 环境，重点扩展真实复杂道路中的长尾场景，用于提升模型在突发交互、遮挡、施工、路侧风险等复杂环境下的泛化能力。
+<p align="center">
+  <img alt="Python" src="https://img.shields.io/badge/Python-3.10-blue">
+  <img alt="CARLA" src="https://img.shields.io/badge/CARLA-0.9.15-orange">
+  <img alt="Gymnasium" src="https://img.shields.io/badge/Gymnasium-RL-green">
+  <img alt="Scenic" src="https://img.shields.io/badge/Scenic-3.1.1-purple">
+</p>
 
-本项目在普通 CARLA 随机交通环境基础上，加入了 Bench2Drive 风格的长尾事件，并保留 Gymnasium 接口，方便接入 RL 训练代码。
+CARLA-RL-Base is a reinforcement learning environment for autonomous driving research in CARLA. It extends a standard CARLA traffic environment with long-tail, Bench2Drive-inspired scenarios so agents can be trained and evaluated under rare but safety-critical interactions.
+
+The project keeps a Gymnasium-compatible interface while adding scenario sampling, route-aware event placement, runtime compatibility checks, and detailed long-tail event statistics.
 
 ## Highlights
 
-- **Gymnasium 环境接口**：通过 `carla-v0` 创建环境，兼容标准 RL 训练流程。
-- **多模态观测**：支持 LiDAR、RGB camera、BEV semantic、ego state、nearby vehicles、waypoints、GPS targets。
-- **路线规划**：基于 CARLA `GlobalRoutePlanner` 自动生成全局路线和目标点。
-- **Scenic 场景采样**：通过 `.scenic` 模板控制天气、交通密度、路线长度和长尾事件。
-- **长尾事件管理器**：统一管理 actor 生成、触发、状态更新、统计和清理。
-- **地图兼容性检测**：对相邻车道、侧向车道、动态车门车辆、非路口 anchor 等条件进行检查；不适配时跳过，不让 `reset()` 崩溃。
+- **Gymnasium API**: create the environment through `carla-v0` and plug it into standard RL training loops.
+- **Multi-modal observations**: LiDAR, RGB camera, BEV semantic view, ego state, nearby vehicles, waypoints, lane info, and GPS targets.
+- **Route-aware training**: global routes are generated with CARLA's `GlobalRoutePlanner`.
+- **Scenic scenario sampling**: `.scenic` templates control weather, traffic density, route length, and long-tail event families.
+- **Long-tail event manager**: one manager handles actor spawning, trigger logic, state updates, cleanup, and per-episode statistics.
+- **Map compatibility checks**: events are skipped safely when a sampled route lacks the required adjacent lane, side lane, dynamic-door vehicle, or clear non-junction anchor.
 
 ## Long-Tail Scenarios
 
-| Scenario | Scenic file | Description | Compatibility |
+| Scenario | Scenic file | Description | Runtime requirement |
 |---|---|---|---|
-| Pedestrian Crossing | `scenarios/scenic/pedestrian_crossing.scenic` | 行人横穿、强制前方横穿 | 多数城市场景可用 |
-| Hard Brake Route | `scenarios/scenic/hard_break_route.scenic` | 前车急刹车 | 需要 ego 前方可生成 lead vehicle |
-| Construction Obstacle | `scenarios/scenic/construction_obstacle.scenic` | 施工锥、警示牌、碎片阻挡车道 | 小地图也较容易触发 |
-| Side Cut-In | `scenarios/scenic/side_cut_in.scenic` | 相邻车道车辆切入 ego 前方 | 需要同向相邻 driving lane |
-| Parking Cut-In | `scenarios/scenic/parking_cut_in.scenic` | 路侧/停车车辆切入主车道 | 需要侧向 lane |
-| Vehicle Opens Door | `scenarios/scenic/vehicle_opens_door.scenic` | 路侧车辆开门占道 | 需要侧向 lane 和动态车门车辆 |
-| Mixed Long Tail | `scenarios/scenic/mixed_long_tail.scenic` | 混合采样多个长尾事件 | 根据运行时道路条件自动选择 |
+| Pedestrian Crossing | `scenarios/scenic/pedestrian_crossing.scenic` | Forced pedestrian crossing and dense pedestrian interaction | Works on most urban routes |
+| Hard Brake Route | `scenarios/scenic/hard_break_route.scenic` | A lead vehicle brakes sharply in front of ego | Clear same-lane lead vehicle spawn point |
+| Construction Obstacle | `scenarios/scenic/construction_obstacle.scenic` | Cones, warning signs, and debris block the lane | Clear non-junction route anchor |
+| Side Cut-In | `scenarios/scenic/side_cut_in.scenic` | Adjacent-lane vehicle cuts into ego's lane | Same-direction adjacent driving lane |
+| Parking Cut-In | `scenarios/scenic/parking_cut_in.scenic` | Parked or side-lane vehicle merges into ego's lane | Usable side lane |
+| Vehicle Opens Door | `scenarios/scenic/vehicle_opens_door.scenic` | Parked vehicle opens a door into ego's path | Usable side lane and dynamic-door vehicle blueprint |
+| Mixed Long Tail | `scenarios/scenic/mixed_long_tail.scenic` | Samples from the supported long-tail events | Selected dynamically by runtime checks |
 
-运行时会在 `info` 中返回长尾事件统计，例如：
+Long-tail event status is reported in `info`, including:
 
 ```text
 long_tail_event_spawned
@@ -45,20 +52,22 @@ long_tail_last_event_state
 
 ## Installation
 
-CARLA server 需要单独安装。本项目环境文件假设 CARLA 0.9.15 已安装在本机，并且 PythonAPI 路径为：
+CARLA server binaries are not installed by this repository. Install and start CARLA 0.9.15 separately before running the environment.
+
+This project assumes the CARLA PythonAPI is available at:
 
 ```text
 /home/czh/software/carla/PythonAPI/carla
 ```
 
-创建 Conda 环境：
+Create the Conda environment:
 
 ```bash
 conda env create -f environment.yml
 conda activate CARLA-RL-Base
 ```
 
-如果使用当前机器上已有环境，可以直接使用：
+On the original development machine, the existing interpreter can be used directly:
 
 ```bash
 /home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python
@@ -66,9 +75,9 @@ conda activate CARLA-RL-Base
 
 ## Quick Start
 
-先启动 CARLA server，然后运行长尾场景测试脚本。
+Start the CARLA server first, then run a scenario smoke test.
 
-测试施工障碍：
+Construction obstacle:
 
 ```bash
 /home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python scripts/run_long_tail_scenarios.py \
@@ -80,7 +89,7 @@ conda activate CARLA-RL-Base
   --scenic-file scenarios/scenic/construction_obstacle.scenic
 ```
 
-测试混合长尾场景：
+Mixed long-tail sampling:
 
 ```bash
 /home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python scripts/run_long_tail_scenarios.py \
@@ -92,7 +101,7 @@ conda activate CARLA-RL-Base
   --scenic-file scenarios/scenic/mixed_long_tail.scenic
 ```
 
-一次测试多个场景：
+Run multiple scenario templates in one command:
 
 ```bash
 /home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python scripts/run_long_tail_scenarios.py \
@@ -151,15 +160,15 @@ env.close()
 
 ## Scenario Design Notes
 
-Bench2Drive 的很多长尾场景依赖手工挑选的 route trigger point。本项目保持随机 RL reset，因此不会强行在所有地图上生成所有事件。
+Many Bench2Drive scenarios rely on hand-picked route trigger points. This project keeps randomized RL resets, so it does not force every event to appear on every map.
 
-例如：
+Examples:
 
-- `side_cut_in` 如果当前路线前方没有同向相邻车道，会跳过并返回 `no_same_direction_adjacent_lane`。
-- `parking_cut_in` 和 `vehicle_opens_door` 如果没有侧向 lane，会跳过并返回 `no_side_lane`。
-- `construction_obstacle` 如果前方没有清晰可用的非路口 anchor，会跳过并返回 `no_clear_route_anchor`。
+- `side_cut_in` is skipped with `no_same_direction_adjacent_lane` if the sampled route has no valid same-direction adjacent lane.
+- `parking_cut_in` and `vehicle_opens_door` are skipped with `no_side_lane` if no usable side lane exists.
+- `construction_obstacle` is skipped with `no_clear_route_anchor` if no clear non-junction route anchor can be found.
 
-这种策略可以保证训练过程稳定：场景不适配时继续运行普通环境，而不是让 episode 初始化失败。
+This keeps training stable: incompatible long-tail events are skipped while the episode can continue as a normal CARLA route.
 
 ## Project Structure
 
@@ -186,7 +195,7 @@ scripts/
 
 ## Git Workflow
 
-常用同步流程：
+Common workflow:
 
 ```bash
 git status
@@ -195,7 +204,7 @@ git commit -m "Describe your change"
 git push
 ```
 
-从 GitHub 拉取最新代码：
+Pull the latest version from GitHub:
 
 ```bash
 git pull
@@ -203,8 +212,8 @@ git pull
 
 ## Roadmap
 
-- 增加更稳定的 route sampling，让 side-dependent 场景优先选择合适车道。
-- 加入更多 Bench2Drive 风格交叉口场景，如对向车抢行、闯红灯、自行车流。
-- 为长尾事件增加更细粒度的 reward/cost 统计。
-- 增加可复现实验配置和批量评估脚本。
+- Preferentially sample routes that can support side-dependent events.
+- Add more Bench2Drive-style junction scenarios, such as priority violation, red-light running, and bicycle flow.
+- Add finer-grained reward and cost statistics for long-tail interactions.
+- Add reproducible experiment configs and batch evaluation utilities.
 
