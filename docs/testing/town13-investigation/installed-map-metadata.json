@@ -1,0 +1,96 @@
+{
+  "Town12": {
+    "file_count": 1396,
+    "bytes": 2003780372,
+    "extensions": {
+      ".json": 1,
+      ".uasset": 637,
+      ".uexp": 674,
+      ".umap": 37,
+      ".ubulk": 45,
+      ".bin": 1,
+      ".xodr": 1
+    },
+    "zero_files": [],
+    "orphan_uexp": [],
+    "key_files": [
+      {
+        "path": "CarlaUE4/Content/Carla/Config/Town12.Package.json",
+        "bytes": 154,
+        "mtime_utc": "2023-11-08T12:39:03+00:00",
+        "sha256": "31674761a6f75bef8e8e639479a82158dffd53863ccca5ceae956005806ea5ce"
+      },
+      {
+        "path": "CarlaUE4/Content/Carla/Maps/Town12/Town12.uexp",
+        "bytes": 24145,
+        "mtime_utc": "2024-05-24T19:20:45+00:00",
+        "sha256": "8a65095161462503d0d6b2b836fe939517d86515b74df5963a3609552a8ab6aa"
+      },
+      {
+        "path": "CarlaUE4/Content/Carla/Maps/Town12/Town12.umap",
+        "bytes": 21804,
+        "mtime_utc": "2024-05-24T19:20:45+00:00",
+        "sha256": "2654aefa67b0621c37454bd56d924a1762810dd21153f1474943ff00903d747f"
+      },
+      {
+        "path": "CarlaUE4/Content/Carla/Maps/Town12/TM/Town12.bin",
+        "bytes": 11831442,
+        "mtime_utc": "2024-05-24T20:13:33+00:00",
+        "sha256": "8306915e02a51a54fc4a9fc4b34d0365ee31233df20530166cbe4d9ee54fa660"
+      },
+      {
+        "path": "CarlaUE4/Content/Carla/Maps/Town12/OpenDrive/Town12.xodr",
+        "bytes": 71350074,
+        "mtime_utc": "2024-05-24T20:13:33+00:00",
+        "sha256": "26fa53d4902ac3397d35f948969f0c77c1bf023755ede2c67edf00bef817151f"
+      }
+    ]
+  },
+  "Town13": {
+    "file_count": 1652,
+    "bytes": 3707648753,
+    "extensions": {
+      ".json": 1,
+      ".uexp": 801,
+      ".uasset": 752,
+      ".ubulk": 47,
+      ".umap": 49,
+      ".bin": 1,
+      ".xodr": 1
+    },
+    "zero_files": [],
+    "orphan_uexp": [],
+    "key_files": [
+      {
+        "path": "CarlaUE4/Content/Carla/Config/Town13.Package.json",
+        "bytes": 154,
+        "mtime_utc": "2023-11-08T12:39:03+00:00",
+        "sha256": "4d4ac514fedccf2ba00c8dc09e559ecc51bee6186bc793acfd59c20b101458fb"
+      },
+      {
+        "path": "CarlaUE4/Content/Carla/Maps/Town13/Town13.umap",
+        "bytes": 24157,
+        "mtime_utc": "2024-05-24T19:38:53+00:00",
+        "sha256": "2150d135929b268a5695c2b888092cc24f4cfa12a5d3f0908e7990b910961367"
+      },
+      {
+        "path": "CarlaUE4/Content/Carla/Maps/Town13/Town13.uexp",
+        "bytes": 29466,
+        "mtime_utc": "2024-05-24T19:38:53+00:00",
+        "sha256": "148c97778bcc6a5219d73cfadd2b96dc8f5faaa05db7f9b391453dd46bbbb64a"
+      },
+      {
+        "path": "CarlaUE4/Content/Carla/Maps/Town13/TM/Town13.bin",
+        "bytes": 15750580,
+        "mtime_utc": "2024-05-24T20:13:38+00:00",
+        "sha256": "b17b7c815b5ac75e877387bcb32d94a62997ec00c5de7ea545ed16b1a63b5dda"
+      },
+      {
+        "path": "CarlaUE4/Content/Carla/Maps/Town13/OpenDrive/Town13.xodr",
+        "bytes": 89418305,
+        "mtime_utc": "2024-05-24T20:13:38+00:00",
+        "sha256": "5354326f2fe4d26f0dcb5c82acf462257e638278363ab7adecb97ec3aa1f426f"
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "easycarla"
+version = "0.2.0"
+description = "Request-driven CARLA environment service"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = ["Operating System :: POSIX :: Linux", "Programming Language :: Python :: 3"]
+dependencies = ["easycarla-client==0.2.0", "numpy>=1.24,<3", "gymnasium>=0.29,<2", "PyYAML>=6,<7"]
+
+[project.optional-dependencies]
+carla = ["carla==0.9.15", "scenic==3.1.1"]
+bench2drive = ["py-trees==0.8.3", "dictor", "ephem", "xmlschema", "transforms3d", "tabulate", "psutil", "simple-watchdog-timer", "requests"]
+test = ["pytest>=8,<9"]
+
+[project.scripts]
+easycarla = "easycarla.service.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["easycarla*"]
+exclude = ["packages*", "tests*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["carla: requires a live CARLA server", "bench2drive: requires prepared Bench2Drive source"]

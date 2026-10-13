@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "status": "runtime_returned_validation_errors_lifecycle_failed",
+  "scope": "One fresh route 3816 with CPU API validation; diagnostic changes timing and does not prove original cumulative crash fixed",
+  "source_sha256": {
+    "summary.json": "506361a30478d9e3a50764727bd0f616060c75f4a8db9a5cc71a784533968f2c",
+    "probe.json": "996a34c8ef9b6ebe04d4dd2e8a2c46ee198e2523d6046d726714cb919cf36716",
+    "client.txt": "433b7dc153834e55f5ba889660b40d4cfa35d55e44560c0f8f5f27bc61aba649",
+    "server.txt": "1d36770c88f18ad86006cc278977b27053d068e2286a2b2bb78c184d475e78f7",
+    "samples.jsonl": "b642959bd29d2d8e62cd731f1b3d5b3dd53655918f630bc6c1b9059f90dfd2d0",
+    "diagnostic-environment.json": "d208f83ebef3ad615efce2124f3a6fd8ba0b05fd411a4f815d503af9bc04c8bb"
+  },
+  "passed": false,
+  "client_exit": 0,
+  "server_exit": -9,
+  "shutdown_forced_kill": true,
+  "returned_routes": 1,
+  "confirmed_step_ticks": 1000,
+  "execution_counts": {
+    "tick_budget_reached": 1
+  },
+  "validation_messages": {
+    "VUID-vkCreateDevice-ppEnabledExtensionNames-01387": 1,
+    "VUID-vkCmdWriteTimestamp-None-00830": 3,
+    "VUID-VkImageCreateInfo-flags-04738": 3,
+    "VUID-VkShaderModuleCreateInfo-pCode-08742": 3,
+    "Undefined-Value-ShaderOutputNotConsumed": 3,
+    "Undefined-Value-ShaderInputNotProduced": 3,
+    "VUID-RuntimeSpirv-OpImageWrite-07112": 3
+  },
+  "message_count_limit_per_id": 3,
+  "observed_binding_vuid": false,
+  "limitation": "No binding VUID in this short run is not evidence all buffer operations are correct; general engine initialization VUIDs remain. Raw outputs unchanged."
+}

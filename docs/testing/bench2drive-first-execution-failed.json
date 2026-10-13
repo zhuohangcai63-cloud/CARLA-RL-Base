@@ -1,0 +1,36 @@
+[
+  {
+    "route_id": "28147",
+    "seed": 123,
+    "status": "failed",
+    "ticks": 404,
+    "activated": [],
+    "completed": [],
+    "native_done": false,
+    "native_success": false,
+    "town": "Town10HD_Opt",
+    "initialize_seconds": 0.43822298400482396,
+    "initialization_ticks": 4,
+    "capabilities": {
+      "source": "bench2drive",
+      "native_execution": true,
+      "native_validation": "not_run",
+      "fixed_recipe_rebuild": true,
+      "prefix_replay": false,
+      "replay_restrictions": [
+        "Native Traffic Manager and behavior tree internal state is not serializable",
+        "Same seed alone is not a verified common-prefix state"
+      ],
+      "takeover_roles": {},
+      "takeover_restrictions": [
+        "Only initialized ParkingCutIn, StaticCutIn, HighwayCutIn adversaries",
+        "Requires native placement and explicit experimental opt-in",
+        "No actor lifetime extension; irreversible within the episode"
+      ]
+    },
+    "error": "'NoneType' object has no attribute 'is_junction'",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/czh/workspace/CARLA-RL-Base/tests/test_bench2drive_integration.py\", line 68, in test_native_representative_routes\n    control = agent.run_step()\n  File \"/home/czh/software/carla/PythonAPI/carla/agents/navigation/behavior_agent.py\", line 290, in run_step\n    elif self._incoming_waypoint.is_junction and (self._incoming_direction in [RoadOption.LEFT, RoadOption.RIGHT]):\nAttributeError: 'NoneType' object has no attribute 'is_junction'\n",
+    "cleanup_error": "Bench2Drive cleanup errors: {'actor_id': 24, 'error': 'CARLA refused actor destruction'}; {'actor_id': 57, 'error': 'CARLA refused actor destruction'}",
+    "wall_seconds": 3.608914522003033
+  }
+]

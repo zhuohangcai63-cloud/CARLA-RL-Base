@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "easycarla-client"
+version = "0.2.0"
+description = "Linux shared-memory client for the EasyCARLA environment service"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = ["Operating System :: POSIX :: Linux", "Programming Language :: Python :: 3"]
+dependencies = ["numpy>=1.24,<3", "posix_ipc>=1.1,<2"]
+
+[project.optional-dependencies]
+gym = ["gymnasium>=1.1,<2"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["easycarla_client*"]

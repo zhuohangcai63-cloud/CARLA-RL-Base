@@ -1,0 +1,169 @@
+[
+  {
+    "name": "baseline-spectator",
+    "probe_status": "failed",
+    "max_sampled_rss_gib": 7.0195465087890625,
+    "max_sampled_gpu_mib": 5068,
+    "min_sampled_available_ram_gib": 19.333328247070312,
+    "server_exit_before_stop": null,
+    "stop": "SIGTERM",
+    "server_exit": -11,
+    "episodes": []
+  },
+  {
+    "name": "baseline-fresh-readiness",
+    "probe_status": "passed",
+    "max_sampled_rss_gib": 11.637992858886719,
+    "max_sampled_gpu_mib": 6878,
+    "min_sampled_available_ram_gib": 14.115837097167969,
+    "server_exit_before_stop": null,
+    "stop": "SIGTERM_then_SIGKILL",
+    "server_exit": -9,
+    "episodes": [
+      {
+        "town": "Town13",
+        "repeat": 0,
+        "ticks": 100,
+        "stage": "passed",
+        "immediate_loaded_settings": {
+          "spectator_as_ego": true,
+          "no_rendering_mode": true,
+          "tile_stream_distance": 2000.0,
+          "actor_active_distance": 2000.0
+        },
+        "settings": {
+          "spectator_as_ego": true,
+          "no_rendering_mode": true,
+          "tile_stream_distance": 500.0,
+          "actor_active_distance": 500.0
+        },
+        "load_seconds": 30.654913724999915,
+        "tick_mean_seconds": 0.4068383988799997,
+        "tick_max_seconds": 37.700381839999864,
+        "camera_frames": 0
+      },
+      {
+        "town": "Town13",
+        "repeat": 1,
+        "ticks": 100,
+        "stage": "passed",
+        "immediate_loaded_settings": {
+          "spectator_as_ego": true,
+          "no_rendering_mode": true,
+          "tile_stream_distance": 2000.0,
+          "actor_active_distance": 2000.0
+        },
+        "settings": {
+          "spectator_as_ego": true,
+          "no_rendering_mode": true,
+          "tile_stream_distance": 500.0,
+          "actor_active_distance": 500.0
+        },
+        "load_seconds": 31.318284905999917,
+        "tick_mean_seconds": 0.4265184303499973,
+        "tick_max_seconds": 37.106368558999975,
+        "camera_frames": 0
+      },
+      {
+        "town": "Town13",
+        "repeat": 2,
+        "ticks": 100,
+        "stage": "passed",
+        "immediate_loaded_settings": {
+          "spectator_as_ego": true,
+          "no_rendering_mode": true,
+          "tile_stream_distance": 2000.0,
+          "actor_active_distance": 2000.0
+        },
+        "settings": {
+          "spectator_as_ego": true,
+          "no_rendering_mode": true,
+          "tile_stream_distance": 500.0,
+          "actor_active_distance": 500.0
+        },
+        "load_seconds": 30.958813315000043,
+        "tick_mean_seconds": 0.4296418814400045,
+        "tick_max_seconds": 39.79708082299999,
+        "camera_frames": 0
+      }
+    ]
+  },
+  {
+    "name": "no-spectator",
+    "probe_status": "passed",
+    "max_sampled_rss_gib": 8.503971099853516,
+    "max_sampled_gpu_mib": 6482,
+    "min_sampled_available_ram_gib": 17.494033813476562,
+    "server_exit_before_stop": null,
+    "stop": "SIGTERM_then_SIGKILL",
+    "server_exit": -9,
+    "episodes": [
+      {
+        "town": "Town13",
+        "repeat": 0,
+        "ticks": 100,
+        "stage": "passed",
+        "immediate_loaded_settings": {
+          "spectator_as_ego": false,
+          "no_rendering_mode": true,
+          "tile_stream_distance": 2000.0,
+          "actor_active_distance": 2000.0
+        },
+        "settings": {
+          "spectator_as_ego": false,
+          "no_rendering_mode": true,
+          "tile_stream_distance": 500.0,
+          "actor_active_distance": 500.0
+        },
+        "load_seconds": 26.55277782600001,
+        "tick_mean_seconds": 0.028073139999978593,
+        "tick_max_seconds": 1.639634569000009,
+        "camera_frames": 0
+      },
+      {
+        "town": "Town13",
+        "repeat": 1,
+        "ticks": 100,
+        "stage": "passed",
+        "immediate_loaded_settings": {
+          "spectator_as_ego": false,
+          "no_rendering_mode": true,
+          "tile_stream_distance": 2000.0,
+          "actor_active_distance": 2000.0
+        },
+        "settings": {
+          "spectator_as_ego": false,
+          "no_rendering_mode": true,
+          "tile_stream_distance": 500.0,
+          "actor_active_distance": 500.0
+        },
+        "load_seconds": 27.934666992000075,
+        "tick_mean_seconds": 0.025945771969979887,
+        "tick_max_seconds": 1.649158830000033,
+        "camera_frames": 0
+      },
+      {
+        "town": "Town13",
+        "repeat": 2,
+        "ticks": 100,
+        "stage": "passed",
+        "immediate_loaded_settings": {
+          "spectator_as_ego": false,
+          "no_rendering_mode": true,
+          "tile_stream_distance": 2000.0,
+          "actor_active_distance": 2000.0
+        },
+        "settings": {
+          "spectator_as_ego": false,
+          "no_rendering_mode": true,
+          "tile_stream_distance": 500.0,
+          "actor_active_distance": 500.0
+        },
+        "load_seconds": 28.59792580499993,
+        "tick_mean_seconds": 0.02636840618999031,
+        "tick_max_seconds": 1.645492208000178,
+        "camera_frames": 0
+      }
+    ]
+  }
+]

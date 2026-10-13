@@ -1,0 +1,63 @@
+{
+  "status": "passed",
+  "scope": "two Scenic Town10HD workers, fixed brake, default threads; not native/map-wide stability",
+  "elapsed_seconds": 1800.0044696440018,
+  "valid_requests": 243154,
+  "physical_ticks": 486308,
+  "resets": 204,
+  "terminal_events": 202,
+  "step_throughput": 136.5845637687183,
+  "end_to_end_throughput": 135.0852201206423,
+  "latency_p95_seconds": 0.020116421792772596,
+  "planning_checks": {
+    "reference_valid": 243154,
+    "history_ready": 239278,
+    "current_velocity_valid": 243154
+  },
+  "process_resources": [
+    {
+      "pid": 212824,
+      "command": "/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping CarlaUE4 -nullrhi -nosound -carla-rpc-port=24000 -carla-streaming-port=24001 -carla-secondary-port=24002 ",
+      "samples": 61,
+      "first_rss_mib": 3217.45703125,
+      "last_rss_mib": 3221.55859375,
+      "delta_rss_mib": 4.1015625,
+      "peak_rss_mib": 3222.91015625,
+      "mean_cpu_cores": 1.091175375702804
+    },
+    {
+      "pid": 212973,
+      "command": "/home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python3.10 -m easycarla.service.cli serve --instance planning_0 --config /home/czh/workspace/CARLA-RL-Base/artifacts/fleet/worker_0/environment.json ",
+      "samples": 61,
+      "first_rss_mib": 185.15625,
+      "last_rss_mib": 185.3125,
+      "delta_rss_mib": 0.15625,
+      "peak_rss_mib": 185.3125,
+      "mean_cpu_cores": 0.601547749692523
+    },
+    {
+      "pid": 213003,
+      "command": "/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping CarlaUE4 -nullrhi -nosound -carla-rpc-port=24010 -carla-streaming-port=24011 -carla-secondary-port=24012 ",
+      "samples": 61,
+      "first_rss_mib": 3220.90625,
+      "last_rss_mib": 3224.0625,
+      "delta_rss_mib": 3.15625,
+      "peak_rss_mib": 3224.46484375,
+      "mean_cpu_cores": 1.0912364826348784
+    },
+    {
+      "pid": 213149,
+      "command": "/home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python3.10 -m easycarla.service.cli serve --instance planning_1 --config /home/czh/workspace/CARLA-RL-Base/artifacts/fleet/worker_1/environment.json ",
+      "samples": 61,
+      "first_rss_mib": 182.14453125,
+      "last_rss_mib": 183.86328125,
+      "delta_rss_mib": 1.71875,
+      "peak_rss_mib": 183.86328125,
+      "mean_cpu_cores": 0.598420185805438
+    }
+  ],
+  "min_mem_available_mib": 19436.3984375,
+  "swap_free_first_mib": 7868.390625,
+  "swap_free_last_mib": 7869.1171875,
+  "client_cleanup_errors": []
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "timestamp": 1791818780.0092762,
+    "elapsed_seconds": 677.6357988829986,
+    "processes": [
+      {
+        "pid": 212824,
+        "fd_count": 20,
+        "threads": 98,
+        "rss_mb": 3222.76953125
+      },
+      {
+        "pid": 212973,
+        "fd_count": 22,
+        "threads": 24,
+        "rss_mb": 185.3125
+      },
+      {
+        "pid": 213003,
+        "fd_count": 20,
+        "threads": 98,
+        "rss_mb": 3223.37109375
+      },
+      {
+        "pid": 213149,
+        "fd_count": 22,
+        "threads": 24,
+        "rss_mb": 183.70703125
+      }
+    ]
+  },
+  {
+    "timestamp": 1791819014.2325974,
+    "elapsed_seconds": 911.9641850149928,
+    "processes": [
+      {
+        "pid": 212824,
+        "fd_count": 20,
+        "threads": 98,
+        "rss_mb": 3221.2578125
+      },
+      {
+        "pid": 212973,
+        "fd_count": 22,
+        "threads": 24,
+        "rss_mb": 185.3125
+      },
+      {
+        "pid": 213003,
+        "fd_count": 20,
+        "threads": 98,
+        "rss_mb": 3223.83984375
+      },
+      {
+        "pid": 213149,
+        "fd_count": 22,
+        "threads": 24,
+        "rss_mb": 183.70703125
+      }
+    ]
+  },
+  {
+    "timestamp": 1791819361.550409,
+    "elapsed_seconds": 1259.2796817659982,
+    "processes": [
+      {
+        "pid": 212824,
+        "fd_count": 20,
+        "threads": 98,
+        "rss_mb": 3220.23828125
+      },
+      {
+        "pid": 212973,
+        "fd_count": 22,
+        "threads": 24,
+        "rss_mb": 185.3125
+      },
+      {
+        "pid": 213003,
+        "fd_count": 20,
+        "threads": 98,
+        "rss_mb": 3219.890625
+      },
+      {
+        "pid": 213149,
+        "fd_count": 22,
+        "threads": 24,
+        "rss_mb": 183.86328125
+      }
+    ]
+  },
+  {
+    "timestamp": 1791819836.5980253,
+    "elapsed_seconds": 1734.683513505981,
+    "processes": [
+      {
+        "pid": 212824,
+        "fd_count": 20,
+        "threads": 98,
+        "rss_mb": 3220.30859375
+      },
+      {
+        "pid": 212973,
+        "fd_count": 22,
+        "threads": 24,
+        "rss_mb": 185.3125
+      },
+      {
+        "pid": 213003,
+        "fd_count": 20,
+        "threads": 98,
+        "rss_mb": 3223.59375
+      },
+      {
+        "pid": 213149,
+        "fd_count": 22,
+        "threads": 24,
+        "rss_mb": 183.86328125
+      }
+    ]
+  }
+]

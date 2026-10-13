@@ -1,0 +1,16 @@
+{
+  "checked_utc": "2026-09-28T05:33:55.632806+00:00",
+  "since_local": "2026-09-28 13:00:00 Asia/Taipei",
+  "command": [
+    "journalctl",
+    "-k",
+    "--since",
+    "2026-09-28 13:00:00",
+    "--no-pager"
+  ],
+  "exit_code": 0,
+  "stderr": "",
+  "filter": "NVRM.*Xid|GPU has fallen off|Out of memory|oom-kill|invoked oom-killer|Machine check|Hardware Error|MCE:",
+  "matching_lines": [],
+  "scope": "Filtered recent kernel journal only; absence does not exclude all hardware/driver faults. Correctable PCIe counters are in per-run samples."
+}

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<ExecutionGuid>A2E3A2F850B44F43982A42581D4CF1A0</ExecutionGuid>
+<CrashGUID>UE4CC-Linux-0FC45D7B179C4AA4AEE379AF3DE551C3_0000</CrashGUID>
+<IsEnsure>false</IsEnsure>
+<IsAssert>false</IsAssert>
+<CrashType>Crash</CrashType>
+<ErrorMessage>Caught signal 11 Segmentation fault</ErrorMessage>
+<CrashReporterMessage></CrashReporterMessage>
+<ProcessId>101659</ProcessId>
+<SecondsSinceStart>51</SecondsSinceStart>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsSourceDistribution>false</IsSourceDistribution>
+<GameName>UE4-CarlaUE4</GameName>
+<ExecutableName>CarlaUE4-Linux-Shipping</ExecutableName>
+<BuildConfiguration>Shipping</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<Symbols>**UE4*Release-4.26-CL-0-Linux-Shipping</Symbols>
+<PlatformName>LinuxNoEditor</PlatformName>
+<PlatformNameIni>Linux</PlatformNameIni>
+<EngineMode>Game</EngineMode>
+<EngineModeEx>Unset</EngineModeEx>
+<DeploymentName></DeploymentName>
+<EngineVersion>4.26.2-0+++UE4+Release-4.26</EngineVersion>
+<CommandLine> CarlaUE4 -RenderOffScreen -quality-level=Low -nosound -ResX=400 -ResY=300 -UserDir=/tmp/easycarla-town13-defrag-profile -carla-rpc-port=2600 -carla-streaming-port=2601 -carla-secondary-port=2602</CommandLine>
+<LanguageLCID>0</LanguageLCID>
+<AppDefaultLocale>en_US_POSIX</AppDefaultLocale>
+<BuildVersion>++UE4+Release-4.26-CL-0</BuildVersion>
+<IsUE4Release>true</IsUE4Release>
+<IsRequestingExit>false</IsRequestingExit>
+<UserName></UserName>
+<BaseDir>/home/czh/software/carla/CarlaUE4/Binaries/Linux/</BaseDir>
+<RootDir>/home/czh/software/carla/</RootDir>
+<EpicAccountId></EpicAccountId>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<CrashDumpMode>0</CrashDumpMode>
+<GameStateName></GameStateName>
+<Misc.NumberOfCores>14</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>20</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+<Misc.CPUBrand>Intel(R) Core(TM) i5-14600KF</Misc.CPUBrand>
+<Misc.PrimaryGPUBrand>GenericGPUBrand</Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor>GenericOSVersionLabel</Misc.OSVersionMajor>
+<Misc.OSVersionMinor>GenericOSSubVersionLabel</Misc.OSVersionMinor>
+<MemoryStats.TotalPhysical>33425502208</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>8589930496</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>32</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>21901193216</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>8589594624</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>5887246336</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>7691341824</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>9654140928</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>11347316736</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+<NumMinidumpFramesToIgnore>0</NumMinidumpFramesToIgnore>
+<CallStack></CallStack>
+<PCallStack>
+ CarlaUE4-Linux-Shipping 0x0000000000200000 + 44f6ca6         
+ CarlaUE4-Linux-Shipping 0x0000000000200000 + 44c47d0         
+ CarlaUE4-Linux-Shipping 0x0000000000200000 + 44c64c4         
+ CarlaUE4-Linux-Shipping 0x0000000000200000 + 44c8e98         
+ CarlaUE4-Linux-Shipping 0x0000000000200000 + 45decd4         
+ CarlaUE4-Linux-Shipping 0x0000000000200000 + 45de80e         
+ CarlaUE4-Linux-Shipping 0x0000000000200000 + 301e209         
+ CarlaUE4-Linux-Shipping 0x0000000000200000 + 301d808         
+ CarlaUE4-Linux-Shipping 0x0000000000200000 + 301d6f9         
+ CarlaUE4-Linux-Shipping 0x0000000000200000 + 307a683         
+ CarlaUE4-Linux-Shipping 0x0000000000200000 + 305ca00         
+                 libc.so 0x0000771b84600000 + 9cb84           
+                 libc.so 0x0000771b84600000 + 129ecc          
+</PCallStack>
+<PCallStackHash>4F0C2F63748DFFB6A237CEB05B29E5390D0622FA</PCallStackHash>
+</RuntimeProperties>
+<PlatformProperties>
+<CrashSignal>11</CrashSignal>
+<CrashSignalName>Segmentation fault</CrashSignalName>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+</PlatformProperties>
+<EngineData>
+<RHI.RHIName>Vulkan</RHI.RHIName>
+<RHI.AdapterName>NVIDIA GeForce RTX 5060 Ti</RHI.AdapterName>
+<RHI.UserDriverVersion>580.178</RHI.UserDriverVersion>
+<RHI.FeatureLevel>SM5</RHI.FeatureLevel>
+</EngineData>
+<GameData>
+</GameData>
+</FGenericCrashContext>

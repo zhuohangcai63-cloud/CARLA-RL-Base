@@ -1,0 +1,13 @@
+{
+  "captured_utc": "2026-09-28T05:20:51.610074+00:00",
+  "selected_environment": {
+    "VK_LAYER_PATH": "/tmp/easycarla-vulkan-validation/usr/share/vulkan/explicit_layer.d",
+    "VK_INSTANCE_LAYERS": "VK_LAYER_KHRONOS_validation",
+    "VK_LAYER_SETTINGS_PATH": "/tmp/easycarla-vulkan-validation/vk_layer_settings.txt",
+    "VK_LOADER_DEBUG": "error,warn,layer"
+  },
+  "scope": "Only explicit diagnostic Vulkan environment is recorded; no secrets or unrelated inherited environment. These variables were supplied to the owned supervisor and inherited by its server/client.",
+  "layer_profile": "../vulkan-validation-profile.json",
+  "engine_profile_sha256": "4fde779581b3940e587ee69db46bcdf4d1739d1737a163d837cff26076777215",
+  "current_code_snapshot": "../current-code-provenance.json"
+}

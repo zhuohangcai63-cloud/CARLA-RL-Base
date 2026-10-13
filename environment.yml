@@ -1,35 +1,10 @@
-# Conda environment for CARLA-RL-Base.
-#
-# CARLA server binaries are not installed by this file. Install CARLA 0.9.15
-# separately and start the simulator before running the environment.
-#
-# The PyPI carla wheel provides the `carla` module but not CARLA's example
-# `agents` package used by:
-#   from agents.navigation.global_route_planner import GlobalRoutePlanner
-# If that import fails, add your CARLA installation's PythonAPI/carla directory
-# to PYTHONPATH, for example:
-#   Linux/macOS: export PYTHONPATH=/path/to/CARLA_0.9.15/PythonAPI/carla:$PYTHONPATH
-#   Windows:     set PYTHONPATH=C:\path\to\CARLA_0.9.15\PythonAPI\carla;%PYTHONPATH%
-#
-# PyTorch is installed from the CUDA 12.8 wheel index for NVIDIA RTX 50-series
-# / Blackwell GPUs. Make sure the host NVIDIA driver supports CUDA 12.8.
-
+# Compatibility entry point. See docs/installation.md for the required pip step
+# and independently installable client environment. No Torch dependency.
 name: CARLA-RL-Base
 channels:
   - conda-forge
 dependencies:
-  - python=3.10
+  - python=3.10.20
+  - pip
   - libgl
   - libxcb
-  - pip
-  - pip:
-      - --extra-index-url https://download.pytorch.org/whl/cu128
-      - carla==0.9.15
-      - gymnasium>=0.29,<2
-      - numpy>=1.24
-      - scenic==3.1.1
-      - torch==2.11.0+cu128
-      - torchvision==0.26.0+cu128
-      - torchaudio==2.11.0+cu128
-variables:
-  PYTHONPATH: /home/czh/software/carla/PythonAPI/carla:/home/czh/workspace/CARLA-RL-Base

@@ -1,0 +1,240 @@
+{
+  "route_id": "22535",
+  "status": "passed",
+  "takeover": {
+    "role": "StaticCutIn_1:adversary",
+    "mechanism": "L",
+    "parameters": {
+      "reaction_delay": 0.8,
+      "accepted_gap": 4.0,
+      "yield_window": 3.0,
+      "yield_speed_multiplier": 0.75,
+      "yield_deceleration": 2.0,
+      "proactive_yield": true,
+      "delayed_confirmation": true,
+      "gap_check": true
+    },
+    "native_lifetime": true,
+    "validation": "not_run"
+  },
+  "metadata": {
+    "source": "bench2drive",
+    "scenario_id": "22535",
+    "seed": 123,
+    "town": "Town12",
+    "scenario_types": [
+      "StaticCutIn"
+    ],
+    "loaded_town": "Town12",
+    "route_fingerprint": "d47dbcb1d0991f796510a0d279413c8a7eaaf7d2db3ff6fe0b6d9c97221ce8b6",
+    "upstream_commit": "acbeb0dd8aa99dd0e71b9b75bb542f6fe7c7f3d8",
+    "patch_version": 4,
+    "native_npc": true,
+    "mechanism_replacements": [],
+    "generation_failure": null,
+    "native_validation": "not_run",
+    "repeatability_validation": "not_run",
+    "scenario_names": [
+      "StaticCutIn_1"
+    ]
+  },
+  "phase": "waiting_for_trigger",
+  "switch": {
+    "role": "StaticCutIn_1:adversary",
+    "mechanism": "G",
+    "parameters": {
+      "reaction_delay": 0.2,
+      "accepted_gap": 2.0,
+      "yield_window": 3.0,
+      "yield_speed_multiplier": 0.75,
+      "yield_deceleration": 2.0,
+      "proactive_yield": true,
+      "delayed_confirmation": true,
+      "gap_check": true
+    }
+  },
+  "displacement_m": 3.6918946039012894,
+  "samples": [
+    {
+      "frame": 1250399,
+      "position": [
+        1714.00146484375,
+        -3102.103271484375,
+        361.3393249511719
+      ],
+      "owner": "StaticCutIn_1:adversary",
+      "mechanism": "L",
+      "control": [
+        -1.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 1250403,
+      "position": [
+        1714.099365234375,
+        -3102.10302734375,
+        361.3026428222656
+      ],
+      "owner": "StaticCutIn_1:adversary",
+      "mechanism": "L",
+      "control": [
+        -1.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 1250407,
+      "position": [
+        1714.485595703125,
+        -3102.102783203125,
+        361.30902099609375
+      ],
+      "owner": "StaticCutIn_1:adversary",
+      "mechanism": "L",
+      "control": [
+        -1.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 1250411,
+      "position": [
+        1715.1480712890625,
+        -3102.102783203125,
+        361.310546875
+      ],
+      "owner": "StaticCutIn_1:adversary",
+      "mechanism": "L",
+      "control": [
+        -1.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 1250415,
+      "position": [
+        1715.984619140625,
+        -3102.1025390625,
+        361.2980041503906
+      ],
+      "owner": "StaticCutIn_1:adversary",
+      "mechanism": "L",
+      "control": [
+        -1.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "frame": 1250419,
+      "position": [
+        1716.7100830078125,
+        -3102.10205078125,
+        361.28436279296875
+      ],
+      "owner": "StaticCutIn_1:adversary",
+      "mechanism": "L",
+      "control": [
+        -1.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "frame": 1250423,
+      "position": [
+        1717.2586669921875,
+        -3102.10205078125,
+        361.27374267578125
+      ],
+      "owner": "StaticCutIn_1:adversary",
+      "mechanism": "G",
+      "control": [
+        0.0005559667479246855,
+        0.0,
+        0.9270572066307068
+      ]
+    },
+    {
+      "frame": 1250427,
+      "position": [
+        1717.4268798828125,
+        -3102.10205078125,
+        361.27239990234375
+      ],
+      "owner": "StaticCutIn_1:adversary",
+      "mechanism": "G",
+      "control": [
+        0.0005136045510880649,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 1250431,
+      "position": [
+        1717.51220703125,
+        -3102.1025390625,
+        361.2687683105469
+      ],
+      "owner": "StaticCutIn_1:adversary",
+      "mechanism": "G",
+      "control": [
+        0.0021732100285589695,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "frame": 1250435,
+      "position": [
+        1717.572509765625,
+        -3102.1025390625,
+        361.2667236328125
+      ],
+      "owner": "StaticCutIn_1:adversary",
+      "mechanism": "G",
+      "control": [
+        -1.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "frame": 1250439,
+      "position": [
+        1717.6336669921875,
+        -3102.1025390625,
+        361.265625
+      ],
+      "owner": "StaticCutIn_1:adversary",
+      "mechanism": "G",
+      "control": [
+        -1.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "frame": 1250443,
+      "position": [
+        1717.6949462890625,
+        -3102.1025390625,
+        361.2646484375
+      ],
+      "owner": "StaticCutIn_1:adversary",
+      "mechanism": "G",
+      "control": [
+        -1.0,
+        0.0,
+        1.0
+      ]
+    }
+  ],
+  "native_suppression": {}
+}

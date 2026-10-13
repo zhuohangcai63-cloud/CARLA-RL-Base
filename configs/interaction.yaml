@@ -1,0 +1,21 @@
+path_base: ..  # Asset paths below are relative to the repository root.
+backend: carla
+scenario:
+  source: scenic
+  town: Town10HD
+  file: scenarios/scenic/interaction_follow.scenic
+  reactive_npcs:
+    - role: lead_near
+      distance: 22
+      target_speed: 5
+      mechanism: C
+    - role: lead_far
+      distance: 40
+      target_speed: 4
+      mechanism: C
+experiments:
+  enabled: true
+  max_prefix_steps: 5000
+task:
+  profile: driving
+  max_seconds: 120

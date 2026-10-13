@@ -1,0 +1,20 @@
+{
+  "timestamp": 1791818695.6955178,
+  "scope": "single in-run sample; desktop GPU use is included",
+  "gpus": {
+    "exit_code": 0,
+    "output": "NVIDIA GeForce RTX 5060 Ti, 16311, 498, 11",
+    "error": ""
+  },
+  "compute_processes": {
+    "exit_code": 0,
+    "error": "",
+    "processes": [
+      {
+        "pid": 44267,
+        "executable": "/opt/google/chrome/chrome",
+        "used_memory_mb": "167"
+      }
+    ]
+  }
+}

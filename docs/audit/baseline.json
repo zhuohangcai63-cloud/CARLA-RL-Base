@@ -1,0 +1,27 @@
+{
+  "recorded_at": "20260927-211539",
+  "git_head": "17abe137e0248a41f396d3c2b2a9281a05522cea",
+  "working_tree_status": " M README.md\n M README.zh-CN.md\n M easycarla/envs/carla_env_test.py\n M easycarla/scenarios/long_tail_events.py\n M easycarla/scenarios/providers.py\n M scenarios/scenic/README.md\n M scenarios/scenic/construction_obstacle.scenic\n M scenarios/scenic/parking_cut_in.scenic\n D scenarios/scenic/side_cut_in.scenic\n M scripts/run_long_tail_scenarios.py\n",
+  "backup": "/tmp/carla-refactor-baseline-20260927-211539.tar.gz",
+  "sha256": {
+    ".gitignore": "153306f48c1fd25a7bc8bf292507b74613ba62df1973198b71da00177ab84b2b",
+    "README.md": "407368878ab0f9c87ca789f849fabfab54ad72faa1a24f60292df7cef8f0ea52",
+    "README.zh-CN.md": "41e1f2f3bc932b56a9401572e23cc1e5596d057e3bea5ce7b5e3672809e4fc9c",
+    "easycarla/__init__.py": "89088111b4a184046cb922c1d132f44977c30be4dd57ccddbe15775710071794",
+    "easycarla/envs/__init__.py": "7fa9fe8b0847df147891e8c3e787dc50878bc758713c4a180ad26f2e94eba779",
+    "easycarla/envs/carla_env_test.py": "d148046c6a27f93edc543dd7c0e0c52a591f6bbe69a74521d7bac3f736648669",
+    "easycarla/scenarios/__init__.py": "b95ef9888ff607b360b4fb7b6121aaef005b2c2884dd2f71c2786363b56ba653",
+    "easycarla/scenarios/long_tail_events.py": "29c402be06f20dac26cc69b930d2bc532f4e6334f82c8235a392ce24ba207043",
+    "easycarla/scenarios/providers.py": "353214b7dcee7c16a3b8f3c090caf7723b787971d56a266667d4b96eac558ee3",
+    "environment.yml": "287bc81b199daa87ee0997c6ac155da1fe06a93b287416e4dcf1ce16fc154f74",
+    "main.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "scenarios/scenic/README.md": "86890f86bba4a217f3a65691873839d9849045d818a7539e605391b697a7ec60",
+    "scenarios/scenic/construction_obstacle.scenic": "a47bb5c2a2ba53796210d9188e2a47ed9e0086840297cc7e6b699bab30deab95",
+    "scenarios/scenic/hard_break_route.scenic": "83d66a14084afd512c6e7c3b8fd33c4985c236d3e3f11d9e3e39c8b6e0e8667d",
+    "scenarios/scenic/mixed_long_tail.scenic": "ed004b00a35cd9ab9698ebbd44c2d7e7aa1aa37713c7f5ca8896f5f350478a23",
+    "scenarios/scenic/parking_cut_in.scenic": "a09aec568d36d0f714540731a78221df2e61c314221ca0af0842133b4cd53e2a",
+    "scenarios/scenic/pedestrian_crossing.scenic": "c82ec258229e2542f609c56eaef096037c13e3d1ea096730fbecf1e2664e478a",
+    "scenarios/scenic/vehicle_opens_door.scenic": "991fb3a4742cc884e0c4811cb728e126fe78bde8867a54ad17362bbcb8cec94a",
+    "scripts/run_long_tail_scenarios.py": "099f6243b3b3bd6665e9911b4fcc54e428f2542b75ec56472dd0998ac2963147"
+  }
+}

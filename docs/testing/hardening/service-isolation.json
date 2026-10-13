@@ -1,0 +1,31 @@
+{
+  "backend": "carla",
+  "service_python": "/home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python",
+  "client_python": "/home/czh/software/miniconda3/envs/carla-client-test/bin/python",
+  "runs": [
+    {
+      "kind": "structured",
+      "status": "passed",
+      "episodes": 2,
+      "steps_requested_per_episode": 30,
+      "client_close_keeps_service": true,
+      "service_exit_code": 0
+    },
+    {
+      "kind": "sensors",
+      "status": "passed",
+      "episodes": 2,
+      "steps_requested_per_episode": 30,
+      "client_close_keeps_service": true,
+      "service_exit_code": 0
+    },
+    {
+      "kind": "mixed",
+      "status": "passed",
+      "episodes": 4,
+      "steps_requested_per_episode": 20,
+      "client_close_keeps_service": true,
+      "service_exit_code": 0
+    }
+  ]
+}

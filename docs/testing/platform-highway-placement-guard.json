@@ -1,0 +1,70 @@
+{
+  "status": "passed",
+  "route_id": "23842",
+  "seed": 123,
+  "scope": "New episode on the existing healthy follow-up server. Placement capability guard only; no actor takeover, mechanism change, prefix replay or previous action recovery.",
+  "simulation_config": {
+    "host": "127.0.0.1",
+    "port": 2100,
+    "tm_port": 8100,
+    "timeout": 45,
+    "physics_dt": 0.05,
+    "decision_dt": 0.2,
+    "history_dt": 0.1,
+    "reload_on_reset": false,
+    "no_rendering_mode": true,
+    "map_layers": "none",
+    "tile_stream_distance": 500,
+    "actor_active_distance": 500,
+    "carla_root": "/home/czh/software/carla"
+  },
+  "samples": [
+    {
+      "frame": 574247,
+      "role": "HighwayCutIn_1:adversary",
+      "z": 261.7989501953125,
+      "actor_id": 10199,
+      "native_type": "HighwayCutIn",
+      "can_takeover": false,
+      "phase": "awaiting_native_placement",
+      "validation": "not_run",
+      "reason": "Native actor is not in a supported handoff phase"
+    },
+    {
+      "frame": 574303,
+      "role": "HighwayCutIn_1:adversary",
+      "z": 361.7981262207031,
+      "actor_id": 10199,
+      "native_type": "HighwayCutIn",
+      "can_takeover": true,
+      "phase": "synchronizing_arrival",
+      "validation": "not_run",
+      "reason": "Experimental phase-qualified handoff; native actor lifetime remains authoritative"
+    }
+  ],
+  "metadata": {
+    "source": "bench2drive",
+    "scenario_id": "23842",
+    "seed": 123,
+    "town": "Town12",
+    "scenario_types": [
+      "HighwayCutIn"
+    ],
+    "loaded_town": "Town12",
+    "route_fingerprint": "be4a13fada5f6d0c5d02d69f7d2f605dee67e681115a10b16999657835ca9188",
+    "upstream_commit": "acbeb0dd8aa99dd0e71b9b75bb542f6fe7c7f3d8",
+    "patch_version": 4,
+    "native_npc": true,
+    "mechanism_replacements": [],
+    "generation_failure": null,
+    "native_validation": "not_run",
+    "repeatability_validation": "not_run",
+    "scenario_names": [
+      "HighwayCutIn_1"
+    ]
+  },
+  "native_placement_target_z": 361.7989501953125,
+  "decision_steps": 14,
+  "final_frame": 574303,
+  "session_close": "completed"
+}

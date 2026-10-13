@@ -1,0 +1,25 @@
+{
+  "status": "native_runtime_crash",
+  "server_exit": -11,
+  "wall_seconds": 1684.380115032196,
+  "recorded_counts": {
+    "tick_budget_reached": 22,
+    "completed": 16,
+    "running": 1,
+    "not_run": 2
+  },
+  "returned_routes": 38,
+  "confirmed_physics_ticks": 30192,
+  "failed_route_id": "31736",
+  "failed_phase": "native scenario prepare before PREPARED log",
+  "interpretation": "running entry is incomplete/unknown because the server crashed; remaining not_run were not attempted",
+  "sampled_peak_rss_gib": 8.52682113647461,
+  "sampled_peak_gpu_mib": 6362.0,
+  "minimum_available_ram_gib": 17.06597137451172,
+  "last_resource_sample": {
+    "elapsed": 1683.2958118915558,
+    "rss_kib": 8050112,
+    "memory_available_kib": 18334224,
+    "gpu": "3999, 5, 37"
+  }
+}

@@ -1,0 +1,118 @@
+START 25612 Town05 YieldToEmergencyVehicle
+LOADED 25612 Carla/Maps/Town05
+PREPARED 25612
+END 25612 completed 311 ticks 8.07s 
+START 25169 Town05 Accident
+LOADED 25169 Carla/Maps/Town05
+PREPARED 25169
+END 25169 tick_budget_reached 1500 ticks 8.41s 
+START 24519 Town05 ParkingCrossingPedestrian
+LOADED 24519 Carla/Maps/Town05
+PREPARED 24519
+END 24519 completed 385 ticks 1.80s 
+START 24679 Town05 ParkingCutIn
+LOADED 24679 Carla/Maps/Town05
+PREPARED 24679
+END 24679 completed 418 ticks 2.35s 
+START 27916 Town05 VanillaNonSignalizedTurn
+LOADED 27916 Carla/Maps/Town05
+PREPARED 27916
+WARNING: Cannot spawn actor vehicle.* at position Location(x=74.274033, y=84.254128, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=72.778084, y=81.089928, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=74.274033, y=84.254128, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=72.778084, y=81.089928, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=74.274033, y=84.254128, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=72.778084, y=81.089928, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=74.274033, y=84.254128, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=72.778084, y=81.089928, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=74.274033, y=84.254128, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=72.778084, y=81.089928, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=74.274033, y=84.254128, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=72.778084, y=81.089928, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=74.274033, y=84.254128, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=72.778084, y=81.089928, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=74.274033, y=84.254128, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=72.778084, y=81.089928, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=74.274033, y=84.254128, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=72.778084, y=81.089928, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=74.274033, y=84.254128, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=72.778084, y=81.089928, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=74.274033, y=84.254128, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=72.778084, y=81.089928, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=74.274033, y=84.254128, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=72.778084, y=81.089928, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=74.274033, y=84.254128, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=72.778084, y=81.089928, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=74.274033, y=84.254128, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=72.778084, y=81.089928, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=74.274033, y=84.254128, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=72.778084, y=81.089928, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=74.274033, y=84.254128, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=72.778084, y=81.089928, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=74.274033, y=84.254128, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=72.778084, y=81.089928, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=74.274033, y=84.254128, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=72.778084, y=81.089928, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=74.274033, y=84.254128, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=72.778084, y=81.089928, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=74.274033, y=84.254128, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=72.778084, y=81.089928, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=74.274033, y=84.254128, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=72.778084, y=81.089928, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=74.274033, y=84.254128, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=72.778084, y=81.089928, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=74.274033, y=84.254128, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=72.778084, y=81.089928, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=74.274033, y=84.254128, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=72.778084, y=81.089928, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=74.274033, y=84.254128, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=72.778084, y=81.089928, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=74.274033, y=84.254128, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=72.778084, y=81.089928, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=74.274033, y=84.254128, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=72.778084, y=81.089928, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=74.274033, y=84.254128, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=72.778084, y=81.089928, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=74.274033, y=84.254128, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=72.778084, y=81.089928, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=74.274033, y=84.254128, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=72.778084, y=81.089928, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=72.778084, y=81.089928, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=72.778084, y=81.089928, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=72.778084, y=81.089928, z=0.200000)
+END 27916 completed 480 ticks 4.02s 
+START 28008 Town05 T_Junction
+LOADED 28008 Carla/Maps/Town05
+PREPARED 28008
+WARNING: Cannot spawn actor vehicle.* at position Location(x=-227.933533, y=-0.395882, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=-227.942047, y=-3.895871, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=-227.942047, y=-3.895871, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=-227.942047, y=-3.895871, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=-227.942047, y=-3.895871, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=-227.942047, y=-3.895871, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=-227.942047, y=-3.895871, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=-227.942047, y=-3.895871, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=-227.942047, y=-3.895871, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=-227.942047, y=-3.895871, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=-227.942047, y=-3.895871, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=-227.942047, y=-3.895871, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=-227.942047, y=-3.895871, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=-227.942047, y=-3.895871, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=-227.942047, y=-3.895871, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=-227.942047, y=-3.895871, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=-227.942047, y=-3.895871, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=-227.942047, y=-3.895871, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=-227.942047, y=-3.895871, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=-227.942047, y=-3.895871, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=-227.942047, y=-3.895871, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=-227.942047, y=-3.895871, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=-227.942047, y=-3.895871, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=-227.942047, y=-3.895871, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=-227.942047, y=-3.895871, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=-227.942047, y=-3.895871, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=-227.942047, y=-3.895871, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=-227.942047, y=-3.895871, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=-227.942047, y=-3.895871, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=-227.942047, y=-3.895871, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=-227.942047, y=-3.895871, z=0.200000)
+END 28008 tick_budget_reached 1500 ticks 9.44s 

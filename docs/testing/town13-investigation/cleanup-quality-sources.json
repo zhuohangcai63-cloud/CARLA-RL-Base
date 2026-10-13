@@ -1,0 +1,61 @@
+{
+  "source_ref": "0.9.15",
+  "review_date": "2026-09-28",
+  "sources": [
+    {
+      "file": "SceneCaptureSensor.cpp",
+      "source": "https://raw.githubusercontent.com/carla-simulator/carla/0.9.15/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/SceneCaptureSensor.cpp",
+      "sha256": "8af8e8f93460de389fa52e6b48a3f5f6849625658d097d7ac69f9e7a3f8c8074"
+    },
+    {
+      "file": "SceneCaptureSensor.h",
+      "source": "https://raw.githubusercontent.com/carla-simulator/carla/0.9.15/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/SceneCaptureSensor.h",
+      "sha256": "0c2031e0fbff51fc28463d6521fc12a0bad751d77c7174dd283ccbc44b8d99fa"
+    },
+    {
+      "file": "Sensor.cpp",
+      "source": "https://raw.githubusercontent.com/carla-simulator/carla/0.9.15/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/Sensor.cpp",
+      "sha256": "64996c7275d046744c74a92c7779a206c84094aee9c6d97fed2582166b3c4973"
+    },
+    {
+      "file": "PixelReader.cpp",
+      "source": "https://raw.githubusercontent.com/carla-simulator/carla/0.9.15/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/PixelReader.cpp",
+      "sha256": "9e3c84b279a0cf61916d289c3d81541b2989e1af9d8bd36ae2b668da6f21341b"
+    },
+    {
+      "file": "PixelReader.h",
+      "source": "https://raw.githubusercontent.com/carla-simulator/carla/0.9.15/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Sensor/PixelReader.h",
+      "sha256": "9e16dc45595595b969a86d6fc7bdafae99bbf54af743d43a65bab814a8fb793e"
+    },
+    {
+      "file": "CarlaEngine.cpp",
+      "source": "https://raw.githubusercontent.com/carla-simulator/carla/0.9.15/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Game/CarlaEngine.cpp",
+      "sha256": "09b600afeb6504e1a83d8f0b2713683487317910bcc0b8f7a588b4b129fb3eb6"
+    },
+    {
+      "file": "World.cpp",
+      "source": "https://raw.githubusercontent.com/carla-simulator/carla/0.9.15/LibCarla/source/carla/client/World.cpp",
+      "sha256": "a71f8413cabb806c5ded37901f82e6e9b7b38fa264e2aa60d68e65424868f8c8"
+    },
+    {
+      "file": "Simulator.cpp",
+      "source": "https://raw.githubusercontent.com/carla-simulator/carla/0.9.15/LibCarla/source/carla/client/detail/Simulator.cpp",
+      "sha256": "67b9eb6e1d692469d6dcbe03ce981385114bc4693d28e6efd4826d4dab519ea5"
+    },
+    {
+      "file": "ActorDispatcher.cpp",
+      "source": "https://raw.githubusercontent.com/carla-simulator/carla/0.9.15/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Actor/ActorDispatcher.cpp",
+      "sha256": "87c41e8bffaa7b9ca64b9fbf400b9e9806d4f963f6a48d6a3c0cbdac2018e21d"
+    },
+    {
+      "file": "CarlaServer.cpp",
+      "source": "https://raw.githubusercontent.com/carla-simulator/carla/0.9.15/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Server/CarlaServer.cpp",
+      "sha256": "6c7ca2b804afc7cd169dceb5249a94be866d37b6fc0fa72a95a62f46ff76cb70"
+    },
+    {
+      "file": "CarlaSettingsDelegate.cpp",
+      "source": "https://raw.githubusercontent.com/carla-simulator/carla/0.9.15/Unreal/CarlaUE4/Plugins/Carla/Source/Carla/Settings/CarlaSettingsDelegate.cpp",
+      "sha256": "320ee7910e90ee0ad096d831b859d986df4c718946e6e21ec4e41d1dfbeca480"
+    }
+  ]
+}

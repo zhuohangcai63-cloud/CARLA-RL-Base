@@ -1,0 +1,2171 @@
+{
+  "version": 1,
+  "started_utc": "2026-09-28T03:53:39.583817+00:00",
+  "scope": "native API map/hero/camera smoke test; no driving or scenario coverage",
+  "status": "running",
+  "config": {
+    "port": 2600,
+    "host": "127.0.0.1",
+    "output": "/home/czh/workspace/CARLA-RL-Base/docs/testing/town13-investigation/rgb-all-one-thread/probe.json",
+    "town": [
+      "Town13",
+      "Town12",
+      "Town03",
+      "Town01",
+      "Town02",
+      "Town04",
+      "Town05",
+      "Town06",
+      "Town07",
+      "Town10HD",
+      "Town11",
+      "Town15"
+    ],
+    "repeats": 2,
+    "ticks": 100,
+    "timeout": 90.0,
+    "idle_seconds": 0.2,
+    "distance": 650.0,
+    "spectator_as_ego": false,
+    "no_rendering": false,
+    "camera": true,
+    "spawn": null,
+    "route_manifest": null,
+    "route_id": null,
+    "route_root": null
+  },
+  "episodes": [
+    {
+      "town": "Town13",
+      "asset": "/Game/Carla/Maps/Town13/Town13",
+      "repeat": 0,
+      "status": "passed",
+      "ticks": 100,
+      "stage": "passed",
+      "api_phases": [
+        {
+          "operation": "pre_load_settings",
+          "seconds": 0.187240400000519,
+          "before": {
+            "episode_id": 8956330370539667073,
+            "frame": 19,
+            "elapsed_seconds": 0.35587081114499597
+          },
+          "after": {
+            "episode_id": 8956330370539667073,
+            "frame": 22,
+            "elapsed_seconds": 0.5911559368178132
+          },
+          "same_episode_frame_delta": 3
+        },
+        {
+          "operation": "post_load_settings",
+          "seconds": 0.002608312999655027,
+          "before": {
+            "episode_id": 864213769751878944,
+            "frame": 25,
+            "elapsed_seconds": 0.10000000149011612
+          },
+          "after": {
+            "episode_id": 864213769751878944,
+            "frame": 26,
+            "elapsed_seconds": 0.15000000223517418
+          },
+          "same_episode_frame_delta": 1
+        },
+        {
+          "operation": "hero_spawn",
+          "seconds": 1.0241760019998765,
+          "before": {
+            "episode_id": 864213769751878944,
+            "frame": 26,
+            "elapsed_seconds": 0.15000000223517418
+          },
+          "after": {
+            "episode_id": 864213769751878944,
+            "frame": 26,
+            "elapsed_seconds": 0.15000000223517418
+          },
+          "same_episode_frame_delta": 0
+        },
+        {
+          "operation": "spectator_position",
+          "seconds": 0.0003479150000202935,
+          "before": {
+            "episode_id": 864213769751878944,
+            "frame": 26,
+            "elapsed_seconds": 0.15000000223517418
+          },
+          "after": {
+            "episode_id": 864213769751878944,
+            "frame": 26,
+            "elapsed_seconds": 0.15000000223517418
+          },
+          "same_episode_frame_delta": 0
+        },
+        {
+          "operation": "camera_spawn",
+          "seconds": 0.0006124479996287846,
+          "before": {
+            "episode_id": 864213769751878944,
+            "frame": 26,
+            "elapsed_seconds": 0.15000000223517418
+          },
+          "after": {
+            "episode_id": 864213769751878944,
+            "frame": 26,
+            "elapsed_seconds": 0.15000000223517418
+          },
+          "same_episode_frame_delta": 0
+        }
+      ],
+      "load_seconds": 22.99172473499948,
+      "load_frame_change": {
+        "before": {
+          "episode_id": 8956330370539667073,
+          "frame": 22,
+          "elapsed_seconds": 0.5911559368178132
+        },
+        "after": {
+          "episode_id": 864213769751878944,
+          "frame": 25,
+          "elapsed_seconds": 0.10000000149011612
+        },
+        "same_episode_frame_delta": null
+      },
+      "immediate_loaded_settings": {
+        "synchronous_mode": true,
+        "fixed_delta_seconds": 0.05,
+        "no_rendering_mode": false,
+        "spectator_as_ego": false,
+        "tile_stream_distance": 2000.0,
+        "actor_active_distance": 2000.0
+      },
+      "settings": {
+        "synchronous_mode": true,
+        "fixed_delta_seconds": 0.05,
+        "no_rendering_mode": false,
+        "spectator_as_ego": false,
+        "tile_stream_distance": 650.0,
+        "actor_active_distance": 650.0
+      },
+      "opendrive_sha256": "5354326f2fe4d26f0dcb5c82acf462257e638278363ab7adecb97ec3aa1f426f",
+      "spawn": {
+        "x": 1171.5406494140625,
+        "y": 1051.852783203125,
+        "z": 157.5,
+        "yaw": 125.90201568603516
+      },
+      "camera_config": {
+        "sensor_tick": 0.0,
+        "image_size_x": 320,
+        "image_size_y": 180,
+        "capture_schedule": "every_physical_tick"
+      },
+      "camera_frames": [
+        {
+          "frame": 27,
+          "width": 320,
+          "height": 180,
+          "std": 50.97185127022149,
+          "spatial_std": 61.54175619891247,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 28,
+          "width": 320,
+          "height": 180,
+          "std": 50.7851685382686,
+          "spatial_std": 61.402684981954685,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 29,
+          "width": 320,
+          "height": 180,
+          "std": 50.807952441074825,
+          "spatial_std": 61.33332312972503,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 30,
+          "width": 320,
+          "height": 180,
+          "std": 50.83979510262716,
+          "spatial_std": 61.269751759031024,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 31,
+          "width": 320,
+          "height": 180,
+          "std": 50.576125445684376,
+          "spatial_std": 61.066015393733196,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 32,
+          "width": 320,
+          "height": 180,
+          "std": 50.59537010763806,
+          "spatial_std": 61.063603947237404,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 33,
+          "width": 320,
+          "height": 180,
+          "std": 50.419466276863695,
+          "spatial_std": 60.837670327225815,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 34,
+          "width": 320,
+          "height": 180,
+          "std": 50.28107925340776,
+          "spatial_std": 60.71370449956177,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 35,
+          "width": 320,
+          "height": 180,
+          "std": 50.259734183034205,
+          "spatial_std": 60.67589630544729,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 36,
+          "width": 320,
+          "height": 180,
+          "std": 50.31821425545253,
+          "spatial_std": 60.77061437130251,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 37,
+          "width": 320,
+          "height": 180,
+          "std": 50.29732168782038,
+          "spatial_std": 60.751079504524505,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 38,
+          "width": 320,
+          "height": 180,
+          "std": 50.33109596381677,
+          "spatial_std": 60.75842974583629,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 39,
+          "width": 320,
+          "height": 180,
+          "std": 50.33143618227837,
+          "spatial_std": 60.69619715418614,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 40,
+          "width": 320,
+          "height": 180,
+          "std": 50.394999478790886,
+          "spatial_std": 60.80991028819011,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 41,
+          "width": 320,
+          "height": 180,
+          "std": 50.31335769497865,
+          "spatial_std": 60.63583457756164,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 42,
+          "width": 320,
+          "height": 180,
+          "std": 50.304419595930675,
+          "spatial_std": 60.699365723718664,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 43,
+          "width": 320,
+          "height": 180,
+          "std": 50.47137036409432,
+          "spatial_std": 60.831005495256676,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 44,
+          "width": 320,
+          "height": 180,
+          "std": 50.394101570216996,
+          "spatial_std": 60.78436949236857,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 45,
+          "width": 320,
+          "height": 180,
+          "std": 50.208318597016216,
+          "spatial_std": 60.65763609747461,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 46,
+          "width": 320,
+          "height": 180,
+          "std": 50.272606159209694,
+          "spatial_std": 60.73792209596866,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 47,
+          "width": 320,
+          "height": 180,
+          "std": 50.219594698858046,
+          "spatial_std": 60.598811561361046,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 48,
+          "width": 320,
+          "height": 180,
+          "std": 50.18466623362733,
+          "spatial_std": 60.59299881111494,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 49,
+          "width": 320,
+          "height": 180,
+          "std": 50.16445990393347,
+          "spatial_std": 60.56992071743958,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 50,
+          "width": 320,
+          "height": 180,
+          "std": 50.15109155494351,
+          "spatial_std": 60.568082498324614,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 51,
+          "width": 320,
+          "height": 180,
+          "std": 50.14818634685074,
+          "spatial_std": 60.57675228337829,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 52,
+          "width": 320,
+          "height": 180,
+          "std": 50.09420188435024,
+          "spatial_std": 60.493214468203135,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 53,
+          "width": 320,
+          "height": 180,
+          "std": 50.07982609040468,
+          "spatial_std": 60.467785940426666,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 54,
+          "width": 320,
+          "height": 180,
+          "std": 50.10079180046223,
+          "spatial_std": 60.45582041270601,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 55,
+          "width": 320,
+          "height": 180,
+          "std": 50.08200150078681,
+          "spatial_std": 60.41100387792946,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 56,
+          "width": 320,
+          "height": 180,
+          "std": 50.11607408555493,
+          "spatial_std": 60.50300476424657,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 57,
+          "width": 320,
+          "height": 180,
+          "std": 50.12752857134432,
+          "spatial_std": 60.511239732285695,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 58,
+          "width": 320,
+          "height": 180,
+          "std": 50.09853976341979,
+          "spatial_std": 60.49558443793116,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 59,
+          "width": 320,
+          "height": 180,
+          "std": 50.10509201805664,
+          "spatial_std": 60.52362938964518,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 60,
+          "width": 320,
+          "height": 180,
+          "std": 50.116594017113734,
+          "spatial_std": 60.577382433507374,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 61,
+          "width": 320,
+          "height": 180,
+          "std": 50.09127118002232,
+          "spatial_std": 60.5191073046636,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 62,
+          "width": 320,
+          "height": 180,
+          "std": 50.102105175116094,
+          "spatial_std": 60.50874263190926,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 63,
+          "width": 320,
+          "height": 180,
+          "std": 50.042855909043624,
+          "spatial_std": 60.409593263095545,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 64,
+          "width": 320,
+          "height": 180,
+          "std": 50.13505605019843,
+          "spatial_std": 60.54584958972486,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 65,
+          "width": 320,
+          "height": 180,
+          "std": 50.146730605292845,
+          "spatial_std": 60.5208220139239,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 66,
+          "width": 320,
+          "height": 180,
+          "std": 49.73202496684491,
+          "spatial_std": 59.95055816531729,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 67,
+          "width": 320,
+          "height": 180,
+          "std": 49.74182976288902,
+          "spatial_std": 60.01073853230687,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 68,
+          "width": 320,
+          "height": 180,
+          "std": 49.74324438283022,
+          "spatial_std": 59.97457374046935,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 69,
+          "width": 320,
+          "height": 180,
+          "std": 49.71433281188542,
+          "spatial_std": 59.93271537896963,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 70,
+          "width": 320,
+          "height": 180,
+          "std": 49.68957381008555,
+          "spatial_std": 59.908925905946916,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 71,
+          "width": 320,
+          "height": 180,
+          "std": 49.76118080878754,
+          "spatial_std": 59.997620345062465,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 72,
+          "width": 320,
+          "height": 180,
+          "std": 49.75596768254367,
+          "spatial_std": 60.04658043905251,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 73,
+          "width": 320,
+          "height": 180,
+          "std": 49.72450496953498,
+          "spatial_std": 59.96532350885626,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 74,
+          "width": 320,
+          "height": 180,
+          "std": 49.70837064913038,
+          "spatial_std": 59.97121111995486,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 75,
+          "width": 320,
+          "height": 180,
+          "std": 49.74318939220416,
+          "spatial_std": 59.95934990387459,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 76,
+          "width": 320,
+          "height": 180,
+          "std": 49.71346881495303,
+          "spatial_std": 59.93026660509473,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 77,
+          "width": 320,
+          "height": 180,
+          "std": 49.7120475864595,
+          "spatial_std": 59.929355329482426,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 78,
+          "width": 320,
+          "height": 180,
+          "std": 49.70490507957067,
+          "spatial_std": 59.951360206447745,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 79,
+          "width": 320,
+          "height": 180,
+          "std": 49.71875030013729,
+          "spatial_std": 60.016433355673456,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 80,
+          "width": 320,
+          "height": 180,
+          "std": 49.81768199106418,
+          "spatial_std": 60.043185883660634,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 81,
+          "width": 320,
+          "height": 180,
+          "std": 49.76800276152567,
+          "spatial_std": 59.96387552081312,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 82,
+          "width": 320,
+          "height": 180,
+          "std": 49.824024249198175,
+          "spatial_std": 60.02706622010345,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 83,
+          "width": 320,
+          "height": 180,
+          "std": 49.80302766024944,
+          "spatial_std": 59.996952259353314,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 84,
+          "width": 320,
+          "height": 180,
+          "std": 49.80251391315117,
+          "spatial_std": 59.97721532016799,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 85,
+          "width": 320,
+          "height": 180,
+          "std": 49.77622289144517,
+          "spatial_std": 59.97453593038361,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 86,
+          "width": 320,
+          "height": 180,
+          "std": 49.77891932638113,
+          "spatial_std": 59.920347265097426,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 87,
+          "width": 320,
+          "height": 180,
+          "std": 49.64169899517492,
+          "spatial_std": 59.737269111099494,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 88,
+          "width": 320,
+          "height": 180,
+          "std": 49.62973696174212,
+          "spatial_std": 59.7149761946267,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 89,
+          "width": 320,
+          "height": 180,
+          "std": 49.64284753911846,
+          "spatial_std": 59.755978214636066,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 90,
+          "width": 320,
+          "height": 180,
+          "std": 49.61152965025273,
+          "spatial_std": 59.69874227712344,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 91,
+          "width": 320,
+          "height": 180,
+          "std": 49.61513762092239,
+          "spatial_std": 59.675467572640386,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 92,
+          "width": 320,
+          "height": 180,
+          "std": 49.66926327569844,
+          "spatial_std": 59.733619886135905,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 93,
+          "width": 320,
+          "height": 180,
+          "std": 49.66063556261793,
+          "spatial_std": 59.72497226081023,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 94,
+          "width": 320,
+          "height": 180,
+          "std": 49.70984561249601,
+          "spatial_std": 59.76782035425592,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 95,
+          "width": 320,
+          "height": 180,
+          "std": 49.73597345757161,
+          "spatial_std": 59.809283160225384,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 96,
+          "width": 320,
+          "height": 180,
+          "std": 49.75461974248873,
+          "spatial_std": 59.821823623095185,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 97,
+          "width": 320,
+          "height": 180,
+          "std": 49.741237236511566,
+          "spatial_std": 59.76393668562597,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 98,
+          "width": 320,
+          "height": 180,
+          "std": 49.72897731115713,
+          "spatial_std": 59.79014465533656,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 99,
+          "width": 320,
+          "height": 180,
+          "std": 49.760114776247235,
+          "spatial_std": 59.82440755971687,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 100,
+          "width": 320,
+          "height": 180,
+          "std": 49.75179246271501,
+          "spatial_std": 59.83916491071836,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 101,
+          "width": 320,
+          "height": 180,
+          "std": 49.70949580146085,
+          "spatial_std": 59.802023752111,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 102,
+          "width": 320,
+          "height": 180,
+          "std": 49.73594602335876,
+          "spatial_std": 59.8083922889581,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 103,
+          "width": 320,
+          "height": 180,
+          "std": 49.76480275187019,
+          "spatial_std": 59.80174598450447,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 104,
+          "width": 320,
+          "height": 180,
+          "std": 49.7564034739606,
+          "spatial_std": 59.781746981998495,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 105,
+          "width": 320,
+          "height": 180,
+          "std": 49.73065048846486,
+          "spatial_std": 59.814445118947866,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 106,
+          "width": 320,
+          "height": 180,
+          "std": 49.768723016585675,
+          "spatial_std": 59.85028852524511,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 107,
+          "width": 320,
+          "height": 180,
+          "std": 49.76868653026625,
+          "spatial_std": 59.84446415783979,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 108,
+          "width": 320,
+          "height": 180,
+          "std": 49.76528441093967,
+          "spatial_std": 59.78701655207549,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 109,
+          "width": 320,
+          "height": 180,
+          "std": 49.75798683156261,
+          "spatial_std": 59.79385751436317,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 110,
+          "width": 320,
+          "height": 180,
+          "std": 49.7311125768119,
+          "spatial_std": 59.7637511682371,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 111,
+          "width": 320,
+          "height": 180,
+          "std": 49.721883263751586,
+          "spatial_std": 59.71734109732893,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 112,
+          "width": 320,
+          "height": 180,
+          "std": 49.73145983037292,
+          "spatial_std": 59.756779720904994,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 113,
+          "width": 320,
+          "height": 180,
+          "std": 49.76999104193252,
+          "spatial_std": 59.81544139148154,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 114,
+          "width": 320,
+          "height": 180,
+          "std": 49.71287560941034,
+          "spatial_std": 59.72439800768779,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 115,
+          "width": 320,
+          "height": 180,
+          "std": 49.7392207851165,
+          "spatial_std": 59.720006725779044,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 116,
+          "width": 320,
+          "height": 180,
+          "std": 49.73080907798861,
+          "spatial_std": 59.72080637045514,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 117,
+          "width": 320,
+          "height": 180,
+          "std": 49.754068031017866,
+          "spatial_std": 59.76241122592328,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 118,
+          "width": 320,
+          "height": 180,
+          "std": 49.72825445853751,
+          "spatial_std": 59.772341433505744,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 119,
+          "width": 320,
+          "height": 180,
+          "std": 49.741588717955054,
+          "spatial_std": 59.78873383919758,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 120,
+          "width": 320,
+          "height": 180,
+          "std": 49.80637476569739,
+          "spatial_std": 59.92030869041298,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 121,
+          "width": 320,
+          "height": 180,
+          "std": 49.81466437737459,
+          "spatial_std": 59.87374193080001,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 122,
+          "width": 320,
+          "height": 180,
+          "std": 49.859205586941385,
+          "spatial_std": 59.7751090343176,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 123,
+          "width": 320,
+          "height": 180,
+          "std": 49.81972288936227,
+          "spatial_std": 59.7310947130338,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 124,
+          "width": 320,
+          "height": 180,
+          "std": 49.81320377763215,
+          "spatial_std": 59.74073137153816,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 125,
+          "width": 320,
+          "height": 180,
+          "std": 49.82152210622895,
+          "spatial_std": 59.71440610188361,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 126,
+          "width": 320,
+          "height": 180,
+          "std": 49.80116331730138,
+          "spatial_std": 59.71446554344014,
+          "min": 0,
+          "max": 255
+        }
+      ],
+      "idle_verified": true,
+      "last_frame": 126,
+      "timing": {
+        "tick_seconds": {
+          "p50": 0.00156911800013404,
+          "p95": 0.0025676883998130506,
+          "max": 0.06617613500020525
+        },
+        "camera_wait_seconds": {
+          "p50": 0.005386435499985964,
+          "p95": 0.0059997361498517416,
+          "max": 0.40921503999925335
+        }
+      }
+    },
+    {
+      "town": "Town12",
+      "asset": "/Game/Carla/Maps/Town12/Town12",
+      "repeat": 0,
+      "status": "passed",
+      "ticks": 100,
+      "stage": "passed",
+      "api_phases": [
+        {
+          "operation": "pre_load_settings",
+          "seconds": 0.004183888000625302,
+          "before": {
+            "episode_id": 864213769751878944,
+            "frame": 126,
+            "elapsed_seconds": 5.15000007674098
+          },
+          "after": {
+            "episode_id": 864213769751878944,
+            "frame": 127,
+            "elapsed_seconds": 5.200000077486038
+          },
+          "same_episode_frame_delta": 1
+        },
+        {
+          "operation": "post_load_settings",
+          "seconds": 0.0020512780001809006,
+          "before": {
+            "episode_id": 9142684842003496883,
+            "frame": 130,
+            "elapsed_seconds": 0.10000000149011612
+          },
+          "after": {
+            "episode_id": 9142684842003496883,
+            "frame": 131,
+            "elapsed_seconds": 0.15000000223517418
+          },
+          "same_episode_frame_delta": 1
+        },
+        {
+          "operation": "hero_spawn",
+          "seconds": 0.5006887409999763,
+          "before": {
+            "episode_id": 9142684842003496883,
+            "frame": 131,
+            "elapsed_seconds": 0.15000000223517418
+          },
+          "after": {
+            "episode_id": 9142684842003496883,
+            "frame": 131,
+            "elapsed_seconds": 0.15000000223517418
+          },
+          "same_episode_frame_delta": 0
+        },
+        {
+          "operation": "spectator_position",
+          "seconds": 0.0004702790001829271,
+          "before": {
+            "episode_id": 9142684842003496883,
+            "frame": 131,
+            "elapsed_seconds": 0.15000000223517418
+          },
+          "after": {
+            "episode_id": 9142684842003496883,
+            "frame": 131,
+            "elapsed_seconds": 0.15000000223517418
+          },
+          "same_episode_frame_delta": 0
+        },
+        {
+          "operation": "camera_spawn",
+          "seconds": 0.0005529749996640021,
+          "before": {
+            "episode_id": 9142684842003496883,
+            "frame": 131,
+            "elapsed_seconds": 0.15000000223517418
+          },
+          "after": {
+            "episode_id": 9142684842003496883,
+            "frame": 131,
+            "elapsed_seconds": 0.15000000223517418
+          },
+          "same_episode_frame_delta": 0
+        }
+      ],
+      "load_seconds": 15.578151251000236,
+      "load_frame_change": {
+        "before": {
+          "episode_id": 864213769751878944,
+          "frame": 127,
+          "elapsed_seconds": 5.200000077486038
+        },
+        "after": {
+          "episode_id": 9142684842003496883,
+          "frame": 130,
+          "elapsed_seconds": 0.10000000149011612
+        },
+        "same_episode_frame_delta": null
+      },
+      "immediate_loaded_settings": {
+        "synchronous_mode": true,
+        "fixed_delta_seconds": 0.05,
+        "no_rendering_mode": false,
+        "spectator_as_ego": false,
+        "tile_stream_distance": 2000.0,
+        "actor_active_distance": 2000.0
+      },
+      "settings": {
+        "synchronous_mode": true,
+        "fixed_delta_seconds": 0.05,
+        "no_rendering_mode": false,
+        "spectator_as_ego": false,
+        "tile_stream_distance": 650.0,
+        "actor_active_distance": 650.0
+      },
+      "opendrive_sha256": "26fa53d4902ac3397d35f948969f0c77c1bf023755ede2c67edf00bef817151f",
+      "spawn": {
+        "x": 3943.60546875,
+        "y": 2777.98876953125,
+        "z": 370.11871337890625,
+        "yaw": 89.90546417236328
+      },
+      "camera_config": {
+        "sensor_tick": 0.0,
+        "image_size_x": 320,
+        "image_size_y": 180,
+        "capture_schedule": "every_physical_tick"
+      },
+      "camera_frames": [
+        {
+          "frame": 132,
+          "width": 320,
+          "height": 180,
+          "std": 43.77440359223696,
+          "spatial_std": 50.630393549835915,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 133,
+          "width": 320,
+          "height": 180,
+          "std": 43.63454923272188,
+          "spatial_std": 50.40647276032231,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 134,
+          "width": 320,
+          "height": 180,
+          "std": 43.68885547037419,
+          "spatial_std": 50.46368683747585,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 135,
+          "width": 320,
+          "height": 180,
+          "std": 43.94772327065849,
+          "spatial_std": 50.71493493234891,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 136,
+          "width": 320,
+          "height": 180,
+          "std": 44.313179203141786,
+          "spatial_std": 51.012605617776835,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 137,
+          "width": 320,
+          "height": 180,
+          "std": 44.331767707193805,
+          "spatial_std": 50.97473868220529,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 138,
+          "width": 320,
+          "height": 180,
+          "std": 44.49401098775814,
+          "spatial_std": 51.132788063354425,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 139,
+          "width": 320,
+          "height": 180,
+          "std": 44.561785339902,
+          "spatial_std": 51.09195029662315,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 140,
+          "width": 320,
+          "height": 180,
+          "std": 44.64957260984789,
+          "spatial_std": 51.29884885248903,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 141,
+          "width": 320,
+          "height": 180,
+          "std": 44.65334648322245,
+          "spatial_std": 51.29923909895848,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 142,
+          "width": 320,
+          "height": 180,
+          "std": 44.496963418961045,
+          "spatial_std": 51.1022097028515,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 143,
+          "width": 320,
+          "height": 180,
+          "std": 44.60790447395194,
+          "spatial_std": 51.23909676637923,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 144,
+          "width": 320,
+          "height": 180,
+          "std": 44.433926403411554,
+          "spatial_std": 51.092351435995305,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 145,
+          "width": 320,
+          "height": 180,
+          "std": 44.583758586448276,
+          "spatial_std": 51.245125044446496,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 146,
+          "width": 320,
+          "height": 180,
+          "std": 44.63228953222333,
+          "spatial_std": 51.262417985995874,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 147,
+          "width": 320,
+          "height": 180,
+          "std": 44.572673817286415,
+          "spatial_std": 51.26222256211507,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 148,
+          "width": 320,
+          "height": 180,
+          "std": 44.74537688400341,
+          "spatial_std": 51.43844593390725,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 149,
+          "width": 320,
+          "height": 180,
+          "std": 44.495024992053864,
+          "spatial_std": 51.15542415436396,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 150,
+          "width": 320,
+          "height": 180,
+          "std": 44.52686152348225,
+          "spatial_std": 51.08548974123578,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 151,
+          "width": 320,
+          "height": 180,
+          "std": 44.39302448500414,
+          "spatial_std": 50.89137415067242,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 152,
+          "width": 320,
+          "height": 180,
+          "std": 44.40812581678398,
+          "spatial_std": 50.9497543825156,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 153,
+          "width": 320,
+          "height": 180,
+          "std": 44.43669226591659,
+          "spatial_std": 50.98822953765,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 154,
+          "width": 320,
+          "height": 180,
+          "std": 44.56334728202965,
+          "spatial_std": 51.095702225594714,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 155,
+          "width": 320,
+          "height": 180,
+          "std": 44.593249640850175,
+          "spatial_std": 51.122730934477424,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 156,
+          "width": 320,
+          "height": 180,
+          "std": 44.44848783495388,
+          "spatial_std": 50.997392828137606,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 157,
+          "width": 320,
+          "height": 180,
+          "std": 44.50710792229102,
+          "spatial_std": 51.071136931242734,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 158,
+          "width": 320,
+          "height": 180,
+          "std": 44.53180861282326,
+          "spatial_std": 51.076514497470185,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 159,
+          "width": 320,
+          "height": 180,
+          "std": 44.52450991941982,
+          "spatial_std": 51.076293270835116,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 160,
+          "width": 320,
+          "height": 180,
+          "std": 44.530498017221575,
+          "spatial_std": 51.10305551845855,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 161,
+          "width": 320,
+          "height": 180,
+          "std": 44.558113201549816,
+          "spatial_std": 51.096337543289344,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 162,
+          "width": 320,
+          "height": 180,
+          "std": 44.564077372818055,
+          "spatial_std": 51.07704448102696,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 163,
+          "width": 320,
+          "height": 180,
+          "std": 44.52975925897431,
+          "spatial_std": 51.039553714189594,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 164,
+          "width": 320,
+          "height": 180,
+          "std": 44.4839755531129,
+          "spatial_std": 50.995982350857616,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 165,
+          "width": 320,
+          "height": 180,
+          "std": 44.42027948611768,
+          "spatial_std": 50.89440340550861,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 166,
+          "width": 320,
+          "height": 180,
+          "std": 44.41382392848161,
+          "spatial_std": 50.959804137347874,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 167,
+          "width": 320,
+          "height": 180,
+          "std": 44.36277232015641,
+          "spatial_std": 50.94343478878521,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 168,
+          "width": 320,
+          "height": 180,
+          "std": 44.48147162578528,
+          "spatial_std": 51.06371818579462,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 169,
+          "width": 320,
+          "height": 180,
+          "std": 44.521325367136335,
+          "spatial_std": 51.081675285945565,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 170,
+          "width": 320,
+          "height": 180,
+          "std": 44.52715229682361,
+          "spatial_std": 51.05384339699632,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 171,
+          "width": 320,
+          "height": 180,
+          "std": 44.58654930940664,
+          "spatial_std": 51.126408939316796,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 172,
+          "width": 320,
+          "height": 180,
+          "std": 44.542475724521545,
+          "spatial_std": 51.10391427271452,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 173,
+          "width": 320,
+          "height": 180,
+          "std": 44.56874787119698,
+          "spatial_std": 51.12659190843417,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 174,
+          "width": 320,
+          "height": 180,
+          "std": 44.53387298585604,
+          "spatial_std": 51.066572001207255,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 175,
+          "width": 320,
+          "height": 180,
+          "std": 44.62716944596933,
+          "spatial_std": 51.18784258804669,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 176,
+          "width": 320,
+          "height": 180,
+          "std": 44.615785964031275,
+          "spatial_std": 51.16757687786471,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 177,
+          "width": 320,
+          "height": 180,
+          "std": 44.59787335326726,
+          "spatial_std": 51.17571633079328,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 178,
+          "width": 320,
+          "height": 180,
+          "std": 44.61086387663656,
+          "spatial_std": 51.16378578554052,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 179,
+          "width": 320,
+          "height": 180,
+          "std": 44.6212304095439,
+          "spatial_std": 51.15604353694731,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 180,
+          "width": 320,
+          "height": 180,
+          "std": 44.64295131603651,
+          "spatial_std": 51.16461642634472,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 181,
+          "width": 320,
+          "height": 180,
+          "std": 44.618528137777744,
+          "spatial_std": 51.08873823909546,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 182,
+          "width": 320,
+          "height": 180,
+          "std": 44.66441838236,
+          "spatial_std": 51.16690310070222,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 183,
+          "width": 320,
+          "height": 180,
+          "std": 44.63584284556542,
+          "spatial_std": 51.150903065706764,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 184,
+          "width": 320,
+          "height": 180,
+          "std": 44.61213713989624,
+          "spatial_std": 51.146026312714994,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 185,
+          "width": 320,
+          "height": 180,
+          "std": 44.660414560112,
+          "spatial_std": 51.25685022721562,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 186,
+          "width": 320,
+          "height": 180,
+          "std": 44.59682664011683,
+          "spatial_std": 51.17401058886765,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 187,
+          "width": 320,
+          "height": 180,
+          "std": 44.58103569228869,
+          "spatial_std": 51.112709017883624,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 188,
+          "width": 320,
+          "height": 180,
+          "std": 44.578244484960585,
+          "spatial_std": 51.11661854642425,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 189,
+          "width": 320,
+          "height": 180,
+          "std": 44.6016973283711,
+          "spatial_std": 51.1484512676445,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 190,
+          "width": 320,
+          "height": 180,
+          "std": 44.49302514173754,
+          "spatial_std": 51.08001630435687,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 191,
+          "width": 320,
+          "height": 180,
+          "std": 44.53964368863205,
+          "spatial_std": 51.1267204820532,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 192,
+          "width": 320,
+          "height": 180,
+          "std": 44.58514351200318,
+          "spatial_std": 51.15615373132669,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 193,
+          "width": 320,
+          "height": 180,
+          "std": 44.660008666551384,
+          "spatial_std": 51.22239754125126,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 194,
+          "width": 320,
+          "height": 180,
+          "std": 44.58551954295159,
+          "spatial_std": 51.12605417776237,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 195,
+          "width": 320,
+          "height": 180,
+          "std": 44.63971339809952,
+          "spatial_std": 51.19444295558091,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 196,
+          "width": 320,
+          "height": 180,
+          "std": 44.69161820831919,
+          "spatial_std": 51.223723213954024,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 197,
+          "width": 320,
+          "height": 180,
+          "std": 44.62087855356854,
+          "spatial_std": 51.18950832441905,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 198,
+          "width": 320,
+          "height": 180,
+          "std": 44.588847608639114,
+          "spatial_std": 51.15744553861653,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 199,
+          "width": 320,
+          "height": 180,
+          "std": 44.62694873808223,
+          "spatial_std": 51.20969719854676,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 200,
+          "width": 320,
+          "height": 180,
+          "std": 44.59625000189241,
+          "spatial_std": 51.17606686244443,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 201,
+          "width": 320,
+          "height": 180,
+          "std": 44.61288147015077,
+          "spatial_std": 51.16653602267659,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 202,
+          "width": 320,
+          "height": 180,
+          "std": 44.61271708753972,
+          "spatial_std": 51.14353595536073,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 203,
+          "width": 320,
+          "height": 180,
+          "std": 44.60743046208805,
+          "spatial_std": 51.133777243173064,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 204,
+          "width": 320,
+          "height": 180,
+          "std": 44.63280266881941,
+          "spatial_std": 51.15843643491289,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 205,
+          "width": 320,
+          "height": 180,
+          "std": 44.558037444932545,
+          "spatial_std": 51.041154589239724,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 206,
+          "width": 320,
+          "height": 180,
+          "std": 44.534198432713865,
+          "spatial_std": 51.09677950772039,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 207,
+          "width": 320,
+          "height": 180,
+          "std": 44.50575386793105,
+          "spatial_std": 51.09172450793079,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 208,
+          "width": 320,
+          "height": 180,
+          "std": 44.6055843328381,
+          "spatial_std": 51.20190175951035,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 209,
+          "width": 320,
+          "height": 180,
+          "std": 44.61856456406372,
+          "spatial_std": 51.18344132345379,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 210,
+          "width": 320,
+          "height": 180,
+          "std": 44.65495536409589,
+          "spatial_std": 51.199078646230994,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 211,
+          "width": 320,
+          "height": 180,
+          "std": 44.62978524482383,
+          "spatial_std": 51.17459539628058,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 212,
+          "width": 320,
+          "height": 180,
+          "std": 44.55943400236811,
+          "spatial_std": 51.124702873509136,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 213,
+          "width": 320,
+          "height": 180,
+          "std": 44.58740045822468,
+          "spatial_std": 51.15622263198346,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 214,
+          "width": 320,
+          "height": 180,
+          "std": 44.553082072569595,
+          "spatial_std": 51.09087660890464,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 215,
+          "width": 320,
+          "height": 180,
+          "std": 44.65478070430958,
+          "spatial_std": 51.21566124243055,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 216,
+          "width": 320,
+          "height": 180,
+          "std": 44.627990419146826,
+          "spatial_std": 51.1810270519437,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 217,
+          "width": 320,
+          "height": 180,
+          "std": 44.63428260075735,
+          "spatial_std": 51.220233855763425,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 218,
+          "width": 320,
+          "height": 180,
+          "std": 44.65531842607364,
+          "spatial_std": 51.24041059577062,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 219,
+          "width": 320,
+          "height": 180,
+          "std": 44.625715853411094,
+          "spatial_std": 51.183968284651904,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 220,
+          "width": 320,
+          "height": 180,
+          "std": 44.64949786690099,
+          "spatial_std": 51.20053217632061,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 221,
+          "width": 320,
+          "height": 180,
+          "std": 44.63191134513414,
+          "spatial_std": 51.12564450652728,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 222,
+          "width": 320,
+          "height": 180,
+          "std": 44.67273991668094,
+          "spatial_std": 51.20348557633851,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 223,
+          "width": 320,
+          "height": 180,
+          "std": 44.63139265789621,
+          "spatial_std": 51.164651103653156,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 224,
+          "width": 320,
+          "height": 180,
+          "std": 44.635503752596605,
+          "spatial_std": 51.20455280957025,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 225,
+          "width": 320,
+          "height": 180,
+          "std": 44.65612897815061,
+          "spatial_std": 51.271676580986316,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 226,
+          "width": 320,
+          "height": 180,
+          "std": 44.57727144579925,
+          "spatial_std": 51.175484416666194,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 227,
+          "width": 320,
+          "height": 180,
+          "std": 44.54769522613468,
+          "spatial_std": 51.097887210921364,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 228,
+          "width": 320,
+          "height": 180,
+          "std": 44.55197457965761,
+          "spatial_std": 51.098532058296136,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 229,
+          "width": 320,
+          "height": 180,
+          "std": 44.58273132598018,
+          "spatial_std": 51.13882346098361,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 230,
+          "width": 320,
+          "height": 180,
+          "std": 44.44370647760593,
+          "spatial_std": 51.03665730137688,
+          "min": 0,
+          "max": 255
+        },
+        {
+          "frame": 231,
+          "width": 320,
+          "height": 180,
+          "std": 44.51789266911175,
+          "spatial_std": 51.11556853486029,
+          "min": 0,
+          "max": 255
+        }
+      ],
+      "idle_verified": true,
+      "last_frame": 231,
+      "timing": {
+        "tick_seconds": {
+          "p50": 0.0016114320001179294,
+          "p95": 0.002264747900335351,
+          "max": 0.23052840600030322
+        },
+        "camera_wait_seconds": {
+          "p50": 0.012518719999661698,
+          "p95": 0.013250829700109535,
+          "max": 0.05965283099976659
+        }
+      }
+    },
+    {
+      "town": "Town03",
+      "asset": "/Game/Carla/Maps/Town03",
+      "repeat": 0,
+      "status": "running",
+      "ticks": 0,
+      "stage": "load_world",
+      "api_phases": [
+        {
+          "operation": "pre_load_settings",
+          "seconds": 0.01896504299929802,
+          "before": {
+            "episode_id": 9142684842003496883,
+            "frame": 231,
+            "elapsed_seconds": 5.15000007674098
+          },
+          "after": {
+            "episode_id": 9142684842003496883,
+            "frame": 232,
+            "elapsed_seconds": 5.200000077486038
+          },
+          "same_episode_frame_delta": 1
+        }
+      ]
+    }
+  ],
+  "cleanup": [],
+  "stage": "connecting",
+  "readiness": {
+    "attempts": 6,
+    "seconds": 6.620387563999429,
+    "last_error": "time-out of 1000ms while waiting for the simulator, make sure the simulator is ready and connected to 127.0.0.1:2600",
+    "server_version": "0.9.15"
+  },
+  "server_version": "0.9.15",
+  "client_version": "0.9.15",
+  "original_map": "Carla/Maps/Town10HD_Opt",
+  "original_settings": {
+    "synchronous_mode": false,
+    "fixed_delta_seconds": null,
+    "no_rendering_mode": false,
+    "spectator_as_ego": true,
+    "tile_stream_distance": 3000.0,
+    "actor_active_distance": 2000.0
+  }
+}

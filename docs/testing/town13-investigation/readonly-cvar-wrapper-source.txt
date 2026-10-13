@@ -1,0 +1,37 @@
+"""Investigation-only wrapper: read known int32 CVars in the owned child.
+
+No ptrace attach, pauses, memory writes or additional CARLA requests. Addresses
+are valid only for the audited local 0.9.15 ET_EXEC binary; not a product API.
+"""
+import hashlib
+import importlib.util
+import os
+from pathlib import Path
+import struct
+
+path = Path.cwd() / 'scripts/run_carla_diagnostic.py'
+spec = importlib.util.spec_from_file_location('diagnostic_runner', path)
+module = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(module)
+original_sample = module.resource_sample
+binary = Path('/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping')
+if hashlib.sha256(binary.read_bytes()).hexdigest() != '1da989e4ff136e0658fdea421bc1da2b0e5cb018c6e767efc4f6129c21ab1a81':
+    raise RuntimeError('CVars addresses apply only to the audited binary')
+addresses = {'r.Vulkan.EnableDefrag': 0x6c24924,
+             'r.Vulkan.WaitForIdleOnSubmit': 0x6e55620}
+def sample(pid, elapsed, gpu):
+    result = original_sample(pid, elapsed, gpu)
+    result['readonly_cvars'] = {}
+    try:
+        fd = os.open(f'/proc/{pid}/mem', os.O_RDONLY)
+        try:
+            for key, address in addresses.items():
+                value = os.pread(fd, 4, address)
+                result['readonly_cvars'][key] = struct.unpack('<i', value)[0]
+        finally:
+            os.close(fd)
+    except (OSError, struct.error) as exc:
+        result['readonly_cvars_error'] = str(exc)
+    return result
+module.resource_sample = sample
+module.main()

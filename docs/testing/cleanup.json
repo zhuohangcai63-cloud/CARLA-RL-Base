@@ -1,0 +1,40 @@
+{
+  "backend": "carla",
+  "instances": {
+    "b2d_live": {
+      "live_owner": null,
+      "live_client": null,
+      "remaining_posix_objects": []
+    },
+    "mixed_live": {
+      "live_owner": null,
+      "live_client": null,
+      "remaining_posix_objects": []
+    },
+    "sensors_live": {
+      "live_owner": null,
+      "live_client": null,
+      "remaining_posix_objects": []
+    },
+    "structured_live": {
+      "live_owner": null,
+      "live_client": null,
+      "remaining_posix_objects": []
+    }
+  },
+  "worlds": {
+    "2100": {
+      "vehicle.*": 0,
+      "walker.pedestrian.*": 0,
+      "controller.ai.walker": 0,
+      "sensor.*": 0
+    },
+    "2200": {
+      "vehicle.*": 0,
+      "walker.pedestrian.*": 0,
+      "controller.ai.walker": 0,
+      "sensor.*": 0
+    }
+  },
+  "test_carla_processes_stopped": true
+}

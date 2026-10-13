@@ -1,0 +1,20 @@
+{
+  "real_carla": true,
+  "seed": 7,
+  "decisions": 200,
+  "action_sequence": "50 throttle .3, then 150 brake 1",
+  "checks": {
+    "action": true,
+    "physical_ticks": true,
+    "terminated": true,
+    "truncated": true,
+    "reason": true,
+    "same_count": true,
+    "rewards": true,
+    "reward_components": true,
+    "actual_controls": true
+  },
+  "status": "passed",
+  "max_position_difference_m": 0.0,
+  "max_reward_difference": 0.0
+}

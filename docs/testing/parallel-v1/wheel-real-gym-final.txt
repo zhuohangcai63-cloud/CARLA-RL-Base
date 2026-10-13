@@ -1,0 +1,5 @@
+/home/czh/software/miniconda3/envs/carla-client-test/lib/python3.11/site-packages/gymnasium/utils/env_checker.py:372: UserWarning: [33mWARN: A Box observation space minimum value is -infinity. This is probably too low.[0m
+  logger.warn(
+/home/czh/software/miniconda3/envs/carla-client-test/lib/python3.11/site-packages/gymnasium/utils/env_checker.py:376: UserWarning: [33mWARN: A Box observation space maximum value is infinity. This is probably too high.[0m
+  logger.warn(
+{"status": "passed", "real_carla": true, "installed_module": "/home/czh/software/miniconda3/envs/carla-client-test/lib/python3.11/site-packages/easycarla_client/__init__.py", "forbidden_imports_absent": true, "gym_checker": true, "vector_async": true, "masked_reset": true, "whole_batch_prevalidation": true, "parallel_trajectories": true}

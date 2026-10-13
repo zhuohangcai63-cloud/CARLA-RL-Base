@@ -1,0 +1,34 @@
+Generating report for minidump
+
+Application version 4.26.2.0
+ ... built from changelist 0
+
+OS version Linux 7.0.0-34-generic (network name: czh-Default-string)
+Running 14 x86_64 processors (20 logical cores)
+Exception was "SIGSEGV: invalid attempt to read memory at address 0x0000000000000290"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+CarlaUE4-Linux-Shipping!FVulkanQueue::Submit(FVulkanCmdBuffer*, unsigned int, VkSemaphore_T**) [/home/jenkins/UnrealEngine_4.26/Engine/Source/Runtime/VulkanRHI/Private/VulkanQueue.cpp:82]
+CarlaUE4-Linux-Shipping!FVulkanCommandBufferManager::SubmitActiveCmdBuffer(TArrayView<VulkanRHI::FSemaphore*, int>) [/home/jenkins/UnrealEngine_4.26/Engine/Source/Runtime/VulkanRHI/Private/VulkanCommandBuffer.cpp:606]
+CarlaUE4-Linux-Shipping!FVulkanCommandListContext::FVulkanCommandListContext(FVulkanDynamicRHI*, FVulkanDevice*, FVulkanQueue*, FVulkanCommandListContext*) [/home/jenkins/UnrealEngine_4.26/Engine/Source/Runtime/VulkanRHI/Private/VulkanRHI.cpp:159]
+CarlaUE4-Linux-Shipping!FVulkanCommandListContextImmediate::FVulkanCommandListContextImmediate(FVulkanDynamicRHI*, FVulkanDevice*, FVulkanQueue*) [/home/jenkins/UnrealEngine_4.26/Engine/Source/Runtime/VulkanRHI/Private/VulkanRHI.cpp:196]
+CarlaUE4-Linux-Shipping!FVulkanDevice::InitGPU(int) [/home/jenkins/UnrealEngine_4.26/Engine/Source/Runtime/VulkanRHI/Private/VulkanDevice.cpp:1017]
+CarlaUE4-Linux-Shipping!FVulkanDynamicRHI::SelectAndInitDevice() [/home/jenkins/UnrealEngine_4.26/Engine/Source/Runtime/VulkanRHI/Private/VulkanRHI.cpp:652]
+CarlaUE4-Linux-Shipping!FVulkanDynamicRHI::InitInstance() [/home/jenkins/UnrealEngine_4.26/Engine/Source/Runtime/VulkanRHI/Private/VulkanRHI.cpp:694]
+CarlaUE4-Linux-Shipping!FVulkanDynamicRHI::Init() [/home/jenkins/UnrealEngine_4.26/Engine/Source/Runtime/VulkanRHI/Private/VulkanRHI.cpp:241]
+CarlaUE4-Linux-Shipping!RHIInit(bool) [/home/jenkins/UnrealEngine_4.26/Engine/Source/Runtime/RHI/Private/DynamicRHI.cpp:228]
+CarlaUE4-Linux-Shipping!FEngineLoop::PreInitPreStartupScreen(char16_t const*) [/home/jenkins/UnrealEngine_4.26/Engine/Source/Runtime/Launch/Private/LaunchEngineLoop.cpp:2555]
+CarlaUE4-Linux-Shipping!GuardedMain(char16_t const*) [/home/jenkins/UnrealEngine_4.26/Engine/Source/Runtime/Launch/Private/Launch.cpp:127]
+CarlaUE4-Linux-Shipping!CommonUnixMain(int, char**, int (*)(char16_t const*), void (*)()) [/home/jenkins/UnrealEngine_4.26/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:264]
+libc.so.6!UnknownFunction(0x2a1c9)
+libc.so.6!__libc_start_main(+0x8a)
+CarlaUE4-Linux-Shipping!_start()
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!

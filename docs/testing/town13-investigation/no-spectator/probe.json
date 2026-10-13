@@ -1,0 +1,82 @@
+{
+  "args": {
+    "port": 2600,
+    "out": "/home/czh/workspace/CARLA-RL-Base/docs/testing/town13-investigation/no-spectator/probe.json",
+    "towns": "Town13",
+    "repeats": 3,
+    "ticks": 100,
+    "spectator": 0,
+    "render": 0,
+    "distance": 500,
+    "camera": false
+  },
+  "status": "passed",
+  "episodes": [
+    {
+      "town": "Town13",
+      "repeat": 0,
+      "ticks": 100,
+      "stage": "passed",
+      "immediate_loaded_settings": {
+        "spectator_as_ego": false,
+        "no_rendering_mode": true,
+        "tile_stream_distance": 2000.0,
+        "actor_active_distance": 2000.0
+      },
+      "settings": {
+        "spectator_as_ego": false,
+        "no_rendering_mode": true,
+        "tile_stream_distance": 500.0,
+        "actor_active_distance": 500.0
+      },
+      "load_seconds": 26.55277782600001,
+      "tick_mean_seconds": 0.028073139999978593,
+      "tick_max_seconds": 1.639634569000009,
+      "camera_frames": 0
+    },
+    {
+      "town": "Town13",
+      "repeat": 1,
+      "ticks": 100,
+      "stage": "passed",
+      "immediate_loaded_settings": {
+        "spectator_as_ego": false,
+        "no_rendering_mode": true,
+        "tile_stream_distance": 2000.0,
+        "actor_active_distance": 2000.0
+      },
+      "settings": {
+        "spectator_as_ego": false,
+        "no_rendering_mode": true,
+        "tile_stream_distance": 500.0,
+        "actor_active_distance": 500.0
+      },
+      "load_seconds": 27.934666992000075,
+      "tick_mean_seconds": 0.025945771969979887,
+      "tick_max_seconds": 1.649158830000033,
+      "camera_frames": 0
+    },
+    {
+      "town": "Town13",
+      "repeat": 2,
+      "ticks": 100,
+      "stage": "passed",
+      "immediate_loaded_settings": {
+        "spectator_as_ego": false,
+        "no_rendering_mode": true,
+        "tile_stream_distance": 2000.0,
+        "actor_active_distance": 2000.0
+      },
+      "settings": {
+        "spectator_as_ego": false,
+        "no_rendering_mode": true,
+        "tile_stream_distance": 500.0,
+        "actor_active_distance": 500.0
+      },
+      "load_seconds": 28.59792580499993,
+      "tick_mean_seconds": 0.02636840618999031,
+      "tick_max_seconds": 1.645492208000178,
+      "camera_frames": 0
+    }
+  ]
+}

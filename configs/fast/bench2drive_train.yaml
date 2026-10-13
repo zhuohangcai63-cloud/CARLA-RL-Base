@@ -1,0 +1,28 @@
+path_base: ../..
+backend: carla
+simulation:
+  timeout: 90
+  physics_dt: 0.05
+  decision_dt: 0.1
+  history_dt: 0.1
+  no_rendering_mode: true
+  reload_on_reset: false
+  map_affinity: Town12
+observations:
+  profile: planning_v1
+  history_frames: 21
+performance:
+  deferred_observations: true
+ipc:
+  # Town12 planning map exceeds the legacy 16 MiB static publication slot.
+  static_bytes: 67108864
+scenario:
+  source: bench2drive
+  manifest: configs/manifests/town12_long_train78.json
+  purpose: train
+  dependency_root: ~/.cache/easycarla/bench2drive/acbeb0dd8aa99dd0e71b9b75bb542f6fe7c7f3d8-p6
+  native_metrics: false
+  terminal_statistics_only: true
+  fallback: null
+task:
+  profile: bench2drive_native

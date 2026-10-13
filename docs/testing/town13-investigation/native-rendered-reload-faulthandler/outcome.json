@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "status": "native_runtime_crash",
+  "derived_at_utc": "2026-09-28T04:43:48.165296+00:00",
+  "scope": "Derived interpretation only; raw probe unchanged; no restart or replay",
+  "source_sha256": {
+    "summary.json": "559a051583c449e4d63737ddf01b7d90347b91823ec44ca90cc98f00f84d2561",
+    "probe.json": "af23b3055a01ed2467cbac9e93e15faaaa86670d52d99246cae1a59a6d41e8be",
+    "client.txt": "ca28fd2f709645cba7810bfe6f7d3e51876852245c1431c92ea213f03c69c27c",
+    "server.txt": "6bd025e34699dfb9951ce7ded885bb83d54bdeafe4408822a935be4d92129bf5",
+    "samples.jsonl": "18d16128008cdcacc6bb42c17362106a4013d38ba3e9f62f392dc2a239a52be8"
+  },
+  "raw_probe_status": "running",
+  "raw_probe_unchanged": true,
+  "route_count": 2,
+  "returned_routes": 0,
+  "confirmed_physical_ticks": 0,
+  "interrupted_routes": [
+    {
+      "route_id": "22331",
+      "town": "Town12",
+      "ticks": 0
+    }
+  ],
+  "interrupted_result": "unknown; scene preparation did not return",
+  "not_run_route_ids": [
+    "3816"
+  ],
+  "last_observed_phase": "LOADED 22331 before PREPARED",
+  "server_exit": -11,
+  "server_signal": "SIGSEGV",
+  "explicit_server_stop": false,
+  "client_exit": -15,
+  "client_exit_explanation": "Supervisor sent SIGTERM after observing server exit; not evidence of a Python client crash",
+  "crash": {
+    "symbol": "FPackedUniformBuffers::Init",
+    "source_location": "VulkanResources.h:1429",
+    "invalid_read_address": "0x88",
+    "diagnostics": "crashes/crashinfo-CarlaUE4-pid-191049-41D84B2BC3F941BCAB3C23CA19DF185D/Diagnostics.txt"
+  },
+  "elapsed_seconds": 32.0597003390003,
+  "peaks": {
+    "server_rss_kib": 8050496,
+    "gpu_0_memory_used_mib": 7376.0
+  },
+  "shutdown_crash": false,
+  "shutdown_forced_kill": false,
+  "passed": false,
+  "limitations": [
+    "No completed native route or transition is produced by this run.",
+    "Faulting symbol and invalid address do not establish a single underlying C++ cause.",
+    "The intended Python client crash investigation was interrupted by an earlier server crash, so it did not reproduce or explain the previous client SIGSEGV."
+  ]
+}

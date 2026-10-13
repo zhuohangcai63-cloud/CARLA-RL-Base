@@ -1,0 +1,28 @@
+path_base: ..  # Asset paths below are relative to the repository root.
+backend: carla
+scenario:
+  source: scenic
+  town: Town10HD
+  file: scenarios/scenic/interaction_merge.scenic
+  reactive_npcs:
+    - role: merge_near
+      route_kind: merge
+      side: right
+      distance: 20
+      merge_length: 24
+      continuation_length: 80
+      target_speed: 5
+      mechanism: C
+    - role: merge_far
+      route_kind: merge
+      side: right
+      distance: 45
+      merge_length: 24
+      continuation_length: 80
+      target_speed: 4
+      mechanism: C
+experiments:
+  enabled: true
+task:
+  profile: driving
+  max_seconds: 120

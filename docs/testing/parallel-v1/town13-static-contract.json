@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "town": "Town13",
+  "real_carla": true,
+  "static_segments": 9276,
+  "map_id": "cd2fa3fd8f28f2d37dd0aac8d78723d450426a05b72019f02d708a89e60a4e6a",
+  "route_id": "d7fd3887316a850a50e01992f14babfe160358e1ac2fb52e0dbd519828bd5092",
+  "route_segments": 5,
+  "history_ready": true,
+  "geometry": {
+    "rear_axle_offset": [
+      -1.388434648513794,
+      -0.00011622576857917011,
+      0.28404074907302856
+    ],
+    "bbox_offset": [
+      -0.00629084650427103,
+      4.0179488678404596e-06,
+      0.7488375902175903
+    ],
+    "bbox_valid": true,
+    "center_of_mass_offset": [
+      0.29999998211860657,
+      -0.0,
+      -0.19999998807907104
+    ],
+    "center_of_mass_valid": true,
+    "rear_axle_valid": true,
+    "wheelbase": 2.860470771789551,
+    "size": [
+      4.89238166809082,
+      1.8367133140563965,
+      1.490277647972107
+    ],
+    "max_steer_angle": 1.221730351448059
+  }
+}

@@ -1,0 +1,30 @@
+path_base: ..  # Asset paths below are relative to the repository root.
+backend: carla
+scenario:
+  source: scenic
+  town: Town10HD
+  file: scenarios/scenic/interaction_crossing.scenic
+  reactive_npcs:
+    - role: cross_from_left
+      route_kind: crossing
+      side: left
+      distance: 20
+      search_distance: 140
+      approach_distance: 25
+      continuation_length: 60
+      target_speed: 5
+      mechanism: C
+    - role: cross_from_right
+      route_kind: crossing
+      side: right
+      distance: 20
+      search_distance: 140
+      approach_distance: 25
+      continuation_length: 60
+      target_speed: 4
+      mechanism: C
+experiments:
+  enabled: true
+task:
+  profile: driving
+  max_seconds: 120

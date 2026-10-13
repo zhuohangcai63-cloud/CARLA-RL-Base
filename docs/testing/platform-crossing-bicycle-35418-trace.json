@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "route_id": "35418",
+  "mode": "offline_carla_Map_no_Client",
+  "carla_version": "0.9.15",
+  "asset": "/home/czh/software/carla/CarlaUE4/Content/Carla/Maps/Town12/OpenDrive/Town12.xodr",
+  "asset_sha256": "26fa53d4902ac3397d35f948969f0c77c1bf023755ede2c67edf00bef817151f",
+  "cache_sha256": "26fa53d4902ac3397d35f948969f0c77c1bf023755ede2c67edf00bef817151f",
+  "server_map_evidence": "docs/testing/platform-town12-readonly-map.json",
+  "server_map_sha256": "26fa53d4902ac3397d35f948969f0c77c1bf023755ede2c67edf00bef817151f",
+  "server_map_hash_matches": true,
+  "flow_source_xyz": [
+    853.9,
+    3928.4,
+    370.5
+  ],
+  "source_projection": {
+    "road_id": 264,
+    "section_id": 0,
+    "lane_id": -3,
+    "s": 62.94499206542962,
+    "lane_type": "Biking",
+    "is_junction": false,
+    "junction_id": -1,
+    "xyz": [
+      853.8091430664062,
+      3928.404541015625,
+      370.4850158691406
+    ]
+  },
+  "projection_distance_m": 0.09222505241632462,
+  "chosen_successor_index": 0,
+  "successor_step_m": 2,
+  "max_iterations": 2000,
+  "trace": [
+    {
+      "iteration": 0,
+      "phase_before": 0,
+      "waypoint": {
+        "road_id": 264,
+        "section_id": 0,
+        "lane_id": -3,
+        "s": 62.94499206542962,
+        "lane_type": "Biking",
+        "is_junction": false,
+        "junction_id": -1,
+        "xyz": [
+          853.8091430664062,
+          3928.404541015625,
+          370.4850158691406
+        ]
+      },
+      "successor_count": 1,
+      "chosen_index": 0,
+      "branch_successors": [],
+      "distance_from_exit_m": null
+    },
+    {
+      "iteration": 1,
+      "phase_before": 0,
+      "waypoint": {
+        "road_id": 264,
+        "section_id": 0,
+        "lane_id": -3,
+        "s": 64.94499206542963,
+        "lane_type": "Biking",
+        "is_junction": false,
+        "junction_id": -1,
+        "xyz": [
+          855.7861938476562,
+          3928.70654296875,
+          370.4717712402344
+        ]
+      },
+      "successor_count": 1,
+      "chosen_index": 0,
+      "branch_successors": [],
+      "distance_from_exit_m": null
+    },
+    {
+      "iteration": 2,
+      "phase_before": 0,
+      "waypoint": {
+        "road_id": 264,
+        "section_id": 0,
+        "lane_id": -3,
+        "s": 66.94499206542963,
+        "lane_type": "Biking",
+        "is_junction": false,
+        "junction_id": -1,
+        "xyz": [
+          857.7633056640625,
+          3929.008544921875,
+          370.4583740234375
+        ]
+      },
+      "successor_count": 1,
+      "chosen_index": 0,
+      "branch_successors": [],
+      "distance_from_exit_m": null
+    },
+    {
+      "iteration": 3,
+      "phase_before": 0,
+      "waypoint": {
+        "road_id": 264,
+        "section_id": 0,
+        "lane_id": -3,
+        "s": 68.94499206542963,
+        "lane_type": "Biking",
+        "is_junction": false,
+        "junction_id": -1,
+        "xyz": [
+          859.7403564453125,
+          3929.310546875,
+          370.4449462890625
+        ]
+      },
+      "successor_count": 1,
+      "chosen_index": 0,
+      "branch_successors": [],
+      "distance_from_exit_m": null
+    },
+    {
+      "iteration": 4,
+      "phase_before": 0,
+      "waypoint": {
+        "road_id": 264,
+        "section_id": 0,
+        "lane_id": -3,
+        "s": 70.94499206542963,
+        "lane_type": "Biking",
+        "is_junction": false,
+        "junction_id": -1,
+        "xyz": [
+          861.7174072265625,
+          3929.612548828125,
+          370.4315185546875
+        ]
+      },
+      "successor_count": 1,
+      "chosen_index": 0,
+      "branch_successors": [],
+      "distance_from_exit_m": null
+    },
+    {
+      "iteration": 5,
+      "phase_before": 0,
+      "waypoint": {
+        "road_id": 264,
+        "section_id": 0,
+        "lane_id": -3,
+        "s": 72.94499206542963,
+        "lane_type": "Biking",
+        "is_junction": false,
+        "junction_id": -1,
+        "xyz": [
+          863.6945190429688,
+          3929.91455078125,
+          370.4180908203125
+        ]
+      },
+      "successor_count": 0,
+      "chosen_index": null,
+      "branch_successors": [],
+      "distance_from_exit_m": null
+    }
+  ],
+  "phase_changes": [],
+  "termination": "wp.next(2)_empty",
+  "phase_at_termination": 0
+}

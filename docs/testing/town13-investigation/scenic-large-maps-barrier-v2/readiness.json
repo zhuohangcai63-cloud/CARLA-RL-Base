@@ -1,0 +1,8 @@
+{
+  "operation": "read_only_readiness",
+  "attempts": 6,
+  "port": 2600,
+  "server_version": "0.9.15",
+  "world_id": 6798149639514644704,
+  "seconds": 6.499963423000736
+}

@@ -1,0 +1,527 @@
+[
+  {
+    "tid": 94859,
+    "name": "CarlaUE4-Linux-",
+    "wait_channel": "0"
+  },
+  {
+    "tid": 94905,
+    "name": "TaskGraphNP 0",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94906,
+    "name": "TaskGraphNP 1",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94907,
+    "name": "TaskGraphNP 2",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94908,
+    "name": "TaskGraphNP 3",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94909,
+    "name": "TaskGraphNP 4",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94910,
+    "name": "TaskGraphNP 5",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94911,
+    "name": "TaskGraphNP 6",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94912,
+    "name": "TaskGraphNP 7",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94913,
+    "name": "TaskGraphNP 8",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94914,
+    "name": "TaskGraphNP 9",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94915,
+    "name": "TaskGraphNP 10",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94916,
+    "name": "TaskGraphNP 11",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94917,
+    "name": "TaskGraphNP 12",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94918,
+    "name": "TaskGraphHP 13",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94919,
+    "name": "TaskGraphHP 14",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94920,
+    "name": "TaskGraphHP 15",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94921,
+    "name": "TaskGraphHP 16",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94922,
+    "name": "TaskGraphHP 17",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94923,
+    "name": "TaskGraphHP 18",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94924,
+    "name": "TaskGraphHP 19",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94925,
+    "name": "TaskGraphHP 20",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94926,
+    "name": "TaskGraphHP 21",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94927,
+    "name": "TaskGraphHP 22",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94928,
+    "name": "TaskGraphHP 23",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94929,
+    "name": "TaskGraphHP 24",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94930,
+    "name": "TaskGraphHP 25",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94931,
+    "name": "TaskGraphBP 26",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94932,
+    "name": "TaskGraphBP 27",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94933,
+    "name": "TaskGraphBP 28",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94934,
+    "name": "TaskGraphBP 29",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94935,
+    "name": "TaskGraphBP 30",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94936,
+    "name": "TaskGraphBP 31",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94937,
+    "name": "TaskGraphBP 32",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94938,
+    "name": "TaskGraphBP 33",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94939,
+    "name": "TaskGraphBP 34",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94940,
+    "name": "TaskGraphBP 35",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94941,
+    "name": "TaskGraphBP 36",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94942,
+    "name": "TaskGraphBP 37",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94943,
+    "name": "TaskGraphBP 38",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94944,
+    "name": "StatsThread",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94945,
+    "name": "PoolThread 0",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94946,
+    "name": "PoolThread 1",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94947,
+    "name": "PoolThread 2",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94948,
+    "name": "PoolThread 3",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94949,
+    "name": "PoolThread 4",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94950,
+    "name": "PoolThread 5",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94951,
+    "name": "PoolThread 6",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94952,
+    "name": "PoolThread 7",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94953,
+    "name": "PoolThread 8",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94954,
+    "name": "PoolThread 9",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94955,
+    "name": "PoolThread 10",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94956,
+    "name": "PoolThread 11",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94957,
+    "name": "PoolThread 12",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94958,
+    "name": "PoolThread 13",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94959,
+    "name": "PoolThread 14",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94962,
+    "name": "HttpManager",
+    "wait_channel": "hrtimer_nanosleep"
+  },
+  {
+    "tid": 94963,
+    "name": "OnlineA-ance(1)",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94964,
+    "name": "PoolThread 15",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94965,
+    "name": "PoolThread 16",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94966,
+    "name": "PoolThread 17",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94967,
+    "name": "PoolThread 18",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94968,
+    "name": "SDLTimer",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94970,
+    "name": "CarlaUE4-Linux-",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94971,
+    "name": "[vkcf] Analysis",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94973,
+    "name": "[vkrt] Analysis",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94974,
+    "name": "[vkps] Update",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94993,
+    "name": "CarlaUE4-Linux-",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94994,
+    "name": "FMediaTicker",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94995,
+    "name": "RHIThread",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94998,
+    "name": "PoolThread 19",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 94999,
+    "name": "PoolThread 20",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 95000,
+    "name": "PoolThread 21",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 95001,
+    "name": "PoolThread 22",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 95002,
+    "name": "PoolThread 23",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 95003,
+    "name": "PoolThread 24",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 95004,
+    "name": "PoolThread 25",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 95005,
+    "name": "PoolThread 26",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 95006,
+    "name": "PoolThread 27",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 95007,
+    "name": "PoolThread 28",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 95008,
+    "name": "PoolThread 29",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 95009,
+    "name": "PoolThread 30",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 95010,
+    "name": "PoolThread 31",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 95011,
+    "name": "PoolThread 32",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 95012,
+    "name": "FAsyncPurge",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 95044,
+    "name": "server",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 95045,
+    "name": "server",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 95046,
+    "name": "server",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 95047,
+    "name": "server",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 95048,
+    "name": "server",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 95049,
+    "name": "server",
+    "wait_channel": "ep_poll"
+  },
+  {
+    "tid": 95050,
+    "name": "CarlaUE4-Linux-",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 95051,
+    "name": "CarlaUE4-Linux-",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 95052,
+    "name": "CarlaUE4-Linux-",
+    "wait_channel": "ep_poll"
+  },
+  {
+    "tid": 95053,
+    "name": "CarlaUE4-Linux-",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 95054,
+    "name": "CarlaUE4-Linux-",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 95055,
+    "name": "CarlaUE4-Linux-",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 95056,
+    "name": "CarlaUE4-Linux-",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 95057,
+    "name": "CarlaUE4-Linux-",
+    "wait_channel": "ep_poll"
+  },
+  {
+    "tid": 95058,
+    "name": "CarlaUE4-Linux-",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 95059,
+    "name": "CarlaUE4-Linux-",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 95060,
+    "name": "CarlaUE4-Linux-",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 95061,
+    "name": "CarlaUE4-Linux-",
+    "wait_channel": "futex_do_wait"
+  },
+  {
+    "tid": 96150,
+    "name": "RenderThread 2",
+    "wait_channel": "0"
+  },
+  {
+    "tid": 96151,
+    "name": "RTHeartBeat 2",
+    "wait_channel": "hrtimer_nanosleep"
+  }
+]

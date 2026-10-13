@@ -1,0 +1,44 @@
+import argparse,subprocess,os,time,json,signal,shutil
+from pathlib import Path
+p=argparse.ArgumentParser();p.add_argument('name');p.add_argument('--arg',action='append',default=[]);p.add_argument('--timeout',type=float,default=900);p.add_argument('cmd',nargs=argparse.REMAINDER);a=p.parse_args()
+base=Path('/home/czh/workspace/CARLA-RL-Base/docs/testing/town13-investigation');folder=base/a.name;folder.mkdir(parents=True,exist_ok=True)
+root=Path('/home/czh/software/carla'); binary=root/'CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping'
+cmd=[str(binary),'CarlaUE4','-RenderOffScreen','-quality-level=Low','-nosound','-carla-rpc-port=2600','-carla-streaming-port=2601','-carla-secondary-port=2602','-ResX=400','-ResY=300',*a.arg]
+# Only owned child processes are terminated. Never attach to/restart a pre-existing CARLA.
+import socket,fcntl
+Path(f'/tmp/easycarla-{os.getuid()}').mkdir(mode=0o700,exist_ok=True);lock=open(f'/tmp/easycarla-{os.getuid()}/diagnostic-port-2600.lock','a+');fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
+for port in (2600,2601,2602):
+ s=socket.socket();s.bind(('127.0.0.1',port));s.close()
+aer=lambda: Path('/sys/bus/pci/devices/0000:01:00.0/aer_dev_correctable').read_text()
+rep={'aer_start':aer(),'server_command':cmd,'client_command':a.cmd,'samples':[],'started':time.time()}
+log=open(folder/'server.txt','w');clog=open(folder/'client.txt','w');srv=subprocess.Popen(cmd,cwd=root,stdout=log,stderr=subprocess.STDOUT,start_new_session=True);rep['server_pid']=srv.pid
+client=None
+try:
+ ccmd=[v.replace('{OUT}',str(folder/'probe.json')) for v in a.cmd]
+ client=subprocess.Popen(ccmd,stdout=clog,stderr=subprocess.STDOUT,start_new_session=True)
+ deadline=time.monotonic()+a.timeout
+ while client.poll() is None and srv.poll() is None and time.monotonic()<deadline:
+  sample={'elapsed':time.time()-rep['started']}
+  try:
+   st=Path(f'/proc/{srv.pid}/status').read_text();sample['rss_kib']=int(next(v for v in st.splitlines() if v.startswith('VmRSS:')).split()[1])
+   sample['memory_available_kib']=int(next(v for v in Path('/proc/meminfo').read_text().splitlines() if v.startswith('MemAvailable:')).split()[1])
+   sample['gpu']=subprocess.check_output(['nvidia-smi','--query-gpu=memory.used,utilization.gpu,temperature.gpu','--format=csv,noheader,nounits'],text=True,timeout=3).strip()
+  except Exception as ex:sample['error']=str(ex)
+  rep['samples'].append(sample);(folder/'lifecycle.json').write_text(json.dumps(rep,indent=2)+'\n');time.sleep(1)
+ rep['server_alive_after_client']=srv.poll() is None
+ if client.poll() is None:
+  rep['client_terminated_by_parent']='server_exited' if srv.poll() is not None else 'deadline'
+  os.killpg(client.pid,signal.SIGTERM)
+  try:client.wait(5)
+  except subprocess.TimeoutExpired:os.killpg(client.pid,signal.SIGKILL);client.wait()
+ rep['client_exit']=client.returncode
+finally:
+ rep['server_exit_before_stop']=srv.poll()
+ if srv.poll() is None:
+  rep['stop']='SIGTERM';os.killpg(srv.pid,signal.SIGTERM)
+  try:srv.wait(25)
+  except subprocess.TimeoutExpired:rep['stop']='SIGTERM_then_SIGKILL';os.killpg(srv.pid,signal.SIGKILL);srv.wait()
+ rep['server_exit']=srv.returncode;rep['finished']=time.time();rep['aer_end']=aer()
+ for crash in Path('/home/czh/.config/Epic/CarlaUE4/Saved/Crashes').glob(f'crashinfo-CarlaUE4-pid-{srv.pid}-*'):
+  shutil.copytree(crash,folder/'crash',dirs_exist_ok=True)
+ (folder/'lifecycle.json').write_text(json.dumps(rep,indent=2)+'\n');print(json.dumps({k:v for k,v in rep.items() if k!='samples'}),flush=True)

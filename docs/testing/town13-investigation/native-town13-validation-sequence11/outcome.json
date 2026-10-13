@@ -1,0 +1,301 @@
+{
+  "schema_version": 1,
+  "status": "server_crashed_during_initialization",
+  "derived_at_utc": "2026-09-28T05:33:37.863008+00:00",
+  "scope": "First 11 routes selected from the Town13 41-route manifest, in the same order; this run is not an attempt at all 41 routes",
+  "source_sha256": {
+    "summary.json": "68d9f02abb12f66099ca7ae3b6c0f2a24b9133bc03d4c1d08e168bbbfbdc5734",
+    "probe.json": "78f9c7accabb6686fa31d53d388cd61dca0547245d32da27b47d66bd7832c729",
+    "client.txt": "2978ae00c3f95758ce28d48c60b497b93226c28c42cd77bd69a86b017838d68e",
+    "server.txt": "bf7955f5f51dad3d6e6f979bbaa43008a8d29f4db2364a6712dad1cfd24f9f61",
+    "samples.jsonl": "7ca964f4d3ba2873df5f4bd652d962c8c3e4813853dc76a21ce505b9a99821ca",
+    "diagnostic-environment.json": "9a1a8dd8996ba3a3bea0f0d4c81a83f5d12ebe74960a5ca05bbc51788663058a",
+    "crashes/crashinfo-CarlaUE4-pid-234132-DC7A3521B2484DB588431A6B7EDD5D25/CrashContext.runtime-xml": "a0a2953e92d1d604e04119a617a06830d27ef95d3fae061d824b07009aa6ea03",
+    "crashes/crashinfo-CarlaUE4-pid-234132-DC7A3521B2484DB588431A6B7EDD5D25/Diagnostics.txt": "82b7082097ddcd72cc001e4e847d51e95f17ef42fe0ff1f97f902d5025a1e2d5",
+    "crashes/crashinfo-CarlaUE4-pid-234132-DC7A3521B2484DB588431A6B7EDD5D25/CrashReportClient.ini": "bef31ccf1777031eb19e7b55b387ac3a66b591c5a3fd43902deb6c01d8e63943"
+  },
+  "raw_probe_status": "running",
+  "raw_probe_unchanged": true,
+  "runtime_passed": false,
+  "lifecycle_passed": false,
+  "passed": false,
+  "route_count": 11,
+  "parent_manifest_route_count": 41,
+  "returned_routes": 10,
+  "returned_execution_counts": {
+    "tick_budget_reached": 6,
+    "completed": 4
+  },
+  "confirmed_step_ticks": 7847,
+  "confirmed_initialization_ticks_returned_routes": 74,
+  "returned_route_results": [
+    {
+      "route_id": "34183",
+      "town": "Town13",
+      "scenario_types": [
+        "NonSignalizedJunctionLeftTurnEnterFlow"
+      ],
+      "execution": "tick_budget_reached",
+      "ticks": 1000,
+      "native_success": false,
+      "tick_counts": {
+        "initialization": 4,
+        "step": 1000
+      },
+      "remaining_owned_resources": 0
+    },
+    {
+      "route_id": "3483",
+      "town": "Town13",
+      "scenario_types": [
+        "StaticCutIn"
+      ],
+      "execution": "completed",
+      "ticks": 427,
+      "native_success": true,
+      "tick_counts": {
+        "initialization": 10,
+        "step": 427
+      },
+      "remaining_owned_resources": 0
+    },
+    {
+      "route_id": "37969",
+      "town": "Town13",
+      "scenario_types": [
+        "MergerIntoSlowTrafficV2"
+      ],
+      "execution": "completed",
+      "ticks": 536,
+      "native_success": true,
+      "tick_counts": {
+        "initialization": 4,
+        "step": 536
+      },
+      "remaining_owned_resources": 0
+    },
+    {
+      "route_id": "3475",
+      "town": "Town13",
+      "scenario_types": [
+        "VehicleOpensDoorTwoWays"
+      ],
+      "execution": "tick_budget_reached",
+      "ticks": 1000,
+      "native_success": false,
+      "tick_counts": {
+        "initialization": 5,
+        "step": 1000
+      },
+      "remaining_owned_resources": 0
+    },
+    {
+      "route_id": "32221",
+      "town": "Town13",
+      "scenario_types": [
+        "VehicleOpensDoorTwoWays"
+      ],
+      "execution": "completed",
+      "ticks": 403,
+      "native_success": true,
+      "tick_counts": {
+        "initialization": 5,
+        "step": 403
+      },
+      "remaining_owned_resources": 0
+    },
+    {
+      "route_id": "29893",
+      "town": "Town13",
+      "scenario_types": [
+        "ConstructionObstacleTwoWays"
+      ],
+      "execution": "tick_budget_reached",
+      "ticks": 1000,
+      "native_success": false,
+      "tick_counts": {
+        "initialization": 14,
+        "step": 1000
+      },
+      "remaining_owned_resources": 0
+    },
+    {
+      "route_id": "28387",
+      "town": "Town13",
+      "scenario_types": [
+        "HazardAtSideLane"
+      ],
+      "execution": "tick_budget_reached",
+      "ticks": 1000,
+      "native_success": false,
+      "tick_counts": {
+        "initialization": 6,
+        "step": 1000
+      },
+      "remaining_owned_resources": 0
+    },
+    {
+      "route_id": "31045",
+      "town": "Town13",
+      "scenario_types": [
+        "AccidentTwoWays"
+      ],
+      "execution": "tick_budget_reached",
+      "ticks": 1000,
+      "native_success": false,
+      "tick_counts": {
+        "initialization": 8,
+        "step": 1000
+      },
+      "remaining_owned_resources": 0
+    },
+    {
+      "route_id": "36792",
+      "town": "Town13",
+      "scenario_types": [
+        "MergerIntoSlowTrafficV2"
+      ],
+      "execution": "completed",
+      "ticks": 481,
+      "native_success": true,
+      "tick_counts": {
+        "initialization": 4,
+        "step": 481
+      },
+      "remaining_owned_resources": 0
+    },
+    {
+      "route_id": "29770",
+      "town": "Town13",
+      "scenario_types": [
+        "ConstructionObstacleTwoWays"
+      ],
+      "execution": "tick_budget_reached",
+      "ticks": 1000,
+      "native_success": false,
+      "tick_counts": {
+        "initialization": 14,
+        "step": 1000
+      },
+      "remaining_owned_resources": 0
+    }
+  ],
+  "interrupted_route": {
+    "ordinal": 11,
+    "route_id": "3816",
+    "town": "Town13",
+    "scenario_type": "HighwayCutIn",
+    "outcome": "unknown",
+    "last_confirmed_stage": "LOADED",
+    "next_stage_not_observed": "PREPARED",
+    "raw_execution": "running",
+    "raw_ticks": 0,
+    "interpretation": "Initialization was interrupted by server SIGSEGV. The unfinished ticks=0 record is not an acknowledged zero-step transition or a complete count of initialization work."
+  },
+  "not_run_count_within_selected_subset": 0,
+  "unselected_parent_manifest_routes": 30,
+  "server_runtime_crash_observed": true,
+  "server_exit_before_stop": -11,
+  "server_exit": -11,
+  "client_exit": -15,
+  "client_exit_explanation": "Parent sent SIGTERM after the server had exited; client -15 is not a separate observed client SIGSEGV.",
+  "explicit_server_stop": false,
+  "shutdown_outcome": "server_exited_before_stop",
+  "elapsed_seconds": 701.3523578149998,
+  "elapsed_seconds_scope": "Diagnostic wrapper wall time including startup, execution, crash detection and cleanup; not simulation time.",
+  "peaks": {
+    "server_rss_kib": 9609272,
+    "gpu_0_memory_used_mib": 8304.0
+  },
+  "validation_conditions": {
+    "seed": 123,
+    "tick_budget_per_route": 1000,
+    "world_reload_each_route": true,
+    "episode_readiness_barrier": true,
+    "simulation": {
+      "host": "127.0.0.1",
+      "port": 2600,
+      "tm_port": 8600,
+      "timeout": 90.0,
+      "physics_dt": 0.05,
+      "decision_dt": 0.2,
+      "history_dt": 0.1,
+      "reload_on_reset": true,
+      "no_rendering_mode": false,
+      "map_layers": "all",
+      "spectator_as_ego": false,
+      "tile_stream_distance": 650.0,
+      "actor_active_distance": 650.0,
+      "map_overrides": {},
+      "carla_root": "/home/czh/software/carla"
+    },
+    "profile": "conservative v2: Epic, AsyncPipelineCompile=0, EnableDefrag=0, WaitForIdleOnSubmit=0, -norhithread",
+    "profile_evidence": "../conservative-v2-profile.json",
+    "vulkan_validation_layer": "VK_LAYER_KHRONOS_validation",
+    "vulkan_layer_evidence": "diagnostic-environment.json",
+    "vulkan_layer_profile": "../vulkan-validation-profile.json",
+    "instance_layer_log_line": 367,
+    "device_layer_log_line": 387
+  },
+  "native_crash": {
+    "signal": "SIGSEGV",
+    "diagnostic_message": "SIGSEGV: invalid attempt to write memory at address 0x0000000000000000",
+    "stack_prefix": [
+      "libc.so.6",
+      "FVulkanResourceMultiBuffer::FVulkanResourceMultiBuffer",
+      "FVulkanDynamicRHI::RHICreateVertexBuffer",
+      "FPositionVertexBuffer::CreateRHIBuffer_Internal"
+    ],
+    "interpretation": "This run failed on the UE Vulkan vertex-buffer creation/upload path; it is not the exact driver/index-buffer stack of the preceding non-validation run."
+  },
+  "validation_messages": {
+    "counting_method": "One count per message header line; repeated VUID text and spec links on the same line are not counted again.",
+    "error_headers": 19,
+    "warning_headers": 6,
+    "errors_by_vuid": {
+      "VUID-vkCreateDevice-ppEnabledExtensionNames-01387": 1,
+      "VUID-vkCmdWriteTimestamp-None-00830": 3,
+      "VUID-VkImageCreateInfo-flags-04738": 3,
+      "VUID-VkShaderModuleCreateInfo-pCode-08742": 3,
+      "VUID-RuntimeSpirv-OpImageWrite-07112": 3,
+      "VUID-vkCmdCopyBuffer-size-00116": 3,
+      "VUID-vkCmdDrawIndexed-robustBufferAccess2-07825": 3
+    },
+    "buffer_copy_out_of_bounds_message_lines": [
+      468,
+      472,
+      476
+    ],
+    "index_buffer_out_of_bounds_message_lines": [
+      481,
+      486,
+      491
+    ],
+    "interpretation": "Copy and indexed draw VUIDs demonstrate invalid logical buffer bounds in the observed calls. They do not establish that every observed SIGSEGV has this unique root cause. The log has no complete per-buffer allocation/lifetime trace.",
+    "duplicate_limit": 3,
+    "counts_are_occurrence_lower_bounds": true,
+    "analysis": "../vulkan-validation-notes.md"
+  },
+  "redaction": {
+    "scope": "Only copied CrashContext.runtime-xml in this run; original installed Saved files unchanged",
+    "files": [
+      {
+        "path": "crashes/crashinfo-CarlaUE4-pid-234132-DC7A3521B2484DB588431A6B7EDD5D25/CrashContext.runtime-xml",
+        "sha256_before": "b584f0c1ee434adf198ac2195340f15fb0f3692c9b01d73e0f62e691565200c0",
+        "sha256_after": "a0a2953e92d1d604e04119a617a06830d27ef95d3fae061d824b07009aa6ea03",
+        "removed_fields": [
+          "MachineId",
+          "LoginId"
+        ],
+        "method": "Remove complete MachineId and LoginId XML lines; remaining bytes preserved; installed Saved original unchanged"
+      }
+    ]
+  },
+  "limitations": [
+    "The selected subset contains only 11 routes; do not label this run as a completed or attempted full 41-route validation.",
+    "Four completed execution records are distinct from six budget-limited runs; native_success is a separate field.",
+    "The validation layer changes overhead, memory layout and timing. It is diagnostic instrumentation, not a stability fix.",
+    "The ended raw probe retains running because native failure interrupted the writer; route 3816 has an unknown execution result.",
+    "No automatic restart, replay or replacement scenario was used."
+  ]
+}

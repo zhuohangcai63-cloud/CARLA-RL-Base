@@ -1,0 +1,489 @@
+{
+  "batch_id": "d09a92fc-d0a3-42b1-9786-ea94bfe640ef",
+  "created_utc": "2026-09-27T15:40:37.200319+00:00",
+  "status": "finished",
+  "original_stopped_report": "docs/testing/platform-bench2drive-matrix220-headless.json",
+  "selection": "Exactly original execution=not_run; unknown route22331 is excluded, no replay or recovery of prior actions",
+  "one_new_server_only": true,
+  "stop_on_uncertain_outcome": true,
+  "server_bootstrap_report": "platform-town15-bootstrap.json",
+  "patch_version": 4,
+  "native_scenario_progress_schema": 1,
+  "map_order": [
+    "Town15",
+    "Town12"
+  ],
+  "tick_budget": 1500,
+  "routes": [
+    {
+      "route_id": "26537",
+      "town": "Town15",
+      "scenario_types": [
+        "ParkingExit"
+      ]
+    },
+    {
+      "route_id": "26828",
+      "town": "Town15",
+      "scenario_types": [
+        "InvadingTurn"
+      ]
+    },
+    {
+      "route_id": "469",
+      "town": "Town15",
+      "scenario_types": [
+        "YieldToEmergencyVehicle"
+      ]
+    },
+    {
+      "route_id": "25215",
+      "town": "Town15",
+      "scenario_types": [
+        "Accident"
+      ]
+    },
+    {
+      "route_id": "26723",
+      "town": "Town15",
+      "scenario_types": [
+        "ControlLoss"
+      ]
+    },
+    {
+      "route_id": "27043",
+      "town": "Town15",
+      "scenario_types": [
+        "SignalizedJunctionRightTurn"
+      ]
+    },
+    {
+      "route_id": "14382",
+      "town": "Town12",
+      "scenario_types": [
+        "PedestrianCrossing"
+      ]
+    },
+    {
+      "route_id": "21009",
+      "town": "Town12",
+      "scenario_types": [
+        "HazardAtSideLaneTwoWays"
+      ]
+    },
+    {
+      "route_id": "4",
+      "town": "Town12",
+      "scenario_types": [
+        "InterurbanActorFlow"
+      ]
+    },
+    {
+      "route_id": "12",
+      "town": "Town12",
+      "scenario_types": [
+        "InterurbanActorFlow"
+      ]
+    },
+    {
+      "route_id": "24",
+      "town": "Town12",
+      "scenario_types": [
+        "InterurbanActorFlow"
+      ]
+    },
+    {
+      "route_id": "28",
+      "town": "Town12",
+      "scenario_types": [
+        "InterurbanActorFlow"
+      ]
+    },
+    {
+      "route_id": "2614",
+      "town": "Town12",
+      "scenario_types": [
+        "ConstructionObstacleTwoWays"
+      ]
+    },
+    {
+      "route_id": "10791",
+      "town": "Town12",
+      "scenario_types": [
+        "VehicleTurningRoutePedestrian"
+      ]
+    },
+    {
+      "route_id": "22622",
+      "town": "Town12",
+      "scenario_types": [
+        "ParkingExit"
+      ]
+    },
+    {
+      "route_id": "4734",
+      "town": "Town12",
+      "scenario_types": [
+        "SignalizedJunctionLeftTurn"
+      ]
+    },
+    {
+      "route_id": "18647",
+      "town": "Town12",
+      "scenario_types": [
+        "ConstructionObstacle"
+      ]
+    },
+    {
+      "route_id": "16502",
+      "town": "Town12",
+      "scenario_types": [
+        "VanillaNonSignalizedTurn"
+      ]
+    },
+    {
+      "route_id": "9218",
+      "town": "Town12",
+      "scenario_types": [
+        "OppositeVehicleTakingPriority"
+      ]
+    },
+    {
+      "route_id": "10552",
+      "town": "Town12",
+      "scenario_types": [
+        "VehicleTurningRoutePedestrian"
+      ]
+    },
+    {
+      "route_id": "21994",
+      "town": "Town12",
+      "scenario_types": [
+        "VehicleOpensDoorTwoWays"
+      ]
+    },
+    {
+      "route_id": "18551",
+      "town": "Town12",
+      "scenario_types": [
+        "ConstructionObstacle"
+      ]
+    },
+    {
+      "route_id": "18543",
+      "town": "Town12",
+      "scenario_types": [
+        "ConstructionObstacle"
+      ]
+    },
+    {
+      "route_id": "6951",
+      "town": "Town12",
+      "scenario_types": [
+        "NonSignalizedJunctionLeftTurn"
+      ]
+    },
+    {
+      "route_id": "21496",
+      "town": "Town12",
+      "scenario_types": [
+        "ParkedObstacleTwoWays"
+      ]
+    },
+    {
+      "route_id": "17965",
+      "town": "Town12",
+      "scenario_types": [
+        "DynamicObjectCrossing"
+      ]
+    },
+    {
+      "route_id": "18160",
+      "town": "Town12",
+      "scenario_types": [
+        "DynamicObjectCrossing"
+      ]
+    },
+    {
+      "route_id": "16522",
+      "town": "Town12",
+      "scenario_types": [
+        "VanillaNonSignalizedTurn"
+      ]
+    },
+    {
+      "route_id": "18907",
+      "town": "Town12",
+      "scenario_types": [
+        "Accident"
+      ]
+    },
+    {
+      "route_id": "27823",
+      "town": "Town15",
+      "scenario_types": [
+        "T_Junction"
+      ]
+    },
+    {
+      "route_id": "18857",
+      "town": "Town12",
+      "scenario_types": [
+        "ConstructionObstacle"
+      ]
+    },
+    {
+      "route_id": "21411",
+      "town": "Town12",
+      "scenario_types": [
+        "HazardAtSideLaneTwoWays"
+      ]
+    },
+    {
+      "route_id": "23199",
+      "town": "Town12",
+      "scenario_types": [
+        "ControlLoss"
+      ]
+    },
+    {
+      "route_id": "21102",
+      "town": "Town12",
+      "scenario_types": [
+        "HazardAtSideLaneTwoWays"
+      ]
+    },
+    {
+      "route_id": "18490",
+      "town": "Town12",
+      "scenario_types": [
+        "ConstructionObstacle"
+      ]
+    },
+    {
+      "route_id": "7165",
+      "town": "Town12",
+      "scenario_types": [
+        "NonSignalizedJunctionLeftTurn"
+      ]
+    },
+    {
+      "route_id": "4027",
+      "town": "Town12",
+      "scenario_types": [
+        "SignalizedJunctionLeftTurn"
+      ]
+    },
+    {
+      "route_id": "15483",
+      "town": "Town12",
+      "scenario_types": [
+        "VanillaSignalizedTurnEncounterRedLight"
+      ]
+    },
+    {
+      "route_id": "22584",
+      "town": "Town12",
+      "scenario_types": [
+        "ParkingExit"
+      ]
+    },
+    {
+      "route_id": "23469",
+      "town": "Town12",
+      "scenario_types": [
+        "ControlLoss"
+      ]
+    },
+    {
+      "route_id": "37447",
+      "town": "Town12",
+      "scenario_types": [
+        "MergerIntoSlowTrafficV2"
+      ]
+    },
+    {
+      "route_id": "21503",
+      "town": "Town12",
+      "scenario_types": [
+        "ParkedObstacleTwoWays"
+      ]
+    },
+    {
+      "route_id": "4582",
+      "town": "Town12",
+      "scenario_types": [
+        "SignalizedJunctionLeftTurn"
+      ]
+    },
+    {
+      "route_id": "20999",
+      "town": "Town12",
+      "scenario_types": [
+        "HazardAtSideLaneTwoWays"
+      ]
+    },
+    {
+      "route_id": "18027",
+      "town": "Town12",
+      "scenario_types": [
+        "DynamicObjectCrossing"
+      ]
+    },
+    {
+      "route_id": "7230",
+      "town": "Town12",
+      "scenario_types": [
+        "NonSignalizedJunctionLeftTurn"
+      ]
+    },
+    {
+      "route_id": "35907",
+      "town": "Town12",
+      "scenario_types": [
+        "CrossingBicycleFlow"
+      ]
+    },
+    {
+      "route_id": "7456",
+      "town": "Town12",
+      "scenario_types": [
+        "NonSignalizedJunctionLeftTurn"
+      ]
+    },
+    {
+      "route_id": "2460",
+      "town": "Town12",
+      "scenario_types": [
+        "DynamicObjectCrossing"
+      ]
+    },
+    {
+      "route_id": "26370",
+      "town": "Town15",
+      "scenario_types": [
+        "VehicleOpensDoorTwoWays"
+      ]
+    },
+    {
+      "route_id": "10089",
+      "town": "Town12",
+      "scenario_types": [
+        "VehicleTurningRoute"
+      ]
+    },
+    {
+      "route_id": "19207",
+      "town": "Town12",
+      "scenario_types": [
+        "Accident"
+      ]
+    },
+    {
+      "route_id": "9395",
+      "town": "Town12",
+      "scenario_types": [
+        "OppositeVehicleTakingPriority"
+      ]
+    },
+    {
+      "route_id": "26153",
+      "town": "Town15",
+      "scenario_types": [
+        "ParkedObstacleTwoWays"
+      ]
+    },
+    {
+      "route_id": "11738",
+      "town": "Town12",
+      "scenario_types": [
+        "EnterActorFlow"
+      ]
+    },
+    {
+      "route_id": "16542",
+      "town": "Town12",
+      "scenario_types": [
+        "VanillaNonSignalizedTurn"
+      ]
+    },
+    {
+      "route_id": "35623",
+      "town": "Town12",
+      "scenario_types": [
+        "CrossingBicycleFlow"
+      ]
+    },
+    {
+      "route_id": "4621",
+      "town": "Town12",
+      "scenario_types": [
+        "SignalizedJunctionLeftTurn"
+      ]
+    },
+    {
+      "route_id": "10793",
+      "town": "Town12",
+      "scenario_types": [
+        "VehicleTurningRoutePedestrian"
+      ]
+    },
+    {
+      "route_id": "17853",
+      "town": "Town12",
+      "scenario_types": [
+        "DynamicObjectCrossing"
+      ]
+    },
+    {
+      "route_id": "4619",
+      "town": "Town12",
+      "scenario_types": [
+        "SignalizedJunctionLeftTurn"
+      ]
+    },
+    {
+      "route_id": "24693",
+      "town": "Town15",
+      "scenario_types": [
+        "ParkingCrossingPedestrian"
+      ]
+    },
+    {
+      "route_id": "23604",
+      "town": "Town12",
+      "scenario_types": [
+        "ControlLoss"
+      ]
+    },
+    {
+      "route_id": "11010",
+      "town": "Town12",
+      "scenario_types": [
+        "VehicleTurningRoutePedestrian"
+      ]
+    },
+    {
+      "route_id": "10220",
+      "town": "Town12",
+      "scenario_types": [
+        "VehicleTurningRoute"
+      ]
+    }
+  ],
+  "reports": [
+    {
+      "town": "Town15",
+      "path": "docs/testing/platform-followup65-Town15.json",
+      "status": "finished"
+    },
+    {
+      "town": "Town12",
+      "path": "docs/testing/platform-followup65-Town12.json",
+      "status": "finished"
+    }
+  ],
+  "server_pid": 321652,
+  "finished_utc": "2026-09-27T16:09:12.445800+00:00",
+  "note": "Known per-route construction failures are retained; finished describes completing the attempted list, not every scene passing."
+}

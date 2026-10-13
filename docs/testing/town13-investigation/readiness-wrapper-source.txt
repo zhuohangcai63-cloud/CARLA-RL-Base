@@ -1,0 +1,36 @@
+"""Read-only readiness wrapper for a separately owned diagnostic simulator."""
+import json
+import os
+from pathlib import Path
+import runpy
+import sys
+import time
+import carla
+
+started = time.monotonic()
+port = int(os.environ.get('EASYCARLA_DIAGNOSTIC_PORT', '2600'))
+record = {'operation': 'read_only_readiness', 'attempts': 0, 'port': port}
+while True:
+    record['attempts'] += 1
+    try:
+        client = carla.Client('127.0.0.1', port)
+        client.set_timeout(1)
+        record['server_version'] = client.get_server_version()
+        record['world_id'] = client.get_world().id
+        break
+    except RuntimeError as exc:
+        if time.monotonic() - started > 90:
+            raise
+        time.sleep(.1)
+record['seconds'] = time.monotonic() - started
+print(json.dumps(record), flush=True)
+if os.environ.get('EASYCARLA_DIAGNOSTIC_OUTPUT_DIR'):
+    Path(os.environ['EASYCARLA_DIAGNOSTIC_OUTPUT_DIR'], 'readiness.json').write_text(json.dumps(record, indent=2)+'\n')
+del client
+sys.argv = sys.argv[1:]
+if sys.argv[0] == '-m':
+    module = sys.argv[1]
+    sys.argv = [module, *sys.argv[2:]]
+    runpy.run_module(module, run_name='__main__', alter_sys=True)
+else:
+    runpy.run_path(sys.argv[0], run_name='__main__')

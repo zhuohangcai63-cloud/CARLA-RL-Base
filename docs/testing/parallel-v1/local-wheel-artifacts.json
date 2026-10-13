@@ -1,0 +1,13 @@
+{
+  "directory": "/home/czh/workspace/CARLA-RL-Base/artifacts/wheels",
+  "artifacts": {
+    "easycarla-0.2.0-py3-none-any.whl": {
+      "sha256": "8d7f0c97168ae669f6ba3d0b8df04db36ecf06fb94948557012a42b13c187a23",
+      "bytes": 148402
+    },
+    "easycarla_client-0.2.0-py3-none-any.whl": {
+      "sha256": "c3e2558b5882f47cb27519ef478b16ec49d1b24871ab9483e0083eea72a29738",
+      "bytes": 18846
+    }
+  }
+}

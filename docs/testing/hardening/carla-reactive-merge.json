@@ -1,0 +1,4539 @@
+{
+  "backend": "carla",
+  "execution_passed": true,
+  "seed": 7,
+  "steps": 32,
+  "terminated": true,
+  "truncated": false,
+  "reason": "collision",
+  "controllers": {
+    "merge_near": {
+      "version": "reactive-vehicle-1",
+      "actor_id": "merge_near",
+      "seed": 7,
+      "randomize": false,
+      "target_speed": 5.0,
+      "route": [
+        [
+          -114.5127182006836,
+          -80.14429473876953
+        ],
+        [
+          -114.31460571289062,
+          -82.2819595336914
+        ],
+        [
+          -113.93608856201172,
+          -84.39893341064453
+        ],
+        [
+          -113.40277099609375,
+          -86.48658752441406
+        ],
+        [
+          -112.7404556274414,
+          -88.53907775878906
+        ],
+        [
+          -111.97499084472656,
+          -90.55332946777344
+        ],
+        [
+          -111.13204956054688,
+          -92.52902221679688
+        ],
+        [
+          -110.23695373535156,
+          -94.46858978271484
+        ],
+        [
+          -109.31449890136719,
+          -96.37713623046875
+        ],
+        [
+          -108.38871765136719,
+          -98.262451171875
+        ],
+        [
+          -107.48279571533203,
+          -100.13490295410156
+        ],
+        [
+          -106.6187515258789,
+          -102.0074234008789
+        ],
+        [
+          -105.81741333007812,
+          -103.89535522460938
+        ],
+        [
+          -105.02751922607422,
+          -105.78582000732422
+        ],
+        [
+          -104.18509674072266,
+          -107.65348052978516
+        ],
+        [
+          -103.29080963134766,
+          -109.49685668945312
+        ],
+        [
+          -102.3453369140625,
+          -111.31451416015625
+        ],
+        [
+          -101.34943389892578,
+          -113.10503387451172
+        ],
+        [
+          -100.30387115478516,
+          -114.86702728271484
+        ],
+        [
+          -99.20948028564453,
+          -116.59910583496094
+        ],
+        [
+          -98.05326080322266,
+          -118.3111801147461
+        ],
+        [
+          -96.81092834472656,
+          -119.98323059082031
+        ],
+        [
+          -95.49048614501953,
+          -121.59431457519531
+        ],
+        [
+          -94.09490966796875,
+          -123.14076232910156
+        ],
+        [
+          -92.62737274169922,
+          -124.61909484863281
+        ],
+        [
+          -91.09117889404297,
+          -126.02596282958984
+        ],
+        [
+          -89.48982238769531,
+          -127.35818481445312
+        ],
+        [
+          -87.82691955566406,
+          -128.61273193359375
+        ],
+        [
+          -86.10623168945312,
+          -129.78677368164062
+        ],
+        [
+          -84.33165740966797,
+          -130.87765502929688
+        ],
+        [
+          -82.50720977783203,
+          -131.88291931152344
+        ],
+        [
+          -80.63701629638672,
+          -132.80026245117188
+        ],
+        [
+          -78.7253189086914,
+          -133.6276397705078
+        ],
+        [
+          -76.77642822265625,
+          -134.3631591796875
+        ],
+        [
+          -74.79476165771484,
+          -135.00515747070312
+        ],
+        [
+          -72.7848129272461,
+          -135.55218505859375
+        ],
+        [
+          -70.7511215209961,
+          -136.0030059814453
+        ],
+        [
+          -68.69829559326172,
+          -136.35659790039062
+        ],
+        [
+          -66.63097381591797,
+          -136.61215209960938
+        ],
+        [
+          -64.5538330078125,
+          -136.7691192626953
+        ],
+        [
+          -62.4752311706543,
+          -136.82717895507812
+        ],
+        [
+          -60.47526931762695,
+          -136.8394775390625
+        ],
+        [
+          -58.47530746459961,
+          -136.8517608642578
+        ],
+        [
+          -56.475345611572266,
+          -136.8640594482422
+        ],
+        [
+          -54.47538375854492,
+          -136.8763427734375
+        ],
+        [
+          -52.47541809082031,
+          -136.88864135742188
+        ],
+        [
+          -50.47545623779297,
+          -136.9009246826172
+        ],
+        [
+          -48.475494384765625,
+          -136.91322326660156
+        ],
+        [
+          -46.47553253173828,
+          -136.92550659179688
+        ],
+        [
+          -44.47557067871094,
+          -136.93780517578125
+        ],
+        [
+          -42.475608825683594,
+          -136.95008850097656
+        ],
+        [
+          -40.47564697265625,
+          -136.96238708496094
+        ],
+        [
+          -38.47568130493164,
+          -136.97467041015625
+        ]
+      ],
+      "tracker": {
+        "path_index": 7,
+        "pid": {
+          "kp": 0.4,
+          "ki": 0.05,
+          "kd": 0.02,
+          "integral_limit": 5.0,
+          "integral": 3.063741011013889,
+          "previous_error": 1.8851663098042892
+        }
+      },
+      "time": 6.349999999999985,
+      "last_tick": 126,
+      "mechanism_name": "C",
+      "mechanism": {
+        "reaction_delay": 0.2,
+        "accepted_gap": 4.0,
+        "yield_window": 3.0,
+        "yield_speed_multiplier": 0.75,
+        "yield_deceleration": 2.0,
+        "proactive_yield": true,
+        "delayed_confirmation": true,
+        "gap_check": true
+      },
+      "history": [
+        {
+          "time": 0.0,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 0.05,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 0.1,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 0.15000000000000002,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 0.2,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 0.25,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 0.3,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 0.35,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 0.39999999999999997,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 0.44999999999999996,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 0.49999999999999994,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 0.5499999999999999,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 0.6,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 0.65,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 0.7000000000000001,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 0.7500000000000001,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 0.8000000000000002,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 0.8500000000000002,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 0.9000000000000002,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 0.9500000000000003,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 1.0000000000000002,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 1.0500000000000003,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 1.1000000000000003,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 1.1500000000000004,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 1.2000000000000004,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 1.2500000000000004,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 1.3000000000000005,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 1.3500000000000005,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 1.4000000000000006,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 1.4500000000000006,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 1.5000000000000007,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 1.5500000000000007,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 1.6000000000000008,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 1.6500000000000008,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 1.7000000000000008,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 1.7500000000000009,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 1.800000000000001,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 1.850000000000001,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 1.900000000000001,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 1.950000000000001,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 2.000000000000001,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 2.0500000000000007,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 23.016392706256948,
+                "speed": 2.801040880490424
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 12.918690488354684,
+                "own_time": 3.3254271357633822,
+                "other_time": 5.644550270102355,
+                "arrival_gap": 2.319123134338973
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 2.1000000000000005,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 22.976875187167373,
+                "speed": 2.817311062975719
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 12.239376777144932,
+                "own_time": 3.1435166434693302,
+                "other_time": 5.464505503777355,
+                "arrival_gap": 2.3209888603080246
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 2.1500000000000004,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 22.935365326577337,
+                "speed": 2.8321581558602995
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 11.6512806311762,
+                "own_time": 2.9859587672535737,
+                "other_time": 5.351836619835367,
+                "arrival_gap": 2.365877852581793
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 2.2,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 22.89073530077018,
+                "speed": 2.7967774338617755
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 11.117245990317395,
+                "own_time": 2.843229079959289,
+                "other_time": 5.206554461745296,
+                "arrival_gap": 2.363325381786007
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 2.25,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 22.843149654175992,
+                "speed": 2.7859834073636254
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 10.69687874062825,
+                "own_time": 2.730424112354949,
+                "other_time": 5.129092076808871,
+                "arrival_gap": 2.398667964453922
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 2.3,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 22.794938179391963,
+                "speed": 2.7884675460588326
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 10.299143083006642,
+                "own_time": 2.6572353237356103,
+                "other_time": 5.0146636268329985,
+                "arrival_gap": 2.357428303097388
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 2.3499999999999996,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 22.74968872451057,
+                "speed": 2.794872584868385
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 9.949671760972414,
+                "own_time": 2.625600300762641,
+                "other_time": 4.952929843613369,
+                "arrival_gap": 2.3273295428507277
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 2.3999999999999995,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 22.708807562608357,
+                "speed": 2.8035364481555862
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 9.635040767175626,
+                "own_time": 2.621432366155078,
+                "other_time": 4.856101478813927,
+                "arrival_gap": 2.234669112658849
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 2.4499999999999993,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 22.673656688717113,
+                "speed": 2.812503287288859
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 9.37576889310991,
+                "own_time": 2.6431523927182567,
+                "other_time": 4.810479134898859,
+                "arrival_gap": 2.1673267421806024
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 2.499999999999999,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 22.64843651494056,
+                "speed": 2.8248601043073807
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 9.031875360951744,
+                "own_time": 2.643849425737799,
+                "other_time": 4.7068689501486745,
+                "arrival_gap": 2.0630195244108753
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 2.549999999999999,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 22.6325804415556,
+                "speed": 2.8395286241487265
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 8.625319600631853,
+                "own_time": 2.6144982857789865,
+                "other_time": 4.630061020327599,
+                "arrival_gap": 2.0155627345486122
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 2.5999999999999988,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 22.62192873190381,
+                "speed": 2.8544653957041213
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 8.23455267627855,
+                "own_time": 2.573825735979101,
+                "other_time": 4.516167094368889,
+                "arrival_gap": 1.942341358389788
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 2.6499999999999986,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 22.61504807001906,
+                "speed": 2.868472081549635
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 7.894705217683813,
+                "own_time": 2.5330002985163063,
+                "other_time": 4.449264948928918,
+                "arrival_gap": 1.9162646504126117
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 2.6999999999999984,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 22.611151910760857,
+                "speed": 2.88186997322477
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 7.578732075531582,
+                "own_time": 2.4849563180774017,
+                "other_time": 4.348171391550328,
+                "arrival_gap": 1.8632150734729263
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 2.7499999999999982,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 22.609724365956172,
+                "speed": 2.894310566631595
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 7.28888414884809,
+                "own_time": 2.432304965833164,
+                "other_time": 4.28815754704214,
+                "arrival_gap": 1.8558525812089757
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 2.799999999999998,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 22.61029529947688,
+                "speed": 2.9061446204659287
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 7.020532451821676,
+                "own_time": 2.3757002916062118,
+                "other_time": 4.1953665410440095,
+                "arrival_gap": 1.8196662494377978
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 2.849999999999998,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 22.61249905763284,
+                "speed": 2.9171636039256454
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 6.767715758749462,
+                "own_time": 2.3152615666565244,
+                "other_time": 4.140576440788497,
+                "arrival_gap": 1.8253148741319722
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 2.8999999999999977,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 22.614768787954564,
+                "speed": 2.8797275098754294
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 6.532399002952439,
+                "own_time": 2.253582135831175,
+                "other_time": 4.053525273093245,
+                "arrival_gap": 1.7999431372620704
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 2.9499999999999975,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 22.61680229629862,
+                "speed": 2.8667956391123455
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 6.313937519370179,
+                "own_time": 2.192086139155014,
+                "other_time": 4.003523131468457,
+                "arrival_gap": 1.811436992313443
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 2.9999999999999973,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 22.619308256616907,
+                "speed": 2.8668273306746026
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 6.106067278403857,
+                "own_time": 2.1300746463950984,
+                "other_time": 3.921532913713401,
+                "arrival_gap": 1.7914582673183026
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 3.049999999999997,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 22.622334903606,
+                "speed": 2.8713414684100136
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 5.915637521736514,
+                "own_time": 2.0720389122865055,
+                "other_time": 3.875708723157528,
+                "arrival_gap": 1.8036698108710225
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 3.099999999999997,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 22.62601634167642,
+                "speed": 2.878353693231845
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 5.729884983216444,
+                "own_time": 2.0134156329816104,
+                "other_time": 3.7980768417553374,
+                "arrival_gap": 1.784661208773727
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 3.149999999999997,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 22.63010819947767,
+                "speed": 2.8861410517609007
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 5.553743693440341,
+                "own_time": 1.9554399958090558,
+                "other_time": 3.754182918894975,
+                "arrival_gap": 1.798742923085919
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 3.1999999999999966,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 22.63660071581753,
+                "speed": 2.8971745478002884
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 5.3361039523013964,
+                "own_time": 1.8836674004860776,
+                "other_time": 3.6707021831027316,
+                "arrival_gap": 1.787034782616654
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 3.2499999999999964,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 22.64485946863644,
+                "speed": 2.910126033063536
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 5.336854210316093,
+                "own_time": 1.885205461732612,
+                "other_time": 3.65652861411965,
+                "arrival_gap": 1.771323152387038
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 3.2999999999999963,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 22.65339976934975,
+                "speed": 2.9233736164262836
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 5.250012715118942,
+                "own_time": 1.8545199274176642,
+                "other_time": 3.5962765457009387,
+                "arrival_gap": 1.7417566182832744
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 3.349999999999996,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 22.661801145465486,
+                "speed": 2.9360290445708235
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 5.091793445018027,
+                "own_time": 1.7970917052466406,
+                "other_time": 3.5537035081230424,
+                "arrival_gap": 1.7566118028764017
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 3.399999999999996,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 22.669936500684983,
+                "speed": 2.94833916507416
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 4.95878229136888,
+                "own_time": 1.7419511519098325,
+                "other_time": 3.486221209419609,
+                "arrival_gap": 1.7442700575097763
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 3.4499999999999957,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 22.67597291580325,
+                "speed": 2.960029863695919
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 4.731248394868194,
+                "own_time": 1.6249698711592204,
+                "other_time": 3.4318101372745895,
+                "arrival_gap": 1.806840266115369
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 3.4999999999999956,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 22.677079762292998,
+                "speed": 2.9713594175097775
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 4.555703018826243,
+                "own_time": 1.5042768512604459,
+                "other_time": 3.359182905767627,
+                "arrival_gap": 1.854906054507181
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 3.5499999999999954,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 22.670546501980304,
+                "speed": 2.9398651838518592
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 4.365099182209333,
+                "own_time": 1.3783675801509698,
+                "other_time": 3.3133582987577705,
+                "arrival_gap": 1.9349907186068007
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 3.599999999999995,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 22.656070042114216,
+                "speed": 2.9315352684349487
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 4.199244882577572,
+                "own_time": 1.2686583949225687,
+                "other_time": 3.2458386969136725,
+                "arrival_gap": 1.9771803019911038
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 3.649999999999995,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 22.63545551251935,
+                "speed": 2.9332257488155222
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 4.367746440972048,
+                "own_time": 1.282544873731887,
+                "other_time": 3.265728656987789,
+                "arrival_gap": 1.9831837832559018
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 3.699999999999995,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 22.614308736588228,
+                "speed": 2.938604076167404
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 4.446342740304919,
+                "own_time": 1.3200862986600008,
+                "other_time": 3.2429858824690543,
+                "arrival_gap": 1.9228995838090535
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 3.7499999999999947,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 22.599275911571958,
+                "speed": 2.9454690927190263
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 4.397749244389528,
+                "own_time": 1.3644147378011557,
+                "other_time": 3.2238819774520246,
+                "arrival_gap": 1.859467239650869
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 3.7999999999999945,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 22.593434456383466,
+                "speed": 2.952922276269918
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 4.418808950739217,
+                "own_time": 1.4578063354809563,
+                "other_time": 3.188944661273933,
+                "arrival_gap": 1.7311383257929769
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 3.8499999999999943,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 22.59823004621425,
+                "speed": 2.9605099259179646
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 4.182835407205447,
+                "own_time": 1.4855000266317828,
+                "other_time": 3.13350342669393,
+                "arrival_gap": 1.6480034000621473
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 3.899999999999994,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 22.612992023046214,
+                "speed": 2.968057031388302
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 4.096115173556815,
+                "own_time": 1.5525823961995433,
+                "other_time": 3.076778789700065,
+                "arrival_gap": 1.5241963935005216
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 3.949999999999994,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 22.636326546498168,
+                "speed": 2.977669361948826
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 3.9755361929088324,
+                "own_time": 1.5980370161666582,
+                "other_time": 3.0378200904319153,
+                "arrival_gap": 1.439783074265257
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 3.999999999999994,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 22.668417614051847,
+                "speed": 2.9886582459254405
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 3.9021140778321355,
+                "own_time": 1.6868535320627227,
+                "other_time": 2.9803926984399176,
+                "arrival_gap": 1.293539166377195
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 4.049999999999994,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 22.70788330111715,
+                "speed": 2.9992272188531266
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 4.129829839386533,
+                "own_time": 1.887080791456496,
+                "other_time": 2.9995997711666624,
+                "arrival_gap": 1.1125189797101664
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 4.099999999999993,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 22.755343172790344,
+                "speed": 3.009510064604937
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 4.304266578997073,
+                "own_time": 2.1466622410824594,
+                "other_time": 2.98338262057356,
+                "arrival_gap": 0.8367203794911005
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 4.149999999999993,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 22.81122589234704,
+                "speed": 3.0189055991617058
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 4.340956732187982,
+                "own_time": 2.332351501941384,
+                "other_time": 2.9662211481975405,
+                "arrival_gap": 0.6338696462561564
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 4.199999999999993,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 22.87606469341474,
+                "speed": 3.028062843550207
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 4.461794865526123,
+                "own_time": 2.6778869626613186,
+                "other_time": 2.9379664442017313,
+                "arrival_gap": 0.2600794815404126
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 4.249999999999993,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 22.948540663710773,
+                "speed": 2.9967418403969917
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 4.216028720791304,
+                "own_time": 2.7841908405919984,
+                "other_time": 2.8681926887502938,
+                "arrival_gap": 0.08400184815829537
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 4.299999999999993,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 23.02789887270451,
+                "speed": 2.98804302403189
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 4.1620267684994925,
+                "own_time": 3.009934151918443,
+                "other_time": 2.8071629744705597,
+                "arrival_gap": 0.2027711774478833
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 4.3499999999999925,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 23.111358622113688,
+                "speed": 2.9879364395846357
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 4.115808651939946,
+                "own_time": 3.148684227357965,
+                "other_time": 2.7700319156284854,
+                "arrival_gap": 0.3786523117294798
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 4.399999999999992,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 23.19853304066436,
+                "speed": 2.9919216548326597
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 4.135704333723317,
+                "own_time": 3.340803915410539,
+                "other_time": 2.721123515854579,
+                "arrival_gap": 0.6196803995559601
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 4.449999999999992,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 23.289033901841343,
+                "speed": 2.997243847722632
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 4.478333654739388,
+                "own_time": 3.801282471210414,
+                "other_time": 2.751022378165873,
+                "arrival_gap": 1.0502600930445407
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 4.499999999999992,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 23.38287356909501,
+                "speed": 3.004097836434333
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 4.759679556015204,
+                "own_time": 4.254906498868942,
+                "other_time": 2.7470919629637103,
+                "arrival_gap": 1.5078145359052315
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 4.549999999999992,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 23.47986847846601,
+                "speed": 3.0107249859927596
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 4.887075477897888,
+                "own_time": 4.623956063573134,
+                "other_time": 2.7382060268675557,
+                "arrival_gap": 1.8857500367055784
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 4.599999999999992,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 23.580616070829226,
+                "speed": 3.018086977226233
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 5.097059810495206,
+                "own_time": 5.097059810495206,
+                "other_time": 2.7208128882684415,
+                "arrival_gap": 2.3762469222267644
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 4.6499999999999915,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 23.684996703167936,
+                "speed": 3.0249705799500046
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 4.8628687996576785,
+                "own_time": 4.8628687996576785,
+                "other_time": 2.647117235540772,
+                "arrival_gap": 2.2157515641169065
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 4.699999999999991,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 23.79307810868844,
+                "speed": 3.032291127368749
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 4.841848866364399,
+                "own_time": 4.841848866364399,
+                "other_time": 2.5885689501620286,
+                "arrival_gap": 2.25327991620237
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 4.749999999999991,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 23.9036556041451,
+                "speed": 3.038944273875158
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 4.833865998586103,
+                "own_time": 4.833865998586103,
+                "other_time": 2.553195346627198,
+                "arrival_gap": 2.280670651958905
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 4.799999999999991,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 24.015649084769084,
+                "speed": 3.046044474173141
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 4.891891854401128,
+                "own_time": 4.891891854401128,
+                "other_time": 2.5083473155242655,
+                "arrival_gap": 2.3835445388768624
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 4.849999999999991,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 24.126642985939384,
+                "speed": 3.052592811412398
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 5.297735320433945,
+                "own_time": 5.297735320433945,
+                "other_time": 2.545680090743088,
+                "arrival_gap": 2.7520552296908565
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 4.899999999999991,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 24.238621989433312,
+                "speed": 3.0226985948982037
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 5.612418157078763,
+                "own_time": 5.612418157078763,
+                "other_time": 2.5458203146861997,
+                "arrival_gap": 3.0665978423925635
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 4.94999999999999,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 24.371942671609236,
+                "speed": 3.0148491467763856
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 5.7724776526619666,
+                "own_time": 5.7724776526619666,
+                "other_time": 2.5356328192571387,
+                "arrival_gap": 3.236844833404828
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 4.99999999999999,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 24.484240757518748,
+                "speed": 3.0134991874708525
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 6.0298326711388,
+                "own_time": 6.0298326711388,
+                "other_time": 2.5258492091947295,
+                "arrival_gap": 3.503983461944071
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 5.04999999999999,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 24.580578066904277,
+                "speed": 3.015644867297438
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 6.1986517677105875,
+                "own_time": 5.5701675692760455,
+                "other_time": 2.5239161088913864,
+                "arrival_gap": 3.046251460384659
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 5.09999999999999,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 24.67597925084509,
+                "speed": 3.020129484074217
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 6.46118487701876,
+                "own_time": 5.675580393438954,
+                "other_time": 2.5181446116431996,
+                "arrival_gap": 3.157435781795755
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 5.14999999999999,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 24.7697368424504,
+                "speed": 3.025222525218694
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 6.594039043893188,
+                "own_time": 5.535460636513419,
+                "other_time": 2.510309365160937,
+                "arrival_gap": 3.0251512713524824
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 5.1999999999999895,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 24.859828069288255,
+                "speed": 3.0313508653345345
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 6.844614546135216,
+                "own_time": 5.275848443556912,
+                "other_time": 2.5035477301553213,
+                "arrival_gap": 2.7723007134015907
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 5.249999999999989,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 24.94296818607414,
+                "speed": 3.0374382897077994
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 6.566140037309576,
+                "own_time": 4.515337475429739,
+                "other_time": 2.424969370596567,
+                "arrival_gap": 2.0903681048331717
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 5.299999999999989,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 25.01749493742225,
+                "speed": 3.0440692610919124
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 6.5308214067165515,
+                "own_time": 3.9636394701587245,
+                "other_time": 2.3711733293128128,
+                "arrival_gap": 1.5924661408459118
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 5.349999999999989,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 25.081495317582025,
+                "speed": 3.050487297506746
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 6.487139769321054,
+                "own_time": 3.4693664882741917,
+                "other_time": 2.337081699343611,
+                "arrival_gap": 1.1322847889305807
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 5.399999999999989,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 25.133396539904005,
+                "speed": 3.057098532328244
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 6.517363895764716,
+                "own_time": 3.046385496918605,
+                "other_time": 2.299319207323294,
+                "arrival_gap": 0.7470662895953106
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 5.449999999999989,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 25.17406217053921,
+                "speed": 3.0655676703313697
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 6.656712012029898,
+                "own_time": 2.7889371893405825,
+                "other_time": 2.3013663968112184,
+                "arrival_gap": 0.4875707925293642
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 5.4999999999999885,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 25.20468497636484,
+                "speed": 3.0751825268207913
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 6.752574826468696,
+                "own_time": 2.5869221809994567,
+                "other_time": 2.2789781177246518,
+                "arrival_gap": 0.30794406327480495
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 5.549999999999988,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 25.22459263544921,
+                "speed": 3.049062272819609
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 6.692525495050401,
+                "own_time": 2.38894703942003,
+                "other_time": 2.2492502565429406,
+                "arrival_gap": 0.1396967828770892
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 5.599999999999988,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 25.236582910047574,
+                "speed": 3.043755891359625
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 6.711709596104032,
+                "own_time": 2.2946406978003604,
+                "other_time": 2.2167330748282463,
+                "arrival_gap": 0.07790762297211407
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 5.649999999999988,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 25.244557932190084,
+                "speed": 3.0459587213382298
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 6.3533131398361355,
+                "own_time": 2.12795902183426,
+                "other_time": 2.136369369972146,
+                "arrival_gap": 0.008410348137886103
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 5.699999999999988,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 25.25079405811705,
+                "speed": 3.0511334384952593
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 6.188035975435171,
+                "own_time": 2.056579008675708,
+                "other_time": 2.073183023578229,
+                "arrival_gap": 0.016604014902521058
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 5.749999999999988,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 25.256582275539955,
+                "speed": 3.0577095441097146
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 6.022043305861868,
+                "own_time": 1.999958078227574,
+                "other_time": 2.0267785677085217,
+                "arrival_gap": 0.026820489480947618
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 5.799999999999987,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 25.262611308380773,
+                "speed": 3.064917726196396
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 5.929711438127684,
+                "own_time": 1.9749269149214168,
+                "other_time": 1.9771027658479972,
+                "arrival_gap": 0.002175850926580347
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 5.849999999999987,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 25.269188802371147,
+                "speed": 3.072277552568395
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 6.105867937807777,
+                "own_time": 2.042554429821851,
+                "other_time": 1.9907116522566692,
+                "arrival_gap": 0.05184277756518174
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 5.899999999999987,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 25.27646485757119,
+                "speed": 3.0793657617295054
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 6.2465978897849785,
+                "own_time": 2.0995750865801,
+                "other_time": 1.982129395321086,
+                "arrival_gap": 0.11744569125901427
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 5.949999999999987,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 25.28447414927843,
+                "speed": 3.086002448277869
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 6.240962528224992,
+                "own_time": 2.10760026182211,
+                "other_time": 1.963611704167273,
+                "arrival_gap": 0.14398855765483698
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 5.999999999999987,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 25.292859117197136,
+                "speed": 3.091944755083178
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 6.3231591326028935,
+                "own_time": 2.136783402687745,
+                "other_time": 1.9448444362787158,
+                "arrival_gap": 0.19193896640902897
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 6.0499999999999865,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 25.299921930211532,
+                "speed": 3.0973327445136825
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 6.026238196749655,
+                "own_time": 2.003379796168442,
+                "other_time": 1.8752133235548865,
+                "arrival_gap": 0.12816647261355563
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 6.099999999999986,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 25.303304309394083,
+                "speed": 3.1020946227647075
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 5.914657044547795,
+                "own_time": 1.9174829965744042,
+                "other_time": 1.8238282758069677,
+                "arrival_gap": 0.09365472076743653
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 6.149999999999986,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 25.30353939349986,
+                "speed": 3.1062614279251557
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 5.79204605098301,
+                "own_time": 1.8478283362680303,
+                "other_time": 1.7857265752876186,
+                "arrival_gap": 0.06210176098041176
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 6.199999999999986,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 25.30333157658708,
+                "speed": 3.0826234012911495
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 5.7038967217319,
+                "own_time": 1.8135290951672347,
+                "other_time": 1.739331062123638,
+                "arrival_gap": 0.07419803304359673
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 6.249999999999986,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 25.30372929882634,
+                "speed": 3.076902708949645
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 5.835490909201667,
+                "own_time": 1.8613896547092221,
+                "other_time": 1.745481043277966,
+                "arrival_gap": 0.11590861143125619
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 6.299999999999986,
+          "features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 25.304930378667258,
+                "speed": 3.0768022375535375
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 5.935277867071361,
+                "own_time": 1.9054878871232563,
+                "other_time": 1.7319974293466247,
+                "arrival_gap": 0.17349045777663163
+              }
+            ],
+            "emergency": []
+          }
+        }
+      ],
+      "mode": "cruise",
+      "trigger_counts": {
+        "proactive_yield": 44,
+        "gap_wait": 28,
+        "following": 0,
+        "emergency": 0,
+        "signal": 0
+      },
+      "events": [
+        {
+          "type": "state_transition",
+          "tick": 45,
+          "time": 2.25,
+          "from": "cruise",
+          "to": "proactive_yield",
+          "confirmed_features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 23.016392706256948,
+                "speed": 2.801040880490424
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 12.918690488354684,
+                "own_time": 3.3254271357633822,
+                "other_time": 5.644550270102355,
+                "arrival_gap": 2.319123134338973
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "type": "state_transition",
+          "tick": 67,
+          "time": 3.349999999999996,
+          "from": "proactive_yield",
+          "to": "cruise",
+          "confirmed_features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 22.63010819947767,
+                "speed": 2.8861410517609007
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 5.553743693440341,
+                "own_time": 1.9554399958090558,
+                "other_time": 3.754182918894975,
+                "arrival_gap": 1.798742923085919
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "type": "state_transition",
+          "tick": 72,
+          "time": 3.599999999999995,
+          "from": "cruise",
+          "to": "gap_wait",
+          "confirmed_features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 22.669936500684983,
+                "speed": 2.94833916507416
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 4.95878229136888,
+                "own_time": 1.7419511519098325,
+                "other_time": 3.486221209419609,
+                "arrival_gap": 1.7442700575097763
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "type": "state_transition",
+          "tick": 86,
+          "time": 4.299999999999993,
+          "from": "gap_wait",
+          "to": "gap_wait+proactive_yield",
+          "confirmed_features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 22.755343172790344,
+                "speed": 3.009510064604937
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 4.304266578997073,
+                "own_time": 2.1466622410824594,
+                "other_time": 2.98338262057356,
+                "arrival_gap": 0.8367203794911005
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "type": "state_transition",
+          "tick": 94,
+          "time": 4.699999999999991,
+          "from": "gap_wait+proactive_yield",
+          "to": "gap_wait",
+          "confirmed_features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 23.38287356909501,
+                "speed": 3.004097836434333
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 4.759679556015204,
+                "own_time": 4.254906498868942,
+                "other_time": 2.7470919629637103,
+                "arrival_gap": 1.5078145359052315
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "type": "state_transition",
+          "tick": 96,
+          "time": 4.799999999999991,
+          "from": "gap_wait",
+          "to": "cruise",
+          "confirmed_features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 23.580616070829226,
+                "speed": 3.018086977226233
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 5.097059810495206,
+                "own_time": 5.097059810495206,
+                "other_time": 2.7208128882684415,
+                "arrival_gap": 2.3762469222267644
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "type": "state_transition",
+          "tick": 97,
+          "time": 4.849999999999991,
+          "from": "cruise",
+          "to": "gap_wait",
+          "confirmed_features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 23.684996703167936,
+                "speed": 3.0249705799500046
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 4.8628687996576785,
+                "own_time": 4.8628687996576785,
+                "other_time": 2.647117235540772,
+                "arrival_gap": 2.2157515641169065
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "type": "state_transition",
+          "tick": 101,
+          "time": 5.04999999999999,
+          "from": "gap_wait",
+          "to": "cruise",
+          "confirmed_features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 24.126642985939384,
+                "speed": 3.052592811412398
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 5.297735320433945,
+                "own_time": 5.297735320433945,
+                "other_time": 2.545680090743088,
+                "arrival_gap": 2.7520552296908565
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "type": "state_transition",
+          "tick": 110,
+          "time": 5.4999999999999885,
+          "from": "cruise",
+          "to": "proactive_yield",
+          "confirmed_features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 25.01749493742225,
+                "speed": 3.0440692610919124
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 6.5308214067165515,
+                "own_time": 3.9636394701587245,
+                "other_time": 2.3711733293128128,
+                "arrival_gap": 1.5924661408459118
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "type": "state_transition",
+          "tick": 119,
+          "time": 5.949999999999987,
+          "from": "proactive_yield",
+          "to": "cruise",
+          "confirmed_features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 25.256582275539955,
+                "speed": 3.0577095441097146
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 6.022043305861868,
+                "own_time": 1.999958078227574,
+                "other_time": 2.0267785677085217,
+                "arrival_gap": 0.026820489480947618
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "type": "state_transition",
+          "tick": 121,
+          "time": 6.0499999999999865,
+          "from": "cruise",
+          "to": "proactive_yield",
+          "confirmed_features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 25.269188802371147,
+                "speed": 3.072277552568395
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 6.105867937807777,
+                "own_time": 2.042554429821851,
+                "other_time": 1.9907116522566692,
+                "arrival_gap": 0.05184277756518174
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "type": "state_transition",
+          "tick": 126,
+          "time": 6.299999999999986,
+          "from": "proactive_yield",
+          "to": "cruise",
+          "confirmed_features": {
+            "following": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+                "gap": 25.303304309394083,
+                "speed": 3.1020946227647075
+              }
+            ],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+                "distance": 5.914657044547795,
+                "own_time": 1.9174829965744042,
+                "other_time": 1.8238282758069677,
+                "arrival_gap": 0.09365472076743653
+              }
+            ],
+            "emergency": []
+          }
+        }
+      ],
+      "event_capacity": 256,
+      "dropped_events": 0,
+      "last_diagnostics": {
+        "tick": 126,
+        "mechanism": "C",
+        "parameters": {
+          "reaction_delay": 0.2,
+          "accepted_gap": 4.0,
+          "yield_window": 3.0,
+          "yield_speed_multiplier": 0.75,
+          "yield_deceleration": 2.0,
+          "proactive_yield": true,
+          "delayed_confirmation": true,
+          "gap_check": true
+        },
+        "active": [],
+        "desired_speed": 5.0,
+        "features": {
+          "following": [
+            {
+              "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+              "gap": 25.304930378667258,
+              "speed": 3.0768022375535375
+            }
+          ],
+          "crossings": [
+            {
+              "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+              "distance": 5.935277867071361,
+              "own_time": 1.9054878871232563,
+              "other_time": 1.7319974293466247,
+              "arrival_gap": 0.17349045777663163
+            }
+          ],
+          "emergency": []
+        },
+        "confirmed_features": {
+          "following": [
+            {
+              "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_far)/1",
+              "gap": 25.303304309394083,
+              "speed": 3.1020946227647075
+            }
+          ],
+          "crossings": [
+            {
+              "id": "scenic/ActorAttribute(id=role_name,type=str,value=ego)/1",
+              "distance": 5.914657044547795,
+              "own_time": 1.9174829965744042,
+              "other_time": 1.8238282758069677,
+              "arrival_gap": 0.09365472076743653
+            }
+          ],
+          "emergency": []
+        }
+      }
+    },
+    "merge_far": {
+      "version": "reactive-vehicle-1",
+      "actor_id": "merge_far",
+      "seed": 7,
+      "randomize": false,
+      "target_speed": 4.0,
+      "route": [
+        [
+          -108.24818420410156,
+          -107.15621185302734
+        ],
+        [
+          -107.30381774902344,
+          -109.08417510986328
+        ],
+        [
+          -106.19816589355469,
+          -110.92872619628906
+        ],
+        [
+          -104.95822143554688,
+          -112.69090270996094
+        ],
+        [
+          -103.61016845703125,
+          -114.3743896484375
+        ],
+        [
+          -102.17926788330078,
+          -115.9854965209961
+        ],
+        [
+          -100.68963623046875,
+          -117.53305053710938
+        ],
+        [
+          -99.14349365234375,
+          -119.0496826171875
+        ],
+        [
+          -97.54214477539062,
+          -120.52117156982422
+        ],
+        [
+          -95.92181396484375,
+          -121.93146514892578
+        ],
+        [
+          -94.30072021484375,
+          -123.30046081542969
+        ],
+        [
+          -92.6933822631836,
+          -124.65116119384766
+        ],
+        [
+          -91.11028289794922,
+          -126.00928497314453
+        ],
+        [
+          -89.50968933105469,
+          -127.34242248535156
+        ],
+        [
+          -87.84751892089844,
+          -128.59793090820312
+        ],
+        [
+          -86.12751007080078,
+          -129.77297973632812
+        ],
+        [
+          -84.35356903076172,
+          -130.86489868164062
+        ],
+        [
+          -82.52970886230469,
+          -131.8712158203125
+        ],
+        [
+          -80.66004943847656,
+          -132.78964233398438
+        ],
+        [
+          -78.74882507324219,
+          -133.6181182861328
+        ],
+        [
+          -76.80036163330078,
+          -134.35476684570312
+        ],
+        [
+          -74.81907653808594,
+          -134.99790954589844
+        ],
+        [
+          -72.80943298339844,
+          -135.54611206054688
+        ],
+        [
+          -70.77600860595703,
+          -135.99810791015625
+        ],
+        [
+          -68.72338104248047,
+          -136.35289001464844
+        ],
+        [
+          -66.65620422363281,
+          -136.60963439941406
+        ],
+        [
+          -64.57915496826172,
+          -136.76780700683594
+        ],
+        [
+          -62.499576568603516,
+          -136.82704162597656
+        ],
+        [
+          -60.49961471557617,
+          -136.83932495117188
+        ],
+        [
+          -58.49965286254883,
+          -136.85162353515625
+        ],
+        [
+          -56.499691009521484,
+          -136.86390686035156
+        ],
+        [
+          -54.49972915649414,
+          -136.87619018554688
+        ],
+        [
+          -52.4997673034668,
+          -136.88848876953125
+        ],
+        [
+          -50.49980163574219,
+          -136.90077209472656
+        ],
+        [
+          -48.499839782714844,
+          -136.91307067871094
+        ],
+        [
+          -46.4998779296875,
+          -136.92535400390625
+        ],
+        [
+          -44.499916076660156,
+          -136.93765258789062
+        ],
+        [
+          -42.49995422363281,
+          -136.94993591308594
+        ],
+        [
+          -40.49999237060547,
+          -136.9622344970703
+        ],
+        [
+          -38.500030517578125,
+          -136.97451782226562
+        ],
+        [
+          -36.500064849853516,
+          -136.98681640625
+        ],
+        [
+          -34.50010681152344,
+          -136.99911499023438
+        ],
+        [
+          -32.500144958496094,
+          -137.0113983154297
+        ],
+        [
+          -30.500181198120117,
+          -137.02369689941406
+        ],
+        [
+          -28.500221252441406,
+          -137.03598022460938
+        ],
+        [
+          -26.500259399414062,
+          -137.0482635498047
+        ],
+        [
+          -24.50029754638672,
+          -137.06056213378906
+        ],
+        [
+          -22.500333786010742,
+          -137.07284545898438
+        ],
+        [
+          -20.5003719329834,
+          -137.08514404296875
+        ],
+        [
+          -18.500410079956055,
+          -137.09744262695312
+        ],
+        [
+          -16.50044822692871,
+          -137.10972595214844
+        ],
+        [
+          -14.500484466552734,
+          -137.1220245361328
+        ],
+        [
+          -12.50052261352539,
+          -137.13430786132812
+        ]
+      ],
+      "tracker": {
+        "path_index": 8,
+        "pid": {
+          "kp": 0.4,
+          "ki": 0.05,
+          "kd": 0.02,
+          "integral_limit": 5.0,
+          "integral": 5.0,
+          "previous_error": 0.6100912962019565
+        }
+      },
+      "time": 6.349999999999985,
+      "last_tick": 126,
+      "mechanism_name": "C",
+      "mechanism": {
+        "reaction_delay": 0.2,
+        "accepted_gap": 4.0,
+        "yield_window": 3.0,
+        "yield_speed_multiplier": 0.75,
+        "yield_deceleration": 2.0,
+        "proactive_yield": true,
+        "delayed_confirmation": true,
+        "gap_check": true
+      },
+      "history": [
+        {
+          "time": 0.0,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 0.05,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 0.1,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 0.15000000000000002,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 0.2,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 0.25,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 0.3,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 0.35,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 0.39999999999999997,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 0.44999999999999996,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 0.49999999999999994,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 0.5499999999999999,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 0.6,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 0.65,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 0.7000000000000001,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 0.7500000000000001,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 0.8000000000000002,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 0.8500000000000002,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 0.9000000000000002,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 0.9500000000000003,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 1.0000000000000002,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 1.0500000000000003,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 1.1000000000000003,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 1.1500000000000004,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 1.2000000000000004,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 1.2500000000000004,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 1.3000000000000005,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 1.3500000000000005,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 1.4000000000000006,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 1.4500000000000006,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 1.5000000000000007,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 1.5500000000000007,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 1.6000000000000008,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 1.6500000000000008,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 1.7000000000000008,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 1.7500000000000009,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 1.800000000000001,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 1.850000000000001,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 1.900000000000001,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 1.950000000000001,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 2.000000000000001,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 2.0500000000000007,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 2.1000000000000005,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 2.1500000000000004,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 2.2,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 2.25,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 2.3,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 2.3499999999999996,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 2.3999999999999995,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 2.4499999999999993,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 2.499999999999999,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 2.549999999999999,
+          "features": {
+            "following": [],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_near)/1",
+                "distance": 0.6297560703092933,
+                "own_time": 0.20591464421904768,
+                "other_time": 8.177044746596074,
+                "arrival_gap": 7.9711301023770265
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 2.5999999999999988,
+          "features": {
+            "following": [],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_near)/1",
+                "distance": 1.2381686447876503,
+                "own_time": 0.40397688475221366,
+                "other_time": 8.6095427383743,
+                "arrival_gap": 8.205565853622087
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 2.6499999999999986,
+          "features": {
+            "following": [],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_near)/1",
+                "distance": 1.4555025796861825,
+                "own_time": 0.47393454267843416,
+                "other_time": 8.901054918970775,
+                "arrival_gap": 8.427120376292342
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 2.6999999999999984,
+          "features": {
+            "following": [],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_near)/1",
+                "distance": 1.4377468117287246,
+                "own_time": 0.4672180282518144,
+                "other_time": 9.088169305173869,
+                "arrival_gap": 8.620951276922055
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 2.7499999999999982,
+          "features": {
+            "following": [],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_near)/1",
+                "distance": 1.2772299326560637,
+                "own_time": 0.41427287858189044,
+                "other_time": 9.19639211057435,
+                "arrival_gap": 8.782119231992459
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 2.799999999999998,
+          "features": {
+            "following": [],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_near)/1",
+                "distance": 1.034135613252306,
+                "own_time": 0.3347951205289639,
+                "other_time": 9.246122087956742,
+                "arrival_gap": 8.911326967427778
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 2.849999999999998,
+          "features": {
+            "following": [],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_near)/1",
+                "distance": 0.7460806186989145,
+                "own_time": 0.24110396231989686,
+                "other_time": 9.253091846330808,
+                "arrival_gap": 9.01198788401091
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 2.8999999999999977,
+          "features": {
+            "following": [],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_near)/1",
+                "distance": 0.4221585577965893,
+                "own_time": 0.13642867623760738,
+                "other_time": 9.224129077021127,
+                "arrival_gap": 9.08770040078352
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 2.9499999999999975,
+          "features": {
+            "following": [],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_near)/1",
+                "distance": 0.08453658443229772,
+                "own_time": 0.02728291775063886,
+                "other_time": 9.171009652256226,
+                "arrival_gap": 9.143726734505586
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 2.9999999999999973,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 3.049999999999997,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 3.099999999999997,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 3.149999999999997,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 3.1999999999999966,
+          "features": {
+            "following": [],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_near)/1",
+                "distance": 1.5221189212443915,
+                "own_time": 0.486154632558924,
+                "other_time": 9.815650520910532,
+                "arrival_gap": 9.329495888351609
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 3.2499999999999964,
+          "features": {
+            "following": [],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_near)/1",
+                "distance": 2.6437607649180204,
+                "own_time": 0.8428012101663803,
+                "other_time": 10.20355542666076,
+                "arrival_gap": 9.36075421649438
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 3.2999999999999963,
+          "features": {
+            "following": [],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_near)/1",
+                "distance": 3.036086668657844,
+                "own_time": 0.96606991889312,
+                "other_time": 10.338371603979358,
+                "arrival_gap": 9.372301685086237
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 3.349999999999996,
+          "features": {
+            "following": [],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_near)/1",
+                "distance": 3.1125134339761877,
+                "own_time": 0.9886372896575684,
+                "other_time": 10.357498622160662,
+                "arrival_gap": 9.368861332503094
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 3.399999999999996,
+          "features": {
+            "following": [],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_near)/1",
+                "distance": 3.0239449210853286,
+                "own_time": 0.9588370953756205,
+                "other_time": 10.281346165439398,
+                "arrival_gap": 9.322509070063777
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 3.4499999999999957,
+          "features": {
+            "following": [],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_near)/1",
+                "distance": 2.842902675111872,
+                "own_time": 0.8999258022213582,
+                "other_time": 9.994152364670201,
+                "arrival_gap": 9.094226562448844
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 3.4999999999999956,
+          "features": {
+            "following": [],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_near)/1",
+                "distance": 2.60209158986798,
+                "own_time": 0.8223423084920609,
+                "other_time": 9.532245497805734,
+                "arrival_gap": 8.709903189313673
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 3.5499999999999954,
+          "features": {
+            "following": [],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_near)/1",
+                "distance": 2.2950455451128073,
+                "own_time": 0.7251760294512146,
+                "other_time": 9.020274995098731,
+                "arrival_gap": 8.295098965647517
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 3.599999999999995,
+          "features": {
+            "following": [],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_near)/1",
+                "distance": 1.950556679051794,
+                "own_time": 0.6155173880654615,
+                "other_time": 8.525588049250146,
+                "arrival_gap": 7.910070661184685
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 3.649999999999995,
+          "features": {
+            "following": [],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_near)/1",
+                "distance": 1.604013397487378,
+                "own_time": 0.5052556021538854,
+                "other_time": 8.182656252963117,
+                "arrival_gap": 7.677400650809231
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 3.699999999999995,
+          "features": {
+            "following": [],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_near)/1",
+                "distance": 1.2531376627509463,
+                "own_time": 0.3939827269417619,
+                "other_time": 8.167422163482902,
+                "arrival_gap": 7.77343943654114
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 3.7499999999999947,
+          "features": {
+            "following": [],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_near)/1",
+                "distance": 0.9034421933029653,
+                "own_time": 0.28350891141801843,
+                "other_time": 8.426979661433405,
+                "arrival_gap": 8.143470750015387
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 3.7999999999999945,
+          "features": {
+            "following": [],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_near)/1",
+                "distance": 0.5628372143566496,
+                "own_time": 0.17630321736454976,
+                "other_time": 8.852329108473892,
+                "arrival_gap": 8.676025891109342
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 3.8499999999999943,
+          "features": {
+            "following": [],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_near)/1",
+                "distance": 0.2370294913598642,
+                "own_time": 0.07411742435572022,
+                "other_time": 9.421653359564106,
+                "arrival_gap": 9.347535935208386
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 3.899999999999994,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 3.949999999999994,
+          "features": {
+            "following": [],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_near)/1",
+                "distance": 2.433527271185154,
+                "own_time": 0.7584237679828755,
+                "other_time": 11.51665964309951,
+                "arrival_gap": 10.758235875116634
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 3.999999999999994,
+          "features": {
+            "following": [],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_near)/1",
+                "distance": 3.3349545227489683,
+                "own_time": 1.0377147471852997,
+                "other_time": 12.770523228876739,
+                "arrival_gap": 11.732808481691439
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 4.049999999999994,
+          "features": {
+            "following": [],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_near)/1",
+                "distance": 3.589336257988254,
+                "own_time": 1.1151493976528002,
+                "other_time": 13.627409158805051,
+                "arrival_gap": 12.51225976115225
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 4.099999999999993,
+          "features": {
+            "following": [],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_near)/1",
+                "distance": 3.7223677310848187,
+                "own_time": 1.1547407240509449,
+                "other_time": 14.960695221654438,
+                "arrival_gap": 13.805954497603494
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 4.149999999999993,
+          "features": {
+            "following": [],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_near)/1",
+                "distance": 3.59592270196488,
+                "own_time": 1.1138711949984752,
+                "other_time": 16.082659806248355,
+                "arrival_gap": 14.96878861124988
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 4.199999999999993,
+          "features": {
+            "following": [],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_near)/1",
+                "distance": 3.5334577508038367,
+                "own_time": 1.0929360784786,
+                "other_time": 17.968631385479178,
+                "arrival_gap": 16.875695307000576
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 4.249999999999993,
+          "features": {
+            "following": [],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_near)/1",
+                "distance": 3.2640019821974673,
+                "own_time": 1.00931648235676,
+                "other_time": 19.648095102985,
+                "arrival_gap": 18.63877862062824
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 4.299999999999993,
+          "features": {
+            "following": [],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_near)/1",
+                "distance": 2.92568542024763,
+                "own_time": 0.903587075947465,
+                "other_time": 21.339069100382364,
+                "arrival_gap": 20.4354820244349
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 4.3499999999999925,
+          "features": {
+            "following": [],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_near)/1",
+                "distance": 2.612838897475931,
+                "own_time": 0.8056689093175232,
+                "other_time": 22.407834042841387,
+                "arrival_gap": 21.602165133523865
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 4.399999999999992,
+          "features": {
+            "following": [],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_near)/1",
+                "distance": 2.29269508681707,
+                "own_time": 0.7057657201328217,
+                "other_time": 23.48406739101004,
+                "arrival_gap": 22.77830167087722
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 4.449999999999992,
+          "features": {
+            "following": [],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_near)/1",
+                "distance": 2.0425025855973415,
+                "own_time": 0.627706701015397,
+                "other_time": 24.55111003745789,
+                "arrival_gap": 23.92340333644249
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 4.499999999999992,
+          "features": {
+            "following": [],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_near)/1",
+                "distance": 1.7701831033182425,
+                "own_time": 0.5431421647777586,
+                "other_time": 25.709197905221544,
+                "arrival_gap": 25.166055740443785
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 4.549999999999992,
+          "features": {
+            "following": [],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_near)/1",
+                "distance": 1.529464916273919,
+                "own_time": 0.4685537931503927,
+                "other_time": 27.086997306479027,
+                "arrival_gap": 26.618443513328636
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 4.599999999999992,
+          "features": {
+            "following": [],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_near)/1",
+                "distance": 1.2597584222449385,
+                "own_time": 0.38534888229275877,
+                "other_time": 28.7369082009557,
+                "arrival_gap": 28.35155931866294
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 4.6499999999999915,
+          "features": {
+            "following": [],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_near)/1",
+                "distance": 1.0832355014347943,
+                "own_time": 0.33086937847144354,
+                "other_time": 30.856734343038237,
+                "arrival_gap": 30.525864964566793
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 4.699999999999991,
+          "features": {
+            "following": [],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_near)/1",
+                "distance": 0.8458219307482431,
+                "own_time": 0.257986550441837,
+                "other_time": 32.85905524193996,
+                "arrival_gap": 32.60106869149813
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 4.749999999999991,
+          "features": {
+            "following": [],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_near)/1",
+                "distance": 0.6815573616389163,
+                "own_time": 0.2075965009445172,
+                "other_time": 34.4106037045198,
+                "arrival_gap": 34.20300720357528
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 4.799999999999991,
+          "features": {
+            "following": [],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_near)/1",
+                "distance": 0.4814462833387128,
+                "own_time": 0.1464460418695417,
+                "other_time": 34.55540293616151,
+                "arrival_gap": 34.40895689429196
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 4.849999999999991,
+          "features": {
+            "following": [],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_near)/1",
+                "distance": 0.3237156223184877,
+                "own_time": 0.09833683562248635,
+                "other_time": 32.89362969384859,
+                "arrival_gap": 32.795292858226105
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 4.899999999999991,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 4.94999999999999,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 4.99999999999999,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 5.04999999999999,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 5.09999999999999,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 5.14999999999999,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 5.1999999999999895,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 5.249999999999989,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 5.299999999999989,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 5.349999999999989,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 5.399999999999989,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 5.449999999999989,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 5.4999999999999885,
+          "features": {
+            "following": [],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_near)/1",
+                "distance": 0.2417385929633767,
+                "own_time": 0.07223733531280954,
+                "other_time": 11.169124264376507,
+                "arrival_gap": 11.096886929063697
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 5.549999999999988,
+          "features": {
+            "following": [],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_near)/1",
+                "distance": 0.2766400870212844,
+                "own_time": 0.08263130483474523,
+                "other_time": 10.425309019707962,
+                "arrival_gap": 10.342677714873217
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 5.599999999999988,
+          "features": {
+            "following": [],
+            "crossings": [
+              {
+                "id": "scenic/ActorAttribute(id=role_name,type=str,value=merge_near)/1",
+                "distance": 0.1606385876900052,
+                "own_time": 0.04793068938497789,
+                "other_time": 9.951752149090813,
+                "arrival_gap": 9.903821459705835
+              }
+            ],
+            "emergency": []
+          }
+        },
+        {
+          "time": 5.649999999999988,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 5.699999999999988,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 5.749999999999988,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 5.799999999999987,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 5.849999999999987,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 5.899999999999987,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 5.949999999999987,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 5.999999999999987,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 6.0499999999999865,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 6.099999999999986,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 6.149999999999986,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 6.199999999999986,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 6.249999999999986,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 6.299999999999986,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        }
+      ],
+      "mode": "cruise",
+      "trigger_counts": {
+        "proactive_yield": 0,
+        "gap_wait": 0,
+        "following": 0,
+        "emergency": 0,
+        "signal": 0
+      },
+      "events": [],
+      "event_capacity": 256,
+      "dropped_events": 0,
+      "last_diagnostics": {
+        "tick": 126,
+        "mechanism": "C",
+        "parameters": {
+          "reaction_delay": 0.2,
+          "accepted_gap": 4.0,
+          "yield_window": 3.0,
+          "yield_speed_multiplier": 0.75,
+          "yield_deceleration": 2.0,
+          "proactive_yield": true,
+          "delayed_confirmation": true,
+          "gap_check": true
+        },
+        "active": [],
+        "desired_speed": 4.0,
+        "features": {
+          "following": [],
+          "crossings": [],
+          "emergency": []
+        },
+        "confirmed_features": {
+          "following": [],
+          "crossings": [],
+          "emergency": []
+        }
+      }
+    }
+  },
+  "capabilities": {
+    "protocol": 1,
+    "actions": [
+      "vehicle_control",
+      "trajectory"
+    ],
+    "experiments_enabled": true,
+    "scenario": {
+      "source": "scenic",
+      "rebuild": true,
+      "prefix_replay": {
+        "available": true,
+        "verified": false,
+        "limitations": []
+      },
+      "takeover_roles": {},
+      "mechanism_roles": [
+        "merge_near",
+        "merge_far"
+      ],
+      "mechanism_switch": true
+    }
+  }
+}

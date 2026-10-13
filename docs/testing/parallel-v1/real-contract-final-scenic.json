@@ -1,0 +1,56 @@
+{
+  "real_carla": true,
+  "instances": [
+    "planning_0"
+  ],
+  "checks": {
+    "fixed_space": true,
+    "explicit_history_warmup": true,
+    "tick_counts": true,
+    "geometry_valid": true,
+    "route_query": true,
+    "map_topology": true,
+    "approximate_boundary_provenance": true,
+    "masked_reset": true,
+    "fixed_trajectory_space": true,
+    "rear_axle_trajectory": true
+  },
+  "status": "passed",
+  "geometries": [
+    {
+      "planning.geometry.bbox_offset": [
+        0.02921886183321476,
+        6.189419536895002e-07,
+        0.7358604073524475
+      ],
+      "planning.geometry.bbox_valid": true,
+      "planning.geometry.center_of_mass_offset": [
+        0.44999998807907104,
+        -0.0,
+        -0.29999998211860657
+      ],
+      "planning.geometry.center_of_mass_valid": true,
+      "planning.geometry.max_steer_angle": 1.221730351448059,
+      "planning.geometry.rear_axle_offset": [
+        -1.386406421661377,
+        -1.3806261449644808e-06,
+        0.3078577518463135
+      ],
+      "planning.geometry.rear_axle_valid": true,
+      "planning.geometry.size": [
+        4.791779518127441,
+        2.163450002670288,
+        1.4876600503921509
+      ],
+      "planning.geometry.wheelbase": 3.004647731781006
+    }
+  ],
+  "routes": [
+    {
+      "route_id": "c2daf8f3ac5730b9b5fb0c0096e77bc17bf52e2ad2025c175bccfbcd776afe87",
+      "map_id": "21b1a53c6422aec3230f2fc4e12c227351d481909834ce54fed3555958967522",
+      "segments": 21,
+      "map_segments": 168
+    }
+  ]
+}

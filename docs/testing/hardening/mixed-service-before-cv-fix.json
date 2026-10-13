@@ -1,0 +1,222 @@
+{
+  "status": "failed",
+  "measurement_kind": "independent_client_service_measurement",
+  "instance": "hardening_mixed_83210",
+  "client_python": "3.11.16",
+  "client_prefix": "/home/czh/software/miniconda3/envs/carla-client-test",
+  "control": [
+    0.0,
+    0.15,
+    0.0
+  ],
+  "copy_observations": true,
+  "requested_episodes": 4,
+  "requested_steps_per_episode": 20,
+  "episodes": [
+    {
+      "index": 0,
+      "seed": 0,
+      "backend_reported": "carla",
+      "scenario": {
+        "source": "bench2drive",
+        "scenario_id": "25134",
+        "seed": 0,
+        "town": "Town10HD",
+        "scenario_types": [
+          "T_Junction"
+        ],
+        "loaded_town": "Town10HD",
+        "route_fingerprint": "9040e5b15ff98f4d86ee45e30f8a614b13fae40c9bf081144d5a391aa0e4c799",
+        "upstream_commit": "acbeb0dd8aa99dd0e71b9b75bb542f6fe7c7f3d8",
+        "patch_version": 3,
+        "native_npc": true,
+        "mechanism_replacements": [],
+        "generation_failure": null,
+        "native_validation": "not_run",
+        "repeatability_validation": "not_run",
+        "scenario_names": [
+          "T_Junction_1"
+        ]
+      },
+      "steps": 20,
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "index": 1,
+      "seed": 1,
+      "backend_reported": "carla",
+      "scenario": {
+        "source": "scenic",
+        "scenario_id": "interaction_follow",
+        "seed": 1,
+        "source_sha256": "cd727e47203609271a8904a9142028f85479f0b3e7fed2d152e914b859ea2a32",
+        "file": "/home/czh/workspace/CARLA-RL-Base/scenarios/scenic/interaction_follow.scenic",
+        "town": "Town10HD",
+        "iterations": 1,
+        "parameters": {
+          "scenario_name": "interaction_follow",
+          "weather": "ClearNoon",
+          "traffic_light_policy": "off",
+          "ego_spawn_index": 0,
+          "destination_spawn_index": 30,
+          "min_route_distance": 100,
+          "number_of_vehicles": 0,
+          "number_of_walkers": 0
+        },
+        "generation_failures": [],
+        "seeds": {
+          "scenic_python": 1,
+          "scenic_numpy": 1,
+          "route": 1,
+          "spawn": 1,
+          "streams_independent": true,
+          "traffic_manager": 1,
+          "pedestrians": 1,
+          "events": 2,
+          "crossing": 3,
+          "lead_brake": 4,
+          "reactive_npc": 1
+        },
+        "ego_spawn_index": 0,
+        "destination_spawn_index": 30,
+        "background_vehicles_requested": 0,
+        "background_vehicles_spawned": 0,
+        "reactive_routes": {}
+      },
+      "steps": 20,
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "index": 2,
+      "seed": 2,
+      "backend_reported": "carla",
+      "scenario": {
+        "source": "bench2drive",
+        "scenario_id": "28147",
+        "seed": 2,
+        "town": "Town10HD",
+        "scenario_types": [
+          "SignalizedJunctionLeftTurnEnterFlow"
+        ],
+        "loaded_town": "Town10HD",
+        "route_fingerprint": "4a4e3512908f61835f6a057eb83ce400c7e8ebdf38be7a47db1e6bdb6ef16348",
+        "upstream_commit": "acbeb0dd8aa99dd0e71b9b75bb542f6fe7c7f3d8",
+        "patch_version": 3,
+        "native_npc": true,
+        "mechanism_replacements": [],
+        "generation_failure": null,
+        "native_validation": "not_run",
+        "repeatability_validation": "not_run",
+        "scenario_names": [
+          "SignalizedJunctionLeftTurnEnterFlow_1"
+        ]
+      },
+      "steps": 0,
+      "terminated": false,
+      "truncated": false
+    }
+  ],
+  "simulation_timing_source": "service-provided info.timing; not inferred from wall-clock duration",
+  "error": {
+    "type": "RemoteError",
+    "message": "environment_fault: Step failed after submission; no valid transition: Disable autopilot explicitly before enabling constant velocity"
+  },
+  "wall_seconds": 6.610683153005084,
+  "metrics": {
+    "rpc_roundtrip_seconds": {
+      "count": 40,
+      "p50": 0.03775741150093381,
+      "p95": 0.04856491485297735,
+      "mean": 0.037525373600328746,
+      "min": 0.02683111599617405,
+      "max": 0.08444204400439048
+    },
+    "rpc_backend_seconds": {
+      "count": 40,
+      "p50": 0.03685706100077368,
+      "p95": 0.047734621400013534,
+      "mean": 0.036722790875319336,
+      "min": 0.026043872996524442,
+      "max": 0.08363890500186244
+    },
+    "transport_and_copy_seconds": {
+      "count": 40,
+      "p50": 0.000804974501079414,
+      "p95": 0.0008694131509400904,
+      "mean": 0.0008025827250094153,
+      "min": 0.0007126470081857406,
+      "max": 0.0009520619933027774
+    },
+    "simulation_seconds": {
+      "count": 40,
+      "p50": 0.006812178999098251,
+      "p95": 0.009819175753000307,
+      "mean": 0.0074155929010885305,
+      "min": 0.004115149000426754,
+      "max": 0.031196218005788978
+    },
+    "control_commit_seconds": {
+      "count": 40,
+      "p50": 0.0008294299987028353,
+      "p95": 0.0010167131411435548,
+      "mean": 0.0007339898254940635,
+      "min": 0.0003646400000434369,
+      "max": 0.0010984269974869676
+    },
+    "observation_seconds": {
+      "count": 40,
+      "p50": 0.015554880497802515,
+      "p95": 0.020758457358533634,
+      "mean": 0.016145683349532192,
+      "min": 0.011435126994911116,
+      "max": 0.03217510599642992
+    },
+    "sensor_wait_seconds": {
+      "count": 40,
+      "p50": 0.008346475500729866,
+      "p95": 0.008398199453949928,
+      "mean": 0.008349947725037055,
+      "min": 0.008291498998005409,
+      "max": 0.00840687399613671
+    },
+    "environment_seconds": {
+      "count": 40,
+      "p50": 0.036822550999204395,
+      "p95": 0.04770744975539853,
+      "mean": 0.0366906088001997,
+      "min": 0.0260159180033952,
+      "max": 0.08360472699860111
+    },
+    "reset_roundtrip_seconds": {
+      "count": 3,
+      "p50": 0.3207251210042159,
+      "p95": 4.149155783301103,
+      "mean": 1.6803887796680403,
+      "min": 0.1459042499991483,
+      "max": 4.574536968000757
+    },
+    "initialization_seconds": {
+      "count": 3,
+      "p50": 0.313856674998533,
+      "p95": 4.146614177297305,
+      "mean": 1.6764999223329748,
+      "min": 0.14316697000322165,
+      "max": 4.57247612199717
+    },
+    "observation_array_bytes": {
+      "count": 40,
+      "p50": 85904.0,
+      "p95": 85904.0,
+      "mean": 85904.0,
+      "min": 85904.0,
+      "max": 85904.0
+    }
+  },
+  "notes": [
+    "Passing this runner verifies successful communication, not driving task success.",
+    "Empty timing samples mean the backend did not supply that measurement.",
+    "Transport time includes scheduling, encoding, shared-memory transfer and copying."
+  ]
+}

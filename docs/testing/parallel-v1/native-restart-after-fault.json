@@ -1,0 +1,58 @@
+[
+  {
+    "worker_id": "worker_1",
+    "instance": "planning_1",
+    "pid": 175147,
+    "process_start": "12795298",
+    "state": "ready",
+    "ports": {
+      "rpc": 24010,
+      "secondary": 24012,
+      "streaming": 24011,
+      "tm": 24013
+    },
+    "service_epoch": "50015538-da07-47ac-a975-4d1f887d68d8",
+    "started_at": 1791816616.9503927,
+    "exit_codes": {},
+    "logs": "/home/czh/workspace/CARLA-RL-Base/artifacts/b2d-fleet/worker_1",
+    "server_thread_limits": {
+      "requested": {
+        "rpc": 2,
+        "streaming": 2,
+        "secondary": 2
+      },
+      "applied": false,
+      "reason": "official_0.9.15_uses_hardware_concurrency; CaRL_flags_are_not_parsed"
+    },
+    "numeric_threads": 1,
+    "carla": {
+      "pid": 175167,
+      "process_start": "12795309",
+      "argv": [
+        "/home/czh/software/carla/CarlaUE4.sh",
+        "-nullrhi",
+        "-nosound",
+        "-carla-rpc-port=24010",
+        "-carla-streaming-port=24011",
+        "-carla-secondary-port=24012"
+      ]
+    },
+    "carla_version": "0.9.15",
+    "service": {
+      "pid": 175381,
+      "process_start": "12795739",
+      "argv": [
+        "/home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python3.10",
+        "-m",
+        "easycarla.service.cli",
+        "serve",
+        "--instance",
+        "planning_1",
+        "--config",
+        "/home/czh/workspace/CARLA-RL-Base/artifacts/b2d-fleet/worker_1/environment.json"
+      ]
+    },
+    "ready_at": 1791816621.3449593,
+    "memory_available_mb": 16499.30859375
+  }
+]

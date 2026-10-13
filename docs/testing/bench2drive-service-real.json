@@ -1,0 +1,1186 @@
+{
+  "client_python": "/home/czh/software/miniconda3/envs/carla-client-test/bin/python",
+  "client_has_forbidden_dependencies": {
+    "carla": false,
+    "scenic": false,
+    "torch": false
+  },
+  "episodes": [
+    {
+      "route_id": "28147",
+      "reset_frame": 294385,
+      "source": "bench2drive",
+      "scenario": {
+        "source": "bench2drive",
+        "scenario_id": "28147",
+        "seed": 123,
+        "town": "Town10HD",
+        "scenario_types": [
+          "SignalizedJunctionLeftTurnEnterFlow"
+        ],
+        "loaded_town": "Town10HD_Opt",
+        "route_fingerprint": "4a4e3512908f61835f6a057eb83ce400c7e8ebdf38be7a47db1e6bdb6ef16348",
+        "upstream_commit": "acbeb0dd8aa99dd0e71b9b75bb542f6fe7c7f3d8",
+        "patch_version": 1,
+        "native_npc": true,
+        "mechanism_replacements": [],
+        "generation_failure": null,
+        "native_validation": "not_run",
+        "repeatability_validation": "not_run",
+        "scenario_names": [
+          "SignalizedJunctionLeftTurnEnterFlow_1"
+        ]
+      },
+      "observation_keys": [
+        "coordinate_frame",
+        "ego",
+        "frame",
+        "map_id",
+        "objects",
+        "obstacles",
+        "route",
+        "sensors",
+        "signals",
+        "timestamp"
+      ],
+      "steps": 10,
+      "object_count": 0,
+      "max_object_count": 9,
+      "terminated": false,
+      "truncated": false,
+      "native_success": false,
+      "static_keys": [
+        "center",
+        "connections",
+        "coordinate_frame",
+        "lane_change",
+        "lane_ids",
+        "lane_type",
+        "lane_width",
+        "left_boundary",
+        "map_id",
+        "name",
+        "offsets",
+        "right_boundary",
+        "sampling_distance_m",
+        "speed_limit_source"
+      ],
+      "capabilities": {
+        "protocol": 1,
+        "actions": [
+          "vehicle_control",
+          "trajectory"
+        ],
+        "experiments_enabled": false,
+        "scenario": {
+          "source": "bench2drive",
+          "native_execution": true,
+          "native_validation": "not_run",
+          "fixed_recipe_rebuild": true,
+          "prefix_replay": false,
+          "replay_restrictions": [
+            "Native Traffic Manager and behavior tree internal state is not serializable",
+            "Same seed alone is not a verified common-prefix state"
+          ],
+          "takeover_roles": {},
+          "takeover_restrictions": [
+            "Only initialized ParkingCutIn, StaticCutIn, HighwayCutIn adversaries",
+            "Requires native placement and explicit experimental opt-in",
+            "No actor lifetime extension; irreversible within the episode"
+          ]
+        }
+      },
+      "final_frame": 294425,
+      "tick_counts": {
+        "initialization": 5,
+        "step": 40
+      },
+      "native_statistics": {
+        "implementation": "pinned_leaderboard_statistics_manager",
+        "record": {
+          "index": 0,
+          "route_id": "RouteScenario_28147_rep0",
+          "scenario_name": "SignalizedJunctionLeftTurnEnterFlow",
+          "weather_id": null,
+          "save_name": null,
+          "status": "Failed",
+          "num_infractions": 0,
+          "infractions": {
+            "collisions_layout": [],
+            "collisions_pedestrian": [],
+            "collisions_vehicle": [],
+            "red_light": [],
+            "stop_infraction": [],
+            "outside_route_lanes": [],
+            "min_speed_infractions": [],
+            "yield_emergency_vehicle_infractions": [],
+            "scenario_timeouts": [],
+            "route_dev": [],
+            "vehicle_blocked": [],
+            "route_timeout": []
+          },
+          "scores": {
+            "score_route": 0.0,
+            "score_penalty": 1.0,
+            "score_composed": 0.0
+          },
+          "meta": {
+            "route_length": 96.488,
+            "duration_game": 2.05,
+            "duration_system": 0.692
+          },
+          "town_name": "Town10HD_Opt"
+        },
+        "events": [
+          {
+            "criterion": "RouteCompletionTest",
+            "type": "ROUTE_COMPLETION",
+            "frame": 0,
+            "message": "Agent has completed 0.0 of the route",
+            "data": {
+              "route_completed": 0.0
+            }
+          }
+        ],
+        "efficiency_mean_percent": null,
+        "efficiency_valid_checkpoints": 0,
+        "smoothness_score": null,
+        "smoothness_status": "not_computed; raw telemetry available with native_metrics=true",
+        "final": false,
+        "telemetry": {
+          "samples": [
+            {
+              "frame": 294422,
+              "timestamp": 617.6007445872237,
+              "acceleration": [
+                -3.4654806313483277e-06,
+                1.3801292197967996e-06,
+                0.0008602143498137593
+              ],
+              "angular_velocity": [
+                -0.00014008769358042628,
+                -0.00019481172785162926,
+                1.1259229992788278e-08
+              ],
+              "forward_vector": [
+                -0.007545085623860359,
+                0.9999715089797974,
+                1.5497206504733185e-06
+              ],
+              "right_vector": [
+                -0.9999715089797974,
+                -0.007545085623860359,
+                1.5978966985130683e-06
+              ],
+              "location": [
+                -48.763343811035156,
+                -27.354387283325195,
+                -0.00458107003942132
+              ],
+              "rotation": [
+                -9.1552734375e-05,
+                8.879245433490723e-05,
+                90.43230438232422
+              ]
+            },
+            {
+              "frame": 294423,
+              "timestamp": 617.6507445879688,
+              "acceleration": [
+                1.6674403013894334e-06,
+                -1.6273395431198878e-06,
+                1.4495453797280788e-05
+              ],
+              "angular_velocity": [
+                -0.00011520297266542912,
+                -0.00015175189764704555,
+                2.109957542018037e-09
+              ],
+              "forward_vector": [
+                -0.007545085623860359,
+                0.9999715089797974,
+                1.5497206504733185e-06
+              ],
+              "right_vector": [
+                -0.9999715089797974,
+                -0.007545085623860359,
+                1.5978966985130683e-06
+              ],
+              "location": [
+                -48.763343811035156,
+                -27.354387283325195,
+                -0.004568023607134819
+              ],
+              "rotation": [
+                -9.1552734375e-05,
+                8.879245433490723e-05,
+                90.43230438232422
+              ]
+            },
+            {
+              "frame": 294424,
+              "timestamp": 617.7007445887139,
+              "acceleration": [
+                3.967965767515125e-06,
+                -2.0037145986862015e-06,
+                -0.0004547118442133069
+              ],
+              "angular_velocity": [
+                -8.433063339907676e-05,
+                -0.0001034587257890962,
+                -1.767771706795429e-08
+              ],
+              "forward_vector": [
+                -0.007545085623860359,
+                0.9999715089797974,
+                1.5497206504733185e-06
+              ],
+              "right_vector": [
+                -0.9999715089797974,
+                -0.007545085623860359,
+                1.5978966985130683e-06
+              ],
+              "location": [
+                -48.763343811035156,
+                -27.354387283325195,
+                -0.004555778577923775
+              ],
+              "rotation": [
+                -9.1552734375e-05,
+                8.879245433490723e-05,
+                90.43230438232422
+              ]
+            },
+            {
+              "frame": 294425,
+              "timestamp": 617.7507445894589,
+              "acceleration": [
+                -2.9044986149528995e-06,
+                1.3010497923460207e-06,
+                -0.0006265638512559235
+              ],
+              "angular_velocity": [
+                -0.00010436812590342015,
+                -0.00014286299119703472,
+                2.2108956887478826e-09
+              ],
+              "forward_vector": [
+                -0.007545085623860359,
+                0.9999715089797974,
+                1.5497206504733185e-06
+              ],
+              "right_vector": [
+                -0.9999715089797974,
+                -0.007545085623860359,
+                1.5978966985130683e-06
+              ],
+              "location": [
+                -48.763343811035156,
+                -27.354387283325195,
+                -0.004544982686638832
+              ],
+              "rotation": [
+                -9.1552734375e-05,
+                8.879245433490723e-05,
+                90.43230438232422
+              ]
+            }
+          ],
+          "capacity": 4,
+          "total_samples": 42,
+          "physics_dt": 0.05,
+          "coordinate_frame": "carla_world_left_handed",
+          "units": {
+            "acceleration": "m/s^2",
+            "angular_velocity": "degrees/s",
+            "rotation": "degrees (roll,pitch,yaw)",
+            "location": "m",
+            "forward_vector": "unit vector",
+            "right_vector": "unit vector"
+          }
+        }
+      },
+      "native_scenarios": [
+        {
+          "name": "SignalizedJunctionLeftTurnEnterFlow_1",
+          "type": "SignalizedJunctionLeftTurnEnterFlow",
+          "status": "Status.RUNNING"
+        }
+      ],
+      "timings": {
+        "roundtrip_seconds": {
+          "p50": 0.05025261500122724,
+          "p95": 0.08063013389764814
+        },
+        "transport_and_copy_seconds": {
+          "p50": 0.0011251474970777053,
+          "p95": 0.0012356861974694765
+        },
+        "simulation_seconds": {
+          "p50": 0.01139606300421292,
+          "p95": 0.014243630649070834
+        }
+      }
+    },
+    {
+      "route_id": "25134",
+      "reset_frame": 294432,
+      "source": "bench2drive",
+      "scenario": {
+        "source": "bench2drive",
+        "scenario_id": "25134",
+        "seed": 123,
+        "town": "Town10HD",
+        "scenario_types": [
+          "T_Junction"
+        ],
+        "loaded_town": "Town10HD_Opt",
+        "route_fingerprint": "9040e5b15ff98f4d86ee45e30f8a614b13fae40c9bf081144d5a391aa0e4c799",
+        "upstream_commit": "acbeb0dd8aa99dd0e71b9b75bb542f6fe7c7f3d8",
+        "patch_version": 1,
+        "native_npc": true,
+        "mechanism_replacements": [],
+        "generation_failure": null,
+        "native_validation": "not_run",
+        "repeatability_validation": "not_run",
+        "scenario_names": [
+          "T_Junction_1"
+        ]
+      },
+      "observation_keys": [
+        "coordinate_frame",
+        "ego",
+        "frame",
+        "map_id",
+        "objects",
+        "obstacles",
+        "route",
+        "sensors",
+        "signals",
+        "timestamp"
+      ],
+      "steps": 10,
+      "object_count": 0,
+      "max_object_count": 10,
+      "terminated": false,
+      "truncated": false,
+      "native_success": false,
+      "static_keys": [
+        "center",
+        "connections",
+        "coordinate_frame",
+        "lane_change",
+        "lane_ids",
+        "lane_type",
+        "lane_width",
+        "left_boundary",
+        "map_id",
+        "name",
+        "offsets",
+        "right_boundary",
+        "sampling_distance_m",
+        "speed_limit_source"
+      ],
+      "capabilities": {
+        "protocol": 1,
+        "actions": [
+          "vehicle_control",
+          "trajectory"
+        ],
+        "experiments_enabled": false,
+        "scenario": {
+          "source": "bench2drive",
+          "native_execution": true,
+          "native_validation": "not_run",
+          "fixed_recipe_rebuild": true,
+          "prefix_replay": false,
+          "replay_restrictions": [
+            "Native Traffic Manager and behavior tree internal state is not serializable",
+            "Same seed alone is not a verified common-prefix state"
+          ],
+          "takeover_roles": {},
+          "takeover_restrictions": [
+            "Only initialized ParkingCutIn, StaticCutIn, HighwayCutIn adversaries",
+            "Requires native placement and explicit experimental opt-in",
+            "No actor lifetime extension; irreversible within the episode"
+          ]
+        }
+      },
+      "final_frame": 294472,
+      "tick_counts": {
+        "initialization": 5,
+        "step": 40
+      },
+      "native_statistics": {
+        "implementation": "pinned_leaderboard_statistics_manager",
+        "record": {
+          "index": 0,
+          "route_id": "RouteScenario_25134_rep0",
+          "scenario_name": "T_Junction",
+          "weather_id": null,
+          "save_name": null,
+          "status": "Failed",
+          "num_infractions": 0,
+          "infractions": {
+            "collisions_layout": [],
+            "collisions_pedestrian": [],
+            "collisions_vehicle": [],
+            "red_light": [],
+            "stop_infraction": [],
+            "outside_route_lanes": [],
+            "min_speed_infractions": [],
+            "yield_emergency_vehicle_infractions": [],
+            "scenario_timeouts": [],
+            "route_dev": [],
+            "vehicle_blocked": [],
+            "route_timeout": []
+          },
+          "scores": {
+            "score_route": 0.0,
+            "score_penalty": 1.0,
+            "score_composed": 0.0
+          },
+          "meta": {
+            "route_length": 146.395,
+            "duration_game": 2.05,
+            "duration_system": 0.623
+          },
+          "town_name": "Town10HD_Opt"
+        },
+        "events": [
+          {
+            "criterion": "RouteCompletionTest",
+            "type": "ROUTE_COMPLETION",
+            "frame": 0,
+            "message": "Agent has completed 0.0 of the route",
+            "data": {
+              "route_completed": 0.0
+            }
+          }
+        ],
+        "efficiency_mean_percent": null,
+        "efficiency_valid_checkpoints": 0,
+        "smoothness_score": null,
+        "smoothness_status": "not_computed; raw telemetry available with native_metrics=true",
+        "final": false,
+        "telemetry": {
+          "samples": [
+            {
+              "frame": 294469,
+              "timestamp": 619.9507446222415,
+              "acceleration": [
+                -1.2856338571509696e-06,
+                1.639909896766767e-07,
+                0.0008480073302052915
+              ],
+              "angular_velocity": [
+                0.00014979361731093377,
+                -0.00014170544454827905,
+                4.793193397745199e-09
+              ],
+              "forward_vector": [
+                -0.9999999403953552,
+                0.0004092772724106908,
+                2.3841855636419496e-06
+              ],
+              "right_vector": [
+                -0.0004092772724106908,
+                -0.9999999403953552,
+                2.6631603304849705e-06
+              ],
+              "location": [
+                50.811279296875,
+                -64.41764831542969,
+                -0.00458107003942132
+              ],
+              "rotation": [
+                -0.00015258784696925431,
+                0.00013660377589985728,
+                179.97654724121094
+              ]
+            },
+            {
+              "frame": 294470,
+              "timestamp": 620.0007446229865,
+              "acceleration": [
+                -4.3982026909361593e-08,
+                2.3571756173623726e-06,
+                1.1443626135587692e-05
+              ],
+              "angular_velocity": [
+                0.00011320264457026497,
+                -0.00014238993753679097,
+                5.361593391484121e-09
+              ],
+              "forward_vector": [
+                -0.9999999403953552,
+                0.0004092772724106908,
+                5.960463909104874e-07
+              ],
+              "right_vector": [
+                -0.0004092772724106908,
+                -0.9999999403953552,
+                5.326320433596266e-07
+              ],
+              "location": [
+                50.811279296875,
+                -64.41764831542969,
+                -0.004568138159811497
+              ],
+              "rotation": [
+                -3.0517569030052982e-05,
+                3.415094397496432e-05,
+                179.97654724121094
+              ]
+            },
+            {
+              "frame": 294471,
+              "timestamp": 620.0507446237316,
+              "acceleration": [
+                2.9534260193031514e-06,
+                -8.537676876585465e-07,
+                -0.00043773616198450327
+              ],
+              "angular_velocity": [
+                0.00011696285218931735,
+                -9.700903319753706e-05,
+                -3.190350650328355e-09
+              ],
+              "forward_vector": [
+                -0.9999999403953552,
+                0.0004092772724106908,
+                5.960463909104874e-07
+              ],
+              "right_vector": [
+                -0.0004092772724106908,
+                -0.9999999403953552,
+                5.326320433596266e-07
+              ],
+              "location": [
+                50.811279296875,
+                -64.41764831542969,
+                -0.004555816762149334
+              ],
+              "rotation": [
+                -3.0517569030052982e-05,
+                3.415094397496432e-05,
+                179.97654724121094
+              ]
+            },
+            {
+              "frame": 294472,
+              "timestamp": 620.1007446244766,
+              "acceleration": [
+                5.169397354620742e-07,
+                8.93594460649183e-07,
+                -0.0006252288585528731
+              ],
+              "angular_velocity": [
+                0.00010009916150011122,
+                -8.906876610126346e-05,
+                -4.190172653295576e-09
+              ],
+              "forward_vector": [
+                -0.9999999403953552,
+                0.0004092772724106908,
+                5.960463909104874e-07
+              ],
+              "right_vector": [
+                -0.0004092772724106908,
+                -0.9999999403953552,
+                5.326320433596266e-07
+              ],
+              "location": [
+                50.811279296875,
+                -64.41764831542969,
+                -0.004545020870864391
+              ],
+              "rotation": [
+                -3.0517569030052982e-05,
+                3.415094397496432e-05,
+                179.97654724121094
+              ]
+            }
+          ],
+          "capacity": 4,
+          "total_samples": 42,
+          "physics_dt": 0.05,
+          "coordinate_frame": "carla_world_left_handed",
+          "units": {
+            "acceleration": "m/s^2",
+            "angular_velocity": "degrees/s",
+            "rotation": "degrees (roll,pitch,yaw)",
+            "location": "m",
+            "forward_vector": "unit vector",
+            "right_vector": "unit vector"
+          }
+        }
+      },
+      "native_scenarios": [
+        {
+          "name": "T_Junction_1",
+          "type": "T_Junction",
+          "status": "Status.RUNNING"
+        }
+      ],
+      "timings": {
+        "roundtrip_seconds": {
+          "p50": 0.04705853900304646,
+          "p95": 0.06458050659966827
+        },
+        "transport_and_copy_seconds": {
+          "p50": 0.0009845550011959858,
+          "p95": 0.0013934081533079731
+        },
+        "simulation_seconds": {
+          "p50": 0.010854229502001544,
+          "p95": 0.011683810951944906
+        }
+      }
+    },
+    {
+      "route_id": "28147",
+      "reset_frame": 294479,
+      "source": "bench2drive",
+      "scenario": {
+        "source": "bench2drive",
+        "scenario_id": "28147",
+        "seed": 123,
+        "town": "Town10HD",
+        "scenario_types": [
+          "SignalizedJunctionLeftTurnEnterFlow"
+        ],
+        "loaded_town": "Town10HD_Opt",
+        "route_fingerprint": "4a4e3512908f61835f6a057eb83ce400c7e8ebdf38be7a47db1e6bdb6ef16348",
+        "upstream_commit": "acbeb0dd8aa99dd0e71b9b75bb542f6fe7c7f3d8",
+        "patch_version": 1,
+        "native_npc": true,
+        "mechanism_replacements": [],
+        "generation_failure": null,
+        "native_validation": "not_run",
+        "repeatability_validation": "not_run",
+        "scenario_names": [
+          "SignalizedJunctionLeftTurnEnterFlow_1"
+        ]
+      },
+      "observation_keys": [
+        "coordinate_frame",
+        "ego",
+        "frame",
+        "map_id",
+        "objects",
+        "obstacles",
+        "route",
+        "sensors",
+        "signals",
+        "timestamp"
+      ],
+      "steps": 188,
+      "object_count": 0,
+      "max_object_count": 13,
+      "terminated": true,
+      "truncated": false,
+      "native_success": true,
+      "static_keys": [
+        "center",
+        "connections",
+        "coordinate_frame",
+        "lane_change",
+        "lane_ids",
+        "lane_type",
+        "lane_width",
+        "left_boundary",
+        "map_id",
+        "name",
+        "offsets",
+        "right_boundary",
+        "sampling_distance_m",
+        "speed_limit_source"
+      ],
+      "capabilities": {
+        "protocol": 1,
+        "actions": [
+          "vehicle_control",
+          "trajectory"
+        ],
+        "experiments_enabled": false,
+        "scenario": {
+          "source": "bench2drive",
+          "native_execution": true,
+          "native_validation": "not_run",
+          "fixed_recipe_rebuild": true,
+          "prefix_replay": false,
+          "replay_restrictions": [
+            "Native Traffic Manager and behavior tree internal state is not serializable",
+            "Same seed alone is not a verified common-prefix state"
+          ],
+          "takeover_roles": {},
+          "takeover_restrictions": [
+            "Only initialized ParkingCutIn, StaticCutIn, HighwayCutIn adversaries",
+            "Requires native placement and explicit experimental opt-in",
+            "No actor lifetime extension; irreversible within the episode"
+          ]
+        }
+      },
+      "final_frame": 295230,
+      "tick_counts": {
+        "initialization": 5,
+        "step": 751
+      },
+      "native_statistics": {
+        "implementation": "pinned_leaderboard_statistics_manager",
+        "record": {
+          "index": 0,
+          "route_id": "RouteScenario_28147_rep0",
+          "scenario_name": "SignalizedJunctionLeftTurnEnterFlow",
+          "weather_id": null,
+          "save_name": null,
+          "status": "Completed",
+          "num_infractions": 19,
+          "infractions": {
+            "collisions_layout": [],
+            "collisions_pedestrian": [],
+            "collisions_vehicle": [
+              "Agent collided against object with type=vehicle.chevrolet.impala and id=182 at (x=-48.84, y=-14.798, z=-0.005)"
+            ],
+            "red_light": [],
+            "stop_infraction": [],
+            "outside_route_lanes": [],
+            "min_speed_infractions": [
+              "Average speed is 56.85% of the surrounding traffic's one",
+              "Average speed is 150.16% of the surrounding traffic's one",
+              "Average speed is 99.72% of the surrounding traffic's one",
+              "Average speed is 140.29% of the surrounding traffic's one",
+              "Average speed is 166.93% of the surrounding traffic's one",
+              "Average speed is 243.69% of the surrounding traffic's one",
+              "Average speed is 437.65% of the surrounding traffic's one",
+              "Average speed is 1185.77% of the surrounding traffic's one",
+              "Average speed is 1343.72% of the surrounding traffic's one",
+              "Average speed is 38263.95% of the surrounding traffic's one",
+              "Average speed is 4303823606.37% of the surrounding traffic's one",
+              "Average speed is 2919098.5% of the surrounding traffic's one",
+              "Average speed is 368.66% of the surrounding traffic's one",
+              "Average speed is 116.66% of the surrounding traffic's one",
+              "Average speed is 82.06% of the surrounding traffic's one",
+              "Average speed is 63.19% of the surrounding traffic's one",
+              "Average speed is 17.39% of the surrounding traffic's one",
+              "Average speed is 6.42% of the surrounding traffic's one"
+            ],
+            "yield_emergency_vehicle_infractions": [],
+            "scenario_timeouts": [],
+            "route_dev": [],
+            "vehicle_blocked": [],
+            "route_timeout": []
+          },
+          "scores": {
+            "score_route": 100,
+            "score_penalty": 0.6,
+            "score_composed": 60.0
+          },
+          "meta": {
+            "route_length": 96.488,
+            "duration_game": 37.6,
+            "duration_system": 12.485
+          },
+          "town_name": "Town10HD_Opt"
+        },
+        "events": [
+          {
+            "criterion": "RouteCompletionTest",
+            "type": "ROUTE_COMPLETION",
+            "frame": 0,
+            "message": "Agent has completed 100 of the route",
+            "data": {
+              "route_completed": 100
+            }
+          },
+          {
+            "criterion": "CollisionTest",
+            "type": "COLLISION_VEHICLE",
+            "frame": 294586,
+            "message": "Agent collided against object with type=vehicle.chevrolet.impala and id=182 at (x=-48.84, y=-14.798, z=-0.005)",
+            "data": {
+              "other_actor": {
+                "actor_id": 182,
+                "type_id": "vehicle.chevrolet.impala"
+              },
+              "location": {
+                "x": -48.840301513671875,
+                "y": -14.797703742980957,
+                "z": -0.004504432436078787
+              }
+            }
+          },
+          {
+            "criterion": "MinSpeedTest",
+            "type": "MIN_SPEED_INFRACTION",
+            "frame": 294551,
+            "message": "Average speed is 56.85% of the surrounding traffic's one",
+            "data": {
+              "percentage": 56.85
+            }
+          },
+          {
+            "criterion": "MinSpeedTest",
+            "type": "MIN_SPEED_INFRACTION",
+            "frame": 294579,
+            "message": "Average speed is 150.16% of the surrounding traffic's one",
+            "data": {
+              "percentage": 150.16
+            }
+          },
+          {
+            "criterion": "MinSpeedTest",
+            "type": "MIN_SPEED_INFRACTION",
+            "frame": 294611,
+            "message": "Average speed is 99.72% of the surrounding traffic's one",
+            "data": {
+              "percentage": 99.72
+            }
+          },
+          {
+            "criterion": "MinSpeedTest",
+            "type": "MIN_SPEED_INFRACTION",
+            "frame": 294638,
+            "message": "Average speed is 140.29% of the surrounding traffic's one",
+            "data": {
+              "percentage": 140.29
+            }
+          },
+          {
+            "criterion": "MinSpeedTest",
+            "type": "MIN_SPEED_INFRACTION",
+            "frame": 294668,
+            "message": "Average speed is 166.93% of the surrounding traffic's one",
+            "data": {
+              "percentage": 166.93
+            }
+          },
+          {
+            "criterion": "MinSpeedTest",
+            "type": "MIN_SPEED_INFRACTION",
+            "frame": 294696,
+            "message": "Average speed is 243.69% of the surrounding traffic's one",
+            "data": {
+              "percentage": 243.69
+            }
+          },
+          {
+            "criterion": "MinSpeedTest",
+            "type": "MIN_SPEED_INFRACTION",
+            "frame": 294724,
+            "message": "Average speed is 437.65% of the surrounding traffic's one",
+            "data": {
+              "percentage": 437.65
+            }
+          },
+          {
+            "criterion": "MinSpeedTest",
+            "type": "MIN_SPEED_INFRACTION",
+            "frame": 294751,
+            "message": "Average speed is 1185.77% of the surrounding traffic's one",
+            "data": {
+              "percentage": 1185.77
+            }
+          },
+          {
+            "criterion": "MinSpeedTest",
+            "type": "MIN_SPEED_INFRACTION",
+            "frame": 294780,
+            "message": "Average speed is 1343.72% of the surrounding traffic's one",
+            "data": {
+              "percentage": 1343.72
+            }
+          },
+          {
+            "criterion": "MinSpeedTest",
+            "type": "MIN_SPEED_INFRACTION",
+            "frame": 294809,
+            "message": "Average speed is 38263.95% of the surrounding traffic's one",
+            "data": {
+              "percentage": 38263.95
+            }
+          },
+          {
+            "criterion": "MinSpeedTest",
+            "type": "MIN_SPEED_INFRACTION",
+            "frame": 294839,
+            "message": "Average speed is 4303823606.37% of the surrounding traffic's one",
+            "data": {
+              "percentage": 4303823606.37
+            }
+          },
+          {
+            "criterion": "MinSpeedTest",
+            "type": "MIN_SPEED_INFRACTION",
+            "frame": 294866,
+            "message": "Average speed is 2919098.5% of the surrounding traffic's one",
+            "data": {
+              "percentage": 2919098.5
+            }
+          },
+          {
+            "criterion": "MinSpeedTest",
+            "type": "MIN_SPEED_INFRACTION",
+            "frame": 294898,
+            "message": "Average speed is 368.66% of the surrounding traffic's one",
+            "data": {
+              "percentage": 368.66
+            }
+          },
+          {
+            "criterion": "MinSpeedTest",
+            "type": "MIN_SPEED_INFRACTION",
+            "frame": 294931,
+            "message": "Average speed is 116.66% of the surrounding traffic's one",
+            "data": {
+              "percentage": 116.66
+            }
+          },
+          {
+            "criterion": "MinSpeedTest",
+            "type": "MIN_SPEED_INFRACTION",
+            "frame": 294963,
+            "message": "Average speed is 82.06% of the surrounding traffic's one",
+            "data": {
+              "percentage": 82.06
+            }
+          },
+          {
+            "criterion": "MinSpeedTest",
+            "type": "MIN_SPEED_INFRACTION",
+            "frame": 294995,
+            "message": "Average speed is 63.19% of the surrounding traffic's one",
+            "data": {
+              "percentage": 63.19
+            }
+          },
+          {
+            "criterion": "MinSpeedTest",
+            "type": "MIN_SPEED_INFRACTION",
+            "frame": 295111,
+            "message": "Average speed is 17.39% of the surrounding traffic's one",
+            "data": {
+              "percentage": 17.39
+            }
+          },
+          {
+            "criterion": "MinSpeedTest",
+            "type": "MIN_SPEED_INFRACTION",
+            "frame": 295230,
+            "message": "Average speed is 6.42% of the surrounding traffic's one",
+            "data": {
+              "percentage": 6.42
+            }
+          }
+        ],
+        "efficiency_mean_percent": 149.97461538461542,
+        "efficiency_valid_checkpoints": 13,
+        "smoothness_score": null,
+        "smoothness_status": "not_computed; raw telemetry available with native_metrics=true",
+        "final": true,
+        "telemetry": {
+          "samples": [
+            {
+              "frame": 295227,
+              "timestamp": 657.8507451869955,
+              "acceleration": [
+                0.9719675779342651,
+                0.0026073879562318325,
+                4.4059750507585704e-05
+              ],
+              "angular_velocity": [
+                0.0021204217337071896,
+                -0.15856021642684937,
+                -0.5641375780105591
+              ],
+              "forward_vector": [
+                0.9999998211860657,
+                0.0006116775912232697,
+                -1.0132789611816406e-05
+              ],
+              "right_vector": [
+                -0.0006116776494309306,
+                0.9999998211860657,
+                -8.59963347465964e-06
+              ],
+              "location": [
+                4.25673246383667,
+                24.695768356323242,
+                -0.004498710390180349
+              ],
+              "rotation": [
+                0.0004927227273583412,
+                -0.0005805660621263087,
+                0.035046547651290894
+              ]
+            },
+            {
+              "frame": 295228,
+              "timestamp": 657.9007451877405,
+              "acceleration": [
+                -0.8920466899871826,
+                0.10935378074645996,
+                -7.24792471373803e-06
+              ],
+              "angular_velocity": [
+                0.03152807056903839,
+                0.19474971294403076,
+                0.877745509147644
+              ],
+              "forward_vector": [
+                0.9999996423721313,
+                0.0008516576490364969,
+                -2.0265579223632812e-05
+              ],
+              "right_vector": [
+                -0.0008516560192219913,
+                0.9999996423721313,
+                7.989482401171699e-05
+              ],
+              "location": [
+                4.273000240325928,
+                24.696020126342773,
+                -0.004496421664953232
+              ],
+              "rotation": [
+                -0.004577636253088713,
+                -0.0011611321242526174,
+                0.048796396702528
+              ]
+            },
+            {
+              "frame": 295229,
+              "timestamp": 657.9507451884856,
+              "acceleration": [
+                1.1146491765975952,
+                0.09556598961353302,
+                1.5640256606275216e-05
+              ],
+              "angular_velocity": [
+                0.09244031459093094,
+                -0.20936916768550873,
+                -0.37788090109825134
+              ],
+              "forward_vector": [
+                0.999999463558197,
+                0.0010081075597554445,
+                2.1100042431498878e-05
+              ],
+              "right_vector": [
+                -0.0010081104701384902,
+                0.999999463558197,
+                0.0001400822657160461
+              ],
+              "location": [
+                4.289750576019287,
+                24.696430206298828,
+                -0.004505386110395193
+              ],
+              "rotation": [
+                -0.008026123046875,
+                0.0012089434312656522,
+                0.05776031315326691
+              ]
+            },
+            {
+              "frame": 295230,
+              "timestamp": 658.0007451892307,
+              "acceleration": [
+                -0.9093189239501953,
+                -0.040429867804050446,
+                -5.016326758777723e-05
+              ],
+              "angular_velocity": [
+                -0.03894767165184021,
+                0.16746041178703308,
+                0.7177459597587585
+              ],
+              "forward_vector": [
+                0.9999989867210388,
+                0.0014133660588413477,
+                2.598762330308091e-05
+              ],
+              "right_vector": [
+                -0.0014133697841316462,
+                0.9999989867210388,
+                0.00014168016787152737
+              ],
+              "location": [
+                4.306473255157471,
+                24.696781158447266,
+                -0.004506263416260481
+              ],
+              "rotation": [
+                -0.00811767578125,
+                0.0014889811864122748,
+                0.08097993582487106
+              ]
+            }
+          ],
+          "capacity": 4,
+          "total_samples": 753,
+          "physics_dt": 0.05,
+          "coordinate_frame": "carla_world_left_handed",
+          "units": {
+            "acceleration": "m/s^2",
+            "angular_velocity": "degrees/s",
+            "rotation": "degrees (roll,pitch,yaw)",
+            "location": "m",
+            "forward_vector": "unit vector",
+            "right_vector": "unit vector"
+          }
+        }
+      },
+      "native_scenarios": [
+        {
+          "name": "SignalizedJunctionLeftTurnEnterFlow_1",
+          "type": "SignalizedJunctionLeftTurnEnterFlow",
+          "status": "Status.RUNNING"
+        }
+      ],
+      "timings": {
+        "roundtrip_seconds": {
+          "p50": 0.06316330099798506,
+          "p95": 0.08611425674971543
+        },
+        "transport_and_copy_seconds": {
+          "p50": 0.001150147490989184,
+          "p95": 0.0015426698424562347
+        },
+        "simulation_seconds": {
+          "p50": 0.012056071500410326,
+          "p95": 0.014580729695808259
+        }
+      }
+    }
+  ],
+  "status": "passed",
+  "service_python": "/home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python",
+  "server_port": 2100,
+  "service_exit_code": 1,
+  "client_stdout": "{\"status\": \"passed\", \"episodes\": [{\"route_id\": \"28147\", \"steps\": 10, \"native_success\": false}, {\"route_id\": \"25134\", \"steps\": 10, \"native_success\": false}, {\"route_id\": \"28147\", \"steps\": 188, \"native_success\": true}]}\n",
+  "config": {
+    "simulation": {
+      "port": 2100,
+      "tm_port": 8100,
+      "reload_on_reset": false,
+      "timeout": 30
+    },
+    "scenario": {
+      "source": "bench2drive",
+      "purpose": "eval",
+      "native_metrics": true,
+      "manifest": "/home/czh/workspace/CARLA-RL-Base/configs/manifests/v004_eval220.json",
+      "town_overrides": {
+        "Town10HD": "Town10HD_Opt"
+      }
+    },
+    "task": {
+      "profile": "bench2drive_native",
+      "max_seconds": 300
+    }
+  },
+  "remaining_dynamic_actors": [],
+  "ipc_service_record": null
+}

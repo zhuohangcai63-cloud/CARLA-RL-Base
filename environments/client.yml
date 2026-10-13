@@ -1,0 +1,8 @@
+# The client has no CARLA, Scenic, Gymnasium or PyTorch dependency.
+# Install packages/client separately using constraints-client.txt.
+name: easycarla-client
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11.16
+  - pip

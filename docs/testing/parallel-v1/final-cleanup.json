@@ -1,0 +1,282 @@
+{
+  "status": "passed",
+  "checked_at": 1791819999.9900372,
+  "instances": [
+    "baseline_0",
+    "fleet4_0",
+    "fleet4_1",
+    "fleet4_2",
+    "fleet4_3",
+    "nothreading_fleet_0",
+    "nothreading_fleet_1",
+    "optimized_0",
+    "planning_0",
+    "planning_1"
+  ],
+  "active_owned_processes": [],
+  "ipc_residue": [],
+  "resources_after_stop": {
+    "timestamp": 1791819999.9845448,
+    "processes": [],
+    "MemAvailable": 26140.9453125,
+    "SwapFree": 7869.1171875
+  },
+  "records": [
+    {
+      "file": "/home/czh/workspace/CARLA-RL-Base/artifacts/fleet/worker_1/status-1791817956656274447.json",
+      "state": "stopped",
+      "exit_codes": {
+        "service": 0,
+        "carla": -15
+      }
+    },
+    {
+      "file": "/home/czh/workspace/CARLA-RL-Base/artifacts/fleet/worker_1/status.json",
+      "state": "stopped",
+      "exit_codes": {
+        "service": 0,
+        "carla": -15
+      }
+    },
+    {
+      "file": "/home/czh/workspace/CARLA-RL-Base/artifacts/fleet/worker_1/status-1791811268020026368.json",
+      "state": "stopped",
+      "exit_codes": {
+        "service": 0,
+        "carla": -15
+      }
+    },
+    {
+      "file": "/home/czh/workspace/CARLA-RL-Base/artifacts/fleet/worker_0/status-1791810797223425816.json",
+      "state": "stopped",
+      "exit_codes": {
+        "service": 0,
+        "carla": -15
+      }
+    },
+    {
+      "file": "/home/czh/workspace/CARLA-RL-Base/artifacts/fleet/worker_0/status-1791810562619591125.json",
+      "state": "failed",
+      "exit_codes": {
+        "carla": -15
+      }
+    },
+    {
+      "file": "/home/czh/workspace/CARLA-RL-Base/artifacts/fleet/worker_0/status-1791812108533319009.json",
+      "state": "stopped",
+      "exit_codes": {
+        "service": 0,
+        "carla": -15
+      }
+    },
+    {
+      "file": "/home/czh/workspace/CARLA-RL-Base/artifacts/fleet/worker_0/status-1791811149965472959.json",
+      "state": "stopped",
+      "exit_codes": {
+        "service": 0,
+        "carla": -15
+      }
+    },
+    {
+      "file": "/home/czh/workspace/CARLA-RL-Base/artifacts/fleet/worker_0/status-1791813939021421789.json",
+      "state": "stopped",
+      "exit_codes": {
+        "service": 0,
+        "carla": -15
+      }
+    },
+    {
+      "file": "/home/czh/workspace/CARLA-RL-Base/artifacts/fleet/worker_0/status-1791815617734529474.json",
+      "state": "stopped",
+      "exit_codes": {
+        "service": 0,
+        "carla": -15
+      }
+    },
+    {
+      "file": "/home/czh/workspace/CARLA-RL-Base/artifacts/fleet/worker_0/status.json",
+      "state": "stopped",
+      "exit_codes": {
+        "service": 0,
+        "carla": -15
+      }
+    },
+    {
+      "file": "/home/czh/workspace/CARLA-RL-Base/artifacts/fleet/worker_0/status-1791813275947153030.json",
+      "state": "stopped",
+      "exit_codes": {
+        "service": 0,
+        "carla": -15
+      }
+    },
+    {
+      "file": "/home/czh/workspace/CARLA-RL-Base/artifacts/fleet/worker_0/status-1791812709312984125.json",
+      "state": "stopped",
+      "exit_codes": {
+        "service": 0,
+        "carla": -15
+      }
+    },
+    {
+      "file": "/home/czh/workspace/CARLA-RL-Base/artifacts/fleet/worker_0/status-1791817952045258613.json",
+      "state": "stopped",
+      "exit_codes": {
+        "service": 0,
+        "carla": -15
+      }
+    },
+    {
+      "file": "/home/czh/workspace/CARLA-RL-Base/artifacts/b2d-fleet/worker_1/status-1791812015743160953.json",
+      "state": "stopped",
+      "exit_codes": {
+        "service": 0,
+        "carla": -15
+      }
+    },
+    {
+      "file": "/home/czh/workspace/CARLA-RL-Base/artifacts/b2d-fleet/worker_1/status-1791815668623997227.json",
+      "state": "stopped",
+      "exit_codes": {
+        "service": 0,
+        "carla": -15
+      }
+    },
+    {
+      "file": "/home/czh/workspace/CARLA-RL-Base/artifacts/b2d-fleet/worker_1/status-1791816616834999875.json",
+      "state": "failed",
+      "exit_codes": {
+        "service": -9,
+        "carla": -15
+      }
+    },
+    {
+      "file": "/home/czh/workspace/CARLA-RL-Base/artifacts/b2d-fleet/worker_1/status-1791813873905121228.json",
+      "state": "stopped",
+      "exit_codes": {
+        "service": 0,
+        "carla": -15
+      }
+    },
+    {
+      "file": "/home/czh/workspace/CARLA-RL-Base/artifacts/b2d-fleet/worker_1/status-1791815414040550566.json",
+      "state": "failed",
+      "exit_codes": {
+        "service": -9,
+        "carla": 139
+      }
+    },
+    {
+      "file": "/home/czh/workspace/CARLA-RL-Base/artifacts/b2d-fleet/worker_1/status-1791814458654117063.json",
+      "state": "failed",
+      "exit_codes": {
+        "service": -9,
+        "carla": 139
+      }
+    },
+    {
+      "file": "/home/czh/workspace/CARLA-RL-Base/artifacts/b2d-fleet/worker_1/status-1791813010838145792.json",
+      "state": "stopped",
+      "exit_codes": {
+        "service": 0,
+        "carla": -15
+      }
+    },
+    {
+      "file": "/home/czh/workspace/CARLA-RL-Base/artifacts/b2d-fleet/worker_1/status-1791812746735722279.json",
+      "state": "stopped",
+      "exit_codes": {
+        "service": 0,
+        "carla": -15
+      }
+    },
+    {
+      "file": "/home/czh/workspace/CARLA-RL-Base/artifacts/b2d-fleet/worker_1/status.json",
+      "state": "stopped",
+      "exit_codes": {
+        "service": 0,
+        "carla": -15
+      }
+    },
+    {
+      "file": "/home/czh/workspace/CARLA-RL-Base/artifacts/b2d0-fleet/worker_0/status.json",
+      "state": "stopped",
+      "exit_codes": {
+        "service": 0,
+        "carla": -15
+      }
+    },
+    {
+      "file": "/home/czh/workspace/CARLA-RL-Base/artifacts/b2d-legacy-fleet/worker_1/status.json",
+      "state": "stopped",
+      "exit_codes": {
+        "service": 0,
+        "carla": -15
+      }
+    },
+    {
+      "file": "/home/czh/workspace/CARLA-RL-Base/artifacts/nothreading-fleet/worker_1/status.json",
+      "state": "stopped",
+      "exit_codes": {
+        "service": 0,
+        "carla": -15
+      }
+    },
+    {
+      "file": "/home/czh/workspace/CARLA-RL-Base/artifacts/nothreading-fleet/worker_0/status.json",
+      "state": "stopped",
+      "exit_codes": {
+        "service": 0,
+        "carla": -15
+      }
+    },
+    {
+      "file": "/home/czh/workspace/CARLA-RL-Base/artifacts/baseline-fleet/worker_0/status.json",
+      "state": "stopped",
+      "exit_codes": {
+        "service": 0,
+        "carla": -15
+      }
+    },
+    {
+      "file": "/home/czh/workspace/CARLA-RL-Base/artifacts/baseline-fleet/worker_0/status-1791813750499658701.json",
+      "state": "stopped",
+      "exit_codes": {
+        "service": 0,
+        "carla": -15
+      }
+    },
+    {
+      "file": "/home/czh/workspace/CARLA-RL-Base/artifacts/optimized-fleet/worker_0/status.json",
+      "state": "stopped",
+      "exit_codes": {
+        "service": 0,
+        "carla": -15
+      }
+    },
+    {
+      "file": "/home/czh/workspace/CARLA-RL-Base/artifacts/optimized-fleet/worker_0/status-1791813818718913615.json",
+      "state": "stopped",
+      "exit_codes": {
+        "service": 0,
+        "carla": -15
+      }
+    },
+    {
+      "file": "/home/czh/workspace/CARLA-RL-Base/artifacts/b2d-trace-fleet/worker_1/status.json",
+      "state": "failed",
+      "exit_codes": {
+        "service": -9,
+        "carla": 139
+      }
+    },
+    {
+      "file": "/home/czh/workspace/CARLA-RL-Base/artifacts/town13-fleet/worker_0/status.json",
+      "state": "stopped",
+      "exit_codes": {
+        "service": 0,
+        "carla": -15
+      }
+    }
+  ],
+  "persistent_unlocked_lock_files_retained": true
+}

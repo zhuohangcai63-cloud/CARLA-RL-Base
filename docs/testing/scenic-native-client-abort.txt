@@ -1,0 +1,40 @@
+...Fatal Python error: Aborted
+
+Thread 0x0000708f2f2b9740 (most recent call first):
+  File "/home/czh/workspace/CARLA-RL-Base/easycarla/simulation/session.py", line 43 in load
+  File "/home/czh/workspace/CARLA-RL-Base/easycarla/runtime.py", line 63 in reset
+  File "/home/czh/workspace/CARLA-RL-Base/tests/test_carla_integration.py", line 74 in test_real_scenic_event_episodes
+  File "/home/czh/software/miniconda3/envs/CARLA-RL-Base/lib/python3.10/site-packages/_pytest/python.py", line 157 in pytest_pyfunc_call
+  File "/home/czh/software/miniconda3/envs/CARLA-RL-Base/lib/python3.10/site-packages/pluggy/_callers.py", line 121 in _multicall
+  File "/home/czh/software/miniconda3/envs/CARLA-RL-Base/lib/python3.10/site-packages/pluggy/_manager.py", line 120 in _hookexec
+  File "/home/czh/software/miniconda3/envs/CARLA-RL-Base/lib/python3.10/site-packages/pluggy/_hooks.py", line 512 in __call__
+  File "/home/czh/software/miniconda3/envs/CARLA-RL-Base/lib/python3.10/site-packages/_pytest/python.py", line 1671 in runtest
+  File "/home/czh/software/miniconda3/envs/CARLA-RL-Base/lib/python3.10/site-packages/_pytest/runner.py", line 178 in pytest_runtest_call
+  File "/home/czh/software/miniconda3/envs/CARLA-RL-Base/lib/python3.10/site-packages/pluggy/_callers.py", line 121 in _multicall
+  File "/home/czh/software/miniconda3/envs/CARLA-RL-Base/lib/python3.10/site-packages/pluggy/_manager.py", line 120 in _hookexec
+  File "/home/czh/software/miniconda3/envs/CARLA-RL-Base/lib/python3.10/site-packages/pluggy/_hooks.py", line 512 in __call__
+  File "/home/czh/software/miniconda3/envs/CARLA-RL-Base/lib/python3.10/site-packages/_pytest/runner.py", line 246 in <lambda>
+  File "/home/czh/software/miniconda3/envs/CARLA-RL-Base/lib/python3.10/site-packages/_pytest/runner.py", line 344 in from_call
+  File "/home/czh/software/miniconda3/envs/CARLA-RL-Base/lib/python3.10/site-packages/_pytest/runner.py", line 245 in call_and_report
+  File "/home/czh/software/miniconda3/envs/CARLA-RL-Base/lib/python3.10/site-packages/_pytest/runner.py", line 136 in runtestprotocol
+  File "/home/czh/software/miniconda3/envs/CARLA-RL-Base/lib/python3.10/site-packages/_pytest/runner.py", line 117 in pytest_runtest_protocol
+  File "/home/czh/software/miniconda3/envs/CARLA-RL-Base/lib/python3.10/site-packages/pluggy/_callers.py", line 121 in _multicall
+  File "/home/czh/software/miniconda3/envs/CARLA-RL-Base/lib/python3.10/site-packages/pluggy/_manager.py", line 120 in _hookexec
+  File "/home/czh/software/miniconda3/envs/CARLA-RL-Base/lib/python3.10/site-packages/pluggy/_hooks.py", line 512 in __call__
+  File "/home/czh/software/miniconda3/envs/CARLA-RL-Base/lib/python3.10/site-packages/_pytest/main.py", line 367 in pytest_runtestloop
+  File "/home/czh/software/miniconda3/envs/CARLA-RL-Base/lib/python3.10/site-packages/pluggy/_callers.py", line 121 in _multicall
+  File "/home/czh/software/miniconda3/envs/CARLA-RL-Base/lib/python3.10/site-packages/pluggy/_manager.py", line 120 in _hookexec
+  File "/home/czh/software/miniconda3/envs/CARLA-RL-Base/lib/python3.10/site-packages/pluggy/_hooks.py", line 512 in __call__
+  File "/home/czh/software/miniconda3/envs/CARLA-RL-Base/lib/python3.10/site-packages/_pytest/main.py", line 343 in _main
+  File "/home/czh/software/miniconda3/envs/CARLA-RL-Base/lib/python3.10/site-packages/_pytest/main.py", line 289 in wrap_session
+  File "/home/czh/software/miniconda3/envs/CARLA-RL-Base/lib/python3.10/site-packages/_pytest/main.py", line 336 in pytest_cmdline_main
+  File "/home/czh/software/miniconda3/envs/CARLA-RL-Base/lib/python3.10/site-packages/pluggy/_callers.py", line 121 in _multicall
+  File "/home/czh/software/miniconda3/envs/CARLA-RL-Base/lib/python3.10/site-packages/pluggy/_manager.py", line 120 in _hookexec
+  File "/home/czh/software/miniconda3/envs/CARLA-RL-Base/lib/python3.10/site-packages/pluggy/_hooks.py", line 512 in __call__
+  File "/home/czh/software/miniconda3/envs/CARLA-RL-Base/lib/python3.10/site-packages/_pytest/config/__init__.py", line 175 in main
+  File "/home/czh/software/miniconda3/envs/CARLA-RL-Base/lib/python3.10/site-packages/_pytest/config/__init__.py", line 201 in console_main
+  File "/home/czh/software/miniconda3/envs/CARLA-RL-Base/lib/python3.10/site-packages/pytest/__main__.py", line 9 in <module>
+  File "/home/czh/software/miniconda3/envs/CARLA-RL-Base/lib/python3.10/runpy.py", line 86 in _run_code
+  File "/home/czh/software/miniconda3/envs/CARLA-RL-Base/lib/python3.10/runpy.py", line 196 in _run_module_as_main
+
+Extension modules: numpy._core._multiarray_umath, numpy.linalg._umath_linalg, numpy.random._common, numpy.random.bit_generator, numpy.random._bounded_integers, numpy.random._mt19937, numpy.random.mtrand, numpy.random._philox, numpy.random._pcg64, numpy.random._sfc64, numpy.random._generator, carla.libcarla, cython.cimports.libc.math, scipy._lib._ccallback_c, scipy.sparse._sparsetools, _csparsetools, scipy.sparse._csparsetools, scipy.linalg._fblas, scipy.linalg._flapack, scipy.linalg.cython_lapack, scipy.linalg._cythonized_array_utils, scipy.linalg._solve_toeplitz, scipy.linalg._decomp_lu_cython, scipy.linalg._matfuncs_sqrtm_triu, scipy.linalg._matfuncs_expm, scipy.linalg._linalg_pythran, scipy.linalg.cython_blas, scipy.linalg._decomp_update, scipy.sparse.linalg._dsolve._superlu, scipy.sparse.linalg._eigen.arpack._arpack, scipy.sparse.linalg._propack._spropack, scipy.sparse.linalg._propack._dpropack, scipy.sparse.linalg._propack._cpropack, scipy.sparse.linalg._propack._zpropack, scipy.sparse.csgraph._tools, scipy.sparse.csgraph._shortest_path, scipy.sparse.csgraph._traversal, scipy.sparse.csgraph._min_spanning_tree, scipy.sparse.csgraph._flow, scipy.sparse.csgraph._matching, scipy.sparse.csgraph._reordering, scipy.spatial._ckdtree, scipy._lib.messagestream, scipy.spatial._qhull, scipy.spatial._voronoi, scipy.spatial._distance_wrap, scipy.spatial._hausdorff, scipy.special._ufuncs_cxx, scipy.special._ufuncs, scipy.special._specfun, scipy.special._comb, scipy.special._ellip_harm_2, scipy.spatial.transform._rotation, PIL._imaging, scipy.optimize._group_columns, scipy.optimize._trlib._trlib, scipy.optimize._lbfgsb, _moduleTNC, scipy.optimize._moduleTNC, scipy.optimize._cobyla, scipy.optimize._slsqp, scipy.optimize._minpack, scipy.optimize._lsq.givens_elimination, scipy.optimize._zeros, scipy.optimize._cython_nnls, scipy._lib._uarray._uarray, scipy.linalg._decomp_interpolative, scipy.optimize._bglu_dense, scipy.optimize._lsap, scipy.optimize._direct, fcl.fcl, PIL._imagingft, shapely.lib, shapely._geos, shapely._geometry_helpers, scipy.ndimage._nd_image, scipy.ndimage._rank_filter_1d, _ni_label, scipy.ndimage._ni_label, PIL._avif, PIL._imagingmath, PIL._webp (total: 82)

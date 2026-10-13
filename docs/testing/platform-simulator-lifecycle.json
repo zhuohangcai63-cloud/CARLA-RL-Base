@@ -1,0 +1,22 @@
+{
+  "recorded_utc": "2026-09-27T16:11:42.120922+00:00",
+  "initial_server": {
+    "pid": 99523,
+    "exit_code": 139,
+    "stop_requested": false,
+    "state": "native_crash_during_route22331_initialization",
+    "log": "platform-matrix-town12-server-crash.txt",
+    "diagnostics": "platform-matrix-town12-native-diagnostics.txt"
+  },
+  "followup_server": {
+    "pid": 321652,
+    "all_route_clients_exited": true,
+    "placement_guard_session_close": "completed",
+    "stop_requested": "SIGTERM after all Python validation sessions completed",
+    "exit_code": 139,
+    "state": "native_crash_during_explicit_external_simulator_shutdown",
+    "log": "platform-followup65-server-shutdown.txt",
+    "diagnostics": "platform-followup65-shutdown-diagnostics.txt"
+  },
+  "distinction": "The follow-up runtime sessions closed normally. The separately owned external simulator returned 139 on explicit SIGTERM; this is retained as a simulator shutdown failure, not retroactively reported as a route step failure."
+}

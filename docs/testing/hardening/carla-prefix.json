@@ -1,0 +1,442 @@
+{
+  "backend": "carla",
+  "passed": true,
+  "report": {
+    "status": "passed",
+    "comparable": true,
+    "initial": {
+      "status": "passed",
+      "comparable": true,
+      "checks": {
+        "actor_set": {
+          "missing": [],
+          "unexpected": []
+        },
+        "actor_state": {
+          "max_error": 0.0,
+          "tolerance": 0.2,
+          "largest_differences": []
+        },
+        "position": {
+          "max_error": 0.0,
+          "objects_compared": 3,
+          "tolerance": 0.2,
+          "worst_actor": null
+        },
+        "velocity": {
+          "max_error": 0.0,
+          "objects_compared": 3,
+          "tolerance": 0.2,
+          "worst_actor": null
+        },
+        "yaw": {
+          "max_error": 0.0,
+          "objects_compared": 3,
+          "tolerance": 0.03,
+          "worst_actor": null
+        },
+        "signals": {
+          "max_error": 0.0,
+          "tolerance": 1e-05,
+          "largest_differences": []
+        },
+        "controllers": {
+          "max_error": 0.0,
+          "tolerance": 1e-05,
+          "largest_differences": []
+        },
+        "events": {
+          "max_error": 0.0,
+          "tolerance": 1e-05,
+          "largest_differences": []
+        },
+        "history": {
+          "max_error": 0.0,
+          "tolerance": 0.2,
+          "largest_differences": []
+        },
+        "task": {
+          "max_error": 0.0,
+          "tolerance": 0.01,
+          "largest_differences": []
+        }
+      },
+      "mismatches": [],
+      "unverified": []
+    },
+    "steps": [
+      {
+        "status": "passed",
+        "comparable": true,
+        "checks": {
+          "actor_set": {
+            "missing": [],
+            "unexpected": []
+          },
+          "actor_state": {
+            "max_error": 0.0,
+            "tolerance": 0.2,
+            "largest_differences": []
+          },
+          "position": {
+            "max_error": 0.0,
+            "objects_compared": 3,
+            "tolerance": 0.2,
+            "worst_actor": null
+          },
+          "velocity": {
+            "max_error": 0.0,
+            "objects_compared": 3,
+            "tolerance": 0.2,
+            "worst_actor": null
+          },
+          "yaw": {
+            "max_error": 0.0,
+            "objects_compared": 3,
+            "tolerance": 0.03,
+            "worst_actor": null
+          },
+          "signals": {
+            "max_error": 0.0,
+            "tolerance": 1e-05,
+            "largest_differences": []
+          },
+          "controllers": {
+            "max_error": 0.0,
+            "tolerance": 1e-05,
+            "largest_differences": []
+          },
+          "events": {
+            "max_error": 0.0,
+            "tolerance": 1e-05,
+            "largest_differences": []
+          },
+          "history": {
+            "max_error": 0.0,
+            "tolerance": 0.2,
+            "largest_differences": []
+          },
+          "task": {
+            "max_error": 0.0,
+            "tolerance": 0.01,
+            "largest_differences": []
+          }
+        },
+        "mismatches": [],
+        "unverified": []
+      },
+      {
+        "status": "passed",
+        "comparable": true,
+        "checks": {
+          "actor_set": {
+            "missing": [],
+            "unexpected": []
+          },
+          "actor_state": {
+            "max_error": 0.0,
+            "tolerance": 0.2,
+            "largest_differences": []
+          },
+          "position": {
+            "max_error": 0.0,
+            "objects_compared": 3,
+            "tolerance": 0.2,
+            "worst_actor": null
+          },
+          "velocity": {
+            "max_error": 0.0,
+            "objects_compared": 3,
+            "tolerance": 0.2,
+            "worst_actor": null
+          },
+          "yaw": {
+            "max_error": 0.0,
+            "objects_compared": 3,
+            "tolerance": 0.03,
+            "worst_actor": null
+          },
+          "signals": {
+            "max_error": 0.0,
+            "tolerance": 1e-05,
+            "largest_differences": []
+          },
+          "controllers": {
+            "max_error": 0.0,
+            "tolerance": 1e-05,
+            "largest_differences": []
+          },
+          "events": {
+            "max_error": 0.0,
+            "tolerance": 1e-05,
+            "largest_differences": []
+          },
+          "history": {
+            "max_error": 0.0,
+            "tolerance": 0.2,
+            "largest_differences": []
+          },
+          "task": {
+            "max_error": 0.0,
+            "tolerance": 0.01,
+            "largest_differences": []
+          }
+        },
+        "mismatches": [],
+        "unverified": []
+      },
+      {
+        "status": "passed",
+        "comparable": true,
+        "checks": {
+          "actor_set": {
+            "missing": [],
+            "unexpected": []
+          },
+          "actor_state": {
+            "max_error": 0.0,
+            "tolerance": 0.2,
+            "largest_differences": []
+          },
+          "position": {
+            "max_error": 0.0,
+            "objects_compared": 3,
+            "tolerance": 0.2,
+            "worst_actor": null
+          },
+          "velocity": {
+            "max_error": 0.0,
+            "objects_compared": 3,
+            "tolerance": 0.2,
+            "worst_actor": null
+          },
+          "yaw": {
+            "max_error": 0.0,
+            "objects_compared": 3,
+            "tolerance": 0.03,
+            "worst_actor": null
+          },
+          "signals": {
+            "max_error": 0.0,
+            "tolerance": 1e-05,
+            "largest_differences": []
+          },
+          "controllers": {
+            "max_error": 0.0,
+            "tolerance": 1e-05,
+            "largest_differences": []
+          },
+          "events": {
+            "max_error": 0.0,
+            "tolerance": 1e-05,
+            "largest_differences": []
+          },
+          "history": {
+            "max_error": 0.0,
+            "tolerance": 0.2,
+            "largest_differences": []
+          },
+          "task": {
+            "max_error": 0.0,
+            "tolerance": 0.01,
+            "largest_differences": []
+          }
+        },
+        "mismatches": [],
+        "unverified": []
+      },
+      {
+        "status": "passed",
+        "comparable": true,
+        "checks": {
+          "actor_set": {
+            "missing": [],
+            "unexpected": []
+          },
+          "actor_state": {
+            "max_error": 0.0,
+            "tolerance": 0.2,
+            "largest_differences": []
+          },
+          "position": {
+            "max_error": 0.0,
+            "objects_compared": 3,
+            "tolerance": 0.2,
+            "worst_actor": null
+          },
+          "velocity": {
+            "max_error": 0.0,
+            "objects_compared": 3,
+            "tolerance": 0.2,
+            "worst_actor": null
+          },
+          "yaw": {
+            "max_error": 0.0,
+            "objects_compared": 3,
+            "tolerance": 0.03,
+            "worst_actor": null
+          },
+          "signals": {
+            "max_error": 0.0,
+            "tolerance": 1e-05,
+            "largest_differences": []
+          },
+          "controllers": {
+            "max_error": 0.0,
+            "tolerance": 1e-05,
+            "largest_differences": []
+          },
+          "events": {
+            "max_error": 0.0,
+            "tolerance": 1e-05,
+            "largest_differences": []
+          },
+          "history": {
+            "max_error": 0.0,
+            "tolerance": 0.2,
+            "largest_differences": []
+          },
+          "task": {
+            "max_error": 0.0,
+            "tolerance": 0.01,
+            "largest_differences": []
+          }
+        },
+        "mismatches": [],
+        "unverified": []
+      },
+      {
+        "status": "passed",
+        "comparable": true,
+        "checks": {
+          "actor_set": {
+            "missing": [],
+            "unexpected": []
+          },
+          "actor_state": {
+            "max_error": 0.0,
+            "tolerance": 0.2,
+            "largest_differences": []
+          },
+          "position": {
+            "max_error": 0.0,
+            "objects_compared": 3,
+            "tolerance": 0.2,
+            "worst_actor": null
+          },
+          "velocity": {
+            "max_error": 0.0,
+            "objects_compared": 3,
+            "tolerance": 0.2,
+            "worst_actor": null
+          },
+          "yaw": {
+            "max_error": 0.0,
+            "objects_compared": 3,
+            "tolerance": 0.03,
+            "worst_actor": null
+          },
+          "signals": {
+            "max_error": 0.0,
+            "tolerance": 1e-05,
+            "largest_differences": []
+          },
+          "controllers": {
+            "max_error": 0.0,
+            "tolerance": 1e-05,
+            "largest_differences": []
+          },
+          "events": {
+            "max_error": 0.0,
+            "tolerance": 1e-05,
+            "largest_differences": []
+          },
+          "history": {
+            "max_error": 0.0,
+            "tolerance": 0.2,
+            "largest_differences": []
+          },
+          "task": {
+            "max_error": 0.0,
+            "tolerance": 0.01,
+            "largest_differences": []
+          }
+        },
+        "mismatches": [],
+        "unverified": []
+      }
+    ],
+    "final": {
+      "status": "passed",
+      "comparable": true,
+      "checks": {
+        "actor_set": {
+          "missing": [],
+          "unexpected": []
+        },
+        "actor_state": {
+          "max_error": 0.0,
+          "tolerance": 0.2,
+          "largest_differences": []
+        },
+        "position": {
+          "max_error": 0.0,
+          "objects_compared": 3,
+          "tolerance": 0.2,
+          "worst_actor": null
+        },
+        "velocity": {
+          "max_error": 0.0,
+          "objects_compared": 3,
+          "tolerance": 0.2,
+          "worst_actor": null
+        },
+        "yaw": {
+          "max_error": 0.0,
+          "objects_compared": 3,
+          "tolerance": 0.03,
+          "worst_actor": null
+        },
+        "signals": {
+          "max_error": 0.0,
+          "tolerance": 1e-05,
+          "largest_differences": []
+        },
+        "controllers": {
+          "max_error": 0.0,
+          "tolerance": 1e-05,
+          "largest_differences": []
+        },
+        "events": {
+          "max_error": 0.0,
+          "tolerance": 1e-05,
+          "largest_differences": []
+        },
+        "history": {
+          "max_error": 0.0,
+          "tolerance": 0.2,
+          "largest_differences": []
+        },
+        "task": {
+          "max_error": 0.0,
+          "tolerance": 0.01,
+          "largest_differences": []
+        }
+      },
+      "mismatches": [],
+      "unverified": []
+    },
+    "commands_executed": 5
+  },
+  "tolerances": {
+    "position": 0.2,
+    "velocity": 0.2,
+    "yaw": 0.03,
+    "actor_state": 0.2,
+    "controllers": 1e-05,
+    "history": 0.2,
+    "events": 1e-05,
+    "signals": 1e-05,
+    "task": 0.01
+  }
+}

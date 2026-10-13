@@ -1,0 +1,25 @@
+path_base: ..  # Asset paths below are relative to the repository root.
+backend: carla
+simulation:
+  port: 2000
+  tm_port: 8000
+  timeout: 90.0
+  reload_on_reset: true
+  no_rendering_mode: false
+  map_layers: all
+  spectator_as_ego: false
+  # Explicit reference-evaluator distances; avoid inheriting a previous world's
+  # settings. Start the external CARLA process with -quality-level=Epic.
+  tile_stream_distance: 650.0
+  actor_active_distance: 650.0
+scenario:
+  source: bench2drive
+  manifest: configs/manifests/v004_eval220.json
+  purpose: eval
+  fallback: null
+task:
+  profile: bench2drive_native
+observations:
+  rgb: false
+  bev: false
+  lidar: false

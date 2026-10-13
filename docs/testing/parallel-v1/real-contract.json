@@ -1,0 +1,78 @@
+{
+  "real_carla": true,
+  "instances": [
+    "planning_0",
+    "planning_1"
+  ],
+  "checks": {
+    "fixed_space": true,
+    "explicit_history_warmup": true,
+    "tick_counts": true,
+    "geometry_valid": true,
+    "route_query": true,
+    "map_topology": true,
+    "approximate_boundary_provenance": true,
+    "masked_reset": true,
+    "fixed_trajectory_space": true,
+    "rear_axle_trajectory": true
+  },
+  "status": "passed",
+  "geometries": [
+    {
+      "planning.geometry.bbox_offset": [
+        0.02921886183321476,
+        6.189419536895002e-07,
+        0.7358604073524475
+      ],
+      "planning.geometry.bbox_valid": true,
+      "planning.geometry.max_steer_angle": 1.221730351448059,
+      "planning.geometry.rear_axle_offset": [
+        -1.386406421661377,
+        -1.3806261449644808e-06,
+        0.3078577518463135
+      ],
+      "planning.geometry.rear_axle_valid": true,
+      "planning.geometry.size": [
+        4.791779518127441,
+        2.163450002670288,
+        1.4876600503921509
+      ],
+      "planning.geometry.wheelbase": 3.004647731781006
+    },
+    {
+      "planning.geometry.bbox_offset": [
+        0.02921886183321476,
+        6.189419536895002e-07,
+        0.7358604073524475
+      ],
+      "planning.geometry.bbox_valid": true,
+      "planning.geometry.max_steer_angle": 1.221730351448059,
+      "planning.geometry.rear_axle_offset": [
+        -1.386406421661377,
+        -1.3806261449644808e-06,
+        0.3078577518463135
+      ],
+      "planning.geometry.rear_axle_valid": true,
+      "planning.geometry.size": [
+        4.791779518127441,
+        2.163450002670288,
+        1.4876600503921509
+      ],
+      "planning.geometry.wheelbase": 3.004647731781006
+    }
+  ],
+  "routes": [
+    {
+      "route_id": "aa6fa2c8367e28312d24ea840ded5c6765687a38d2b04632c31794371a13d498",
+      "map_id": "a0f9daf198465eb0fee60edb24eff7a46e5bd653c727beebe600e64d6401a66b",
+      "segments": 21,
+      "map_segments": 168
+    },
+    {
+      "route_id": "342f134510684ad9ee30f197e002aa48627e6661763064bbd615730fa9e858bc",
+      "map_id": "4d96351be3956c2c7ac8f470936d5ff9d69cc2ffa6c01144687acacdb1e7eed3",
+      "segments": 21,
+      "map_segments": 168
+    }
+  ]
+}

@@ -1,0 +1,452 @@
+{
+  "backend": "carla",
+  "town": "Town13",
+  "seed": 7,
+  "status": "passed",
+  "scope": "Scenic native hero/tile-ground/clock/owned-cleanup regression; no NPC/scenario benchmark",
+  "config": {
+    "simulation": {
+      "port": 2600,
+      "tm_port": 8600,
+      "timeout": 90,
+      "spectator_as_ego": false,
+      "no_rendering_mode": true,
+      "map_layers": "all",
+      "tile_stream_distance": 3000,
+      "actor_active_distance": 2000,
+      "map_overrides": {
+        "Town12": {
+          "tile_stream_distance": 650,
+          "actor_active_distance": 650
+        },
+        "Town13": {
+          "tile_stream_distance": 650,
+          "actor_active_distance": 650
+        }
+      }
+    },
+    "scenario": {
+      "source": "scenic",
+      "town": "Town13",
+      "file": "/home/czh/workspace/CARLA-RL-Base/scenarios/scenic/interaction_follow.scenic",
+      "reactive_npcs": [],
+      "params": {
+        "number_of_vehicles": 0,
+        "number_of_walkers": 0
+      }
+    },
+    "task": {
+      "max_seconds": 10
+    },
+    "observations": {
+      "rgb": false,
+      "bev": false,
+      "lidar": false
+    }
+  },
+  "samples": [
+    {
+      "decision": 1,
+      "frame": 152,
+      "ego_world": [
+        1171.5406494140625,
+        1051.852783203125,
+        156.97276306152344
+      ],
+      "road_height": 157.0,
+      "height_error": 0.0272369384765625,
+      "reward": -0.020000059320105255,
+      "terminated": false,
+      "truncated": false,
+      "executed_seconds": 0.2,
+      "timing": {
+        "simulation_seconds": 0.03871251200143888,
+        "control_commit_seconds": 0.002211449998867465,
+        "observation_seconds": 0.3269989149976027,
+        "sensor_wait_seconds": 0.008489851001286297,
+        "environment_seconds": 0.4011512880006194
+      }
+    },
+    {
+      "decision": 2,
+      "frame": 156,
+      "ego_world": [
+        1171.5406494140625,
+        1051.852783203125,
+        156.96083068847656
+      ],
+      "road_height": 157.0,
+      "height_error": 0.0391693115234375,
+      "reward": -0.020000031857763834,
+      "terminated": false,
+      "truncated": false,
+      "executed_seconds": 0.2,
+      "timing": {
+        "simulation_seconds": 0.03995814199879533,
+        "control_commit_seconds": 0.002369499998167157,
+        "observation_seconds": 0.3294928510003956,
+        "sensor_wait_seconds": 0.00842085399744974,
+        "environment_seconds": 0.4050226790004672
+      }
+    },
+    {
+      "decision": 3,
+      "frame": 160,
+      "ego_world": [
+        1171.5406494140625,
+        1051.852783203125,
+        156.98971557617188
+      ],
+      "road_height": 157.0,
+      "height_error": 0.010284423828125,
+      "reward": -0.02000021517459099,
+      "terminated": false,
+      "truncated": false,
+      "executed_seconds": 0.2,
+      "timing": {
+        "simulation_seconds": 0.0383377219986869,
+        "control_commit_seconds": 0.002573418998508714,
+        "observation_seconds": 0.3351287890000094,
+        "sensor_wait_seconds": 0.008374249999178573,
+        "environment_seconds": 0.4091036879999592
+      }
+    },
+    {
+      "decision": 4,
+      "frame": 164,
+      "ego_world": [
+        1171.5406494140625,
+        1051.852783203125,
+        156.99896240234375
+      ],
+      "road_height": 157.0,
+      "height_error": 0.00103759765625,
+      "reward": -0.020000037959692938,
+      "terminated": false,
+      "truncated": false,
+      "executed_seconds": 0.2,
+      "timing": {
+        "simulation_seconds": 0.03911430100015423,
+        "control_commit_seconds": 0.0024759050029388163,
+        "observation_seconds": 0.3475713679981709,
+        "sensor_wait_seconds": 0.008436625999820535,
+        "environment_seconds": 0.42254816199965717
+      }
+    },
+    {
+      "decision": 5,
+      "frame": 168,
+      "ego_world": [
+        1171.5406494140625,
+        1051.852783203125,
+        157.00111389160156
+      ],
+      "road_height": 157.0,
+      "height_error": 0.0011138916015625,
+      "reward": -0.020000460090185496,
+      "terminated": false,
+      "truncated": false,
+      "executed_seconds": 0.2,
+      "timing": {
+        "simulation_seconds": 0.03824978200100304,
+        "control_commit_seconds": 0.00229152899919427,
+        "observation_seconds": 0.33156648199837946,
+        "sensor_wait_seconds": 0.008505686999342288,
+        "environment_seconds": 0.40556691200072237
+      }
+    },
+    {
+      "decision": 6,
+      "frame": 172,
+      "ego_world": [
+        1171.5406494140625,
+        1051.852783203125,
+        157.00131225585938
+      ],
+      "road_height": 157.0,
+      "height_error": 0.001312255859375,
+      "reward": -0.020000051581353838,
+      "terminated": false,
+      "truncated": false,
+      "executed_seconds": 0.2,
+      "timing": {
+        "simulation_seconds": 0.04435849599940411,
+        "control_commit_seconds": 0.0023060349994921125,
+        "observation_seconds": 0.34718630900351855,
+        "sensor_wait_seconds": 0.008392011000978528,
+        "environment_seconds": 0.42708914399918285
+      }
+    },
+    {
+      "decision": 7,
+      "frame": 176,
+      "ego_world": [
+        1171.5406494140625,
+        1051.852783203125,
+        157.00131225585938
+      ],
+      "road_height": 157.0,
+      "height_error": 0.001312255859375,
+      "reward": -0.020000000000000004,
+      "terminated": false,
+      "truncated": false,
+      "executed_seconds": 0.2,
+      "timing": {
+        "simulation_seconds": 0.038607182001214824,
+        "control_commit_seconds": 0.0023578840009577107,
+        "observation_seconds": 0.34775146699939796,
+        "sensor_wait_seconds": 0.008427695000136737,
+        "environment_seconds": 0.421905279999919
+      }
+    },
+    {
+      "decision": 8,
+      "frame": 180,
+      "ego_world": [
+        1171.5406494140625,
+        1051.852783203125,
+        157.00131225585938
+      ],
+      "road_height": 157.0,
+      "height_error": 0.001312255859375,
+      "reward": -0.020000000000000004,
+      "terminated": false,
+      "truncated": false,
+      "executed_seconds": 0.2,
+      "timing": {
+        "simulation_seconds": 0.034636485999726574,
+        "control_commit_seconds": 0.001620291001017904,
+        "observation_seconds": 0.3471829930003878,
+        "sensor_wait_seconds": 0.008455123999738134,
+        "environment_seconds": 0.4168758819996583
+      }
+    },
+    {
+      "decision": 9,
+      "frame": 184,
+      "ego_world": [
+        1171.5406494140625,
+        1051.852783203125,
+        157.00131225585938
+      ],
+      "road_height": 157.0,
+      "height_error": 0.001312255859375,
+      "reward": -0.020000000000000004,
+      "terminated": false,
+      "truncated": false,
+      "executed_seconds": 0.2,
+      "timing": {
+        "simulation_seconds": 0.03568320100021083,
+        "control_commit_seconds": 0.0020870889984507812,
+        "observation_seconds": 0.34662575400216156,
+        "sensor_wait_seconds": 0.00855836799928511,
+        "environment_seconds": 0.417727546999231
+      }
+    },
+    {
+      "decision": 10,
+      "frame": 188,
+      "ego_world": [
+        1171.5406494140625,
+        1051.852783203125,
+        157.00131225585938
+      ],
+      "road_height": 157.0,
+      "height_error": 0.001312255859375,
+      "reward": -0.020000000000000004,
+      "terminated": false,
+      "truncated": false,
+      "executed_seconds": 0.2,
+      "timing": {
+        "simulation_seconds": 0.035147320000760374,
+        "control_commit_seconds": 0.002260097999169375,
+        "observation_seconds": 0.3467378800014558,
+        "sensor_wait_seconds": 0.008392590001676581,
+        "environment_seconds": 0.4173071489985887
+      }
+    },
+    {
+      "decision": 11,
+      "frame": 192,
+      "ego_world": [
+        1171.5406494140625,
+        1051.852783203125,
+        157.00131225585938
+      ],
+      "road_height": 157.0,
+      "height_error": 0.001312255859375,
+      "reward": -0.020000000000000004,
+      "terminated": false,
+      "truncated": false,
+      "executed_seconds": 0.2,
+      "timing": {
+        "simulation_seconds": 0.03590538699791068,
+        "control_commit_seconds": 0.0022493180022138404,
+        "observation_seconds": 0.34712438200040197,
+        "sensor_wait_seconds": 0.008324664000610937,
+        "environment_seconds": 0.41864069899929746
+      }
+    },
+    {
+      "decision": 12,
+      "frame": 196,
+      "ego_world": [
+        1171.5406494140625,
+        1051.852783203125,
+        157.00131225585938
+      ],
+      "road_height": 157.0,
+      "height_error": 0.001312255859375,
+      "reward": -0.020000000000000004,
+      "terminated": false,
+      "truncated": false,
+      "executed_seconds": 0.2,
+      "timing": {
+        "simulation_seconds": 0.0452575209983479,
+        "control_commit_seconds": 0.0021980839992465917,
+        "observation_seconds": 0.3315056839983299,
+        "sensor_wait_seconds": 0.008341696000570664,
+        "environment_seconds": 0.4122276409998449
+      }
+    },
+    {
+      "decision": 13,
+      "frame": 200,
+      "ego_world": [
+        1171.5406494140625,
+        1051.852783203125,
+        157.00131225585938
+      ],
+      "road_height": 157.0,
+      "height_error": 0.001312255859375,
+      "reward": -0.020000000000000004,
+      "terminated": false,
+      "truncated": false,
+      "executed_seconds": 0.2,
+      "timing": {
+        "simulation_seconds": 0.034804928000085056,
+        "control_commit_seconds": 0.0023037629998725606,
+        "observation_seconds": 0.35113112699764315,
+        "sensor_wait_seconds": 0.0084511190016201,
+        "environment_seconds": 0.4219239540016133
+      }
+    },
+    {
+      "decision": 14,
+      "frame": 204,
+      "ego_world": [
+        1171.5406494140625,
+        1051.852783203125,
+        157.00131225585938
+      ],
+      "road_height": 157.0,
+      "height_error": 0.001312255859375,
+      "reward": -0.020000000000000004,
+      "terminated": false,
+      "truncated": false,
+      "executed_seconds": 0.2,
+      "timing": {
+        "simulation_seconds": 0.03408847200080345,
+        "control_commit_seconds": 0.0024340469972230494,
+        "observation_seconds": 0.3487343279975903,
+        "sensor_wait_seconds": 0.008370163002837216,
+        "environment_seconds": 0.4186203210010717
+      }
+    },
+    {
+      "decision": 15,
+      "frame": 208,
+      "ego_world": [
+        1171.5406494140625,
+        1051.852783203125,
+        157.00131225585938
+      ],
+      "road_height": 157.0,
+      "height_error": 0.001312255859375,
+      "reward": -0.020000000000000004,
+      "terminated": false,
+      "truncated": false,
+      "executed_seconds": 0.2,
+      "timing": {
+        "simulation_seconds": 0.03471856500254944,
+        "control_commit_seconds": 0.002097821001370903,
+        "observation_seconds": 0.3462932400016143,
+        "sensor_wait_seconds": 0.008339688001797185,
+        "environment_seconds": 0.41617437199965934
+      }
+    }
+  ],
+  "phase": "shutdown",
+  "initialization_seconds": 38.65036583500114,
+  "actual_map": "Carla/Maps/Town13/Town13",
+  "scenario": {
+    "source": "scenic",
+    "scenario_id": "interaction_follow",
+    "seed": 7,
+    "source_sha256": "cd727e47203609271a8904a9142028f85479f0b3e7fed2d152e914b859ea2a32",
+    "file": "/home/czh/workspace/CARLA-RL-Base/scenarios/scenic/interaction_follow.scenic",
+    "town": "Town13",
+    "iterations": 1,
+    "parameters": {
+      "number_of_vehicles": 0,
+      "number_of_walkers": 0,
+      "scenario_name": "interaction_follow",
+      "weather": "ClearNoon",
+      "traffic_light_policy": "off",
+      "ego_spawn_index": 0,
+      "destination_spawn_index": 30,
+      "min_route_distance": 100
+    },
+    "generation_failures": [],
+    "seeds": {
+      "scenic_python": 7,
+      "scenic_numpy": 7,
+      "route": 7,
+      "spawn": 7,
+      "streams_independent": true,
+      "traffic_manager": 7,
+      "pedestrians": 7,
+      "events": 8,
+      "crossing": 9,
+      "lead_brake": 10,
+      "reactive_npc": 7
+    },
+    "ego_spawn_index": 0,
+    "destination_spawn_index": 30,
+    "background_vehicles_requested": 0,
+    "background_vehicles_spawned": 0,
+    "reactive_routes": {}
+  },
+  "effective_world_settings": {
+    "synchronous_mode": true,
+    "fixed_delta_seconds": 0.05,
+    "no_rendering_mode": true,
+    "substepping": true,
+    "max_substeps": 10,
+    "max_substep_delta_time": 0.01,
+    "tile_stream_distance": 650.0,
+    "actor_active_distance": 650.0,
+    "spectator_as_ego": false,
+    "map_layers_request": "all",
+    "map_name": "Town13"
+  },
+  "applied_map_override": {
+    "tile_stream_distance": 650,
+    "actor_active_distance": 650
+  },
+  "initialization_tick_counts": {
+    "initialization": 3
+  },
+  "ego_actor_id": 8381,
+  "ego_role_name": "hero",
+  "idle_frame_stable": true,
+  "owned_cleanup": "registry empty after acknowledged destruction; no cleanup tick",
+  "phase_before_shutdown": "close_episode",
+  "settings_restored": true,
+  "restored_async_clock": {
+    "before_frame": 209,
+    "after_frame": 210,
+    "operation": "read_only_wait_for_tick"
+  },
+  "wall_seconds": 46.6075500750012
+}

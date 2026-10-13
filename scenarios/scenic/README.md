@@ -1,11 +1,11 @@
 # Scenic Templates for CARLA-RL-Base
 
-These templates are consumed by `ScenicScenarioProvider` in
-`easycarla/scenarios/providers.py`.
+These templates are consumed by the executable `ScenicAdapter` in
+`easycarla/scenarios/scenic_source.py`. The former provider import is a migration shim.
 
 ## How It Works
 
-The provider reads sampled Scenic parameters and maps them to `ScenarioSpec`:
+The adapter samples Scenic parameters, owns actor creation and runs modular events on each physics tick:
 
 - `weather` -> CARLA weather preset (for example `ClearNoon`)
 - `traffic_light_policy` -> `"on"` or `"off"`
@@ -24,7 +24,7 @@ The provider reads sampled Scenic parameters and maps them to `ScenarioSpec`:
 - `hard_break_route_enabled` -> spawn a dedicated lead vehicle for the HardBreakRoute scenario
 - `hard_break_lead_spawn_distance_min/max` -> front-distance window for the dedicated lead vehicle
 - `lead_brake_*` -> trigger window, ego-speed threshold, braking strength, hold duration, and per-episode cap for lead braking
-- `long_tail_event_type` -> one of `side_cut_in`, `parking_cut_in`, `vehicle_opens_door`, `construction_obstacle`, `mixed_long_tail`
+- `long_tail_event_type` -> one of `parking_cut_in`, `vehicle_opens_door`, `construction_obstacle`, `mixed_long_tail`
 - `event_distance_min/max` -> route-distance window used to choose the event anchor
 - `trigger_distance_min/max` and `reaction_time` -> trigger rules for interactive vehicle events
 - `direction` -> `"left"`, `"right"`, or `"auto"` for side-dependent events
@@ -33,24 +33,22 @@ The provider reads sampled Scenic parameters and maps them to `ScenarioSpec`:
 ## Map Compatibility
 
 Bench2Drive places side-dependent events at hand-picked route trigger points.
-This project keeps random RL resets, so runtime compatibility checks decide
+Scenic uses parameterized routes with recorded same-source resampling, so runtime compatibility checks decide
 whether a sampled route can support an event:
 
-- `side_cut_in` requires a same-direction adjacent driving lane.
-- `parking_cut_in` requires a usable side lane (`Driving` or `Parking`).
+- `parking_cut_in` first tries route-side lanes, then falls back to map-wide roadside parking candidates.
 - `vehicle_opens_door` requires a usable side lane and a vehicle blueprint with
   dynamic doors.
-- `construction_obstacle` only requires clear drivable route geometry ahead.
+- `construction_obstacle` first tries clear route geometry ahead, then falls
+  back to several map-wide straight-road anchors when enabled.
 
-If a road is incompatible, for example a single-lane Town01 segment for
-`side_cut_in`, the event is skipped and the reason is reported in `info` as
-`long_tail_skip_reason`.
+When `allow_skip_if_incompatible` is true, an incompatible event is skipped and the reason is reported in
+`info` as `long_tail_skip_reason`.
 
 ## Templates
 
 - `pedestrian_crossing.scenic`: forced pedestrian crossing and high walker activity.
 - `hard_break_route.scenic`: dedicated lead vehicle braking hard in front of ego.
-- `side_cut_in.scenic`: adjacent-lane vehicle merges in front of ego.
 - `parking_cut_in.scenic`: parked/side-lane vehicle cuts into ego lane.
 - `vehicle_opens_door.scenic`: parked vehicle opens a door into ego's path.
 - `construction_obstacle.scenic`: construction cones/sign/debris in ego lane.
@@ -73,3 +71,7 @@ params = {
 
 If Scenic is missing or sampling fails, provider falls back to random sampling
 and reports `scenario_backend="scenic_fallback"` in `reset()` info.
+
+If skipping is disabled, incompatible geometry fails reset. Cross-source fallback is separately configured and disabled by default. These Scenic event templates are not the native Bench2Drive implementation; native routes use the independent Bench2Drive adapter.
+
+Legacy event duration parameters named `*_steps` retain their 0.1-second reference scale and are converted to physical ticks. `forced_crossing_trigger_prob` is likewise converted from its old 10 Hz probability.

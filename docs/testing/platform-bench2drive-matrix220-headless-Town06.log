@@ -1,0 +1,12 @@
+START 24497 Town06 ConstructionObstacle
+LOADED 24497 Carla/Maps/Town06
+PREPARED 24497
+END 24497 completed 344 ticks 8.50s 
+START 26023 Town06 MergerIntoSlowTraffic
+LOADED 26023 Carla/Maps/Town06
+PREPARED 26023
+END 26023 completed 413 ticks 2.13s 
+START 24207 Town06 SequentialLaneChange
+LOADED 24207 Carla/Maps/Town06
+PREPARED 24207
+END 24207 completed 497 ticks 3.09s 

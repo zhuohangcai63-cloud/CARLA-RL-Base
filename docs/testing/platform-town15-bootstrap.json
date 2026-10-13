@@ -1,0 +1,6 @@
+{
+  "port": 2100,
+  "original_map": "Carla/Maps/Town10HD_Opt",
+  "no_rendering_mode": true,
+  "purpose": "Independent Town15 acceptance after prior server crash; no replay of unknown Town12 request"
+}

@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "status": "server_crashed_during_initialization",
+  "derived_at_utc": "2026-09-28T05:17:07.596912+00:00",
+  "scope": "Complete 41-route Town13 manifest attempted with reload and episode readiness barrier; run interrupted at route 11",
+  "source_sha256": {
+    "summary.json": "6453bc19a2ed4ce11b24ddac82cca5fcf552de715a529dca38d968a1b2cb5976",
+    "probe.json": "01963f172b485e14625dd4702e3f69dceed3575eea0e2a7cc3ca47ceae58c107",
+    "client.txt": "3241904339cd43e3e92591ba817989f07dfd1bf4619a07f3c63a7aeb96c9c914",
+    "server.txt": "2a91c60ab3f9e412e9d9858aa1e39aeb5074cb06274815f96c21d36bb214f417",
+    "samples.jsonl": "37e7b1ee407708d8bee5eb74a95b119b5018c101b7cb65c5b6a91bea4b7e2ff3",
+    "crashes/crashinfo-CarlaUE4-pid-208457-201C00FCD7F94C9FB4779667FE224DEF/CrashContext.runtime-xml": "40609f53ba9948a6276c57b068024bbdfbc79f5dc6a93af0ee6e571a784776d1",
+    "crashes/crashinfo-CarlaUE4-pid-208457-201C00FCD7F94C9FB4779667FE224DEF/Diagnostics.txt": "de24d3c9fbe5a9c4e93e7344193dd5e5407f54b5e5d62fa74d319f0d2ef178e5",
+    "crashes/crashinfo-CarlaUE4-pid-208457-201C00FCD7F94C9FB4779667FE224DEF/CrashReportClient.ini": "bef31ccf1777031eb19e7b55b387ac3a66b591c5a3fd43902deb6c01d8e63943"
+  },
+  "raw_probe_status": "running",
+  "raw_probe_unchanged": true,
+  "runtime_passed": false,
+  "lifecycle_passed": false,
+  "passed": false,
+  "route_count": 41,
+  "returned_routes": 10,
+  "returned_execution_counts": {
+    "tick_budget_reached": 6,
+    "completed": 4
+  },
+  "confirmed_step_ticks": 7847,
+  "confirmed_initialization_ticks_returned_routes": 74,
+  "returned_route_results": [
+    {
+      "route_id": "34183",
+      "town": "Town13",
+      "scenario_types": [
+        "NonSignalizedJunctionLeftTurnEnterFlow"
+      ],
+      "execution": "tick_budget_reached",
+      "ticks": 1000,
+      "native_success": false,
+      "tick_counts": {
+        "initialization": 4,
+        "step": 1000
+      },
+      "remaining_owned_resources": 0
+    },
+    {
+      "route_id": "3483",
+      "town": "Town13",
+      "scenario_types": [
+        "StaticCutIn"
+      ],
+      "execution": "completed",
+      "ticks": 427,
+      "native_success": true,
+      "tick_counts": {
+        "initialization": 10,
+        "step": 427
+      },
+      "remaining_owned_resources": 0
+    },
+    {
+      "route_id": "37969",
+      "town": "Town13",
+      "scenario_types": [
+        "MergerIntoSlowTrafficV2"
+      ],
+      "execution": "completed",
+      "ticks": 536,
+      "native_success": true,
+      "tick_counts": {
+        "initialization": 4,
+        "step": 536
+      },
+      "remaining_owned_resources": 0
+    },
+    {
+      "route_id": "3475",
+      "town": "Town13",
+      "scenario_types": [
+        "VehicleOpensDoorTwoWays"
+      ],
+      "execution": "tick_budget_reached",
+      "ticks": 1000,
+      "native_success": false,
+      "tick_counts": {
+        "initialization": 5,
+        "step": 1000
+      },
+      "remaining_owned_resources": 0
+    },
+    {
+      "route_id": "32221",
+      "town": "Town13",
+      "scenario_types": [
+        "VehicleOpensDoorTwoWays"
+      ],
+      "execution": "completed",
+      "ticks": 403,
+      "native_success": true,
+      "tick_counts": {
+        "initialization": 5,
+        "step": 403
+      },
+      "remaining_owned_resources": 0
+    },
+    {
+      "route_id": "29893",
+      "town": "Town13",
+      "scenario_types": [
+        "ConstructionObstacleTwoWays"
+      ],
+      "execution": "tick_budget_reached",
+      "ticks": 1000,
+      "native_success": false,
+      "tick_counts": {
+        "initialization": 14,
+        "step": 1000
+      },
+      "remaining_owned_resources": 0
+    },
+    {
+      "route_id": "28387",
+      "town": "Town13",
+      "scenario_types": [
+        "HazardAtSideLane"
+      ],
+      "execution": "tick_budget_reached",
+      "ticks": 1000,
+      "native_success": false,
+      "tick_counts": {
+        "initialization": 6,
+        "step": 1000
+      },
+      "remaining_owned_resources": 0
+    },
+    {
+      "route_id": "31045",
+      "town": "Town13",
+      "scenario_types": [
+        "AccidentTwoWays"
+      ],
+      "execution": "tick_budget_reached",
+      "ticks": 1000,
+      "native_success": false,
+      "tick_counts": {
+        "initialization": 8,
+        "step": 1000
+      },
+      "remaining_owned_resources": 0
+    },
+    {
+      "route_id": "36792",
+      "town": "Town13",
+      "scenario_types": [
+        "MergerIntoSlowTrafficV2"
+      ],
+      "execution": "completed",
+      "ticks": 481,
+      "native_success": true,
+      "tick_counts": {
+        "initialization": 4,
+        "step": 481
+      },
+      "remaining_owned_resources": 0
+    },
+    {
+      "route_id": "29770",
+      "town": "Town13",
+      "scenario_types": [
+        "ConstructionObstacleTwoWays"
+      ],
+      "execution": "tick_budget_reached",
+      "ticks": 1000,
+      "native_success": false,
+      "tick_counts": {
+        "initialization": 14,
+        "step": 1000
+      },
+      "remaining_owned_resources": 0
+    }
+  ],
+  "interrupted_route": {
+    "ordinal": 11,
+    "route_id": "3816",
+    "town": "Town13",
+    "scenario_type": "HighwayCutIn",
+    "outcome": "unknown",
+    "last_confirmed_stage": "LOADED",
+    "next_stage_not_observed": "PREPARED",
+    "raw_execution": "running",
+    "raw_ticks": 0,
+    "interpretation": "Initialization was interrupted by server SIGSEGV; zero in the unfinished record is not an acknowledged environment transition or a complete count of initialization work."
+  },
+  "not_run_count": 30,
+  "not_run_route_ids": [
+    "34391",
+    "29183",
+    "33202",
+    "30202",
+    "29538",
+    "35243",
+    "31938",
+    "3740",
+    "31100",
+    "35330",
+    "30939",
+    "32517",
+    "29073",
+    "24151",
+    "34436",
+    "3502",
+    "30691",
+    "30596",
+    "30313",
+    "34867",
+    "37223",
+    "29629",
+    "24099",
+    "30283",
+    "29856",
+    "30008",
+    "37391",
+    "31736",
+    "31654",
+    "31124"
+  ],
+  "server_exit_before_stop": -11,
+  "server_exit": -11,
+  "server_runtime_crash_observed": true,
+  "client_exit": -15,
+  "client_exit_explanation": "Parent sent SIGTERM after the server had exited; client -15 is not a separate observed client SIGSEGV.",
+  "explicit_server_stop": false,
+  "shutdown_outcome": "server_exited_before_stop",
+  "elapsed_seconds": 648.2118626210013,
+  "elapsed_seconds_scope": "Diagnostic wrapper wall time including owned process startup, route execution, crash detection and cleanup; not simulation time.",
+  "peaks": {
+    "server_rss_kib": 9570276,
+    "gpu_0_memory_used_mib": 8367.0
+  },
+  "validation_conditions": {
+    "world_reload_each_route": true,
+    "episode_readiness_barrier": true,
+    "simulation": {
+      "host": "127.0.0.1",
+      "port": 2600,
+      "tm_port": 8600,
+      "timeout": 90.0,
+      "physics_dt": 0.05,
+      "decision_dt": 0.2,
+      "history_dt": 0.1,
+      "reload_on_reset": true,
+      "no_rendering_mode": false,
+      "map_layers": "all",
+      "spectator_as_ego": false,
+      "tile_stream_distance": 650.0,
+      "actor_active_distance": 650.0,
+      "map_overrides": {},
+      "carla_root": "/home/czh/software/carla"
+    },
+    "profile": "conservative v2: Epic, AsyncPipelineCompile=0, EnableDefrag=0, WaitForIdleOnSubmit=0, -norhithread",
+    "profile_evidence": "../conservative-v2-profile.json"
+  },
+  "native_crash": {
+    "signal": "SIGSEGV",
+    "diagnostic_message": "SIGSEGV: unaligned memory access (SIMD vectors?)",
+    "stack_prefix": [
+      "libnvidia-glcore.so.580.178.04",
+      "libGLX_nvidia.so.0",
+      "VulkanRHI::FStagingManager::AcquireBuffer",
+      "FVulkanResourceMultiBuffer::Lock",
+      "FVulkanDynamicRHI::RHICreateIndexBuffer"
+    ],
+    "interpretation": "Driver and UE Vulkan staging/index-buffer frames identify the failing path, not a proven unique driver, asset or hardware root cause."
+  },
+  "redaction": {
+    "scope": "Only copied CrashContext.runtime-xml under this run; installed Saved files unchanged",
+    "files": [
+      {
+        "path": "crashes/crashinfo-CarlaUE4-pid-208457-201C00FCD7F94C9FB4779667FE224DEF/CrashContext.runtime-xml",
+        "sha256_before": "ed2762a62102657127fa77a5fffb553672fd053f26c0df5936c3a4add63411f6",
+        "sha256_after": "40609f53ba9948a6276c57b068024bbdfbc79f5dc6a93af0ee6e571a784776d1",
+        "removed_fields": [
+          "MachineId",
+          "LoginId"
+        ],
+        "method": "Remove complete MachineId and LoginId XML lines; remaining bytes preserved; installed Saved original unchanged"
+      }
+    ]
+  },
+  "limitations": [
+    "The candidate v2 profile and readiness barrier do not provide stable full Town13 native route execution in this test.",
+    "The earlier four selected routes returning and all-map RGB passing remain separate bounded results; they do not override this failure.",
+    "Completed means the native adapter reached an end condition; benchmark task success remains the separate native_success field.",
+    "The original probe running status was left by an interrupted writer; this ended diagnostic is not still pending.",
+    "No automatic restart or replay was used to hide the failed route; its execution result is unknown."
+  ]
+}

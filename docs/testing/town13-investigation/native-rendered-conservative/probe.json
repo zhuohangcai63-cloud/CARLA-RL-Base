@@ -1,0 +1,63 @@
+{
+  "version": 2,
+  "native_scenario_progress_schema": 1,
+  "status": "running",
+  "started_utc": "2026-09-28T04:41:07.141730+00:00",
+  "manifest": "/home/czh/workspace/CARLA-RL-Base/configs/manifests/v004_eval220.json",
+  "manifest_sha256": "fe4796888a1390aade93f65ca7a90f4f10552b50a87a97111ba3a4d758952648",
+  "mode": "native_adapter_reference_driver",
+  "scope": "native scenario execution; not policy evaluation",
+  "config": {
+    "host": "127.0.0.1",
+    "port": 2600,
+    "tm_port": 8600,
+    "timeout": 90.0,
+    "physics_dt": 0.05,
+    "decision_dt": 0.2,
+    "history_dt": 0.1,
+    "reload_on_reset": true,
+    "no_rendering_mode": false,
+    "map_layers": "all",
+    "spectator_as_ego": false,
+    "tile_stream_distance": 650.0,
+    "actor_active_distance": 650.0,
+    "map_overrides": {},
+    "carla_root": "/home/czh/software/carla"
+  },
+  "seed": 123,
+  "tick_budget": 1000,
+  "results": [
+    {
+      "route_id": "22331",
+      "town": "Town12",
+      "scenario_types": [
+        "StaticCutIn"
+      ],
+      "execution": "not_run"
+    },
+    {
+      "route_id": "3816",
+      "town": "Town13",
+      "scenario_types": [
+        "HighwayCutIn"
+      ],
+      "execution": "not_run"
+    },
+    {
+      "route_id": "31736",
+      "town": "Town13",
+      "scenario_types": [
+        "VehicleOpensDoorTwoWays"
+      ],
+      "execution": "not_run"
+    },
+    {
+      "route_id": "31654",
+      "town": "Town13",
+      "scenario_types": [
+        "VehicleOpensDoorTwoWays"
+      ],
+      "execution": "not_run"
+    }
+  ]
+}

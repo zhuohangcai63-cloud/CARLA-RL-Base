@@ -1,0 +1,8 @@
+START 24721 Town01 HardBreakRoute
+LOADED 24721 Carla/Maps/Town01
+PREPARED 24721
+END 24721 completed 641 ticks 5.26s 
+START 25051 Town01 T_Junction
+LOADED 25051 Carla/Maps/Town01
+PREPARED 25051
+END 25051 tick_budget_reached 1500 ticks 6.53s 

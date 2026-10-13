@@ -1,0 +1,12 @@
+{
+  "recorded_utc": "2026-09-27T16:12:56.023448+00:00",
+  "verification": "after all runtime, IPC, route and guard checks",
+  "remaining_carla_processes": [],
+  "remaining_posix_objects": [],
+  "stable_lock_files": "retained intentionally, not deleted/recreated",
+  "notes": [
+    "Only simulator processes explicitly started for these checks were stopped.",
+    "Native shutdown crashes have separate logs; process reclamation is not a claim of clean UE4 shutdown.",
+    "Prepared dependencies and reusable Conda environments are retained."
+  ]
+}

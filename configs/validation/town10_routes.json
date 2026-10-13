@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "source": "bench2drive",
+  "name": "town10_native_validation",
+  "split": "eval",
+  "upstream_commit": "acbeb0dd8aa99dd0e71b9b75bb542f6fe7c7f3d8",
+  "entries": [
+    {
+      "file": "leaderboard/data/bench2drive_0.0.4_val.xml",
+      "file_sha256": "885debbc3d87f14351b521d8da0dc9d25fcee1f0d926ed1c92cc9ff62504ca45",
+      "route_id": "28147",
+      "town": "Town10HD",
+      "scenario_types": [
+        "SignalizedJunctionLeftTurnEnterFlow"
+      ],
+      "route_fingerprint": "4a4e3512908f61835f6a057eb83ce400c7e8ebdf38be7a47db1e6bdb6ef16348",
+      "trigger_fingerprints": [
+        "0a05bf6992df582e1959992e5f1fb3fe0ae4ed49535aa9609e30bb1ea5599362"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive_0.0.4_val.xml",
+      "file_sha256": "885debbc3d87f14351b521d8da0dc9d25fcee1f0d926ed1c92cc9ff62504ca45",
+      "route_id": "25134",
+      "town": "Town10HD",
+      "scenario_types": [
+        "T_Junction"
+      ],
+      "route_fingerprint": "9040e5b15ff98f4d86ee45e30f8a614b13fae40c9bf081144d5a391aa0e4c799",
+      "trigger_fingerprints": [
+        "4611604ba7e87a27583c60d2fe7e0725939715f0d6e4e4bcbccf75f2dd4b925c"
+      ]
+    }
+  ]
+}

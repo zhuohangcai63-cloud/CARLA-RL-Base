@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "status": "runtime_passed_lifecycle_failed",
+  "derived_at_utc": "2026-09-28T05:17:07.596912+00:00",
+  "scope": "Two Scenic hero/ground/clock/owned-cleanup regressions; no NPC, RGB or native Bench2Drive benchmark",
+  "source_sha256": {
+    "summary.json": "b52ca61c025cb1cb5836e59acfe92bff659cd685600a1d0784ed849a25980724",
+    "client.txt": "cd8ef09ce382c7de8afef628fa2bff967e869eca1bcaf0d4dbbb948443b7607c",
+    "server.txt": "0190e437f26fb911ae8d7b19cf1922031163512e8fcccbcbf8e4add91dd58fb7",
+    "samples.jsonl": "5b1df59645c9a7ea8e096c0a9408529377f42023d399bc4c09fcee59d653088e",
+    "readiness.json": "877d1a8962d93dd12ebe52cb7c5ec408e1ea798916d5e1daf869a985c13fb884",
+    "integration-results.xml": "831b218eb8c365c5f33ad32a551d25740a06c7a7869d386d29173a1c61c9299b",
+    "scenic-large-map-Town12.json": "ca4cb6388e3dba2760185c5a9dfb87be291a6e00722279542e821e4ec831c3ff",
+    "scenic-large-map-Town13.json": "6f6ab5ca1691fc411ae71467fb55990c3c7217f544b2f700ee5a7061c366f9d9"
+  },
+  "raw_reports_unchanged": true,
+  "runtime_passed": true,
+  "lifecycle_passed": false,
+  "passed": false,
+  "integration_tests": {
+    "passed": 2,
+    "failed": 0,
+    "skipped": 0
+  },
+  "confirmed_step_ticks": 120,
+  "confirmed_initialization_ticks": 6,
+  "towns": [
+    {
+      "town": "Town12",
+      "status": "passed",
+      "decisions": 15,
+      "step_ticks": 60,
+      "executed_simulation_seconds": 3.0,
+      "initialization_tick_counts": {
+        "initialization": 3
+      },
+      "initialization_seconds": 22.42134496899962,
+      "max_sampled_hero_height_error_m": 0.0391845703125,
+      "ego_role_name": "hero",
+      "idle_frame_stable": true,
+      "owned_cleanup": "registry empty after acknowledged destruction; no cleanup tick",
+      "settings_restored": true,
+      "restored_async_clock": {
+        "before_frame": 107,
+        "after_frame": 108,
+        "operation": "read_only_wait_for_tick"
+      },
+      "effective_world_settings": {
+        "synchronous_mode": true,
+        "fixed_delta_seconds": 0.05,
+        "no_rendering_mode": true,
+        "substepping": true,
+        "max_substeps": 10,
+        "max_substep_delta_time": 0.01,
+        "tile_stream_distance": 650.0,
+        "actor_active_distance": 650.0,
+        "spectator_as_ego": false,
+        "map_layers_request": "all",
+        "map_name": "Town12"
+      }
+    },
+    {
+      "town": "Town13",
+      "status": "passed",
+      "decisions": 15,
+      "step_ticks": 60,
+      "executed_simulation_seconds": 3.0,
+      "initialization_tick_counts": {
+        "initialization": 3
+      },
+      "initialization_seconds": 38.65036583500114,
+      "max_sampled_hero_height_error_m": 0.0391693115234375,
+      "ego_role_name": "hero",
+      "idle_frame_stable": true,
+      "owned_cleanup": "registry empty after acknowledged destruction; no cleanup tick",
+      "settings_restored": true,
+      "restored_async_clock": {
+        "before_frame": 209,
+        "after_frame": 210,
+        "operation": "read_only_wait_for_tick"
+      },
+      "effective_world_settings": {
+        "synchronous_mode": true,
+        "fixed_delta_seconds": 0.05,
+        "no_rendering_mode": true,
+        "substepping": true,
+        "max_substeps": 10,
+        "max_substep_delta_time": 0.01,
+        "tile_stream_distance": 650.0,
+        "actor_active_distance": 650.0,
+        "spectator_as_ego": false,
+        "map_layers_request": "all",
+        "map_name": "Town13"
+      }
+    }
+  ],
+  "client_exit": 0,
+  "server_runtime_crash_observed": false,
+  "server_exit_before_stop": null,
+  "shutdown": {
+    "explicit_server_stop": true,
+    "server_exit": -9,
+    "shutdown_crash": false,
+    "shutdown_forced_kill": true,
+    "shutdown_outcome": "forced_kill",
+    "shutdown_failed": true
+  },
+  "elapsed_seconds": 142.38023316599902,
+  "peaks": {
+    "server_rss_kib": 8365204,
+    "gpu_0_memory_used_mib": 7828.0
+  },
+  "limitations": [
+    "Runtime cleanup and settings restoration passed; this is distinct from stopping the separately owned CARLA server.",
+    "After explicit SIGTERM, the server exceeded the stop timeout and required SIGKILL (-9); the complete diagnostic did not pass.",
+    "Both tests held the brake for 15 decisions on one seed with no NPC or optional perception sensors; they do not prove driving-task, heavy-sensor or long-run stability.",
+    "The native reason for the shutdown hang is not established by this run."
+  ]
+}

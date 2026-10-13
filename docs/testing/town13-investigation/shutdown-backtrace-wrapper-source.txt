@@ -1,0 +1,239 @@
+"""One-run shutdown-only gdb supplement to the audited v4 diagnostic wrapper.
+
+No CARLA RPCs, runtime attach, tick, restart, or replay. No global ptrace changes.
+The owned executable grants only its launching supervisor (and descendants)
+ptrace permission before exec. Debugging occurs only after client cleanup and
+the first SIGTERM grace has expired. Evidence stays in the run output directory.
+"""
+import ast
+import ctypes
+from datetime import datetime, timezone
+import hashlib
+import os
+from pathlib import Path
+import shutil
+import signal
+import subprocess
+import sys
+import time
+
+
+def permit_then_exec(argv):
+    supervisor_pid = int(argv[0])
+    output = Path(argv[1])
+    command = argv[2:]
+    if os.getppid() != supervisor_pid or not command:
+        raise RuntimeError('ptrace permission is restricted to the actual launching parent')
+    libc = ctypes.CDLL(None, use_errno=True)
+    libc.prctl.argtypes = [ctypes.c_int, ctypes.c_ulong, ctypes.c_ulong,
+                          ctypes.c_ulong, ctypes.c_ulong]
+    libc.prctl.restype = ctypes.c_int
+    # PR_SET_PTRACER: authorize a specific parent, never PR_SET_PTRACER_ANY.
+    if libc.prctl(0x59616D61, supervisor_pid, 0, 0, 0) != 0:
+        raise OSError(ctypes.get_errno(), 'PR_SET_PTRACER failed')
+    import json
+    with open(output / 'ptrace-launch.json', 'x', encoding='utf-8') as handle:
+        json.dump({'scope': 'this newly created owned process only',
+                   'pid': os.getpid(), 'allowed_tracer_parent_pid': supervisor_pid,
+                   'allows_tracer_descendants': True, 'allows_any_same_uid_process': False,
+                   'global_yama_modified': False, 'exec_command': command}, handle, indent=2)
+        handle.write('\n')
+    os.execv(command[0], command)
+
+
+def install(module, *, target_binary, symbol_file=None):
+    """Install hooks in this temporary process; production files are untouched."""
+    original = module.OwnedProcess
+    original_run = module.run
+    target_binary = Path(target_binary).resolve()
+    gdb_binary = shutil.which('gdb')
+    if gdb_binary is None:
+        raise RuntimeError('gdb is required before launching any simulator')
+    owned_client = {}
+
+    class ShutdownDebugProcess(original):
+        def __init__(self, command, log, *, cwd=None, env=None):
+            self.is_server = env is None and Path(command[0]).resolve() == target_binary
+            self.output = Path(log.name).resolve().parent
+            self.debug_record = None
+            if self.is_server:
+                module.atomic_json(self.output / 'shutdown-debug-setup.json', {
+                    'runtime_attach': False, 'scope': 'one newly spawned owned server only',
+                    'allowed_tracer_parent_pid': os.getpid(), 'gdb': gdb_binary,
+                    'gdb_max_seconds': 30,
+                    'wrapper_sha256': hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
+                    'runner_sha256': hashlib.sha256(Path(module.__file__).read_bytes()).hexdigest(),
+                    'v4_sha256': hashlib.sha256(Path('/tmp/carla_readonly_cvars_v4.py').read_bytes()).hexdigest()})
+                command = [sys.executable, str(Path(__file__).resolve()),
+                           '--permit-owned-tracer', str(os.getpid()), str(self.output), *command]
+            super().__init__(command, log, cwd=cwd, env=env)
+            if not self.is_server:
+                owned_client['process'] = self
+
+        def capture_shutdown_backtrace(self):
+            record = {'schema_version': 1, 'phase': 'post_client_shutdown_timeout',
+                      'started_utc': datetime.now(timezone.utc).isoformat(),
+                      'server_pid': self.process.pid, 'gdb_budget_seconds': 30,
+                      'trigger': 'SIGTERM already sent; original stop grace expired',
+                      'runtime_attach': False, 'extra_tick': False,
+                      'ptrace_effect': 'gdb attach temporarily stops target threads during shutdown only',
+                      'debugger_signals': [], 'extra_target_signals': []}
+            self.debug_record = record
+            target = module.process_stat(self.process.pid)
+            client = owned_client.get('process')
+            if (client is None or client.process.poll() is None or client.group_alive()
+                    or target is None or target['start_ticks'] != self.start_ticks
+                    or target['group'] != self.process.pid or target['session'] != self.process.pid
+                    or self.process.poll() is not None):
+                record.update(status='skipped', reason='client not fully ended or owned server identity changed')
+                module.atomic_json(self.output / 'shutdown-debug.json', record)
+                return
+            record.update(client_pid=client.process.pid, client_exit=client.process.returncode,
+                          owned_start_ticks=self.start_ticks)
+            command = [gdb_binary, '-nx', '-nh', '-q', '-batch',
+                       '-ex', 'set pagination off', '-ex', 'set confirm off',
+                       '-iex', 'set auto-load off', '-iex', 'set debuginfod enabled off',
+                       '--exec=' + str(target_binary)]
+            if symbol_file is not None:
+                command.append('--symbols=' + str(Path(symbol_file).resolve()))
+            command += ['-ex', 'attach ' + str(self.process.pid),
+                        '-ex', 'thread apply all bt', '-ex', 'detach', '-ex', 'quit']
+            record.update(status='capturing', command=command, detach_requested=True)
+            module.atomic_json(self.output / 'shutdown-debug.json', record)
+            started = time.monotonic()
+            debugger = None
+            try:
+                with open(self.output / 'shutdown-gdb.txt', 'x', encoding='utf-8') as handle:
+                    debugger = subprocess.Popen(command, stdin=subprocess.DEVNULL,
+                                                stdout=handle, stderr=subprocess.STDOUT,
+                                                start_new_session=True)
+                    record['debugger_pid'] = debugger.pid
+                    try:
+                        debugger.wait(timeout=26)
+                    except subprocess.TimeoutExpired:
+                        record['budget_exceeded'] = True
+                        # Interrupt symbol loading/printing, allowing batch detach.
+                        os.killpg(debugger.pid, signal.SIGINT)
+                        record['debugger_signals'].append('SIGINT')
+                        try:
+                            debugger.wait(timeout=2)
+                        except subprocess.TimeoutExpired:
+                            os.killpg(debugger.pid, signal.SIGKILL)
+                            record['debugger_signals'].append('SIGKILL')
+                            debugger.wait(timeout=1)
+                record['debugger_exit'] = debugger.returncode
+                with open(self.output / 'shutdown-gdb.txt', encoding='utf-8', errors='replace') as handle:
+                    record['stack_frames_found'] = sum(line.startswith('#') for line in handle)
+                record['status'] = ('completed' if debugger.returncode == 0 and record['stack_frames_found'] > 0
+                                    and not record.get('budget_exceeded') else 'incomplete')
+            except Exception as exc:
+                record.update(status='failed', error=f'{type(exc).__name__}: {exc}')
+            finally:
+                if debugger is not None and debugger.poll() is None:
+                    os.killpg(debugger.pid, signal.SIGKILL)
+                    record['debugger_signals'].append('SIGKILL')
+                    debugger.wait(timeout=1)
+                target = module.process_stat(self.process.pid)
+                if target and target['start_ticks'] == self.start_ticks:
+                    try:
+                        line = next(line for line in Path(f'/proc/{self.process.pid}/status').read_text().splitlines()
+                                    if line.startswith('TracerPid:'))
+                        record['tracer_pid_after'] = int(line.split()[1])
+                    except (OSError, StopIteration, ValueError) as exc:
+                        record['tracer_check_error'] = str(exc)
+                    if target['state'] in ('T', 't') and record.get('tracer_pid_after') == 0:
+                        os.killpg(self.process.pid, signal.SIGCONT)
+                        record['extra_target_signals'].append('SIGCONT')
+                record.update(elapsed_seconds=time.monotonic() - started,
+                              finished_utc=datetime.now(timezone.utc).isoformat())
+                module.atomic_json(self.output / 'shutdown-debug.json', record)
+
+        def stop(self, grace):
+            if not self.is_server:
+                return super().stop(grace)
+            # Mirror the existing owned-process cleanup; insert one diagnostic
+            # before its SIGKILL. PID/start/session checks remain unchanged.
+            signals = []
+            leader_exit_before_signal = self.process.poll()
+            for sig, wait in ((signal.SIGTERM, grace), (signal.SIGKILL, max(1.0, grace))):
+                self.process.poll()
+                if not self.group_alive():
+                    break
+                if sig == signal.SIGKILL and signals == ['SIGTERM']:
+                    try:
+                        self.capture_shutdown_backtrace()
+                    except Exception as exc:
+                        # Evidence failure must never prevent owned cleanup.
+                        self.debug_record = dict(self.debug_record or {},
+                                                 status='failed', cleanup_hook_error=str(exc))
+                    if not self.group_alive():
+                        break
+                try:
+                    if not signals:
+                        leader_exit_before_signal = self.process.poll()
+                    os.killpg(self.process.pid, sig)
+                    signals.append(sig.name)
+                except ProcessLookupError:
+                    break
+                deadline = time.monotonic() + wait
+                while time.monotonic() < deadline:
+                    self.process.poll()
+                    if not self.group_alive():
+                        break
+                    time.sleep(.02)
+            self.process.wait(timeout=max(1.0, grace))
+            self.pump.join(timeout=max(1.0, grace))
+            if not signals:
+                leader_exit_before_signal = self.process.returncode
+            return {'signals': signals, 'exit_code': self.process.returncode,
+                    'leader_exit_before_signal': leader_exit_before_signal,
+                    'log_complete': self.log_eof and self.log_error is None and not self.pump.is_alive(),
+                    'log_error': self.log_error, 'group_alive': self.group_alive(),
+                    'shutdown_debug': self.debug_record}
+
+    module.OwnedProcess = ShutdownDebugProcess
+
+    def run_with_debug_classification(args):
+        report = original_run(args)
+        debug = report.get('server_cleanup', {}).get('shutdown_debug')
+        if debug is not None:
+            # A debugger-induced detach/resume can change exit timing. Even if
+            # the target exits without SIGKILL, the original grace was exceeded.
+            report['shutdown_grace_expired_before_debug'] = True
+            report['shutdown_failed'] = True
+            report['passed'] = False
+            if report.get('shutdown_outcome') != 'forced_kill':
+                report['shutdown_outcome_before_debug_classification'] = report.get('shutdown_outcome')
+                report['shutdown_outcome'] = 'exited_after_stop_timeout_diagnostic'
+            module.atomic_json(args.output_dir.resolve() / 'summary.json', report)
+        return report
+
+    module.run = run_with_debug_classification
+
+
+def main():
+    source = Path('/tmp/carla_readonly_cvars_v4.py')
+    text = source.read_text()
+    tree = ast.parse(text, filename=str(source))
+    last = tree.body[-1]
+    if not (isinstance(last, ast.Expr) and isinstance(last.value, ast.Call)
+            and isinstance(last.value.func, ast.Attribute)
+            and isinstance(last.value.func.value, ast.Name)
+            and last.value.func.value.id == 'module' and last.value.func.attr == 'main'
+            and not last.value.args and not last.value.keywords):
+        raise RuntimeError('v4 wrapper entry point changed; refusing to execute it')
+    # Reuse the exact v4 sampling setup, withholding only its CLI entry call.
+    tree.body.pop()
+    namespace = {'__file__': str(source), '__name__': '_readonly_cvars_setup'}
+    exec(compile(tree, str(source), 'exec'), namespace)
+    module = namespace['module']
+    binary = namespace['binary']
+    install(module, target_binary=binary, symbol_file=Path(str(binary) + '.debug'))
+    module.main()
+
+
+if __name__ == '__main__':
+    if sys.argv[1:2] == ['--permit-owned-tracer']:
+        permit_then_exec(sys.argv[2:])
+    else:
+        main()

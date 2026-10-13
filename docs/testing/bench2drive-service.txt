@@ -1,0 +1,36 @@
+WARNING: Cannot spawn actor vehicle.* at position Location(x=4.305810, y=16.695957, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=4.305810, y=16.695957, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=4.305810, y=16.695957, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=4.305810, y=16.695957, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=4.305810, y=16.695957, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=4.305810, y=16.695957, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=4.305810, y=16.695957, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=4.305810, y=16.695957, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=4.305810, y=16.695957, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=4.305810, y=16.695957, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=4.305810, y=16.695957, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=4.305810, y=16.695957, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=4.305810, y=16.695957, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=4.305810, y=16.695957, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=4.305810, y=16.695957, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=4.305810, y=16.695957, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=4.305810, y=16.695957, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=4.305810, y=16.695957, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=4.305810, y=16.695957, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=4.305810, y=16.695957, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=4.305810, y=16.695957, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=4.305810, y=16.695957, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=4.305810, y=16.695957, z=0.200000)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=4.305810, y=16.695957, z=0.200000)
+Traceback (most recent call last):
+  File "/home/czh/software/miniconda3/envs/CARLA-RL-Base/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/czh/software/miniconda3/envs/CARLA-RL-Base/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/czh/workspace/CARLA-RL-Base/easycarla/service/cli.py", line 54, in <module>
+    main()
+  File "/home/czh/workspace/CARLA-RL-Base/easycarla/service/cli.py", line 50, in main
+    service.serve_forever()
+  File "/home/czh/workspace/CARLA-RL-Base/easycarla/service/server.py", line 184, in serve_forever
+    self.resources.request_ready.acquire(timeout=0.05)
+posix_ipc.SignalError: The wait was interrupted by a signal

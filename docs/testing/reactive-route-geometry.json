@@ -1,0 +1,99 @@
+{
+  "status": "geometry_only_passed",
+  "map": "Carla/Maps/Town10HD_Opt",
+  "simulation_execution": "not_run",
+  "prefix_replay": "not_run",
+  "operations": "read-only map APIs; no tick, control, actor creation or map reload",
+  "routes": [
+    {
+      "source_spawn_index": 6,
+      "destination_spawn_index": 30,
+      "spec": {
+        "route_kind": "merge",
+        "side": "right",
+        "distance": 20,
+        "merge_length": 24,
+        "continuation_length": 80
+      },
+      "path_point_count": 53,
+      "metadata": {
+        "route_kind": "merge",
+        "side": "right",
+        "merge_length": 24.0,
+        "target_road_id": 5,
+        "target_lane_id": 1,
+        "validation": "geometry_only"
+      }
+    },
+    {
+      "source_spawn_index": 6,
+      "destination_spawn_index": 30,
+      "spec": {
+        "route_kind": "merge",
+        "side": "right",
+        "distance": 45,
+        "merge_length": 24,
+        "continuation_length": 80
+      },
+      "path_point_count": 53,
+      "metadata": {
+        "route_kind": "merge",
+        "side": "right",
+        "merge_length": 24.0,
+        "target_road_id": 5,
+        "target_lane_id": 1,
+        "validation": "geometry_only"
+      }
+    },
+    {
+      "source_spawn_index": 0,
+      "destination_spawn_index": 30,
+      "spec": {
+        "route_kind": "crossing",
+        "side": "left",
+        "distance": 20,
+        "search_distance": 140,
+        "approach_distance": 25,
+        "continuation_length": 60
+      },
+      "path_point_count": 59,
+      "metadata": {
+        "route_kind": "crossing",
+        "junction_id": 134,
+        "side": "left",
+        "ego_distance_to_conflict": 139.60191651302097,
+        "npc_distance_to_conflict": 39.64431176744242,
+        "conflict_xy_carla": [
+          44.33796707346397,
+          66.30524331638912
+        ],
+        "validation": "geometry_only"
+      }
+    },
+    {
+      "source_spawn_index": 0,
+      "destination_spawn_index": 30,
+      "spec": {
+        "route_kind": "crossing",
+        "side": "right",
+        "distance": 20,
+        "search_distance": 140,
+        "approach_distance": 25,
+        "continuation_length": 60
+      },
+      "path_point_count": 67,
+      "metadata": {
+        "route_kind": "crossing",
+        "junction_id": 189,
+        "side": "right",
+        "ego_distance_to_conflict": 23.08891291395771,
+        "npc_distance_to_conflict": 42.05760322858318,
+        "conflict_xy_carla": [
+          -41.73733177946619,
+          24.568054202383383
+        ],
+        "validation": "geometry_only"
+      }
+    }
+  ]
+}

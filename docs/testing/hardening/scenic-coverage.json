@@ -1,0 +1,412 @@
+{
+  "schema_version": 1,
+  "backend": "carla",
+  "passed": false,
+  "acceptance": "Every episode must generate or explicitly skip; every generated instance must trigger; each family must demonstrate completion or be explicitly skipped throughout. Execution success is separate.",
+  "scenarios": {
+    "pedestrian_crossing": {
+      "status": "passed",
+      "report": "docs/testing/hardening/carla-pedestrian_crossing.json",
+      "execution_passed": true,
+      "generation_accounted": true,
+      "all_triggered_or_skipped": true,
+      "completion_observed": true,
+      "all_explicitly_skipped": false,
+      "episodes": [
+        {
+          "seed": 42,
+          "generated": 2,
+          "triggered": 2,
+          "completed": 1,
+          "failed_or_aborted": 1,
+          "skipped": 0,
+          "skip_reason": "",
+          "explicit_skip": false,
+          "untriggered": 0,
+          "generation_accounted": true,
+          "all_triggered_or_skipped": true,
+          "completion_observed": true,
+          "episode_termination_reason": "",
+          "steps": 120
+        },
+        {
+          "seed": 43,
+          "generated": 2,
+          "triggered": 2,
+          "completed": 0,
+          "failed_or_aborted": 2,
+          "skipped": 0,
+          "skip_reason": "",
+          "explicit_skip": false,
+          "untriggered": 0,
+          "generation_accounted": true,
+          "all_triggered_or_skipped": true,
+          "completion_observed": false,
+          "episode_termination_reason": "",
+          "steps": 120
+        }
+      ],
+      "completion_probes": [],
+      "probe_reports": [],
+      "error": null
+    },
+    "hard_break_route": {
+      "status": "incomplete",
+      "report": "docs/testing/hardening/carla-hard_break_route.json",
+      "execution_passed": true,
+      "generation_accounted": true,
+      "all_triggered_or_skipped": false,
+      "completion_observed": true,
+      "all_explicitly_skipped": false,
+      "episodes": [
+        {
+          "seed": 42,
+          "generated": 1,
+          "triggered": 1,
+          "completed": 0,
+          "failed_or_aborted": 0,
+          "skipped": 0,
+          "skip_reason": "",
+          "explicit_skip": false,
+          "untriggered": 0,
+          "generation_accounted": true,
+          "all_triggered_or_skipped": true,
+          "completion_observed": false,
+          "episode_termination_reason": "collision",
+          "steps": 57
+        },
+        {
+          "seed": 43,
+          "generated": 1,
+          "triggered": 0,
+          "completed": 0,
+          "failed_or_aborted": 0,
+          "skipped": 0,
+          "skip_reason": "",
+          "explicit_skip": false,
+          "untriggered": 1,
+          "generation_accounted": true,
+          "all_triggered_or_skipped": false,
+          "completion_observed": false,
+          "episode_termination_reason": "",
+          "steps": 120
+        }
+      ],
+      "completion_probes": [
+        {
+          "seed": 42,
+          "generated": 1,
+          "triggered": 1,
+          "completed": 1,
+          "failed_or_aborted": 0,
+          "skipped": 0,
+          "skip_reason": "",
+          "explicit_skip": false,
+          "untriggered": 0,
+          "generation_accounted": true,
+          "all_triggered_or_skipped": true,
+          "completion_observed": true,
+          "episode_termination_reason": "",
+          "steps": 141,
+          "report": "docs/testing/hardening/carla-completion-hard_break_route.json",
+          "driver": {
+            "kind": "stop_after_event_trigger"
+          },
+          "execution_passed": true
+        }
+      ],
+      "probe_reports": [
+        {
+          "report": "docs/testing/hardening/carla-completion-hard_break_route.json",
+          "driver": {
+            "kind": "stop_after_event_trigger"
+          },
+          "execution_passed": true,
+          "completion_passed": true,
+          "error": null
+        }
+      ],
+      "error": null
+    },
+    "parking_cut_in": {
+      "status": "passed",
+      "report": "docs/testing/hardening/carla-parking_cut_in.json",
+      "execution_passed": true,
+      "generation_accounted": true,
+      "all_triggered_or_skipped": true,
+      "completion_observed": true,
+      "all_explicitly_skipped": false,
+      "episodes": [
+        {
+          "seed": 42,
+          "generated": 1,
+          "triggered": 1,
+          "completed": 1,
+          "failed_or_aborted": 0,
+          "skipped": 0,
+          "skip_reason": "",
+          "explicit_skip": false,
+          "untriggered": 0,
+          "generation_accounted": true,
+          "all_triggered_or_skipped": true,
+          "completion_observed": true,
+          "episode_termination_reason": "",
+          "steps": 120
+        },
+        {
+          "seed": 43,
+          "generated": 1,
+          "triggered": 1,
+          "completed": 0,
+          "failed_or_aborted": 0,
+          "skipped": 0,
+          "skip_reason": "",
+          "explicit_skip": false,
+          "untriggered": 0,
+          "generation_accounted": true,
+          "all_triggered_or_skipped": true,
+          "completion_observed": false,
+          "episode_termination_reason": "",
+          "steps": 120
+        }
+      ],
+      "completion_probes": [],
+      "probe_reports": [],
+      "error": null
+    },
+    "vehicle_opens_door": {
+      "status": "passed",
+      "report": "docs/testing/hardening/carla-vehicle_opens_door.json",
+      "execution_passed": true,
+      "generation_accounted": true,
+      "all_triggered_or_skipped": true,
+      "completion_observed": true,
+      "all_explicitly_skipped": false,
+      "episodes": [
+        {
+          "seed": 42,
+          "generated": 1,
+          "triggered": 1,
+          "completed": 0,
+          "failed_or_aborted": 0,
+          "skipped": 0,
+          "skip_reason": "",
+          "explicit_skip": false,
+          "untriggered": 0,
+          "generation_accounted": true,
+          "all_triggered_or_skipped": true,
+          "completion_observed": false,
+          "episode_termination_reason": "collision",
+          "steps": 43
+        },
+        {
+          "seed": 43,
+          "generated": 0,
+          "triggered": 0,
+          "completed": 0,
+          "failed_or_aborted": 0,
+          "skipped": 1,
+          "skip_reason": "no_side_lane",
+          "explicit_skip": true,
+          "untriggered": 0,
+          "generation_accounted": true,
+          "all_triggered_or_skipped": true,
+          "completion_observed": false,
+          "episode_termination_reason": "",
+          "steps": 120
+        }
+      ],
+      "completion_probes": [
+        {
+          "seed": 42,
+          "generated": 1,
+          "triggered": 1,
+          "completed": 1,
+          "failed_or_aborted": 0,
+          "skipped": 0,
+          "skip_reason": "",
+          "explicit_skip": false,
+          "untriggered": 0,
+          "generation_accounted": true,
+          "all_triggered_or_skipped": true,
+          "completion_observed": true,
+          "episode_termination_reason": "",
+          "steps": 55,
+          "report": "docs/testing/hardening/carla-completion-vehicle_opens_door.json",
+          "driver": {
+            "kind": "stop_after_event_trigger"
+          },
+          "execution_passed": true
+        }
+      ],
+      "probe_reports": [
+        {
+          "report": "docs/testing/hardening/carla-completion-vehicle_opens_door.json",
+          "driver": {
+            "kind": "stop_after_event_trigger"
+          },
+          "execution_passed": true,
+          "completion_passed": true,
+          "error": null
+        }
+      ],
+      "error": null
+    },
+    "construction_obstacle": {
+      "status": "passed",
+      "report": "docs/testing/hardening/carla-construction_obstacle.json",
+      "execution_passed": true,
+      "generation_accounted": true,
+      "all_triggered_or_skipped": true,
+      "completion_observed": true,
+      "all_explicitly_skipped": false,
+      "episodes": [
+        {
+          "seed": 42,
+          "generated": 1,
+          "triggered": 1,
+          "completed": 0,
+          "failed_or_aborted": 0,
+          "skipped": 0,
+          "skip_reason": "",
+          "explicit_skip": false,
+          "untriggered": 0,
+          "generation_accounted": true,
+          "all_triggered_or_skipped": true,
+          "completion_observed": false,
+          "episode_termination_reason": "collision",
+          "steps": 36
+        },
+        {
+          "seed": 43,
+          "generated": 1,
+          "triggered": 1,
+          "completed": 0,
+          "failed_or_aborted": 0,
+          "skipped": 0,
+          "skip_reason": "",
+          "explicit_skip": false,
+          "untriggered": 0,
+          "generation_accounted": true,
+          "all_triggered_or_skipped": true,
+          "completion_observed": false,
+          "episode_termination_reason": "collision",
+          "steps": 29
+        }
+      ],
+      "completion_probes": [
+        {
+          "seed": 42,
+          "generated": 1,
+          "triggered": 1,
+          "completed": 0,
+          "failed_or_aborted": 0,
+          "skipped": 0,
+          "skip_reason": "",
+          "explicit_skip": false,
+          "untriggered": 0,
+          "generation_accounted": true,
+          "all_triggered_or_skipped": true,
+          "completion_observed": false,
+          "episode_termination_reason": "collision",
+          "steps": 55,
+          "report": "docs/testing/hardening/carla-completion-construction_obstacle.json",
+          "driver": {
+            "kind": "adjacent_lane_bypass",
+            "side": "left",
+            "lateral_m": 3.5,
+            "anchor_route_distance_m": 54.62999927589224
+          },
+          "execution_passed": true
+        },
+        {
+          "seed": 42,
+          "generated": 1,
+          "triggered": 1,
+          "completed": 1,
+          "failed_or_aborted": 0,
+          "skipped": 0,
+          "skip_reason": "",
+          "explicit_skip": false,
+          "untriggered": 0,
+          "generation_accounted": true,
+          "all_triggered_or_skipped": true,
+          "completion_observed": true,
+          "episode_termination_reason": "",
+          "steps": 78,
+          "report": "docs/testing/hardening/construction-bounds42/carla-completion-construction_obstacle.json",
+          "driver": {
+            "kind": "adjacent_lane_bypass",
+            "side": "left",
+            "lateral_m": 4.448588488174269,
+            "anchor_route_distance_m": 54.62999927589224
+          },
+          "execution_passed": true
+        },
+        {
+          "seed": 43,
+          "generated": 1,
+          "triggered": 1,
+          "completed": 0,
+          "failed_or_aborted": 0,
+          "skipped": 0,
+          "skip_reason": "",
+          "explicit_skip": false,
+          "untriggered": 0,
+          "generation_accounted": true,
+          "all_triggered_or_skipped": true,
+          "completion_observed": false,
+          "episode_termination_reason": "collision",
+          "steps": 45,
+          "report": "docs/testing/hardening/construction-seed43/carla-completion-construction_obstacle.json",
+          "driver": {
+            "kind": "adjacent_lane_bypass",
+            "side": "left",
+            "lateral_m": 3.5,
+            "anchor_route_distance_m": 45.352959746428205
+          },
+          "execution_passed": true
+        }
+      ],
+      "probe_reports": [
+        {
+          "report": "docs/testing/hardening/carla-completion-construction_obstacle.json",
+          "driver": {
+            "kind": "adjacent_lane_bypass",
+            "side": "left",
+            "lateral_m": 3.5,
+            "anchor_route_distance_m": 54.62999927589224
+          },
+          "execution_passed": true,
+          "completion_passed": false,
+          "error": null
+        },
+        {
+          "report": "docs/testing/hardening/construction-bounds42/carla-completion-construction_obstacle.json",
+          "driver": {
+            "kind": "adjacent_lane_bypass",
+            "side": "left",
+            "lateral_m": 4.448588488174269,
+            "anchor_route_distance_m": 54.62999927589224
+          },
+          "execution_passed": true,
+          "completion_passed": true,
+          "error": null
+        },
+        {
+          "report": "docs/testing/hardening/construction-seed43/carla-completion-construction_obstacle.json",
+          "driver": {
+            "kind": "adjacent_lane_bypass",
+            "side": "left",
+            "lateral_m": 3.5,
+            "anchor_route_distance_m": 45.352959746428205
+          },
+          "execution_passed": true,
+          "completion_passed": false,
+          "error": null
+        }
+      ],
+      "error": null
+    }
+  }
+}

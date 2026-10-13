@@ -1,0 +1,18 @@
+path_base: ..  # Asset paths below are relative to the repository root.
+backend: carla
+simulation:
+  port: 2000
+  tm_port: 8000
+scenario:
+  source: scenic
+  town: Town10HD
+  files:
+    - scenarios/scenic/pedestrian_crossing.scenic
+    - scenarios/scenic/hard_break_route.scenic
+    - scenarios/scenic/parking_cut_in.scenic
+    - scenarios/scenic/vehicle_opens_door.scenic
+    - scenarios/scenic/construction_obstacle.scenic
+    - scenarios/scenic/mixed_long_tail.scenic
+  fallback: null
+task:
+  profile: driving

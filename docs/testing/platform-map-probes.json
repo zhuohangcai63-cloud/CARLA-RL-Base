@@ -1,0 +1,165 @@
+{
+  "scope": "native CARLA API only; no environment runtime",
+  "records": [
+    {
+      "requested": "Town03",
+      "status": "failed",
+      "error": "time-out of 60000ms while waiting for the simulator, make sure the simulator is ready and connected to 127.0.0.1:2100",
+      "seconds": 61.91983717900439,
+      "probe_file": "easycarla-map-check.json"
+    },
+    {
+      "requested": "Town03_Opt",
+      "loaded": "Carla/Maps/Town03_Opt",
+      "status": "passed",
+      "seconds": 1.793455727995024,
+      "no_rendering_mode": true,
+      "layers": "NONE",
+      "probe_file": "easycarla-map-opt-check.json"
+    },
+    {
+      "requested": "Town03",
+      "loaded": "Carla/Maps/Town03",
+      "status": "passed",
+      "seconds": 2.045918096002424,
+      "no_rendering_mode": true,
+      "layers": "NONE",
+      "probe_file": "easycarla-map-headless-check.json"
+    },
+    {
+      "requested": "Town04",
+      "loaded": "Carla/Maps/Town04",
+      "status": "passed",
+      "seconds": 1.7394640450002044,
+      "no_rendering_mode": true,
+      "layers": "NONE",
+      "probe_file": "easycarla-map-headless-check.json"
+    },
+    {
+      "requested": "Town05",
+      "loaded": "Carla/Maps/Town05",
+      "status": "passed",
+      "seconds": 1.687103620999551,
+      "no_rendering_mode": true,
+      "layers": "NONE",
+      "probe_file": "easycarla-map-headless-check.json"
+    },
+    {
+      "requested": "Town06",
+      "loaded": "Carla/Maps/Town06",
+      "status": "passed",
+      "seconds": 1.8603253569963272,
+      "no_rendering_mode": true,
+      "layers": "NONE",
+      "probe_file": "easycarla-map-headless-check.json"
+    },
+    {
+      "requested": "Town12",
+      "loaded": "Carla/Maps/Town12/Town12",
+      "status": "passed",
+      "seconds": 18.4454272879957,
+      "no_rendering_mode": true,
+      "layers": "NONE",
+      "probe_file": "easycarla-map-headless-check.json"
+    },
+    {
+      "requested": "Town10HD",
+      "loaded": "Carla/Maps/Town10HD",
+      "status": "passed",
+      "seconds": 2.5725826609996147,
+      "no_rendering_mode": true,
+      "layers": "NONE",
+      "probe_file": "easycarla-map-headless-check.json"
+    },
+    {
+      "requested": "Town01",
+      "loaded": "Carla/Maps/Town01",
+      "status": "passed",
+      "seconds": 2.0761557970035938,
+      "no_rendering_mode": true,
+      "layers": "NONE",
+      "probe_file": "easycarla-map-headless-check.json"
+    },
+    {
+      "requested": "Town02",
+      "loaded": "Carla/Maps/Town02",
+      "status": "passed",
+      "seconds": 1.5470718889991986,
+      "no_rendering_mode": true,
+      "layers": "NONE",
+      "probe_file": "easycarla-map-headless-check.json"
+    },
+    {
+      "requested": "Town07",
+      "loaded": "Carla/Maps/Town07",
+      "status": "passed",
+      "seconds": 1.7309345639951061,
+      "no_rendering_mode": true,
+      "layers": "NONE",
+      "probe_file": "easycarla-map-headless-check.json"
+    },
+    {
+      "requested": "Town11",
+      "loaded": "Carla/Maps/Town07",
+      "status": "map_mismatch",
+      "seconds": 3.730835495996871,
+      "no_rendering_mode": true,
+      "layers": "NONE",
+      "probe_file": "easycarla-map-headless-check.json"
+    },
+    {
+      "requested": "Town13",
+      "loaded": "Carla/Maps/Town13/Town13",
+      "status": "passed",
+      "seconds": 28.602941639001074,
+      "no_rendering_mode": true,
+      "layers": "NONE",
+      "probe_file": "easycarla-map-headless-check.json"
+    },
+    {
+      "requested": "Town15",
+      "loaded": "Carla/Maps/Town13/Town13",
+      "status": "map_mismatch",
+      "seconds": 33.21152494499984,
+      "no_rendering_mode": true,
+      "layers": "NONE",
+      "probe_file": "easycarla-map-headless-check.json"
+    },
+    {
+      "requested": "Town03",
+      "loaded": "Carla/Maps/Town03",
+      "status": "passed",
+      "seconds": 3.6003997280058684,
+      "no_rendering_mode": true,
+      "layers": "NONE",
+      "probe_file": "easycarla-map-headless-check.json"
+    },
+    {
+      "requested": "/Game/Carla/Maps/Town11/Town11",
+      "loaded": "Carla/Maps/Town11/Town11",
+      "status": "passed",
+      "seconds": 5.078438174001349,
+      "no_rendering_mode": true,
+      "layers": "NONE",
+      "probe_file": "easycarla-map-path-check.json"
+    },
+    {
+      "requested": "/Game/Carla/Maps/Town15/Town15",
+      "loaded": "Carla/Maps/Town15/Town15",
+      "status": "passed",
+      "seconds": 3.24533800399513,
+      "no_rendering_mode": true,
+      "layers": "NONE",
+      "probe_file": "easycarla-map-path-check.json"
+    },
+    {
+      "requested": "Town03",
+      "loaded": "Carla/Maps/Town03",
+      "status": "passed",
+      "seconds": 3.0398744410049403,
+      "no_rendering_mode": true,
+      "layers": "NONE",
+      "probe_file": "easycarla-map-path-check.json"
+    }
+  ]
+}

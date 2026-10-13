@@ -1,0 +1,19 @@
+{
+  "date": "2026-09-28",
+  "binary": "/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping",
+  "sha256": "1da989e4ff136e0658fdea421bc1da2b0e5cb018c6e767efc4f6129c21ab1a81",
+  "method": "read-only binary UTF-16LE literal search; presence is not proof runtime switch was applied",
+  "literals": {
+    "norhithread": 8570084,
+    "norenderthread": 9856604,
+    "onethread": 9300504,
+    "nothreadtimeout": 8912946,
+    "r.Vulkan.UseRealUBs": 9176666,
+    "r.Vulkan.WaitForIdleOnSubmit": 10606108,
+    "r.Vulkan.RHIThread": 10680446,
+    "r.Streaming.PoolSize": 8942460
+  },
+  "uniform_buffer_help": "0: Emulate uniform buffers on Vulkan SM4/SM5 (debugging ONLY)\n1: Use real uniform buffers [default]",
+  "wait_for_idle_help_offset": 10046302,
+  "wait_for_idle_help": "Waits for the GPU to be idle after submitting a command buffer. Useful for tracking GPU hangs.\n 0: Do not wait(default)\n 1: Wait on every submit\n 2: Wait when submitting an upload buffer\n 3: Wait when submitting an active buffer (one that has gfx commands)\n"
+}

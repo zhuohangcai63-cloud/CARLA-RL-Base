@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "status": "native_runtime_crash",
+  "server_exit": -11,
+  "wall_seconds": 1675.5813924610002,
+  "explicit_server_stop": false,
+  "raw_probe_status": "running",
+  "recorded_counts": {
+    "tick_budget_reached": 22,
+    "completed": 16,
+    "running": 1,
+    "not_run": 2
+  },
+  "returned_routes": 38,
+  "confirmed_physics_ticks": 29914,
+  "native_success_counts_among_returned": {
+    "False": 22,
+    "True": 16
+  },
+  "failed_route_id": "31736",
+  "failed_phase": "native scenario prepare after LOADED and before PREPARED log",
+  "interpretation": "The raw running entry is incomplete/unknown because the server crashed; the two not_run routes were not attempted. Returned routes include tick-budget exits and are not all driving successes. No retry or replay was performed.",
+  "sampled_peak_rss_gib": 7.9946441650390625,
+  "sampled_peak_gpu_mib": 7023.0,
+  "minimum_available_ram_gib": 17.178054809570312,
+  "last_live_resource_sample": {
+    "elapsed_seconds": 1673.9950776790001,
+    "server_rss_kib": 7982092,
+    "memory_available_kib": 18400976,
+    "gpus": [
+      {
+        "index": 0.0,
+        "memory_used_mib": 4465.0,
+        "utilization_percent": 5.0,
+        "temperature_c": 37.0
+      }
+    ],
+    "readonly_cvars": {
+      "r.Vulkan.EnableDefrag": 1,
+      "r.Vulkan.WaitForIdleOnSubmit": 0,
+      "r.AsyncPipelineCompile": [
+        1,
+        1
+      ],
+      "r.Vulkan.RHIThread": [
+        1,
+        1
+      ],
+      "r.RHICmdBypass": [
+        0,
+        0
+      ]
+    }
+  },
+  "evidence": {
+    "probe_sha256": "bd2780d3bea763f02bd8480aa969f6863e7336aa42d3ff3404898c5e2a80b272",
+    "summary_sha256": "0722eb299cd01630a1da491c99d3b5689a10228d46bae96da56411f1b202979f",
+    "probe_preserved_unchanged": true
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "date": "2026-09-28",
+  "method": "Static read-only binary examination; no execution, debugger attach or memory write",
+  "binary": "/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping",
+  "sha256": "1da989e4ff136e0658fdea421bc1da2b0e5cb018c6e767efc4f6129c21ab1a81",
+  "elf_type": 2,
+  "elf_type_name": "ET_EXEC",
+  "entry": "0x26fa000",
+  "pt_load": [
+    {
+      "offset": "0x0",
+      "virtual_address": "0x200000",
+      "file_size": "0x24f8fdc",
+      "memory_size": "0x24f8fdc",
+      "flags": 4
+    },
+    {
+      "offset": "0x24f9000",
+      "virtual_address": "0x26fa000",
+      "file_size": "0x4494730",
+      "memory_size": "0x4494730",
+      "flags": 5
+    },
+    {
+      "offset": "0x698d730",
+      "virtual_address": "0x6b8f730",
+      "file_size": "0x8d668",
+      "memory_size": "0x8dbf1",
+      "flags": 6
+    },
+    {
+      "offset": "0x6a1b340",
+      "virtual_address": "0x6c1e340",
+      "file_size": "0x16dd0",
+      "memory_size": "0x339a48",
+      "flags": 6
+    }
+  ],
+  "cvars": {
+    "r.Vulkan.EnableDefrag": {
+      "storage": "int32 ref in .data",
+      "runtime_address": "0x6c24924",
+      "file_offset": "0x6a21924",
+      "file_bytes": "01000000",
+      "default": 1,
+      "registration": "\n/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping:     file format elf64-x86-64\n\n\nDisassembly of section .text:\n\n00000000046db518 <_ZN6icu_6424ConstrainedFieldPosition24setInt64IterationContextEl@@Base+0x23e48>:\n 46db518:\t48 8b 07             \tmov    (%rdi),%rax\n 46db51b:\tbe ba e2 a5 00       \tmov    $0xa5e2ba,%esi\n 46db520:\tba 24 49 c2 06       \tmov    $0x6c24924,%edx\n 46db525:\tb9 bc 5c b3 00       \tmov    $0xb35cbc,%ecx\n 46db52a:\t41 b8 20 00 00 00    \tmov    $0x20,%r8d\n 46db530:\tff 50 30             \tcall   *0x30(%rax)\n",
+      "use": "\n/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping:     file format elf64-x86-64\n\n\nDisassembly of section .text:\n\n00000000046b3a5f <hb_buffer_get_invisible_glyph@@Base+0x3884f>:\n 46b3a5f:\t83 3d be 0e 57 02 00 \tcmpl   $0x0,0x2570ebe(%rip)        # 6c24924 <_ZN5boost6system6detail18interop_cat_holderIvE8instanceE@@Base+0x6594>\n 46b3a66:\t74 c8                \tje     46b3a30 <hb_buffer_get_invisible_glyph@@Base+0x38820>\n",
+      "literal_name": "r.Vulkan.EnableDefrag",
+      "literal_help": "Whether to enable defrag moves & evictions\n0: Off\n1: On\n",
+      "literal_name_address": "0xa5e2ba"
+    },
+    "r.Vulkan.WaitForIdleOnSubmit": {
+      "storage": "int32 ref in .bss",
+      "runtime_address": "0x6e55620",
+      "default": 0,
+      "default_basis": "ELF zero initialized .bss; address supplied to CVar reference registration",
+      "registration": "\n/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping:     file format elf64-x86-64\n\n\nDisassembly of section .text:\n\n00000000046dbd6a <_ZN6icu_6424ConstrainedFieldPosition24setInt64IterationContextEl@@Base+0x2469a>:\n 46dbd6a:\t48 8b 07             \tmov    (%rdi),%rax\n 46dbd6d:\tbe 1c d6 c1 00       \tmov    $0xc1d61c,%esi\n 46dbd72:\tba 20 56 e5 06       \tmov    $0x6e55620,%edx\n 46dbd77:\tb9 5e 4b b9 00       \tmov    $0xb94b5e,%ecx\n 46dbd7c:\t45 31 c0             \txor    %r8d,%r8d\n 46dbd7f:\tff 50 30             \tcall   *0x30(%rax)\n 46dbd82:\t48 89 05 a7 98 77 02 \tmov    %rax,0x27798a7(%rip)        # 6e55630 <_ZGVN5boost4asio6detail30execution_context_service_baseINS1_16resolver_serviceINS0_2ip3tcpEEEE2idE@@Base+0x21f740>\n 46dbd89:\t48 c7 05 94 98 77 02 \tmovq   $0xd84390,0x2779894(%rip)        # 6e55628 <_ZGVN5boost4asio6detail30execution_context_service_baseINS1_16resolver_serviceINS0_2ip3tcpEEEE2idE@@Base+0x21f738>\n 46dbd90:\t90 43 d8 00 \n",
+      "use": "\n/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping:     file format elf64-x86-64\n\n\nDisassembly of section .text:\n\n00000000046cf133 <_ZN6icu_6424ConstrainedFieldPosition24setInt64IterationContextEl@@Base+0x17a63>:\n 46cf133:\t8b 0d e7 64 78 02    \tmov    0x27864e7(%rip),%ecx        # 6e55620 <_ZGVN5boost4asio6detail30execution_context_service_baseINS1_16resolver_serviceINS0_2ip3tcpEEEE2idE@@Base+0x21f730>\n 46cf139:\t85 c9                \ttest   %ecx,%ecx\n 46cf13b:\t0f 84 02 01 00 00    \tje     46cf243 <_ZN6icu_6424ConstrainedFieldPosition24setInt64IterationContextEl@@Base+0x17b73>\n 46cf141:\t49 8b 44 24 10       \tmov    0x10(%r12),%rax\n 46cf146:\t48 8b 90 28 1c 00 00 \tmov    0x1c28(%rax),%rdx\n 46cf14d:\t48 8b ba 90 02 00 00 \tmov    0x290(%rdx),%rdi\n 46cf154:\t83 f9 03             \tcmp    $0x3,%ecx\n 46cf157:\t74 25                \tje     46cf17e <_ZN6icu_6424ConstrainedFieldPosition24setInt64IterationContextEl@@Base+0x17aae>\n 46cf159:\t83 f9 02             \tcmp    $0x2,%ecx\n 46cf15c:\t75 36                \tjne    46cf194 <_ZN6icu_6424ConstrainedFieldPosition24setInt64IterationContextEl@@Base+0x17ac4>\n 46cf15e:\t48 83 7f 78 00       \tcmpq   $0x0,0x78(%rdi)\n 46cf163:\t0f 84 da 00 00 00    \tje     46cf243 <_ZN6icu_6424ConstrainedFieldPosition24setInt64IterationContextEl@@Base+0x17b73>\n",
+      "literal_name": "r.Vulkan.WaitForIdleOnSubmit",
+      "literal_help": "Waits for the GPU to be idle after submitting a command buffer. Useful for tracking GPU hangs.\n 0: Do not wait(default)\n 1: Wait on every submit\n 2: Wait when submitting an upload buffer\n 3: Wait when submitting an active buffer (one that has gfx commands)\n",
+      "literal_name_address": "0xc1d61c"
+    },
+    "r.Vulkan.RHIThread": {
+      "storage": "console int value data pointer (two int32 thread copies)",
+      "object_pointer_address": "0x6e55ae0",
+      "data_pointer_address": "0x6e55ae8",
+      "default": 1,
+      "registration": "\n/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping:     file format elf64-x86-64\n\n\nDisassembly of section .text:\n\n00000000047074f9 <_ZN6icu_6424ConstrainedFieldPosition24setInt64IterationContextEl@@Base+0x4fe29>:\n 47074f9:\t48 8b 07             \tmov    (%rdi),%rax\n 47074fc:\tbe 7e f8 c2 00       \tmov    $0xc2f87e,%esi\n 4707501:\tb9 96 5f b3 00       \tmov    $0xb35f96,%ecx\n 4707506:\tba 01 00 00 00       \tmov    $0x1,%edx\n 470750b:\t45 31 c0             \txor    %r8d,%r8d\n 470750e:\tff 50 08             \tcall   *0x8(%rax)\n 4707511:\t48 89 05 c8 e5 74 02 \tmov    %rax,0x274e5c8(%rip)        # 6e55ae0 <_ZGVN5boost4asio6detail30execution_context_service_baseINS1_16resolver_serviceINS0_2ip3tcpEEEE2idE@@Base+0x21fbf0>\n 4707518:\t48 c7 05 b5 e5 74 02 \tmovq   $0xd84438,0x274e5b5(%rip)        # 6e55ad8 <_ZGVN5boost4asio6detail30execution_context_service_baseINS1_16resolver_serviceINS0_2ip3tcpEEEE2idE@@Base+0x21fbe8>\n 470751f:\t38 44 d8 00 \n 4707523:\t48 8b 08             \tmov    (%rax),%rcx\n 4707526:\t48 89 c7             \tmov    %rax,%rdi\n 4707529:\tff 51 60             \tcall   *0x60(%rcx)\n 470752c:\t48 89 05 b5 e5 74 02 \tmov    %rax,0x274e5b5(%rip)        # 6e55ae8 <_ZGVN5boost4asio6detail30execution_context_service_baseINS1_16resolver_serviceINS0_2ip3tcpEEEE2idE@@Base+0x21fbf8>\n",
+      "use": "\n/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping:     file format elf64-x86-64\n\n\nDisassembly of section .text:\n\n00000000046e0e20 <_ZN6icu_6424ConstrainedFieldPosition24setInt64IterationContextEl@@Base+0x29750>:\n 46e0e20:\t41 57                \tpush   %r15\n 46e0e22:\t41 56                \tpush   %r14\n 46e0e24:\t53                   \tpush   %rbx\n 46e0e25:\t49 89 fe             \tmov    %rdi,%r14\n 46e0e28:\t48 8b 1d b9 4c 77 02 \tmov    0x2774cb9(%rip),%rbx        # 6e55ae8 <_ZGVN5boost4asio6detail30execution_context_service_baseINS1_16resolver_serviceINS0_2ip3tcpEEEE2idE@@Base+0x21fbf8>\n 46e0e2f:\t80 3d da a5 61 02 00 \tcmpb   $0x0,0x261a5da(%rip)        # 6cfb410 <_ZGVN5boost4asio6detail30execution_context_service_baseINS1_16resolver_serviceINS0_2ip3tcpEEEE2idE@@Base+0xc5520>\n 46e0e36:\t74 3b                \tje     46e0e73 <_ZN6icu_6424ConstrainedFieldPosition24setInt64IterationContextEl@@Base+0x297a3>\n 46e0e38:\t49 c7 c7 2c ff ff ff \tmov    $0xffffffffffffff2c,%r15\n 46e0e3f:\t64 41 8b 07          \tmov    %fs:(%r15),%eax\n 46e0e43:\t85 c0                \ttest   %eax,%eax\n 46e0e45:\t74 3f                \tje     46e0e86 <_ZN6icu_6424ConstrainedFieldPosition24setInt64IterationContextEl@@Base+0x297b6>\n 46e0e47:\t31 c9                \txor    %ecx,%ecx\n 46e0e49:\t3b 05 b1 a5 61 02    \tcmp    0x261a5b1(%rip),%eax        # 6cfb400 <_ZGVN5boost4asio6detail30execution_context_service_baseINS1_16resolver_serviceINS0_2ip3tcpEEEE2idE@@Base+0xc5510>\n 46e0e4f:\t0f 95 c1             \tsetne  %cl\n 46e0e52:\t83 3c 8b 02          \tcmpl   $0x2,(%rbx,%rcx,4)\n 46e0e56:\t7c 23                \tjl     46e0e7b <_ZN6icu_6424ConstrainedFieldPosition24setInt64IterationContextEl@@Base+0x297ab>\n 46e0e58:\tbf 18 00 00 00       \tmov    $0x18,%edi\n",
+      "caution": "-norhithread may disable global thread creation without changing this CVar; verify thread names separately",
+      "literal_name": "r.Vulkan.RHIThread",
+      "literal_help": "0 to only use Render Thread\n1 to use ONE RHI Thread\n2 to use multiple RHI Thread\n",
+      "literal_name_address": "0xc2f87e"
+    },
+    "r.AsyncPipelineCompile": {
+      "default": 1,
+      "flags": "0x24 (ReadOnly | RenderThreadSafe)",
+      "object_pointer_address": "0x6e5e3f8",
+      "data_pointer_address": "0x6e5e400",
+      "storage": "Read uint64 pointer p, then int32 at p and p+4. Before registration pointer may be null.",
+      "registration": "\n/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping:     file format elf64-x86-64\n\n\nDisassembly of section .text:\n\n00000000047b1e4f <_ZN6icu_6424ConstrainedFieldPosition24setInt64IterationContextEl@@Base+0xfa77f>:\n 47b1e4f:\t48 8b 07             \tmov    (%rdi),%rax\n 47b1e52:\tbe 1c 9a c0 00       \tmov    $0xc09a1c,%esi\n 47b1e57:\tb9 3a 5c c4 00       \tmov    $0xc45c3a,%ecx\n 47b1e5c:\tba 01 00 00 00       \tmov    $0x1,%edx\n 47b1e61:\t41 b8 24 00 00 00    \tmov    $0x24,%r8d\n 47b1e67:\tff 50 08             \tcall   *0x8(%rax)\n 47b1e6a:\t48 89 05 87 c5 6a 02 \tmov    %rax,0x26ac587(%rip)        # 6e5e3f8 <_ZGVN5boost4asio6detail30execution_context_service_baseINS1_16resolver_serviceINS0_2ip3tcpEEEE2idE@@Base+0x228508>\n 47b1e71:\t48 c7 05 74 c5 6a 02 \tmovq   $0xd84438,0x26ac574(%rip)        # 6e5e3f0 <_ZGVN5boost4asio6detail30execution_context_service_baseINS1_16resolver_serviceINS0_2ip3tcpEEEE2idE@@Base+0x228500>\n 47b1e78:\t38 44 d8 00 \n 47b1e7c:\t48 8b 08             \tmov    (%rax),%rcx\n 47b1e7f:\t48 89 c7             \tmov    %rax,%rdi\n 47b1e82:\tff 51 60             \tcall   *0x60(%rcx)\n 47b1e85:\t48 89 05 74 c5 6a 02 \tmov    %rax,0x26ac574(%rip)        # 6e5e400 <_ZGVN5boost4asio6detail30execution_context_service_baseINS1_16resolver_serviceINS0_2ip3tcpEEEE2idE@@Base+0x228510>\n",
+      "use_pointer": "\n/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping:     file format elf64-x86-64\n\n\nDisassembly of section .text:\n\n00000000047a8a1c <_ZN6icu_6424ConstrainedFieldPosition24setInt64IterationContextEl@@Base+0xf134c>:\n 47a8a1c:\t48 8b 2d dd 59 6b 02 \tmov    0x26b59dd(%rip),%rbp        # 6e5e400 <_ZGVN5boost4asio6detail30execution_context_service_baseINS1_16resolver_serviceINS0_2ip3tcpEEEE2idE@@Base+0x228510>\n 47a8a23:\t80 3d e6 29 55 02 00 \tcmpb   $0x0,0x25529e6(%rip)        # 6cfb410 <_ZGVN5boost4asio6detail30execution_context_service_baseINS1_16resolver_serviceINS0_2ip3tcpEEEE2idE@@Base+0xc5520>\n 47a8a2a:\t0f 84 8d 00 00 00    \tje     47a8abd <_ZN6icu_6424ConstrainedFieldPosition24setInt64IterationContextEl@@Base+0xf13ed>\n 47a8a30:\t48 c7 c3 2c ff ff ff \tmov    $0xffffffffffffff2c,%rbx\n 47a8a37:\t64 8b 03             \tmov    %fs:(%rbx),%eax\n 47a8a3a:\t85 c0                \ttest   %eax,%eax\n 47a8a3c:\t0f 84 d7 02 00 00    \tje     47a8d19 <_ZN6icu_6424ConstrainedFieldPosition24setInt64IterationContextEl@@Base+0xf1649>\n 47a8a42:\t31 c9                \txor    %ecx,%ecx\n 47a8a44:\t3b 05 b6 29 55 02    \tcmp    0x25529b6(%rip),%eax        # 6cfb400 <_ZGVN5boost4asio6detail30execution_context_service_baseINS1_16resolver_serviceINS0_2ip3tcpEEEE2idE@@Base+0xc5510>\n 47a8a4a:\t0f 95 c1             \tsetne  %cl\n 47a8a4d:\teb 70                \tjmp    47a8abf <_ZN6icu_6424ConstrainedFieldPosition24setInt64IterationContextEl@@Base+0xf13ef>\n",
+      "literal_name_address": "0xc09a1c",
+      "literal_help": "0 to Create PSOs at the moment they are requested\n1 to Create Pipeline State Objects asynchronously(default)",
+      "caution": "ReadOnly blocks console changes; verify startup INI changes in process memory before attributing experiment."
+    },
+    "r.RHICmdBypass": {
+      "default": 0,
+      "flags": "0x0",
+      "object_pointer_address": "0x6e5fe10",
+      "data_pointer_address": "0x6e5fe18",
+      "storage": "Read uint64 pointer p, then int32 at p and p+4. Before registration pointer may be null.",
+      "registration": "\n/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping:     file format elf64-x86-64\n\n\nDisassembly of section .text:\n\n00000000047b399c <_ZN6icu_6424ConstrainedFieldPosition24setInt64IterationContextEl@@Base+0xfc2cc>:\n 47b399c:\t48 8b 07             \tmov    (%rdi),%rax\n 47b399f:\tbe 74 10 b2 00       \tmov    $0xb21074,%esi\n 47b39a4:\tb9 7e 1b be 00       \tmov    $0xbe1b7e,%ecx\n 47b39a9:\t31 d2                \txor    %edx,%edx\n 47b39ab:\t45 31 c0             \txor    %r8d,%r8d\n 47b39ae:\tff 50 08             \tcall   *0x8(%rax)\n 47b39b1:\t48 89 05 58 c4 6a 02 \tmov    %rax,0x26ac458(%rip)        # 6e5fe10 <_ZGVN5boost4asio6detail30execution_context_service_baseINS1_16resolver_serviceINS0_2ip3tcpEEEE2idE@@Base+0x229f20>\n 47b39b8:\t48 c7 05 45 c4 6a 02 \tmovq   $0xd84438,0x26ac445(%rip)        # 6e5fe08 <_ZGVN5boost4asio6detail30execution_context_service_baseINS1_16resolver_serviceINS0_2ip3tcpEEEE2idE@@Base+0x229f18>\n 47b39bf:\t38 44 d8 00 \n 47b39c3:\t48 8b 08             \tmov    (%rax),%rcx\n 47b39c6:\t48 89 c7             \tmov    %rax,%rdi\n 47b39c9:\tff 51 60             \tcall   *0x60(%rcx)\n 47b39cc:\t48 89 05 45 c4 6a 02 \tmov    %rax,0x26ac445(%rip)        # 6e5fe18 <_ZGVN5boost4asio6detail30execution_context_service_baseINS1_16resolver_serviceINS0_2ip3tcpEEEE2idE@@Base+0x229f28>\n",
+      "literal_name_address": "0xb21074",
+      "literal_help": "Whether to bypass the rhi command list and send the rhi commands immediately.\n0: Disable (required for the multithreaded renderer)\n1: Enable (convenient for debugging low level graphics API calls, can suppress artifacts from multithreaded renderer code)",
+      "source_quality_requests": {
+        "Low": 0,
+        "Epic": 1
+      },
+      "caution": "Quality function source requests Low=0/Epic=1, but its execution is conditional. Native Epic samples read [0,0]; do not attribute Epic outcomes to RHI bypass or infer Shipping Exec behavior from this alone.",
+      "source_quality_requests_are_runtime_values": false,
+      "runtime_observation": {
+        "evidence": "native-town13-epic/samples.jsonl",
+        "sample_elapsed_seconds": [
+          93.41043033500046,
+          94.4349949260004
+        ],
+        "values": [
+          0,
+          0
+        ],
+        "rhi_thread_present": true,
+        "scope": "Samples after map load, not a completed batch result."
+      }
+    }
+  },
+  "crash_memcpy_call": "\n/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping:     file format elf64-x86-64\n\n\nDisassembly of section .text:\n\n000000000469e8dc <hb_buffer_get_invisible_glyph@@Base+0x236cc>:\n 469e8dc:\t4c 89 ff             \tmov    %r15,%rdi\n 469e8df:\t31 f6                \txor    %esi,%esi\n 469e8e1:\tba 01 00 00 00       \tmov    $0x1,%edx\n 469e8e6:\t89 e9                \tmov    %ebp,%ecx\n 469e8e8:\t45 31 c0             \txor    %r8d,%r8d\n 469e8eb:\te8 c0 06 00 00       \tcall   469efb0 <hb_buffer_get_invisible_glyph@@Base+0x23da0>\n 469e8f0:\t49 89 c5             \tmov    %rax,%r13\n 469e8f3:\t48 8b 7b 08          \tmov    0x8(%rbx),%rdi\n 469e8f7:\t48 8b 07             \tmov    (%rdi),%rax\n 469e8fa:\tff 50 18             \tcall   *0x18(%rax)\n 469e8fd:\t4c 89 ef             \tmov    %r13,%rdi\n 469e900:\t48 89 c6             \tmov    %rax,%rsi\n 469e903:\t48 89 ea             \tmov    %rbp,%rdx\n 469e906:\te8 65 da 4e 02       \tcall   6b8c370 <memcpy@plt>\n 469e90b:\t4c 89 ff             \tmov    %r15,%rdi\n 469e90e:\t44 89 f6             \tmov    %r14d,%esi\n",
+  "address_scope": "Only audited exact binary. Confirm process exe and maps; ET_EXEC fixed image addresses, heap remains ASLR randomized.",
+  "disassembly_symbol_warning": "Shipping binary local function symbols are stripped; objdump nearest dynamic symbol labels (e.g. hb_buffer or ICU plus huge offset) do not identify the actual function. Addresses, instructions, literal registration and crash-provided symbols are the evidence.",
+  "rgb_pipeline_crash": {
+    "evidence": "rgb-all-every-frame-default/crashes/crashinfo-CarlaUE4-pid-96396-6FB392132819479CB929B036282E9E3D",
+    "fault_pc": "0x46f6ca6",
+    "fault_address": "0x94",
+    "instruction": "movslq 0x94(%rsi),%rax",
+    "inference": "Given fault address and matching instruction, RSI is null; Linux x86_64 member call has FVulkanVertexDeclaration* argument in RSI. Does not identify why argument null.",
+    "function_entry": "\n/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping:     file format elf64-x86-64\n\n\nDisassembly of section .text:\n\n00000000046f6c90 <_ZN6icu_6424ConstrainedFieldPosition24setInt64IterationContextEl@@Base+0x3f5c0>:\n 46f6c90:\t55                   \tpush   %rbp\n 46f6c91:\t41 57                \tpush   %r15\n 46f6c93:\t41 56                \tpush   %r14\n 46f6c95:\t41 55                \tpush   %r13\n 46f6c97:\t41 54                \tpush   %r12\n 46f6c99:\t53                   \tpush   %rbx\n 46f6c9a:\t48 83 ec 28          \tsub    $0x28,%rsp\n 46f6c9e:\t89 d3                \tmov    %edx,%ebx\n 46f6ca0:\t49 89 f7             \tmov    %rsi,%r15\n 46f6ca3:\t49 89 fe             \tmov    %rdi,%r14\n 46f6ca6:\t48 63 86 94 00 00 00 \tmovslq 0x94(%rsi),%rax\n 46f6cad:\t48 c1 e0 03          \tshl    $0x3,%rax\n",
+    "caller": "\n/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping:     file format elf64-x86-64\n\n\nDisassembly of section .text:\n\n00000000046c47a0 <_ZN6icu_6424ConstrainedFieldPosition24setInt64IterationContextEl@@Base+0xd0d0>:\n 46c47a0:\t48 89 f3             \tmov    %rsi,%rbx\n 46c47a3:\t48 8d bc 24 f0 03 00 \tlea    0x3f0(%rsp),%rdi\n 46c47aa:\t00 \n 46c47ab:\te8 50 24 03 00       \tcall   46f6c00 <_ZN6icu_6424ConstrainedFieldPosition24setInt64IterationContextEl@@Base+0x3f530>\n 46c47b0:\t48 89 5c 24 10       \tmov    %rbx,0x10(%rsp)\n 46c47b5:\t48 8b 33             \tmov    (%rbx),%rsi\n 46c47b8:\t41 8b 96 90 00 00 00 \tmov    0x90(%r14),%edx\n 46c47bf:\t49 83 c6 10          \tadd    $0x10,%r14\n 46c47c3:\t48 8d bc 24 f0 03 00 \tlea    0x3f0(%rsp),%rdi\n 46c47ca:\t00 \n 46c47cb:\te8 c0 24 03 00       \tcall   46f6c90 <_ZN6icu_6424ConstrainedFieldPosition24setInt64IterationContextEl@@Base+0x3f5c0>\n 46c47d0:\t0f 57 c0             \txorps  %xmm0,%xmm0\n 46c47d3:\t0f 29 44 24 60       \tmovaps %xmm0,0x60(%rsp)\n"
+  },
+  "startup_literal_checks": {
+    "ExecCmds": {
+      "utf-8": -1,
+      "utf-16le": -1
+    },
+    "ExecCmds=": {
+      "utf-8": -1,
+      "utf-16le": -1
+    },
+    "XDG_CONFIG_HOME": {
+      "utf-8": -1,
+      "utf-16le": -1
+    },
+    "UserDir=": {
+      "utf-8": -1,
+      "utf-16le": 10175232
+    },
+    "SaveToUserDir": {
+      "utf-8": 12018249,
+      "utf-16le": 9226268
+    }
+  },
+  "userdir_parse": "\n/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping:     file format elf64-x86-64\n\n\nDisassembly of section .text:\n\n00000000033530dc <_ZNK6icu_646number4impl17ParsedPatternInfo7hasBodyEv@@Base+0x3d92c>:\n 33530dc:\te8 ff ee fb ff       \tcall   3311fe0 <_ZNK5physx7NpCloth7getTypeEv@@Base+0x7890>\n 33530e1:\t4c 8d 73 38          \tlea    0x38(%rbx),%r14\n 33530e5:\tbe 00 43 bb 00       \tmov    $0xbb4300,%esi\n 33530ea:\t48 89 c7             \tmov    %rax,%rdi\n 33530ed:\t4c 89 f2             \tmov    %r14,%rdx\n 33530f0:\tb9 01 00 00 00       \tmov    $0x1,%ecx\n 33530f5:\te8 d6 8b fe ff       \tcall   333bcd0 <_ZNK6icu_646number4impl17ParsedPatternInfo7hasBodyEv@@Base+0x26520>\n 33530fa:\tc6 83 08 01 00 00 01 \tmovb   $0x1,0x108(%rbx)\n 3353101:\t8b 4b 40             \tmov    0x40(%rbx),%ecx\n 3353104:\t83 f9 02             \tcmp    $0x2,%ecx\n 3353107:\t0f 8c a0 01 00 00    \tjl     33532ad <_ZNK6icu_646number4impl17ParsedPatternInfo7hasBodyEv@@Base+0x3dafd>\n 335310d:\t49 8b 06             \tmov    (%r14),%rax\n 3353110:\t0f b7 38             \tmovzwl (%rax),%edi\n 3353113:\t83 ff 2f             \tcmp    $0x2f,%edi\n 3353116:\t0f 85 80 00 00 00    \tjne    335319c <_ZNK6icu_646number4impl17ParsedPatternInfo7hasBodyEv@@Base+0x3d9ec>\n"
+}

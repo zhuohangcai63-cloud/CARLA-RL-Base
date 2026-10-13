@@ -1,0 +1,608 @@
+START 22535 Town12 StaticCutIn
+LOADED 22535 Carla/Maps/Town12/Town12
+PREPARED 22535
+END 22535 completed 392 ticks 37.07s 
+START 2667 Town12 ParkedObstacleTwoWays
+LOADED 2667 Carla/Maps/Town12/Town12
+PREPARED 2667
+END 2667 tick_budget_reached 1500 ticks 45.92s 
+START 19832 Town12 ParkedObstacle
+LOADED 19832 Carla/Maps/Town12/Town12
+PREPARED 19832
+END 19832 tick_budget_reached 1500 ticks 35.79s 
+START 22983 Town12 HardBreakRoute
+LOADED 22983 Carla/Maps/Town12/Town12
+PREPARED 22983
+END 22983 completed 625 ticks 24.74s 
+START 23470 Town12 ControlLoss
+LOADED 23470 Carla/Maps/Town12/Town12
+PREPARED 23470
+END 23470 completed 394 ticks 19.13s 
+START 21992 Town12 VehicleOpensDoorTwoWays
+LOADED 21992 Carla/Maps/Town12/Town12
+PREPARED 21992
+END 21992 completed 395 ticks 23.45s 
+START 11658 Town12 EnterActorFlow
+LOADED 11658 Carla/Maps/Town12/Town12
+PREPARED 11658
+END 11658 tick_budget_reached 1500 ticks 53.29s 
+START 17749 Town12 DynamicObjectCrossing
+LOADED 17749 Carla/Maps/Town12/Town12
+PREPARED 17749
+END 17749 completed 436 ticks 17.20s 
+START 19753 Town12 ParkedObstacle
+LOADED 19753 Carla/Maps/Town12/Town12
+PREPARED 19753
+END 19753 tick_budget_reached 1500 ticks 41.23s 
+START 18073 Town12 DynamicObjectCrossing
+LOADED 18073 Carla/Maps/Town12/Town12
+PREPARED 18073
+END 18073 completed 437 ticks 18.90s 
+START 21037 Town12 HazardAtSideLaneTwoWays
+LOADED 21037 Carla/Maps/Town12/Town12
+PREPARED 21037
+END 21037 completed 787 ticks 26.39s 
+START 10364 Town12 VehicleTurningRoute
+LOADED 10364 Carla/Maps/Town12/Town12
+PREPARED 10364
+END 10364 completed 355 ticks 14.67s 
+START 16390 Town12 VanillaSignalizedTurnEncounterRedLight
+LOADED 16390 Carla/Maps/Town12/Town12
+PREPARED 16390
+WARNING: Cannot spawn actor vehicle.* at position Location(x=3753.720215, y=4313.836426, z=368.775330)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=3753.720215, y=4313.836426, z=368.775330)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=3753.720215, y=4313.836426, z=368.775330)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=3753.720215, y=4313.836426, z=368.775330)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=3753.720215, y=4313.836426, z=368.775330)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=3753.720215, y=4313.836426, z=368.775330)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=3753.720215, y=4313.836426, z=368.775330)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=3753.720215, y=4313.836426, z=368.775330)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=3753.720215, y=4313.836426, z=368.775330)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=3753.720215, y=4313.836426, z=368.775330)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=3753.720215, y=4313.836426, z=368.775330)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=3753.720215, y=4313.836426, z=368.775330)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=3753.720215, y=4313.836426, z=368.775330)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=3753.720215, y=4313.836426, z=368.775330)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=3753.720215, y=4313.836426, z=368.775330)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=3753.720215, y=4313.836426, z=368.775330)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=3753.720215, y=4313.836426, z=368.775330)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=3753.720215, y=4313.836426, z=368.775330)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=3753.720215, y=4313.836426, z=368.775330)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=3753.720215, y=4313.836426, z=368.775330)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=3753.720215, y=4313.836426, z=368.775330)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=3753.720215, y=4313.836426, z=368.775330)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=3753.720215, y=4313.836426, z=368.775330)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=3753.720215, y=4313.836426, z=368.775330)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=3753.720215, y=4313.836426, z=368.775330)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=3753.720215, y=4313.836426, z=368.775330)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=3753.720215, y=4313.836426, z=368.775330)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=3753.720215, y=4313.836426, z=368.775330)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=3753.720215, y=4313.836426, z=368.775330)
+END 16390 completed 274 ticks 13.76s 
+START 7616 Town12 NonSignalizedJunctionLeftTurn
+LOADED 7616 Carla/Maps/Town12/Town12
+PREPARED 7616
+WARNING: Cannot spawn actor vehicle.* at position Location(x=-174.885117, y=4876.593750, z=373.755463)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=-174.885117, y=4876.593750, z=373.755463)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=-174.885117, y=4876.593750, z=373.755463)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=-174.885117, y=4876.593750, z=373.755463)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=-174.885117, y=4876.593750, z=373.755463)
+END 7616 completed 239 ticks 14.97s 
+START 2520 Town12 ConstructionObstacle
+LOADED 2520 Carla/Maps/Town12/Town12
+PREPARED 2520
+END 2520 tick_budget_reached 1500 ticks 43.54s 
+START 18344 Town12 ParkingCutIn
+LOADED 18344 Carla/Maps/Town12/Town12
+PREPARED 18344
+END 18344 completed 414 ticks 24.51s 
+START 2608 Town12 ConstructionObstacleTwoWays
+LOADED 2608 Carla/Maps/Town12/Town12
+PREPARED 2608
+END 2608 tick_budget_reached 1500 ticks 44.61s 
+START 11177 Town12 VehicleTurningRoutePedestrian
+LOADED 11177 Carla/Maps/Town12/Town12
+PREPARED 11177
+END 11177 completed 1093 ticks 56.24s 
+START 5423 Town12 SignalizedJunctionRightTurn
+LOADED 5423 Carla/Maps/Town12/Town12
+PREPARED 5423
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.893311, y=5578.507812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.891968, y=5575.257812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.893311, y=5578.507812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.891968, y=5575.257812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.893311, y=5578.507812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.891968, y=5575.257812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.893311, y=5578.507812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.891968, y=5575.257812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.893311, y=5578.507812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.891968, y=5575.257812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.893311, y=5578.507812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.891968, y=5575.257812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.893311, y=5578.507812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.891968, y=5575.257812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.893311, y=5578.507812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.891968, y=5575.257812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.893311, y=5578.507812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.891968, y=5575.257812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.893311, y=5578.507812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.891968, y=5575.257812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.893311, y=5578.507812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.891968, y=5575.257812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.893311, y=5578.507812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.891968, y=5575.257812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.893311, y=5578.507812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.891968, y=5575.257812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.893311, y=5578.507812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.891968, y=5575.257812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.893311, y=5578.507812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.891968, y=5575.257812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.893311, y=5578.507812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.891968, y=5575.257812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.893311, y=5578.507812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.891968, y=5575.257812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.893311, y=5578.507812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.891968, y=5575.257812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.893311, y=5578.507812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.891968, y=5575.257812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.893311, y=5578.507812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.891968, y=5575.257812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.893311, y=5578.507812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.891968, y=5575.257812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.893311, y=5578.507812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.891968, y=5575.257812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.893311, y=5578.507812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.891968, y=5575.257812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.893311, y=5578.507812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.891968, y=5575.257812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.893311, y=5578.507812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.891968, y=5575.257812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.893311, y=5578.507812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.891968, y=5575.257812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.893311, y=5578.507812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.891968, y=5575.257812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.893311, y=5578.507812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.891968, y=5575.257812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.893311, y=5578.507812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.891968, y=5575.257812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.893311, y=5578.507812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.891968, y=5575.257812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.893311, y=5578.507812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.891968, y=5575.257812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.891968, y=5575.257812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.891968, y=5575.257812, z=369.704559)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1404.891968, y=5575.257812, z=369.704559)
+END 5423 completed 313 ticks 20.36s 
+START 4721 Town12 SignalizedJunctionLeftTurn
+LOADED 4721 Carla/Maps/Town12/Town12
+PREPARED 4721
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2453.891846, y=4370.062988, z=360.308563)
+END 4721 tick_budget_reached 1500 ticks 66.97s 
+START 13674 Town12 PedestrianCrossing
+LOADED 13674 Carla/Maps/Town12/Town12
+PREPARED 13674
+END 13674 completed 220 ticks 13.58s 
+START 36360 Town12 CrossingBicycleFlow
+LOADED 36360 Carla/Maps/Town12/Town12
+PREPARED 36360
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2474.182373, y=4957.720215, z=368.214996)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2474.182373, y=4957.720215, z=368.214996)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2474.182373, y=4957.720215, z=368.214996)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2474.182373, y=4957.720215, z=368.214996)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2474.182373, y=4957.720215, z=368.214996)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2474.182373, y=4957.720215, z=368.214996)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2474.182373, y=4957.720215, z=368.214996)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2474.182373, y=4957.720215, z=368.214996)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2474.182373, y=4957.720215, z=368.214996)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2474.182373, y=4957.720215, z=368.214996)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2474.182373, y=4957.720215, z=368.214996)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2474.182373, y=4957.720215, z=368.214996)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2474.182373, y=4957.720215, z=368.214996)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2474.182373, y=4957.720215, z=368.214996)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2474.182373, y=4957.720215, z=368.214996)
+END 36360 completed 329 ticks 17.26s 
+START 2797 Town12 InvadingTurn
+LOADED 2797 Carla/Maps/Town12/Town12
+PREPARED 2797
+END 2797 completed 341 ticks 15.40s 
+START 17564 Town12 SequentialLaneChange
+LOADED 17564 Carla/Maps/Town12/Town12
+PREPARED 17564
+END 17564 completed 504 ticks 18.05s 
+START 4104 Town12 SignalizedJunctionLeftTurn
+LOADED 4104 Carla/Maps/Town12/Town12
+PREPARED 4104
+END 4104 completed 1347 ticks 35.69s 
+START 9196 Town12 OppositeVehicleTakingPriority
+LOADED 9196 Carla/Maps/Town12/Town12
+PREPARED 9196
+END 9196 completed 1001 ticks 24.26s 
+START 10255 Town12 VehicleTurningRoute
+LOADED 10255 Carla/Maps/Town12/Town12
+PREPARED 10255
+END 10255 completed 247 ticks 13.78s 
+START 19324 Town12 Accident
+LOADED 19324 Carla/Maps/Town12/Town12
+PREPARED 19324
+END 19324 tick_budget_reached 1500 ticks 64.43s 
+START 16529 Town12 VanillaNonSignalizedTurn
+LOADED 16529 Carla/Maps/Town12/Town12
+PREPARED 16529
+END 16529 completed 770 ticks 34.52s 
+START 22651 Town12 HardBreakRoute
+LOADED 22651 Carla/Maps/Town12/Town12
+PREPARED 22651
+END 22651 completed 1010 ticks 46.16s 
+START 6999 Town12 NonSignalizedJunctionLeftTurn
+LOADED 6999 Carla/Maps/Town12/Town12
+PREPARED 6999
+WARNING: Cannot spawn actor vehicle.* at position Location(x=-493.386688, y=4994.020020, z=375.189056)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=-455.233643, y=4949.488770, z=375.129913)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=-455.233643, y=4949.488770, z=375.129913)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=-455.233643, y=4949.488770, z=375.129913)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=-455.233643, y=4949.488770, z=375.129913)
+END 6999 completed 236 ticks 14.07s 
+START 18174 Town12 DynamicObjectCrossing
+LOADED 18174 Carla/Maps/Town12/Town12
+PREPARED 18174
+END 18174 completed 998 ticks 27.68s 
+START 17615 Town12 SequentialLaneChange
+LOADED 17615 Carla/Maps/Town12/Town12
+PREPARED 17615
+END 17615 completed 489 ticks 17.79s 
+START 23842 Town12 HighwayCutIn
+LOADED 23842 Carla/Maps/Town12/Town12
+PREPARED 23842
+END 23842 completed 1464 ticks 51.10s 
+START 12791 Town12 BlockedIntersection
+LOADED 12791 Carla/Maps/Town12/Town12
+PREPARED 12791
+END 12791 completed 987 ticks 50.72s 
+START 19186 Town12 Accident
+LOADED 19186 Carla/Maps/Town12/Town12
+PREPARED 19186
+END 19186 tick_budget_reached 1500 ticks 43.86s 
+START 7841 Town12 NonSignalizedJunctionRightTurn
+LOADED 7841 Carla/Maps/Town12/Town12
+PREPARED 7841
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2655.463623, y=2105.594482, z=355.443359)
+END 7841 completed 941 ticks 32.71s 
+START 12933 Town12 BlockedIntersection
+LOADED 12933 Carla/Maps/Town12/Town12
+PREPARED 12933
+END 12933 completed 1292 ticks 60.83s 
+START 19681 Town12 ParkedObstacle
+LOADED 19681 Carla/Maps/Town12/Town12
+PREPARED 19681
+END 19681 tick_budget_reached 1500 ticks 75.12s 
+START 18868 Town12 ConstructionObstacle
+LOADED 18868 Carla/Maps/Town12/Town12
+PREPARED 18868
+END 18868 tick_budget_reached 1500 ticks 45.25s 
+START 22531 Town12 StaticCutIn
+LOADED 22531 Carla/Maps/Town12/Town12
+PREPARED 22531
+END 22531 completed 392 ticks 19.04s 
+START 16508 Town12 VanillaNonSignalizedTurn
+LOADED 16508 Carla/Maps/Town12/Town12
+PREPARED 16508
+END 16508 completed 153 ticks 14.97s 
+START 2299 Town12 HighwayCutIn
+LOADED 2299 Carla/Maps/Town12/Town12
+PREPARED 2299
+END 2299 completed 1456 ticks 75.08s 
+START 35418 Town12 CrossingBicycleFlow
+LOADED 35418 Carla/Maps/Town12/Town12
+END 35418 failed 0 ticks 8.60s RuntimeError: Bench2Drive generation failed (route=35418, seed=123): Scenario construction failed: CrossingBicycleFlow_1
+START 8859 Town12 OppositeVehicleTakingPriority
+LOADED 8859 Carla/Maps/Town12/Town12
+PREPARED 8859
+END 8859 completed 230 ticks 13.37s 
+START 15102 Town12 VanillaSignalizedTurnEncounterGreenLight
+LOADED 15102 Carla/Maps/Town12/Town12
+PREPARED 15102
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2163.988525, y=4722.761719, z=363.394562)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2163.988525, y=4722.761719, z=363.394562)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2163.988525, y=4722.761719, z=363.394562)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2163.988525, y=4722.761719, z=363.394562)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2163.988525, y=4722.761719, z=363.394562)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2163.988525, y=4722.761719, z=363.394562)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2163.988525, y=4722.761719, z=363.394562)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2163.988525, y=4722.761719, z=363.394562)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2163.988525, y=4722.761719, z=363.394562)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2163.988525, y=4722.761719, z=363.394562)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2163.988525, y=4722.761719, z=363.394562)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2163.988525, y=4722.761719, z=363.394562)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2163.988525, y=4722.761719, z=363.394562)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2163.988525, y=4722.761719, z=363.394562)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2163.988525, y=4722.761719, z=363.394562)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2163.988525, y=4722.761719, z=363.394562)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2163.988525, y=4722.761719, z=363.394562)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2163.988525, y=4722.761719, z=363.394562)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2163.988525, y=4722.761719, z=363.394562)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2163.988525, y=4722.761719, z=363.394562)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2163.988525, y=4722.761719, z=363.394562)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2163.988525, y=4722.761719, z=363.394562)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2163.988525, y=4722.761719, z=363.394562)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2163.988525, y=4722.761719, z=363.394562)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2163.988525, y=4722.761719, z=363.394562)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2163.988525, y=4722.761719, z=363.394562)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2163.988525, y=4722.761719, z=363.394562)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2163.988525, y=4722.761719, z=363.394562)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2163.988525, y=4722.761719, z=363.394562)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2163.988525, y=4722.761719, z=363.394562)
+END 15102 completed 1070 ticks 47.84s 
+START 2787 Town12 InvadingTurn
+LOADED 2787 Carla/Maps/Town12/Town12
+PREPARED 2787
+END 2787 tick_budget_reached 1500 ticks 32.92s 
+START 11333 Town12 VehicleTurningRoutePedestrian
+LOADED 11333 Carla/Maps/Town12/Town12
+PREPARED 11333
+END 11333 completed 513 ticks 20.92s 
+START 16486 Town12 VanillaNonSignalizedTurn
+LOADED 16486 Carla/Maps/Town12/Town12
+PREPARED 16486
+WARNING: Cannot spawn actor vehicle.* at position Location(x=462.949158, y=4474.714355, z=370.543396)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=462.949158, y=4474.714355, z=370.543396)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=462.949158, y=4474.714355, z=370.543396)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=462.949158, y=4474.714355, z=370.543396)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=462.949158, y=4474.714355, z=370.543396)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=462.949158, y=4474.714355, z=370.543396)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=462.949158, y=4474.714355, z=370.543396)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=462.949158, y=4474.714355, z=370.543396)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=462.949158, y=4474.714355, z=370.543396)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=462.949158, y=4474.714355, z=370.543396)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=462.949158, y=4474.714355, z=370.543396)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=462.949158, y=4474.714355, z=370.543396)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=462.949158, y=4474.714355, z=370.543396)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=462.949158, y=4474.714355, z=370.543396)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=462.949158, y=4474.714355, z=370.543396)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=462.949158, y=4474.714355, z=370.543396)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=462.949158, y=4474.714355, z=370.543396)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=462.949158, y=4474.714355, z=370.543396)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=462.949158, y=4474.714355, z=370.543396)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=462.949158, y=4474.714355, z=370.543396)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=462.949158, y=4474.714355, z=370.543396)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=462.949158, y=4474.714355, z=370.543396)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=462.949158, y=4474.714355, z=370.543396)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=462.949158, y=4474.714355, z=370.543396)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=462.949158, y=4474.714355, z=370.543396)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=462.949158, y=4474.714355, z=370.543396)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=462.949158, y=4474.714355, z=370.543396)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=462.949158, y=4474.714355, z=370.543396)
+END 16486 completed 762 ticks 35.19s 
+START 7157 Town12 NonSignalizedJunctionLeftTurn
+LOADED 7157 Carla/Maps/Town12/Town12
+PREPARED 7157
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1363.553833, y=5774.292969, z=368.859680)
+END 7157 completed 219 ticks 16.52s 
+START 15612 Town12 VanillaSignalizedTurnEncounterRedLight
+LOADED 15612 Carla/Maps/Town12/Town12
+PREPARED 15612
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1173.420044, y=5782.627441, z=369.237610)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1173.420044, y=5782.627441, z=369.237610)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1173.420044, y=5782.627441, z=369.237610)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1173.420044, y=5782.627441, z=369.237610)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1173.420044, y=5782.627441, z=369.237610)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1173.420044, y=5782.627441, z=369.237610)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1173.420044, y=5782.627441, z=369.237610)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1173.420044, y=5782.627441, z=369.237610)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1173.420044, y=5782.627441, z=369.237610)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1173.420044, y=5782.627441, z=369.237610)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1173.420044, y=5782.627441, z=369.237610)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1173.420044, y=5782.627441, z=369.237610)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1173.420044, y=5782.627441, z=369.237610)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1173.420044, y=5782.627441, z=369.237610)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1173.420044, y=5782.627441, z=369.237610)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1173.420044, y=5782.627441, z=369.237610)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1173.420044, y=5782.627441, z=369.237610)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1173.420044, y=5782.627441, z=369.237610)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1173.420044, y=5782.627441, z=369.237610)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1173.420044, y=5782.627441, z=369.237610)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1173.420044, y=5782.627441, z=369.237610)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1173.420044, y=5782.627441, z=369.237610)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1173.420044, y=5782.627441, z=369.237610)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1173.420044, y=5782.627441, z=369.237610)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1173.420044, y=5782.627441, z=369.237610)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1173.420044, y=5782.627441, z=369.237610)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1173.420044, y=5782.627441, z=369.237610)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1173.420044, y=5782.627441, z=369.237610)
+END 15612 completed 557 ticks 25.54s 
+START 18512 Town12 ConstructionObstacle
+LOADED 18512 Carla/Maps/Town12/Town12
+PREPARED 18512
+END 18512 tick_budget_reached 1500 ticks 65.37s 
+START 13231 Town12 BlockedIntersection
+LOADED 13231 Carla/Maps/Town12/Town12
+PREPARED 13231
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2022.812988, y=2177.531494, z=361.609283)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2022.812988, y=2177.531494, z=361.609283)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2022.812988, y=2177.531494, z=361.609283)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2022.812988, y=2177.531494, z=361.609283)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2022.812988, y=2177.531494, z=361.609283)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2022.812988, y=2177.531494, z=361.609283)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2022.812988, y=2177.531494, z=361.609283)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2022.812988, y=2177.531494, z=361.609283)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2022.812988, y=2177.531494, z=361.609283)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2022.812988, y=2177.531494, z=361.609283)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2022.812988, y=2177.531494, z=361.609283)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2022.812988, y=2177.531494, z=361.609283)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2022.812988, y=2177.531494, z=361.609283)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2022.812988, y=2177.531494, z=361.609283)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2022.812988, y=2177.531494, z=361.609283)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2022.812988, y=2177.531494, z=361.609283)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2022.812988, y=2177.531494, z=361.609283)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2022.812988, y=2177.531494, z=361.609283)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2022.812988, y=2177.531494, z=361.609283)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2022.812988, y=2177.531494, z=361.609283)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2022.812988, y=2177.531494, z=361.609283)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2022.812988, y=2177.531494, z=361.609283)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2022.812988, y=2177.531494, z=361.609283)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2022.812988, y=2177.531494, z=361.609283)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2022.812988, y=2177.531494, z=361.609283)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2022.812988, y=2177.531494, z=361.609283)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2022.812988, y=2177.531494, z=361.609283)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2022.812988, y=2177.531494, z=361.609283)
+END 13231 completed 441 ticks 18.27s 
+START 19359 Town12 Accident
+LOADED 19359 Carla/Maps/Town12/Town12
+PREPARED 19359
+END 19359 tick_budget_reached 1500 ticks 47.38s 
+START 22590 Town12 ParkingExit
+LOADED 22590 Carla/Maps/Town12/Town12
+PREPARED 22590
+END 22590 completed 458 ticks 18.38s 
+START 21188 Town12 HazardAtSideLaneTwoWays
+LOADED 21188 Carla/Maps/Town12/Town12
+PREPARED 21188
+END 21188 completed 718 ticks 25.75s 
+START 2724 Town12 ParkingExit
+LOADED 2724 Carla/Maps/Town12/Town12
+PREPARED 2724
+END 2724 completed 457 ticks 17.72s 
+START 9646 Town12 VehicleTurningRoute
+LOADED 9646 Carla/Maps/Town12/Town12
+PREPARED 9646
+END 9646 completed 1097 ticks 49.45s 
+START 4183 Town12 SignalizedJunctionLeftTurn
+LOADED 4183 Carla/Maps/Town12/Town12
+PREPARED 4183
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1318.073486, y=3926.020996, z=363.534454)
+END 4183 completed 434 ticks 18.98s 
+START 22606 Town12 ParkingExit
+LOADED 22606 Carla/Maps/Town12/Town12
+PREPARED 22606
+END 22606 completed 458 ticks 27.31s 
+START 6673 Town12 OppositeVehicleRunningRedLight
+LOADED 6673 Carla/Maps/Town12/Town12
+PREPARED 6673
+END 6673 completed 222 ticks 14.61s 
+START 23697 Town12 HighwayCutIn
+LOADED 23697 Carla/Maps/Town12/Town12
+PREPARED 23697
+END 23697 completed 1424 ticks 45.85s 
+START 17921 Town12 DynamicObjectCrossing
+LOADED 17921 Carla/Maps/Town12/Town12
+PREPARED 17921
+END 17921 completed 437 ticks 17.34s 
+START 17892 Town12 DynamicObjectCrossing
+LOADED 17892 Carla/Maps/Town12/Town12
+PREPARED 17892
+END 17892 completed 435 ticks 17.38s 
+START 21546 Town12 ParkedObstacleTwoWays
+LOADED 21546 Carla/Maps/Town12/Town12
+PREPARED 21546
+END 21546 tick_budget_reached 1500 ticks 65.73s 
+START 18777 Town12 ConstructionObstacle
+LOADED 18777 Carla/Maps/Town12/Town12
+PREPARED 18777
+END 18777 tick_budget_reached 1500 ticks 42.85s 
+START 14955 Town12 VanillaSignalizedTurnEncounterGreenLight
+LOADED 14955 Carla/Maps/Town12/Town12
+PREPARED 14955
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1589.552124, y=4509.671875, z=366.025543)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1589.552124, y=4509.671875, z=366.025543)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1589.552124, y=4509.671875, z=366.025543)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1589.552124, y=4509.671875, z=366.025543)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1589.552124, y=4509.671875, z=366.025543)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1589.552124, y=4509.671875, z=366.025543)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1589.552124, y=4509.671875, z=366.025543)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1589.552124, y=4509.671875, z=366.025543)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1589.552124, y=4509.671875, z=366.025543)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1589.552124, y=4509.671875, z=366.025543)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1589.552124, y=4509.671875, z=366.025543)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1589.552124, y=4509.671875, z=366.025543)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1589.552124, y=4509.671875, z=366.025543)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1589.552124, y=4509.671875, z=366.025543)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1589.552124, y=4509.671875, z=366.025543)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1589.552124, y=4509.671875, z=366.025543)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1589.552124, y=4509.671875, z=366.025543)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1589.552124, y=4509.671875, z=366.025543)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1589.552124, y=4509.671875, z=366.025543)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1589.552124, y=4509.671875, z=366.025543)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1589.552124, y=4509.671875, z=366.025543)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1589.552124, y=4509.671875, z=366.025543)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1589.552124, y=4509.671875, z=366.025543)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1589.552124, y=4509.671875, z=366.025543)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=1589.552124, y=4509.671875, z=366.025543)
+END 14955 completed 457 ticks 17.58s 
+START 23299 Town12 ControlLoss
+LOADED 23299 Carla/Maps/Town12/Town12
+PREPARED 23299
+END 23299 completed 390 ticks 16.60s 
+START 11215 Town12 VehicleTurningRoutePedestrian
+LOADED 11215 Carla/Maps/Town12/Town12
+PREPARED 11215
+END 11215 completed 1151 ticks 36.42s 
+START 24162 Town12 MergerIntoSlowTrafficV2
+LOADED 24162 Carla/Maps/Town12/Town12
+PREPARED 24162
+END 24162 completed 379 ticks 24.87s 
+START 9102 Town12 OppositeVehicleTakingPriority
+LOADED 9102 Carla/Maps/Town12/Town12
+PREPARED 9102
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2651.920166, y=1555.704834, z=349.367065)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2651.920166, y=1555.704834, z=349.367065)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2651.920166, y=1555.704834, z=349.367065)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2651.920166, y=1555.704834, z=349.367065)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2651.920166, y=1555.704834, z=349.367065)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2651.920166, y=1555.704834, z=349.367065)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2651.920166, y=1555.704834, z=349.367065)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2651.920166, y=1555.704834, z=349.367065)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2651.920166, y=1555.704834, z=349.367065)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2651.920166, y=1555.704834, z=349.367065)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2651.920166, y=1555.704834, z=349.367065)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2651.920166, y=1555.704834, z=349.367065)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2651.920166, y=1555.704834, z=349.367065)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2651.920166, y=1555.704834, z=349.367065)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2651.920166, y=1555.704834, z=349.367065)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2651.920166, y=1555.704834, z=349.367065)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2651.920166, y=1555.704834, z=349.367065)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2651.920166, y=1555.704834, z=349.367065)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2651.920166, y=1555.704834, z=349.367065)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2651.920166, y=1555.704834, z=349.367065)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2651.920166, y=1555.704834, z=349.367065)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2651.920166, y=1555.704834, z=349.367065)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2651.920166, y=1555.704834, z=349.367065)
+END 9102 completed 231 ticks 17.18s 
+START 19486 Town12 ParkedObstacle
+LOADED 19486 Carla/Maps/Town12/Town12
+PREPARED 19486
+END 19486 tick_budget_reached 1500 ticks 68.23s 
+START 15071 Town12 VanillaSignalizedTurnEncounterGreenLight
+LOADED 15071 Carla/Maps/Town12/Town12
+PREPARED 15071
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2693.819336, y=4805.562500, z=366.488678)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2693.819336, y=4805.562500, z=366.488678)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2693.819336, y=4805.562500, z=366.488678)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2693.819336, y=4805.562500, z=366.488678)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2693.819336, y=4805.562500, z=366.488678)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2693.819336, y=4805.562500, z=366.488678)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2693.819336, y=4805.562500, z=366.488678)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2693.819336, y=4805.562500, z=366.488678)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2693.819336, y=4805.562500, z=366.488678)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2693.819336, y=4805.562500, z=366.488678)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2693.819336, y=4805.562500, z=366.488678)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2693.819336, y=4805.562500, z=366.488678)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2693.819336, y=4805.562500, z=366.488678)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2693.819336, y=4805.562500, z=366.488678)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2693.819336, y=4805.562500, z=366.488678)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2693.819336, y=4805.562500, z=366.488678)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2693.819336, y=4805.562500, z=366.488678)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2693.819336, y=4805.562500, z=366.488678)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2693.819336, y=4805.562500, z=366.488678)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2693.819336, y=4805.562500, z=366.488678)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2693.819336, y=4805.562500, z=366.488678)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2693.819336, y=4805.562500, z=366.488678)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2693.819336, y=4805.562500, z=366.488678)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=2693.819336, y=4805.562500, z=366.488678)
+END 15071 completed 1059 ticks 28.35s 
+START 17280 Town12 VanillaNonSignalizedTurnEncounterStopsign
+LOADED 17280 Carla/Maps/Town12/Town12
+PREPARED 17280
+END 17280 completed 185 ticks 12.38s 
+START 22331 Town12 StaticCutIn
+LOADED 22331 Carla/Maps/Town12/Town12
+terminate called after throwing an instance of 'carla::client::TimeoutException'
+  what():  time-out of 45000ms while waiting for the simulator, make sure the simulator is ready and connected to 127.0.0.1:2100

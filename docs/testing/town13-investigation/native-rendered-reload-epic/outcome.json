@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "status": "client_native_crash",
+  "derived_at_utc": "2026-09-28T04:41:20.645091+00:00",
+  "scope": "Derived interpretation of completed supervisor run; raw probe is unchanged; no restart or replay",
+  "source_sha256": {
+    "summary.json": "c819546560182bc5f8baff6a34e10f441878a3816d02b6740e47f794599ce77a",
+    "probe.json": "b9961548b1d900d0abb1fadf26da124c4384c0829cdea509da00fbfab9c326a4",
+    "client.txt": "c545a68aadfc296a846a688493314a7a0166c600b85c00ed638ad5fe4bb132bb",
+    "server.txt": "0190e437f26fb911ae8d7b19cf1922031163512e8fcccbcbf8e4add91dd58fb7"
+  },
+  "raw_probe_status": "running",
+  "raw_probe_unchanged": true,
+  "route_count": 4,
+  "returned_routes": 1,
+  "returned_execution_counts": {
+    "completed": 1
+  },
+  "confirmed_physical_ticks": 438,
+  "client_exit": -11,
+  "client_signal": "SIGSEGV",
+  "server_runtime_crash_observed": false,
+  "server_exit_before_stop": null,
+  "interrupted_route": {
+    "route_id": "3816",
+    "town": "Town13",
+    "scenario": "HighwayCutIn",
+    "last_observed_phase": "START before LOADED",
+    "confirmed_route_ticks": 0,
+    "result": "unknown; client terminated before load confirmation"
+  },
+  "not_run_route_ids": [
+    "31736",
+    "31654"
+  ],
+  "shutdown": {
+    "explicit_server_stop": true,
+    "server_exit": -9,
+    "shutdown_crash": false,
+    "shutdown_forced_kill": true,
+    "shutdown_outcome": "forced_kill",
+    "shutdown_failed": true
+  },
+  "passed": false,
+  "limitations": [
+    "No Python faulthandler or native client stack was recorded in this run; the cause of SIGSEGV is undetermined.",
+    "Server was alive before explicit stop; forced SIGKILL after stop timeout is a separate shutdown failure, not proof of a runtime engine crash.",
+    "One returned route is not evidence that Town13 initialization or the four-route sequence passed."
+  ]
+}

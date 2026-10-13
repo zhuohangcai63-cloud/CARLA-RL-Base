@@ -1,0 +1,21 @@
+{
+  "configured_workers": 4,
+  "cold_resources": {
+    "timestamp": 1791817422.0222385,
+    "processes": [],
+    "MemAvailable": 25873.84375,
+    "SwapFree": 8191.1171875
+  },
+  "available_before_mb": 25873.84375,
+  "budget_mb": 28096,
+  "started_at": 1791817422.0275207,
+  "status": "not_admitted",
+  "reason": "RuntimeError: insufficient measured available RAM for configured fleet budget",
+  "after_resources": {
+    "timestamp": 1791817422.041294,
+    "processes": [],
+    "MemAvailable": 25873.84375,
+    "SwapFree": 8191.1171875
+  },
+  "finished_at": 1791817422.0463617
+}

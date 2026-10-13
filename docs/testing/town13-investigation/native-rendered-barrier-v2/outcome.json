@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "status": "runtime_passed_lifecycle_failed",
+  "derived_at_utc": "2026-09-28T05:00:10.469428+00:00",
+  "scope": "Four selected routes across Town12/Town13; not full route-set certification",
+  "source_sha256": {
+    "summary.json": "1eff7e8568c3158bb19be925d7009901baa143ed4d7148c890052158ed9b0fd0",
+    "probe.json": "a3df73b5d6253ab7dd0d8de0b0987a9a8db7bc7bd52867bb6b3db2a84817c02c",
+    "client.txt": "b6fb375ae74cabb0f9a95eb84485f8433e9bfcad60718ec954b4afe6d0379673",
+    "server.txt": "2af4881359ac5e88b0b9f0a7f78282cae7448f443c7a9fd504fdc70e8cd53911",
+    "samples.jsonl": "bb51a6f758dd73a50b5d31fe44472676c8399e254afdc82e9e03172b7a137570"
+  },
+  "raw_probe_status": "finished",
+  "raw_probe_unchanged": true,
+  "runtime_passed": true,
+  "lifecycle_passed": false,
+  "passed": false,
+  "route_count": 4,
+  "returned_routes": 4,
+  "returned_execution_counts": {
+    "completed": 3,
+    "tick_budget_reached": 1
+  },
+  "confirmed_physical_ticks": 2240,
+  "routes": [
+    {
+      "route_id": "22331",
+      "town": "Town12",
+      "execution": "completed",
+      "ticks": 438,
+      "native_success": true,
+      "remaining_owned_resources": 0
+    },
+    {
+      "route_id": "3816",
+      "town": "Town13",
+      "execution": "tick_budget_reached",
+      "ticks": 1000,
+      "native_success": false,
+      "remaining_owned_resources": 0
+    },
+    {
+      "route_id": "31736",
+      "town": "Town13",
+      "execution": "completed",
+      "ticks": 402,
+      "native_success": true,
+      "remaining_owned_resources": 0
+    },
+    {
+      "route_id": "31654",
+      "town": "Town13",
+      "execution": "completed",
+      "ticks": 400,
+      "native_success": true,
+      "remaining_owned_resources": 0
+    }
+  ],
+  "client_exit": 0,
+  "server_runtime_crash_observed": false,
+  "server_exit_before_stop": null,
+  "shutdown": {
+    "explicit_server_stop": true,
+    "server_exit": -9,
+    "shutdown_crash": false,
+    "shutdown_forced_kill": true,
+    "shutdown_outcome": "forced_kill",
+    "shutdown_failed": true
+  },
+  "elapsed_seconds": 279.32923874399967,
+  "peaks": {
+    "server_rss_kib": 9417984,
+    "gpu_0_memory_used_mib": 7554.0
+  },
+  "validation_conditions": {
+    "world_reload_each_route": true,
+    "no_rendering_mode": false,
+    "map_layers": "all",
+    "distance_m": 650,
+    "profile": "conservative v2: Epic, AsyncPipelineCompile=0, EnableDefrag=0, WaitForIdleOnSubmit=0, -norhithread",
+    "episode_readiness_barrier": true
+  },
+  "limitations": [
+    "This run covers four selected routes and two towns, not the complete 41 Town13 routes or all 220 evaluation routes.",
+    "Four returned routes are not four completed driving tasks: 3816 reached its 1000-tick budget.",
+    "The server required SIGKILL after explicit SIGTERM; this is a shutdown hang, not a graceful lifecycle pass and not an observed runtime SIGSEGV.",
+    "No native shutdown backtrace establishes why the server did not stop.",
+    "One successful bounded run does not prove that all client or Vulkan crashes have been eliminated."
+  ],
+  "shutdown_followup": {
+    "candidate_upstream_fix": "https://github.com/carla-simulator/carla/pull/9529",
+    "merge_commit": "0c477d65c85059288562ea2fd832dac9d73ce6ee",
+    "merge_date": "2026-01-22",
+    "version_limit": "Merged to ue4-dev after 0.9.16; not part of the audited 0.9.15 source and not a verified local fix",
+    "required_evidence": "Native shutdown backtrace showing Stop/join/future wait before attributing this hang to that deadlock",
+    "local_build_readiness": "../native-build-readiness.json",
+    "core_or_installation_modified": false
+  }
+}

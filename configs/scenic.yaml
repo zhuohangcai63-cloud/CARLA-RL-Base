@@ -1,0 +1,26 @@
+path_base: ..  # Asset paths below are relative to the repository root.
+backend: carla
+simulation:
+  host: 127.0.0.1
+  port: 2000
+  tm_port: 8000
+  carla_root: ~/software/carla
+  physics_dt: 0.05
+  decision_dt: 0.2
+  history_dt: 0.1
+scenario:
+  source: scenic
+  town: Town10HD
+  file: scenarios/scenic/mixed_long_tail.scenic
+  fallback: null
+observations:
+  max_objects: 64
+  history_frames: 21
+  rgb: false
+  bev: false
+  lidar: false
+task:
+  profile: driving
+  max_seconds: 300
+experiments:
+  enabled: false

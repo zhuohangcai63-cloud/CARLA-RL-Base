@@ -1,0 +1,3898 @@
+{
+  "backend": "carla",
+  "execution_passed": true,
+  "seed": 7,
+  "steps": 80,
+  "terminated": false,
+  "truncated": false,
+  "reason": "",
+  "controllers": {
+    "cross_from_left": {
+      "version": "reactive-vehicle-1",
+      "actor_id": "cross_from_left",
+      "seed": 7,
+      "randomize": false,
+      "target_speed": 5.0,
+      "route": [
+        [
+          83.98224639892578,
+          -66.3559341430664
+        ],
+        [
+          81.98224639892578,
+          -66.35337829589844
+        ],
+        [
+          79.98225402832031,
+          -66.35081481933594
+        ],
+        [
+          77.98225402832031,
+          -66.34825897216797
+        ],
+        [
+          75.98225402832031,
+          -66.345703125
+        ],
+        [
+          73.98225402832031,
+          -66.34314727783203
+        ],
+        [
+          71.98226165771484,
+          -66.34059143066406
+        ],
+        [
+          69.98226165771484,
+          -66.3380355834961
+        ],
+        [
+          67.98226165771484,
+          -66.3354721069336
+        ],
+        [
+          65.98226165771484,
+          -66.33291625976562
+        ],
+        [
+          63.98226547241211,
+          -66.33036041259766
+        ],
+        [
+          61.982269287109375,
+          -66.32780456542969
+        ],
+        [
+          58.05227279663086,
+          -66.3227767944336
+        ],
+        [
+          58.05227279663086,
+          -66.3227767944336
+        ],
+        [
+          56.05227279663086,
+          -66.32022094726562
+        ],
+        [
+          54.052276611328125,
+          -66.31766510009766
+        ],
+        [
+          52.052276611328125,
+          -66.31510162353516
+        ],
+        [
+          50.05228042602539,
+          -66.31254577636719
+        ],
+        [
+          48.05228042602539,
+          -66.30998992919922
+        ],
+        [
+          46.05228042602539,
+          -66.30743408203125
+        ],
+        [
+          44.052284240722656,
+          -66.30487823486328
+        ],
+        [
+          42.05228805541992,
+          -66.30232238769531
+        ],
+        [
+          40.05228805541992,
+          -66.29975891113281
+        ],
+        [
+          38.05228805541992,
+          -66.29720306396484
+        ],
+        [
+          36.05228805541992,
+          -66.29464721679688
+        ],
+        [
+          34.05229187011719,
+          -66.2920913696289
+        ],
+        [
+          32.05229568481445,
+          -66.28953552246094
+        ],
+        [
+          30.05229377746582,
+          -66.28697204589844
+        ],
+        [
+          27.14229393005371,
+          -66.28325653076172
+        ],
+        [
+          27.14229393005371,
+          -66.28325653076172
+        ],
+        [
+          25.142295837402344,
+          -66.28070068359375
+        ],
+        [
+          23.142297744750977,
+          -66.27814483642578
+        ],
+        [
+          21.142297744750977,
+          -66.27558135986328
+        ],
+        [
+          19.142301559448242,
+          -66.27302551269531
+        ],
+        [
+          17.142301559448242,
+          -66.27046966552734
+        ],
+        [
+          15.142303466796875,
+          -66.26791381835938
+        ],
+        [
+          13.142305374145508,
+          -66.2653579711914
+        ],
+        [
+          11.14230728149414,
+          -66.26280212402344
+        ],
+        [
+          9.142309188842773,
+          -66.26023864746094
+        ],
+        [
+          7.142311096191406,
+          -66.25768280029297
+        ],
+        [
+          5.142311096191406,
+          -66.255126953125
+        ],
+        [
+          3.142313241958618,
+          -66.25257110595703
+        ],
+        [
+          1.1423150300979614,
+          -66.25001525878906
+        ],
+        [
+          -0.8576830625534058,
+          -66.24745178222656
+        ],
+        [
+          -2.8576810359954834,
+          -66.2448959350586
+        ],
+        [
+          -4.85767936706543,
+          -66.24234008789062
+        ],
+        [
+          -6.85767936706543,
+          -66.23978424072266
+        ],
+        [
+          -8.857675552368164,
+          -66.23722839355469
+        ],
+        [
+          -10.857675552368164,
+          -66.23467254638672
+        ],
+        [
+          -12.857671737670898,
+          -66.23210906982422
+        ],
+        [
+          -14.857671737670898,
+          -66.22955322265625
+        ],
+        [
+          -16.8576717376709,
+          -66.22699737548828
+        ],
+        [
+          -18.857667922973633,
+          -66.22444152832031
+        ],
+        [
+          -20.857667922973633,
+          -66.22188568115234
+        ],
+        [
+          -22.857664108276367,
+          -66.21932220458984
+        ],
+        [
+          -24.857664108276367,
+          -66.21676635742188
+        ],
+        [
+          -27.017662048339844,
+          -66.21400451660156
+        ],
+        [
+          -27.017662048339844,
+          -66.21400451660156
+        ],
+        [
+          -28.86618423461914,
+          -66.14916229248047
+        ]
+      ],
+      "tracker": {
+        "path_index": 32,
+        "pid": {
+          "kp": 0.4,
+          "ki": 0.05,
+          "kd": 0.02,
+          "integral_limit": 5.0,
+          "integral": 5.0,
+          "previous_error": 0.6898356993731714
+        }
+      },
+      "time": 16.000000000000092,
+      "last_tick": 319,
+      "mechanism_name": "C",
+      "mechanism": {
+        "reaction_delay": 0.2,
+        "accepted_gap": 4.0,
+        "yield_window": 3.0,
+        "yield_speed_multiplier": 0.75,
+        "yield_deceleration": 2.0,
+        "proactive_yield": true,
+        "delayed_confirmation": true,
+        "gap_check": true
+      },
+      "history": [
+        {
+          "time": 5.949999999999987,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 5.999999999999987,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 6.0499999999999865,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 6.099999999999986,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 6.149999999999986,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 6.199999999999986,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 6.249999999999986,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 6.299999999999986,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 6.349999999999985,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 6.399999999999985,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 6.449999999999985,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 6.499999999999985,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 6.549999999999985,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 6.5999999999999845,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 6.649999999999984,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 6.699999999999984,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 6.749999999999984,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 6.799999999999984,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 6.849999999999984,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 6.8999999999999835,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 6.949999999999983,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 6.999999999999983,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 7.049999999999983,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 7.099999999999983,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 7.149999999999983,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 7.199999999999982,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 7.249999999999982,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 7.299999999999982,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 7.349999999999982,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 7.399999999999982,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 7.4499999999999815,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 7.499999999999981,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 7.549999999999981,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 7.599999999999981,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 7.649999999999981,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 7.699999999999981,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 7.7499999999999805,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 7.79999999999998,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 7.84999999999998,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 7.89999999999998,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 7.94999999999998,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 7.99999999999998,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 8.04999999999998,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 8.09999999999998,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 8.14999999999998,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 8.199999999999982,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 8.249999999999982,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 8.299999999999983,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 8.349999999999984,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 8.399999999999984,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 8.449999999999985,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 8.499999999999986,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 8.549999999999986,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 8.599999999999987,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 8.649999999999988,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 8.699999999999989,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 8.74999999999999,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 8.79999999999999,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 8.84999999999999,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 8.899999999999991,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 8.949999999999992,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 8.999999999999993,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 9.049999999999994,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 9.099999999999994,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 9.149999999999995,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 9.199999999999996,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 9.249999999999996,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 9.299999999999997,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 9.349999999999998,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 9.399999999999999,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 9.45,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 9.5,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 9.55,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 9.600000000000001,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 9.650000000000002,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 9.700000000000003,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 9.750000000000004,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 9.800000000000004,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 9.850000000000005,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 9.900000000000006,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 9.950000000000006,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 10.000000000000007,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 10.050000000000008,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 10.100000000000009,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 10.15000000000001,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 10.20000000000001,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 10.25000000000001,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 10.300000000000011,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 10.350000000000012,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 10.400000000000013,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 10.450000000000014,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 10.500000000000014,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 10.550000000000015,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 10.600000000000016,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 10.650000000000016,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 10.700000000000017,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 10.750000000000018,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 10.800000000000018,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 10.85000000000002,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 10.90000000000002,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 10.95000000000002,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 11.000000000000021,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 11.050000000000022,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 11.100000000000023,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 11.150000000000023,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 11.200000000000024,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 11.250000000000025,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 11.300000000000026,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 11.350000000000026,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 11.400000000000027,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 11.450000000000028,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 11.500000000000028,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 11.55000000000003,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 11.60000000000003,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 11.65000000000003,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 11.700000000000031,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 11.750000000000032,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 11.800000000000033,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 11.850000000000033,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 11.900000000000034,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 11.950000000000035,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 12.000000000000036,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 12.050000000000036,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 12.100000000000037,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 12.150000000000038,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 12.200000000000038,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 12.250000000000039,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 12.30000000000004,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 12.35000000000004,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 12.400000000000041,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 12.450000000000042,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 12.500000000000043,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 12.550000000000043,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 12.600000000000044,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 12.650000000000045,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 12.700000000000045,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 12.750000000000046,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 12.800000000000047,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 12.850000000000048,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 12.900000000000048,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 12.950000000000049,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 13.00000000000005,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 13.05000000000005,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 13.100000000000051,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 13.150000000000052,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 13.200000000000053,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 13.250000000000053,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 13.300000000000054,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 13.350000000000055,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 13.400000000000055,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 13.450000000000056,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 13.500000000000057,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 13.550000000000058,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 13.600000000000058,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 13.650000000000059,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 13.70000000000006,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 13.75000000000006,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 13.800000000000061,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 13.850000000000062,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 13.900000000000063,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 13.950000000000063,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 14.000000000000064,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 14.050000000000065,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 14.100000000000065,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 14.150000000000066,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 14.200000000000067,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 14.250000000000068,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 14.300000000000068,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 14.350000000000069,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 14.40000000000007,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 14.45000000000007,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 14.500000000000071,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 14.550000000000072,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 14.600000000000072,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 14.650000000000073,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 14.700000000000074,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 14.750000000000075,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 14.800000000000075,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 14.850000000000076,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 14.900000000000077,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 14.950000000000077,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 15.000000000000078,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 15.050000000000079,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 15.10000000000008,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 15.15000000000008,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 15.200000000000081,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 15.250000000000082,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 15.300000000000082,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 15.350000000000083,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 15.400000000000084,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 15.450000000000085,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 15.500000000000085,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 15.550000000000086,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 15.600000000000087,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 15.650000000000087,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 15.700000000000088,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 15.750000000000089,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 15.80000000000009,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 15.85000000000009,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 15.900000000000091,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 15.950000000000092,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        }
+      ],
+      "mode": "cruise",
+      "trigger_counts": {
+        "proactive_yield": 0,
+        "gap_wait": 0,
+        "following": 0,
+        "emergency": 0,
+        "signal": 0
+      },
+      "events": [],
+      "event_capacity": 256,
+      "dropped_events": 0,
+      "last_diagnostics": {
+        "tick": 319,
+        "mechanism": "C",
+        "parameters": {
+          "reaction_delay": 0.2,
+          "accepted_gap": 4.0,
+          "yield_window": 3.0,
+          "yield_speed_multiplier": 0.75,
+          "yield_deceleration": 2.0,
+          "proactive_yield": true,
+          "delayed_confirmation": true,
+          "gap_check": true
+        },
+        "active": [],
+        "desired_speed": 5.0,
+        "features": {
+          "following": [],
+          "crossings": [],
+          "emergency": []
+        },
+        "confirmed_features": {
+          "following": [],
+          "crossings": [],
+          "emergency": []
+        }
+      }
+    },
+    "cross_from_right": {
+      "version": "reactive-vehicle-1",
+      "actor_id": "cross_from_right",
+      "seed": 7,
+      "randomize": false,
+      "target_speed": 4.0,
+      "route": [
+        [
+          -41.61898422241211,
+          -66.62548828125
+        ],
+        [
+          -41.624610900878906,
+          -64.62549591064453
+        ],
+        [
+          -41.63024139404297,
+          -62.62550354003906
+        ],
+        [
+          -41.635868072509766,
+          -60.625511169433594
+        ],
+        [
+          -41.64149475097656,
+          -58.625518798828125
+        ],
+        [
+          -41.647125244140625,
+          -56.625526428222656
+        ],
+        [
+          -41.65275192260742,
+          -54.62553405761719
+        ],
+        [
+          -41.66096878051758,
+          -51.705543518066406
+        ],
+        [
+          -41.66096878051758,
+          -51.705543518066406
+        ],
+        [
+          -41.666595458984375,
+          -49.70555114746094
+        ],
+        [
+          -41.67222595214844,
+          -47.70555877685547
+        ],
+        [
+          -41.677852630615234,
+          -45.70556640625
+        ],
+        [
+          -41.68677520751953,
+          -42.535579681396484
+        ],
+        [
+          -41.686771392822266,
+          -42.535579681396484
+        ],
+        [
+          -41.69239807128906,
+          -40.535587310791016
+        ],
+        [
+          -41.698028564453125,
+          -38.53559494018555
+        ],
+        [
+          -41.70365524291992,
+          -36.53560256958008
+        ],
+        [
+          -41.70928192138672,
+          -34.53561019897461
+        ],
+        [
+          -41.71491241455078,
+          -32.53561782836914
+        ],
+        [
+          -41.72053909301758,
+          -30.535627365112305
+        ],
+        [
+          -41.72616958618164,
+          -28.535634994506836
+        ],
+        [
+          -41.73179626464844,
+          -26.535642623901367
+        ],
+        [
+          -41.737422943115234,
+          -24.5356502532959
+        ],
+        [
+          -41.7430534362793,
+          -22.535659790039062
+        ],
+        [
+          -41.748680114746094,
+          -20.535667419433594
+        ],
+        [
+          -41.75430679321289,
+          -18.535675048828125
+        ],
+        [
+          -41.75993728637695,
+          -16.535682678222656
+        ],
+        [
+          -41.76556396484375,
+          -14.535690307617188
+        ],
+        [
+          -41.77119445800781,
+          -12.535697937011719
+        ],
+        [
+          -41.77682113647461,
+          -10.53570556640625
+        ],
+        [
+          -41.782447814941406,
+          -8.535713195800781
+        ],
+        [
+          -41.78807830810547,
+          -6.535721302032471
+        ],
+        [
+          -41.793704986572266,
+          -4.535728931427002
+        ],
+        [
+          -41.79933166503906,
+          -2.5357401371002197
+        ],
+        [
+          -41.804962158203125,
+          -0.5357478260993958
+        ],
+        [
+          -41.81126403808594,
+          1.7042442560195923
+        ],
+        [
+          -41.81126403808594,
+          1.7042442560195923
+        ],
+        [
+          -41.82001876831055,
+          4.8147735595703125
+        ],
+        [
+          -41.82001876831055,
+          4.8147735595703125
+        ],
+        [
+          -41.825645446777344,
+          6.814765453338623
+        ],
+        [
+          -41.83384323120117,
+          8.829364776611328
+        ],
+        [
+          -41.84503936767578,
+          10.829333305358887
+        ],
+        [
+          -41.85272979736328,
+          12.809256553649902
+        ],
+        [
+          -41.85203552246094,
+          14.78698444366455
+        ],
+        [
+          -41.84014892578125,
+          17.160385131835938
+        ],
+        [
+          -41.84014892578125,
+          17.160385131835938
+        ],
+        [
+          -41.82505798339844,
+          19.160327911376953
+        ],
+        [
+          -41.809967041015625,
+          21.16027069091797
+        ],
+        [
+          -41.79487609863281,
+          23.160213470458984
+        ],
+        [
+          -41.77978515625,
+          25.16015625
+        ],
+        [
+          -41.76469421386719,
+          27.16010093688965
+        ],
+        [
+          -41.749603271484375,
+          29.160043716430664
+        ],
+        [
+          -41.73451232910156,
+          31.15998649597168
+        ],
+        [
+          -41.71942138671875,
+          33.15993118286133
+        ],
+        [
+          -41.70433044433594,
+          35.159873962402344
+        ],
+        [
+          -41.689239501953125,
+          37.15981674194336
+        ],
+        [
+          -41.67414855957031,
+          39.159759521484375
+        ],
+        [
+          -41.6590576171875,
+          41.15970230102539
+        ],
+        [
+          -41.64289855957031,
+          43.30107498168945
+        ],
+        [
+          -41.64289855957031,
+          43.30107498168945
+        ],
+        [
+          -41.627811431884766,
+          45.30101776123047
+        ],
+        [
+          -41.61272048950195,
+          47.300960540771484
+        ],
+        [
+          -41.522056579589844,
+          49.11697769165039
+        ],
+        [
+          -41.215980529785156,
+          50.87329864501953
+        ],
+        [
+          -40.6959342956543,
+          52.57855987548828
+        ],
+        [
+          -39.96983337402344,
+          54.206787109375
+        ],
+        [
+          -39.04872512817383,
+          55.733192443847656
+        ]
+      ],
+      "tracker": {
+        "path_index": 26,
+        "pid": {
+          "kp": 0.4,
+          "ki": 0.05,
+          "kd": 0.02,
+          "integral_limit": 5.0,
+          "integral": 5.0,
+          "previous_error": 0.6066107303185606
+        }
+      },
+      "time": 16.000000000000092,
+      "last_tick": 319,
+      "mechanism_name": "C",
+      "mechanism": {
+        "reaction_delay": 0.2,
+        "accepted_gap": 4.0,
+        "yield_window": 3.0,
+        "yield_speed_multiplier": 0.75,
+        "yield_deceleration": 2.0,
+        "proactive_yield": true,
+        "delayed_confirmation": true,
+        "gap_check": true
+      },
+      "history": [
+        {
+          "time": 5.949999999999987,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 5.999999999999987,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 6.0499999999999865,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 6.099999999999986,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 6.149999999999986,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 6.199999999999986,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 6.249999999999986,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 6.299999999999986,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 6.349999999999985,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 6.399999999999985,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 6.449999999999985,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 6.499999999999985,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 6.549999999999985,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 6.5999999999999845,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 6.649999999999984,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 6.699999999999984,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 6.749999999999984,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 6.799999999999984,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 6.849999999999984,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 6.8999999999999835,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 6.949999999999983,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 6.999999999999983,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 7.049999999999983,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 7.099999999999983,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 7.149999999999983,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 7.199999999999982,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 7.249999999999982,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 7.299999999999982,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 7.349999999999982,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 7.399999999999982,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 7.4499999999999815,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 7.499999999999981,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 7.549999999999981,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 7.599999999999981,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 7.649999999999981,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 7.699999999999981,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 7.7499999999999805,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 7.79999999999998,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 7.84999999999998,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 7.89999999999998,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 7.94999999999998,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 7.99999999999998,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 8.04999999999998,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 8.09999999999998,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 8.14999999999998,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 8.199999999999982,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 8.249999999999982,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 8.299999999999983,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 8.349999999999984,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 8.399999999999984,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 8.449999999999985,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 8.499999999999986,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 8.549999999999986,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 8.599999999999987,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 8.649999999999988,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 8.699999999999989,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 8.74999999999999,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 8.79999999999999,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 8.84999999999999,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 8.899999999999991,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 8.949999999999992,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 8.999999999999993,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 9.049999999999994,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 9.099999999999994,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 9.149999999999995,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 9.199999999999996,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 9.249999999999996,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 9.299999999999997,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 9.349999999999998,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 9.399999999999999,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 9.45,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 9.5,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 9.55,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 9.600000000000001,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 9.650000000000002,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 9.700000000000003,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 9.750000000000004,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 9.800000000000004,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 9.850000000000005,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 9.900000000000006,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 9.950000000000006,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 10.000000000000007,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 10.050000000000008,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 10.100000000000009,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 10.15000000000001,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 10.20000000000001,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 10.25000000000001,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 10.300000000000011,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 10.350000000000012,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 10.400000000000013,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 10.450000000000014,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 10.500000000000014,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 10.550000000000015,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 10.600000000000016,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 10.650000000000016,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 10.700000000000017,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 10.750000000000018,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 10.800000000000018,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 10.85000000000002,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 10.90000000000002,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 10.95000000000002,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 11.000000000000021,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 11.050000000000022,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 11.100000000000023,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 11.150000000000023,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 11.200000000000024,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 11.250000000000025,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 11.300000000000026,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 11.350000000000026,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 11.400000000000027,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 11.450000000000028,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 11.500000000000028,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 11.55000000000003,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 11.60000000000003,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 11.65000000000003,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 11.700000000000031,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 11.750000000000032,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 11.800000000000033,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 11.850000000000033,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 11.900000000000034,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 11.950000000000035,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 12.000000000000036,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 12.050000000000036,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 12.100000000000037,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 12.150000000000038,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 12.200000000000038,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 12.250000000000039,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 12.30000000000004,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 12.35000000000004,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 12.400000000000041,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 12.450000000000042,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 12.500000000000043,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 12.550000000000043,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 12.600000000000044,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 12.650000000000045,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 12.700000000000045,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 12.750000000000046,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 12.800000000000047,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 12.850000000000048,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 12.900000000000048,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 12.950000000000049,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 13.00000000000005,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 13.05000000000005,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 13.100000000000051,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 13.150000000000052,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 13.200000000000053,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 13.250000000000053,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 13.300000000000054,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 13.350000000000055,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 13.400000000000055,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 13.450000000000056,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 13.500000000000057,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 13.550000000000058,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 13.600000000000058,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 13.650000000000059,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 13.70000000000006,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 13.75000000000006,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 13.800000000000061,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 13.850000000000062,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 13.900000000000063,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 13.950000000000063,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 14.000000000000064,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 14.050000000000065,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 14.100000000000065,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 14.150000000000066,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 14.200000000000067,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 14.250000000000068,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 14.300000000000068,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 14.350000000000069,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 14.40000000000007,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 14.45000000000007,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 14.500000000000071,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 14.550000000000072,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 14.600000000000072,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 14.650000000000073,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 14.700000000000074,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 14.750000000000075,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 14.800000000000075,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 14.850000000000076,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 14.900000000000077,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 14.950000000000077,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 15.000000000000078,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 15.050000000000079,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 15.10000000000008,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 15.15000000000008,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 15.200000000000081,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 15.250000000000082,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 15.300000000000082,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 15.350000000000083,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 15.400000000000084,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 15.450000000000085,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 15.500000000000085,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 15.550000000000086,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 15.600000000000087,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 15.650000000000087,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 15.700000000000088,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 15.750000000000089,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 15.80000000000009,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 15.85000000000009,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 15.900000000000091,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        },
+        {
+          "time": 15.950000000000092,
+          "features": {
+            "following": [],
+            "crossings": [],
+            "emergency": []
+          }
+        }
+      ],
+      "mode": "cruise",
+      "trigger_counts": {
+        "proactive_yield": 0,
+        "gap_wait": 0,
+        "following": 0,
+        "emergency": 0,
+        "signal": 0
+      },
+      "events": [],
+      "event_capacity": 256,
+      "dropped_events": 0,
+      "last_diagnostics": {
+        "tick": 319,
+        "mechanism": "C",
+        "parameters": {
+          "reaction_delay": 0.2,
+          "accepted_gap": 4.0,
+          "yield_window": 3.0,
+          "yield_speed_multiplier": 0.75,
+          "yield_deceleration": 2.0,
+          "proactive_yield": true,
+          "delayed_confirmation": true,
+          "gap_check": true
+        },
+        "active": [],
+        "desired_speed": 4.0,
+        "features": {
+          "following": [],
+          "crossings": [],
+          "emergency": []
+        },
+        "confirmed_features": {
+          "following": [],
+          "crossings": [],
+          "emergency": []
+        }
+      }
+    }
+  },
+  "capabilities": {
+    "protocol": 1,
+    "actions": [
+      "vehicle_control",
+      "trajectory"
+    ],
+    "experiments_enabled": true,
+    "scenario": {
+      "source": "scenic",
+      "rebuild": true,
+      "prefix_replay": {
+        "available": true,
+        "verified": false,
+        "limitations": []
+      },
+      "takeover_roles": {},
+      "mechanism_roles": [
+        "cross_from_left",
+        "cross_from_right"
+      ],
+      "mechanism_switch": true
+    }
+  }
+}

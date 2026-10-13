@@ -1,0 +1,43 @@
+START 34183 Town13 NonSignalizedJunctionLeftTurnEnterFlow
+LOADED 34183 Carla/Maps/Town13/Town13
+PREPARED 34183
+END 34183 tick_budget_reached 1000 ticks 70.39s 
+START 3483 Town13 StaticCutIn
+LOADED 3483 Carla/Maps/Town13/Town13
+PREPARED 3483
+END 3483 completed 427 ticks 61.99s 
+START 37969 Town13 MergerIntoSlowTrafficV2
+LOADED 37969 Carla/Maps/Town13/Town13
+PREPARED 37969
+WARNING: Cannot spawn actor vehicle.* at position Location(x=-5991.703125, y=2185.735840, z=174.676407)
+END 37969 completed 536 ticks 56.21s 
+START 3475 Town13 VehicleOpensDoorTwoWays
+LOADED 3475 Carla/Maps/Town13/Town13
+PREPARED 3475
+END 3475 tick_budget_reached 1000 ticks 67.53s 
+START 32221 Town13 VehicleOpensDoorTwoWays
+LOADED 32221 Carla/Maps/Town13/Town13
+PREPARED 32221
+END 32221 completed 403 ticks 51.37s 
+START 29893 Town13 ConstructionObstacleTwoWays
+LOADED 29893 Carla/Maps/Town13/Town13
+PREPARED 29893
+END 29893 tick_budget_reached 1000 ticks 65.89s 
+START 28387 Town13 HazardAtSideLane
+LOADED 28387 Carla/Maps/Town13/Town13
+PREPARED 28387
+END 28387 tick_budget_reached 1000 ticks 83.07s 
+START 31045 Town13 AccidentTwoWays
+LOADED 31045 Carla/Maps/Town13/Town13
+PREPARED 31045
+END 31045 tick_budget_reached 1000 ticks 71.00s 
+START 36792 Town13 MergerIntoSlowTrafficV2
+LOADED 36792 Carla/Maps/Town13/Town13
+PREPARED 36792
+END 36792 completed 481 ticks 59.04s 
+START 29770 Town13 ConstructionObstacleTwoWays
+LOADED 29770 Carla/Maps/Town13/Town13
+PREPARED 29770
+END 29770 tick_budget_reached 1000 ticks 69.83s 
+START 3816 Town13 HighwayCutIn
+LOADED 3816 Carla/Maps/Town13/Town13

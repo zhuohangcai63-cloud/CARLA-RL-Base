@@ -1,0 +1,22 @@
+{
+  "path_base": "../..",
+  "simulation": {
+    "port": 2100,
+    "tm_port": 8100,
+    "reload_on_reset": false,
+    "timeout": 60
+  },
+  "scenario": {
+    "source": "scenic",
+    "town": "Town10HD_Opt",
+    "file": "scenarios/scenic/interaction_follow.scenic"
+  },
+  "observations": {
+    "rgb": false,
+    "bev": false,
+    "lidar": false
+  },
+  "task": {
+    "max_seconds": 20
+  }
+}

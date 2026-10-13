@@ -1,0 +1,53 @@
+{
+  "scenic-final-serial2": {
+    "status": "completed",
+    "valid_requests": 3000,
+    "mean_step_requests_per_second": 74.53332673380817,
+    "mean_end_to_end_requests_per_second": 73.76406966242533
+  },
+  "scenic-final-parallel2": {
+    "status": "completed",
+    "valid_requests": 3000,
+    "mean_step_requests_per_second": 132.7340792907909,
+    "mean_end_to_end_requests_per_second": 130.23620285779845
+  },
+  "bench2drive-final-serial2": {
+    "status": "completed",
+    "valid_requests": 3000,
+    "mean_step_requests_per_second": 9.457223796574281,
+    "mean_end_to_end_requests_per_second": 6.951799477532108
+  },
+  "bench2drive-final-parallel2": {
+    "status": "completed",
+    "valid_requests": 3000,
+    "mean_step_requests_per_second": 15.56859244845135,
+    "mean_end_to_end_requests_per_second": 11.107316997185146
+  },
+  "mixed-final-serial2": {
+    "status": "completed",
+    "valid_requests": 3000,
+    "mean_step_requests_per_second": 14.872349916445257,
+    "mean_end_to_end_requests_per_second": 12.304220360883773
+  },
+  "mixed-final-parallel2": {
+    "status": "completed",
+    "valid_requests": 3000,
+    "mean_step_requests_per_second": 16.4209349433012,
+    "mean_end_to_end_requests_per_second": 13.342146902587672
+  },
+  "scenic-nothreading-parallel2": {
+    "status": "completed",
+    "valid_requests": 3000,
+    "mean_step_requests_per_second": 143.17766381154965,
+    "mean_end_to_end_requests_per_second": 112.78772751000217
+  },
+  "town13-final-single": {
+    "status": "completed",
+    "valid_requests": 1002,
+    "mean_step_requests_per_second": 10.388554227590848,
+    "mean_end_to_end_requests_per_second": 4.917513645227632
+  },
+  "scenic_speedup": 1.780868842267616,
+  "bench2drive_speedup": 1.6462116984152166,
+  "mixed_speedup": 1.104125107031242
+}

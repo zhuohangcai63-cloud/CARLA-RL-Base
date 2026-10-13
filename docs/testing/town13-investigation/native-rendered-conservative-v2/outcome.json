@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "status": "client_native_crash",
+  "derived_at_utc": "2026-09-28T04:50:35.969366+00:00",
+  "scope": "Derived interpretation of completed supervisor run; raw probe unchanged; no restart or replay",
+  "source_sha256": {
+    "summary.json": "2c6cf04ffa67d1d7675a6a9e1f432a10e13665804fd8d73a521b31f76cea9647",
+    "probe.json": "3fd9e13457dfaf61f1960641b2b5f00810632827f687565a6add92d8d4f0b221",
+    "client.txt": "402f332844503cd8a6099e4efd43435747cd07fea590e3de0c158f6c3160c488",
+    "server.txt": "0190e437f26fb911ae8d7b19cf1922031163512e8fcccbcbf8e4add91dd58fb7",
+    "samples.jsonl": "462a82fd8e5780beae888188d4ec47968f409d58827805cc7eea363646041176"
+  },
+  "raw_probe_status": "running",
+  "raw_probe_unchanged": true,
+  "route_count": 4,
+  "returned_routes": 1,
+  "returned_execution_counts": {
+    "completed": 1
+  },
+  "confirmed_physical_ticks": 438,
+  "client_exit": -11,
+  "client_signal": "SIGSEGV",
+  "faulthandler": {
+    "python_call": "WorldSession.load -> await_loaded_world -> world.get_map()",
+    "source_at_execution": "easycarla/simulation/session.py:28",
+    "native_stack_available": false
+  },
+  "interrupted_route": {
+    "route_id": "3816",
+    "town": "Town13",
+    "scenario": "HighwayCutIn",
+    "last_observed_phase": "START before LOADED",
+    "confirmed_route_ticks": 0,
+    "result": "unknown; client terminated before load confirmation"
+  },
+  "not_run_route_ids": [
+    "31736",
+    "31654"
+  ],
+  "server_runtime_crash_observed": false,
+  "server_exit_before_stop": null,
+  "shutdown": {
+    "explicit_server_stop": true,
+    "server_exit": -9,
+    "shutdown_crash": false,
+    "shutdown_forced_kill": true,
+    "shutdown_outcome": "forced_kill",
+    "shutdown_failed": true
+  },
+  "elapsed_seconds": 126.17681583899957,
+  "peaks": {
+    "server_rss_kib": 7924856,
+    "gpu_0_memory_used_mib": 7346.0
+  },
+  "last_readonly_cvars": {
+    "r.Vulkan.EnableDefrag": 0,
+    "r.Vulkan.WaitForIdleOnSubmit": 0,
+    "r.AsyncPipelineCompile": [
+      0,
+      0
+    ],
+    "r.Vulkan.RHIThread": [
+      1,
+      1
+    ],
+    "r.RHICmdBypass": [
+      0,
+      0
+    ]
+  },
+  "last_observed_rhi_threads": [],
+  "profile_validation": "failed; no stable native-route profile established",
+  "passed": false,
+  "limitations": [
+    "The Python faulthandler identifies the active call into LibCarla; no native C++ backtrace or registers establish the exact invalid access.",
+    "This run predates the new-episode on_tick readiness barrier and does not test that fix.",
+    "Server remained alive before explicit stop; forced SIGKILL is a separate shutdown failure.",
+    "One returned Town12 route does not establish Town13 initialization or completion of the four-route sequence."
+  ]
+}

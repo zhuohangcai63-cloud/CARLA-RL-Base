@@ -1,0 +1,13 @@
+path_base: ..  # Asset paths below are relative to the repository root.
+backend: carla
+simulation:
+  port: 2000
+  tm_port: 8000
+scenario:
+  source: bench2drive
+  manifest: configs/manifests/town12_long_train78.json
+  purpose: train
+  fallback: null
+task:
+  profile: driving
+  max_seconds: 300

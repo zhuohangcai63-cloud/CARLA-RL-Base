@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://carla-releases.s3.us-east-005.backblazeb2.com/Linux/CARLA_0.9.15.tar.gz",
+    "resolved": "https://carla-releases.s3.us-east-005.backblazeb2.com/Linux/CARLA_0.9.15.tar.gz",
+    "status": 200,
+    "headers": {
+      "Strict-Transport-Security": "max-age=63072000",
+      "Accept-Ranges": "bytes",
+      "Last-Modified": "Fri, 08 Dec 2023 21:05:57 GMT",
+      "ETag": "\"e7e759a251bbd7c62bcd38b789ad8499-84\"",
+      "x-amz-meta-src_last_modified_millis": "1699635727000",
+      "x-amz-meta-fl-original-etag": "\"a0476f31403bac87526e5ed5a2ca7df0-1000\"",
+      "x-amz-request-id": "715b04b98f5637f2",
+      "x-amz-id-2": "aNUs4FGbXMVQ1UjneONVj4DSBMLAxojOc",
+      "x-amz-version-id": "4_z15281f11757948ac84c00113_f20155e2e4133c3e3_d20231208_m210557_c005_v0501004_t0025_u01702069557482",
+      "Content-Type": "application/x-tar",
+      "Content-Length": "8386636048",
+      "Date": "Mon, 28 Sep 2026 02:55:35 GMT",
+      "Connection": "close"
+    }
+  },
+  {
+    "url": "https://carla-releases.s3.us-east-005.backblazeb2.com/Linux/AdditionalMaps_0.9.15.tar.gz",
+    "resolved": "https://carla-releases.s3.us-east-005.backblazeb2.com/Linux/AdditionalMaps_0.9.15.tar.gz",
+    "status": 200,
+    "headers": {
+      "Strict-Transport-Security": "max-age=63072000",
+      "Accept-Ranges": "bytes",
+      "Last-Modified": "Mon, 27 May 2024 08:20:28 GMT",
+      "ETag": "\"25fb0bda594ad2fef5431a056c9ee990-880\"",
+      "x-amz-request-id": "88a9a0125d091d83",
+      "x-amz-id-2": "aNZ844mbRMfc1EDnjOIZjdDSpMDMxFzNY",
+      "x-amz-version-id": "4_z15281f11757948ac84c00113_f2024b45a90ba178f_d20240527_m082028_c005_v0501004_t0050_u01716798028201",
+      "Content-Type": "application/x-tar",
+      "Content-Length": "7375946087",
+      "Date": "Mon, 28 Sep 2026 02:55:36 GMT",
+      "Connection": "close"
+    }
+  }
+]

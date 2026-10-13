@@ -1,0 +1,543 @@
+{
+  "version": 1,
+  "source": "bench2drive",
+  "name": "town13-diagnostic-eval-subset",
+  "split": "eval",
+  "upstream_commit": "acbeb0dd8aa99dd0e71b9b75bb542f6fe7c7f3d8",
+  "entries": [
+    {
+      "file": "leaderboard/data/bench2drive_0.0.4_val.xml",
+      "file_sha256": "885debbc3d87f14351b521d8da0dc9d25fcee1f0d926ed1c92cc9ff62504ca45",
+      "route_id": "34183",
+      "town": "Town13",
+      "scenario_types": [
+        "NonSignalizedJunctionLeftTurnEnterFlow"
+      ],
+      "route_fingerprint": "1e08032aceaa61cc685dc693f2fdaabb4f575b868c84dd0d85d318e3b91bfc30",
+      "trigger_fingerprints": [
+        "ec3d0bfe7dee087a54cb4936d991edafbc991566aee8bfd58bc75736f0dfd9ac"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive_0.0.4_val.xml",
+      "file_sha256": "885debbc3d87f14351b521d8da0dc9d25fcee1f0d926ed1c92cc9ff62504ca45",
+      "route_id": "3483",
+      "town": "Town13",
+      "scenario_types": [
+        "StaticCutIn"
+      ],
+      "route_fingerprint": "44c9548ddf27f4bba49967129064bf2a99d3e63cfc9954df51e2e9c1eab6f1a3",
+      "trigger_fingerprints": [
+        "68769ae868a1f475bce5a3713088db0796be2c5047a7649e443d361aa9e6a7b4"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive_0.0.4_val.xml",
+      "file_sha256": "885debbc3d87f14351b521d8da0dc9d25fcee1f0d926ed1c92cc9ff62504ca45",
+      "route_id": "37969",
+      "town": "Town13",
+      "scenario_types": [
+        "MergerIntoSlowTrafficV2"
+      ],
+      "route_fingerprint": "127dd756b157499122fda742ec93fd98c2c0bd9717a04571608c6a39dc02fcbc",
+      "trigger_fingerprints": [
+        "7c37afe0a28bc80fe4d851b1999a794bc2fb391c400ea58cdb4234f5f888bc81"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive_0.0.4_val.xml",
+      "file_sha256": "885debbc3d87f14351b521d8da0dc9d25fcee1f0d926ed1c92cc9ff62504ca45",
+      "route_id": "3475",
+      "town": "Town13",
+      "scenario_types": [
+        "VehicleOpensDoorTwoWays"
+      ],
+      "route_fingerprint": "11287fc2a42b62eace641ff4e93d254d6bb4a111c77a6db08b98a4c7dd2054b1",
+      "trigger_fingerprints": [
+        "cc35c1778b9c990ec0fbaaf091e6d475e3b94739ed0840567a57e3feea320f5b"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive_0.0.4_val.xml",
+      "file_sha256": "885debbc3d87f14351b521d8da0dc9d25fcee1f0d926ed1c92cc9ff62504ca45",
+      "route_id": "32221",
+      "town": "Town13",
+      "scenario_types": [
+        "VehicleOpensDoorTwoWays"
+      ],
+      "route_fingerprint": "6743ef15991c2faef3ce1144c7645a1dd27a2dfd1b385e0909332444afde71d8",
+      "trigger_fingerprints": [
+        "addcb7b858ae9d72178f82dade37cd6524c4b1d89eacb1d42acbd3591314722b"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive_0.0.4_val.xml",
+      "file_sha256": "885debbc3d87f14351b521d8da0dc9d25fcee1f0d926ed1c92cc9ff62504ca45",
+      "route_id": "29893",
+      "town": "Town13",
+      "scenario_types": [
+        "ConstructionObstacleTwoWays"
+      ],
+      "route_fingerprint": "6373c3a0734028d73a2c0f65f09299b6ec02d5953afd672bc14ca8f64292fa0f",
+      "trigger_fingerprints": [
+        "f0c63b567a931d42755558ecc392cb5e14e63ebafb1f3db0dada1307786bfdd1"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive_0.0.4_val.xml",
+      "file_sha256": "885debbc3d87f14351b521d8da0dc9d25fcee1f0d926ed1c92cc9ff62504ca45",
+      "route_id": "28387",
+      "town": "Town13",
+      "scenario_types": [
+        "HazardAtSideLane"
+      ],
+      "route_fingerprint": "a6f4191d04672de9358e75091dbec776f52b021883f24680ebc7df827e3f31e7",
+      "trigger_fingerprints": [
+        "d7d47272a30ae1194007687062ff404b8422caf5d16c1450a520d5aacd8e9770"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive_0.0.4_val.xml",
+      "file_sha256": "885debbc3d87f14351b521d8da0dc9d25fcee1f0d926ed1c92cc9ff62504ca45",
+      "route_id": "31045",
+      "town": "Town13",
+      "scenario_types": [
+        "AccidentTwoWays"
+      ],
+      "route_fingerprint": "16cabdf6e43376384ac92f40c2b522d994fc12a8762a95218f5d515df164dee4",
+      "trigger_fingerprints": [
+        "959c1f7574f4c92ab2eecf97865dcfde2daaacd46ff9bda0f042fa8b17dd9ef2"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive_0.0.4_val.xml",
+      "file_sha256": "885debbc3d87f14351b521d8da0dc9d25fcee1f0d926ed1c92cc9ff62504ca45",
+      "route_id": "36792",
+      "town": "Town13",
+      "scenario_types": [
+        "MergerIntoSlowTrafficV2"
+      ],
+      "route_fingerprint": "9a96c546c7c801f60c5398f22080c2ed7f25fbad9254466f1c7c0ee1085a47ab",
+      "trigger_fingerprints": [
+        "b7f5988c02eaa946010b08ac6c0b02e0320828eb936fc038571a5bfc8a98df6f"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive_0.0.4_val.xml",
+      "file_sha256": "885debbc3d87f14351b521d8da0dc9d25fcee1f0d926ed1c92cc9ff62504ca45",
+      "route_id": "29770",
+      "town": "Town13",
+      "scenario_types": [
+        "ConstructionObstacleTwoWays"
+      ],
+      "route_fingerprint": "7e5eeefb7c53a553f9fafa434196c9301fb1f20c61230311120e27588ee18378",
+      "trigger_fingerprints": [
+        "96495cd9db19cdd975e2e604cb989f2765cd453e5ebf541a8e045d1c7bc2583e"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive_0.0.4_val.xml",
+      "file_sha256": "885debbc3d87f14351b521d8da0dc9d25fcee1f0d926ed1c92cc9ff62504ca45",
+      "route_id": "3816",
+      "town": "Town13",
+      "scenario_types": [
+        "HighwayCutIn"
+      ],
+      "route_fingerprint": "11f7b681e1403389cdbab566f43263e19045feea27ee16aa4bbe077bf3a34a78",
+      "trigger_fingerprints": [
+        "f3b1c374010a73483d7dee7465c13b193570fb4321f24e1f12bc50c5c6b6cf61"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive_0.0.4_val.xml",
+      "file_sha256": "885debbc3d87f14351b521d8da0dc9d25fcee1f0d926ed1c92cc9ff62504ca45",
+      "route_id": "34391",
+      "town": "Town13",
+      "scenario_types": [
+        "SignalizedJunctionLeftTurnEnterFlow"
+      ],
+      "route_fingerprint": "a0be4dc3e5e57eec02d1833c78486768c640316b381bc4a0a99b26c0f9fe8391",
+      "trigger_fingerprints": [
+        "71e34c7ba33078976bbf19a685e806b1b9a81ba4300fbc1f544fdf968f21a250"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive_0.0.4_val.xml",
+      "file_sha256": "885debbc3d87f14351b521d8da0dc9d25fcee1f0d926ed1c92cc9ff62504ca45",
+      "route_id": "29183",
+      "town": "Town13",
+      "scenario_types": [
+        "HazardAtSideLane"
+      ],
+      "route_fingerprint": "dd6c6eaef39e12906c11296d05e2de4c5d039a992852fea3e71f8731f9238fa5",
+      "trigger_fingerprints": [
+        "62f9b93cb3f15145823a0381231dc315730207b7ee8b0f89e3f8bdb498398c6b"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive_0.0.4_val.xml",
+      "file_sha256": "885debbc3d87f14351b521d8da0dc9d25fcee1f0d926ed1c92cc9ff62504ca45",
+      "route_id": "33202",
+      "town": "Town13",
+      "scenario_types": [
+        "ControlLoss"
+      ],
+      "route_fingerprint": "662b763ab6f7feee2a270e11089c416e50dc417827a0cc3d2165e2ea13e31943",
+      "trigger_fingerprints": [
+        "5e7d794a023d60d905192c08b5cefa22eca77fc7a90c631a9dcdd35b7ec591c4"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive_0.0.4_val.xml",
+      "file_sha256": "885debbc3d87f14351b521d8da0dc9d25fcee1f0d926ed1c92cc9ff62504ca45",
+      "route_id": "30202",
+      "town": "Town13",
+      "scenario_types": [
+        "ConstructionObstacleTwoWays"
+      ],
+      "route_fingerprint": "0d2a95e6f5fdf9817cf8eda34032b9c2fdbed1aba53194ab081f0022de6adbc5",
+      "trigger_fingerprints": [
+        "b3860c95e550af7c51f2ee0b3731b294eb08bedcc60f280958df326fb0441241"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive_0.0.4_val.xml",
+      "file_sha256": "885debbc3d87f14351b521d8da0dc9d25fcee1f0d926ed1c92cc9ff62504ca45",
+      "route_id": "29538",
+      "town": "Town13",
+      "scenario_types": [
+        "ConstructionObstacleTwoWays"
+      ],
+      "route_fingerprint": "be0f931451edb89230606686c925ce2df0c74c8b2dfddc441caec537567b1519",
+      "trigger_fingerprints": [
+        "367167b5b59b807ab4ce1d8094acd5fed693efc7e17afe94cfaead7241624d4d"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive_0.0.4_val.xml",
+      "file_sha256": "885debbc3d87f14351b521d8da0dc9d25fcee1f0d926ed1c92cc9ff62504ca45",
+      "route_id": "35243",
+      "town": "Town13",
+      "scenario_types": [
+        "SignalizedJunctionLeftTurnEnterFlow"
+      ],
+      "route_fingerprint": "8ee09283948374486d520bcb3e807706b101ad8a758b8f3ca53909908bce34d4",
+      "trigger_fingerprints": [
+        "050b6039e820bbf74c1aa8e8ac846af3c58196aae677139862877658f2f39845"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive_0.0.4_val.xml",
+      "file_sha256": "885debbc3d87f14351b521d8da0dc9d25fcee1f0d926ed1c92cc9ff62504ca45",
+      "route_id": "31938",
+      "town": "Town13",
+      "scenario_types": [
+        "VehicleOpensDoorTwoWays"
+      ],
+      "route_fingerprint": "8e2ba0ce9b55fe6a654a9b186e4d7391f96644a42178de1e86bf70f686cd05b9",
+      "trigger_fingerprints": [
+        "4578f0989e738ad8f188be3458af0df42e3bd7e1df01253e12d3eddbc6028f31"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive_0.0.4_val.xml",
+      "file_sha256": "885debbc3d87f14351b521d8da0dc9d25fcee1f0d926ed1c92cc9ff62504ca45",
+      "route_id": "3740",
+      "town": "Town13",
+      "scenario_types": [
+        "VehicleTurningRoutePedestrian"
+      ],
+      "route_fingerprint": "4c1cd004d18330c8dc9128f832b4ecfac609747dfe0d07e186fd7c20373eaeb2",
+      "trigger_fingerprints": [
+        "d976e170b908ef212a54c2876e1dc0549865d6603b3b8e79060e479165ed714a"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive_0.0.4_val.xml",
+      "file_sha256": "885debbc3d87f14351b521d8da0dc9d25fcee1f0d926ed1c92cc9ff62504ca45",
+      "route_id": "31100",
+      "town": "Town13",
+      "scenario_types": [
+        "AccidentTwoWays"
+      ],
+      "route_fingerprint": "308a9d93506862725ae7602d06d67972354f5ff490c5a47d79cead2b309de0e2",
+      "trigger_fingerprints": [
+        "b5158c4e4f7fe88649d0172d5236d10d20476b9db4bcc43b7cfc516ed61f4878"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive_0.0.4_val.xml",
+      "file_sha256": "885debbc3d87f14351b521d8da0dc9d25fcee1f0d926ed1c92cc9ff62504ca45",
+      "route_id": "35330",
+      "town": "Town13",
+      "scenario_types": [
+        "SignalizedJunctionLeftTurnEnterFlow"
+      ],
+      "route_fingerprint": "8514ef890f36a52a956238f00cfc92f753a340d4d903cdea2bdedc6666114657",
+      "trigger_fingerprints": [
+        "5e5728d89340a058cd11d66820854a4b85fa9b7a61c6565b3a10cf15f1095f83"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive_0.0.4_val.xml",
+      "file_sha256": "885debbc3d87f14351b521d8da0dc9d25fcee1f0d926ed1c92cc9ff62504ca45",
+      "route_id": "30939",
+      "town": "Town13",
+      "scenario_types": [
+        "AccidentTwoWays"
+      ],
+      "route_fingerprint": "191578937d88c7e1361cbeb08efd6724524d4d710df757a476dafd6e20ab1ed4",
+      "trigger_fingerprints": [
+        "d8f53423a0fed16861c919a7965f6cf58abf8d68569ab34cecf2615672f0dc21"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive_0.0.4_val.xml",
+      "file_sha256": "885debbc3d87f14351b521d8da0dc9d25fcee1f0d926ed1c92cc9ff62504ca45",
+      "route_id": "32517",
+      "town": "Town13",
+      "scenario_types": [
+        "ControlLoss"
+      ],
+      "route_fingerprint": "e02932fb445cf96aa83c73b13c59d6f7a3a88f2a6cb9db95970857cd0089d69b",
+      "trigger_fingerprints": [
+        "5e0027e296c777a5373e2abbd78b1db86024a04cf6a5468d9fd6f76bfcbabea3"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive_0.0.4_val.xml",
+      "file_sha256": "885debbc3d87f14351b521d8da0dc9d25fcee1f0d926ed1c92cc9ff62504ca45",
+      "route_id": "29073",
+      "town": "Town13",
+      "scenario_types": [
+        "HazardAtSideLane"
+      ],
+      "route_fingerprint": "fd989e648b614d9334bf766f0c769725321f4068044aee41f7f7ce590f384497",
+      "trigger_fingerprints": [
+        "b20685312f5ea8c6045d588dde9ff9a05a7b4c0dbe94c75f3f6fa5e5097ba871"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive_0.0.4_val.xml",
+      "file_sha256": "885debbc3d87f14351b521d8da0dc9d25fcee1f0d926ed1c92cc9ff62504ca45",
+      "route_id": "24151",
+      "town": "Town13",
+      "scenario_types": [
+        "MergerIntoSlowTraffic"
+      ],
+      "route_fingerprint": "99d580aa26d5708da65e056834908d1ebdd0b8b3ab5a0fecb5a0fccaa604d43f",
+      "trigger_fingerprints": [
+        "e7bdeb1c23ccf7b7fe7c76fec0e83f960f0995b5915c4b1f8b44bad6c1f3f78c"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive_0.0.4_val.xml",
+      "file_sha256": "885debbc3d87f14351b521d8da0dc9d25fcee1f0d926ed1c92cc9ff62504ca45",
+      "route_id": "34436",
+      "town": "Town13",
+      "scenario_types": [
+        "SignalizedJunctionLeftTurnEnterFlow"
+      ],
+      "route_fingerprint": "2f523ed2e024aad868cfffac41be1cc9e457744cc3540660fa3bae6de8e1da8c",
+      "trigger_fingerprints": [
+        "92203b95f4582a5eeff95e259069fd068f903c21741987c77d6555b4bc460c59"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive_0.0.4_val.xml",
+      "file_sha256": "885debbc3d87f14351b521d8da0dc9d25fcee1f0d926ed1c92cc9ff62504ca45",
+      "route_id": "3502",
+      "town": "Town13",
+      "scenario_types": [
+        "StaticCutIn"
+      ],
+      "route_fingerprint": "c65fd30c87c0b0a777656321bf3933471c51c42096f7ca764d0b9dabada918a5",
+      "trigger_fingerprints": [
+        "a6236f91a6498fa06faa1847fcc15b0117c7cd1cde06eb66a3f3312823eaa2c9"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive_0.0.4_val.xml",
+      "file_sha256": "885debbc3d87f14351b521d8da0dc9d25fcee1f0d926ed1c92cc9ff62504ca45",
+      "route_id": "30691",
+      "town": "Town13",
+      "scenario_types": [
+        "AccidentTwoWays"
+      ],
+      "route_fingerprint": "8213a91d233c12333e12d5ed15238fb000db59e3b13e006899475947a8839fde",
+      "trigger_fingerprints": [
+        "2cca57da73d70c35178a30da2d71773dc5cfafd5ad4bbd627d2ceb3fc3fe7f0a"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive_0.0.4_val.xml",
+      "file_sha256": "885debbc3d87f14351b521d8da0dc9d25fcee1f0d926ed1c92cc9ff62504ca45",
+      "route_id": "30596",
+      "town": "Town13",
+      "scenario_types": [
+        "AccidentTwoWays"
+      ],
+      "route_fingerprint": "b9193a930f7b88a321257fe2be2dbb40bf12f92de51d9622e3019075fc4b66e6",
+      "trigger_fingerprints": [
+        "d27dc00a7b8e8623be57cf4428a820d0f877bcdb372cbb04909b92d9192459d8"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive_0.0.4_val.xml",
+      "file_sha256": "885debbc3d87f14351b521d8da0dc9d25fcee1f0d926ed1c92cc9ff62504ca45",
+      "route_id": "30313",
+      "town": "Town13",
+      "scenario_types": [
+        "ConstructionObstacleTwoWays"
+      ],
+      "route_fingerprint": "896f096ec5a5b9c0d5ce14f2ececf66c9ae0ca7eaa18c99564c99cc04808d63a",
+      "trigger_fingerprints": [
+        "515ddd396a72fadb17c7aa0b1811b73ad08925760e8950b8d587df10dcf1db03"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive_0.0.4_val.xml",
+      "file_sha256": "885debbc3d87f14351b521d8da0dc9d25fcee1f0d926ed1c92cc9ff62504ca45",
+      "route_id": "34867",
+      "town": "Town13",
+      "scenario_types": [
+        "SignalizedJunctionLeftTurnEnterFlow"
+      ],
+      "route_fingerprint": "0380ad052877d29a465d8e0d760af17c27dcf83e2136c0c1866df39ca1b2e891",
+      "trigger_fingerprints": [
+        "4e9f449691bf1db80e056ca863407e938f1576fbaa260e5e332245e087445999"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive_0.0.4_val.xml",
+      "file_sha256": "885debbc3d87f14351b521d8da0dc9d25fcee1f0d926ed1c92cc9ff62504ca45",
+      "route_id": "37223",
+      "town": "Town13",
+      "scenario_types": [
+        "MergerIntoSlowTrafficV2"
+      ],
+      "route_fingerprint": "1d78e9d73ef2315c8d84f0c8c1c845f07ace5343c37ae8bc62c4de87d211ffc6",
+      "trigger_fingerprints": [
+        "f8fae0c5a88cb419b66e5e48ce10a94d3003c86726c102e057c6ece7c396732d"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive_0.0.4_val.xml",
+      "file_sha256": "885debbc3d87f14351b521d8da0dc9d25fcee1f0d926ed1c92cc9ff62504ca45",
+      "route_id": "29629",
+      "town": "Town13",
+      "scenario_types": [
+        "ConstructionObstacleTwoWays"
+      ],
+      "route_fingerprint": "017d3c7655a22d3312008793ff1e26246f1ad80a390fcf0fc73b1893ff4e5654",
+      "trigger_fingerprints": [
+        "487a701c1a66c41844dc4b907d37285fe8787384eac1f36d5d8a013b83b9581d"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive_0.0.4_val.xml",
+      "file_sha256": "885debbc3d87f14351b521d8da0dc9d25fcee1f0d926ed1c92cc9ff62504ca45",
+      "route_id": "24099",
+      "town": "Town13",
+      "scenario_types": [
+        "MergerIntoSlowTrafficV2"
+      ],
+      "route_fingerprint": "4e3698be5291fd8c282aad4d4360f5a04ba4e6937a48dd49729852482ad55884",
+      "trigger_fingerprints": [
+        "0413654e4f52a7e86e48dc5ec9c89891ce4492a3d9e2d77b097c0093f8ebffc0"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive_0.0.4_val.xml",
+      "file_sha256": "885debbc3d87f14351b521d8da0dc9d25fcee1f0d926ed1c92cc9ff62504ca45",
+      "route_id": "30283",
+      "town": "Town13",
+      "scenario_types": [
+        "ConstructionObstacleTwoWays"
+      ],
+      "route_fingerprint": "40ac0b767fd525a000b5084de42c6c3db08c4c45a4a87e7af24f97a588207e16",
+      "trigger_fingerprints": [
+        "1974110987e18b473ea0c83821c26c69a0e9dba0a5ff71b1dd871059ae1df451"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive_0.0.4_val.xml",
+      "file_sha256": "885debbc3d87f14351b521d8da0dc9d25fcee1f0d926ed1c92cc9ff62504ca45",
+      "route_id": "29856",
+      "town": "Town13",
+      "scenario_types": [
+        "ConstructionObstacleTwoWays"
+      ],
+      "route_fingerprint": "47a1902eeb8ef52147f03231c3780ea2bf17f079366d6fc6f92b0d5a1d4b0bbe",
+      "trigger_fingerprints": [
+        "405d14aee949d33e883203202119b0b6b6348a952031e5097b1d12c48ad5b9e5"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive_0.0.4_val.xml",
+      "file_sha256": "885debbc3d87f14351b521d8da0dc9d25fcee1f0d926ed1c92cc9ff62504ca45",
+      "route_id": "30008",
+      "town": "Town13",
+      "scenario_types": [
+        "ConstructionObstacleTwoWays"
+      ],
+      "route_fingerprint": "34e3a1a624deddc2202086a74a11e64e5df29c7431538f8abba0b14ff15ef7da",
+      "trigger_fingerprints": [
+        "54659c64e86b0a809bfcc88cdeddb68d5cdf2c29a84b17883a934113045548b0"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive_0.0.4_val.xml",
+      "file_sha256": "885debbc3d87f14351b521d8da0dc9d25fcee1f0d926ed1c92cc9ff62504ca45",
+      "route_id": "37391",
+      "town": "Town13",
+      "scenario_types": [
+        "MergerIntoSlowTrafficV2"
+      ],
+      "route_fingerprint": "2c7081f2b7a037928314a06f23598f37f941288e509ddfb256bd0fe2eb632cc0",
+      "trigger_fingerprints": [
+        "2c14ed951a0307d9a331d70d33f0675482fd3e741dfa119200d9094bb0484a6f"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive_0.0.4_val.xml",
+      "file_sha256": "885debbc3d87f14351b521d8da0dc9d25fcee1f0d926ed1c92cc9ff62504ca45",
+      "route_id": "31736",
+      "town": "Town13",
+      "scenario_types": [
+        "VehicleOpensDoorTwoWays"
+      ],
+      "route_fingerprint": "8f05c999d80cdc3e4fd6fb770bd2249c8ed7b60b3b0db72194b4fa6462b46567",
+      "trigger_fingerprints": [
+        "d99fb8123e9b1d52d54560633fab462b163ed97a4c849487e14707d4f9452d52"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive_0.0.4_val.xml",
+      "file_sha256": "885debbc3d87f14351b521d8da0dc9d25fcee1f0d926ed1c92cc9ff62504ca45",
+      "route_id": "31654",
+      "town": "Town13",
+      "scenario_types": [
+        "VehicleOpensDoorTwoWays"
+      ],
+      "route_fingerprint": "66e1c1f3ab87477938b4ded1e4865cd3503d419eca6cd4b8dd49780142183c8a",
+      "trigger_fingerprints": [
+        "c942644a547d7c9e55fe8b4972d690789aa81c8cb06fbd9059cc7610ccd67b5b"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive_0.0.4_val.xml",
+      "file_sha256": "885debbc3d87f14351b521d8da0dc9d25fcee1f0d926ed1c92cc9ff62504ca45",
+      "route_id": "31124",
+      "town": "Town13",
+      "scenario_types": [
+        "AccidentTwoWays"
+      ],
+      "route_fingerprint": "6d6b238f807485f6b7582e5d39a30962eb31e8301b981b57ab472d5bfbc59f66",
+      "trigger_fingerprints": [
+        "8171e8cce0e80c318dbdbe934dbec1f7b9c3c2c84597aa30c0554f65c07fb160"
+      ]
+    }
+  ],
+  "parent_manifest": "configs/manifests/v004_eval220.json"
+}

@@ -1,0 +1,17 @@
+{
+  "purpose": "final prefix repeatability and Bench2Drive targeted checks",
+  "carla_port": 2300,
+  "owned_server_pid": 233655,
+  "python_runtime_cleanup": "completed before explicit server termination",
+  "server_stop_requested": "SIGTERM to the exact process started for validation",
+  "server_exit_code": 139,
+  "server_log": "dedicated-server-shutdown.txt",
+  "native_shutdown_crash": true,
+  "server_process_alive_after_stop": false,
+  "posix_resources_remaining": [],
+  "notes": [
+    "RequestExit followed by Signal11 occurred after deliberate shutdown, separately from already completed route results.",
+    "This does not claim a clean native simulator shutdown.",
+    "The independent long route matrix on port 2100 was not stopped."
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "status": "passed",
+  "measurement_kind": "local_fixed_observation_codec_microbenchmark",
+  "instance": "sensors_live",
+  "python": "3.11.16",
+  "client_prefix": "/home/czh/software/miniconda3/envs/carla-client-test",
+  "requested_iterations": 200,
+  "is_ipc_benchmark": false,
+  "is_simulation_benchmark": false,
+  "notes": [
+    "A fixed observation is captured by reset; the client session is closed before timing.",
+    "Encoding includes JSON/tree processing, array layout and payload construction; excludes SHA-256 and slot publication.",
+    "Validation/decode/copy includes header/capacity validation, SHA-256 verification, metadata decode and independent ndarray copies.",
+    "Fixed-slot allocation, initial publication, one warm-up decode and result destruction are outside the measured intervals.",
+    "These local timings are not shared-memory IPC latency or simulator performance."
+  ],
+  "session_closed_before_benchmark": true,
+  "backend": "carla",
+  "scenario": {
+    "source": "scenic",
+    "scenario_id": "interaction_follow",
+    "seed": 0,
+    "source_sha256": "cd727e47203609271a8904a9142028f85479f0b3e7fed2d152e914b859ea2a32",
+    "file": "/home/czh/workspace/CARLA-RL-Base/scenarios/scenic/interaction_follow.scenic",
+    "town": "Town10HD_Opt",
+    "iterations": 1,
+    "parameters": {
+      "scenario_name": "interaction_follow",
+      "weather": "ClearNoon",
+      "traffic_light_policy": "off",
+      "ego_spawn_index": 0,
+      "destination_spawn_index": 30,
+      "min_route_distance": 100,
+      "number_of_vehicles": 0,
+      "number_of_walkers": 0
+    },
+    "generation_failures": [],
+    "seeds": {
+      "scenic_python": 0,
+      "scenic_numpy": 0,
+      "spawn": 0,
+      "traffic_manager": 0,
+      "pedestrians": 0,
+      "events": 1,
+      "crossing": 2,
+      "lead_brake": 3,
+      "reactive_npc": 0
+    },
+    "ego_spawn_index": 0,
+    "destination_spawn_index": 30,
+    "background_vehicles_requested": 0,
+    "background_vehicles_spawned": 0,
+    "reactive_routes": {}
+  },
+  "observation_profile": "privileged_structured_truth",
+  "frame": 660733,
+  "sensor_keys": [
+    "bev",
+    "lidar",
+    "rgb"
+  ],
+  "iterations": 200,
+  "payload_bytes": 372608,
+  "slot_bytes_including_header": 372864,
+  "observation_array_bytes": 368224,
+  "encoding_ms": {
+    "count": 200,
+    "p50": 0.10085200119647197,
+    "p95": 0.21954074945824686,
+    "mean": 0.1280708601916558,
+    "min": 0.09015099931275472,
+    "max": 0.47164699935819954
+  },
+  "validation_decode_copy_ms": {
+    "count": 200,
+    "p50": 0.316383499011863,
+    "p95": 0.4801381954166572,
+    "mean": 0.34227380969241494,
+    "min": 0.25719800032675266,
+    "max": 0.8411250018980354
+  }
+}

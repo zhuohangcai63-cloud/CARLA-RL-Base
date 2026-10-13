@@ -1,0 +1,183 @@
+{
+  "version": 1,
+  "status": "finished",
+  "started_utc": "2026-09-27T14:33:02.552763+00:00",
+  "manifest": "/home/czh/workspace/CARLA-RL-Base/configs/manifests/v004_eval220.json",
+  "manifest_sha256": "fe4796888a1390aade93f65ca7a90f4f10552b50a87a97111ba3a4d758952648",
+  "mode": "native_adapter_reference_driver",
+  "scope": "native scenario execution; not policy evaluation",
+  "config": {
+    "host": "127.0.0.1",
+    "port": 2100,
+    "tm_port": 8100,
+    "timeout": 90.0,
+    "physics_dt": 0.05,
+    "decision_dt": 0.2,
+    "history_dt": 0.1,
+    "reload_on_reset": false,
+    "no_rendering_mode": true,
+    "map_layers": "none",
+    "carla_root": "/home/czh/software/carla"
+  },
+  "seed": 123,
+  "tick_budget": 1500,
+  "results": [
+    {
+      "route_id": "22535",
+      "town": "Town12",
+      "scenario_types": [
+        "StaticCutIn"
+      ],
+      "execution": "failed",
+      "ticks": 150,
+      "activated": [],
+      "completed": [],
+      "initialization_seconds": 36.72874495600263,
+      "metadata": {
+        "source": "bench2drive",
+        "scenario_id": "22535",
+        "seed": 123,
+        "town": "Town12",
+        "scenario_types": [
+          "StaticCutIn"
+        ],
+        "loaded_town": "Town12",
+        "route_fingerprint": "d47dbcb1d0991f796510a0d279413c8a7eaaf7d2db3ff6fe0b6d9c97221ce8b6",
+        "upstream_commit": "acbeb0dd8aa99dd0e71b9b75bb542f6fe7c7f3d8",
+        "patch_version": 2,
+        "native_npc": true,
+        "mechanism_replacements": [],
+        "generation_failure": null,
+        "native_validation": "not_run",
+        "repeatability_validation": "not_run",
+        "scenario_names": [
+          "StaticCutIn_1"
+        ]
+      },
+      "capabilities": {
+        "source": "bench2drive",
+        "native_execution": true,
+        "native_validation": "not_run",
+        "fixed_recipe_rebuild": true,
+        "prefix_replay": false,
+        "replay_restrictions": [
+          "Native Traffic Manager and behavior tree internal state is not serializable",
+          "Same seed alone is not a verified common-prefix state"
+        ],
+        "takeover_roles": {
+          "StaticCutIn_1:adversary": {
+            "actor_id": 3795,
+            "native_type": "StaticCutIn",
+            "can_takeover": false,
+            "phase": "not_placed_or_destroyed",
+            "validation": "not_run",
+            "reason": "Native actor is not in a supported handoff phase"
+          }
+        },
+        "takeover_restrictions": [
+          "Only initialized ParkingCutIn, StaticCutIn, HighwayCutIn adversaries",
+          "Requires native placement and explicit experimental opt-in",
+          "No actor lifetime extension; irreversible within the episode"
+        ]
+      },
+      "error": "ControlConflict: Disable autopilot explicitly before assigning target velocity",
+      "traceback": "Traceback (most recent call last):\n  File \"/home/czh/workspace/CARLA-RL-Base/scripts/validate_native_routes.py\", line 85, in run\n    resolved = episode.resolve_control(requested)\n  File \"/home/czh/workspace/CARLA-RL-Base/easycarla/scenarios/bench2drive/adapter.py\", line 298, in resolve_control\n    return ResolvedControl(self.transform_control(requested), allow_combined=True)\n  File \"/home/czh/workspace/CARLA-RL-Base/easycarla/scenarios/bench2drive/adapter.py\", line 286, in transform_control\n    node.tick_once()\n  File \"/home/czh/software/miniconda3/envs/CARLA-RL-Base/lib/python3.10/site-packages/py_trees/behaviour.py\", line 158, in tick_once\n    for unused in self.tick():\n  File \"/home/czh/software/miniconda3/envs/CARLA-RL-Base/lib/python3.10/site-packages/py_trees/composites.py\", line 494, in tick\n    for node in child.tick():\n  File \"/home/czh/software/miniconda3/envs/CARLA-RL-Base/lib/python3.10/site-packages/py_trees/composites.py\", line 578, in tick\n    for node in child.tick():\n  File \"/home/czh/software/miniconda3/envs/CARLA-RL-Base/lib/python3.10/site-packages/py_trees/behaviour.py\", line 249, in tick\n    new_status = self.update()\n  File \"/home/czh/.cache/easycarla/bench2drive/acbeb0dd8aa99dd0e71b9b75bb542f6fe7c7f3d8-p2/scenario_runner/srunner/scenarios/background_activity.py\", line 330, in update\n    self._update_road_sources()\n  File \"/home/czh/.cache/easycarla/bench2drive/acbeb0dd8aa99dd0e71b9b75bb542f6fe7c7f3d8-p2/scenario_runner/srunner/scenarios/background_activity.py\", line 1115, in _update_road_sources\n    _easycarla_native_call(actor, 'set_target_velocity', speed * forward_vec)\n  File \"/home/czh/workspace/CARLA-RL-Base/easycarla/scenarios/bench2drive/native_control.py\", line 54, in native_actor_call\n    return getattr(gateway, method)(actor, value, owner=owner)\n  File \"/home/czh/workspace/CARLA-RL-Base/easycarla/control/gateway.py\", line 106, in set_target_velocity\n    raise ControlConflict(\"Disable autopilot explicitly before assigning target velocity\")\n  File \"/home/czh/workspace/CARLA-RL-Base/easycarla/control/gateway.py\", line 102, in _velocity\n    if not np.isfinite([velocity.x, velocity.y, velocity.z]).all():\neasycarla.errors.ControlConflict: Disable autopilot explicitly before assigning target velocity\n",
+      "wall_seconds": 42.060508716000186,
+      "remaining_owned_resources": 0,
+      "immediate_snapshot_dynamic_actors": [
+        "vehicle.ford.mustang",
+        "vehicle.chevrolet.impala",
+        "vehicle.lincoln.mkz_2017",
+        "sensor.other.collision",
+        "vehicle.mini.cooper_s_2021",
+        "vehicle.mercedes.coupe_2020",
+        "vehicle.audi.tt",
+        "vehicle.lincoln.mkz_2017",
+        "vehicle.mercedes.coupe_2020",
+        "vehicle.chevrolet.impala",
+        "vehicle.dodge.charger_2020",
+        "vehicle.audi.tt",
+        "vehicle.lincoln.mkz_2020",
+        "vehicle.ford.mustang",
+        "vehicle.nissan.patrol_2021",
+        "vehicle.lincoln.mkz_2017",
+        "vehicle.nissan.patrol_2021",
+        "vehicle.mini.cooper_s_2021",
+        "vehicle.lincoln.mkz_2020",
+        "vehicle.nissan.patrol_2021",
+        "vehicle.lincoln.mkz_2017",
+        "vehicle.mini.cooper_s_2021",
+        "vehicle.audi.etron",
+        "vehicle.audi.etron",
+        "vehicle.chevrolet.impala",
+        "vehicle.lincoln.mkz_2020"
+      ],
+      "cleanup_verification": "owned registry empty after acknowledged destruction; synchronous snapshot may remain stale until next tick"
+    },
+    {
+      "route_id": "23470",
+      "town": "Town12",
+      "scenario_types": [
+        "ControlLoss"
+      ],
+      "execution": "failed",
+      "ticks": 92,
+      "activated": [],
+      "completed": [],
+      "initialization_seconds": 18.599316613996052,
+      "metadata": {
+        "source": "bench2drive",
+        "scenario_id": "23470",
+        "seed": 123,
+        "town": "Town12",
+        "scenario_types": [
+          "ControlLoss"
+        ],
+        "loaded_town": "Town12",
+        "route_fingerprint": "ad3c22f51067e72c000e08dd6b0935cdea83f0c06b02d0e11de20f1dda6cd6c3",
+        "upstream_commit": "acbeb0dd8aa99dd0e71b9b75bb542f6fe7c7f3d8",
+        "patch_version": 2,
+        "native_npc": true,
+        "mechanism_replacements": [],
+        "generation_failure": null,
+        "native_validation": "not_run",
+        "repeatability_validation": "not_run",
+        "scenario_names": [
+          "ControlLoss_1"
+        ]
+      },
+      "capabilities": {
+        "source": "bench2drive",
+        "native_execution": true,
+        "native_validation": "not_run",
+        "fixed_recipe_rebuild": true,
+        "prefix_replay": false,
+        "replay_restrictions": [
+          "Native Traffic Manager and behavior tree internal state is not serializable",
+          "Same seed alone is not a verified common-prefix state"
+        ],
+        "takeover_roles": {},
+        "takeover_restrictions": [
+          "Only initialized ParkingCutIn, StaticCutIn, HighwayCutIn adversaries",
+          "Requires native placement and explicit experimental opt-in",
+          "No actor lifetime extension; irreversible within the episode"
+        ]
+      },
+      "error": "ControlConflict: Disable autopilot explicitly before assigning target velocity",
+      "traceback": "Traceback (most recent call last):\n  File \"/home/czh/workspace/CARLA-RL-Base/scripts/validate_native_routes.py\", line 85, in run\n    resolved = episode.resolve_control(requested)\n  File \"/home/czh/workspace/CARLA-RL-Base/easycarla/scenarios/bench2drive/adapter.py\", line 298, in resolve_control\n    return ResolvedControl(self.transform_control(requested), allow_combined=True)\n  File \"/home/czh/workspace/CARLA-RL-Base/easycarla/scenarios/bench2drive/adapter.py\", line 286, in transform_control\n    node.tick_once()\n  File \"/home/czh/software/miniconda3/envs/CARLA-RL-Base/lib/python3.10/site-packages/py_trees/behaviour.py\", line 158, in tick_once\n    for unused in self.tick():\n  File \"/home/czh/software/miniconda3/envs/CARLA-RL-Base/lib/python3.10/site-packages/py_trees/composites.py\", line 494, in tick\n    for node in child.tick():\n  File \"/home/czh/software/miniconda3/envs/CARLA-RL-Base/lib/python3.10/site-packages/py_trees/composites.py\", line 578, in tick\n    for node in child.tick():\n  File \"/home/czh/software/miniconda3/envs/CARLA-RL-Base/lib/python3.10/site-packages/py_trees/behaviour.py\", line 249, in tick\n    new_status = self.update()\n  File \"/home/czh/.cache/easycarla/bench2drive/acbeb0dd8aa99dd0e71b9b75bb542f6fe7c7f3d8-p2/scenario_runner/srunner/scenarios/background_activity.py\", line 330, in update\n    self._update_road_sources()\n  File \"/home/czh/.cache/easycarla/bench2drive/acbeb0dd8aa99dd0e71b9b75bb542f6fe7c7f3d8-p2/scenario_runner/srunner/scenarios/background_activity.py\", line 1115, in _update_road_sources\n    _easycarla_native_call(actor, 'set_target_velocity', speed * forward_vec)\n  File \"/home/czh/workspace/CARLA-RL-Base/easycarla/scenarios/bench2drive/native_control.py\", line 54, in native_actor_call\n    return getattr(gateway, method)(actor, value, owner=owner)\n  File \"/home/czh/workspace/CARLA-RL-Base/easycarla/control/gateway.py\", line 106, in set_target_velocity\n    raise ControlConflict(\"Disable autopilot explicitly before assigning target velocity\")\n  File \"/home/czh/workspace/CARLA-RL-Base/easycarla/control/gateway.py\", line 102, in _velocity\n    if not np.isfinite([velocity.x, velocity.y, velocity.z]).all():\neasycarla.errors.ControlConflict: Disable autopilot explicitly before assigning target velocity\n",
+      "wall_seconds": 22.876294196001254,
+      "remaining_owned_resources": 0,
+      "immediate_snapshot_dynamic_actors": [
+        "vehicle.lincoln.mkz_2020",
+        "vehicle.mini.cooper_s_2021",
+        "vehicle.nissan.patrol_2021",
+        "vehicle.lincoln.mkz_2020",
+        "vehicle.lincoln.mkz_2017",
+        "sensor.other.collision",
+        "vehicle.dodge.charger_2020"
+      ],
+      "cleanup_verification": "owned registry empty after acknowledged destruction; synchronous snapshot may remain stale until next tick"
+    }
+  ],
+  "finished_utc": "2026-09-27T14:34:07.564935+00:00"
+}

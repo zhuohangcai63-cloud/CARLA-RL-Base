@@ -1,0 +1,22 @@
+{
+  "scope": "this newly created owned process only",
+  "pid": 255129,
+  "allowed_tracer_parent_pid": 255128,
+  "allows_tracer_descendants": true,
+  "allows_any_same_uid_process": false,
+  "global_yama_modified": false,
+  "exec_command": [
+    "/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping",
+    "CarlaUE4",
+    "-RenderOffScreen",
+    "-quality-level=Epic",
+    "-nosound",
+    "-ResX=400",
+    "-ResY=300",
+    "-norhithread",
+    "-UserDir=/tmp/easycarla-town13-buffer-binning-profile",
+    "-carla-rpc-port=2600",
+    "-carla-streaming-port=2601",
+    "-carla-secondary-port=2602"
+  ]
+}

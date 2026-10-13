@@ -1,0 +1,47 @@
+{
+  "real_carla": true,
+  "instances": [
+    "planning_1"
+  ],
+  "checks": {
+    "fixed_space": true,
+    "explicit_history_warmup": true,
+    "tick_counts": true,
+    "geometry_valid": true
+  },
+  "status": "failed",
+  "geometries": [
+    {
+      "planning.geometry.bbox_offset": [
+        -0.00629282696172595,
+        5.489945397130214e-05,
+        0.7488362789154053
+      ],
+      "planning.geometry.bbox_valid": true,
+      "planning.geometry.center_of_mass_offset": [
+        0.29999998211860657,
+        -0.0,
+        -0.19999998807907104
+      ],
+      "planning.geometry.center_of_mass_valid": true,
+      "planning.geometry.max_steer_angle": 1.221730351448059,
+      "planning.geometry.rear_axle_offset": [
+        -1.3884238004684448,
+        -5.8443234593141824e-05,
+        0.36916714906692505
+      ],
+      "planning.geometry.rear_axle_valid": true,
+      "planning.geometry.size": [
+        4.89238166809082,
+        1.8367133140563965,
+        1.490277647972107
+      ],
+      "planning.geometry.wheelbase": 2.8604650497436523
+    }
+  ],
+  "error": "RemoteError: backend_error: Payload 18759785 exceeds slot capacity 16776960; configure a larger slot",
+  "error_details": {
+    "exception": "ProtocolError",
+    "episode_faulted": true
+  }
+}

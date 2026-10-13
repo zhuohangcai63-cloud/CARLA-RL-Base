@@ -1,0 +1,36 @@
+Generating report for minidump
+
+Application version 4.26.2.0
+ ... built from changelist 0
+
+OS version Linux 7.0.0-34-generic (network name: czh-Default-string)
+Running 14 x86_64 processors (20 logical cores)
+Exception was "SIGSEGV: invalid attempt to write memory at address 0x0000000000000000"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+libc.so.6!UnknownFunction(0x189087)
+CarlaUE4-Linux-Shipping!FVulkanResourceMultiBuffer::FVulkanResourceMultiBuffer(FVulkanDevice*, unsigned int, unsigned int, unsigned int, FRHIResourceCreateInfo&, FRHICommandListImmediate*) [/home/jenkins/UnrealEngine_4.26/Engine/Source/Runtime/VulkanRHI/Private/VulkanIndexBuffer.cpp:136]
+CarlaUE4-Linux-Shipping!FVulkanDynamicRHI::RHICreateVertexBuffer(unsigned int, unsigned int, ERHIAccess, FRHIResourceCreateInfo&) [/home/jenkins/UnrealEngine_4.26/Engine/Source/Runtime/VulkanRHI/Private/VulkanVertexBuffer.cpp:29]
+CarlaUE4-Linux-Shipping!FVulkanDynamicRHI::CreateVertexBuffer_RenderThread(FRHICommandListImmediate&, unsigned int, unsigned int, ERHIAccess, FRHIResourceCreateInfo&) [/home/jenkins/UnrealEngine_4.26/Engine/Source/Runtime/VulkanRHI/Public/VulkanDynamicRHI.h:199]
+CarlaUE4-Linux-Shipping!TRefCountPtr<FRHIVertexBuffer> FStaticMeshVertexBuffer::CreateTexCoordRHIBuffer_Internal<true>() [/home/jenkins/UnrealEngine_4.26/Engine/Source/Runtime/Engine/Private/Rendering/StaticMeshVertexBuffer.cpp:311]
+CarlaUE4-Linux-Shipping!FStaticMeshVertexBuffer::InitRHI() [/home/jenkins/UnrealEngine_4.26/Engine/Source/Runtime/Engine/Private/Rendering/StaticMeshVertexBuffer.cpp:364]
+CarlaUE4-Linux-Shipping!FRenderResource::InitResource() [/home/jenkins/UnrealEngine_4.26/Engine/Source/Runtime/RenderCore/Private/RenderResource.cpp:102]
+CarlaUE4-Linux-Shipping!FStaticMeshVertexBuffer::InitResource() [/home/jenkins/UnrealEngine_4.26/Engine/Source/Runtime/Engine/Private/Rendering/StaticMeshVertexBuffer.cpp:393]
+CarlaUE4-Linux-Shipping!TGraphTask<TEnqueueUniqueRenderCommandType<BeginInitResource(FRenderResource*)::InitCommandName, BeginInitResource(FRenderResource*)::$_55> >::ExecuteTask(TArray<FBaseGraphTask*, TSizedDefaultAllocator<32> >&, ENamedThreads::Type) [/home/jenkins/UnrealEngine_4.26/Engine/Source/Runtime/Core/Public/Async/TaskGraphInterfaces.h:886]
+CarlaUE4-Linux-Shipping!FNamedTaskThread::ProcessTasksNamedThread(int, bool) [/home/jenkins/UnrealEngine_4.26/Engine/Source/Runtime/Core/Private/Async/TaskGraph.cpp:709]
+CarlaUE4-Linux-Shipping!FNamedTaskThread::ProcessTasksUntilQuit(int) [/home/jenkins/UnrealEngine_4.26/Engine/Source/Runtime/Core/Private/Async/TaskGraph.cpp:600]
+CarlaUE4-Linux-Shipping!RenderingThreadMain(FEvent*) [/home/jenkins/UnrealEngine_4.26/Engine/Source/Runtime/RenderCore/Private/RenderingThread.cpp:372]
+CarlaUE4-Linux-Shipping!FRenderingThread::Run() [/home/jenkins/UnrealEngine_4.26/Engine/Source/Runtime/RenderCore/Private/RenderingThread.cpp:526]
+CarlaUE4-Linux-Shipping!FRunnableThreadPThread::Run() [/home/jenkins/UnrealEngine_4.26/Engine/Source/Runtime/Core/Private/HAL/PThreadRunnableThread.cpp:25]
+CarlaUE4-Linux-Shipping!FRunnableThreadPThread::_ThreadProc(void*) [/home/jenkins/UnrealEngine_4.26/Engine/Source/Runtime/Core/Private/HAL/PThreadRunnableThread.h:185]
+libc.so.6!UnknownFunction(0x9cb83)
+libc.so.6!UnknownFunction(0x129ecb)
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!

@@ -1,0 +1,2 @@
+START 24721 Town01 HardBreakRoute
+END 24721 unknown_outcome 0 ticks 45.00s RuntimeError: time-out of 45000ms while waiting for the simulator, make sure the simulator is ready and connected to 127.0.0.1:2100

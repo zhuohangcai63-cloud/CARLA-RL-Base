@@ -1,0 +1,22 @@
+{
+  "real_carla": true,
+  "worker_id": "worker_1",
+  "service_epoch": "d8220a50-6180-4d87-91a2-ccce87e964d1",
+  "status": "passed",
+  "healthy_results": [
+    {
+      "index": 0,
+      "completed_frame": 12122,
+      "subsequent_frame": 12124
+    }
+  ],
+  "failure": "STEP outcome is unknown: Service stopped or restarted; reconnect and reset explicitly; request will not be replayed",
+  "unknown_action_not_replayed": true,
+  "explicit_restart": {
+    "state": "ready",
+    "old_epoch": "d8220a50-6180-4d87-91a2-ccce87e964d1",
+    "new_epoch": "50015538-da07-47ac-a975-4d1f887d68d8",
+    "epoch_changed": true,
+    "reset_and_steps_after_restart_passed": true
+  }
+}

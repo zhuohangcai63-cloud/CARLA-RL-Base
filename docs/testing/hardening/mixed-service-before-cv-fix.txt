@@ -1,0 +1,44 @@
+ERROR:easycarla.service.server:Backend command STEP failed
+Traceback (most recent call last):
+  File "/home/czh/workspace/CARLA-RL-Base/easycarla/runtime.py", line 187, in _advance
+    resolved = self.episode.resolve_control(requested)
+  File "/home/czh/workspace/CARLA-RL-Base/easycarla/scenarios/bench2drive/adapter.py", line 311, in resolve_control
+    return ResolvedControl(self.transform_control(requested), allow_combined=True)
+  File "/home/czh/workspace/CARLA-RL-Base/easycarla/scenarios/bench2drive/adapter.py", line 299, in transform_control
+    node.tick_once()
+  File "/home/czh/software/miniconda3/envs/CARLA-RL-Base/lib/python3.10/site-packages/py_trees/behaviour.py", line 158, in tick_once
+    for unused in self.tick():
+  File "/home/czh/software/miniconda3/envs/CARLA-RL-Base/lib/python3.10/site-packages/py_trees/composites.py", line 494, in tick
+    for node in child.tick():
+  File "/home/czh/software/miniconda3/envs/CARLA-RL-Base/lib/python3.10/site-packages/py_trees/composites.py", line 578, in tick
+    for node in child.tick():
+  File "/home/czh/software/miniconda3/envs/CARLA-RL-Base/lib/python3.10/site-packages/py_trees/composites.py", line 494, in tick
+    for node in child.tick():
+  File "/home/czh/software/miniconda3/envs/CARLA-RL-Base/lib/python3.10/site-packages/py_trees/composites.py", line 494, in tick
+    for node in child.tick():
+  File "/home/czh/software/miniconda3/envs/CARLA-RL-Base/lib/python3.10/site-packages/py_trees/composites.py", line 578, in tick
+    for node in child.tick():
+  File "/home/czh/software/miniconda3/envs/CARLA-RL-Base/lib/python3.10/site-packages/py_trees/behaviour.py", line 249, in tick
+    new_status = self.update()
+  File "/home/czh/.cache/easycarla/bench2drive/acbeb0dd8aa99dd0e71b9b75bb542f6fe7c7f3d8-p3/scenario_runner/srunner/scenariomanager/scenarioatomics/atomic_behaviors.py", line 2967, in update
+    self._spawn_actor(self._source_transform)
+  File "/home/czh/.cache/easycarla/bench2drive/acbeb0dd8aa99dd0e71b9b75bb542f6fe7c7f3d8-p3/scenario_runner/srunner/scenariomanager/scenarioatomics/atomic_behaviors.py", line 2933, in _spawn_actor
+    _easycarla_native_call(actor, 'enable_constant_velocity', carla.Vector3D(self._speed, 0, 0))  # For when physics are active
+  File "/home/czh/workspace/CARLA-RL-Base/easycarla/scenarios/bench2drive/native_control.py", line 69, in native_actor_call
+    return gateway.enable_constant_velocity(actor, args[0] if args else kwargs["velocity"], owner=owner)
+  File "/home/czh/workspace/CARLA-RL-Base/easycarla/control/gateway.py", line 126, in enable_constant_velocity
+    raise ControlConflict("Disable autopilot explicitly before enabling constant velocity")
+easycarla.errors.ControlConflict: Disable autopilot explicitly before enabling constant velocity
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/czh/workspace/CARLA-RL-Base/easycarla/service/server.py", line 151, in process_one
+    value = self._dispatch(header.operation, data)
+  File "/home/czh/workspace/CARLA-RL-Base/easycarla/service/server.py", line 111, in _dispatch
+    return self.backend.step(data["action"])
+  File "/home/czh/workspace/CARLA-RL-Base/easycarla/runtime.py", line 153, in step
+    return self._advance(action, self.config["simulation"]["decision_dt"], command)
+  File "/home/czh/workspace/CARLA-RL-Base/easycarla/runtime.py", line 238, in _advance
+    raise EnvironmentFault(f"Step failed after submission; no valid transition: {exc}", exc) from exc
+easycarla.errors.EnvironmentFault: Step failed after submission; no valid transition: Disable autopilot explicitly before enabling constant velocity

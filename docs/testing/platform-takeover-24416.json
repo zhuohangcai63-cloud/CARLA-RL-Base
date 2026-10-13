@@ -1,0 +1,240 @@
+{
+  "route_id": "24416",
+  "status": "passed",
+  "takeover": {
+    "role": "ParkingCutIn_1:adversary",
+    "mechanism": "L",
+    "parameters": {
+      "reaction_delay": 0.8,
+      "accepted_gap": 4.0,
+      "yield_window": 3.0,
+      "yield_speed_multiplier": 0.75,
+      "yield_deceleration": 2.0,
+      "proactive_yield": true,
+      "delayed_confirmation": true,
+      "gap_check": true
+    },
+    "native_lifetime": true,
+    "validation": "not_run"
+  },
+  "metadata": {
+    "source": "bench2drive",
+    "scenario_id": "24416",
+    "seed": 123,
+    "town": "Town03",
+    "scenario_types": [
+      "ParkingCutIn"
+    ],
+    "loaded_town": "Town03",
+    "route_fingerprint": "9bd98726a7afdefb1e11b1e1b72c9831084824d606c63d4501e09594b2f7b548",
+    "upstream_commit": "acbeb0dd8aa99dd0e71b9b75bb542f6fe7c7f3d8",
+    "patch_version": 4,
+    "native_npc": true,
+    "mechanism_replacements": [],
+    "generation_failure": null,
+    "native_validation": "not_run",
+    "repeatability_validation": "not_run",
+    "scenario_names": [
+      "ParkingCutIn_1"
+    ]
+  },
+  "phase": "waiting_for_trigger",
+  "switch": {
+    "role": "ParkingCutIn_1:adversary",
+    "mechanism": "G",
+    "parameters": {
+      "reaction_delay": 0.2,
+      "accepted_gap": 2.0,
+      "yield_window": 3.0,
+      "yield_speed_multiplier": 0.75,
+      "yield_deceleration": 2.0,
+      "proactive_yield": true,
+      "delayed_confirmation": true,
+      "gap_check": true
+    }
+  },
+  "displacement_m": 6.148440218712903,
+  "samples": [
+    {
+      "frame": 70535,
+      "position": [
+        119.15926361083984,
+        -125.28555297851562,
+        0.3240264058113098
+      ],
+      "owner": "ParkingCutIn_1:adversary",
+      "mechanism": "L",
+      "control": [
+        -1.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 70539,
+      "position": [
+        119.159423828125,
+        -125.28555297851562,
+        0.2998107075691223
+      ],
+      "owner": "ParkingCutIn_1:adversary",
+      "mechanism": "L",
+      "control": [
+        -1.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 70543,
+      "position": [
+        119.15670776367188,
+        -125.28651428222656,
+        0.2993036210536957
+      ],
+      "owner": "ParkingCutIn_1:adversary",
+      "mechanism": "L",
+      "control": [
+        -1.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 70547,
+      "position": [
+        119.09455108642578,
+        -125.32440185546875,
+        0.3038862645626068
+      ],
+      "owner": "ParkingCutIn_1:adversary",
+      "mechanism": "L",
+      "control": [
+        -1.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 70551,
+      "position": [
+        118.94475555419922,
+        -125.42938995361328,
+        0.3046235144138336
+      ],
+      "owner": "ParkingCutIn_1:adversary",
+      "mechanism": "L",
+      "control": [
+        -1.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 70555,
+      "position": [
+        118.66259765625,
+        -125.65760803222656,
+        0.3014049828052521
+      ],
+      "owner": "ParkingCutIn_1:adversary",
+      "mechanism": "L",
+      "control": [
+        -1.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 70559,
+      "position": [
+        118.2126235961914,
+        -126.11915588378906,
+        0.29666751623153687
+      ],
+      "owner": "ParkingCutIn_1:adversary",
+      "mechanism": "G",
+      "control": [
+        -1.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 70563,
+      "position": [
+        117.74955749511719,
+        -126.83939361572266,
+        0.2948262691497803
+      ],
+      "owner": "ParkingCutIn_1:adversary",
+      "mechanism": "G",
+      "control": [
+        -1.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 70567,
+      "position": [
+        117.24208068847656,
+        -127.84232330322266,
+        0.2918558716773987
+      ],
+      "owner": "ParkingCutIn_1:adversary",
+      "mechanism": "G",
+      "control": [
+        0.7501254677772522,
+        0.0,
+        0.08825705200433731
+      ]
+    },
+    {
+      "frame": 70571,
+      "position": [
+        116.66004943847656,
+        -128.67320251464844,
+        0.2910442054271698
+      ],
+      "owner": "ParkingCutIn_1:adversary",
+      "mechanism": "G",
+      "control": [
+        1.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 70575,
+      "position": [
+        115.86019134521484,
+        -129.35597229003906,
+        0.2845993638038635
+      ],
+      "owner": "ParkingCutIn_1:adversary",
+      "mechanism": "G",
+      "control": [
+        0.9810171723365784,
+        0.9575298428535461,
+        0.0
+      ]
+    },
+    {
+      "frame": 70579,
+      "position": [
+        114.90318298339844,
+        -129.7222900390625,
+        0.27846938371658325
+      ],
+      "owner": "ParkingCutIn_1:adversary",
+      "mechanism": "G",
+      "control": [
+        0.9978280067443848,
+        0.8333004117012024,
+        0.0
+      ]
+    }
+  ],
+  "native_suppression": {}
+}

@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "status": "native_initialization_crash",
+  "derived_at_utc": "2026-09-28T04:43:48.165296+00:00",
+  "scope": "Derived interpretation only; raw probe unchanged; no restart or replay",
+  "source_sha256": {
+    "summary.json": "897f9edbcaf74f03cc62bfc2d62daa950c4fd1689a8c8293629c2a51582df3b6",
+    "probe.json": "48fea328ad7f8d15d15a24ba598cd056d0dc31a27b13d1fb9ffc24497a3f4a0c",
+    "client.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "server.txt": "6bd025e34699dfb9951ce7ded885bb83d54bdeafe4408822a935be4d92129bf5",
+    "samples.jsonl": "d17287f35ec782e97577eea71d3b15ae875967e945707a413bf4b5d5e2daf551"
+  },
+  "raw_probe_status": "running",
+  "raw_probe_unchanged": true,
+  "route_count": 4,
+  "returned_routes": 0,
+  "confirmed_physical_ticks": 0,
+  "interrupted_routes": [],
+  "interrupted_result": null,
+  "not_run_route_ids": [
+    "22331",
+    "3816",
+    "31736",
+    "31654"
+  ],
+  "last_observed_phase": "engine GPU initialization before any route START",
+  "server_exit": -11,
+  "server_signal": "SIGSEGV",
+  "explicit_server_stop": false,
+  "client_exit": -15,
+  "client_exit_explanation": "Supervisor sent SIGTERM after observing server exit; not evidence of a Python client crash",
+  "crash": {
+    "symbol": "FVulkanQueue::Submit",
+    "source_location": "VulkanQueue.cpp:82",
+    "invalid_read_address": "0x290",
+    "diagnostics": "crashes/crashinfo-CarlaUE4-pid-192180-3821B24FC1E5406C861463CA38108C9E/Diagnostics.txt"
+  },
+  "elapsed_seconds": 2.0259948650000297,
+  "peaks": {
+    "server_rss_kib": 358092,
+    "gpu_0_memory_used_mib": 350.0
+  },
+  "shutdown_crash": false,
+  "shutdown_forced_kill": false,
+  "passed": false,
+  "limitations": [
+    "No completed native route or transition is produced by this run.",
+    "Faulting symbol and invalid address do not establish a single underlying C++ cause.",
+    "WaitForIdleOnSubmit=1 was enabled during startup together with other options; this failed combined profile does not prove the effect of each variable alone."
+  ],
+  "last_readonly_cvars": {
+    "r.Vulkan.EnableDefrag": 0,
+    "r.Vulkan.WaitForIdleOnSubmit": 1,
+    "r.AsyncPipelineCompile": [
+      0,
+      0
+    ],
+    "r.Vulkan.RHIThread": [
+      1,
+      1
+    ],
+    "r.RHICmdBypass": [
+      0,
+      0
+    ]
+  },
+  "last_observed_rhi_threads": [],
+  "profile_validation": "failed before readiness; not recommended as a runtime profile"
+}

@@ -1,0 +1,10 @@
+# Observed in /home/czh/software/miniconda3/envs/carla-client-test, 2026-09-27.
+# Runtime closure is only easycarla-client, numpy and posix-ipc.
+# Constraints pin versions; this is not a platform/build/hash lock file.
+easycarla-client==0.2.0
+numpy==2.4.6
+posix-ipc==1.3.2
+packaging==26.3
+pip==26.2.1
+setuptools==84.0.0
+wheel==0.48.0

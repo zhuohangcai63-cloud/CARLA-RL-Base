@@ -1,0 +1,1104 @@
+{
+  "schema_version": 1,
+  "instances": [
+    "planning_1"
+  ],
+  "mode": "serial",
+  "requests_per_repetition": 1000,
+  "repetitions": [
+    {
+      "valid_requests": 1000,
+      "physical_ticks": 2000,
+      "resets": 1,
+      "step_seconds": 175.56546723611245,
+      "reset_seconds": 37.635109658003785,
+      "elapsed_seconds": 213.26040413200099,
+      "step_throughput": 5.695880948245543,
+      "end_to_end_throughput": 4.689102996264762,
+      "batch_latency_p50_seconds": 0.16793312600202626,
+      "batch_latency_p95_seconds": 0.2705481180397328,
+      "timing_mean_seconds": {
+        "simulation_seconds": 0.019725111472565914,
+        "control_commit_seconds": 0.00042888003108964765,
+        "observation_seconds": 0.012301930409899796,
+        "history_seconds": 0.1071484621687414,
+        "scenario_seconds": 0.019673471124930075,
+        "sensor_wait_seconds": 0.004182731928289286,
+        "environment_seconds": 0.17429477237300306,
+        "backend_seconds": 0.1743293452183134,
+        "request_encode_seconds": 1.9841985078528523e-05,
+        "response_decode_seconds": 0.0004870163296436658,
+        "roundtrip_seconds": 0.1755582933069527,
+        "transport_and_copy_seconds": 0.0012289480886392993
+      },
+      "terminal_events": []
+    },
+    {
+      "valid_requests": 1000,
+      "physical_ticks": 2000,
+      "resets": 1,
+      "step_seconds": 182.0206138590147,
+      "reset_seconds": 12.310472726996522,
+      "elapsed_seconds": 194.39698040699295,
+      "step_throughput": 5.4938832410188265,
+      "end_to_end_throughput": 5.144112824727948,
+      "batch_latency_p50_seconds": 0.1740661395015195,
+      "batch_latency_p95_seconds": 0.3007927521430247,
+      "timing_mean_seconds": {
+        "simulation_seconds": 0.019610726227110718,
+        "control_commit_seconds": 0.00044345368596259506,
+        "observation_seconds": 0.012366262763738632,
+        "history_seconds": 0.11054403281689155,
+        "scenario_seconds": 0.022691853954922406,
+        "sensor_wait_seconds": 0.004178102839243365,
+        "environment_seconds": 0.18078349323607107,
+        "backend_seconds": 0.18081752783495175,
+        "request_encode_seconds": 1.993423199746758e-05,
+        "response_decode_seconds": 0.0004893624569958775,
+        "roundtrip_seconds": 0.18201326583909394,
+        "transport_and_copy_seconds": 0.0011957380041421857
+      },
+      "terminal_events": []
+    },
+    {
+      "valid_requests": 1000,
+      "physical_ticks": 2000,
+      "resets": 1,
+      "step_seconds": 183.7496961420111,
+      "reset_seconds": 12.316254606994335,
+      "elapsed_seconds": 196.15179274699767,
+      "step_throughput": 5.442185870213082,
+      "end_to_end_throughput": 5.098092584296842,
+      "batch_latency_p50_seconds": 0.17538549350138055,
+      "batch_latency_p95_seconds": 0.3019898953083612,
+      "timing_mean_seconds": {
+        "simulation_seconds": 0.01975692781996622,
+        "control_commit_seconds": 0.0004442520271986723,
+        "observation_seconds": 0.012347192218105192,
+        "history_seconds": 0.1106767496150569,
+        "scenario_seconds": 0.024255465283466036,
+        "sensor_wait_seconds": 0.004180625085806241,
+        "environment_seconds": 0.18248466464811644,
+        "backend_seconds": 0.18251870158420933,
+        "request_encode_seconds": 1.9857259598211386e-05,
+        "response_decode_seconds": 0.0005044328809744911,
+        "roundtrip_seconds": 0.18374227439402602,
+        "transport_and_copy_seconds": 0.0012235728098166873
+      },
+      "terminal_events": []
+    }
+  ],
+  "seed": 7,
+  "action": [
+    0.0,
+    0.0,
+    1.0
+  ],
+  "workload": "stationary_brake; NPCs and scene continue ticking",
+  "started_at": 1791812052.5443292,
+  "status": "completed",
+  "service_epochs": {
+    "0": "b55977f8-918b-4eb6-a69a-ab1ebd6c8e7a"
+  },
+  "resources": [
+    {
+      "timestamp": 1791812052.5443327,
+      "processes": [
+        {
+          "pid": 76681,
+          "pgid": 76673,
+          "rss_mb": 3214.9765625,
+          "cpu_ticks": 43020,
+          "threads": 98,
+          "command": "/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping CarlaUE4 -nullrhi -nosound -carla-rpc-port=24000 -carla-streaming-port=24001 -carla-secondary-port=24002 "
+        },
+        {
+          "pid": 76860,
+          "pgid": 76860,
+          "rss_mb": 181.07421875,
+          "cpu_ticks": 2187,
+          "threads": 24,
+          "command": "/home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python3.10 -m easycarla.service.cli serve --instance optimized_0 --config /home/czh/workspace/CARLA-RL-Base/artifacts/optimized-fleet/worker_0/environment.json "
+        },
+        {
+          "pid": 84585,
+          "pgid": 84576,
+          "rss_mb": 6075.00390625,
+          "cpu_ticks": 3912,
+          "threads": 98,
+          "command": "/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping CarlaUE4 -nullrhi -nosound -carla-rpc-port=24010 -carla-streaming-port=24011 -carla-secondary-port=24012 "
+        },
+        {
+          "pid": 84751,
+          "pgid": 84751,
+          "rss_mb": 38.8359375,
+          "cpu_ticks": 9,
+          "threads": 1,
+          "command": "/home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python3.10 -m easycarla.service.cli serve --instance planning_1 --config /home/czh/workspace/CARLA-RL-Base/artifacts/b2d-fleet/worker_1/environment.json "
+        }
+      ],
+      "MemAvailable": 17014.70703125,
+      "SwapFree": 8191.12109375
+    },
+    {
+      "timestamp": 1791812090.587509,
+      "processes": [
+        {
+          "pid": 84585,
+          "pgid": 84576,
+          "rss_mb": 4569.05859375,
+          "cpu_ticks": 7895,
+          "threads": 98,
+          "command": "/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping CarlaUE4 -nullrhi -nosound -carla-rpc-port=24010 -carla-streaming-port=24011 -carla-secondary-port=24012 "
+        },
+        {
+          "pid": 84751,
+          "pgid": 84751,
+          "rss_mb": 1218.0703125,
+          "cpu_ticks": 2161,
+          "threads": 24,
+          "command": "/home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python3.10 -m easycarla.service.cli serve --instance planning_1 --config /home/czh/workspace/CARLA-RL-Base/artifacts/b2d-fleet/worker_1/environment.json "
+        }
+      ],
+      "MemAvailable": 20428.30859375,
+      "SwapFree": 8191.12109375
+    },
+    {
+      "timestamp": 1791812120.6207442,
+      "processes": [
+        {
+          "pid": 84585,
+          "pgid": 84576,
+          "rss_mb": 4581.69921875,
+          "cpu_ticks": 11021,
+          "threads": 98,
+          "command": "/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping CarlaUE4 -nullrhi -nosound -carla-rpc-port=24010 -carla-streaming-port=24011 -carla-secondary-port=24012 "
+        },
+        {
+          "pid": 84751,
+          "pgid": 84751,
+          "rss_mb": 1221.9765625,
+          "cpu_ticks": 5018,
+          "threads": 24,
+          "command": "/home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python3.10 -m easycarla.service.cli serve --instance planning_1 --config /home/czh/workspace/CARLA-RL-Base/artifacts/b2d-fleet/worker_1/environment.json "
+        },
+        {
+          "pid": 86321,
+          "pgid": 86313,
+          "rss_mb": 6073.16796875,
+          "cpu_ticks": 1454,
+          "threads": 98,
+          "command": "/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping CarlaUE4 -nullrhi -nosound -carla-rpc-port=24000 -carla-streaming-port=24001 -carla-secondary-port=24002 "
+        },
+        {
+          "pid": 86567,
+          "pgid": 86567,
+          "rss_mb": 38.7890625,
+          "cpu_ticks": 7,
+          "threads": 1,
+          "command": "/home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python3.10 -m easycarla.service.cli serve --instance planning_0 --config /home/czh/workspace/CARLA-RL-Base/artifacts/fleet/worker_0/environment.json "
+        }
+      ],
+      "MemAvailable": 14496.40234375,
+      "SwapFree": 8191.12109375
+    },
+    {
+      "timestamp": 1791812150.6737483,
+      "processes": [
+        {
+          "pid": 84585,
+          "pgid": 84576,
+          "rss_mb": 4579.43359375,
+          "cpu_ticks": 14158,
+          "threads": 98,
+          "command": "/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping CarlaUE4 -nullrhi -nosound -carla-rpc-port=24010 -carla-streaming-port=24011 -carla-secondary-port=24012 "
+        },
+        {
+          "pid": 84751,
+          "pgid": 84751,
+          "rss_mb": 1224.1640625,
+          "cpu_ticks": 7876,
+          "threads": 24,
+          "command": "/home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python3.10 -m easycarla.service.cli serve --instance planning_1 --config /home/czh/workspace/CARLA-RL-Base/artifacts/b2d-fleet/worker_1/environment.json "
+        },
+        {
+          "pid": 86321,
+          "pgid": 86313,
+          "rss_mb": 6073.32421875,
+          "cpu_ticks": 4473,
+          "threads": 98,
+          "command": "/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping CarlaUE4 -nullrhi -nosound -carla-rpc-port=24000 -carla-streaming-port=24001 -carla-secondary-port=24002 "
+        },
+        {
+          "pid": 86567,
+          "pgid": 86567,
+          "rss_mb": 38.7890625,
+          "cpu_ticks": 10,
+          "threads": 1,
+          "command": "/home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python3.10 -m easycarla.service.cli serve --instance planning_0 --config /home/czh/workspace/CARLA-RL-Base/artifacts/fleet/worker_0/environment.json "
+        }
+      ],
+      "MemAvailable": 14586.59765625,
+      "SwapFree": 8191.12109375
+    },
+    {
+      "timestamp": 1791812180.806522,
+      "processes": [
+        {
+          "pid": 84585,
+          "pgid": 84576,
+          "rss_mb": 4577.6015625,
+          "cpu_ticks": 17304,
+          "threads": 98,
+          "command": "/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping CarlaUE4 -nullrhi -nosound -carla-rpc-port=24010 -carla-streaming-port=24011 -carla-secondary-port=24012 "
+        },
+        {
+          "pid": 84751,
+          "pgid": 84751,
+          "rss_mb": 1224.1640625,
+          "cpu_ticks": 10740,
+          "threads": 24,
+          "command": "/home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python3.10 -m easycarla.service.cli serve --instance planning_1 --config /home/czh/workspace/CARLA-RL-Base/artifacts/b2d-fleet/worker_1/environment.json "
+        },
+        {
+          "pid": 86321,
+          "pgid": 86313,
+          "rss_mb": 6073.48046875,
+          "cpu_ticks": 7500,
+          "threads": 98,
+          "command": "/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping CarlaUE4 -nullrhi -nosound -carla-rpc-port=24000 -carla-streaming-port=24001 -carla-secondary-port=24002 "
+        },
+        {
+          "pid": 86567,
+          "pgid": 86567,
+          "rss_mb": 38.7890625,
+          "cpu_ticks": 14,
+          "threads": 1,
+          "command": "/home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python3.10 -m easycarla.service.cli serve --instance planning_0 --config /home/czh/workspace/CARLA-RL-Base/artifacts/fleet/worker_0/environment.json "
+        }
+      ],
+      "MemAvailable": 14574.3359375,
+      "SwapFree": 8191.12109375
+    },
+    {
+      "timestamp": 1791812210.978925,
+      "processes": [
+        {
+          "pid": 84585,
+          "pgid": 84576,
+          "rss_mb": 4557.9765625,
+          "cpu_ticks": 20476,
+          "threads": 98,
+          "command": "/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping CarlaUE4 -nullrhi -nosound -carla-rpc-port=24010 -carla-streaming-port=24011 -carla-secondary-port=24012 "
+        },
+        {
+          "pid": 84751,
+          "pgid": 84751,
+          "rss_mb": 1224.4765625,
+          "cpu_ticks": 13576,
+          "threads": 24,
+          "command": "/home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python3.10 -m easycarla.service.cli serve --instance planning_1 --config /home/czh/workspace/CARLA-RL-Base/artifacts/b2d-fleet/worker_1/environment.json "
+        },
+        {
+          "pid": 86321,
+          "pgid": 86313,
+          "rss_mb": 6073.63671875,
+          "cpu_ticks": 10532,
+          "threads": 98,
+          "command": "/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping CarlaUE4 -nullrhi -nosound -carla-rpc-port=24000 -carla-streaming-port=24001 -carla-secondary-port=24002 "
+        },
+        {
+          "pid": 86567,
+          "pgid": 86567,
+          "rss_mb": 38.7890625,
+          "cpu_ticks": 18,
+          "threads": 1,
+          "command": "/home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python3.10 -m easycarla.service.cli serve --instance planning_0 --config /home/czh/workspace/CARLA-RL-Base/artifacts/fleet/worker_0/environment.json "
+        }
+      ],
+      "MemAvailable": 14489.578125,
+      "SwapFree": 8191.12109375
+    },
+    {
+      "timestamp": 1791812241.0901146,
+      "processes": [
+        {
+          "pid": 84585,
+          "pgid": 84576,
+          "rss_mb": 4558.609375,
+          "cpu_ticks": 23620,
+          "threads": 98,
+          "command": "/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping CarlaUE4 -nullrhi -nosound -carla-rpc-port=24010 -carla-streaming-port=24011 -carla-secondary-port=24012 "
+        },
+        {
+          "pid": 84751,
+          "pgid": 84751,
+          "rss_mb": 1225.2578125,
+          "cpu_ticks": 16432,
+          "threads": 24,
+          "command": "/home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python3.10 -m easycarla.service.cli serve --instance planning_1 --config /home/czh/workspace/CARLA-RL-Base/artifacts/b2d-fleet/worker_1/environment.json "
+        },
+        {
+          "pid": 86321,
+          "pgid": 86313,
+          "rss_mb": 6073.63671875,
+          "cpu_ticks": 13557,
+          "threads": 98,
+          "command": "/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping CarlaUE4 -nullrhi -nosound -carla-rpc-port=24000 -carla-streaming-port=24001 -carla-secondary-port=24002 "
+        },
+        {
+          "pid": 86567,
+          "pgid": 86567,
+          "rss_mb": 38.7890625,
+          "cpu_ticks": 22,
+          "threads": 1,
+          "command": "/home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python3.10 -m easycarla.service.cli serve --instance planning_0 --config /home/czh/workspace/CARLA-RL-Base/artifacts/fleet/worker_0/environment.json "
+        }
+      ],
+      "MemAvailable": 14587.16796875,
+      "SwapFree": 8191.12109375
+    },
+    {
+      "timestamp": 1791812278.4395163,
+      "processes": [
+        {
+          "pid": 84585,
+          "pgid": 84576,
+          "rss_mb": 4638.19921875,
+          "cpu_ticks": 27481,
+          "threads": 98,
+          "command": "/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping CarlaUE4 -nullrhi -nosound -carla-rpc-port=24010 -carla-streaming-port=24011 -carla-secondary-port=24012 "
+        },
+        {
+          "pid": 84751,
+          "pgid": 84751,
+          "rss_mb": 1183.37109375,
+          "cpu_ticks": 19989,
+          "threads": 24,
+          "command": "/home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python3.10 -m easycarla.service.cli serve --instance planning_1 --config /home/czh/workspace/CARLA-RL-Base/artifacts/b2d-fleet/worker_1/environment.json "
+        },
+        {
+          "pid": 86321,
+          "pgid": 86313,
+          "rss_mb": 6073.79296875,
+          "cpu_ticks": 17315,
+          "threads": 98,
+          "command": "/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping CarlaUE4 -nullrhi -nosound -carla-rpc-port=24000 -carla-streaming-port=24001 -carla-secondary-port=24002 "
+        },
+        {
+          "pid": 86567,
+          "pgid": 86567,
+          "rss_mb": 38.7890625,
+          "cpu_ticks": 27,
+          "threads": 1,
+          "command": "/home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python3.10 -m easycarla.service.cli serve --instance planning_0 --config /home/czh/workspace/CARLA-RL-Base/artifacts/fleet/worker_0/environment.json "
+        }
+      ],
+      "MemAvailable": 14249.3828125,
+      "SwapFree": 8191.12109375
+    },
+    {
+      "timestamp": 1791812308.463059,
+      "processes": [
+        {
+          "pid": 84585,
+          "pgid": 84576,
+          "rss_mb": 4646.14453125,
+          "cpu_ticks": 30613,
+          "threads": 98,
+          "command": "/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping CarlaUE4 -nullrhi -nosound -carla-rpc-port=24010 -carla-streaming-port=24011 -carla-secondary-port=24012 "
+        },
+        {
+          "pid": 84751,
+          "pgid": 84751,
+          "rss_mb": 1183.52734375,
+          "cpu_ticks": 22839,
+          "threads": 24,
+          "command": "/home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python3.10 -m easycarla.service.cli serve --instance planning_1 --config /home/czh/workspace/CARLA-RL-Base/artifacts/b2d-fleet/worker_1/environment.json "
+        },
+        {
+          "pid": 86321,
+          "pgid": 86313,
+          "rss_mb": 6074.10546875,
+          "cpu_ticks": 20333,
+          "threads": 98,
+          "command": "/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping CarlaUE4 -nullrhi -nosound -carla-rpc-port=24000 -carla-streaming-port=24001 -carla-secondary-port=24002 "
+        },
+        {
+          "pid": 86567,
+          "pgid": 86567,
+          "rss_mb": 38.7890625,
+          "cpu_ticks": 31,
+          "threads": 1,
+          "command": "/home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python3.10 -m easycarla.service.cli serve --instance planning_0 --config /home/czh/workspace/CARLA-RL-Base/artifacts/fleet/worker_0/environment.json "
+        }
+      ],
+      "MemAvailable": 14513.046875,
+      "SwapFree": 8191.12109375
+    },
+    {
+      "timestamp": 1791812338.5574453,
+      "processes": [
+        {
+          "pid": 84585,
+          "pgid": 84576,
+          "rss_mb": 4585.83984375,
+          "cpu_ticks": 33763,
+          "threads": 98,
+          "command": "/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping CarlaUE4 -nullrhi -nosound -carla-rpc-port=24010 -carla-streaming-port=24011 -carla-secondary-port=24012 "
+        },
+        {
+          "pid": 84751,
+          "pgid": 84751,
+          "rss_mb": 1183.99609375,
+          "cpu_ticks": 25698,
+          "threads": 24,
+          "command": "/home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python3.10 -m easycarla.service.cli serve --instance planning_1 --config /home/czh/workspace/CARLA-RL-Base/artifacts/b2d-fleet/worker_1/environment.json "
+        },
+        {
+          "pid": 86321,
+          "pgid": 86313,
+          "rss_mb": 6074.10546875,
+          "cpu_ticks": 23357,
+          "threads": 98,
+          "command": "/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping CarlaUE4 -nullrhi -nosound -carla-rpc-port=24000 -carla-streaming-port=24001 -carla-secondary-port=24002 "
+        },
+        {
+          "pid": 86567,
+          "pgid": 86567,
+          "rss_mb": 38.7890625,
+          "cpu_ticks": 34,
+          "threads": 1,
+          "command": "/home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python3.10 -m easycarla.service.cli serve --instance planning_0 --config /home/czh/workspace/CARLA-RL-Base/artifacts/fleet/worker_0/environment.json "
+        }
+      ],
+      "MemAvailable": 14589.0859375,
+      "SwapFree": 8191.12109375
+    },
+    {
+      "timestamp": 1791812368.6272745,
+      "processes": [
+        {
+          "pid": 84585,
+          "pgid": 84576,
+          "rss_mb": 4585.83984375,
+          "cpu_ticks": 36902,
+          "threads": 98,
+          "command": "/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping CarlaUE4 -nullrhi -nosound -carla-rpc-port=24010 -carla-streaming-port=24011 -carla-secondary-port=24012 "
+        },
+        {
+          "pid": 84751,
+          "pgid": 84751,
+          "rss_mb": 1184.15234375,
+          "cpu_ticks": 28552,
+          "threads": 24,
+          "command": "/home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python3.10 -m easycarla.service.cli serve --instance planning_1 --config /home/czh/workspace/CARLA-RL-Base/artifacts/b2d-fleet/worker_1/environment.json "
+        },
+        {
+          "pid": 86321,
+          "pgid": 86313,
+          "rss_mb": 6074.10546875,
+          "cpu_ticks": 26378,
+          "threads": 98,
+          "command": "/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping CarlaUE4 -nullrhi -nosound -carla-rpc-port=24000 -carla-streaming-port=24001 -carla-secondary-port=24002 "
+        },
+        {
+          "pid": 86567,
+          "pgid": 86567,
+          "rss_mb": 38.7890625,
+          "cpu_ticks": 38,
+          "threads": 1,
+          "command": "/home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python3.10 -m easycarla.service.cli serve --instance planning_0 --config /home/czh/workspace/CARLA-RL-Base/artifacts/fleet/worker_0/environment.json "
+        }
+      ],
+      "MemAvailable": 14575.86328125,
+      "SwapFree": 8191.12109375
+    },
+    {
+      "timestamp": 1791812398.7074049,
+      "processes": [
+        {
+          "pid": 84585,
+          "pgid": 84576,
+          "rss_mb": 4585.77734375,
+          "cpu_ticks": 40039,
+          "threads": 98,
+          "command": "/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping CarlaUE4 -nullrhi -nosound -carla-rpc-port=24010 -carla-streaming-port=24011 -carla-secondary-port=24012 "
+        },
+        {
+          "pid": 84751,
+          "pgid": 84751,
+          "rss_mb": 1184.62109375,
+          "cpu_ticks": 31408,
+          "threads": 24,
+          "command": "/home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python3.10 -m easycarla.service.cli serve --instance planning_1 --config /home/czh/workspace/CARLA-RL-Base/artifacts/b2d-fleet/worker_1/environment.json "
+        },
+        {
+          "pid": 86321,
+          "pgid": 86313,
+          "rss_mb": 6074.26171875,
+          "cpu_ticks": 29400,
+          "threads": 98,
+          "command": "/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping CarlaUE4 -nullrhi -nosound -carla-rpc-port=24000 -carla-streaming-port=24001 -carla-secondary-port=24002 "
+        },
+        {
+          "pid": 86567,
+          "pgid": 86567,
+          "rss_mb": 38.7890625,
+          "cpu_ticks": 42,
+          "threads": 1,
+          "command": "/home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python3.10 -m easycarla.service.cli serve --instance planning_0 --config /home/czh/workspace/CARLA-RL-Base/artifacts/fleet/worker_0/environment.json "
+        }
+      ],
+      "MemAvailable": 14555.1875,
+      "SwapFree": 8191.12109375
+    },
+    {
+      "timestamp": 1791812428.803216,
+      "processes": [
+        {
+          "pid": 84585,
+          "pgid": 84576,
+          "rss_mb": 4585.81640625,
+          "cpu_ticks": 43187,
+          "threads": 98,
+          "command": "/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping CarlaUE4 -nullrhi -nosound -carla-rpc-port=24010 -carla-streaming-port=24011 -carla-secondary-port=24012 "
+        },
+        {
+          "pid": 84751,
+          "pgid": 84751,
+          "rss_mb": 1185.71484375,
+          "cpu_ticks": 34268,
+          "threads": 24,
+          "command": "/home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python3.10 -m easycarla.service.cli serve --instance planning_1 --config /home/czh/workspace/CARLA-RL-Base/artifacts/b2d-fleet/worker_1/environment.json "
+        },
+        {
+          "pid": 86321,
+          "pgid": 86313,
+          "rss_mb": 6074.57421875,
+          "cpu_ticks": 32424,
+          "threads": 98,
+          "command": "/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping CarlaUE4 -nullrhi -nosound -carla-rpc-port=24000 -carla-streaming-port=24001 -carla-secondary-port=24002 "
+        },
+        {
+          "pid": 86567,
+          "pgid": 86567,
+          "rss_mb": 38.7890625,
+          "cpu_ticks": 46,
+          "threads": 1,
+          "command": "/home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python3.10 -m easycarla.service.cli serve --instance planning_0 --config /home/czh/workspace/CARLA-RL-Base/artifacts/fleet/worker_0/environment.json "
+        }
+      ],
+      "MemAvailable": 14534.6015625,
+      "SwapFree": 8191.12109375
+    },
+    {
+      "timestamp": 1791812458.9739673,
+      "processes": [
+        {
+          "pid": 84585,
+          "pgid": 84576,
+          "rss_mb": 4585.81640625,
+          "cpu_ticks": 46335,
+          "threads": 98,
+          "command": "/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping CarlaUE4 -nullrhi -nosound -carla-rpc-port=24010 -carla-streaming-port=24011 -carla-secondary-port=24012 "
+        },
+        {
+          "pid": 84751,
+          "pgid": 84751,
+          "rss_mb": 1186.49609375,
+          "cpu_ticks": 37133,
+          "threads": 24,
+          "command": "/home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python3.10 -m easycarla.service.cli serve --instance planning_1 --config /home/czh/workspace/CARLA-RL-Base/artifacts/b2d-fleet/worker_1/environment.json "
+        },
+        {
+          "pid": 86321,
+          "pgid": 86313,
+          "rss_mb": 6074.73046875,
+          "cpu_ticks": 35456,
+          "threads": 98,
+          "command": "/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping CarlaUE4 -nullrhi -nosound -carla-rpc-port=24000 -carla-streaming-port=24001 -carla-secondary-port=24002 "
+        },
+        {
+          "pid": 86567,
+          "pgid": 86567,
+          "rss_mb": 38.7890625,
+          "cpu_ticks": 50,
+          "threads": 1,
+          "command": "/home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python3.10 -m easycarla.service.cli serve --instance planning_0 --config /home/czh/workspace/CARLA-RL-Base/artifacts/fleet/worker_0/environment.json "
+        }
+      ],
+      "MemAvailable": 14533.421875,
+      "SwapFree": 8191.12109375
+    },
+    {
+      "timestamp": 1791812489.0560431,
+      "processes": [
+        {
+          "pid": 84585,
+          "pgid": 84576,
+          "rss_mb": 4605.65234375,
+          "cpu_ticks": 49436,
+          "threads": 98,
+          "command": "/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping CarlaUE4 -nullrhi -nosound -carla-rpc-port=24010 -carla-streaming-port=24011 -carla-secondary-port=24012 "
+        },
+        {
+          "pid": 84751,
+          "pgid": 84751,
+          "rss_mb": 1179.703125,
+          "cpu_ticks": 40002,
+          "threads": 24,
+          "command": "/home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python3.10 -m easycarla.service.cli serve --instance planning_1 --config /home/czh/workspace/CARLA-RL-Base/artifacts/b2d-fleet/worker_1/environment.json "
+        },
+        {
+          "pid": 86321,
+          "pgid": 86313,
+          "rss_mb": 6075.04296875,
+          "cpu_ticks": 38479,
+          "threads": 98,
+          "command": "/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping CarlaUE4 -nullrhi -nosound -carla-rpc-port=24000 -carla-streaming-port=24001 -carla-secondary-port=24002 "
+        },
+        {
+          "pid": 86567,
+          "pgid": 86567,
+          "rss_mb": 38.7890625,
+          "cpu_ticks": 53,
+          "threads": 1,
+          "command": "/home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python3.10 -m easycarla.service.cli serve --instance planning_0 --config /home/czh/workspace/CARLA-RL-Base/artifacts/fleet/worker_0/environment.json "
+        }
+      ],
+      "MemAvailable": 14493.703125,
+      "SwapFree": 8191.12109375
+    },
+    {
+      "timestamp": 1791812519.219252,
+      "processes": [
+        {
+          "pid": 84585,
+          "pgid": 84576,
+          "rss_mb": 4605.65234375,
+          "cpu_ticks": 52581,
+          "threads": 98,
+          "command": "/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping CarlaUE4 -nullrhi -nosound -carla-rpc-port=24010 -carla-streaming-port=24011 -carla-secondary-port=24012 "
+        },
+        {
+          "pid": 84751,
+          "pgid": 84751,
+          "rss_mb": 1180.484375,
+          "cpu_ticks": 42868,
+          "threads": 24,
+          "command": "/home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python3.10 -m easycarla.service.cli serve --instance planning_1 --config /home/czh/workspace/CARLA-RL-Base/artifacts/b2d-fleet/worker_1/environment.json "
+        },
+        {
+          "pid": 86321,
+          "pgid": 86313,
+          "rss_mb": 6075.19921875,
+          "cpu_ticks": 41509,
+          "threads": 98,
+          "command": "/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping CarlaUE4 -nullrhi -nosound -carla-rpc-port=24000 -carla-streaming-port=24001 -carla-secondary-port=24002 "
+        },
+        {
+          "pid": 86567,
+          "pgid": 86567,
+          "rss_mb": 38.7890625,
+          "cpu_ticks": 56,
+          "threads": 1,
+          "command": "/home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python3.10 -m easycarla.service.cli serve --instance planning_0 --config /home/czh/workspace/CARLA-RL-Base/artifacts/fleet/worker_0/environment.json "
+        }
+      ],
+      "MemAvailable": 14546.91796875,
+      "SwapFree": 8191.12109375
+    },
+    {
+      "timestamp": 1791812549.3820474,
+      "processes": [
+        {
+          "pid": 84585,
+          "pgid": 84576,
+          "rss_mb": 4591.8671875,
+          "cpu_ticks": 55739,
+          "threads": 98,
+          "command": "/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping CarlaUE4 -nullrhi -nosound -carla-rpc-port=24010 -carla-streaming-port=24011 -carla-secondary-port=24012 "
+        },
+        {
+          "pid": 84751,
+          "pgid": 84751,
+          "rss_mb": 1180.640625,
+          "cpu_ticks": 45732,
+          "threads": 24,
+          "command": "/home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python3.10 -m easycarla.service.cli serve --instance planning_1 --config /home/czh/workspace/CARLA-RL-Base/artifacts/b2d-fleet/worker_1/environment.json "
+        },
+        {
+          "pid": 86321,
+          "pgid": 86313,
+          "rss_mb": 6075.35546875,
+          "cpu_ticks": 44541,
+          "threads": 98,
+          "command": "/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping CarlaUE4 -nullrhi -nosound -carla-rpc-port=24000 -carla-streaming-port=24001 -carla-secondary-port=24002 "
+        },
+        {
+          "pid": 86567,
+          "pgid": 86567,
+          "rss_mb": 38.7890625,
+          "cpu_ticks": 61,
+          "threads": 1,
+          "command": "/home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python3.10 -m easycarla.service.cli serve --instance planning_0 --config /home/czh/workspace/CARLA-RL-Base/artifacts/fleet/worker_0/environment.json "
+        }
+      ],
+      "MemAvailable": 14518.2890625,
+      "SwapFree": 8191.12109375
+    },
+    {
+      "timestamp": 1791812579.462434,
+      "processes": [
+        {
+          "pid": 84585,
+          "pgid": 84576,
+          "rss_mb": 4591.97265625,
+          "cpu_ticks": 58878,
+          "threads": 98,
+          "command": "/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping CarlaUE4 -nullrhi -nosound -carla-rpc-port=24010 -carla-streaming-port=24011 -carla-secondary-port=24012 "
+        },
+        {
+          "pid": 84751,
+          "pgid": 84751,
+          "rss_mb": 1181.578125,
+          "cpu_ticks": 48586,
+          "threads": 24,
+          "command": "/home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python3.10 -m easycarla.service.cli serve --instance planning_1 --config /home/czh/workspace/CARLA-RL-Base/artifacts/b2d-fleet/worker_1/environment.json "
+        },
+        {
+          "pid": 86321,
+          "pgid": 86313,
+          "rss_mb": 6075.51171875,
+          "cpu_ticks": 47563,
+          "threads": 98,
+          "command": "/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping CarlaUE4 -nullrhi -nosound -carla-rpc-port=24000 -carla-streaming-port=24001 -carla-secondary-port=24002 "
+        },
+        {
+          "pid": 86567,
+          "pgid": 86567,
+          "rss_mb": 38.7890625,
+          "cpu_ticks": 65,
+          "threads": 1,
+          "command": "/home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python3.10 -m easycarla.service.cli serve --instance planning_0 --config /home/czh/workspace/CARLA-RL-Base/artifacts/fleet/worker_0/environment.json "
+        }
+      ],
+      "MemAvailable": 14540.5859375,
+      "SwapFree": 8191.12109375
+    },
+    {
+      "timestamp": 1791812609.5276384,
+      "processes": [
+        {
+          "pid": 84585,
+          "pgid": 84576,
+          "rss_mb": 4592.17578125,
+          "cpu_ticks": 62013,
+          "threads": 98,
+          "command": "/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping CarlaUE4 -nullrhi -nosound -carla-rpc-port=24010 -carla-streaming-port=24011 -carla-secondary-port=24012 "
+        },
+        {
+          "pid": 84751,
+          "pgid": 84751,
+          "rss_mb": 1181.890625,
+          "cpu_ticks": 51437,
+          "threads": 24,
+          "command": "/home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python3.10 -m easycarla.service.cli serve --instance planning_1 --config /home/czh/workspace/CARLA-RL-Base/artifacts/b2d-fleet/worker_1/environment.json "
+        },
+        {
+          "pid": 86321,
+          "pgid": 86313,
+          "rss_mb": 6075.51171875,
+          "cpu_ticks": 50582,
+          "threads": 98,
+          "command": "/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping CarlaUE4 -nullrhi -nosound -carla-rpc-port=24000 -carla-streaming-port=24001 -carla-secondary-port=24002 "
+        },
+        {
+          "pid": 86567,
+          "pgid": 86567,
+          "rss_mb": 38.7890625,
+          "cpu_ticks": 69,
+          "threads": 1,
+          "command": "/home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python3.10 -m easycarla.service.cli serve --instance planning_0 --config /home/czh/workspace/CARLA-RL-Base/artifacts/fleet/worker_0/environment.json "
+        }
+      ],
+      "MemAvailable": 14495.515625,
+      "SwapFree": 8191.12109375
+    },
+    {
+      "timestamp": 1791812639.5479515,
+      "processes": [
+        {
+          "pid": 84585,
+          "pgid": 84576,
+          "rss_mb": 4592.1796875,
+          "cpu_ticks": 65141,
+          "threads": 98,
+          "command": "/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping CarlaUE4 -nullrhi -nosound -carla-rpc-port=24010 -carla-streaming-port=24011 -carla-secondary-port=24012 "
+        },
+        {
+          "pid": 84751,
+          "pgid": 84751,
+          "rss_mb": 1182.203125,
+          "cpu_ticks": 54282,
+          "threads": 24,
+          "command": "/home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python3.10 -m easycarla.service.cli serve --instance planning_1 --config /home/czh/workspace/CARLA-RL-Base/artifacts/b2d-fleet/worker_1/environment.json "
+        },
+        {
+          "pid": 86321,
+          "pgid": 86313,
+          "rss_mb": 6075.66796875,
+          "cpu_ticks": 53600,
+          "threads": 98,
+          "command": "/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping CarlaUE4 -nullrhi -nosound -carla-rpc-port=24000 -carla-streaming-port=24001 -carla-secondary-port=24002 "
+        },
+        {
+          "pid": 86567,
+          "pgid": 86567,
+          "rss_mb": 38.7890625,
+          "cpu_ticks": 72,
+          "threads": 1,
+          "command": "/home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python3.10 -m easycarla.service.cli serve --instance planning_0 --config /home/czh/workspace/CARLA-RL-Base/artifacts/fleet/worker_0/environment.json "
+        }
+      ],
+      "MemAvailable": 14510.78515625,
+      "SwapFree": 8191.12109375
+    },
+    {
+      "timestamp": 1791812656.4403124,
+      "processes": [
+        {
+          "pid": 84585,
+          "pgid": 84576,
+          "rss_mb": 4592.1796875,
+          "cpu_ticks": 66901,
+          "threads": 98,
+          "command": "/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping CarlaUE4 -nullrhi -nosound -carla-rpc-port=24010 -carla-streaming-port=24011 -carla-secondary-port=24012 "
+        },
+        {
+          "pid": 84751,
+          "pgid": 84751,
+          "rss_mb": 1182.359375,
+          "cpu_ticks": 55882,
+          "threads": 24,
+          "command": "/home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python3.10 -m easycarla.service.cli serve --instance planning_1 --config /home/czh/workspace/CARLA-RL-Base/artifacts/b2d-fleet/worker_1/environment.json "
+        },
+        {
+          "pid": 86321,
+          "pgid": 86313,
+          "rss_mb": 6075.82421875,
+          "cpu_ticks": 55298,
+          "threads": 98,
+          "command": "/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping CarlaUE4 -nullrhi -nosound -carla-rpc-port=24000 -carla-streaming-port=24001 -carla-secondary-port=24002 "
+        },
+        {
+          "pid": 86567,
+          "pgid": 86567,
+          "rss_mb": 38.7890625,
+          "cpu_ticks": 75,
+          "threads": 1,
+          "command": "/home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python3.10 -m easycarla.service.cli serve --instance planning_0 --config /home/czh/workspace/CARLA-RL-Base/artifacts/fleet/worker_0/environment.json "
+        }
+      ],
+      "MemAvailable": 14530.1796875,
+      "SwapFree": 8191.12109375
+    }
+  ],
+  "source_hashes": {
+    "easycarla/__init__.py": "79ec5389801a8e5eb28e89ab4cc2f0ddd876350709931c261c1be3e7b5c2ad5c",
+    "easycarla/config.py": "db1e3696d04f361e71ff256604e269bd1c219e6f99b56cf7728812f67f1cdd9a",
+    "easycarla/errors.py": "c527b80a7108b731ebf146918087535426b578a169c76707001f203b62aeec9a",
+    "easycarla/runtime.py": "b70f0b76e4a2c3ea5b5624af8eb0637139e1a93f930b324a9626882fe88f7868",
+    "easycarla/runtime_experiments.py": "409c8928841d9930adf09f9f0c1573a641c6550bda8002801f9e97a43b45d4e6",
+    "easycarla/tasks.py": "17ad06a1667696ea60fa3273ad4734034359b4305a5c21729688e004a7bffba4",
+    "easycarla/control/npc.py": "37c6e92468013eeeb9b9fc5a94ed8567d3310fef375836824f8a5892b788edb1",
+    "easycarla/control/gateway.py": "a4f6ae9d6ab8eb4e3d617b5fe4029131c8524d46de4b5d94b9ff7db687b93355",
+    "easycarla/control/__init__.py": "0cb7990d717c1d635eb3dd2c923342c7b04c86352a951fd4e4e10ff34ea1c51b",
+    "easycarla/control/trajectory.py": "8b25f282c5afa60006806efafc42c408469d1dab82f8305a344e0b6a94cbd919",
+    "easycarla/control/actions.py": "205fad0c2b73793bdcce3ad1a26419dc459af42b40c5aed4be42010d85cf3f5a",
+    "easycarla/control/ownership.py": "98c4bc3498b7de959781f4d32266b4f4789e2a2819a06f0224ccb81fb699d4db",
+    "easycarla/simulation/resources.py": "a13467af379fcc7f70f33aef8d60663d34990378342dc6a408d0cd68aa83d566",
+    "easycarla/simulation/__init__.py": "d352fa0b89c8c5e910d5f4fdf27f3770ae1eff92d8aa7fde3b9ff94cd6756c31",
+    "easycarla/simulation/traffic.py": "85dbc84a1512ed78211490de1fb1e89fa8c0bbada5e6c09ed67c35fa1814b76a",
+    "easycarla/simulation/session.py": "825c7b03f411262f46cb555ef6af972469d8b2134f963286738ff3d6bc88448f",
+    "easycarla/simulation/sensors.py": "07cc5a85e808ee079d4f3bc57c136d795bbf1dad53f37f5376b317e8e5619e41",
+    "easycarla/scenarios/long_tail_events.py": "6505d59143f09b9446425ce4e444c30ac694e503c36ca5c3930b42ffa00949ed",
+    "easycarla/scenarios/__init__.py": "1bd510db2934c371483b914a1105bdeafef14e5c15fd46712bf6a0ef07dd8ce6",
+    "easycarla/scenarios/reactive_routes.py": "80c0b8c99541689fbefe1870861c2de9bf59b5c64114042b995cb2bfc7dde4f8",
+    "easycarla/scenarios/contracts.py": "0f54fcd30e32ce141ef822d683543a341b140ad897ed98dd8103cf8dae18fb3d",
+    "easycarla/scenarios/providers.py": "08378ec9ed1acf91b4ef6aace68215c5148c1b2be858f6f781bcc4bb019b5511",
+    "easycarla/scenarios/manifests.py": "9135fa80bd03dc1c14a02c58aaa31141dd194c70f982c9f605e88de8d343a814",
+    "easycarla/scenarios/selection.py": "2a1b9e4250cf50a961ccd66d7d55245ecea8e8a007407555e298374a4e72fe5d",
+    "easycarla/scenarios/scenic_source.py": "4bfe3adfb661b2494881ceb3730e53e8f9be924948d19aafc5a4d955d34d03d3",
+    "easycarla/scenarios/context.py": "9f05ecb755282aa8eecfe553e174c7434f7419218d3044c7874ebc927a3afa0c",
+    "easycarla/scenarios/events/construction.py": "9d0933ce7ccfc38a8f26ba9d2224654d78441f9094fbfacda1f7e9a88fc74b4b",
+    "easycarla/scenarios/events/manager.py": "c90df9fb48f63b393f60d876e696c72e5295dc57ce018e694123f73b7c9efe53",
+    "easycarla/scenarios/events/door.py": "4351d9caef0ba78c7ef14752efa0f468e1c11356bac4dd4668ef410831439f8c",
+    "easycarla/scenarios/events/lead_brake.py": "59c5cae17e1cbd6c0d6d1656a18761d6abfebc855fc36ee0d59e1c65f2dcde9f",
+    "easycarla/scenarios/events/__init__.py": "36cbfc92918cce116d95004633f4a91b193f0ea03709fb6b183c251438d4cc0c",
+    "easycarla/scenarios/events/defaults.py": "1756d1d86fe48333c79116fdd1aa6848501e00f23c879c63f6491b56a806dd11",
+    "easycarla/scenarios/events/base.py": "ec898e0accd243fe3b4fbfc9a0cb1d752be669c917d3a21e0b29c4982fa803bf",
+    "easycarla/scenarios/events/state.py": "b09cb46dafe30ee32239ed80f0dec79e8be781d65f31185eb7f92166fb8bbb62",
+    "easycarla/scenarios/events/geometry.py": "0df7082c908a5c7e7bc873c66ccc07331cf7e8db9bcd9f1b79f2aa7b3dcfe114",
+    "easycarla/scenarios/events/parking.py": "aad1197090be84b00d5149587bf4ebf31f30f76efa450c0eb94158d45ea9bd24",
+    "easycarla/scenarios/events/crossing.py": "3b4784bfdf7bb205fda7d0b46f504d3bd87506533076473476281e706cc52939",
+    "easycarla/scenarios/events/types.py": "6ba476e5d7ac79174a377a33e2ee75a927a0e9274baf2a341cfd2ba62c963353",
+    "easycarla/scenarios/bench2drive/agents.py": "0402fc72371ffebb2f5219fcd099fbce37a7d1ea103299d350fa3ca40d1b2974",
+    "easycarla/scenarios/bench2drive/__init__.py": "db9a3f6dd7bfc7219afd1ca61924f3dc6f48dfd64f9e73a1f3518620e99f8b8e",
+    "easycarla/scenarios/bench2drive/progress.py": "a2f0e6cbafeaff2d29edaadfc3b62f927103fb85fbe731796e7aab9136e1ccfa",
+    "easycarla/scenarios/bench2drive/native_control.py": "aa018738797ec2fa5708e6cd61d5e26f1955db67c9761cab8c4d11a02acc1f4f",
+    "easycarla/scenarios/bench2drive/planner.py": "c55a9bc6f683fb3a84796b1ecc0c91cd6b0d308f4b0ffb340ee74296626bb005",
+    "easycarla/scenarios/bench2drive/adapter.py": "b1fe5d16411df6607276cefa7d28c53c6a4e9078b5748cbf9292789f2eb216dd",
+    "easycarla/scenarios/bench2drive/statistics.py": "345cb76546b488aa5784404fca7e5ceb08881dae584a948e37a62ecde807d15d",
+    "easycarla/service/fleet.py": "dadc619a8a489dbb75e5c3df7169594cc1cba449d2206da93ea15d30a78ec3af",
+    "easycarla/service/testing.py": "3b08d4ec4d271599192ea69c95f2cf72993be8bfb5b8663439eb3949d09c473c",
+    "easycarla/service/__init__.py": "06734e877a5ff53dc8f1b6f7dde3229d4aaaeaf080c2b2f9c5b73182faa7b2a1",
+    "easycarla/service/cli.py": "2954d493a951dcb53e043ab237e8fdd05ed945cfb2953dab4df18657ace5d5a7",
+    "easycarla/service/server.py": "a86054c32b0c1585ad258ab7fd320559dfe92eb31e22cda433f554cf42d0caba",
+    "easycarla/envs/gym_env.py": "1de65f8fa116c1dd4a16d1655ab59421229332be62ea2373aeb7a43d928380e3",
+    "easycarla/envs/__init__.py": "7fa9fe8b0847df147891e8c3e787dc50878bc758713c4a180ad26f2e94eba779",
+    "easycarla/envs/carla_env_test.py": "1733b0de27646a853501dd0c74faa47724a70cbf4b3f7e7b2eaecad7dab89e2c",
+    "easycarla/extensions/__init__.py": "74708fecf5cfce898f0701b28e9f286c4aa6f551f9c672231571fe590cc6bcdc",
+    "easycarla/extensions/replay.py": "2e1a86574d037e8447c39e66ff03b508f8fd2f32de0c1bffd7744e996c6bf0d4",
+    "easycarla/extensions/schema.py": "759e81778f3aa3be2610c0d1dde6133b5aa6a2de62218ddec551aefcb32b1dc5",
+    "easycarla/extensions/materials.py": "26a1d779b257e343c5528f63bb2e12dc7530161f64eb87c12e8c0d846d94d1b6",
+    "easycarla/extensions/state.py": "36e993535c8319bfb1229f5bebec735ea19ed685d9ef60e8ed48fe8c6e705fde",
+    "easycarla/extensions/session.py": "a327eae2acb6b600bcc652779c73a28ab8351d2ed57f6f2189cdb4ee7e949046",
+    "easycarla/observations/builder.py": "e8dbc0e810aa01ae9cc4ae985808b596057daee025abf5537cf7833296cea4b3",
+    "easycarla/observations/frame.py": "b8c718956ed277f46bc0aecc03a80e54e8c76eb8f6412c1bc1d0e98a7b4e8e66",
+    "easycarla/observations/__init__.py": "ecc5a4201a8a76e74b468ad07ebd1f5bd135b3f5755a1786507796cebd09ae06",
+    "easycarla/observations/routes.py": "bd87ede8098f98e12c1d38511cd11947cbb43ecbe334e7af96a898c99c0f1913",
+    "easycarla/observations/maps.py": "31ff4e429518cbfd9408473e83ca30ff40c50b72e885fceaf00f84762c4e925a",
+    "easycarla/observations/spec.py": "fc0bea06d2e68563dbec3ef770f2687169abf0aa61bf748fd8dabc10b4ecfe0f",
+    "easycarla/observations/geometry.py": "2bff89b345d577788f14869e71382fcab0f457fd253621dd0c8ee0c58da2b972",
+    "easycarla/observations/vehicle_geometry.py": "bed364a16f28dec0228f345ba3eaedf8123dfac122b78e2a9533f909eedef81c",
+    "easycarla/observations/planning.py": "39ae2aa33c2b6bf6cf8e4e6b282229b121a77bc519c0b0b93587bff6d3c99342",
+    "packages/client/easycarla_client/gym_env.py": "0fb48233b506c7fd7d18ae1b5c6605a9ba57fbb64c274866bd5a601c4bf5c3bf",
+    "packages/client/easycarla_client/protocol.py": "3630a9e0da3ea5c72130662d7368407b7f852c977267dabeead9e7543ff20c9d",
+    "packages/client/easycarla_client/pool.py": "5ffcdceb8a0aa589f39c0d7e32e7f48ae2369759f7d70f04eef77cb04626a273",
+    "packages/client/easycarla_client/__init__.py": "9ddb6c1004774e3cc5ae5573ba1111d1ce82dee05f641b033f92e14c3925e67e",
+    "packages/client/easycarla_client/transport.py": "bb16ddc0678f39bd69675bfd4697f6d9b3e9032e722fbca16d08111d93eeebab",
+    "packages/client/easycarla_client/vector_env.py": "1da7517e3d667a3c86f838f0da53d2833196504c9a1ca4082c9a0b1b4d6f2a0b",
+    "packages/client/easycarla_client/errors.py": "7034bf83de9613562b71ebd84207525925eb066fa29f018d6dc5bb22d2c977be",
+    "packages/client/easycarla_client/client.py": "e67ba3fc1255aa8e67b70f26d9d3f1c993bb85a613606edcd93e11f89f9f29e6"
+  },
+  "initialization": {
+    "0": {
+      "effective_world_settings": {
+        "synchronous_mode": true,
+        "fixed_delta_seconds": 0.05,
+        "no_rendering_mode": true,
+        "substepping": true,
+        "max_substeps": 10,
+        "max_substep_delta_time": 0.01,
+        "tile_stream_distance": 2000.0,
+        "actor_active_distance": 2000.0,
+        "spectator_as_ego": false,
+        "map_layers_request": "all",
+        "map_name": "Town12"
+      },
+      "scenario": {
+        "source": "bench2drive",
+        "scenario_id": "45",
+        "seed": 7,
+        "town": "Town12",
+        "scenario_types": [
+          "Accident",
+          "ControlLoss",
+          "EnterActorFlowV2",
+          "HardBreakRoute",
+          "HazardAtSideLane",
+          "HighwayCutIn",
+          "ParkedObstacle",
+          "ParkingExit",
+          "PriorityAtJunction",
+          "StaticCutIn",
+          "YieldToEmergencyVehicle"
+        ],
+        "loaded_town": "Town12",
+        "route_fingerprint": "76721c6602285204c6e2a25a7ec857504019759dfff5035fcbbd4b6e73cd1401",
+        "upstream_commit": "acbeb0dd8aa99dd0e71b9b75bb542f6fe7c7f3d8",
+        "patch_version": 5,
+        "native_npc": true,
+        "mechanism_replacements": [],
+        "generation_failure": null,
+        "native_validation": "not_run",
+        "repeatability_validation": "not_run",
+        "scenario_names": [
+          "ParkingExit_1",
+          "HazardAtSideLane_1",
+          "PriorityAtJunction_1",
+          "Accident_1",
+          "EnterActorFlowV2_1",
+          "Accident_2",
+          "StaticCutIn_1",
+          "YieldToEmergencyVehicle_1",
+          "HardBreakRoute_1",
+          "YieldToEmergencyVehicle_2",
+          "StaticCutIn_2",
+          "YieldToEmergencyVehicle_3",
+          "StaticCutIn_3",
+          "HighwayCutIn_1",
+          "StaticCutIn_4",
+          "YieldToEmergencyVehicle_4",
+          "StaticCutIn_5",
+          "HardBreakRoute_2",
+          "StaticCutIn_6",
+          "ParkedObstacle_1",
+          "Accident_3",
+          "YieldToEmergencyVehicle_5",
+          "ControlLoss_1",
+          "ControlLoss_2",
+          "HardBreakRoute_3",
+          "ControlLoss_3",
+          "HighwayCutIn_2",
+          "YieldToEmergencyVehicle_6",
+          "StaticCutIn_7",
+          "HighwayCutIn_3",
+          "ParkedObstacle_2",
+          "HardBreakRoute_4",
+          "YieldToEmergencyVehicle_7",
+          "StaticCutIn_8",
+          "Accident_4"
+        ]
+      },
+      "geometry": {
+        "rear_axle_offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "bbox_offset": [
+          -0.006286337971687317,
+          1.6379952285205945e-05,
+          0.7488362789154053
+        ],
+        "bbox_valid": true,
+        "rear_axle_valid": false,
+        "wheelbase": 0.0,
+        "size": [
+          4.89238166809082,
+          1.8367133140563965,
+          1.490277647972107
+        ],
+        "max_steer_angle": 0.0
+      }
+    }
+  },
+  "progress": {
+    "repetition": 2,
+    "valid_requests": 1000,
+    "elapsed_seconds": 196.15105627800222
+  },
+  "service_final_timing": {
+    "0": {
+      "operation": "STEP",
+      "sequence": 3005,
+      "response_encode_seconds": 0.0003895670088240877,
+      "response_publish_seconds": 0.0001208100002259016
+    }
+  },
+  "finished_at": 1791812656.4403102,
+  "cleanup_errors": []
+}

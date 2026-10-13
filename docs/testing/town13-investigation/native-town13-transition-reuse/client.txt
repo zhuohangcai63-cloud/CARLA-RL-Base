@@ -1,0 +1,12 @@
+START 30008 Town13 ConstructionObstacleTwoWays
+LOADED 30008 Carla/Maps/Town13/Town13
+PREPARED 30008
+END 30008 tick_budget_reached 1000 ticks 59.14s 
+START 37391 Town13 MergerIntoSlowTrafficV2
+LOADED 37391 Carla/Maps/Town13/Town13
+PREPARED 37391
+END 37391 completed 415 ticks 24.65s 
+START 31736 Town13 VehicleOpensDoorTwoWays
+LOADED 31736 Carla/Maps/Town13/Town13
+PREPARED 31736
+END 31736 completed 402 ticks 26.21s 

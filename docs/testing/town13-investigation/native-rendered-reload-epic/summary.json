@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "status": "client_failed",
+  "started_utc": "2026-09-28T04:35:16.650318+00:00",
+  "scope": "one owned simulator and one client; no readiness, restart or replay",
+  "server_exit_before_stop": null,
+  "peaks": {
+    "server_rss_kib": 8022976,
+    "gpu_0_memory_used_mib": 7373.0
+  },
+  "sample_count": 65,
+  "server_command": [
+    "/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping",
+    "CarlaUE4",
+    "-RenderOffScreen",
+    "-quality-level=Epic",
+    "-nosound",
+    "-ResX=400",
+    "-ResY=300",
+    "-carla-rpc-port=2600",
+    "-carla-streaming-port=2601",
+    "-carla-secondary-port=2602"
+  ],
+  "client_command": [
+    "/home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python",
+    "scripts/validate_native_routes.py",
+    "--port",
+    "2600",
+    "--tm-port",
+    "8600",
+    "--manifest",
+    "configs/manifests/v004_eval220.json",
+    "--route",
+    "22331,3816,31736,31654",
+    "--output",
+    "/home/czh/workspace/CARLA-RL-Base/docs/testing/town13-investigation/native-rendered-reload-epic/probe.json",
+    "--ticks",
+    "1000",
+    "--timeout",
+    "90",
+    "--reload",
+    "--map-layers",
+    "all",
+    "--tile-stream-distance",
+    "650",
+    "--actor-active-distance",
+    "650"
+  ],
+  "server_pid": 188965,
+  "client_pid": 188967,
+  "client_exit_before_stop": -11,
+  "client_cleanup": {
+    "signals": [],
+    "exit_code": -11,
+    "leader_exit_before_signal": -11,
+    "log_complete": true,
+    "log_error": null,
+    "group_alive": false
+  },
+  "client_exit": -11,
+  "explicit_server_stop": true,
+  "server_cleanup": {
+    "signals": [
+      "SIGTERM",
+      "SIGKILL"
+    ],
+    "exit_code": -9,
+    "leader_exit_before_signal": null,
+    "log_complete": true,
+    "log_error": null,
+    "group_alive": false
+  },
+  "server_exit": -9,
+  "shutdown_crash": false,
+  "shutdown_forced_kill": true,
+  "shutdown_failed": true,
+  "shutdown_outcome": "forced_kill",
+  "crash_files": [],
+  "crash_copy_errors": [],
+  "elapsed_seconds": 126.79710809199969,
+  "finished_utc": "2026-09-28T04:37:23.447437+00:00",
+  "passed": false
+}

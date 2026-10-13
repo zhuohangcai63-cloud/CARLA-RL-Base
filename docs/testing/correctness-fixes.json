@@ -1,0 +1,291 @@
+{
+  "schema_version": 1,
+  "recorded_utc": "2026-10-12T16:30:52.577112+00:00",
+  "status": "passed",
+  "scope": "Six compatibility-preserving correctness patches; existing uncommitted changes retained.",
+  "compatibility": {
+    "protocol_version": 1,
+    "public_observation_fields_actions_defaults_preserved": true,
+    "new_dependencies": [],
+    "reward_controller_sampling_changes": false,
+    "preflight_rejection_details_added": {
+      "request_rejected": true
+    }
+  },
+  "fixes": [
+    {
+      "id": 1,
+      "change": "Shared safe vehicle physics guard for observations and manifests; unknown p4/p5 physics excluded; manifest limitations reach replay comparison.",
+      "regression": "Disabled, inactive and unknown vehicles make zero physics getter calls; safe physics fields retained; comparison is unverified when information is missing."
+    },
+    {
+      "id": 2,
+      "change": "Submitting thread deep-copies arrays and nested arguments; complete batch signatures, numeric data and worker availability checked before publication.",
+      "regression": "Mutation after submission does not change worker input; invalid trajectories or signatures publish no batch requests."
+    },
+    {
+      "id": 3,
+      "change": "Runtime preflight raises RequestRejected; service and clients preserve existing episode and lifecycle on explicit rejection.",
+      "regression": "Raw IPC, Gym and vector rejected resets preserve episode/frame/availability; subsequent steps succeed; partial initialization failures still clean up and fault."
+    },
+    {
+      "id": 4,
+      "change": "Gym trajectories rechecked for finite values after float32 conversion.",
+      "regression": "Overflow and negative speed rejected locally; vector batch publishes no requests on overflow."
+    },
+    {
+      "id": 5,
+      "change": "Pool and vector reject self/shared-client replacements before mutation; successful vector replacement requires reset even for an already-ready environment.",
+      "regression": "Rejected replacements preserve original worker and observation; original worker remains usable; legitimate replacement, explicit reset and close pass."
+    },
+    {
+      "id": 6,
+      "change": "Fleet management loads identity/log information separately from startup validation; restart validates before stopping.",
+      "regression": "Missing worker config/interpreter/CARLA installation does not prevent status/stop; invalid starts/restarts rejected; PID reuse and ownership protections retained."
+    }
+  ],
+  "tests": {
+    "initial_targeted": {
+      "passed": 175,
+      "wall_seconds": 19.14,
+      "command": "python -m pytest tests/test_planning_v1.py tests/test_runtime_experiments.py tests/test_runtime_core.py tests/test_parallel_client.py tests/test_fleet.py tests/test_ipc.py -q",
+      "scope_note": "Before the additional legacy-version and final replacement regressions."
+    },
+    "final_client_targeted": {
+      "passed": 32,
+      "warnings": 2,
+      "wall_seconds": 6.64,
+      "command": "python -m pytest tests/test_parallel_client.py -q"
+    },
+    "diagnostic_targeted": {
+      "passed": 20,
+      "wall_seconds": 2.45,
+      "command": "python -m pytest tests/test_carla_diagnostic.py -q"
+    },
+    "full": {
+      "command": "python -m pytest -q",
+      "passed": 705,
+      "skipped": 19,
+      "warnings": 2,
+      "wall_seconds": 23.39,
+      "exit_code": 0,
+      "warning_scope": "Gymnasium warns about existing unbounded Box observations.",
+      "skip_scope": "Opt-in integration tests, including the real CARLA regression run separately below."
+    }
+  },
+  "test_harness_findings": {
+    "earlier_full_runs_had_port_conflicts": true,
+    "error": "OSError: [Errno 98] Address already in use, before fake diagnostic server launch; subsequent assertion lacked server_pid.",
+    "affected_tests": [
+      "test_owned_lifecycle direct_sigterm",
+      "test_owned_lifecycle normal/client_passed"
+    ],
+    "minimal_test_fix": "Probe wildcard addresses matching the diagnostic harness, and choose ports outside the current Linux ephemeral range to avoid outbound-connection races.",
+    "production_diagnostic_changed": false,
+    "verification": "20 diagnostic tests and the final full suite passed."
+  },
+  "wheel_install": {
+    "status": "passed",
+    "backend": "fake",
+    "real_carla": false,
+    "environment_type": "isolated_venv",
+    "source_checkout_imports": false,
+    "wheels": [
+      {
+        "filename": "easycarla-0.2.0-py3-none-any.whl",
+        "sha256": "7b322928060a70736cb223332b17b9be6ffdaf00492c6689bb15a65f0ce0ed29"
+      },
+      {
+        "filename": "easycarla_client-0.2.0-py3-none-any.whl",
+        "sha256": "0ac27fd4feb91cfcf5d1716c34973a9e9c97cc90e90130a76e8da42694064d53"
+      }
+    ],
+    "service_pip_check": "No broken requirements found.",
+    "client_pip_check": "No broken requirements found.",
+    "service_packages": [
+      {
+        "name": "cloudpickle",
+        "version": "3.1.2"
+      },
+      {
+        "name": "easycarla",
+        "version": "0.2.0"
+      },
+      {
+        "name": "easycarla-client",
+        "version": "0.2.0"
+      },
+      {
+        "name": "Farama-Notifications",
+        "version": "0.0.6"
+      },
+      {
+        "name": "gymnasium",
+        "version": "1.4.0"
+      },
+      {
+        "name": "numpy",
+        "version": "2.2.6"
+      },
+      {
+        "name": "pip",
+        "version": "23.0.1"
+      },
+      {
+        "name": "posix_ipc",
+        "version": "1.3.2"
+      },
+      {
+        "name": "PyYAML",
+        "version": "6.0.3"
+      },
+      {
+        "name": "setuptools",
+        "version": "79.0.1"
+      },
+      {
+        "name": "typing_extensions",
+        "version": "4.16.0"
+      }
+    ],
+    "client_packages": [
+      {
+        "name": "easycarla-client",
+        "version": "0.2.0"
+      },
+      {
+        "name": "numpy",
+        "version": "2.4.6"
+      },
+      {
+        "name": "pip",
+        "version": "24.0"
+      },
+      {
+        "name": "posix_ipc",
+        "version": "1.3.2"
+      },
+      {
+        "name": "setuptools",
+        "version": "79.0.1"
+      }
+    ],
+    "service": {
+      "python": "3.10.20 | packaged by conda-forge | (main, Jun 11 2026, 03:31:56) [GCC 14.3.0]",
+      "prefix": "/tmp/easycarla-wheel-check-ti3h02ab/service",
+      "package_file": "/tmp/easycarla-wheel-check-ti3h02ab/service/lib/python3.10/site-packages/easycarla/__init__.py"
+    },
+    "client": {
+      "python": "3.11.16 (main, Sep  2 2026, 23:39:52) [GCC 15.3.0]",
+      "prefix": "/tmp/easycarla-wheel-check-ti3h02ab/client",
+      "episodes": 4,
+      "steps": 30,
+      "last_frame": 40,
+      "forbidden_imports_absent": true,
+      "close_reconnect": true,
+      "observation_copy_stable": true
+    },
+    "service_exit_code": 0,
+    "service_log": "",
+    "cleanup": {
+      "shared_memory_unlinked": true,
+      "semaphores_unlinked": true
+    },
+    "wall_seconds": 12.111536590993637
+  },
+  "wheel_install_command": "python scripts/check_wheel_install.py --client-python /home/czh/software/miniconda3/envs/carla-client-test/bin/python --output artifacts/correctness-fixes/wheel-install.json",
+  "real_carla": {
+    "version": "0.9.15",
+    "command": "EASYCARLA_FIX_INSTANCES=correctness_scenic,correctness_native EASYCARLA_FIX_REPORT=artifacts/correctness-fixes/real-carla.json python -m pytest tests/test_correctness_carla.py -q -s",
+    "passed": 1,
+    "wall_seconds": 35.11,
+    "seed": [
+      8,
+      8
+    ],
+    "workers": [
+      {
+        "id": "scenic",
+        "map": "Town10HD",
+        "scenario": "interaction_follow.scenic"
+      },
+      {
+        "id": "native",
+        "map": "Town12",
+        "manifest": "town12_long_train78.json",
+        "bench2drive_patch_version": 6
+      }
+    ],
+    "experiments_enabled": true,
+    "observation_profile": "planning_v1",
+    "physics_dt": 0.05,
+    "decision_dt": 0.1,
+    "no_rendering_mode": true,
+    "result": {
+      "real_carla": true,
+      "status": "passed",
+      "checks": {
+        "native_experiments_reset_without_unsafe_rpc": true,
+        "raw_gym_and_vector_rejections_preserve_episode": true,
+        "valid_steps_after_rejection": true
+      },
+      "native_manifest_unavailable_physics": [
+        "physics.bench2drive:000022:vehicle.ford.ambulance:scenario: disabled, inactive or unknown vehicle physics; not queried"
+      ],
+      "initial_frames": [
+        31,
+        76
+      ],
+      "final_frames": [
+        37,
+        82
+      ]
+    },
+    "scope_note": "Real physics-manifest and rejection/lifecycle paths checked; final pool-alias and vector reset-required guards validated by targeted/full client tests and rebuilt wheels."
+  },
+  "fleet_cleanup": {
+    "status": "passed",
+    "status_and_stop_with_worker_configs_missing": true,
+    "workers": [
+      {
+        "worker": "scenic",
+        "state": "stopped",
+        "exit_codes": {
+          "service": 0,
+          "carla": -15
+        },
+        "process_groups_empty": true,
+        "ipc_unlinked": true
+      },
+      {
+        "worker": "native",
+        "state": "stopped",
+        "exit_codes": {
+          "service": 0,
+          "carla": -15
+        },
+        "process_groups_empty": true,
+        "ipc_unlinked": true
+      }
+    ]
+  },
+  "not_run_this_round": [
+    "Real simulator exhaustive Bench2Drive routes or all dormant/unknown-physics variants; these guard cases are covered by unit regressions.",
+    "Real p4/p5 Bench2Drive legacy execution; unknown-state registration is covered by unit regressions.",
+    "Full real simulator replay/prefix repeatability matrix.",
+    "Long soak, multi-map stability or throughput benchmarks; no performance improvement claimed."
+  ],
+  "runtime_source_sha256": {
+    "easycarla/observations/vehicle_geometry.py": "e85ae8ddaf453d43d76dda1d2191307412d2657a7209ca3062fbdb46214ba463",
+    "easycarla/extensions/state.py": "1eb6644ece8d9546afb9ab987b817e07c1bb8d0dad080db11ce56930570abd31",
+    "easycarla/extensions/session.py": "5c738f043ad95c19d7b2a828232fc788143f029340abefa8ec1f265dd5d21cd9",
+    "easycarla/scenarios/bench2drive/adapter.py": "2cc4856e323aab689763a395a7bda3b4f59513b81b5abedaa6a7b8cf9451acf7",
+    "easycarla/runtime.py": "2600b38b2a1f1331d98cb529bf70471c406f7316a5ed3a69a640570e8f3d85bd",
+    "easycarla/service/server.py": "28638a5cb21afcc9eab552d2a9e9158665d0f6b45aa28b537ed604ebb82aaec4",
+    "easycarla/service/fleet.py": "f86ff22faa605727408997ed28160627496e8f90ef1accac34cadc2cdee916bf",
+    "packages/client/easycarla_client/errors.py": "256db6bbb72f5873d68a09eb661363dca1e5062dd2d2755362955391ef9e5769",
+    "packages/client/easycarla_client/pool.py": "4523bcc7335f864287653cc6ab790726c8bc15ddf09f681ae4343cf022a6cda7",
+    "packages/client/easycarla_client/gym_env.py": "71421fb8dec8d55b5199c91df51dde2690f54dc9c56420612c9c1d312475c0a0",
+    "packages/client/easycarla_client/vector_env.py": "de80ace020efff3301782ec682496136d1b9870ccb63fe9100afa1b593b624a3"
+  }
+}

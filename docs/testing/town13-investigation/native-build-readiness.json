@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "checked_utc": "2026-09-28T05:02:16.827980+00:00",
+  "scope": "Read-only bounded top-level/known-marker check; not an exhaustive filesystem search; no downloads, installs, builds or binary changes",
+  "runtime_root": "/home/czh/software/carla",
+  "source_markers": {
+    ".git": false,
+    "Makefile": false,
+    "LibCarla/source": false,
+    "PythonAPI/carla/source": false,
+    "Unreal/CarlaUE4": false,
+    "Engine/Source": false,
+    "Engine/Build/BatchFiles/Linux": false
+  },
+  "shipping_binary_present": true,
+  "shipping_debug_symbols_present": true,
+  "directory_scope": [
+    "/home/czh/software top-level",
+    "/home/czh and /home/czh/workspace top-level relevant directory names",
+    "/opt top-level",
+    "/usr/local top-level",
+    "/usr/lib LLVM directory names",
+    "/home/czh/software/miniconda3/envs/CARLA-RL-Base/bin"
+  ],
+  "ue4_source_candidate_found": false,
+  "matching_tools_on_path": {
+    "make": "/usr/bin/make",
+    "gcc": "/usr/bin/gcc",
+    "g++": "/usr/bin/g++",
+    "git": "/usr/bin/git",
+    "clang": null,
+    "clang++": null,
+    "clang-10": null,
+    "clang-12": null,
+    "cmake": null,
+    "ninja": null,
+    "ld.lld": null
+  },
+  "service_conda_build_tools_found": [],
+  "llvm_18_note": "/usr/lib/llvm-18 exists; its bin directory is absent",
+  "conclusion": "No complete local CARLA 0.9.15 / custom UE4.26 source tree and matching rebuild toolchain found in the checked locations.",
+  "limitations": [
+    "Other unchecked directories may contain sources or tools.",
+    "Debug symbols are useful for stack inspection but are not engine source or a build toolchain.",
+    "The 2026-01-22 UE4-dev RPC shutdown patch is not implied to be part of CARLA 0.9.16, released in 2025.",
+    "A Python wheel update alone cannot change the running server binary."
+  ],
+  "upstream_shutdown_fix": {
+    "url": "https://github.com/carla-simulator/carla/pull/9529",
+    "merge_commit": "0c477d65c85059288562ea2fd832dac9d73ce6ee",
+    "merge_utc": "2026-01-22T20:36:35Z",
+    "branch": "ue4-dev",
+    "local_causality": "unconfirmed without native shutdown backtrace"
+  },
+  "build_reference": "https://carla.readthedocs.io/en/0.9.15/build_linux/"
+}

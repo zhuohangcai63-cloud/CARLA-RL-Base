@@ -1,0 +1,1385 @@
+{
+  "version": 2,
+  "native_scenario_progress_schema": 1,
+  "status": "finished",
+  "started_utc": "2026-09-27T15:19:23.738676+00:00",
+  "manifest": "/home/czh/workspace/CARLA-RL-Base/configs/manifests/v004_eval220.json",
+  "manifest_sha256": "fe4796888a1390aade93f65ca7a90f4f10552b50a87a97111ba3a4d758952648",
+  "mode": "native_adapter_reference_driver",
+  "scope": "native scenario execution; not policy evaluation",
+  "config": {
+    "host": "127.0.0.1",
+    "port": 2300,
+    "tm_port": 8300,
+    "timeout": 45.0,
+    "physics_dt": 0.05,
+    "decision_dt": 0.2,
+    "history_dt": 0.1,
+    "reload_on_reset": false,
+    "no_rendering_mode": true,
+    "map_layers": "none",
+    "tile_stream_distance": 500.0,
+    "actor_active_distance": 500.0,
+    "carla_root": "/home/czh/software/carla"
+  },
+  "seed": 123,
+  "tick_budget": 1500,
+  "results": [
+    {
+      "route_id": "24416",
+      "town": "Town03",
+      "scenario_types": [
+        "ParkingCutIn"
+      ],
+      "execution": "completed",
+      "ticks": 417,
+      "activated": [
+        "ParkingCutIn_1"
+      ],
+      "completed": [
+        "ParkingCutIn_1"
+      ],
+      "initialization_seconds": 8.173287957994035,
+      "metadata": {
+        "source": "bench2drive",
+        "scenario_id": "24416",
+        "seed": 123,
+        "town": "Town03",
+        "scenario_types": [
+          "ParkingCutIn"
+        ],
+        "loaded_town": "Town03",
+        "route_fingerprint": "9bd98726a7afdefb1e11b1e1b72c9831084824d606c63d4501e09594b2f7b548",
+        "upstream_commit": "acbeb0dd8aa99dd0e71b9b75bb542f6fe7c7f3d8",
+        "patch_version": 4,
+        "native_npc": true,
+        "mechanism_replacements": [],
+        "generation_failure": null,
+        "native_validation": "not_run",
+        "repeatability_validation": "not_run",
+        "scenario_names": [
+          "ParkingCutIn_1"
+        ]
+      },
+      "capabilities": {
+        "source": "bench2drive",
+        "native_execution": true,
+        "native_validation": "not_run",
+        "fixed_recipe_rebuild": true,
+        "prefix_replay": false,
+        "replay_restrictions": [
+          "Native Traffic Manager and behavior tree internal state is not serializable",
+          "Same seed alone is not a verified common-prefix state"
+        ],
+        "takeover_roles": {
+          "ParkingCutIn_1:adversary": {
+            "actor_id": 2134,
+            "native_type": "ParkingCutIn",
+            "can_takeover": false,
+            "phase": "waiting_for_trigger",
+            "validation": "not_run",
+            "reason": "Explicit allow_unvalidated_takeover required"
+          }
+        },
+        "takeover_restrictions": [
+          "Only initialized ParkingCutIn, StaticCutIn, HighwayCutIn adversaries",
+          "Requires native placement and explicit experimental opt-in",
+          "No actor lifetime extension; irreversible within the episode"
+        ]
+      },
+      "events": {
+        "native_done": true,
+        "native_success": true,
+        "native_timeout": false,
+        "native_status": "Status.SUCCESS",
+        "native_criteria": [
+          {
+            "name": "RouteCompletionTest",
+            "status": "SUCCESS",
+            "actual_value": 100.0,
+            "expected_value": 100.0
+          },
+          {
+            "name": "OutsideRouteLanesTest",
+            "status": "SUCCESS",
+            "actual_value": 0.0,
+            "expected_value": 0.0
+          },
+          {
+            "name": "CollisionTest",
+            "status": "FAILURE",
+            "actual_value": 1.0,
+            "expected_value": 0.0
+          },
+          {
+            "name": "RunningRedLightTest",
+            "status": "SUCCESS",
+            "actual_value": 0.0,
+            "expected_value": 0.0
+          },
+          {
+            "name": "RunningStopTest",
+            "status": "SUCCESS",
+            "actual_value": 0.0,
+            "expected_value": 0.0
+          },
+          {
+            "name": "MinSpeedTest",
+            "status": "FAILURE",
+            "actual_value": 110.1,
+            "expected_value": 100.0
+          },
+          {
+            "name": "InRouteTest",
+            "status": "SUCCESS",
+            "actual_value": 0.0,
+            "expected_value": 0.0
+          },
+          {
+            "name": "AgentBlockedTest",
+            "status": "SUCCESS",
+            "actual_value": 0.0,
+            "expected_value": 0.0
+          }
+        ],
+        "native_scenario_progress_schema": 1,
+        "native_scenarios": [
+          {
+            "name": "ParkingCutIn_1",
+            "type": "ParkingCutIn",
+            "status": "Status.RUNNING",
+            "schema_version": 1,
+            "extraction": "pinned_basic_scenario_route_wrapper_v1",
+            "wrapper_status": "Status.RUNNING",
+            "actual_behavior_status": "Status.SUCCESS",
+            "trigger_status": "Status.SUCCESS",
+            "activation_observed": true,
+            "completion_observed": true,
+            "reason": null,
+            "limitations": [
+              "Instantaneous observations only; the episode must latch observed True values before tree invalidation.",
+              "Behavior completion does not establish route completion, passing scenario criteria, or infraction-free driving.",
+              "Unsupported tree layouts have unknown progress; historical transitions cannot be reconstructed."
+            ]
+          }
+        ],
+        "pending_scenarios": [],
+        "deferred_tick_requests": 0,
+        "deferred_batch_ticks": 0,
+        "native_spawn_velocity_handoffs": 0,
+        "native_constant_velocity_handoffs": 0,
+        "native_velocity_impulse_handoffs": 0,
+        "native_statistics": {
+          "implementation": "pinned_leaderboard_statistics_manager",
+          "record": {
+            "index": 0,
+            "route_id": "RouteScenario_24416_rep0",
+            "scenario_name": "ParkingCutIn",
+            "weather_id": null,
+            "save_name": null,
+            "status": "Completed",
+            "num_infractions": 20,
+            "infractions": {
+              "collisions_layout": [],
+              "collisions_pedestrian": [],
+              "collisions_vehicle": [
+                "Agent collided against object with type=vehicle.nissan.patrol_2021 and id=2134 at (x=118.231, y=129.35, z=0.291)"
+              ],
+              "red_light": [],
+              "stop_infraction": [],
+              "outside_route_lanes": [],
+              "min_speed_infractions": [
+                "Average speed is 98.39% of the surrounding traffic's one",
+                "Average speed is 140.34% of the surrounding traffic's one",
+                "Average speed is 149.73% of the surrounding traffic's one",
+                "Average speed is 158.05% of the surrounding traffic's one",
+                "Average speed is 126.47% of the surrounding traffic's one",
+                "Average speed is 109.99% of the surrounding traffic's one",
+                "Average speed is 96.14% of the surrounding traffic's one",
+                "Average speed is 72.93% of the surrounding traffic's one",
+                "Average speed is 75.79% of the surrounding traffic's one",
+                "Average speed is 73.96% of the surrounding traffic's one",
+                "Average speed is 97.93% of the surrounding traffic's one",
+                "Average speed is 129.85% of the surrounding traffic's one",
+                "Average speed is 117.33% of the surrounding traffic's one",
+                "Average speed is 107.64% of the surrounding traffic's one",
+                "Average speed is 112.56% of the surrounding traffic's one",
+                "Average speed is 110.81% of the surrounding traffic's one",
+                "Average speed is 103.81% of the surrounding traffic's one",
+                "Average speed is 103.52% of the surrounding traffic's one",
+                "Average speed is 106.62% of the surrounding traffic's one"
+              ],
+              "yield_emergency_vehicle_infractions": [],
+              "scenario_timeouts": [],
+              "route_dev": [],
+              "vehicle_blocked": [],
+              "route_timeout": []
+            },
+            "scores": {
+              "score_route": 100,
+              "score_penalty": 0.6,
+              "score_composed": 60.0
+            },
+            "meta": {
+              "route_length": 131.365,
+              "duration_game": 20.85,
+              "duration_system": 2.182
+            },
+            "town_name": "Town03"
+          },
+          "events": [
+            {
+              "criterion": "RouteCompletionTest",
+              "type": "ROUTE_COMPLETION",
+              "frame": 0,
+              "message": "Agent has completed 100 of the route",
+              "data": {
+                "route_completed": 100
+              }
+            },
+            {
+              "criterion": "CollisionTest",
+              "type": "COLLISION_VEHICLE",
+              "frame": 779817,
+              "message": "Agent collided against object with type=vehicle.nissan.patrol_2021 and id=2134 at (x=118.231, y=129.35, z=0.291)",
+              "data": {
+                "other_actor": {
+                  "actor_id": 2134,
+                  "type_id": "vehicle.nissan.patrol_2021"
+                },
+                "location": {
+                  "x": 118.23102569580078,
+                  "y": 129.35032653808594,
+                  "z": 0.29123935103416443
+                }
+              }
+            },
+            {
+              "criterion": "MinSpeedTest",
+              "type": "MIN_SPEED_INFRACTION",
+              "frame": 779704,
+              "message": "Average speed is 98.39% of the surrounding traffic's one",
+              "data": {
+                "percentage": 98.39
+              }
+            },
+            {
+              "criterion": "MinSpeedTest",
+              "type": "MIN_SPEED_INFRACTION",
+              "frame": 779728,
+              "message": "Average speed is 140.34% of the surrounding traffic's one",
+              "data": {
+                "percentage": 140.34
+              }
+            },
+            {
+              "criterion": "MinSpeedTest",
+              "type": "MIN_SPEED_INFRACTION",
+              "frame": 779749,
+              "message": "Average speed is 149.73% of the surrounding traffic's one",
+              "data": {
+                "percentage": 149.73
+              }
+            },
+            {
+              "criterion": "MinSpeedTest",
+              "type": "MIN_SPEED_INFRACTION",
+              "frame": 779770,
+              "message": "Average speed is 158.05% of the surrounding traffic's one",
+              "data": {
+                "percentage": 158.05
+              }
+            },
+            {
+              "criterion": "MinSpeedTest",
+              "type": "MIN_SPEED_INFRACTION",
+              "frame": 779788,
+              "message": "Average speed is 126.47% of the surrounding traffic's one",
+              "data": {
+                "percentage": 126.47
+              }
+            },
+            {
+              "criterion": "MinSpeedTest",
+              "type": "MIN_SPEED_INFRACTION",
+              "frame": 779807,
+              "message": "Average speed is 109.99% of the surrounding traffic's one",
+              "data": {
+                "percentage": 109.99
+              }
+            },
+            {
+              "criterion": "MinSpeedTest",
+              "type": "MIN_SPEED_INFRACTION",
+              "frame": 779828,
+              "message": "Average speed is 96.14% of the surrounding traffic's one",
+              "data": {
+                "percentage": 96.14
+              }
+            },
+            {
+              "criterion": "MinSpeedTest",
+              "type": "MIN_SPEED_INFRACTION",
+              "frame": 779854,
+              "message": "Average speed is 72.93% of the surrounding traffic's one",
+              "data": {
+                "percentage": 72.93
+              }
+            },
+            {
+              "criterion": "MinSpeedTest",
+              "type": "MIN_SPEED_INFRACTION",
+              "frame": 779880,
+              "message": "Average speed is 75.79% of the surrounding traffic's one",
+              "data": {
+                "percentage": 75.79
+              }
+            },
+            {
+              "criterion": "MinSpeedTest",
+              "type": "MIN_SPEED_INFRACTION",
+              "frame": 779906,
+              "message": "Average speed is 73.96% of the surrounding traffic's one",
+              "data": {
+                "percentage": 73.96
+              }
+            },
+            {
+              "criterion": "MinSpeedTest",
+              "type": "MIN_SPEED_INFRACTION",
+              "frame": 779928,
+              "message": "Average speed is 97.93% of the surrounding traffic's one",
+              "data": {
+                "percentage": 97.93
+              }
+            },
+            {
+              "criterion": "MinSpeedTest",
+              "type": "MIN_SPEED_INFRACTION",
+              "frame": 779947,
+              "message": "Average speed is 129.85% of the surrounding traffic's one",
+              "data": {
+                "percentage": 129.85
+              }
+            },
+            {
+              "criterion": "MinSpeedTest",
+              "type": "MIN_SPEED_INFRACTION",
+              "frame": 779966,
+              "message": "Average speed is 117.33% of the surrounding traffic's one",
+              "data": {
+                "percentage": 117.33
+              }
+            },
+            {
+              "criterion": "MinSpeedTest",
+              "type": "MIN_SPEED_INFRACTION",
+              "frame": 779985,
+              "message": "Average speed is 107.64% of the surrounding traffic's one",
+              "data": {
+                "percentage": 107.64
+              }
+            },
+            {
+              "criterion": "MinSpeedTest",
+              "type": "MIN_SPEED_INFRACTION",
+              "frame": 780004,
+              "message": "Average speed is 112.56% of the surrounding traffic's one",
+              "data": {
+                "percentage": 112.56
+              }
+            },
+            {
+              "criterion": "MinSpeedTest",
+              "type": "MIN_SPEED_INFRACTION",
+              "frame": 780023,
+              "message": "Average speed is 110.81% of the surrounding traffic's one",
+              "data": {
+                "percentage": 110.81
+              }
+            },
+            {
+              "criterion": "MinSpeedTest",
+              "type": "MIN_SPEED_INFRACTION",
+              "frame": 780043,
+              "message": "Average speed is 103.81% of the surrounding traffic's one",
+              "data": {
+                "percentage": 103.81
+              }
+            },
+            {
+              "criterion": "MinSpeedTest",
+              "type": "MIN_SPEED_INFRACTION",
+              "frame": 780061,
+              "message": "Average speed is 103.52% of the surrounding traffic's one",
+              "data": {
+                "percentage": 103.52
+              }
+            },
+            {
+              "criterion": "MinSpeedTest",
+              "type": "MIN_SPEED_INFRACTION",
+              "frame": 780068,
+              "message": "Average speed is 106.62% of the surrounding traffic's one",
+              "data": {
+                "percentage": 106.62
+              }
+            }
+          ],
+          "efficiency_mean_percent": 110.0978947368421,
+          "efficiency_valid_checkpoints": 19,
+          "smoothness_score": null,
+          "smoothness_status": "not_computed; raw telemetry available with native_metrics=true",
+          "final": true
+        },
+        "native_control_suppressed": {}
+      },
+      "scenario_progress_schema": 1,
+      "scenario_progress_transitions": [
+        {
+          "frame": 779652,
+          "tick": 1,
+          "name": "ParkingCutIn_1",
+          "type": "ParkingCutIn",
+          "status": "Status.RUNNING",
+          "schema_version": 1,
+          "extraction": "pinned_basic_scenario_route_wrapper_v1",
+          "wrapper_status": "Status.RUNNING",
+          "actual_behavior_status": "Status.INVALID",
+          "trigger_status": "Status.RUNNING",
+          "activation_observed": false,
+          "completion_observed": false,
+          "reason": null,
+          "limitations": [
+            "Instantaneous observations only; the episode must latch observed True values before tree invalidation.",
+            "Behavior completion does not establish route completion, passing scenario criteria, or infraction-free driving.",
+            "Unsupported tree layouts have unknown progress; historical transitions cannot be reconstructed."
+          ]
+        },
+        {
+          "frame": 779713,
+          "tick": 62,
+          "name": "ParkingCutIn_1",
+          "type": "ParkingCutIn",
+          "status": "Status.RUNNING",
+          "schema_version": 1,
+          "extraction": "pinned_basic_scenario_route_wrapper_v1",
+          "wrapper_status": "Status.RUNNING",
+          "actual_behavior_status": "Status.RUNNING",
+          "trigger_status": "Status.SUCCESS",
+          "activation_observed": true,
+          "completion_observed": false,
+          "reason": null,
+          "limitations": [
+            "Instantaneous observations only; the episode must latch observed True values before tree invalidation.",
+            "Behavior completion does not establish route completion, passing scenario criteria, or infraction-free driving.",
+            "Unsupported tree layouts have unknown progress; historical transitions cannot be reconstructed."
+          ]
+        },
+        {
+          "frame": 779914,
+          "tick": 263,
+          "name": "ParkingCutIn_1",
+          "type": "ParkingCutIn",
+          "status": "Status.RUNNING",
+          "schema_version": 1,
+          "extraction": "pinned_basic_scenario_route_wrapper_v1",
+          "wrapper_status": "Status.RUNNING",
+          "actual_behavior_status": "Status.SUCCESS",
+          "trigger_status": "Status.SUCCESS",
+          "activation_observed": true,
+          "completion_observed": true,
+          "reason": null,
+          "limitations": [
+            "Instantaneous observations only; the episode must latch observed True values before tree invalidation.",
+            "Behavior completion does not establish route completion, passing scenario criteria, or infraction-free driving.",
+            "Unsupported tree layouts have unknown progress; historical transitions cannot be reconstructed."
+          ]
+        }
+      ],
+      "native_success": true,
+      "native_control_transforms": 0,
+      "tick_counts": {
+        "initialization": 6,
+        "step": 417
+      },
+      "simulation_seconds": 0.9492683729695273,
+      "wall_seconds": 10.357195041993691,
+      "remaining_owned_resources": 0,
+      "immediate_snapshot_dynamic_actors": [
+        "vehicle.audi.tt",
+        "sensor.other.collision",
+        "vehicle.lincoln.mkz_2020",
+        "vehicle.lincoln.mkz_2020",
+        "vehicle.lincoln.mkz_2020",
+        "vehicle.ford.mustang",
+        "vehicle.lincoln.mkz_2020"
+      ],
+      "cleanup_verification": "owned registry empty after acknowledged destruction; synchronous snapshot may remain stale until next tick"
+    },
+    {
+      "route_id": "22535",
+      "town": "Town12",
+      "scenario_types": [
+        "StaticCutIn"
+      ],
+      "execution": "completed",
+      "ticks": 392,
+      "activated": [
+        "StaticCutIn_1"
+      ],
+      "completed": [],
+      "initialization_seconds": 30.218399509998562,
+      "metadata": {
+        "source": "bench2drive",
+        "scenario_id": "22535",
+        "seed": 123,
+        "town": "Town12",
+        "scenario_types": [
+          "StaticCutIn"
+        ],
+        "loaded_town": "Town12",
+        "route_fingerprint": "d47dbcb1d0991f796510a0d279413c8a7eaaf7d2db3ff6fe0b6d9c97221ce8b6",
+        "upstream_commit": "acbeb0dd8aa99dd0e71b9b75bb542f6fe7c7f3d8",
+        "patch_version": 4,
+        "native_npc": true,
+        "mechanism_replacements": [],
+        "generation_failure": null,
+        "native_validation": "not_run",
+        "repeatability_validation": "not_run",
+        "scenario_names": [
+          "StaticCutIn_1"
+        ]
+      },
+      "capabilities": {
+        "source": "bench2drive",
+        "native_execution": true,
+        "native_validation": "not_run",
+        "fixed_recipe_rebuild": true,
+        "prefix_replay": false,
+        "replay_restrictions": [
+          "Native Traffic Manager and behavior tree internal state is not serializable",
+          "Same seed alone is not a verified common-prefix state"
+        ],
+        "takeover_roles": {
+          "StaticCutIn_1:adversary": {
+            "actor_id": 5818,
+            "native_type": "StaticCutIn",
+            "can_takeover": false,
+            "phase": "not_placed_or_destroyed",
+            "validation": "not_run",
+            "reason": "Native actor is not in a supported handoff phase"
+          }
+        },
+        "takeover_restrictions": [
+          "Only initialized ParkingCutIn, StaticCutIn, HighwayCutIn adversaries",
+          "Requires native placement and explicit experimental opt-in",
+          "No actor lifetime extension; irreversible within the episode"
+        ]
+      },
+      "events": {
+        "native_done": true,
+        "native_success": true,
+        "native_timeout": false,
+        "native_status": "Status.SUCCESS",
+        "native_criteria": [
+          {
+            "name": "RouteCompletionTest",
+            "status": "SUCCESS",
+            "actual_value": 100.0,
+            "expected_value": 100.0
+          },
+          {
+            "name": "OutsideRouteLanesTest",
+            "status": "SUCCESS",
+            "actual_value": 0.0,
+            "expected_value": 0.0
+          },
+          {
+            "name": "CollisionTest",
+            "status": "SUCCESS",
+            "actual_value": 0.0,
+            "expected_value": 0.0
+          },
+          {
+            "name": "RunningRedLightTest",
+            "status": "SUCCESS",
+            "actual_value": 0.0,
+            "expected_value": 0.0
+          },
+          {
+            "name": "RunningStopTest",
+            "status": "SUCCESS",
+            "actual_value": 0.0,
+            "expected_value": 0.0
+          },
+          {
+            "name": "MinSpeedTest",
+            "status": "FAILURE",
+            "actual_value": 109.92,
+            "expected_value": 100.0
+          },
+          {
+            "name": "InRouteTest",
+            "status": "SUCCESS",
+            "actual_value": 0.0,
+            "expected_value": 0.0
+          },
+          {
+            "name": "AgentBlockedTest",
+            "status": "SUCCESS",
+            "actual_value": 0.0,
+            "expected_value": 0.0
+          }
+        ],
+        "native_scenario_progress_schema": 1,
+        "native_scenarios": [
+          {
+            "name": "StaticCutIn_1",
+            "type": "StaticCutIn",
+            "status": "Status.RUNNING",
+            "schema_version": 1,
+            "extraction": "pinned_basic_scenario_route_wrapper_v1",
+            "wrapper_status": "Status.RUNNING",
+            "actual_behavior_status": "Status.RUNNING",
+            "trigger_status": "Status.SUCCESS",
+            "activation_observed": true,
+            "completion_observed": false,
+            "reason": null,
+            "limitations": [
+              "Instantaneous observations only; the episode must latch observed True values before tree invalidation.",
+              "Behavior completion does not establish route completion, passing scenario criteria, or infraction-free driving.",
+              "Unsupported tree layouts have unknown progress; historical transitions cannot be reconstructed."
+            ]
+          }
+        ],
+        "pending_scenarios": [],
+        "deferred_tick_requests": 0,
+        "deferred_batch_ticks": 0,
+        "native_spawn_velocity_handoffs": 1,
+        "native_constant_velocity_handoffs": 0,
+        "native_velocity_impulse_handoffs": 0,
+        "native_statistics": {
+          "implementation": "pinned_leaderboard_statistics_manager",
+          "record": {
+            "index": 0,
+            "route_id": "RouteScenario_22535_rep0",
+            "scenario_name": "StaticCutIn",
+            "weather_id": null,
+            "save_name": null,
+            "status": "Completed",
+            "num_infractions": 19,
+            "infractions": {
+              "collisions_layout": [],
+              "collisions_pedestrian": [],
+              "collisions_vehicle": [],
+              "red_light": [],
+              "stop_infraction": [],
+              "outside_route_lanes": [],
+              "min_speed_infractions": [
+                "Average speed is 88.61% of the surrounding traffic's one",
+                "Average speed is 102.19% of the surrounding traffic's one",
+                "Average speed is 125.03% of the surrounding traffic's one",
+                "Average speed is 138.7% of the surrounding traffic's one",
+                "Average speed is 135.07% of the surrounding traffic's one",
+                "Average speed is 132.74% of the surrounding traffic's one",
+                "Average speed is 141.81% of the surrounding traffic's one",
+                "Average speed is 145.28% of the surrounding traffic's one",
+                "Average speed is 111.41% of the surrounding traffic's one",
+                "Average speed is 100.24% of the surrounding traffic's one",
+                "Average speed is 94.78% of the surrounding traffic's one",
+                "Average speed is 92.86% of the surrounding traffic's one",
+                "Average speed is 98.53% of the surrounding traffic's one",
+                "Average speed is 108.51% of the surrounding traffic's one",
+                "Average speed is 100.09% of the surrounding traffic's one",
+                "Average speed is 93.78% of the surrounding traffic's one",
+                "Average speed is 92.61% of the surrounding traffic's one",
+                "Average speed is 91.93% of the surrounding traffic's one",
+                "Average speed is 94.23% of the surrounding traffic's one"
+              ],
+              "yield_emergency_vehicle_infractions": [],
+              "scenario_timeouts": [],
+              "route_dev": [],
+              "vehicle_blocked": [],
+              "route_timeout": []
+            },
+            "scores": {
+              "score_route": 100,
+              "score_penalty": 1.0,
+              "score_composed": 100.0
+            },
+            "meta": {
+              "route_length": 133.147,
+              "duration_game": 19.6,
+              "duration_system": 8.23
+            },
+            "town_name": "Town12"
+          },
+          "events": [
+            {
+              "criterion": "RouteCompletionTest",
+              "type": "ROUTE_COMPLETION",
+              "frame": 0,
+              "message": "Agent has completed 100 of the route",
+              "data": {
+                "route_completed": 100
+              }
+            },
+            {
+              "criterion": "MinSpeedTest",
+              "type": "MIN_SPEED_INFRACTION",
+              "frame": 780134,
+              "message": "Average speed is 88.61% of the surrounding traffic's one",
+              "data": {
+                "percentage": 88.61
+              }
+            },
+            {
+              "criterion": "MinSpeedTest",
+              "type": "MIN_SPEED_INFRACTION",
+              "frame": 780152,
+              "message": "Average speed is 102.19% of the surrounding traffic's one",
+              "data": {
+                "percentage": 102.19
+              }
+            },
+            {
+              "criterion": "MinSpeedTest",
+              "type": "MIN_SPEED_INFRACTION",
+              "frame": 780172,
+              "message": "Average speed is 125.03% of the surrounding traffic's one",
+              "data": {
+                "percentage": 125.03
+              }
+            },
+            {
+              "criterion": "MinSpeedTest",
+              "type": "MIN_SPEED_INFRACTION",
+              "frame": 780190,
+              "message": "Average speed is 138.7% of the surrounding traffic's one",
+              "data": {
+                "percentage": 138.7
+              }
+            },
+            {
+              "criterion": "MinSpeedTest",
+              "type": "MIN_SPEED_INFRACTION",
+              "frame": 780210,
+              "message": "Average speed is 135.07% of the surrounding traffic's one",
+              "data": {
+                "percentage": 135.07
+              }
+            },
+            {
+              "criterion": "MinSpeedTest",
+              "type": "MIN_SPEED_INFRACTION",
+              "frame": 780229,
+              "message": "Average speed is 132.74% of the surrounding traffic's one",
+              "data": {
+                "percentage": 132.74
+              }
+            },
+            {
+              "criterion": "MinSpeedTest",
+              "type": "MIN_SPEED_INFRACTION",
+              "frame": 780248,
+              "message": "Average speed is 141.81% of the surrounding traffic's one",
+              "data": {
+                "percentage": 141.81
+              }
+            },
+            {
+              "criterion": "MinSpeedTest",
+              "type": "MIN_SPEED_INFRACTION",
+              "frame": 780267,
+              "message": "Average speed is 145.28% of the surrounding traffic's one",
+              "data": {
+                "percentage": 145.28
+              }
+            },
+            {
+              "criterion": "MinSpeedTest",
+              "type": "MIN_SPEED_INFRACTION",
+              "frame": 780286,
+              "message": "Average speed is 111.41% of the surrounding traffic's one",
+              "data": {
+                "percentage": 111.41
+              }
+            },
+            {
+              "criterion": "MinSpeedTest",
+              "type": "MIN_SPEED_INFRACTION",
+              "frame": 780305,
+              "message": "Average speed is 100.24% of the surrounding traffic's one",
+              "data": {
+                "percentage": 100.24
+              }
+            },
+            {
+              "criterion": "MinSpeedTest",
+              "type": "MIN_SPEED_INFRACTION",
+              "frame": 780324,
+              "message": "Average speed is 94.78% of the surrounding traffic's one",
+              "data": {
+                "percentage": 94.78
+              }
+            },
+            {
+              "criterion": "MinSpeedTest",
+              "type": "MIN_SPEED_INFRACTION",
+              "frame": 780343,
+              "message": "Average speed is 92.86% of the surrounding traffic's one",
+              "data": {
+                "percentage": 92.86
+              }
+            },
+            {
+              "criterion": "MinSpeedTest",
+              "type": "MIN_SPEED_INFRACTION",
+              "frame": 780362,
+              "message": "Average speed is 98.53% of the surrounding traffic's one",
+              "data": {
+                "percentage": 98.53
+              }
+            },
+            {
+              "criterion": "MinSpeedTest",
+              "type": "MIN_SPEED_INFRACTION",
+              "frame": 780381,
+              "message": "Average speed is 108.51% of the surrounding traffic's one",
+              "data": {
+                "percentage": 108.51
+              }
+            },
+            {
+              "criterion": "MinSpeedTest",
+              "type": "MIN_SPEED_INFRACTION",
+              "frame": 780400,
+              "message": "Average speed is 100.09% of the surrounding traffic's one",
+              "data": {
+                "percentage": 100.09
+              }
+            },
+            {
+              "criterion": "MinSpeedTest",
+              "type": "MIN_SPEED_INFRACTION",
+              "frame": 780419,
+              "message": "Average speed is 93.78% of the surrounding traffic's one",
+              "data": {
+                "percentage": 93.78
+              }
+            },
+            {
+              "criterion": "MinSpeedTest",
+              "type": "MIN_SPEED_INFRACTION",
+              "frame": 780438,
+              "message": "Average speed is 92.61% of the surrounding traffic's one",
+              "data": {
+                "percentage": 92.61
+              }
+            },
+            {
+              "criterion": "MinSpeedTest",
+              "type": "MIN_SPEED_INFRACTION",
+              "frame": 780457,
+              "message": "Average speed is 91.93% of the surrounding traffic's one",
+              "data": {
+                "percentage": 91.93
+              }
+            },
+            {
+              "criterion": "MinSpeedTest",
+              "type": "MIN_SPEED_INFRACTION",
+              "frame": 780475,
+              "message": "Average speed is 94.23% of the surrounding traffic's one",
+              "data": {
+                "percentage": 94.23
+              }
+            }
+          ],
+          "efficiency_mean_percent": 109.91578947368419,
+          "efficiency_valid_checkpoints": 19,
+          "smoothness_score": null,
+          "smoothness_status": "not_computed; raw telemetry available with native_metrics=true",
+          "final": true
+        },
+        "native_control_suppressed": {}
+      },
+      "scenario_progress_schema": 1,
+      "scenario_progress_transitions": [
+        {
+          "frame": 780084,
+          "tick": 1,
+          "name": "StaticCutIn_1",
+          "type": "StaticCutIn",
+          "status": "Status.RUNNING",
+          "schema_version": 1,
+          "extraction": "pinned_basic_scenario_route_wrapper_v1",
+          "wrapper_status": "Status.RUNNING",
+          "actual_behavior_status": "Status.INVALID",
+          "trigger_status": "Status.RUNNING",
+          "activation_observed": false,
+          "completion_observed": false,
+          "reason": null,
+          "limitations": [
+            "Instantaneous observations only; the episode must latch observed True values before tree invalidation.",
+            "Behavior completion does not establish route completion, passing scenario criteria, or infraction-free driving.",
+            "Unsupported tree layouts have unknown progress; historical transitions cannot be reconstructed."
+          ]
+        },
+        {
+          "frame": 780144,
+          "tick": 61,
+          "name": "StaticCutIn_1",
+          "type": "StaticCutIn",
+          "status": "Status.RUNNING",
+          "schema_version": 1,
+          "extraction": "pinned_basic_scenario_route_wrapper_v1",
+          "wrapper_status": "Status.RUNNING",
+          "actual_behavior_status": "Status.RUNNING",
+          "trigger_status": "Status.SUCCESS",
+          "activation_observed": true,
+          "completion_observed": false,
+          "reason": null,
+          "limitations": [
+            "Instantaneous observations only; the episode must latch observed True values before tree invalidation.",
+            "Behavior completion does not establish route completion, passing scenario criteria, or infraction-free driving.",
+            "Unsupported tree layouts have unknown progress; historical transitions cannot be reconstructed."
+          ]
+        }
+      ],
+      "native_success": true,
+      "native_control_transforms": 0,
+      "tick_counts": {
+        "initialization": 10,
+        "step": 392
+      },
+      "simulation_seconds": 4.377629688955494,
+      "wall_seconds": 38.453589527001895,
+      "remaining_owned_resources": 0,
+      "immediate_snapshot_dynamic_actors": [
+        "sensor.other.collision",
+        "vehicle.lincoln.mkz_2017",
+        "vehicle.ford.mustang",
+        "vehicle.mini.cooper_s_2021",
+        "vehicle.audi.tt",
+        "vehicle.lincoln.mkz_2020",
+        "vehicle.ford.mustang",
+        "vehicle.nissan.patrol_2021",
+        "vehicle.lincoln.mkz_2017",
+        "vehicle.nissan.patrol_2021",
+        "vehicle.mini.cooper_s_2021",
+        "vehicle.dodge.charger_2020",
+        "vehicle.nissan.patrol_2021",
+        "vehicle.lincoln.mkz_2017",
+        "vehicle.mini.cooper_s_2021",
+        "vehicle.audi.etron",
+        "vehicle.audi.etron",
+        "vehicle.chevrolet.impala",
+        "vehicle.lincoln.mkz_2020"
+      ],
+      "cleanup_verification": "owned registry empty after acknowledged destruction; synchronous snapshot may remain stale until next tick"
+    },
+    {
+      "route_id": "23842",
+      "town": "Town12",
+      "scenario_types": [
+        "HighwayCutIn"
+      ],
+      "execution": "completed",
+      "ticks": 1463,
+      "activated": [
+        "HighwayCutIn_1"
+      ],
+      "completed": [],
+      "initialization_seconds": 5.840926924996893,
+      "metadata": {
+        "source": "bench2drive",
+        "scenario_id": "23842",
+        "seed": 123,
+        "town": "Town12",
+        "scenario_types": [
+          "HighwayCutIn"
+        ],
+        "loaded_town": "Town12",
+        "route_fingerprint": "be4a13fada5f6d0c5d02d69f7d2f605dee67e681115a10b16999657835ca9188",
+        "upstream_commit": "acbeb0dd8aa99dd0e71b9b75bb542f6fe7c7f3d8",
+        "patch_version": 4,
+        "native_npc": true,
+        "mechanism_replacements": [],
+        "generation_failure": null,
+        "native_validation": "not_run",
+        "repeatability_validation": "not_run",
+        "scenario_names": [
+          "HighwayCutIn_1"
+        ]
+      },
+      "capabilities": {
+        "source": "bench2drive",
+        "native_execution": true,
+        "native_validation": "not_run",
+        "fixed_recipe_rebuild": true,
+        "prefix_replay": false,
+        "replay_restrictions": [
+          "Native Traffic Manager and behavior tree internal state is not serializable",
+          "Same seed alone is not a verified common-prefix state"
+        ],
+        "takeover_roles": {
+          "HighwayCutIn_1:adversary": {
+            "actor_id": 5849,
+            "native_type": "HighwayCutIn",
+            "can_takeover": false,
+            "phase": "waiting_for_trigger",
+            "validation": "not_run",
+            "reason": "Explicit allow_unvalidated_takeover required"
+          }
+        },
+        "takeover_restrictions": [
+          "Only initialized ParkingCutIn, StaticCutIn, HighwayCutIn adversaries",
+          "Requires native placement and explicit experimental opt-in",
+          "No actor lifetime extension; irreversible within the episode"
+        ]
+      },
+      "events": {
+        "native_done": true,
+        "native_success": false,
+        "native_timeout": false,
+        "native_status": "Status.FAILURE",
+        "native_criteria": [
+          {
+            "name": "RouteCompletionTest",
+            "status": "FAILURE",
+            "actual_value": 63.42,
+            "expected_value": 100.0
+          },
+          {
+            "name": "OutsideRouteLanesTest",
+            "status": "SUCCESS",
+            "actual_value": 0.0,
+            "expected_value": 0.0
+          },
+          {
+            "name": "CollisionTest",
+            "status": "SUCCESS",
+            "actual_value": 0.0,
+            "expected_value": 0.0
+          },
+          {
+            "name": "RunningRedLightTest",
+            "status": "SUCCESS",
+            "actual_value": 0.0,
+            "expected_value": 0.0
+          },
+          {
+            "name": "RunningStopTest",
+            "status": "SUCCESS",
+            "actual_value": 0.0,
+            "expected_value": 0.0
+          },
+          {
+            "name": "MinSpeedTest",
+            "status": "FAILURE",
+            "actual_value": 170.41,
+            "expected_value": 100.0
+          },
+          {
+            "name": "InRouteTest",
+            "status": "SUCCESS",
+            "actual_value": 0.0,
+            "expected_value": 0.0
+          },
+          {
+            "name": "AgentBlockedTest",
+            "status": "FAILURE",
+            "actual_value": 0.0,
+            "expected_value": 0.0
+          }
+        ],
+        "native_scenario_progress_schema": 1,
+        "native_scenarios": [
+          {
+            "name": "HighwayCutIn_1",
+            "type": "HighwayCutIn",
+            "status": "Status.RUNNING",
+            "schema_version": 1,
+            "extraction": "pinned_basic_scenario_route_wrapper_v1",
+            "wrapper_status": "Status.RUNNING",
+            "actual_behavior_status": "Status.RUNNING",
+            "trigger_status": "Status.SUCCESS",
+            "activation_observed": true,
+            "completion_observed": false,
+            "reason": null,
+            "limitations": [
+              "Instantaneous observations only; the episode must latch observed True values before tree invalidation.",
+              "Behavior completion does not establish route completion, passing scenario criteria, or infraction-free driving.",
+              "Unsupported tree layouts have unknown progress; historical transitions cannot be reconstructed."
+            ]
+          }
+        ],
+        "pending_scenarios": [],
+        "deferred_tick_requests": 0,
+        "deferred_batch_ticks": 0,
+        "native_spawn_velocity_handoffs": 0,
+        "native_constant_velocity_handoffs": 0,
+        "native_velocity_impulse_handoffs": 0,
+        "native_statistics": {
+          "implementation": "pinned_leaderboard_statistics_manager",
+          "record": {
+            "index": 0,
+            "route_id": "RouteScenario_23842_rep0",
+            "scenario_name": "HighwayCutIn",
+            "weather_id": null,
+            "save_name": null,
+            "status": "Failed - Agent got blocked",
+            "num_infractions": 12,
+            "infractions": {
+              "collisions_layout": [],
+              "collisions_pedestrian": [],
+              "collisions_vehicle": [],
+              "red_light": [],
+              "stop_infraction": [],
+              "outside_route_lanes": [],
+              "min_speed_infractions": [
+                "Average speed is 119.23% of the surrounding traffic's one",
+                "Average speed is 197.15% of the surrounding traffic's one",
+                "Average speed is 207.61% of the surrounding traffic's one",
+                "Average speed is 176.45% of the surrounding traffic's one",
+                "Average speed is 146.07% of the surrounding traffic's one",
+                "Average speed is 163.4% of the surrounding traffic's one",
+                "Average speed is 193.67% of the surrounding traffic's one",
+                "Average speed is 155.74% of the surrounding traffic's one",
+                "Average speed is 150.2% of the surrounding traffic's one",
+                "Average speed is 190.71% of the surrounding traffic's one",
+                "Average speed is 174.29% of the surrounding traffic's one"
+              ],
+              "yield_emergency_vehicle_infractions": [],
+              "scenario_timeouts": [],
+              "route_dev": [],
+              "vehicle_blocked": [
+                "Agent got blocked at (x=646.302, y=3078.795, z=361.796)"
+              ],
+              "route_timeout": []
+            },
+            "scores": {
+              "score_route": 63.42,
+              "score_penalty": 1.0,
+              "score_composed": 63.42
+            },
+            "meta": {
+              "route_length": 132.052,
+              "duration_game": 73.15,
+              "duration_system": 33.315
+            },
+            "town_name": "Town12"
+          },
+          "events": [
+            {
+              "criterion": "RouteCompletionTest",
+              "type": "ROUTE_COMPLETION",
+              "frame": 0,
+              "message": "Agent has completed 63.42 of the route",
+              "data": {
+                "route_completed": 63.42
+              }
+            },
+            {
+              "criterion": "MinSpeedTest",
+              "type": "MIN_SPEED_INFRACTION",
+              "frame": 780536,
+              "message": "Average speed is 119.23% of the surrounding traffic's one",
+              "data": {
+                "percentage": 119.23
+              }
+            },
+            {
+              "criterion": "MinSpeedTest",
+              "type": "MIN_SPEED_INFRACTION",
+              "frame": 780557,
+              "message": "Average speed is 197.15% of the surrounding traffic's one",
+              "data": {
+                "percentage": 197.15
+              }
+            },
+            {
+              "criterion": "MinSpeedTest",
+              "type": "MIN_SPEED_INFRACTION",
+              "frame": 780577,
+              "message": "Average speed is 207.61% of the surrounding traffic's one",
+              "data": {
+                "percentage": 207.61
+              }
+            },
+            {
+              "criterion": "MinSpeedTest",
+              "type": "MIN_SPEED_INFRACTION",
+              "frame": 780595,
+              "message": "Average speed is 176.45% of the surrounding traffic's one",
+              "data": {
+                "percentage": 176.45
+              }
+            },
+            {
+              "criterion": "MinSpeedTest",
+              "type": "MIN_SPEED_INFRACTION",
+              "frame": 780614,
+              "message": "Average speed is 146.07% of the surrounding traffic's one",
+              "data": {
+                "percentage": 146.07
+              }
+            },
+            {
+              "criterion": "MinSpeedTest",
+              "type": "MIN_SPEED_INFRACTION",
+              "frame": 780633,
+              "message": "Average speed is 163.4% of the surrounding traffic's one",
+              "data": {
+                "percentage": 163.4
+              }
+            },
+            {
+              "criterion": "MinSpeedTest",
+              "type": "MIN_SPEED_INFRACTION",
+              "frame": 780652,
+              "message": "Average speed is 193.67% of the surrounding traffic's one",
+              "data": {
+                "percentage": 193.67
+              }
+            },
+            {
+              "criterion": "MinSpeedTest",
+              "type": "MIN_SPEED_INFRACTION",
+              "frame": 780671,
+              "message": "Average speed is 155.74% of the surrounding traffic's one",
+              "data": {
+                "percentage": 155.74
+              }
+            },
+            {
+              "criterion": "MinSpeedTest",
+              "type": "MIN_SPEED_INFRACTION",
+              "frame": 780690,
+              "message": "Average speed is 150.2% of the surrounding traffic's one",
+              "data": {
+                "percentage": 150.2
+              }
+            },
+            {
+              "criterion": "MinSpeedTest",
+              "type": "MIN_SPEED_INFRACTION",
+              "frame": 780709,
+              "message": "Average speed is 190.71% of the surrounding traffic's one",
+              "data": {
+                "percentage": 190.71
+              }
+            },
+            {
+              "criterion": "MinSpeedTest",
+              "type": "MIN_SPEED_INFRACTION",
+              "frame": 780728,
+              "message": "Average speed is 174.29% of the surrounding traffic's one",
+              "data": {
+                "percentage": 174.29
+              }
+            },
+            {
+              "criterion": "AgentBlockedTest",
+              "type": "VEHICLE_BLOCKED",
+              "frame": 781945,
+              "message": "Agent got blocked at (x=646.302, y=3078.795, z=361.796)",
+              "data": {
+                "location": {
+                  "x": 646.3023071289062,
+                  "y": 3078.795166015625,
+                  "z": 361.7955017089844
+                }
+              }
+            }
+          ],
+          "efficiency_mean_percent": 170.4109090909091,
+          "efficiency_valid_checkpoints": 11,
+          "smoothness_score": null,
+          "smoothness_status": "not_computed; raw telemetry available with native_metrics=true",
+          "final": true
+        },
+        "native_control_suppressed": {}
+      },
+      "scenario_progress_schema": 1,
+      "scenario_progress_transitions": [
+        {
+          "frame": 780483,
+          "tick": 1,
+          "name": "HighwayCutIn_1",
+          "type": "HighwayCutIn",
+          "status": "Status.RUNNING",
+          "schema_version": 1,
+          "extraction": "pinned_basic_scenario_route_wrapper_v1",
+          "wrapper_status": "Status.RUNNING",
+          "actual_behavior_status": "Status.INVALID",
+          "trigger_status": "Status.RUNNING",
+          "activation_observed": false,
+          "completion_observed": false,
+          "reason": null,
+          "limitations": [
+            "Instantaneous observations only; the episode must latch observed True values before tree invalidation.",
+            "Behavior completion does not establish route completion, passing scenario criteria, or infraction-free driving.",
+            "Unsupported tree layouts have unknown progress; historical transitions cannot be reconstructed."
+          ]
+        },
+        {
+          "frame": 780520,
+          "tick": 38,
+          "name": "HighwayCutIn_1",
+          "type": "HighwayCutIn",
+          "status": "Status.RUNNING",
+          "schema_version": 1,
+          "extraction": "pinned_basic_scenario_route_wrapper_v1",
+          "wrapper_status": "Status.RUNNING",
+          "actual_behavior_status": "Status.RUNNING",
+          "trigger_status": "Status.SUCCESS",
+          "activation_observed": true,
+          "completion_observed": false,
+          "reason": null,
+          "limitations": [
+            "Instantaneous observations only; the episode must latch observed True values before tree invalidation.",
+            "Behavior completion does not establish route completion, passing scenario criteria, or infraction-free driving.",
+            "Unsupported tree layouts have unknown progress; historical transitions cannot be reconstructed."
+          ]
+        }
+      ],
+      "native_success": false,
+      "native_control_transforms": 0,
+      "tick_counts": {
+        "initialization": 5,
+        "step": 1463
+      },
+      "simulation_seconds": 14.424477028791443,
+      "wall_seconds": 39.16161969499808,
+      "remaining_owned_resources": 0,
+      "immediate_snapshot_dynamic_actors": [
+        "sensor.other.collision",
+        "sensor.other.collision",
+        "vehicle.chevrolet.impala",
+        "vehicle.lincoln.mkz_2020",
+        "vehicle.ford.mustang",
+        "vehicle.lincoln.mkz_2020",
+        "vehicle.mercedes.coupe_2020",
+        "vehicle.audi.tt",
+        "vehicle.dodge.charger_2020",
+        "vehicle.lincoln.mkz_2020",
+        "vehicle.mercedes.coupe_2020",
+        "vehicle.lincoln.mkz_2020",
+        "vehicle.mini.cooper_s_2021",
+        "vehicle.lincoln.mkz_2017",
+        "vehicle.mercedes.coupe_2020",
+        "vehicle.lincoln.mkz_2017",
+        "vehicle.mini.cooper_s_2021",
+        "vehicle.lincoln.mkz_2017",
+        "vehicle.chevrolet.impala",
+        "vehicle.lincoln.mkz_2020",
+        "vehicle.chevrolet.impala"
+      ],
+      "cleanup_verification": "owned registry empty after acknowledged destruction; synchronous snapshot may remain stale until next tick"
+    }
+  ],
+  "finished_utc": "2026-09-27T15:20:51.781948+00:00"
+}

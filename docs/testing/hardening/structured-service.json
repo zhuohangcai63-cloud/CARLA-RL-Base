@@ -1,0 +1,206 @@
+{
+  "status": "passed",
+  "measurement_kind": "independent_client_service_measurement",
+  "instance": "hardening_structured_83210",
+  "client_python": "3.11.16",
+  "client_prefix": "/home/czh/software/miniconda3/envs/carla-client-test",
+  "control": [
+    0.0,
+    0.15,
+    0.0
+  ],
+  "copy_observations": true,
+  "requested_episodes": 2,
+  "requested_steps_per_episode": 30,
+  "episodes": [
+    {
+      "index": 0,
+      "seed": 0,
+      "backend_reported": "carla",
+      "scenario": {
+        "source": "scenic",
+        "scenario_id": "interaction_follow",
+        "seed": 0,
+        "source_sha256": "cd727e47203609271a8904a9142028f85479f0b3e7fed2d152e914b859ea2a32",
+        "file": "/home/czh/workspace/CARLA-RL-Base/scenarios/scenic/interaction_follow.scenic",
+        "town": "Town10HD",
+        "iterations": 1,
+        "parameters": {
+          "scenario_name": "interaction_follow",
+          "weather": "ClearNoon",
+          "traffic_light_policy": "off",
+          "ego_spawn_index": 0,
+          "destination_spawn_index": 30,
+          "min_route_distance": 100,
+          "number_of_vehicles": 0,
+          "number_of_walkers": 0
+        },
+        "generation_failures": [],
+        "seeds": {
+          "scenic_python": 0,
+          "scenic_numpy": 0,
+          "route": 0,
+          "spawn": 0,
+          "streams_independent": true,
+          "traffic_manager": 0,
+          "pedestrians": 0,
+          "events": 1,
+          "crossing": 2,
+          "lead_brake": 3,
+          "reactive_npc": 0
+        },
+        "ego_spawn_index": 0,
+        "destination_spawn_index": 30,
+        "background_vehicles_requested": 0,
+        "background_vehicles_spawned": 0,
+        "reactive_routes": {}
+      },
+      "steps": 30,
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "index": 1,
+      "seed": 1,
+      "backend_reported": "carla",
+      "scenario": {
+        "source": "scenic",
+        "scenario_id": "interaction_follow",
+        "seed": 1,
+        "source_sha256": "cd727e47203609271a8904a9142028f85479f0b3e7fed2d152e914b859ea2a32",
+        "file": "/home/czh/workspace/CARLA-RL-Base/scenarios/scenic/interaction_follow.scenic",
+        "town": "Town10HD",
+        "iterations": 1,
+        "parameters": {
+          "scenario_name": "interaction_follow",
+          "weather": "ClearNoon",
+          "traffic_light_policy": "off",
+          "ego_spawn_index": 0,
+          "destination_spawn_index": 30,
+          "min_route_distance": 100,
+          "number_of_vehicles": 0,
+          "number_of_walkers": 0
+        },
+        "generation_failures": [],
+        "seeds": {
+          "scenic_python": 1,
+          "scenic_numpy": 1,
+          "route": 1,
+          "spawn": 1,
+          "streams_independent": true,
+          "traffic_manager": 1,
+          "pedestrians": 1,
+          "events": 2,
+          "crossing": 3,
+          "lead_brake": 4,
+          "reactive_npc": 1
+        },
+        "ego_spawn_index": 0,
+        "destination_spawn_index": 30,
+        "background_vehicles_requested": 0,
+        "background_vehicles_spawned": 0,
+        "reactive_routes": {}
+      },
+      "steps": 30,
+      "terminated": false,
+      "truncated": false
+    }
+  ],
+  "simulation_timing_source": "service-provided info.timing; not inferred from wall-clock duration",
+  "wall_seconds": 8.406527941995591,
+  "metrics": {
+    "rpc_roundtrip_seconds": {
+      "count": 60,
+      "p50": 0.06094954449872603,
+      "p95": 0.06784427765560394,
+      "mean": 0.06127292563372369,
+      "min": 0.05283676299586659,
+      "max": 0.07687929799431004
+    },
+    "rpc_backend_seconds": {
+      "count": 60,
+      "p50": 0.059992888498527464,
+      "p95": 0.0667674069016357,
+      "mean": 0.0602822368828735,
+      "min": 0.05188158300006762,
+      "max": 0.07603233699774137
+    },
+    "transport_and_copy_seconds": {
+      "count": 60,
+      "p50": 0.0009628234984120354,
+      "p95": 0.001154935259182821,
+      "mean": 0.000990688750850192,
+      "min": 0.0007451450001099147,
+      "max": 0.0012117310034227557
+    },
+    "simulation_seconds": {
+      "count": 60,
+      "p50": 0.032499847995495657,
+      "p95": 0.03936352145101409,
+      "mean": 0.03134247241747896,
+      "min": 0.02106478101632092,
+      "max": 0.04250764900643844
+    },
+    "control_commit_seconds": {
+      "count": 60,
+      "p50": 0.0009893714959616773,
+      "p95": 0.001114301001507556,
+      "mean": 0.0009880033995917378,
+      "min": 0.0008268489909823984,
+      "max": 0.0013196970030548982
+    },
+    "observation_seconds": {
+      "count": 60,
+      "p50": 0.017589977502211696,
+      "p95": 0.023433046344507602,
+      "mean": 0.01787370094898506,
+      "min": 0.012353186000837013,
+      "max": 0.03726875100255711
+    },
+    "sensor_wait_seconds": {
+      "count": 60,
+      "p50": 0.008404180491197621,
+      "p95": 0.008778472650010371,
+      "mean": 0.008434914599517167,
+      "min": 0.008298054999613669,
+      "max": 0.008901269997295458
+    },
+    "environment_seconds": {
+      "count": 60,
+      "p50": 0.059952066498226486,
+      "p95": 0.06672910785018757,
+      "mean": 0.06024100866695032,
+      "min": 0.05184190100408159,
+      "max": 0.07598387899633963
+    },
+    "reset_roundtrip_seconds": {
+      "count": 2,
+      "p50": 2.3599051290038915,
+      "p95": 4.409691570906216,
+      "mean": 2.3599051290038915,
+      "min": 0.08236463800130878,
+      "max": 4.637445620006474
+    },
+    "initialization_seconds": {
+      "count": 2,
+      "p50": 2.3573732305012527,
+      "p95": 4.407501327253703,
+      "mean": 2.3573732305012527,
+      "min": 0.07945312299852958,
+      "max": 4.635293338003976
+    },
+    "observation_array_bytes": {
+      "count": 60,
+      "p50": 85904.0,
+      "p95": 85904.0,
+      "mean": 85904.0,
+      "min": 85904.0,
+      "max": 85904.0
+    }
+  },
+  "notes": [
+    "Passing this runner verifies successful communication, not driving task success.",
+    "Empty timing samples mean the backend did not supply that measurement.",
+    "Transport time includes scheduling, encoding, shared-memory transfer and copying."
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "instances": [
+    "planning_0"
+  ],
+  "mode": "serial",
+  "requests_per_repetition": 1000,
+  "repetitions": [
+    {
+      "valid_requests": 1000,
+      "physical_ticks": 2000,
+      "resets": 1,
+      "step_seconds": 14.803457630972844,
+      "reset_seconds": 0.06504386500455439,
+      "elapsed_seconds": 14.89109496299352,
+      "step_throughput": 67.5517858684399,
+      "end_to_end_throughput": 67.15422891903796,
+      "batch_latency_p50_seconds": 0.014189894507580902,
+      "batch_latency_p95_seconds": 0.018486004662554477,
+      "timing_mean_seconds": {
+        "simulation_seconds": 0.00189506600414461,
+        "control_commit_seconds": 0.0003142514119535917,
+        "observation_seconds": 0.0030213691546232438,
+        "history_seconds": 0.003151709368990851,
+        "scenario_seconds": 0.0006954803538683337,
+        "sensor_wait_seconds": 0.0041522685352538245,
+        "environment_seconds": 0.013742813876102445,
+        "backend_seconds": 0.013770827783082496,
+        "roundtrip_seconds": 0.014796986634042697,
+        "transport_and_copy_seconds": 0.0010261588509602006
+      },
+      "terminal_events": []
+    },
+    {
+      "valid_requests": 1000,
+      "physical_ticks": 2000,
+      "resets": 1,
+      "step_seconds": 14.826146447259816,
+      "reset_seconds": 0.0633452460024273,
+      "elapsed_seconds": 14.906442781008082,
+      "step_throughput": 67.44840971032099,
+      "end_to_end_throughput": 67.0850862738409,
+      "batch_latency_p50_seconds": 0.014248873500037007,
+      "batch_latency_p95_seconds": 0.01866381630825344,
+      "timing_mean_seconds": {
+        "simulation_seconds": 0.0019022667645767796,
+        "control_commit_seconds": 0.00031757374481821896,
+        "observation_seconds": 0.003070082898848341,
+        "history_seconds": 0.0031192302012786966,
+        "scenario_seconds": 0.0006867147946031764,
+        "sensor_wait_seconds": 0.004151169327742537,
+        "environment_seconds": 0.013750832764024381,
+        "backend_seconds": 0.013778140451235231,
+        "roundtrip_seconds": 0.014819443282438442,
+        "transport_and_copy_seconds": 0.001041302831203211
+      },
+      "terminal_events": []
+    },
+    {
+      "valid_requests": 1000,
+      "physical_ticks": 2000,
+      "resets": 1,
+      "step_seconds": 15.070978811127134,
+      "reset_seconds": 0.06980842199118342,
+      "elapsed_seconds": 15.15866048099997,
+      "step_throughput": 66.35269099188731,
+      "end_to_end_throughput": 65.96888961616436,
+      "batch_latency_p50_seconds": 0.014398983999853954,
+      "batch_latency_p95_seconds": 0.019237710097513624,
+      "timing_mean_seconds": {
+        "simulation_seconds": 0.0019389578858244932,
+        "control_commit_seconds": 0.00033256416719814295,
+        "observation_seconds": 0.0030673373741446994,
+        "history_seconds": 0.0032804943037044723,
+        "scenario_seconds": 0.0006889725679357071,
+        "sensor_wait_seconds": 0.004152908377000131,
+        "environment_seconds": 0.01397129305494309,
+        "backend_seconds": 0.013999555345188128,
+        "roundtrip_seconds": 0.015064028324151877,
+        "transport_and_copy_seconds": 0.0010644729789637494
+      },
+      "terminal_events": []
+    }
+  ],
+  "seed": 7,
+  "action": [
+    0.0,
+    0.0,
+    1.0
+  ],
+  "workload": "stationary_brake; NPCs and scene continue ticking",
+  "started_at": 1791810741.7054417,
+  "status": "completed",
+  "service_epochs": {
+    "0": "fdd2e6a3-a87d-4e24-bbef-a5700306d5a9"
+  },
+  "initialization": {
+    "0": {
+      "effective_world_settings": {
+        "synchronous_mode": true,
+        "fixed_delta_seconds": 0.05,
+        "no_rendering_mode": true,
+        "substepping": true,
+        "max_substeps": 10,
+        "max_substep_delta_time": 0.01,
+        "tile_stream_distance": 3000.0,
+        "actor_active_distance": 2000.0,
+        "spectator_as_ego": false,
+        "map_layers_request": "all",
+        "map_name": "Town10HD"
+      },
+      "scenario": {
+        "source": "scenic",
+        "scenario_id": "interaction_follow",
+        "seed": 7,
+        "source_sha256": "cd727e47203609271a8904a9142028f85479f0b3e7fed2d152e914b859ea2a32",
+        "file": "/home/czh/workspace/CARLA-RL-Base/scenarios/scenic/interaction_follow.scenic",
+        "town": "Town10HD",
+        "iterations": 1,
+        "parameters": {
+          "scenario_name": "interaction_follow",
+          "weather": "ClearNoon",
+          "traffic_light_policy": "off",
+          "ego_spawn_index": 0,
+          "destination_spawn_index": 30,
+          "min_route_distance": 100,
+          "number_of_vehicles": 0,
+          "number_of_walkers": 0
+        },
+        "generation_failures": [],
+        "seeds": {
+          "scenic_python": 7,
+          "scenic_numpy": 7,
+          "route": 7,
+          "spawn": 7,
+          "streams_independent": true,
+          "traffic_manager": 7,
+          "pedestrians": 7,
+          "events": 8,
+          "crossing": 9,
+          "lead_brake": 10,
+          "reactive_npc": 7
+        },
+        "ego_spawn_index": 0,
+        "destination_spawn_index": 30,
+        "background_vehicles_requested": 0,
+        "background_vehicles_spawned": 0,
+        "reactive_routes": {
+          "lead_near": {
+            "route_kind": "follow",
+            "validation": "geometry_only"
+          },
+          "lead_far": {
+            "route_kind": "follow",
+            "validation": "geometry_only"
+          }
+        }
+      },
+      "geometry": {
+        "rear_axle_offset": [
+          -1.386406421661377,
+          -1.3806261449644808e-06,
+          0.3078577518463135
+        ],
+        "bbox_offset": [
+          0.02921886183321476,
+          6.189419536895002e-07,
+          0.7358604073524475
+        ],
+        "bbox_valid": true,
+        "rear_axle_valid": true,
+        "wheelbase": 3.004647731781006,
+        "size": [
+          4.791779518127441,
+          2.163450002670288,
+          1.4876600503921509
+        ],
+        "max_steer_angle": 1.221730351448059
+      }
+    }
+  },
+  "progress": {
+    "repetition": 2,
+    "valid_requests": 1000,
+    "elapsed_seconds": 15.158384381997166
+  },
+  "finished_at": 1791810786.679967,
+  "cleanup_errors": []
+}

@@ -1,0 +1,17 @@
+{
+  "created_utc": "2026-09-28T04:41:06.871393+00:00",
+  "scope": "Experimental combination; not a confirmed fix or isolated root-cause attribution",
+  "source": "/home/czh/.config/Epic/CarlaUE4/Saved/Config/LinuxNoEditor",
+  "user_dir": "/tmp/easycarla-town13-conservative-profile",
+  "engine_ini_sha256": "7d6cf29f19980adf4039711e67fb9a7d1fae957bbbecad30ebb9a5412c135337",
+  "server_args": [
+    "-quality-level=Epic",
+    "-norhithread",
+    "-UserDir=/tmp/easycarla-town13-conservative-profile"
+  ],
+  "cvars": {
+    "r.Vulkan.EnableDefrag": 0,
+    "r.Vulkan.WaitForIdleOnSubmit": 1,
+    "r.AsyncPipelineCompile": 0
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "args": {
+    "port": 2600,
+    "out": "/home/czh/workspace/CARLA-RL-Base/docs/testing/town13-investigation/baseline-spectator/probe.json",
+    "towns": "Town13",
+    "repeats": 3,
+    "ticks": 100,
+    "spectator": 1,
+    "render": 0,
+    "distance": 500,
+    "camera": false
+  },
+  "status": "failed",
+  "episodes": [],
+  "error": "time-out of 1000ms while waiting for the simulator, make sure the simulator is ready and connected to 127.0.0.1:2600",
+  "traceback": "Traceback (most recent call last):\n  File \"/tmp/carla_map_probe.py\", line 13, in <module>\n    try:w=c.get_world();break\nRuntimeError: time-out of 1000ms while waiting for the simulator, make sure the simulator is ready and connected to 127.0.0.1:2600\n"
+}

@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "results": [
+    {
+      "route_id": "24416",
+      "source_report": "platform-takeover-24416.json",
+      "status": "passed",
+      "role": "ParkingCutIn_1:adversary",
+      "phase": "waiting_for_trigger",
+      "patch_version": 4,
+      "decision_samples": 12,
+      "first_observed_frame": 70535,
+      "last_observed_frame": 70579,
+      "observed_sample_span_ticks": 44,
+      "observed_sample_span_seconds": 2.2,
+      "nominal_test_execution_ticks": 48,
+      "nominal_test_execution_seconds": 2.4000000000000004,
+      "window_limit": "The original reports did not capture the pre-handoff frame. First-to-last sample span is observed; total window is inferred from the configured four-tick decisions. Later tests capture handoff_frame explicitly.",
+      "mechanism_sequence": [
+        "L",
+        "G"
+      ],
+      "simulation_config_provenance": "Explicit arguments in tests/test_bench2drive_takeover_integration.py at execution, not independently captured effective world settings.",
+      "simulation_config": {
+        "port": 2300,
+        "tm_port": 8300,
+        "physics_dt": 0.05,
+        "decision_dt": 0.2,
+        "no_rendering_mode": true,
+        "map_layers": "none",
+        "tile_stream_distance": 500,
+        "actor_active_distance": 500,
+        "reload_on_reset": false
+      },
+      "claim_scope": "This route, role, initial phase and short observed window only. Native actor lifetime and later scenario phases remain unverified; native prefix replay remains unsupported."
+    },
+    {
+      "route_id": "22535",
+      "source_report": "platform-takeover-22535.json",
+      "status": "passed",
+      "role": "StaticCutIn_1:adversary",
+      "phase": "waiting_for_trigger",
+      "patch_version": 4,
+      "decision_samples": 12,
+      "first_observed_frame": 1250399,
+      "last_observed_frame": 1250443,
+      "observed_sample_span_ticks": 44,
+      "observed_sample_span_seconds": 2.2,
+      "nominal_test_execution_ticks": 48,
+      "nominal_test_execution_seconds": 2.4000000000000004,
+      "window_limit": "The original reports did not capture the pre-handoff frame. First-to-last sample span is observed; total window is inferred from the configured four-tick decisions. Later tests capture handoff_frame explicitly.",
+      "mechanism_sequence": [
+        "L",
+        "G"
+      ],
+      "simulation_config_provenance": "Explicit arguments in tests/test_bench2drive_takeover_integration.py at execution, not independently captured effective world settings.",
+      "simulation_config": {
+        "port": 2300,
+        "tm_port": 8300,
+        "physics_dt": 0.05,
+        "decision_dt": 0.2,
+        "no_rendering_mode": true,
+        "map_layers": "none",
+        "tile_stream_distance": 500,
+        "actor_active_distance": 500,
+        "reload_on_reset": false
+      },
+      "claim_scope": "This route, role, initial phase and short observed window only. Native actor lifetime and later scenario phases remain unverified; native prefix replay remains unsupported."
+    }
+  ]
+}

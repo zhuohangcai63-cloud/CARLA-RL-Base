@@ -1,0 +1,9 @@
+{
+  "user_dir": "/tmp/easycarla-town13-defrag-profile",
+  "source_config": "/home/czh/.config/Epic/CarlaUE4/Saved/Config/LinuxNoEditor",
+  "engine_ini_sha256": "802e1dd5ad1ee5768a8d8308231503f58d511057bd0e41ddcdc64740f6aa9739",
+  "intended_change": {
+    "r.Vulkan.EnableDefrag": 0
+  },
+  "purpose": "isolated config activation and map probe, not a verified fix"
+}

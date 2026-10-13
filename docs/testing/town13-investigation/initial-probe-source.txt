@@ -1,0 +1,63 @@
+import argparse, json, time, traceback, queue
+from pathlib import Path
+import carla
+p=argparse.ArgumentParser();p.add_argument('--port',type=int,default=2600);p.add_argument('--out',required=True);p.add_argument('--towns',default='Town13');p.add_argument('--repeats',type=int,default=3);p.add_argument('--ticks',type=int,default=100);p.add_argument('--spectator',type=int,default=1);p.add_argument('--render',type=int,default=0);p.add_argument('--distance',type=float,default=500);p.add_argument('--camera',action='store_true');a=p.parse_args()
+r={'args':vars(a),'status':'running','episodes':[]};out=Path(a.out)
+def save():out.write_text(json.dumps(r,indent=2)+'\n')
+def stage(s):
+ e['stage']=s;save();print(s,flush=True)
+try:
+ c=carla.Client('127.0.0.1',a.port);c.set_timeout(1)
+ deadline=time.monotonic()+75
+ while True:
+  try:
+   c=carla.Client('127.0.0.1',a.port);c.set_timeout(1);c.get_server_version();w=c.get_world();break
+  except RuntimeError:
+   if time.monotonic()>deadline:raise
+   time.sleep(.25)
+ c.set_timeout(75)
+ print('READY',flush=True)
+ s=w.get_settings();s.synchronous_mode=True;s.fixed_delta_seconds=.05;s.no_rendering_mode=not a.render;s.tile_stream_distance=a.distance;s.actor_active_distance=a.distance;s.spectator_as_ego=bool(a.spectator);w.apply_settings(s)
+ for repeat in range(a.repeats):
+  for town in a.towns.split(','):
+   e={'town':town,'repeat':repeat,'ticks':0};r['episodes'].append(e);t=time.monotonic();stage('loading')
+   exact=[m for m in c.get_available_maps() if m.rsplit('/',1)[-1]==town][0]
+   w=c.load_world(exact,reset_settings=False,map_layers=carla.MapLayer.All);e['immediate_loaded_settings']={k:getattr(w.get_settings(),k) for k in ['spectator_as_ego','no_rendering_mode','tile_stream_distance','actor_active_distance']};stage('loaded')
+   limit=time.monotonic()+30
+   while w.get_map().name.rsplit('/',1)[-1]!=town:
+    if time.monotonic()>limit:raise RuntimeError('Map metadata mismatch')
+    time.sleep(.05);w=c.get_world()
+   w.apply_settings(s);e['settings']={k:getattr(w.get_settings(),k) for k in ['spectator_as_ego','no_rendering_mode','tile_stream_distance','actor_active_distance']}
+   m=w.get_map()
+   if town=='Town13': loc=carla.Location(x=-4277,y=-297,z=169.9)
+   elif town=='Town12':loc=carla.Location(x=1632.7,y=6065.4,z=367.8)
+   else:loc=m.get_spawn_points()[0].location
+   tr=m.get_waypoint(loc).transform;tr.location.z+=.5
+   bp=w.get_blueprint_library().find('vehicle.lincoln.mkz_2020');bp.set_attribute('role_name','hero')
+   stage('spawning');ego=w.spawn_actor(bp,tr);stage('spawned')
+   w.get_spectator().set_transform(carla.Transform(tr.location+carla.Location(z=30),carla.Rotation(pitch=-90)))
+   cam=None; frames=[]
+   if a.camera:
+    b=w.get_blueprint_library().find('sensor.camera.rgb');b.set_attribute('image_size_x','320');b.set_attribute('image_size_y','180');b.set_attribute('sensor_tick','0.05');cam=w.spawn_actor(b,carla.Transform(carla.Location(x=1.5,z=2.4)),attach_to=ego);q=queue.Queue();cam.listen(q.put)
+   e['load_seconds']=time.monotonic()-t;stage('ticking');ticktimes=[]
+   for i in range(a.ticks):
+    ego.apply_control(carla.VehicleControl(brake=1));t0=time.monotonic();frame=w.tick(75);ticktimes.append(time.monotonic()-t0);e['ticks']+=1
+    if cam:
+     deadline=time.monotonic()+15
+     while True:
+      im=q.get(timeout=max(.01,deadline-time.monotonic()))
+      if im.frame==frame:break
+      if im.frame>frame:raise RuntimeError('Camera future frame')
+     import numpy as np
+     v=np.frombuffer(im.raw_data,dtype=np.uint8).reshape(im.height,im.width,4)[:,:,:3]
+     if float(v.std())<1:raise RuntimeError('Empty/uniform camera image')
+     frames.append({'frame':frame,'std':float(v.std())})
+    if i%20==0:save()
+   e['tick_mean_seconds']=sum(ticktimes)/len(ticktimes);e['tick_max_seconds']=max(ticktimes);e['camera_frames']=len(frames)
+   stage('destroying')
+   if cam:cam.stop();cam.destroy()
+   ego.destroy();stage('passed')
+ r['status']='passed'
+except BaseException as ex:
+ r.update(status='failed',error=str(ex),traceback=traceback.format_exc());raise
+finally:save()

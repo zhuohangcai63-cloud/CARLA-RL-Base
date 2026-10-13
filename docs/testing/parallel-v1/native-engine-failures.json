@@ -1,0 +1,124 @@
+[
+  {
+    "worker_id": "worker_1",
+    "instance": "planning_1",
+    "pid": 122297,
+    "process_start": "12521005",
+    "state": "failed",
+    "ports": {
+      "rpc": 24010,
+      "secondary": 24012,
+      "streaming": 24011,
+      "tm": 24013
+    },
+    "service_epoch": "e2f37823-1519-4aa7-8ed9-66b2912a01f8",
+    "started_at": 1791813874.0228162,
+    "exit_codes": {
+      "service": -9,
+      "carla": 139
+    },
+    "logs": "/home/czh/workspace/CARLA-RL-Base/artifacts/b2d-fleet/worker_1",
+    "server_thread_limits": {
+      "requested": {
+        "rpc": 2,
+        "streaming": 2,
+        "secondary": 2
+      },
+      "applied": false,
+      "reason": "official_0.9.15_uses_hardware_concurrency; CaRL_flags_are_not_parsed"
+    },
+    "numeric_threads": 1,
+    "carla": {
+      "pid": 122328,
+      "process_start": "12521017",
+      "argv": [
+        "/home/czh/software/carla/CarlaUE4.sh",
+        "-nullrhi",
+        "-nosound",
+        "-carla-rpc-port=24010",
+        "-carla-streaming-port=24011",
+        "-carla-secondary-port=24012"
+      ]
+    },
+    "carla_version": "0.9.15",
+    "service": {
+      "pid": 123317,
+      "process_start": "12521451",
+      "argv": [
+        "/home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python3.10",
+        "-m",
+        "easycarla.service.cli",
+        "serve",
+        "--instance",
+        "planning_1",
+        "--config",
+        "/home/czh/workspace/CARLA-RL-Base/artifacts/b2d-fleet/worker_1/environment.json"
+      ]
+    },
+    "ready_at": 1791813878.4702456,
+    "memory_available_mb": 15659.09375,
+    "error": "RuntimeError: worker process exited; no automatic restart",
+    "stopped_at": 1791814323.442145
+  },
+  {
+    "worker_id": "worker_1",
+    "instance": "planning_1",
+    "pid": 143473,
+    "process_start": "12579480",
+    "state": "failed",
+    "ports": {
+      "rpc": 24010,
+      "secondary": 24012,
+      "streaming": 24011,
+      "tm": 24013
+    },
+    "service_epoch": "80414fe8-1eb5-4c95-9007-6adb50175ffb",
+    "started_at": 1791814458.73469,
+    "exit_codes": {
+      "service": -9,
+      "carla": 139
+    },
+    "logs": "/home/czh/workspace/CARLA-RL-Base/artifacts/b2d-fleet/worker_1",
+    "server_thread_limits": {
+      "requested": {
+        "rpc": 2,
+        "streaming": 2,
+        "secondary": 2
+      },
+      "applied": false,
+      "reason": "official_0.9.15_uses_hardware_concurrency; CaRL_flags_are_not_parsed"
+    },
+    "numeric_threads": 1,
+    "carla": {
+      "pid": 143493,
+      "process_start": "12579488",
+      "argv": [
+        "/home/czh/software/carla/CarlaUE4.sh",
+        "-nullrhi",
+        "-nosound",
+        "-carla-rpc-port=24010",
+        "-carla-streaming-port=24011",
+        "-carla-secondary-port=24012"
+      ]
+    },
+    "carla_version": "0.9.15",
+    "service": {
+      "pid": 143656,
+      "process_start": "12579911",
+      "argv": [
+        "/home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python3.10",
+        "-m",
+        "easycarla.service.cli",
+        "serve",
+        "--instance",
+        "planning_1",
+        "--config",
+        "/home/czh/workspace/CARLA-RL-Base/artifacts/b2d-fleet/worker_1/environment.json"
+      ]
+    },
+    "ready_at": 1791814463.065969,
+    "memory_available_mb": 16430.19921875,
+    "error": "RuntimeError: worker process exited; no automatic restart",
+    "stopped_at": 1791814548.423969
+  }
+]

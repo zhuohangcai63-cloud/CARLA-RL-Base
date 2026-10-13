@@ -1,0 +1,8 @@
+START 24944 Town02 T_Junction
+LOADED 24944 Carla/Maps/Town02
+PREPARED 24944
+WARNING: Not all actors were spawned
+WARNING: Not all actors were spawned
+END 24944 completed 950 ticks 10.63s 
+terminate called after throwing an instance of 'carla::client::TimeoutException'
+  what():  time-out of 45000ms while waiting for the simulator, make sure the simulator is ready and connected to 127.0.0.1:2100

@@ -1,0 +1,40 @@
+START 26537 Town15 ParkingExit
+LOADED 26537 Carla/Maps/Town15/Town15
+WARNING: Cannot spawn actor vehicle.* at position Location(x=145.338348, y=691.060181, z=127.402756)
+END 26537 failed 0 ticks 3.33s RuntimeError: Bench2Drive generation failed (route=26537, seed=123): Scenario construction failed: ParkingExit_1
+START 26828 Town15 InvadingTurn
+LOADED 26828 Carla/Maps/Town15/Town15
+PREPARED 26828
+END 26828 completed 401 ticks 2.18s 
+START 469 Town15 YieldToEmergencyVehicle
+LOADED 469 Carla/Maps/Town15/Town15
+PREPARED 469
+END 469 completed 309 ticks 1.71s 
+START 25215 Town15 Accident
+LOADED 25215 Carla/Maps/Town15/Town15
+PREPARED 25215
+END 25215 tick_budget_reached 1500 ticks 6.20s 
+START 26723 Town15 ControlLoss
+LOADED 26723 Carla/Maps/Town15/Town15
+PREPARED 26723
+END 26723 completed 424 ticks 1.83s 
+START 27043 Town15 SignalizedJunctionRightTurn
+LOADED 27043 Carla/Maps/Town15/Town15
+PREPARED 27043
+END 27043 completed 298 ticks 2.45s 
+START 27823 Town15 T_Junction
+LOADED 27823 Carla/Maps/Town15/Town15
+PREPARED 27823
+END 27823 completed 906 ticks 5.43s 
+START 26370 Town15 VehicleOpensDoorTwoWays
+LOADED 26370 Carla/Maps/Town15/Town15
+PREPARED 26370
+END 26370 completed 397 ticks 2.57s 
+START 26153 Town15 ParkedObstacleTwoWays
+LOADED 26153 Carla/Maps/Town15/Town15
+PREPARED 26153
+END 26153 tick_budget_reached 1500 ticks 5.89s 
+START 24693 Town15 ParkingCrossingPedestrian
+LOADED 24693 Carla/Maps/Town15/Town15
+WARNING: Cannot spawn actor vehicle.* at position Location(x=462.995880, y=228.808014, z=118.342278)
+END 24693 failed 0 ticks 0.40s RuntimeError: Bench2Drive generation failed (route=24693, seed=123): Scenario construction failed: ParkingCrossingPedestrian_1

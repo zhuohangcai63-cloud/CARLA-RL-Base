@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-09-28T04:11:44.500503+00:00",
+  "scope": "Only copied CrashContext.runtime-xml files in this investigation directory; installed Saved originals unchanged",
+  "method": "Remove complete MachineId and LoginId XML lines; preserve remaining bytes including stack and exit evidence",
+  "files": [
+    {
+      "path": "baseline-spectator/crash/CrashContext.runtime-xml",
+      "sha256_before": "b559e365b50dd1b31e388efced68a461837607b206bfdff1263ad66b80d98cd1",
+      "sha256_after": "34da6235d7b8c236a3a4252ea08e7b5e6004fce881cd0b094e82db0679b105d6",
+      "removed_fields": [
+        "MachineId",
+        "LoginId"
+      ]
+    },
+    {
+      "path": "native-town13-default-rhi/crash/CrashContext.runtime-xml",
+      "sha256_before": "88bb16f61c722a6ad5c84078f66985e5e2b56344a3355337d5c9cee586c030c9",
+      "sha256_after": "11c0b43c4b50b86e5ea191717ffcf5a1b70e580e1fae6b845db8ada197f21cdb",
+      "removed_fields": [
+        "MachineId",
+        "LoginId"
+      ]
+    },
+    {
+      "path": "rgb-all-defrag-exec/crashes/crashinfo-CarlaUE4-pid-99417-D4990B75FD7741429B6E152AD9D13319/CrashContext.runtime-xml",
+      "sha256_before": "f2d6772020b5f20e1e6dd4427290400f7fff60b586784486504356108c78f47d",
+      "sha256_after": "7acb61cafd4fb8eca9007ce33c9ec02c155e71790d9c6c3bf5cdbfe8e9fe8bb2",
+      "removed_fields": [
+        "MachineId",
+        "LoginId"
+      ]
+    },
+    {
+      "path": "rgb-all-defrag-off/crashes/crashinfo-CarlaUE4-pid-98158-6C1145A403684A59B887FE35D30015E2/CrashContext.runtime-xml",
+      "sha256_before": "46462b0fc01da99b1a30009b886a76b2e224f28b41bca636ae411125b1eee8c6",
+      "sha256_after": "9ac370ca6d1548ec2e34d1393d8dd9c558eded4dbd4071ee99a35cc412373b72",
+      "removed_fields": [
+        "MachineId",
+        "LoginId"
+      ]
+    },
+    {
+      "path": "rgb-all-defrag-userdir/crashes/crashinfo-CarlaUE4-pid-101659-88F37B92BA9F47B599322720B6285228/CrashContext.runtime-xml",
+      "sha256_before": "f23da36130060099acbf48c0c1d5ff3dd80da0a9cf63ab794b83078478b9a666",
+      "sha256_after": "09133fed8eb80e45b0bea8d398eef5d860d461eccfa769ff43ea87e9bdd5b33e",
+      "removed_fields": [
+        "MachineId",
+        "LoginId"
+      ]
+    },
+    {
+      "path": "rgb-all-every-frame-default/crashes/crashinfo-CarlaUE4-pid-96396-6FB392132819479CB929B036282E9E3D/CrashContext.runtime-xml",
+      "sha256_before": "9abcb0d87f6a87f6b606868cad2c68c028d1b2c4f1120a9213f5b66e4ceb444b",
+      "sha256_after": "a4261b2fee406a8074da6cd4ffa8026d2022d1119057c05925d4c829bb09a517",
+      "removed_fields": [
+        "MachineId",
+        "LoginId"
+      ]
+    },
+    {
+      "path": "rgb-all-no-rhi-thread-2610/crashes/crashinfo-CarlaUE4-pid-100503-31F55B60658E4B928C3D19C45278BFE4/CrashContext.runtime-xml",
+      "sha256_before": "ea7c77c79a66349c9e0bd7b6c79c8504454c0a0757e26d8648d9ca8b467ab24e",
+      "sha256_after": "e6b9f097c95682d3a7717f88f9dad72a00896aed5a0c75a4825f7b8df82e9d34",
+      "removed_fields": [
+        "MachineId",
+        "LoginId"
+      ]
+    },
+    {
+      "path": "rgb-all-one-thread/crashes/crashinfo-CarlaUE4-pid-103439-BDF5163EF31E44BB8085A32E048D35C2/CrashContext.runtime-xml",
+      "sha256_before": "fd2b29b79a057c0c61da043c1e3c0a00cd2788e4ac4e0d44d414b4cc31bd5323",
+      "sha256_after": "6e712a4a89dd028658d6b3a724b072d71f4e031ca1407104382b23c7e617780f",
+      "removed_fields": [
+        "MachineId",
+        "LoginId"
+      ]
+    },
+    {
+      "path": "rgb-all-sync-pso-userdir/crashes/crashinfo-CarlaUE4-pid-102463-B3DEFEA8E673460AAF78C9D10200DDBC/CrashContext.runtime-xml",
+      "sha256_before": "bb10c5a3dd26cab4b40d0532bb81bd73100ab9970cc461fcf93a2cc1ab4e276c",
+      "sha256_after": "b959e331681939a6da790479300a77f59dfe9bee9d38cd70424e429fe5aa7932",
+      "removed_fields": [
+        "MachineId",
+        "LoginId"
+      ]
+    },
+    {
+      "path": "rgb-town03-fresh-low/crashes/crashinfo-CarlaUE4-pid-104425-2B5536BA79AD41118A80659F846399B7/CrashContext.runtime-xml",
+      "sha256_before": "56259aee62d81ed2856d498b86825e84ec9a23d73c5942ce36b9e39e70730903",
+      "sha256_after": "5ae2476e92be7f59b0c2800ec23eaa807834f705b608e980ffc666240df5688c",
+      "removed_fields": [
+        "MachineId",
+        "LoginId"
+      ]
+    },
+    {
+      "path": "native-town13-epic/crashes/crashinfo-CarlaUE4-pid-110417-7682427C4C194E94ADD117757551EFA7/CrashContext.runtime-xml",
+      "sha256_before": "2c24feae0c58b27ed3265f93f3f615d6e7a0eb749e79f57e9b83890fd63f5c6c",
+      "sha256_after": "9a6ef4f6f92448ab2917ca14b8c06be4ab66d05a7456c7122abdc4166c37cdd4",
+      "removed_fields": [
+        "MachineId",
+        "LoginId"
+      ]
+    },
+    {
+      "path": "native-rendered-reload-faulthandler/crashes/crashinfo-CarlaUE4-pid-191049-41D84B2BC3F941BCAB3C23CA19DF185D/CrashContext.runtime-xml",
+      "sha256_before": "54cb4a1bdbd13691b4144663dca4f861f09d7208fe2765c0713944a5aa565a22",
+      "sha256_after": "4539f09641445af51bf7063db7d00b03a051516311bbf2e68bb63bd70bc2abc1",
+      "removed_fields": [
+        "MachineId",
+        "LoginId"
+      ]
+    },
+    {
+      "path": "native-rendered-conservative/crashes/crashinfo-CarlaUE4-pid-192180-3821B24FC1E5406C861463CA38108C9E/CrashContext.runtime-xml",
+      "sha256_before": "b4522905a16dac5215d36d92a76fb29ab64066d39e64beb88f1eca5db3e56765",
+      "sha256_after": "cf7bdd07c0f845a10b904361f2c18b7cd9365d55b969609218b977843566bbb0",
+      "removed_fields": [
+        "MachineId",
+        "LoginId"
+      ]
+    },
+    {
+      "path": "native-town13-binning-validation11/crashes/crashinfo-CarlaUE4-pid-255129-F5AD8AC90C3B44A9810066F930F1E9A3/CrashContext.runtime-xml",
+      "sha256_before": "5959d4d9c0410927d6370719916a2b2e6f646c5c97a339b0676a38ac9062cfd4",
+      "sha256_after": "f252c42f863a1e20d21f70a06329f6ca55dcb30697f442c3849a9f3de7cc7bee",
+      "removed_fields": [
+        "MachineId",
+        "LoginId"
+      ]
+    },
+    {
+      "path": "crashes/crashinfo-CarlaUE4-pid-208457-201C00FCD7F94C9FB4779667FE224DEF/CrashContext.runtime-xml",
+      "sha256_before": "ed2762a62102657127fa77a5fffb553672fd053f26c0df5936c3a4add63411f6",
+      "sha256_after": "40609f53ba9948a6276c57b068024bbdfbc79f5dc6a93af0ee6e571a784776d1",
+      "removed_fields": [
+        "MachineId",
+        "LoginId"
+      ],
+      "method": "Remove complete MachineId and LoginId XML lines; remaining bytes preserved; installed Saved original unchanged"
+    },
+    {
+      "path": "crashes/crashinfo-CarlaUE4-pid-234132-DC7A3521B2484DB588431A6B7EDD5D25/CrashContext.runtime-xml",
+      "sha256_before": "b584f0c1ee434adf198ac2195340f15fb0f3692c9b01d73e0f62e691565200c0",
+      "sha256_after": "a0a2953e92d1d604e04119a617a06830d27ef95d3fae061d824b07009aa6ea03",
+      "removed_fields": [
+        "MachineId",
+        "LoginId"
+      ],
+      "method": "Remove complete MachineId and LoginId XML lines; remaining bytes preserved; installed Saved original unchanged"
+    }
+  ],
+  "last_updated_utc": "2026-09-28T05:56:10.213735+00:00"
+}

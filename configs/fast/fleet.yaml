@@ -1,0 +1,18 @@
+# Local machine example; select your own dedicated, unused port allocations.
+service_python: /home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python
+carla_root: /home/czh/software/carla
+log_dir: ../../artifacts/fleet
+startup_timeout: 180
+memory_per_worker_mb: 6000
+memory_reserve_mb: 4096
+threads: {rpc: 2, streaming: 2, secondary: 2, numeric: 1}
+nothreading: false
+workers:
+  - id: worker_0
+    instance: planning_0
+    config: scenic_train.yaml
+    ports: {rpc: 24000, streaming: 24001, secondary: 24002, tm: 24003}
+  - id: worker_1
+    instance: planning_1
+    config: scenic_train.yaml
+    ports: {rpc: 24010, streaming: 24011, secondary: 24012, tm: 24013}

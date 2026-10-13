@@ -1,0 +1,15 @@
+path_base: ..  # Asset paths below are relative to the repository root.
+backend: carla
+scenario:
+  source: mixed
+  sources:
+    - source: scenic
+      weight: 1
+      town: Town10HD
+      file: scenarios/scenic/mixed_long_tail.scenic
+    - source: bench2drive
+      weight: 1
+      manifest: configs/manifests/town12_long_train78.json
+      purpose: train
+task:
+  profile: driving

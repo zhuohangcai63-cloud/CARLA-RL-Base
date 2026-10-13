@@ -1,0 +1,10 @@
+{
+  "runtime_attach": false,
+  "scope": "one newly spawned owned server only",
+  "allowed_tracer_parent_pid": 255128,
+  "gdb": "/usr/bin/gdb",
+  "gdb_max_seconds": 30,
+  "wrapper_sha256": "8e8c6d8e3583592b839381e6f25ee8b81bf7d5bf7060b62c0982edec66d49ab1",
+  "runner_sha256": "e42f4d67323932de55c1575598702b2c08e41f689185f71fd62d281c56234907",
+  "v4_sha256": "2076d845fee90444ea4eb04c741ec721a1673bfadedc65e91aa0b303cd536e19"
+}

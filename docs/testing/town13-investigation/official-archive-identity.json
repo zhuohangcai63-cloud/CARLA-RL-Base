@@ -1,0 +1,102 @@
+{
+  "checked_utc": "2026-09-28T02:56:41.595531+00:00",
+  "archives": [
+    {
+      "path": "/home/czh/software/carla/Import/AdditionalMaps_0.9.15.tar.gz",
+      "bytes": 7375946087,
+      "sha256": "49db78d14fef1f403f69fe1a13f1f1802f2111a6d98161826b2ae0d6dd96bba8",
+      "whole_head": {
+        "url": "https://carla-releases.s3.us-east-005.backblazeb2.com/Linux/AdditionalMaps_0.9.15.tar.gz",
+        "status": 200,
+        "headers": {
+          "Strict-Transport-Security": "max-age=63072000",
+          "Accept-Ranges": "bytes",
+          "Last-Modified": "Mon, 27 May 2024 08:20:28 GMT",
+          "ETag": "\"25fb0bda594ad2fef5431a056c9ee990-880\"",
+          "x-amz-request-id": "6abab18ae4e2a1ac",
+          "x-amz-id-2": "aNac4FWaHMdw12TlPOJtjHDSuMEUxkzPD",
+          "x-amz-version-id": "4_z15281f11757948ac84c00113_f2024b45a90ba178f_d20240527_m082028_c005_v0501004_t0050_u01716798028201",
+          "Content-Type": "application/x-tar",
+          "Content-Length": "7375946087",
+          "Date": "Mon, 28 Sep 2026 02:56:42 GMT",
+          "Connection": "close"
+        }
+      },
+      "first_part_head": {
+        "url": "https://carla-releases.s3.us-east-005.backblazeb2.com/Linux/AdditionalMaps_0.9.15.tar.gz?partNumber=1",
+        "status": 206,
+        "headers": {
+          "Strict-Transport-Security": "max-age=63072000",
+          "Accept-Ranges": "bytes",
+          "Last-Modified": "Mon, 27 May 2024 08:20:28 GMT",
+          "ETag": "\"25fb0bda594ad2fef5431a056c9ee990-880\"",
+          "Content-Range": "bytes 0-8388607/7375946087",
+          "x-amz-request-id": "e5790f5e5e4fc134",
+          "x-amz-id-2": "aNUE4kmYyMTY1HjmZOMpjojTqMGIx4jOS",
+          "x-amz-mp-parts-count": "880",
+          "x-amz-version-id": "4_z15281f11757948ac84c00113_f2024b45a90ba178f_d20240527_m082028_c005_v0501004_t0050_u01716798028201",
+          "Content-Type": "application/x-tar",
+          "Content-Length": "8388608",
+          "Date": "Mon, 28 Sep 2026 02:56:43 GMT",
+          "Connection": "close"
+        }
+      },
+      "part_size": 8388608,
+      "actual_multipart_etag": "25fb0bda594ad2fef5431a056c9ee990-880",
+      "expected_multipart_etag": "25fb0bda594ad2fef5431a056c9ee990-880",
+      "matches_official_storage": true,
+      "interpretation": "Multipart MD5 is a transport/content identity check, not a cryptographic publisher signature."
+    },
+    {
+      "path": "/home/czh/software/carla/CARLA_0.9.15.tar.gz",
+      "bytes": 8386636048,
+      "sha256": "7b2f432ce74b251593f95dcc8dee6d99ad9625c2a71a2d6d48f24d879de19ef7",
+      "whole_head": {
+        "url": "https://carla-releases.s3.us-east-005.backblazeb2.com/Linux/CARLA_0.9.15.tar.gz",
+        "status": 200,
+        "headers": {
+          "Strict-Transport-Security": "max-age=63072000",
+          "Accept-Ranges": "bytes",
+          "Last-Modified": "Fri, 08 Dec 2023 21:05:57 GMT",
+          "ETag": "\"e7e759a251bbd7c62bcd38b789ad8499-84\"",
+          "x-amz-meta-src_last_modified_millis": "1699635727000",
+          "x-amz-meta-fl-original-etag": "\"a0476f31403bac87526e5ed5a2ca7df0-1000\"",
+          "x-amz-request-id": "93da239b32e9d8f4",
+          "x-amz-id-2": "aNYw48GYUMYk1GjmmOANjETQXMLsxKjN1",
+          "x-amz-version-id": "4_z15281f11757948ac84c00113_f20155e2e4133c3e3_d20231208_m210557_c005_v0501004_t0025_u01702069557482",
+          "Content-Type": "application/x-tar",
+          "Content-Length": "8386636048",
+          "Date": "Mon, 28 Sep 2026 02:56:54 GMT",
+          "Connection": "close"
+        }
+      },
+      "first_part_head": {
+        "url": "https://carla-releases.s3.us-east-005.backblazeb2.com/Linux/CARLA_0.9.15.tar.gz?partNumber=1",
+        "status": 206,
+        "headers": {
+          "Strict-Transport-Security": "max-age=63072000",
+          "Accept-Ranges": "bytes",
+          "Last-Modified": "Fri, 08 Dec 2023 21:05:57 GMT",
+          "ETag": "\"e7e759a251bbd7c62bcd38b789ad8499-84\"",
+          "x-amz-meta-src_last_modified_millis": "1699635727000",
+          "x-amz-meta-fl-original-etag": "\"a0476f31403bac87526e5ed5a2ca7df0-1000\"",
+          "Content-Range": "bytes 0-99999999/8386636048",
+          "x-amz-request-id": "e0b1618ae59a7241",
+          "x-amz-id-2": "aNeA4L2YmMZY1fzlUOGBjpjTZMBsx7zNS",
+          "x-amz-mp-parts-count": "84",
+          "x-amz-version-id": "4_z15281f11757948ac84c00113_f20155e2e4133c3e3_d20231208_m210557_c005_v0501004_t0025_u01702069557482",
+          "Content-Type": "application/x-tar",
+          "Content-Length": "100000000",
+          "Date": "Mon, 28 Sep 2026 02:56:55 GMT",
+          "Connection": "close"
+        }
+      },
+      "part_size": 100000000,
+      "actual_multipart_etag": "e7e759a251bbd7c62bcd38b789ad8499-84",
+      "expected_multipart_etag": "e7e759a251bbd7c62bcd38b789ad8499-84",
+      "matches_official_storage": true,
+      "interpretation": "Multipart MD5 is a transport/content identity check, not a cryptographic publisher signature."
+    }
+  ],
+  "elapsed_seconds": 27.470253922999973
+}

@@ -1,0 +1,16 @@
+START 22331 Town12 StaticCutIn
+LOADED 22331 Carla/Maps/Town12/Town12
+PREPARED 22331
+END 22331 completed 438 ticks 33.81s 
+START 3816 Town13 HighwayCutIn
+LOADED 3816 Carla/Maps/Town13/Town13
+PREPARED 3816
+END 3816 tick_budget_reached 1000 ticks 68.98s 
+START 31736 Town13 VehicleOpensDoorTwoWays
+LOADED 31736 Carla/Maps/Town13/Town13
+PREPARED 31736
+END 31736 completed 402 ticks 51.17s 
+START 31654 Town13 VehicleOpensDoorTwoWays
+LOADED 31654 Carla/Maps/Town13/Town13
+PREPARED 31654
+END 31654 completed 400 ticks 47.20s 

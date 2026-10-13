@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "status": "server_exited_during_run",
+  "started_utc": "2026-09-28T04:41:07.019088+00:00",
+  "scope": "one owned simulator and one client; no readiness, restart or replay",
+  "server_exit_before_stop": -11,
+  "peaks": {
+    "server_rss_kib": 358092,
+    "gpu_0_memory_used_mib": 350.0
+  },
+  "sample_count": 2,
+  "server_command": [
+    "/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping",
+    "CarlaUE4",
+    "-RenderOffScreen",
+    "-quality-level=Epic",
+    "-nosound",
+    "-ResX=400",
+    "-ResY=300",
+    "-norhithread",
+    "-UserDir=/tmp/easycarla-town13-conservative-profile",
+    "-carla-rpc-port=2600",
+    "-carla-streaming-port=2601",
+    "-carla-secondary-port=2602"
+  ],
+  "client_command": [
+    "env",
+    "PYTHONFAULTHANDLER=1",
+    "/home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python",
+    "scripts/validate_native_routes.py",
+    "--port",
+    "2600",
+    "--tm-port",
+    "8600",
+    "--manifest",
+    "configs/manifests/v004_eval220.json",
+    "--route",
+    "22331,3816,31736,31654",
+    "--output",
+    "/home/czh/workspace/CARLA-RL-Base/docs/testing/town13-investigation/native-rendered-conservative/probe.json",
+    "--ticks",
+    "1000",
+    "--timeout",
+    "90",
+    "--reload",
+    "--map-layers",
+    "all",
+    "--tile-stream-distance",
+    "650",
+    "--actor-active-distance",
+    "650"
+  ],
+  "server_pid": 192180,
+  "client_pid": 192182,
+  "client_exit_before_stop": null,
+  "client_cleanup": {
+    "signals": [
+      "SIGTERM"
+    ],
+    "exit_code": -15,
+    "leader_exit_before_signal": null,
+    "log_complete": true,
+    "log_error": null,
+    "group_alive": false
+  },
+  "client_exit": -15,
+  "explicit_server_stop": false,
+  "server_cleanup": {
+    "signals": [],
+    "exit_code": -11,
+    "leader_exit_before_signal": -11,
+    "log_complete": true,
+    "log_error": null,
+    "group_alive": false
+  },
+  "server_exit": -11,
+  "shutdown_crash": false,
+  "shutdown_forced_kill": false,
+  "shutdown_failed": false,
+  "shutdown_outcome": "server_exited_before_stop",
+  "crash_files": [
+    "crashes/crashinfo-CarlaUE4-pid-192180-3821B24FC1E5406C861463CA38108C9E"
+  ],
+  "crash_copy_errors": [],
+  "elapsed_seconds": 2.0259948650000297,
+  "finished_utc": "2026-09-28T04:41:09.045094+00:00",
+  "passed": false
+}

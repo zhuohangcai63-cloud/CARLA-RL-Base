@@ -1,0 +1,9 @@
+{
+  "mode": "read_only_server_map_query",
+  "rpc_port": 2100,
+  "map": "Carla/Maps/Town12/Town12",
+  "opendrive_sha256": "26fa53d4902ac3397d35f948969f0c77c1bf023755ede2c67edf00bef817151f",
+  "wall_time_epoch": 1790522779.5137417,
+  "no_tick_or_mutation": true,
+  "scope": "Single get_world/get_map/to_opendrive query while the owning validation process keeps Town12 loaded; no WorldSession, settings change, actor command, load or tick."
+}

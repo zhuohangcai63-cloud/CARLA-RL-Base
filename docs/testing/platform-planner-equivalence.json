@@ -1,0 +1,35 @@
+{
+  "town": "Carla/Maps/Town05",
+  "scope": "read-only real map route-planner equivalence; no physics mutation",
+  "pairs": [
+    {
+      "spawn_indexes": [
+        0,
+        10
+      ],
+      "waypoints": 132,
+      "sequential_equal": true,
+      "independent_equal": true
+    },
+    {
+      "spawn_indexes": [
+        3,
+        20
+      ],
+      "waypoints": 77,
+      "sequential_equal": true,
+      "independent_equal": true
+    },
+    {
+      "spawn_indexes": [
+        5,
+        15
+      ],
+      "waypoints": 139,
+      "sequential_equal": true,
+      "independent_equal": true
+    }
+  ],
+  "status": "passed",
+  "wall_seconds": 0.21122081299836282
+}

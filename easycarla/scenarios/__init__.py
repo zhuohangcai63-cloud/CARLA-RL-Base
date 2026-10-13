@@ -1,17 +1,4 @@
-from easycarla.scenarios.providers import (
-    RandomScenarioProvider,
-    ScenicScenarioProvider,
-    ScenarioProvider,
-    ScenarioSpec,
-    build_scenario_provider,
-)
-from easycarla.scenarios.long_tail_events import LongTailEventManager
+"""Executable scenario sources, loaded lazily."""
+from .selection import select_source
 
-__all__ = [
-    "LongTailEventManager",
-    "RandomScenarioProvider",
-    "ScenicScenarioProvider",
-    "ScenarioProvider",
-    "ScenarioSpec",
-    "build_scenario_provider",
-]
+__all__ = ["select_source"]

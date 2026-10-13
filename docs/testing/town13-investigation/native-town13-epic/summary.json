@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "status": "server_exited_during_run",
+  "started_utc": "2026-09-28T04:01:51.985181+00:00",
+  "scope": "one owned simulator and one client; no readiness, restart or replay",
+  "server_exit_before_stop": -11,
+  "peaks": {
+    "server_rss_kib": 8382992,
+    "gpu_0_memory_used_mib": 7023.0
+  },
+  "sample_count": 1633,
+  "server_command": [
+    "/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping",
+    "CarlaUE4",
+    "-RenderOffScreen",
+    "-quality-level=Epic",
+    "-nosound",
+    "-ResX=400",
+    "-ResY=300",
+    "-carla-rpc-port=2600",
+    "-carla-streaming-port=2601",
+    "-carla-secondary-port=2602"
+  ],
+  "client_command": [
+    "/home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python",
+    "scripts/validate_native_routes.py",
+    "--port",
+    "2600",
+    "--tm-port",
+    "8600",
+    "--manifest",
+    "docs/testing/town13-investigation/town13-eval41.json",
+    "--output",
+    "/home/czh/workspace/CARLA-RL-Base/docs/testing/town13-investigation/native-town13-epic/probe.json",
+    "--ticks",
+    "1000",
+    "--timeout",
+    "90",
+    "--no-rendering",
+    "--map-layers",
+    "all",
+    "--tile-stream-distance",
+    "650",
+    "--actor-active-distance",
+    "650"
+  ],
+  "server_pid": 110417,
+  "client_pid": 110419,
+  "client_exit_before_stop": null,
+  "client_cleanup": {
+    "signals": [
+      "SIGTERM"
+    ],
+    "exit_code": -15,
+    "leader_exit_before_signal": null,
+    "log_complete": true,
+    "log_error": null,
+    "group_alive": false
+  },
+  "client_exit": -15,
+  "explicit_server_stop": false,
+  "server_cleanup": {
+    "signals": [],
+    "exit_code": -11,
+    "leader_exit_before_signal": -11,
+    "log_complete": true,
+    "log_error": null,
+    "group_alive": false
+  },
+  "server_exit": -11,
+  "shutdown_crash": false,
+  "shutdown_forced_kill": false,
+  "shutdown_failed": false,
+  "shutdown_outcome": "server_exited_before_stop",
+  "crash_files": [
+    "crashes/crashinfo-CarlaUE4-pid-110417-7682427C4C194E94ADD117757551EFA7"
+  ],
+  "crash_copy_errors": [],
+  "elapsed_seconds": 1675.5813924610002,
+  "finished_utc": "2026-09-28T04:29:47.566586+00:00",
+  "passed": false
+}

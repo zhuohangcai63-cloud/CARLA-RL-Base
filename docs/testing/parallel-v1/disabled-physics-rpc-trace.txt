@@ -1,0 +1,34 @@
+END Bench2DriveAdapter.prepare
+BEGIN SensorSuite.__init__  
+END SensorSuite.__init__
+BEGIN ObservationBuilder.__init__  
+END ObservationBuilder.__init__
+BEGIN WorldSession.tick  
+END WorldSession.tick
+BEGIN SensorSuite.collect  
+END SensorSuite.collect
+BEGIN ObservationBuilder.sample  
+BEGIN easycarla.observations.planning.map_obstacles  
+BEGIN World.get_level_bbs 17995260761994029392 
+END World.get_level_bbs
+BEGIN World.get_environment_objects 17995260761994029392 
+END World.get_environment_objects
+BEGIN World.get_level_bbs 17995260761994029392 
+END World.get_level_bbs
+BEGIN World.get_environment_objects 17995260761994029392 
+END World.get_environment_objects
+END easycarla.observations.planning.map_obstacles
+BEGIN easycarla.observations.vehicle_geometry.geometry 3725 walker.pedestrian.0003
+END easycarla.observations.vehicle_geometry.geometry
+BEGIN easycarla.observations.vehicle_geometry.geometry 3723 vehicle.mini.cooper_s_2021
+BEGIN Vehicle.get_physics_control 3723 vehicle.mini.cooper_s_2021
+END Vehicle.get_physics_control
+END easycarla.observations.vehicle_geometry.geometry
+BEGIN easycarla.observations.vehicle_geometry.geometry 3722 walker.pedestrian.0024
+END easycarla.observations.vehicle_geometry.geometry
+BEGIN easycarla.observations.vehicle_geometry.geometry 3720 static.prop.container
+END easycarla.observations.vehicle_geometry.geometry
+BEGIN easycarla.observations.vehicle_geometry.geometry 3719 walker.pedestrian.0029
+END easycarla.observations.vehicle_geometry.geometry
+BEGIN easycarla.observations.vehicle_geometry.geometry 3717 vehicle.ford.ambulance
+BEGIN Vehicle.get_physics_control 3717 vehicle.ford.ambulance

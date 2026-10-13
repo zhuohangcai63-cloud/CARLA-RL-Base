@@ -1,0 +1,45 @@
+carla_root: /home/czh/software/carla
+log_dir: /home/czh/workspace/CARLA-RL-Base/artifacts/fleet4
+memory_per_worker_mb: 6000
+memory_reserve_mb: 4096
+nothreading: false
+service_python: /home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python
+startup_timeout: 180
+threads:
+  numeric: 1
+  rpc: 2
+  secondary: 2
+  streaming: 2
+workers:
+- config: /home/czh/workspace/CARLA-RL-Base/configs/fast/scenic_train.yaml
+  id: worker_0
+  instance: fleet4_0
+  ports:
+    rpc: 24100
+    secondary: 24102
+    streaming: 24101
+    tm: 24103
+- config: /home/czh/workspace/CARLA-RL-Base/configs/fast/scenic_train.yaml
+  id: worker_1
+  instance: fleet4_1
+  ports:
+    rpc: 24110
+    secondary: 24112
+    streaming: 24111
+    tm: 24113
+- config: /home/czh/workspace/CARLA-RL-Base/configs/fast/scenic_train.yaml
+  id: worker_2
+  instance: fleet4_2
+  ports:
+    rpc: 24120
+    secondary: 24122
+    streaming: 24121
+    tm: 24123
+- config: /home/czh/workspace/CARLA-RL-Base/configs/fast/scenic_train.yaml
+  id: worker_3
+  instance: fleet4_3
+  ports:
+    rpc: 24130
+    secondary: 24132
+    streaming: 24131
+    tm: 24133

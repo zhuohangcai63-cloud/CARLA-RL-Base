@@ -1,0 +1,16 @@
+{
+  "created_utc": "2026-09-28T04:43:05.507179+00:00",
+  "scope": "Experimental combination; not a confirmed fix. v1 WaitForIdleOnSubmit=1 failed before readiness.",
+  "user_dir": "/tmp/easycarla-town13-conservative-v2-profile",
+  "engine_ini_sha256": "4fde779581b3940e587ee69db46bcdf4d1739d1737a163d837cff26076777215",
+  "server_args": [
+    "-quality-level=Epic",
+    "-norhithread",
+    "-UserDir=/tmp/easycarla-town13-conservative-v2-profile"
+  ],
+  "cvars": {
+    "r.Vulkan.EnableDefrag": 0,
+    "r.Vulkan.WaitForIdleOnSubmit": 0,
+    "r.AsyncPipelineCompile": 0
+  }
+}

@@ -1,0 +1,10 @@
+# Bootstrap only. From the repository root, follow with the constrained pip
+# installation in docs/installation.md. CARLA server binaries are separate.
+name: easycarla-service
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10.20
+  - pip
+  - libgl
+  - libxcb

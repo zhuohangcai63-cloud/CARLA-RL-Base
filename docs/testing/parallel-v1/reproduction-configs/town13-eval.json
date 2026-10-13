@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "source": "bench2drive",
+  "name": "Town13_diagnostic_subset_v004_eval220",
+  "split": "eval",
+  "upstream_commit": "acbeb0dd8aa99dd0e71b9b75bb542f6fe7c7f3d8",
+  "entries": [
+    {
+      "file": "leaderboard/data/bench2drive_0.0.4_val.xml",
+      "file_sha256": "885debbc3d87f14351b521d8da0dc9d25fcee1f0d926ed1c92cc9ff62504ca45",
+      "route_id": "34183",
+      "town": "Town13",
+      "scenario_types": [
+        "NonSignalizedJunctionLeftTurnEnterFlow"
+      ],
+      "route_fingerprint": "1e08032aceaa61cc685dc693f2fdaabb4f575b868c84dd0d85d318e3b91bfc30",
+      "trigger_fingerprints": [
+        "ec3d0bfe7dee087a54cb4936d991edafbc991566aee8bfd58bc75736f0dfd9ac"
+      ]
+    }
+  ]
+}

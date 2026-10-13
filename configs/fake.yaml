@@ -1,0 +1,7 @@
+path_base: ..  # Asset paths below are relative to the repository root.
+# Protocol demonstration only; this is not a driving simulator.
+backend: fake
+ipc:
+  request_bytes: 1048576
+  response_bytes: 33554432
+  static_bytes: 16777216

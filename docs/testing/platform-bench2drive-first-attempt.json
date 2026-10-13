@@ -1,0 +1,189 @@
+{
+  "version": 1,
+  "status": "finished",
+  "started_utc": "2026-09-27T14:29:56.459813+00:00",
+  "manifest": "/home/czh/workspace/CARLA-RL-Base/configs/manifests/v004_eval220.json",
+  "manifest_sha256": "fe4796888a1390aade93f65ca7a90f4f10552b50a87a97111ba3a4d758952648",
+  "mode": "native_adapter_reference_driver",
+  "scope": "native scenario execution; not policy evaluation",
+  "config": {
+    "host": "127.0.0.1",
+    "port": 2100,
+    "tm_port": 8100,
+    "timeout": 30,
+    "physics_dt": 0.05,
+    "decision_dt": 0.2,
+    "history_dt": 0.1,
+    "reload_on_reset": false,
+    "no_rendering_mode": true,
+    "map_layers": "none",
+    "carla_root": "/home/czh/software/carla"
+  },
+  "seed": 123,
+  "tick_budget": 1500,
+  "results": [
+    {
+      "route_id": "24416",
+      "town": "Town03",
+      "scenario_types": [
+        "ParkingCutIn"
+      ],
+      "execution": "failed",
+      "ticks": 0,
+      "activated": [],
+      "completed": [],
+      "initialization_seconds": 0.7432234490042902,
+      "metadata": {
+        "source": "bench2drive",
+        "scenario_id": "24416",
+        "seed": 123,
+        "town": "Town03",
+        "scenario_types": [
+          "ParkingCutIn"
+        ],
+        "loaded_town": "Town03",
+        "route_fingerprint": "9bd98726a7afdefb1e11b1e1b72c9831084824d606c63d4501e09594b2f7b548",
+        "upstream_commit": "acbeb0dd8aa99dd0e71b9b75bb542f6fe7c7f3d8",
+        "patch_version": 2,
+        "native_npc": true,
+        "mechanism_replacements": [],
+        "generation_failure": null,
+        "native_validation": "not_run",
+        "repeatability_validation": "not_run",
+        "scenario_names": [
+          "ParkingCutIn_1"
+        ]
+      },
+      "capabilities": {
+        "source": "bench2drive",
+        "native_execution": true,
+        "native_validation": "not_run",
+        "fixed_recipe_rebuild": true,
+        "prefix_replay": false,
+        "replay_restrictions": [
+          "Native Traffic Manager and behavior tree internal state is not serializable",
+          "Same seed alone is not a verified common-prefix state"
+        ],
+        "takeover_roles": {
+          "ParkingCutIn_1:adversary": {
+            "actor_id": 13311,
+            "native_type": "ParkingCutIn",
+            "can_takeover": false,
+            "phase": "waiting_for_trigger",
+            "validation": "not_run",
+            "reason": "Explicit allow_unvalidated_takeover required"
+          }
+        },
+        "takeover_restrictions": [
+          "Only initialized ParkingCutIn, StaticCutIn, HighwayCutIn adversaries",
+          "Requires native placement and explicit experimental opt-in",
+          "No actor lifetime extension; irreversible within the episode"
+        ]
+      },
+      "error": "EnvironmentFault: Actor 13316 disappeared before control commit",
+      "traceback": "Traceback (most recent call last):\n  File \"/home/czh/workspace/CARLA-RL-Base/scripts/validate_native_routes.py\", line 89, in run\n    snapshot = session.tick()\n  File \"/home/czh/workspace/CARLA-RL-Base/easycarla/simulation/session.py\", line 96, in tick\n    self.controls.flush()\n  File \"/home/czh/workspace/CARLA-RL-Base/easycarla/control/gateway.py\", line 136, in flush\n    raise EnvironmentFault(f\"Actor {actor_id} disappeared before control commit\")\neasycarla.errors.EnvironmentFault: Actor 13316 disappeared before control commit\n",
+      "wall_seconds": 0.8375340359998518,
+      "remaining_owned_resources": 0,
+      "remaining_dynamic_actors": [
+        "vehicle.nissan.patrol_2021",
+        "vehicle.mini.cooper_s_2021",
+        "vehicle.lincoln.mkz_2020"
+      ],
+      "cleanup_error": "Resources remain after episode close"
+    },
+    {
+      "route_id": "22535",
+      "town": "Town12",
+      "scenario_types": [
+        "StaticCutIn"
+      ],
+      "execution": "failed",
+      "ticks": 0,
+      "activated": [],
+      "completed": [],
+      "error": "EnvironmentFault: CARLA loaded 'Carla/Maps/Town03', requested 'Town12'",
+      "traceback": "Traceback (most recent call last):\n  File \"/home/czh/workspace/CARLA-RL-Base/scripts/validate_native_routes.py\", line 65, in run\n    session.load(adapter.town(args.seed, options), args.seed)\n  File \"/home/czh/workspace/CARLA-RL-Base/easycarla/simulation/session.py\", line 76, in load\n    raise EnvironmentFault(f\"CARLA loaded {world.get_map().name!r}, requested {town!r}\")\neasycarla.errors.EnvironmentFault: CARLA loaded 'Carla/Maps/Town03', requested 'Town12'\n",
+      "wall_seconds": 16.90305945200089,
+      "remaining_owned_resources": 0,
+      "remaining_dynamic_actors": []
+    },
+    {
+      "route_id": "23470",
+      "town": "Town12",
+      "scenario_types": [
+        "ControlLoss"
+      ],
+      "execution": "failed",
+      "ticks": 0,
+      "activated": [],
+      "completed": [],
+      "initialization_seconds": 12.699701946999994,
+      "metadata": {
+        "source": "bench2drive",
+        "scenario_id": "23470",
+        "seed": 123,
+        "town": "Town12",
+        "scenario_types": [
+          "ControlLoss"
+        ],
+        "loaded_town": "Town12",
+        "route_fingerprint": "ad3c22f51067e72c000e08dd6b0935cdea83f0c06b02d0e11de20f1dda6cd6c3",
+        "upstream_commit": "acbeb0dd8aa99dd0e71b9b75bb542f6fe7c7f3d8",
+        "patch_version": 2,
+        "native_npc": true,
+        "mechanism_replacements": [],
+        "generation_failure": null,
+        "native_validation": "not_run",
+        "repeatability_validation": "not_run",
+        "scenario_names": [
+          "ControlLoss_1"
+        ]
+      },
+      "capabilities": {
+        "source": "bench2drive",
+        "native_execution": true,
+        "native_validation": "not_run",
+        "fixed_recipe_rebuild": true,
+        "prefix_replay": false,
+        "replay_restrictions": [
+          "Native Traffic Manager and behavior tree internal state is not serializable",
+          "Same seed alone is not a verified common-prefix state"
+        ],
+        "takeover_roles": {},
+        "takeover_restrictions": [
+          "Only initialized ParkingCutIn, StaticCutIn, HighwayCutIn adversaries",
+          "Requires native placement and explicit experimental opt-in",
+          "No actor lifetime extension; irreversible within the episode"
+        ]
+      },
+      "error": "EnvironmentFault: Actor 16995 disappeared before control commit",
+      "traceback": "Traceback (most recent call last):\n  File \"/home/czh/workspace/CARLA-RL-Base/scripts/validate_native_routes.py\", line 89, in run\n    snapshot = session.tick()\n  File \"/home/czh/workspace/CARLA-RL-Base/easycarla/simulation/session.py\", line 96, in tick\n    def tick(self, phase=\"step\"):\n  File \"/home/czh/workspace/CARLA-RL-Base/easycarla/control/gateway.py\", line 136, in flush\n    raise EnvironmentFault(f\"Actor {actor_id} disappeared before control commit\")\neasycarla.errors.EnvironmentFault: Actor 16995 disappeared before control commit\n",
+      "wall_seconds": 14.26367284799926,
+      "remaining_owned_resources": 0,
+      "remaining_dynamic_actors": [
+        "vehicle.lincoln.mkz_2020"
+      ],
+      "cleanup_error": "Resources remain after episode close"
+    },
+    {
+      "route_id": "3816",
+      "town": "Town13",
+      "scenario_types": [
+        "HighwayCutIn"
+      ],
+      "execution": "failed",
+      "ticks": 0,
+      "activated": [],
+      "completed": [],
+      "error": "RuntimeError: time-out of 30000ms while waiting for the simulator, make sure the simulator is ready and connected to 127.0.0.1:2100",
+      "traceback": "Traceback (most recent call last):\n  File \"/home/czh/workspace/CARLA-RL-Base/scripts/validate_native_routes.py\", line 65, in run\n    session.load(adapter.town(args.seed, options), args.seed)\n  File \"/home/czh/workspace/CARLA-RL-Base/easycarla/simulation/session.py\", line 73, in load\n    layers = self.carla.MapLayer.NONE if self.sim[\"map_layers\"] == \"none\" else self.carla.MapLayer.All\nRuntimeError: time-out of 30000ms while waiting for the simulator, make sure the simulator is ready and connected to 127.0.0.1:2100\n",
+      "wall_seconds": 30.34250164400146,
+      "remaining_owned_resources": 0,
+      "remaining_dynamic_actors": [
+        "vehicle.lincoln.mkz_2017"
+      ],
+      "cleanup_error": "Resources remain after episode close"
+    }
+  ],
+  "finished_utc": "2026-09-27T14:30:59.144903+00:00"
+}

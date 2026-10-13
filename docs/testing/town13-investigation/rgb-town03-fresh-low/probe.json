@@ -1,0 +1,109 @@
+{
+  "version": 1,
+  "started_utc": "2026-09-28T03:55:02.202207+00:00",
+  "scope": "native API map/hero/camera smoke test; no driving or scenario coverage",
+  "status": "running",
+  "config": {
+    "port": 2600,
+    "host": "127.0.0.1",
+    "output": "/home/czh/workspace/CARLA-RL-Base/docs/testing/town13-investigation/rgb-town03-fresh-low/probe.json",
+    "town": [
+      "Town03"
+    ],
+    "repeats": 2,
+    "ticks": 100,
+    "timeout": 90.0,
+    "idle_seconds": 0.2,
+    "distance": 650.0,
+    "spectator_as_ego": false,
+    "no_rendering": false,
+    "camera": true,
+    "spawn": null,
+    "route_manifest": null,
+    "route_id": null,
+    "route_root": null
+  },
+  "episodes": [
+    {
+      "town": "Town03",
+      "asset": "/Game/Carla/Maps/Town03",
+      "repeat": 0,
+      "status": "running",
+      "ticks": 0,
+      "stage": "post_load_settings",
+      "api_phases": [
+        {
+          "operation": "pre_load_settings",
+          "seconds": 0.15616382300049736,
+          "before": {
+            "episode_id": 12633036693869124350,
+            "frame": 20,
+            "elapsed_seconds": 0.4264241348282667
+          },
+          "after": {
+            "episode_id": 12633036693869124350,
+            "frame": 23,
+            "elapsed_seconds": 0.7007980312482687
+          },
+          "same_episode_frame_delta": 3
+        },
+        {
+          "operation": "post_load_settings",
+          "seconds": 0.0023798559996066615,
+          "before": {
+            "episode_id": 6608927739278640892,
+            "frame": 25,
+            "elapsed_seconds": 0.05000000074505806
+          },
+          "after": {
+            "episode_id": 6608927739278640892,
+            "frame": 26,
+            "elapsed_seconds": 0.10000000149011612
+          },
+          "same_episode_frame_delta": 1
+        }
+      ],
+      "load_seconds": 1.8675632849999602,
+      "load_frame_change": {
+        "before": {
+          "episode_id": 12633036693869124350,
+          "frame": 23,
+          "elapsed_seconds": 0.7007980312482687
+        },
+        "after": {
+          "episode_id": 6608927739278640892,
+          "frame": 25,
+          "elapsed_seconds": 0.05000000074505806
+        },
+        "same_episode_frame_delta": null
+      },
+      "immediate_loaded_settings": {
+        "synchronous_mode": true,
+        "fixed_delta_seconds": 0.05,
+        "no_rendering_mode": false,
+        "spectator_as_ego": false,
+        "tile_stream_distance": 650.0,
+        "actor_active_distance": 650.0
+      }
+    }
+  ],
+  "cleanup": [],
+  "stage": "connecting",
+  "readiness": {
+    "attempts": 6,
+    "seconds": 5.924975699999777,
+    "last_error": "time-out of 1000ms while waiting for the simulator, make sure the simulator is ready and connected to 127.0.0.1:2600",
+    "server_version": "0.9.15"
+  },
+  "server_version": "0.9.15",
+  "client_version": "0.9.15",
+  "original_map": "Carla/Maps/Town10HD_Opt",
+  "original_settings": {
+    "synchronous_mode": false,
+    "fixed_delta_seconds": null,
+    "no_rendering_mode": false,
+    "spectator_as_ego": true,
+    "tile_stream_distance": 3000.0,
+    "actor_active_distance": 2000.0
+  }
+}

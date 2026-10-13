@@ -1,0 +1,69 @@
+........................................F..ssss.............sssssssssss. [ 11%]
+........................................................................ [ 23%]
+........................................................................ [ 35%]
+........................................................................ [ 47%]
+........................................................................ [ 59%]
+..........................................................s............. [ 71%]
+........................................................................ [ 83%]
+........................................................................ [ 95%]
+............................                                             [100%]
+=================================== FAILURES ===================================
+______ test_native_matrix_keeps_blocked_routes_and_stops_on_unknown_child ______
+
+tmp_path = PosixPath('/tmp/pytest-of-czh/pytest-18/test_native_matrix_keeps_block0')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7203e2deceb0>
+
+    def test_native_matrix_keeps_blocked_routes_and_stops_on_unknown_child(tmp_path, monkeypatch):
+        monkeypatch.syspath_prepend(str(ROOT / 'scripts'))
+        import validate_native_matrix as matrix
+        source = tmp_path / 'manifest.json'
+        source.write_text(json.dumps({'entries': [
+            {'route_id': '1', 'town': 'Town01', 'scenario_types': ['One']},
+            {'route_id': '2', 'town': 'Town02', 'scenario_types': ['Two']},
+            {'route_id': '3', 'town': 'Town13', 'scenario_types': ['Three']}]}))
+        calls = []
+        def child(command, **kwargs):
+            calls.append(command)
+            output = Path(command[command.index('--output') + 1])
+            output.write_text(json.dumps({'status': 'stopped_unknown_outcome', 'results': [
+                {'route_id': '1', 'execution': 'unknown_outcome', 'error': 'RPC result unknown'}]}))
+            return SimpleNamespace(returncode=1)
+        monkeypatch.setattr(matrix.subprocess, 'run', child)
+        args = SimpleNamespace(manifest=source, output=tmp_path/'matrix.json', ticks=10,
+                               no_rendering=True, map_layers='none', tile_stream_distance=500,
+                               actor_active_distance=500, exclude_town=['Town13'], exclude_reason='recorded native crash',
+                               port=2100, tm_port=8100, timeout=1)
+>       result = matrix.run(args)
+
+tests/test_bench2drive.py:434: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = namespace(manifest=PosixPath('/tmp/pytest-of-czh/pytest-18/test_native_matrix_keeps_block0/manifest.json'), output=Pos...tive_distance=500, exclude_town=['Town13'], exclude_reason='recorded native crash', port=2100, tm_port=8100, timeout=1)
+
+    def run(args):
+        manifest = json.loads(args.manifest.read_text())
+        groups = {}
+        results = []
+        for entry in manifest['entries']:
+            excluded = entry['town'] in args.exclude_town
+            if not excluded:
+                groups.setdefault(entry['town'], []).append(str(entry['route_id']))
+            results.append({'route_id': str(entry['route_id']), 'town': entry['town'],
+                            'scenario_types': entry['scenario_types'],
+                            'execution': 'blocked' if excluded else 'not_run',
+                            'reason': args.exclude_reason if excluded else None})
+        report = {'version': 1, 'started_utc': datetime.now(timezone.utc).isoformat(), 'status': 'running',
+                  'manifest': str(args.manifest.resolve()), 'tick_budget': args.ticks,
+                  'no_rendering_mode': args.no_rendering, 'map_layers': args.map_layers,
+>                 'spectator_as_ego': args.spectator_as_ego,
+                  'tile_stream_distance': args.tile_stream_distance, 'actor_active_distance': args.actor_active_distance,
+                  'explicitly_excluded_towns': args.exclude_town, 'exclusion_reason': args.exclude_reason,
+                  'isolation': 'separate adapter/reference-driver Python process per exact map',
+                  'results': results, 'children': []}
+E       AttributeError: 'types.SimpleNamespace' object has no attribute 'spectator_as_ego'
+
+scripts/validate_native_matrix.py:32: AttributeError
+- generated xml file: /home/czh/workspace/CARLA-RL-Base/docs/testing/town13-investigation/unit-results.xml -
+=========================== short test summary info ============================
+FAILED tests/test_bench2drive.py::test_native_matrix_keeps_blocked_routes_and_stops_on_unknown_child
+1 failed, 587 passed, 16 skipped in 16.89s

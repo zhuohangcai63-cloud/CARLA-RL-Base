@@ -1,0 +1,45 @@
+{
+  "backend": "carla",
+  "passed": true,
+  "frames": [
+    {
+      "frame": 762,
+      "sensor_frames": {
+        "lidar": 762,
+        "rgb": 762,
+        "bev": 762
+      },
+      "timing": {
+        "simulation_seconds": 0.01236855900788214,
+        "sensor_wait_seconds": 0.08523381700797472,
+        "environment_seconds": 0.11823712899786187
+      }
+    },
+    {
+      "frame": 766,
+      "sensor_frames": {
+        "lidar": 766,
+        "rgb": 766,
+        "bev": 766
+      },
+      "timing": {
+        "simulation_seconds": 0.012676935992203653,
+        "sensor_wait_seconds": 0.10292539800866507,
+        "environment_seconds": 0.13795032100460958
+      }
+    },
+    {
+      "frame": 770,
+      "sensor_frames": {
+        "lidar": 770,
+        "rgb": 770,
+        "bev": 770
+      },
+      "timing": {
+        "simulation_seconds": 0.01211916199827101,
+        "sensor_wait_seconds": 0.08202989699930185,
+        "environment_seconds": 0.12017212700447999
+      }
+    }
+  ]
+}

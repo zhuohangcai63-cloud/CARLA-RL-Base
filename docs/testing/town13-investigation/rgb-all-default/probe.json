@@ -1,0 +1,227 @@
+{
+  "version": 1,
+  "started_utc": "2026-09-28T03:39:00.046751+00:00",
+  "scope": "native API map/hero/camera smoke test; no driving or scenario coverage",
+  "status": "failed",
+  "config": {
+    "port": 2600,
+    "host": "127.0.0.1",
+    "output": "/home/czh/workspace/CARLA-RL-Base/docs/testing/town13-investigation/rgb-all-default/probe.json",
+    "town": [
+      "Town13",
+      "Town12",
+      "Town03",
+      "Town01",
+      "Town02",
+      "Town04",
+      "Town05",
+      "Town06",
+      "Town07",
+      "Town10HD",
+      "Town11",
+      "Town15"
+    ],
+    "repeats": 2,
+    "ticks": 100,
+    "timeout": 90.0,
+    "idle_seconds": 0.2,
+    "distance": 650.0,
+    "spectator_as_ego": false,
+    "no_rendering": false,
+    "camera": true,
+    "spawn": null,
+    "route_manifest": null,
+    "route_id": null,
+    "route_root": null
+  },
+  "episodes": [
+    {
+      "town": "Town13",
+      "asset": "/Game/Carla/Maps/Town13/Town13",
+      "repeat": 0,
+      "status": "failed",
+      "ticks": 2,
+      "stage": "camera_wait",
+      "api_phases": [
+        {
+          "operation": "pre_load_settings",
+          "seconds": 0.15830972799994925,
+          "before": {
+            "episode_id": 8535421447115411668,
+            "frame": 20,
+            "elapsed_seconds": 0.42294515065441374
+          },
+          "after": {
+            "episode_id": 8535421447115411668,
+            "frame": 23,
+            "elapsed_seconds": 0.7023184760619188
+          },
+          "same_episode_frame_delta": 3
+        },
+        {
+          "operation": "post_load_settings",
+          "seconds": 0.0029611199997816584,
+          "before": {
+            "episode_id": 10654311249350854392,
+            "frame": 26,
+            "elapsed_seconds": 0.10000000149011612
+          },
+          "after": {
+            "episode_id": 10654311249350854392,
+            "frame": 27,
+            "elapsed_seconds": 0.15000000223517418
+          },
+          "same_episode_frame_delta": 1
+        },
+        {
+          "operation": "hero_spawn",
+          "seconds": 0.47543171500001336,
+          "before": {
+            "episode_id": 10654311249350854392,
+            "frame": 27,
+            "elapsed_seconds": 0.15000000223517418
+          },
+          "after": {
+            "episode_id": 10654311249350854392,
+            "frame": 27,
+            "elapsed_seconds": 0.15000000223517418
+          },
+          "same_episode_frame_delta": 0
+        },
+        {
+          "operation": "spectator_position",
+          "seconds": 0.00016129799996633665,
+          "before": {
+            "episode_id": 10654311249350854392,
+            "frame": 27,
+            "elapsed_seconds": 0.15000000223517418
+          },
+          "after": {
+            "episode_id": 10654311249350854392,
+            "frame": 27,
+            "elapsed_seconds": 0.15000000223517418
+          },
+          "same_episode_frame_delta": 0
+        },
+        {
+          "operation": "camera_spawn",
+          "seconds": 0.000384492000193859,
+          "before": {
+            "episode_id": 10654311249350854392,
+            "frame": 27,
+            "elapsed_seconds": 0.15000000223517418
+          },
+          "after": {
+            "episode_id": 10654311249350854392,
+            "frame": 27,
+            "elapsed_seconds": 0.15000000223517418
+          },
+          "same_episode_frame_delta": 0
+        }
+      ],
+      "load_seconds": 22.153263437000078,
+      "load_frame_change": {
+        "before": {
+          "episode_id": 8535421447115411668,
+          "frame": 23,
+          "elapsed_seconds": 0.7023184760619188
+        },
+        "after": {
+          "episode_id": 10654311249350854392,
+          "frame": 26,
+          "elapsed_seconds": 0.10000000149011612
+        },
+        "same_episode_frame_delta": null
+      },
+      "immediate_loaded_settings": {
+        "synchronous_mode": true,
+        "fixed_delta_seconds": 0.05,
+        "no_rendering_mode": false,
+        "spectator_as_ego": false,
+        "tile_stream_distance": 2000.0,
+        "actor_active_distance": 2000.0
+      },
+      "settings": {
+        "synchronous_mode": true,
+        "fixed_delta_seconds": 0.05,
+        "no_rendering_mode": false,
+        "spectator_as_ego": false,
+        "tile_stream_distance": 650.0,
+        "actor_active_distance": 650.0
+      },
+      "opendrive_sha256": "5354326f2fe4d26f0dcb5c82acf462257e638278363ab7adecb97ec3aa1f426f",
+      "spawn": {
+        "x": 1171.5406494140625,
+        "y": 1051.852783203125,
+        "z": 157.5,
+        "yaw": 125.90201568603516
+      },
+      "camera_frames": [
+        {
+          "frame": 28,
+          "width": 320,
+          "height": 180,
+          "std": 50.97185127022149,
+          "spatial_std": 61.54175619891247,
+          "min": 0,
+          "max": 255
+        }
+      ],
+      "idle_verified": true,
+      "last_frame": 29,
+      "outcome": "last submitted operation may have executed; never replayed"
+    }
+  ],
+  "cleanup": [
+    {
+      "status": "passed",
+      "stage": "restore_settings",
+      "settings": {
+        "synchronous_mode": false,
+        "fixed_delta_seconds": null,
+        "no_rendering_mode": false,
+        "spectator_as_ego": true,
+        "tile_stream_distance": 3000.0,
+        "actor_active_distance": 2000.0
+      }
+    }
+  ],
+  "stage": "restore_settings",
+  "readiness": {
+    "attempts": 6,
+    "seconds": 5.941427699000087,
+    "last_error": "time-out of 1000ms while waiting for the simulator, make sure the simulator is ready and connected to 127.0.0.1:2600",
+    "server_version": "0.9.15"
+  },
+  "server_version": "0.9.15",
+  "client_version": "0.9.15",
+  "original_map": "Carla/Maps/Town10HD_Opt",
+  "original_settings": {
+    "synchronous_mode": false,
+    "fixed_delta_seconds": null,
+    "no_rendering_mode": false,
+    "spectator_as_ego": true,
+    "tile_stream_distance": 3000.0,
+    "actor_active_distance": 2000.0
+  },
+  "error": "TimeoutError: Camera did not deliver physical frame 29",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/czh/workspace/CARLA-RL-Base/scripts/diagnose_carla_maps.py\", line 384, in run\n    record[\"camera_frames\"].append(wait_camera(images, frame, args.timeout))\n  File \"/home/czh/workspace/CARLA-RL-Base/scripts/diagnose_carla_maps.py\", line 179, in wait_camera\n    raise TimeoutError(f\"Camera did not deliver physical frame {frame}\") from None\nTimeoutError: Camera did not deliver physical frame 29\n",
+  "api_phases": [
+    {
+      "operation": "restore_settings",
+      "seconds": 0.0002206330000262824,
+      "before": {
+        "episode_id": 10654311249350854392,
+        "frame": 29,
+        "elapsed_seconds": 0.2500000037252903
+      },
+      "after": {
+        "episode_id": 10654311249350854392,
+        "frame": 29,
+        "elapsed_seconds": 0.2500000037252903
+      },
+      "same_episode_frame_delta": 0
+    }
+  ],
+  "finished_utc": "2026-09-28T03:41:01.651346+00:00"
+}

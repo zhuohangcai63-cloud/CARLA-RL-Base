@@ -1,0 +1,505 @@
+{
+  "backend": "carla",
+  "scenario": "construction_obstacle",
+  "seed": 42,
+  "config": {
+    "simulation": {
+      "port": 2200,
+      "tm_port": 8200,
+      "timeout": 60
+    },
+    "scenario": {
+      "source": "scenic",
+      "town": "Town10HD",
+      "file": "scenarios/scenic/construction_obstacle.scenic",
+      "params": {
+        "number_of_vehicles": 0,
+        "number_of_walkers": 0,
+        "traffic_light_policy": "off"
+      }
+    }
+  },
+  "execution_passed": true,
+  "completion_passed": false,
+  "actions": [
+    [
+      0.022907262668013573,
+      1.0,
+      0.0
+    ],
+    [
+      0.022907262668013573,
+      1.0,
+      0.0
+    ],
+    [
+      0.022907262668013573,
+      1.0,
+      0.0
+    ],
+    [
+      0.019428664818406105,
+      0.7752830386161804,
+      0.0
+    ],
+    [
+      0.00967339612543583,
+      0.3230920433998108,
+      0.0
+    ],
+    [
+      -0.009039045311510563,
+      0.17888134717941284,
+      0.0
+    ],
+    [
+      -0.007775947917252779,
+      0.21925562620162964,
+      0.0
+    ],
+    [
+      -0.004330604802817106,
+      0.2482651174068451,
+      0.0
+    ],
+    [
+      -0.0012872006045654416,
+      0.2505020797252655,
+      0.0
+    ],
+    [
+      -0.00250111217610538,
+      0.24280866980552673,
+      0.0
+    ],
+    [
+      -0.0012116099242120981,
+      0.241323322057724,
+      0.0
+    ],
+    [
+      -0.0016044687945395708,
+      0.2401876151561737,
+      0.0
+    ],
+    [
+      -0.0013509226264432073,
+      0.24415090680122375,
+      0.0
+    ],
+    [
+      -0.0010449093533679843,
+      0.24333566427230835,
+      0.0
+    ],
+    [
+      -0.0004827644443139434,
+      0.24305947124958038,
+      0.0
+    ],
+    [
+      -0.0006082881009206176,
+      0.2433476746082306,
+      0.0
+    ],
+    [
+      -0.0003347577294334769,
+      0.24366649985313416,
+      0.0
+    ],
+    [
+      -3.474142067716457e-05,
+      0.24390341341495514,
+      0.0
+    ],
+    [
+      -0.0004940521903336048,
+      0.24411101639270782,
+      0.0
+    ],
+    [
+      -0.00024139328161254525,
+      0.24431468546390533,
+      0.0
+    ],
+    [
+      -0.0002405375416856259,
+      0.2445223033428192,
+      0.0
+    ],
+    [
+      -8.722583152120933e-05,
+      0.24472841620445251,
+      0.0
+    ],
+    [
+      -0.00014162938168738037,
+      0.24492919445037842,
+      0.0
+    ],
+    [
+      -6.318760279100388e-05,
+      0.24512095749378204,
+      0.0
+    ],
+    [
+      -8.72196105774492e-05,
+      0.24531039595603943,
+      0.0
+    ],
+    [
+      -3.748254312085919e-05,
+      0.24549561738967896,
+      0.0
+    ],
+    [
+      -5.418110595201142e-05,
+      0.24567720293998718,
+      0.0
+    ],
+    [
+      -2.2752683435101062e-05,
+      0.24585621058940887,
+      0.0
+    ],
+    [
+      -0.015578807331621647,
+      0.24602968990802765,
+      0.0
+    ],
+    [
+      -0.009967098012566566,
+      0.24638855457305908,
+      0.0
+    ],
+    [
+      -0.100312240421772,
+      0.24639391899108887,
+      0.0
+    ],
+    [
+      -0.07317189127206802,
+      0.25324776768684387,
+      0.0
+    ],
+    [
+      -0.017385730519890785,
+      0.24757227301597595,
+      0.0
+    ],
+    [
+      -0.17919254302978516,
+      0.24616342782974243,
+      0.0
+    ],
+    [
+      -0.13028016686439514,
+      0.2655622065067291,
+      0.0
+    ],
+    [
+      -0.13372083008289337,
+      0.24935230612754822,
+      0.0
+    ],
+    [
+      -0.05930640175938606,
+      0.24649560451507568,
+      0.0
+    ],
+    [
+      -0.07547373324632645,
+      0.24532505869865417,
+      0.0
+    ],
+    [
+      -0.03764514997601509,
+      0.2483360916376114,
+      0.0
+    ],
+    [
+      -0.005273965187370777,
+      0.24769853055477142,
+      0.0
+    ],
+    [
+      -3.156615639454685e-05,
+      0.2478453516960144,
+      0.0
+    ],
+    [
+      0.0007121937233023345,
+      0.24796302616596222,
+      0.0
+    ],
+    [
+      0.07891014218330383,
+      0.24809607863426208,
+      0.0
+    ],
+    [
+      0.057401735335588455,
+      0.2531036138534546,
+      0.0
+    ],
+    [
+      0.012030399404466152,
+      0.24896438419818878,
+      0.0
+    ],
+    [
+      0.1939001828432083,
+      0.2480873465538025,
+      0.0
+    ],
+    [
+      0.14578929543495178,
+      0.2710025906562805,
+      0.0
+    ],
+    [
+      0.10747012495994568,
+      0.2514397203922272,
+      0.0
+    ],
+    [
+      0.030639810487627983,
+      0.24486024677753448,
+      0.0
+    ],
+    [
+      0.05765039846301079,
+      0.24719132483005524,
+      0.0
+    ],
+    [
+      0.025041736662387848,
+      0.25053510069847107,
+      0.0
+    ],
+    [
+      0.03496218100190163,
+      0.2495112270116806,
+      0.0
+    ],
+    [
+      0.01432059146463871,
+      0.24942681193351746,
+      0.0
+    ],
+    [
+      0.02009790949523449,
+      0.24924738705158234,
+      0.0
+    ],
+    [
+      0.008469192311167717,
+      0.24949504435062408,
+      0.0
+    ]
+  ],
+  "episodes": [
+    {
+      "source": "scenic",
+      "scenario": "construction_obstacle",
+      "seed": 42,
+      "steps": 55,
+      "terminated": true,
+      "truncated": false,
+      "reason": "collision",
+      "events": {
+        "long_tail_events_configured": [
+          "construction_obstacle"
+        ],
+        "long_tail_events_active": 1,
+        "long_tail_events_triggered": 1,
+        "long_tail_events_completed": 0,
+        "long_tail_events_failed": 0,
+        "long_tail_event_requested": 1,
+        "long_tail_specs_requested": 1,
+        "long_tail_event_spawned": 1,
+        "long_tail_event_skipped": 0,
+        "long_tail_skip_reason": "",
+        "long_tail_last_event_type": "construction_obstacle",
+        "long_tail_last_event_state": "active",
+        "long_tail_last_event_reason": "route_anchor",
+        "long_tail_anchor_town": "Town10HD",
+        "long_tail_anchor_lane_id": 5,
+        "long_tail_anchor_has_left_lane": true,
+        "long_tail_anchor_has_right_lane": true,
+        "forced_crossing_walkers": 0,
+        "forced_crossing_distance_min": 8.0,
+        "forced_crossing_distance_max": 25.0,
+        "forced_crossing_lateral_min": 2.0,
+        "forced_crossing_lateral_max": 5.0,
+        "forced_crossing_trigger_prob": 0.015114219820389518,
+        "forced_crossing_cooldown_steps": 240,
+        "forced_crossing_warmup_steps": 100,
+        "forced_crossing_min_speed": 1.5,
+        "forced_crossing_max_total": 28,
+        "forced_crossing_events": 0,
+        "forced_crossing_spawned": 0,
+        "forced_crossing_completed": 0,
+        "forced_crossing_failed": 0,
+        "forced_crossing_timeout": 0,
+        "forced_crossing_disabled": false,
+        "forced_crossing_disable_reason": "",
+        "hard_break_route_enabled": false,
+        "hard_break_lead_spawn_distance_min": 35.0,
+        "hard_break_lead_spawn_distance_max": 50.0,
+        "lead_brake_warmup_steps": 100,
+        "lead_candidate_distance_min": 18.0,
+        "lead_candidate_distance_max": 45.0,
+        "lead_candidate_speed_min": 2.0,
+        "lead_candidate_speed_max": 12.0,
+        "lead_track_min_steps": 16,
+        "lead_trigger_distance_min": 8.0,
+        "lead_trigger_distance_max": 16.0,
+        "lead_brake_strength": 1.0,
+        "lead_brake_hold_steps": 60,
+        "lead_brake_min_ego_speed": 1.5,
+        "lead_event_max_per_episode": 1,
+        "lead_brake_enabled": false,
+        "hard_break_lead_spawned": false,
+        "hard_break_lead_spawn_distance": null,
+        "hard_break_lead_spawn_failure": "",
+        "lead_brake_events": 0,
+        "lead_brake_completed": 0,
+        "lead_brake_aborted": 0,
+        "lead_brake_triggered": false,
+        "lead_brake_abort_reason": "",
+        "lead_brake_last_state": "idle",
+        "lead_brake_last_candidate_id": null,
+        "lead_brake_last_distance": null,
+        "lead_brake_last_relative_speed": null,
+        "lead_brake_last_trigger_step": null,
+        "lead_brake_trigger_ego_speed": null
+      },
+      "reset_events": {
+        "long_tail_events_configured": [
+          "construction_obstacle"
+        ],
+        "long_tail_events_active": 1,
+        "long_tail_events_triggered": 1,
+        "long_tail_events_completed": 0,
+        "long_tail_events_failed": 0,
+        "long_tail_event_requested": 1,
+        "long_tail_specs_requested": 1,
+        "long_tail_event_spawned": 1,
+        "long_tail_event_skipped": 0,
+        "long_tail_skip_reason": "",
+        "long_tail_last_event_type": "construction_obstacle",
+        "long_tail_last_event_state": "active",
+        "long_tail_last_event_reason": "route_anchor",
+        "long_tail_anchor_town": "Town10HD",
+        "long_tail_anchor_lane_id": 5,
+        "long_tail_anchor_has_left_lane": true,
+        "long_tail_anchor_has_right_lane": true,
+        "forced_crossing_walkers": 0,
+        "forced_crossing_distance_min": 8.0,
+        "forced_crossing_distance_max": 25.0,
+        "forced_crossing_lateral_min": 2.0,
+        "forced_crossing_lateral_max": 5.0,
+        "forced_crossing_trigger_prob": 0.015114219820389518,
+        "forced_crossing_cooldown_steps": 240,
+        "forced_crossing_warmup_steps": 100,
+        "forced_crossing_min_speed": 1.5,
+        "forced_crossing_max_total": 28,
+        "forced_crossing_events": 0,
+        "forced_crossing_spawned": 0,
+        "forced_crossing_completed": 0,
+        "forced_crossing_failed": 0,
+        "forced_crossing_timeout": 0,
+        "forced_crossing_disabled": false,
+        "forced_crossing_disable_reason": "",
+        "hard_break_route_enabled": false,
+        "hard_break_lead_spawn_distance_min": 35.0,
+        "hard_break_lead_spawn_distance_max": 50.0,
+        "lead_brake_warmup_steps": 100,
+        "lead_candidate_distance_min": 18.0,
+        "lead_candidate_distance_max": 45.0,
+        "lead_candidate_speed_min": 2.0,
+        "lead_candidate_speed_max": 12.0,
+        "lead_track_min_steps": 16,
+        "lead_trigger_distance_min": 8.0,
+        "lead_trigger_distance_max": 16.0,
+        "lead_brake_strength": 1.0,
+        "lead_brake_hold_steps": 60,
+        "lead_brake_min_ego_speed": 1.5,
+        "lead_event_max_per_episode": 1,
+        "lead_brake_enabled": false,
+        "hard_break_lead_spawned": false,
+        "hard_break_lead_spawn_distance": null,
+        "hard_break_lead_spawn_failure": "",
+        "lead_brake_events": 0,
+        "lead_brake_completed": 0,
+        "lead_brake_aborted": 0,
+        "lead_brake_triggered": false,
+        "lead_brake_abort_reason": "",
+        "lead_brake_last_state": "idle",
+        "lead_brake_last_candidate_id": null,
+        "lead_brake_last_distance": null,
+        "lead_brake_last_relative_speed": null,
+        "lead_brake_last_trigger_step": null,
+        "lead_brake_trigger_ego_speed": null
+      }
+    }
+  ],
+  "driver": {
+    "kind": "adjacent_lane_bypass",
+    "side": "left",
+    "lateral_m": 3.5,
+    "anchor_route_distance_m": 54.62999927589224
+  },
+  "scenario_metadata": {
+    "source": "scenic",
+    "scenario_id": "construction_obstacle",
+    "seed": 42,
+    "source_sha256": "a47bb5c2a2ba53796210d9188e2a47ed9e0086840297cc7e6b699bab30deab95",
+    "file": "/home/czh/workspace/CARLA-RL-Base/scenarios/scenic/construction_obstacle.scenic",
+    "town": "Town10HD",
+    "iterations": 1,
+    "parameters": {
+      "number_of_vehicles": 0,
+      "number_of_walkers": 0,
+      "traffic_light_policy": "off",
+      "scenario_name": "construction_obstacle",
+      "weather": "MidRainyNoon",
+      "ego_spawn_index": 41,
+      "destination_spawn_index": 30,
+      "min_route_distance": 89.5913483042781,
+      "pedestrian_cross_factor": 0.027907585705028784,
+      "long_tail_event_type": "construction_obstacle",
+      "event_distance_min": 36.02495176171507,
+      "event_distance_max": 78.5166936166919,
+      "event_timeout_steps": 718.1466134993399,
+      "global_construction_fallback": true,
+      "global_construction_fallback_count": 3.1809850248980793,
+      "global_construction_spacing": 8.0,
+      "global_construction_min_ego_distance": 25.0,
+      "global_construction_straight_yaw_tolerance": 8.0,
+      "global_construction_straight_check_distance": 12.0,
+      "allow_skip_if_incompatible": true
+    },
+    "generation_failures": [],
+    "seeds": {
+      "scenic_python": 42,
+      "scenic_numpy": 42,
+      "route": 42,
+      "spawn": 42,
+      "streams_independent": true,
+      "traffic_manager": 42,
+      "pedestrians": 42,
+      "events": 43,
+      "crossing": 44,
+      "lead_brake": 45,
+      "reactive_npc": 42
+    },
+    "ego_spawn_index": 41,
+    "destination_spawn_index": 30,
+    "background_vehicles_requested": 0,
+    "background_vehicles_spawned": 0,
+    "reactive_routes": {}
+  },
+  "wall_seconds": 7.296911546996853
+}

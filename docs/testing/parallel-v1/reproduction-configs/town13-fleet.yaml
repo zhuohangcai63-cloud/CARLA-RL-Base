@@ -1,0 +1,21 @@
+carla_root: /home/czh/software/carla
+log_dir: /home/czh/workspace/CARLA-RL-Base/artifacts/town13-fleet
+memory_per_worker_mb: 6000
+memory_reserve_mb: 4096
+nothreading: false
+service_python: /home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python3.10
+startup_timeout: 180
+threads:
+  numeric: 1
+  rpc: 2
+  secondary: 2
+  streaming: 2
+workers:
+- config: /tmp/easycarla-parallel-baseline/town13-eval.yaml
+  id: worker_0
+  instance: planning_0
+  ports:
+    rpc: 24000
+    secondary: 24002
+    streaming: 24001
+    tm: 24003

@@ -1,0 +1,469 @@
+LAYER:             Searching for implicit layer manifest files
+LAYER:                In following locations:
+LAYER:                   /home/czh/.config/vulkan/implicit_layer.d
+LAYER:                   /etc/xdg/xdg-ubuntu/vulkan/implicit_layer.d
+LAYER:                   /etc/xdg/vulkan/implicit_layer.d
+LAYER:                   /etc/vulkan/implicit_layer.d
+LAYER:                   /home/czh/snap/code/264/.local/share/vulkan/implicit_layer.d
+LAYER:                   /home/czh/snap/code/264/vulkan/implicit_layer.d
+LAYER:                   /snap/code/264/usr/share/vulkan/implicit_layer.d
+LAYER:                   /usr/share/ubuntu/vulkan/implicit_layer.d
+LAYER:                   /usr/share/gnome/vulkan/implicit_layer.d
+LAYER:                   /usr/local/share/vulkan/implicit_layer.d
+LAYER:                   /usr/share/vulkan/implicit_layer.d
+LAYER:                   /var/lib/snapd/desktop/vulkan/implicit_layer.d
+LAYER:                Found the following files:
+LAYER:                   /usr/share/vulkan/implicit_layer.d/nvidia_layers.json
+LAYER:                   /usr/share/vulkan/implicit_layer.d/VkLayer_MESA_device_select.json
+LAYER:             Searching for implicit layer manifest files
+LAYER:                In following locations:
+LAYER:                   /home/czh/.config/vulkan/implicit_layer.d
+LAYER:                   /etc/xdg/xdg-ubuntu/vulkan/implicit_layer.d
+LAYER:                   /etc/xdg/vulkan/implicit_layer.d
+LAYER:                   /etc/vulkan/implicit_layer.d
+LAYER:                   /home/czh/snap/code/264/.local/share/vulkan/implicit_layer.d
+LAYER:                   /home/czh/snap/code/264/vulkan/implicit_layer.d
+LAYER:                   /snap/code/264/usr/share/vulkan/implicit_layer.d
+LAYER:                   /usr/share/ubuntu/vulkan/implicit_layer.d
+LAYER:                   /usr/share/gnome/vulkan/implicit_layer.d
+LAYER:                   /usr/local/share/vulkan/implicit_layer.d
+LAYER:                   /usr/share/vulkan/implicit_layer.d
+LAYER:                   /var/lib/snapd/desktop/vulkan/implicit_layer.d
+LAYER:                Found the following files:
+LAYER:                   /usr/share/vulkan/implicit_layer.d/nvidia_layers.json
+LAYER:                   /usr/share/vulkan/implicit_layer.d/VkLayer_MESA_device_select.json
+LAYER:             Searching for implicit layer manifest files
+LAYER:                In following locations:
+LAYER:                   /home/czh/.config/vulkan/implicit_layer.d
+LAYER:                   /etc/xdg/xdg-ubuntu/vulkan/implicit_layer.d
+LAYER:                   /etc/xdg/vulkan/implicit_layer.d
+LAYER:                   /etc/vulkan/implicit_layer.d
+LAYER:                   /home/czh/snap/code/264/.local/share/vulkan/implicit_layer.d
+LAYER:                   /home/czh/snap/code/264/vulkan/implicit_layer.d
+LAYER:                   /snap/code/264/usr/share/vulkan/implicit_layer.d
+LAYER:                   /usr/share/ubuntu/vulkan/implicit_layer.d
+LAYER:                   /usr/share/gnome/vulkan/implicit_layer.d
+LAYER:                   /usr/local/share/vulkan/implicit_layer.d
+LAYER:                   /usr/share/vulkan/implicit_layer.d
+LAYER:                   /var/lib/snapd/desktop/vulkan/implicit_layer.d
+LAYER:                Found the following files:
+LAYER:                   /usr/share/vulkan/implicit_layer.d/nvidia_layers.json
+LAYER:                   /usr/share/vulkan/implicit_layer.d/VkLayer_MESA_device_select.json
+LAYER:             Searching for implicit layer manifest files
+LAYER:                In following locations:
+LAYER:                   /home/czh/.config/vulkan/implicit_layer.d
+LAYER:                   /etc/xdg/xdg-ubuntu/vulkan/implicit_layer.d
+LAYER:                   /etc/xdg/vulkan/implicit_layer.d
+LAYER:                   /etc/vulkan/implicit_layer.d
+LAYER:                   /home/czh/snap/code/264/.local/share/vulkan/implicit_layer.d
+LAYER:                   /home/czh/snap/code/264/vulkan/implicit_layer.d
+LAYER:                   /snap/code/264/usr/share/vulkan/implicit_layer.d
+LAYER:                   /usr/share/ubuntu/vulkan/implicit_layer.d
+LAYER:                   /usr/share/gnome/vulkan/implicit_layer.d
+LAYER:                   /usr/local/share/vulkan/implicit_layer.d
+LAYER:                   /usr/share/vulkan/implicit_layer.d
+LAYER:                   /var/lib/snapd/desktop/vulkan/implicit_layer.d
+LAYER:                Found the following files:
+LAYER:                   /usr/share/vulkan/implicit_layer.d/nvidia_layers.json
+LAYER:                   /usr/share/vulkan/implicit_layer.d/VkLayer_MESA_device_select.json
+LAYER:             Searching for implicit layer manifest files
+LAYER:                In following locations:
+LAYER:                   /home/czh/.config/vulkan/implicit_layer.d
+LAYER:                   /etc/xdg/xdg-ubuntu/vulkan/implicit_layer.d
+LAYER:                   /etc/xdg/vulkan/implicit_layer.d
+LAYER:                   /etc/vulkan/implicit_layer.d
+LAYER:                   /home/czh/snap/code/264/.local/share/vulkan/implicit_layer.d
+LAYER:                   /home/czh/snap/code/264/vulkan/implicit_layer.d
+LAYER:                   /snap/code/264/usr/share/vulkan/implicit_layer.d
+LAYER:                   /usr/share/ubuntu/vulkan/implicit_layer.d
+LAYER:                   /usr/share/gnome/vulkan/implicit_layer.d
+LAYER:                   /usr/local/share/vulkan/implicit_layer.d
+LAYER:                   /usr/share/vulkan/implicit_layer.d
+LAYER:                   /var/lib/snapd/desktop/vulkan/implicit_layer.d
+LAYER:                Found the following files:
+LAYER:                   /usr/share/vulkan/implicit_layer.d/nvidia_layers.json
+LAYER:                   /usr/share/vulkan/implicit_layer.d/VkLayer_MESA_device_select.json
+LAYER:             Searching for implicit layer manifest files
+LAYER:                In following locations:
+LAYER:                   /home/czh/.config/vulkan/implicit_layer.d
+LAYER:                   /etc/xdg/xdg-ubuntu/vulkan/implicit_layer.d
+LAYER:                   /etc/xdg/vulkan/implicit_layer.d
+LAYER:                   /etc/vulkan/implicit_layer.d
+LAYER:                   /home/czh/snap/code/264/.local/share/vulkan/implicit_layer.d
+LAYER:                   /home/czh/snap/code/264/vulkan/implicit_layer.d
+LAYER:                   /snap/code/264/usr/share/vulkan/implicit_layer.d
+LAYER:                   /usr/share/ubuntu/vulkan/implicit_layer.d
+LAYER:                   /usr/share/gnome/vulkan/implicit_layer.d
+LAYER:                   /usr/local/share/vulkan/implicit_layer.d
+LAYER:                   /usr/share/vulkan/implicit_layer.d
+LAYER:                   /var/lib/snapd/desktop/vulkan/implicit_layer.d
+LAYER:                Found the following files:
+LAYER:                   /usr/share/vulkan/implicit_layer.d/nvidia_layers.json
+LAYER:                   /usr/share/vulkan/implicit_layer.d/VkLayer_MESA_device_select.json
+LAYER:             Searching for explicit layer manifest files
+LAYER:                In following locations:
+LAYER:                   /tmp/easycarla-vulkan-validation/usr/share/vulkan/explicit_layer.d
+LAYER:                Found the following files:
+LAYER:                   /tmp/easycarla-vulkan-validation/usr/share/vulkan/explicit_layer.d/VkLayer_khronos_validation.json
+LAYER:             Searching for implicit layer manifest files
+LAYER:                In following locations:
+LAYER:                   /home/czh/.config/vulkan/implicit_layer.d
+LAYER:                   /etc/xdg/xdg-ubuntu/vulkan/implicit_layer.d
+LAYER:                   /etc/xdg/vulkan/implicit_layer.d
+LAYER:                   /etc/vulkan/implicit_layer.d
+LAYER:                   /home/czh/snap/code/264/.local/share/vulkan/implicit_layer.d
+LAYER:                   /home/czh/snap/code/264/vulkan/implicit_layer.d
+LAYER:                   /snap/code/264/usr/share/vulkan/implicit_layer.d
+LAYER:                   /usr/share/ubuntu/vulkan/implicit_layer.d
+LAYER:                   /usr/share/gnome/vulkan/implicit_layer.d
+LAYER:                   /usr/local/share/vulkan/implicit_layer.d
+LAYER:                   /usr/share/vulkan/implicit_layer.d
+LAYER:                   /var/lib/snapd/desktop/vulkan/implicit_layer.d
+LAYER:                Found the following files:
+LAYER:                   /usr/share/vulkan/implicit_layer.d/nvidia_layers.json
+LAYER:                   /usr/share/vulkan/implicit_layer.d/VkLayer_MESA_device_select.json
+LAYER:             Searching for implicit layer manifest files
+LAYER:                In following locations:
+LAYER:                   /home/czh/.config/vulkan/implicit_layer.d
+LAYER:                   /etc/xdg/xdg-ubuntu/vulkan/implicit_layer.d
+LAYER:                   /etc/xdg/vulkan/implicit_layer.d
+LAYER:                   /etc/vulkan/implicit_layer.d
+LAYER:                   /home/czh/snap/code/264/.local/share/vulkan/implicit_layer.d
+LAYER:                   /home/czh/snap/code/264/vulkan/implicit_layer.d
+LAYER:                   /snap/code/264/usr/share/vulkan/implicit_layer.d
+LAYER:                   /usr/share/ubuntu/vulkan/implicit_layer.d
+LAYER:                   /usr/share/gnome/vulkan/implicit_layer.d
+LAYER:                   /usr/local/share/vulkan/implicit_layer.d
+LAYER:                   /usr/share/vulkan/implicit_layer.d
+LAYER:                   /var/lib/snapd/desktop/vulkan/implicit_layer.d
+LAYER:                Found the following files:
+LAYER:                   /usr/share/vulkan/implicit_layer.d/nvidia_layers.json
+LAYER:                   /usr/share/vulkan/implicit_layer.d/VkLayer_MESA_device_select.json
+LAYER:             Searching for explicit layer manifest files
+LAYER:                In following locations:
+LAYER:                   /tmp/easycarla-vulkan-validation/usr/share/vulkan/explicit_layer.d
+LAYER:                Found the following files:
+LAYER:                   /tmp/easycarla-vulkan-validation/usr/share/vulkan/explicit_layer.d/VkLayer_khronos_validation.json
+LAYER:             Searching for implicit layer manifest files
+LAYER:                In following locations:
+LAYER:                   /home/czh/.config/vulkan/implicit_layer.d
+LAYER:                   /etc/xdg/xdg-ubuntu/vulkan/implicit_layer.d
+LAYER:                   /etc/xdg/vulkan/implicit_layer.d
+LAYER:                   /etc/vulkan/implicit_layer.d
+LAYER:                   /home/czh/snap/code/264/.local/share/vulkan/implicit_layer.d
+LAYER:                   /home/czh/snap/code/264/vulkan/implicit_layer.d
+LAYER:                   /snap/code/264/usr/share/vulkan/implicit_layer.d
+LAYER:                   /usr/share/ubuntu/vulkan/implicit_layer.d
+LAYER:                   /usr/share/gnome/vulkan/implicit_layer.d
+LAYER:                   /usr/local/share/vulkan/implicit_layer.d
+LAYER:                   /usr/share/vulkan/implicit_layer.d
+LAYER:                   /var/lib/snapd/desktop/vulkan/implicit_layer.d
+LAYER:                Found the following files:
+LAYER:                   /usr/share/vulkan/implicit_layer.d/nvidia_layers.json
+LAYER:                   /usr/share/vulkan/implicit_layer.d/VkLayer_MESA_device_select.json
+LAYER:             Searching for implicit layer manifest files
+LAYER:                In following locations:
+LAYER:                   /home/czh/.config/vulkan/implicit_layer.d
+LAYER:                   /etc/xdg/xdg-ubuntu/vulkan/implicit_layer.d
+LAYER:                   /etc/xdg/vulkan/implicit_layer.d
+LAYER:                   /etc/vulkan/implicit_layer.d
+LAYER:                   /home/czh/snap/code/264/.local/share/vulkan/implicit_layer.d
+LAYER:                   /home/czh/snap/code/264/vulkan/implicit_layer.d
+LAYER:                   /snap/code/264/usr/share/vulkan/implicit_layer.d
+LAYER:                   /usr/share/ubuntu/vulkan/implicit_layer.d
+LAYER:                   /usr/share/gnome/vulkan/implicit_layer.d
+LAYER:                   /usr/local/share/vulkan/implicit_layer.d
+LAYER:                   /usr/share/vulkan/implicit_layer.d
+LAYER:                   /var/lib/snapd/desktop/vulkan/implicit_layer.d
+LAYER:                Found the following files:
+LAYER:                   /usr/share/vulkan/implicit_layer.d/nvidia_layers.json
+LAYER:                   /usr/share/vulkan/implicit_layer.d/VkLayer_MESA_device_select.json
+LAYER:             Searching for explicit layer manifest files
+LAYER:                In following locations:
+LAYER:                   /tmp/easycarla-vulkan-validation/usr/share/vulkan/explicit_layer.d
+LAYER:                Found the following files:
+LAYER:                   /tmp/easycarla-vulkan-validation/usr/share/vulkan/explicit_layer.d/VkLayer_khronos_validation.json
+LAYER:             Searching for implicit layer manifest files
+LAYER:                In following locations:
+LAYER:                   /home/czh/.config/vulkan/implicit_layer.d
+LAYER:                   /etc/xdg/xdg-ubuntu/vulkan/implicit_layer.d
+LAYER:                   /etc/xdg/vulkan/implicit_layer.d
+LAYER:                   /etc/vulkan/implicit_layer.d
+LAYER:                   /home/czh/snap/code/264/.local/share/vulkan/implicit_layer.d
+LAYER:                   /home/czh/snap/code/264/vulkan/implicit_layer.d
+LAYER:                   /snap/code/264/usr/share/vulkan/implicit_layer.d
+LAYER:                   /usr/share/ubuntu/vulkan/implicit_layer.d
+LAYER:                   /usr/share/gnome/vulkan/implicit_layer.d
+LAYER:                   /usr/local/share/vulkan/implicit_layer.d
+LAYER:                   /usr/share/vulkan/implicit_layer.d
+LAYER:                   /var/lib/snapd/desktop/vulkan/implicit_layer.d
+LAYER:                Found the following files:
+LAYER:                   /usr/share/vulkan/implicit_layer.d/nvidia_layers.json
+LAYER:                   /usr/share/vulkan/implicit_layer.d/VkLayer_MESA_device_select.json
+LAYER:             Searching for implicit layer manifest files
+LAYER:                In following locations:
+LAYER:                   /home/czh/.config/vulkan/implicit_layer.d
+LAYER:                   /etc/xdg/xdg-ubuntu/vulkan/implicit_layer.d
+LAYER:                   /etc/xdg/vulkan/implicit_layer.d
+LAYER:                   /etc/vulkan/implicit_layer.d
+LAYER:                   /home/czh/snap/code/264/.local/share/vulkan/implicit_layer.d
+LAYER:                   /home/czh/snap/code/264/vulkan/implicit_layer.d
+LAYER:                   /snap/code/264/usr/share/vulkan/implicit_layer.d
+LAYER:                   /usr/share/ubuntu/vulkan/implicit_layer.d
+LAYER:                   /usr/share/gnome/vulkan/implicit_layer.d
+LAYER:                   /usr/local/share/vulkan/implicit_layer.d
+LAYER:                   /usr/share/vulkan/implicit_layer.d
+LAYER:                   /var/lib/snapd/desktop/vulkan/implicit_layer.d
+LAYER:                Found the following files:
+LAYER:                   /usr/share/vulkan/implicit_layer.d/nvidia_layers.json
+LAYER:                   /usr/share/vulkan/implicit_layer.d/VkLayer_MESA_device_select.json
+LAYER:             Searching for explicit layer manifest files
+LAYER:                In following locations:
+LAYER:                   /tmp/easycarla-vulkan-validation/usr/share/vulkan/explicit_layer.d
+LAYER:                Found the following files:
+LAYER:                   /tmp/easycarla-vulkan-validation/usr/share/vulkan/explicit_layer.d/VkLayer_khronos_validation.json
+LAYER:             Searching for implicit layer manifest files
+LAYER:                In following locations:
+LAYER:                   /home/czh/.config/vulkan/implicit_layer.d
+LAYER:                   /etc/xdg/xdg-ubuntu/vulkan/implicit_layer.d
+LAYER:                   /etc/xdg/vulkan/implicit_layer.d
+LAYER:                   /etc/vulkan/implicit_layer.d
+LAYER:                   /home/czh/snap/code/264/.local/share/vulkan/implicit_layer.d
+LAYER:                   /home/czh/snap/code/264/vulkan/implicit_layer.d
+LAYER:                   /snap/code/264/usr/share/vulkan/implicit_layer.d
+LAYER:                   /usr/share/ubuntu/vulkan/implicit_layer.d
+LAYER:                   /usr/share/gnome/vulkan/implicit_layer.d
+LAYER:                   /usr/local/share/vulkan/implicit_layer.d
+LAYER:                   /usr/share/vulkan/implicit_layer.d
+LAYER:                   /var/lib/snapd/desktop/vulkan/implicit_layer.d
+LAYER:                Found the following files:
+LAYER:                   /usr/share/vulkan/implicit_layer.d/nvidia_layers.json
+LAYER:                   /usr/share/vulkan/implicit_layer.d/VkLayer_MESA_device_select.json
+LAYER:             Searching for implicit layer manifest files
+LAYER:                In following locations:
+LAYER:                   /home/czh/.config/vulkan/implicit_layer.d
+LAYER:                   /etc/xdg/xdg-ubuntu/vulkan/implicit_layer.d
+LAYER:                   /etc/xdg/vulkan/implicit_layer.d
+LAYER:                   /etc/vulkan/implicit_layer.d
+LAYER:                   /home/czh/snap/code/264/.local/share/vulkan/implicit_layer.d
+LAYER:                   /home/czh/snap/code/264/vulkan/implicit_layer.d
+LAYER:                   /snap/code/264/usr/share/vulkan/implicit_layer.d
+LAYER:                   /usr/share/ubuntu/vulkan/implicit_layer.d
+LAYER:                   /usr/share/gnome/vulkan/implicit_layer.d
+LAYER:                   /usr/local/share/vulkan/implicit_layer.d
+LAYER:                   /usr/share/vulkan/implicit_layer.d
+LAYER:                   /var/lib/snapd/desktop/vulkan/implicit_layer.d
+LAYER:                Found the following files:
+LAYER:                   /usr/share/vulkan/implicit_layer.d/nvidia_layers.json
+LAYER:                   /usr/share/vulkan/implicit_layer.d/VkLayer_MESA_device_select.json
+LAYER:             Searching for explicit layer manifest files
+LAYER:                In following locations:
+LAYER:                   /tmp/easycarla-vulkan-validation/usr/share/vulkan/explicit_layer.d
+LAYER:                Found the following files:
+LAYER:                   /tmp/easycarla-vulkan-validation/usr/share/vulkan/explicit_layer.d/VkLayer_khronos_validation.json
+LAYER:             Searching for implicit layer manifest files
+LAYER:                In following locations:
+LAYER:                   /home/czh/.config/vulkan/implicit_layer.d
+LAYER:                   /etc/xdg/xdg-ubuntu/vulkan/implicit_layer.d
+LAYER:                   /etc/xdg/vulkan/implicit_layer.d
+LAYER:                   /etc/vulkan/implicit_layer.d
+LAYER:                   /home/czh/snap/code/264/.local/share/vulkan/implicit_layer.d
+LAYER:                   /home/czh/snap/code/264/vulkan/implicit_layer.d
+LAYER:                   /snap/code/264/usr/share/vulkan/implicit_layer.d
+LAYER:                   /usr/share/ubuntu/vulkan/implicit_layer.d
+LAYER:                   /usr/share/gnome/vulkan/implicit_layer.d
+LAYER:                   /usr/local/share/vulkan/implicit_layer.d
+LAYER:                   /usr/share/vulkan/implicit_layer.d
+LAYER:                   /var/lib/snapd/desktop/vulkan/implicit_layer.d
+LAYER:                Found the following files:
+LAYER:                   /usr/share/vulkan/implicit_layer.d/nvidia_layers.json
+LAYER:                   /usr/share/vulkan/implicit_layer.d/VkLayer_MESA_device_select.json
+LAYER:             Searching for implicit layer manifest files
+LAYER:                In following locations:
+LAYER:                   /home/czh/.config/vulkan/implicit_layer.d
+LAYER:                   /etc/xdg/xdg-ubuntu/vulkan/implicit_layer.d
+LAYER:                   /etc/xdg/vulkan/implicit_layer.d
+LAYER:                   /etc/vulkan/implicit_layer.d
+LAYER:                   /home/czh/snap/code/264/.local/share/vulkan/implicit_layer.d
+LAYER:                   /home/czh/snap/code/264/vulkan/implicit_layer.d
+LAYER:                   /snap/code/264/usr/share/vulkan/implicit_layer.d
+LAYER:                   /usr/share/ubuntu/vulkan/implicit_layer.d
+LAYER:                   /usr/share/gnome/vulkan/implicit_layer.d
+LAYER:                   /usr/local/share/vulkan/implicit_layer.d
+LAYER:                   /usr/share/vulkan/implicit_layer.d
+LAYER:                   /var/lib/snapd/desktop/vulkan/implicit_layer.d
+LAYER:                Found the following files:
+LAYER:                   /usr/share/vulkan/implicit_layer.d/nvidia_layers.json
+LAYER:                   /usr/share/vulkan/implicit_layer.d/VkLayer_MESA_device_select.json
+LAYER:             Searching for explicit layer manifest files
+LAYER:                In following locations:
+LAYER:                   /tmp/easycarla-vulkan-validation/usr/share/vulkan/explicit_layer.d
+LAYER:                Found the following files:
+LAYER:                   /tmp/easycarla-vulkan-validation/usr/share/vulkan/explicit_layer.d/VkLayer_khronos_validation.json
+LAYER:             Searching for implicit layer manifest files
+LAYER:                In following locations:
+LAYER:                   /home/czh/.config/vulkan/implicit_layer.d
+LAYER:                   /etc/xdg/xdg-ubuntu/vulkan/implicit_layer.d
+LAYER:                   /etc/xdg/vulkan/implicit_layer.d
+LAYER:                   /etc/vulkan/implicit_layer.d
+LAYER:                   /home/czh/snap/code/264/.local/share/vulkan/implicit_layer.d
+LAYER:                   /home/czh/snap/code/264/vulkan/implicit_layer.d
+LAYER:                   /snap/code/264/usr/share/vulkan/implicit_layer.d
+LAYER:                   /usr/share/ubuntu/vulkan/implicit_layer.d
+LAYER:                   /usr/share/gnome/vulkan/implicit_layer.d
+LAYER:                   /usr/local/share/vulkan/implicit_layer.d
+LAYER:                   /usr/share/vulkan/implicit_layer.d
+LAYER:                   /var/lib/snapd/desktop/vulkan/implicit_layer.d
+LAYER:                Found the following files:
+LAYER:                   /usr/share/vulkan/implicit_layer.d/nvidia_layers.json
+LAYER:                   /usr/share/vulkan/implicit_layer.d/VkLayer_MESA_device_select.json
+LAYER:             Searching for implicit layer manifest files
+LAYER:                In following locations:
+LAYER:                   /home/czh/.config/vulkan/implicit_layer.d
+LAYER:                   /etc/xdg/xdg-ubuntu/vulkan/implicit_layer.d
+LAYER:                   /etc/xdg/vulkan/implicit_layer.d
+LAYER:                   /etc/vulkan/implicit_layer.d
+LAYER:                   /home/czh/snap/code/264/.local/share/vulkan/implicit_layer.d
+LAYER:                   /home/czh/snap/code/264/vulkan/implicit_layer.d
+LAYER:                   /snap/code/264/usr/share/vulkan/implicit_layer.d
+LAYER:                   /usr/share/ubuntu/vulkan/implicit_layer.d
+LAYER:                   /usr/share/gnome/vulkan/implicit_layer.d
+LAYER:                   /usr/local/share/vulkan/implicit_layer.d
+LAYER:                   /usr/share/vulkan/implicit_layer.d
+LAYER:                   /var/lib/snapd/desktop/vulkan/implicit_layer.d
+LAYER:                Found the following files:
+LAYER:                   /usr/share/vulkan/implicit_layer.d/nvidia_layers.json
+LAYER:                   /usr/share/vulkan/implicit_layer.d/VkLayer_MESA_device_select.json
+LAYER:             Searching for explicit layer manifest files
+LAYER:                In following locations:
+LAYER:                   /tmp/easycarla-vulkan-validation/usr/share/vulkan/explicit_layer.d
+LAYER:                Found the following files:
+LAYER:                   /tmp/easycarla-vulkan-validation/usr/share/vulkan/explicit_layer.d/VkLayer_khronos_validation.json
+LAYER:             Searching for implicit layer manifest files
+LAYER:                In following locations:
+LAYER:                   /home/czh/.config/vulkan/implicit_layer.d
+LAYER:                   /etc/xdg/xdg-ubuntu/vulkan/implicit_layer.d
+LAYER:                   /etc/xdg/vulkan/implicit_layer.d
+LAYER:                   /etc/vulkan/implicit_layer.d
+LAYER:                   /home/czh/snap/code/264/.local/share/vulkan/implicit_layer.d
+LAYER:                   /home/czh/snap/code/264/vulkan/implicit_layer.d
+LAYER:                   /snap/code/264/usr/share/vulkan/implicit_layer.d
+LAYER:                   /usr/share/ubuntu/vulkan/implicit_layer.d
+LAYER:                   /usr/share/gnome/vulkan/implicit_layer.d
+LAYER:                   /usr/local/share/vulkan/implicit_layer.d
+LAYER:                   /usr/share/vulkan/implicit_layer.d
+LAYER:                   /var/lib/snapd/desktop/vulkan/implicit_layer.d
+LAYER:                Found the following files:
+LAYER:                   /usr/share/vulkan/implicit_layer.d/nvidia_layers.json
+LAYER:                   /usr/share/vulkan/implicit_layer.d/VkLayer_MESA_device_select.json
+LAYER:             Searching for explicit layer manifest files
+LAYER:                In following locations:
+LAYER:                   /tmp/easycarla-vulkan-validation/usr/share/vulkan/explicit_layer.d
+LAYER:                Found the following files:
+LAYER:                   /tmp/easycarla-vulkan-validation/usr/share/vulkan/explicit_layer.d/VkLayer_khronos_validation.json
+WARNING | LAYER:   env var 'VK_INSTANCE_LAYERS' defined and adding layers "VK_LAYER_KHRONOS_validation"
+WARNING | LAYER:   env var 'VK_INSTANCE_LAYERS' defined and adding layers "VK_LAYER_KHRONOS_validation"
+DEBUG | LAYER:     Loading layer library /tmp/easycarla-vulkan-validation/usr/lib/x86_64-linux-gnu/libVkLayer_khronos_validation.so
+INFO | LAYER:      Insert instance layer "VK_LAYER_KHRONOS_validation" (/tmp/easycarla-vulkan-validation/usr/lib/x86_64-linux-gnu/libVkLayer_khronos_validation.so)
+DEBUG | LAYER:     Loading layer library libVkLayer_MESA_device_select.so
+INFO | LAYER:      Insert instance layer "VK_LAYER_MESA_device_select" (libVkLayer_MESA_device_select.so)
+LAYER:             vkCreateInstance layer callstack setup to:
+LAYER:                <Application>
+LAYER:                  ||
+LAYER:                <Loader>
+LAYER:                  ||
+LAYER:                VK_LAYER_MESA_device_select
+LAYER:                        Type: Implicit
+LAYER:                            Disable Env Var:  NODEVICE_SELECT
+LAYER:                        Manifest: /usr/share/vulkan/implicit_layer.d/VkLayer_MESA_device_select.json
+LAYER:                        Library:  libVkLayer_MESA_device_select.so
+LAYER:                  ||
+LAYER:                VK_LAYER_KHRONOS_validation
+LAYER:                        Type: Explicit
+LAYER:                        Manifest: /tmp/easycarla-vulkan-validation/usr/share/vulkan/explicit_layer.d/VkLayer_khronos_validation.json
+LAYER:                        Library:  /tmp/easycarla-vulkan-validation/usr/lib/x86_64-linux-gnu/libVkLayer_khronos_validation.so
+LAYER:                  ||
+LAYER:                <Drivers>
+INFO | LAYER:      Inserted device layer "VK_LAYER_KHRONOS_validation" (/tmp/easycarla-vulkan-validation/usr/lib/x86_64-linux-gnu/libVkLayer_khronos_validation.so)
+INFO | LAYER:      Failed to find vkGetDeviceProcAddr in layer "libVkLayer_MESA_device_select.so"
+DRIVER | LAYER:    vkCreateDevice layer callstack setup to:
+DRIVER | LAYER:       <Application>
+DRIVER | LAYER:         ||
+DRIVER | LAYER:       <Loader>
+DRIVER | LAYER:         ||
+LAYER:                VK_LAYER_KHRONOS_validation
+LAYER:                        Type: Explicit
+LAYER:                        Manifest: /tmp/easycarla-vulkan-validation/usr/share/vulkan/explicit_layer.d/VkLayer_khronos_validation.json
+LAYER:                        Library:  /tmp/easycarla-vulkan-validation/usr/lib/x86_64-linux-gnu/libVkLayer_khronos_validation.so
+LAYER:                  ||
+DRIVER | LAYER:       <Device>
+4.26.2-0+++UE4+Release-4.26 522 0
+Disabling core dumps.
+VUID-vkCreateDevice-ppEnabledExtensionNames-01387(ERROR / SPEC): msgNum: 307460652 - Validation Error: [ VUID-vkCreateDevice-ppEnabledExtensionNames-01387 ] Object 0: handle = 0x395a0020, type = VK_OBJECT_TYPE_INSTANCE; | MessageID = 0x12537a2c | vkCreateDevice(): pCreateInfo->ppEnabledExtensionNames[3] Missing extension required by the device extension VK_KHR_swapchain: VK_KHR_surface. The Vulkan spec states: All required device extensions for each extension in the VkDeviceCreateInfo::ppEnabledExtensionNames list must also be present in that list (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkCreateDevice-ppEnabledExtensionNames-01387)
+    Objects: 1
+        [0] 0x395a0020, type: 1, name: NULL
+DRIVER | LAYER:           Using "NVIDIA GeForce RTX 5060 Ti" with driver: "libGLX_nvidia.so.0"
+VUID-vkCmdWriteTimestamp-None-00830(ERROR / SPEC): msgNum: -351560955 - Validation Error: [ VUID-vkCmdWriteTimestamp-None-00830 ] Object 0: handle = 0x3972da00, type = VK_OBJECT_TYPE_COMMAND_BUFFER; Object 1: handle = 0x90000000009, type = VK_OBJECT_TYPE_QUERY_POOL; | MessageID = 0xeb0b9b05 | vkCmdWriteTimestamp():  VkQueryPool 0x90000000009[] and query 2: query not reset. After query pool creation, each query must be reset before it is used. Queries must also be reset between uses. The Vulkan spec states: All queries used by the command must be unavailable (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkCmdWriteTimestamp-None-00830)
+    Objects: 2
+        [0] 0x3972da00, type: 6, name: NULL
+        [1] 0x90000000009, type: 12, name: NULL
+VUID-VkImageCreateInfo-flags-04738(ERROR / SPEC): msgNum: -391709916 - Validation Error: [ VUID-VkImageCreateInfo-flags-04738 ] | MessageID = 0xe8a6fb24 | vkCreateImage(): pCreateInfo->pNext<VkImageFormatListCreateInfo>.viewFormatCount is 2 but flag (VkImageCreateFlags(0)) does not include VK_IMAGE_CREATE_MUTABLE_FORMAT_BIT. The Vulkan spec states: If flags does not contain VK_IMAGE_CREATE_MUTABLE_FORMAT_BIT and the pNext chain includes a VkImageFormatListCreateInfo structure, then VkImageFormatListCreateInfo::viewFormatCount must be 0 or 1 (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-VkImageCreateInfo-flags-04738)
+    Objects: 0
+VUID-VkImageCreateInfo-flags-04738(ERROR / SPEC): msgNum: -391709916 - Validation Error: [ VUID-VkImageCreateInfo-flags-04738 ] | MessageID = 0xe8a6fb24 | vkCreateImage(): pCreateInfo->pNext<VkImageFormatListCreateInfo>.viewFormatCount is 2 but flag (VkImageCreateFlags(0)) does not include VK_IMAGE_CREATE_MUTABLE_FORMAT_BIT. The Vulkan spec states: If flags does not contain VK_IMAGE_CREATE_MUTABLE_FORMAT_BIT and the pNext chain includes a VkImageFormatListCreateInfo structure, then VkImageFormatListCreateInfo::viewFormatCount must be 0 or 1 (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-VkImageCreateInfo-flags-04738)
+    Objects: 0
+VUID-VkImageCreateInfo-flags-04738(ERROR / SPEC): msgNum: -391709916 - Validation Error: [ VUID-VkImageCreateInfo-flags-04738 ] | MessageID = 0xe8a6fb24 | vkCreateImage(): pCreateInfo->pNext<VkImageFormatListCreateInfo>.viewFormatCount is 2 but flag (VkImageCreateFlags(0)) does not include VK_IMAGE_CREATE_MUTABLE_FORMAT_BIT. The Vulkan spec states: If flags does not contain VK_IMAGE_CREATE_MUTABLE_FORMAT_BIT and the pNext chain includes a VkImageFormatListCreateInfo structure, then VkImageFormatListCreateInfo::viewFormatCount must be 0 or 1 (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-VkImageCreateInfo-flags-04738)
+    Objects: 0
+VUID-vkCmdWriteTimestamp-None-00830(ERROR / SPEC): msgNum: -351560955 - Validation Error: [ VUID-vkCmdWriteTimestamp-None-00830 ] Object 0: handle = 0x397375c0, type = VK_OBJECT_TYPE_COMMAND_BUFFER; Object 1: handle = 0x90000000009, type = VK_OBJECT_TYPE_QUERY_POOL; | MessageID = 0xeb0b9b05 | vkCmdWriteTimestamp():  VkQueryPool 0x90000000009[] and query 3: query not reset. After query pool creation, each query must be reset before it is used. Queries must also be reset between uses. The Vulkan spec states: All queries used by the command must be unavailable (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkCmdWriteTimestamp-None-00830)
+    Objects: 2
+        [0] 0x397375c0, type: 6, name: NULL
+        [1] 0x90000000009, type: 12, name: NULL
+VUID-VkShaderModuleCreateInfo-pCode-08742(ERROR / SPEC): msgNum: -60244330 - Validation Error: [ VUID-VkShaderModuleCreateInfo-pCode-08742 ] | MessageID = 0xfc68be96 | vkCreateComputePipelines(): pCreateInfos[0].stage SPIR-V Extension SPV_GOOGLE_hlsl_functionality1 was declared, but one of the following requirements is required (VK_GOOGLE_hlsl_functionality1). The Vulkan spec states: If pCode is a pointer to SPIR-V code, and pCode declares any of the SPIR-V extensions listed in the SPIR-V Environment appendix, one of the corresponding requirements must be satisfied (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-VkShaderModuleCreateInfo-pCode-08742)
+    Objects: 0
+VUID-VkShaderModuleCreateInfo-pCode-08742(ERROR / SPEC): msgNum: -60244330 - Validation Error: [ VUID-VkShaderModuleCreateInfo-pCode-08742 ] | MessageID = 0xfc68be96 | vkCreateComputePipelines(): pCreateInfos[0].stage SPIR-V Extension SPV_GOOGLE_user_type was declared, but one of the following requirements is required (VK_GOOGLE_user_type). The Vulkan spec states: If pCode is a pointer to SPIR-V code, and pCode declares any of the SPIR-V extensions listed in the SPIR-V Environment appendix, one of the corresponding requirements must be satisfied (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-VkShaderModuleCreateInfo-pCode-08742)
+    Objects: 0
+VUID-VkShaderModuleCreateInfo-pCode-08742(ERROR / SPEC): msgNum: -60244330 - Validation Error: [ VUID-VkShaderModuleCreateInfo-pCode-08742 ] | MessageID = 0xfc68be96 | vkCreateComputePipelines(): pCreateInfos[0].stage SPIR-V Extension SPV_GOOGLE_hlsl_functionality1 was declared, but one of the following requirements is required (VK_GOOGLE_hlsl_functionality1). The Vulkan spec states: If pCode is a pointer to SPIR-V code, and pCode declares any of the SPIR-V extensions listed in the SPIR-V Environment appendix, one of the corresponding requirements must be satisfied (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-VkShaderModuleCreateInfo-pCode-08742)
+    Objects: 0
+Undefined-Value-ShaderOutputNotConsumed(WARN / SPEC): msgNum: -1744492148 - Validation Warning: [ Undefined-Value-ShaderOutputNotConsumed ] Object 0: handle = 0x54480000005448, type = VK_OBJECT_TYPE_SHADER_MODULE; | MessageID = 0x9805298c | vkCreateGraphicsPipelines(): pCreateInfos[0] fragment shader writes to output location 0 with no matching attachment
+    Objects: 1
+        [0] 0x54480000005448, type: 15, name: NULL
+Undefined-Value-ShaderOutputNotConsumed(WARN / SPEC): msgNum: -1744492148 - Validation Warning: [ Undefined-Value-ShaderOutputNotConsumed ] Object 0: handle = 0x54730000005473, type = VK_OBJECT_TYPE_SHADER_MODULE; | MessageID = 0x9805298c | vkCreateGraphicsPipelines(): pCreateInfos[0] fragment shader writes to output location 0 with no matching attachment
+    Objects: 1
+        [0] 0x54730000005473, type: 15, name: NULL
+Undefined-Value-ShaderOutputNotConsumed(WARN / SPEC): msgNum: -1744492148 - Validation Warning: [ Undefined-Value-ShaderOutputNotConsumed ] Object 0: handle = 0x547a000000547a, type = VK_OBJECT_TYPE_SHADER_MODULE; | MessageID = 0x9805298c | vkCreateGraphicsPipelines(): pCreateInfos[0] fragment shader writes to output location 0 with no matching attachment
+    Objects: 1
+        [0] 0x547a000000547a, type: 15, name: NULL
+Undefined-Value-ShaderInputNotProduced(WARN / SPEC): msgNum: 1203141749 - Validation Warning: [ Undefined-Value-ShaderInputNotProduced ] Object 0: handle = 0x567a000000567a, type = VK_OBJECT_TYPE_SHADER_MODULE; | MessageID = 0x47b67c75 | vkCreateGraphicsPipelines(): pCreateInfos[0] Attachment 1 not written by fragment shader; undefined values will be written to attachment
+    Objects: 1
+        [0] 0x567a000000567a, type: 15, name: NULL
+Undefined-Value-ShaderInputNotProduced(WARN / SPEC): msgNum: 1203141749 - Validation Warning: [ Undefined-Value-ShaderInputNotProduced ] Object 0: handle = 0x567a000000567a, type = VK_OBJECT_TYPE_SHADER_MODULE; | MessageID = 0x47b67c75 | vkCreateGraphicsPipelines(): pCreateInfos[0] Attachment 2 not written by fragment shader; undefined values will be written to attachment
+    Objects: 1
+        [0] 0x567a000000567a, type: 15, name: NULL
+Undefined-Value-ShaderInputNotProduced(WARN / SPEC): msgNum: 1203141749 - Validation Warning: [ Undefined-Value-ShaderInputNotProduced ] Object 0: handle = 0x567a000000567a, type = VK_OBJECT_TYPE_SHADER_MODULE; | MessageID = 0x47b67c75 | vkCreateGraphicsPipelines(): pCreateInfos[0] Attachment 3 not written by fragment shader; undefined values will be written to attachment
+    Objects: 1
+        [0] 0x567a000000567a, type: 15, name: NULL
+VUID-vkCmdWriteTimestamp-None-00830(ERROR / SPEC): msgNum: -351560955 - Validation Error: [ VUID-vkCmdWriteTimestamp-None-00830 ] Object 0: handle = 0x3972da00, type = VK_OBJECT_TYPE_COMMAND_BUFFER; Object 1: handle = 0x90000000009, type = VK_OBJECT_TYPE_QUERY_POOL; | MessageID = 0xeb0b9b05 | vkCmdWriteTimestamp():  VkQueryPool 0x90000000009[] and query 4: query not reset. After query pool creation, each query must be reset before it is used. Queries must also be reset between uses. The Vulkan spec states: All queries used by the command must be unavailable (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-vkCmdWriteTimestamp-None-00830)
+    Objects: 2
+        [0] 0x3972da00, type: 6, name: NULL
+        [1] 0x90000000009, type: 12, name: NULL
+VUID-RuntimeSpirv-OpImageWrite-07112(ERROR / SPEC): msgNum: 2144011273 - Validation Error: [ VUID-RuntimeSpirv-OpImageWrite-07112 ] Object 0: handle = 0x5c200000005c20, type = VK_OBJECT_TYPE_SHADER_MODULE; | MessageID = 0x7fcb0409 | vkCreateComputePipelines(): pCreateInfos[0].stage SPIR-V OpImageWrite Texel operand only contains 3 components, but the OpImage format mapping to VK_FORMAT_R32G32B32A32_SFLOAT has 4 components.
+OpImageWrite %266 %265 %263 0
+%8 = OpTypeImage %10 1 2 0 0 2 1
+. The Vulkan spec states: OpImageWrite to any Image whose Image Format is not Unknown must have the Texel operand contain at least as many components as the corresponding VkFormat as given in the SPIR-V Image Format compatibility table (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-RuntimeSpirv-OpImageWrite-07112)
+    Objects: 1
+        [0] 0x5c200000005c20, type: 15, name: NULL
+VUID-RuntimeSpirv-OpImageWrite-07112(ERROR / SPEC): msgNum: 2144011273 - Validation Error: [ VUID-RuntimeSpirv-OpImageWrite-07112 ] Object 0: handle = 0x5c270000005c27, type = VK_OBJECT_TYPE_SHADER_MODULE; | MessageID = 0x7fcb0409 | vkCreateComputePipelines(): pCreateInfos[0].stage SPIR-V OpImageWrite Texel operand only contains 3 components, but the OpImage format mapping to VK_FORMAT_R32G32B32A32_SFLOAT has 4 components.
+OpImageWrite %744 %743 %741 0
+%12 = OpTypeImage %15 1 2 0 0 2 1
+. The Vulkan spec states: OpImageWrite to any Image whose Image Format is not Unknown must have the Texel operand contain at least as many components as the corresponding VkFormat as given in the SPIR-V Image Format compatibility table (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-RuntimeSpirv-OpImageWrite-07112)
+    Objects: 1
+        [0] 0x5c270000005c27, type: 15, name: NULL
+VUID-RuntimeSpirv-OpImageWrite-07112(ERROR / SPEC): msgNum: 2144011273 - Validation Error: [ VUID-RuntimeSpirv-OpImageWrite-07112 ] Object 0: handle = 0x5c2e0000005c2e, type = VK_OBJECT_TYPE_SHADER_MODULE; | MessageID = 0x7fcb0409 | vkCreateComputePipelines(): pCreateInfos[0].stage SPIR-V OpImageWrite Texel operand only contains 3 components, but the OpImage format mapping to VK_FORMAT_R32G32B32A32_SFLOAT has 4 components.
+OpImageWrite %521 %520 %518 0
+%16 = OpTypeImage %22 1 2 0 0 2 1
+. The Vulkan spec states: OpImageWrite to any Image whose Image Format is not Unknown must have the Texel operand contain at least as many components as the corresponding VkFormat as given in the SPIR-V Image Format compatibility table (https://www.khronos.org/registry/vulkan/specs/1.3-extensions/html/vkspec.html#VUID-RuntimeSpirv-OpImageWrite-07112)
+    Objects: 1
+        [0] 0x5c2e0000005c2e, type: 15, name: NULL
+WARNING: Traffic sign 22181 overlaps a driving lane. Disabling collision... 
+FUnixPlatformMisc::RequestExitWithStatus
+ FUnixPlatformMisc::RequestExit
+ 

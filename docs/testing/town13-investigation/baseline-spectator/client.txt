@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/tmp/carla_map_probe.py", line 13, in <module>
+    try:w=c.get_world();break
+RuntimeError: time-out of 1000ms while waiting for the simulator, make sure the simulator is ready and connected to 127.0.0.1:2600

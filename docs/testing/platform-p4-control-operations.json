@@ -1,0 +1,27 @@
+{
+  "scope": "controlled native actuator operation; does not claim a natural scenario trigger",
+  "status": "passed",
+  "config": {
+    "host": "127.0.0.1",
+    "port": 2300,
+    "tm_port": 8300,
+    "timeout": 30.0,
+    "physics_dt": 0.05,
+    "decision_dt": 0.2,
+    "history_dt": 0.1,
+    "reload_on_reset": false,
+    "no_rendering_mode": true,
+    "map_layers": "none",
+    "tile_stream_distance": 500,
+    "actor_active_distance": 500,
+    "carla_root": "/home/czh/software/carla"
+  },
+  "impulse_speed_m_s": 0.4899999797344208,
+  "constant_velocity_initial_speed_m_s": 4.029799938201904,
+  "replacement_braking_final_speed_m_s": 0.0,
+  "old_source_commands_suppressed": 2,
+  "ticks": {
+    "initialization": 1,
+    "step": 23
+  }
+}

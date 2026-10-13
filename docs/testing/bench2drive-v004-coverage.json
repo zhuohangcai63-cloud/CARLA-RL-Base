@@ -1,0 +1,2691 @@
+{
+  "manifest": "configs/manifests/v004_eval220.json",
+  "upstream_commit": "acbeb0dd8aa99dd0e71b9b75bb542f6fe7c7f3d8",
+  "route_count": 220,
+  "executed_route_count": 2,
+  "not_run_route_count": 218,
+  "coverage_semantics": "Two route variants exercised; not certification of all routes or scene types",
+  "preparation_failures": [
+    {
+      "route_id": "24416",
+      "town": "Town03",
+      "phase": "native client.load_world before adapter.prepare",
+      "error": "UE4 Signal11; reproduced without importing easycarla",
+      "evidence": "bench2drive-server-crash.log"
+    }
+  ],
+  "routes": [
+    {
+      "route_id": "26537",
+      "town": "Town15",
+      "scenario_types": [
+        "ParkingExit"
+      ],
+      "route_fingerprint": "d3662467d476c22455a035c7ea48632ebbad84295cbbfa031f768d1493cbb5dc",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "22535",
+      "town": "Town12",
+      "scenario_types": [
+        "StaticCutIn"
+      ],
+      "route_fingerprint": "d47dbcb1d0991f796510a0d279413c8a7eaaf7d2db3ff6fe0b6d9c97221ce8b6",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "34183",
+      "town": "Town13",
+      "scenario_types": [
+        "NonSignalizedJunctionLeftTurnEnterFlow"
+      ],
+      "route_fingerprint": "1e08032aceaa61cc685dc693f2fdaabb4f575b868c84dd0d85d318e3b91bfc30",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "2667",
+      "town": "Town12",
+      "scenario_types": [
+        "ParkedObstacleTwoWays"
+      ],
+      "route_fingerprint": "e017e7e3c55eabf25690835b32cf7893368346934290e509114a4c483228cbd8",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "19832",
+      "town": "Town12",
+      "scenario_types": [
+        "ParkedObstacle"
+      ],
+      "route_fingerprint": "2fd3286be903c53d11ef9e1e94f8a24cabef84f1ccbd68363850f6efaef071ce",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "22983",
+      "town": "Town12",
+      "scenario_types": [
+        "HardBreakRoute"
+      ],
+      "route_fingerprint": "d28fa7a79bf03d7169a72b67da7bb4e727a8029a2613790502d187ecdf3576cc",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "23470",
+      "town": "Town12",
+      "scenario_types": [
+        "ControlLoss"
+      ],
+      "route_fingerprint": "ad3c22f51067e72c000e08dd6b0935cdea83f0c06b02d0e11de20f1dda6cd6c3",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "3483",
+      "town": "Town13",
+      "scenario_types": [
+        "StaticCutIn"
+      ],
+      "route_fingerprint": "44c9548ddf27f4bba49967129064bf2a99d3e63cfc9954df51e2e9c1eab6f1a3",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "26872",
+      "town": "Town11",
+      "scenario_types": [
+        "NonSignalizedJunctionLeftTurn"
+      ],
+      "route_fingerprint": "1a3a02f423b8379dd1bf4c34c305aa0e87d67673e751033eda87e70ef4f2f2db",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "21992",
+      "town": "Town12",
+      "scenario_types": [
+        "VehicleOpensDoorTwoWays"
+      ],
+      "route_fingerprint": "80e59a75d00f0e5ecc7be714262e3500d3ddf9aebbfe1f302fa9d0a111a563f3",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "26828",
+      "town": "Town15",
+      "scenario_types": [
+        "InvadingTurn"
+      ],
+      "route_fingerprint": "0c2dc6d9d7fb5bb5680e0cfca061d8a1bf714d534614241353790f10dfd4ae81",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "11658",
+      "town": "Town12",
+      "scenario_types": [
+        "EnterActorFlow"
+      ],
+      "route_fingerprint": "847b192a2de4bc42e8f3f4a82cc9a451ee69903f3ea8f91eefa17f13d0bb228a",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "37969",
+      "town": "Town13",
+      "scenario_types": [
+        "MergerIntoSlowTrafficV2"
+      ],
+      "route_fingerprint": "127dd756b157499122fda742ec93fd98c2c0bd9717a04571608c6a39dc02fcbc",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "17749",
+      "town": "Town12",
+      "scenario_types": [
+        "DynamicObjectCrossing"
+      ],
+      "route_fingerprint": "a8c334f136e4ebf4e38d3809515f9a4754d6d040eca6c7e6c0d392b547b16e3a",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "19753",
+      "town": "Town12",
+      "scenario_types": [
+        "ParkedObstacle"
+      ],
+      "route_fingerprint": "f7f68119f9472fb026814f8b0ffdf3e4574dafe55d255a16cef3318edc78b86b",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "3475",
+      "town": "Town13",
+      "scenario_types": [
+        "VehicleOpensDoorTwoWays"
+      ],
+      "route_fingerprint": "11287fc2a42b62eace641ff4e93d254d6bb4a111c77a6db08b98a4c7dd2054b1",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "18073",
+      "town": "Town12",
+      "scenario_types": [
+        "DynamicObjectCrossing"
+      ],
+      "route_fingerprint": "e0c50c30625813f3ded9816faca60e85b2bc66567c5576a694581d5849ed20bc",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "32221",
+      "town": "Town13",
+      "scenario_types": [
+        "VehicleOpensDoorTwoWays"
+      ],
+      "route_fingerprint": "6743ef15991c2faef3ce1144c7645a1dd27a2dfd1b385e0909332444afde71d8",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "29893",
+      "town": "Town13",
+      "scenario_types": [
+        "ConstructionObstacleTwoWays"
+      ],
+      "route_fingerprint": "6373c3a0734028d73a2c0f65f09299b6ec02d5953afd672bc14ca8f64292fa0f",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "25783",
+      "town": "Town04",
+      "scenario_types": [
+        "AccidentTwoWays"
+      ],
+      "route_fingerprint": "0982c52979e4fdde6e3e426c4da3db840bc8203d7554b206c24fe20a51beadab",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "21037",
+      "town": "Town12",
+      "scenario_types": [
+        "HazardAtSideLaneTwoWays"
+      ],
+      "route_fingerprint": "2c4bc2876d4d40094b5198f5be5f8f50b7c72df09df7d1e6ef5834067bd468c7",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "10364",
+      "town": "Town12",
+      "scenario_types": [
+        "VehicleTurningRoute"
+      ],
+      "route_fingerprint": "3b15b2b48758e6dfe2e041e4d0e079ef99db84b119590aa3a67286f5dc5e509b",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "16390",
+      "town": "Town12",
+      "scenario_types": [
+        "VanillaSignalizedTurnEncounterRedLight"
+      ],
+      "route_fingerprint": "835a3f62b2007e72434ac1e8f6b7010c38504e55b2515d4285559f026840a8c3",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "24416",
+      "town": "Town03",
+      "scenario_types": [
+        "ParkingCutIn"
+      ],
+      "route_fingerprint": "9bd98726a7afdefb1e11b1e1b72c9831084824d606c63d4501e09594b2f7b548",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "28387",
+      "town": "Town13",
+      "scenario_types": [
+        "HazardAtSideLane"
+      ],
+      "route_fingerprint": "a6f4191d04672de9358e75091dbec776f52b021883f24680ebc7df827e3f31e7",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "469",
+      "town": "Town15",
+      "scenario_types": [
+        "YieldToEmergencyVehicle"
+      ],
+      "route_fingerprint": "29a294dc87837e1aeb81bf00ce8b57c28ef67ad53bbe26f6891663ac89a41b63",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "24721",
+      "town": "Town01",
+      "scenario_types": [
+        "HardBreakRoute"
+      ],
+      "route_fingerprint": "8b0c2cb161cb4a789f93e63c8400566ba9a7c228628480bdfeb6b599bbb84a78",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "7616",
+      "town": "Town12",
+      "scenario_types": [
+        "NonSignalizedJunctionLeftTurn"
+      ],
+      "route_fingerprint": "6f6149bf17e211bb9f92edafeba0d3799909d40e0f924727f9fd017fd0dd84d4",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "25538",
+      "town": "Town04",
+      "scenario_types": [
+        "YieldToEmergencyVehicle"
+      ],
+      "route_fingerprint": "11403471e87f31665f79a62ebc9847a3bf5e5599126529365821b221a912b685",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "31045",
+      "town": "Town13",
+      "scenario_types": [
+        "AccidentTwoWays"
+      ],
+      "route_fingerprint": "16cabdf6e43376384ac92f40c2b522d994fc12a8762a95218f5d515df164dee4",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "2520",
+      "town": "Town12",
+      "scenario_types": [
+        "ConstructionObstacle"
+      ],
+      "route_fingerprint": "19ef0a4848a771ae1a98e042f93b8b2414cd9974cfbf201c14da65ec66812c8c",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "36792",
+      "town": "Town13",
+      "scenario_types": [
+        "MergerIntoSlowTrafficV2"
+      ],
+      "route_fingerprint": "9a96c546c7c801f60c5398f22080c2ed7f25fbad9254466f1c7c0ee1085a47ab",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "29770",
+      "town": "Town13",
+      "scenario_types": [
+        "ConstructionObstacleTwoWays"
+      ],
+      "route_fingerprint": "7e5eeefb7c53a553f9fafa434196c9301fb1f20c61230311120e27588ee18378",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "18344",
+      "town": "Town12",
+      "scenario_types": [
+        "ParkingCutIn"
+      ],
+      "route_fingerprint": "ce618e0f51a4e3db8b62891ffb9dacacc4ba2b6b02eb946cb32e2afbe6179fa1",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "2608",
+      "town": "Town12",
+      "scenario_types": [
+        "ConstructionObstacleTwoWays"
+      ],
+      "route_fingerprint": "94f3687b67899d282ff7aac5baeb0f9bdb7a14a211bc499f45b807a6368a35a4",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "11177",
+      "town": "Town12",
+      "scenario_types": [
+        "VehicleTurningRoutePedestrian"
+      ],
+      "route_fingerprint": "c649265d15d6f05877b460db9e6080d1c7779278574e7061897d4f941d73a026",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "5423",
+      "town": "Town12",
+      "scenario_types": [
+        "SignalizedJunctionRightTurn"
+      ],
+      "route_fingerprint": "1f643a48136d57262ea74aa5d3e0ea5117516fcf3b2d233582653c1f52db5b40",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "3816",
+      "town": "Town13",
+      "scenario_types": [
+        "HighwayCutIn"
+      ],
+      "route_fingerprint": "11f7b681e1403389cdbab566f43263e19045feea27ee16aa4bbe077bf3a34a78",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "24944",
+      "town": "Town02",
+      "scenario_types": [
+        "T_Junction"
+      ],
+      "route_fingerprint": "319fe8f7e805f36b3c642ade25854eea7780169b1b7f3e5e53e5cf675af40e31",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "4721",
+      "town": "Town12",
+      "scenario_types": [
+        "SignalizedJunctionLeftTurn"
+      ],
+      "route_fingerprint": "cca30a0abdced4c1fe744615a3a4bac4c677f3deaecd879c7bdb43bb1830de9a",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "25612",
+      "town": "Town05",
+      "scenario_types": [
+        "YieldToEmergencyVehicle"
+      ],
+      "route_fingerprint": "d241848d7c3c0f2b135a123b3b7cceb7edf34f27726e3e76584f988d7adf5f2d",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "13674",
+      "town": "Town12",
+      "scenario_types": [
+        "PedestrianCrossing"
+      ],
+      "route_fingerprint": "90cacd3a6c569ab0e08de3dbeaba3df5df2b26ddb1a338691ba00ef9593dab54",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "36360",
+      "town": "Town12",
+      "scenario_types": [
+        "CrossingBicycleFlow"
+      ],
+      "route_fingerprint": "d42b5e90162fe97af1fa4afcb3207b0a0c23c341bb7b39957d0e285d6a9747dc",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "2797",
+      "town": "Town12",
+      "scenario_types": [
+        "InvadingTurn"
+      ],
+      "route_fingerprint": "f1c7381a209b10fc6d561134d3a61bd69ef9c76f424ec4970acb7847e2e45911",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "17564",
+      "town": "Town12",
+      "scenario_types": [
+        "SequentialLaneChange"
+      ],
+      "route_fingerprint": "5596d1ba358d774a8665aa511aac4b5d9fdca50fdda536479efcdfcb8450290b",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "4104",
+      "town": "Town12",
+      "scenario_types": [
+        "SignalizedJunctionLeftTurn"
+      ],
+      "route_fingerprint": "ea2cf14d0b613f3422c3b304bc97afe4b2a08daf31be5225b573df2f05a44f69",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "25215",
+      "town": "Town15",
+      "scenario_types": [
+        "Accident"
+      ],
+      "route_fingerprint": "3582cfc75daca790f15b0cee08c7b2bb0c20e29d05a67a6bed3c5fc99e88ba12",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "24497",
+      "town": "Town06",
+      "scenario_types": [
+        "ConstructionObstacle"
+      ],
+      "route_fingerprint": "1b0a781a2500a818b9438a041631a006d766ee9d9f143123d7eba6835465bf53",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "27392",
+      "town": "Town11",
+      "scenario_types": [
+        "EnterActorFlow"
+      ],
+      "route_fingerprint": "42ff95861303dbb0f456af5f4d97cfab94af7df9e7598f19a899348909e90a67",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "9196",
+      "town": "Town12",
+      "scenario_types": [
+        "OppositeVehicleTakingPriority"
+      ],
+      "route_fingerprint": "d01e296a8713f03fc2ed681f25686a4714666ff3cceb6bf93aa7b94817fce7a8",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "10255",
+      "town": "Town12",
+      "scenario_types": [
+        "VehicleTurningRoute"
+      ],
+      "route_fingerprint": "d4d53923add273e8f3c1c886f147e083625620150701665abc96f19077e7e81b",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "34391",
+      "town": "Town13",
+      "scenario_types": [
+        "SignalizedJunctionLeftTurnEnterFlow"
+      ],
+      "route_fingerprint": "a0be4dc3e5e57eec02d1833c78486768c640316b381bc4a0a99b26c0f9fe8391",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "19324",
+      "town": "Town12",
+      "scenario_types": [
+        "Accident"
+      ],
+      "route_fingerprint": "8867fa5f7b59c3bb8caf122cfd3bf7613f008630ed0ac331aadb8dffabf210ef",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "29183",
+      "town": "Town13",
+      "scenario_types": [
+        "HazardAtSideLane"
+      ],
+      "route_fingerprint": "dd6c6eaef39e12906c11296d05e2de4c5d039a992852fea3e71f8731f9238fa5",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "16529",
+      "town": "Town12",
+      "scenario_types": [
+        "VanillaNonSignalizedTurn"
+      ],
+      "route_fingerprint": "dd8a1d14aec26faa2ffe600ff0a60387ccb17cbf7a37a6f43c6856906693fb38",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "22651",
+      "town": "Town12",
+      "scenario_types": [
+        "HardBreakRoute"
+      ],
+      "route_fingerprint": "5d53b2b26d52a2254beade2b30776d5fa0eeeac0384f2a4cad4d527a453cb616",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "27005",
+      "town": "Town03",
+      "scenario_types": [
+        "NonSignalizedJunctionLeftTurn"
+      ],
+      "route_fingerprint": "8fc63503df2981ebfd4c4504e8c36ffbad23e935db394d2cf579544e23eebc15",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "6999",
+      "town": "Town12",
+      "scenario_types": [
+        "NonSignalizedJunctionLeftTurn"
+      ],
+      "route_fingerprint": "6121a0a8f5142ca6f11fcd3ce747af59e9bfa5887cf7468a44b5c3020969cb0d",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "18174",
+      "town": "Town12",
+      "scenario_types": [
+        "DynamicObjectCrossing"
+      ],
+      "route_fingerprint": "c1696f96c02d6b257d7551e2b48fe84870fa1c3e02372423b76f9ef51b534446",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "17615",
+      "town": "Town12",
+      "scenario_types": [
+        "SequentialLaneChange"
+      ],
+      "route_fingerprint": "0dfdab81051249a2b8651bb4b6945e02d49fd3dfe0a339d1727532bcc3bfad66",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "23842",
+      "town": "Town12",
+      "scenario_types": [
+        "HighwayCutIn"
+      ],
+      "route_fingerprint": "be4a13fada5f6d0c5d02d69f7d2f605dee67e681115a10b16999657835ca9188",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "12791",
+      "town": "Town12",
+      "scenario_types": [
+        "BlockedIntersection"
+      ],
+      "route_fingerprint": "924821b084ce75404719c5aa01540f75d17e599d0df108ca38d36a994e0f4220",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "19186",
+      "town": "Town12",
+      "scenario_types": [
+        "Accident"
+      ],
+      "route_fingerprint": "9654465e1635925110d8db617103e1f563be70559d2c69f563cc90a234733edc",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "334",
+      "town": "Town07",
+      "scenario_types": [
+        "SignalizedJunctionLeftTurn"
+      ],
+      "route_fingerprint": "0122ca5c30a522cfa4a5c06c9e4d2b66236fe90b3479589d63d57c0b5c757f6b",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "25613",
+      "town": "Town11",
+      "scenario_types": [
+        "HazardAtSideLaneTwoWays"
+      ],
+      "route_fingerprint": "cd15dc0b310312bc6cd0abd0ab763305aa401101cb4802bfd870e00fddc61ced",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "27907",
+      "town": "Town03",
+      "scenario_types": [
+        "T_Junction"
+      ],
+      "route_fingerprint": "200b8314a5ad99d0e70df37001b6b829b702081457f1a522482a59b79d87bfa7",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "7841",
+      "town": "Town12",
+      "scenario_types": [
+        "NonSignalizedJunctionRightTurn"
+      ],
+      "route_fingerprint": "b865ab1d99ba7045fd82762b00bde9e380d5e69d5a3cce9fa36d4f5cc92429da",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "12933",
+      "town": "Town12",
+      "scenario_types": [
+        "BlockedIntersection"
+      ],
+      "route_fingerprint": "0bc0e84ebdade53d32d8c5809fe058a10f210d6eb9019ba13aa35c3e1665a440",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "33202",
+      "town": "Town13",
+      "scenario_types": [
+        "ControlLoss"
+      ],
+      "route_fingerprint": "662b763ab6f7feee2a270e11089c416e50dc417827a0cc3d2165e2ea13e31943",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "19681",
+      "town": "Town12",
+      "scenario_types": [
+        "ParkedObstacle"
+      ],
+      "route_fingerprint": "cd3110f9de46a8a343ae86e85cfe32f42e310f9a2e92f0dd6f069751e069249f",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "18868",
+      "town": "Town12",
+      "scenario_types": [
+        "ConstructionObstacle"
+      ],
+      "route_fingerprint": "29fdd5a926d2cd4abe2cef13c8230522a55e04ce0a86a125344b7cae59adbabb",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "22531",
+      "town": "Town12",
+      "scenario_types": [
+        "StaticCutIn"
+      ],
+      "route_fingerprint": "4ea129c453a564f9978249647a1aa6d9ceec627e858c4941cfe5b74081ef200e",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "16508",
+      "town": "Town12",
+      "scenario_types": [
+        "VanillaNonSignalizedTurn"
+      ],
+      "route_fingerprint": "6feaa714556f754b0bdc67668ca8f7b44347197c4f11991f3b2cf9d0ff6b66cd",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "30202",
+      "town": "Town13",
+      "scenario_types": [
+        "ConstructionObstacleTwoWays"
+      ],
+      "route_fingerprint": "0d2a95e6f5fdf9817cf8eda34032b9c2fdbed1aba53194ab081f0022de6adbc5",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "29538",
+      "town": "Town13",
+      "scenario_types": [
+        "ConstructionObstacleTwoWays"
+      ],
+      "route_fingerprint": "be0f931451edb89230606686c925ce2df0c74c8b2dfddc441caec537567b1519",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "2299",
+      "town": "Town12",
+      "scenario_types": [
+        "HighwayCutIn"
+      ],
+      "route_fingerprint": "589cfe95775cbff182bf980d1f62fe1378964e2466c30cfd2fab8e5af9fa4876",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "35243",
+      "town": "Town13",
+      "scenario_types": [
+        "SignalizedJunctionLeftTurnEnterFlow"
+      ],
+      "route_fingerprint": "8ee09283948374486d520bcb3e807706b101ad8a758b8f3ca53909908bce34d4",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "31938",
+      "town": "Town13",
+      "scenario_types": [
+        "VehicleOpensDoorTwoWays"
+      ],
+      "route_fingerprint": "8e2ba0ce9b55fe6a654a9b186e4d7391f96644a42178de1e86bf70f686cd05b9",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "3740",
+      "town": "Town13",
+      "scenario_types": [
+        "VehicleTurningRoutePedestrian"
+      ],
+      "route_fingerprint": "4c1cd004d18330c8dc9128f832b4ecfac609747dfe0d07e186fd7c20373eaeb2",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "35418",
+      "town": "Town12",
+      "scenario_types": [
+        "CrossingBicycleFlow"
+      ],
+      "route_fingerprint": "b28e6de136322a40f5d973f3b62a4ec122009760f7994d2e6317bff6c67040cf",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "31100",
+      "town": "Town13",
+      "scenario_types": [
+        "AccidentTwoWays"
+      ],
+      "route_fingerprint": "308a9d93506862725ae7602d06d67972354f5ff490c5a47d79cead2b309de0e2",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "8859",
+      "town": "Town12",
+      "scenario_types": [
+        "OppositeVehicleTakingPriority"
+      ],
+      "route_fingerprint": "0da5cf5de089df70193972ba02c95499bdfe7981a26451d0b217c44ecfbbe9fd",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "15102",
+      "town": "Town12",
+      "scenario_types": [
+        "VanillaSignalizedTurnEncounterGreenLight"
+      ],
+      "route_fingerprint": "1f18a426af0dcc6abe45cb5c895767972198342195778f63ab5c9f19f2773bbb",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "2787",
+      "town": "Town12",
+      "scenario_types": [
+        "InvadingTurn"
+      ],
+      "route_fingerprint": "250ad91160d4eb61d8aaaa906b0373d6eced24c89132ce55704098f37177c95c",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "35330",
+      "town": "Town13",
+      "scenario_types": [
+        "SignalizedJunctionLeftTurnEnterFlow"
+      ],
+      "route_fingerprint": "8514ef890f36a52a956238f00cfc92f753a340d4d903cdea2bdedc6666114657",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "11333",
+      "town": "Town12",
+      "scenario_types": [
+        "VehicleTurningRoutePedestrian"
+      ],
+      "route_fingerprint": "c46be8cb8aa11b4f8888e228013c35598b710c2574b1e7f8f05fcb7f59cd46ef",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "30939",
+      "town": "Town13",
+      "scenario_types": [
+        "AccidentTwoWays"
+      ],
+      "route_fingerprint": "191578937d88c7e1361cbeb08efd6724524d4d710df757a476dafd6e20ab1ed4",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "16486",
+      "town": "Town12",
+      "scenario_types": [
+        "VanillaNonSignalizedTurn"
+      ],
+      "route_fingerprint": "8c3f99a1f77a83eefd4a7109106bed07bc4d37e091cb887c0b1ccc55cc031892",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "32517",
+      "town": "Town13",
+      "scenario_types": [
+        "ControlLoss"
+      ],
+      "route_fingerprint": "e02932fb445cf96aa83c73b13c59d6f7a3a88f2a6cb9db95970857cd0089d69b",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "7157",
+      "town": "Town12",
+      "scenario_types": [
+        "NonSignalizedJunctionLeftTurn"
+      ],
+      "route_fingerprint": "f603037696efad6f02af10de0e90c2e3c512f160ad2ebf7df6c33914a124c319",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "15612",
+      "town": "Town12",
+      "scenario_types": [
+        "VanillaSignalizedTurnEncounterRedLight"
+      ],
+      "route_fingerprint": "371f75a793ea0cfb8fd44f027183c034778ff8336ec252263aa2493c9e8b816d",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "25051",
+      "town": "Town01",
+      "scenario_types": [
+        "T_Junction"
+      ],
+      "route_fingerprint": "75400cdd5894b89b5846ead1717a43407e94748d51eab59c489da5cc3c5b1ee0",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "18512",
+      "town": "Town12",
+      "scenario_types": [
+        "ConstructionObstacle"
+      ],
+      "route_fingerprint": "a803475fd55082334b446add2d35d3c29daab33c7e024652d2202cf6ccb40cc7",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "26023",
+      "town": "Town06",
+      "scenario_types": [
+        "MergerIntoSlowTraffic"
+      ],
+      "route_fingerprint": "cbf815aef3ca153943a129128f9db7da10eb5d4c41b61f7dc3e2a437b4ddb853",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "13231",
+      "town": "Town12",
+      "scenario_types": [
+        "BlockedIntersection"
+      ],
+      "route_fingerprint": "5d7d8726fef3809dae493beb00eb9b75b24cd562ac58493447fb919dfd7039d5",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "27870",
+      "town": "Town04",
+      "scenario_types": [
+        "VanillaNonSignalizedTurn"
+      ],
+      "route_fingerprint": "bc30a021a9b32a5c950b9a2c34ab229b010582f5480f7dc7983270391f46893e",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "24207",
+      "town": "Town06",
+      "scenario_types": [
+        "SequentialLaneChange"
+      ],
+      "route_fingerprint": "7b717f0fe44f6bb3c4605b872a24aecca02a33ba736d5942fdbcb4137d1774d3",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "28180",
+      "town": "Town11",
+      "scenario_types": [
+        "T_Junction"
+      ],
+      "route_fingerprint": "e8dfa1d9b12fbad0da5113442cfd95bc10dc9a0aca85fbd1af3f510d682430bb",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "19359",
+      "town": "Town12",
+      "scenario_types": [
+        "Accident"
+      ],
+      "route_fingerprint": "992a004e7e0115662e40616b57fb50093b9fddd1f2cb175ddde738cadeaaa91e",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "26723",
+      "town": "Town15",
+      "scenario_types": [
+        "ControlLoss"
+      ],
+      "route_fingerprint": "992c61c37ff0af251ee724436b4539a14ea7b135a766ce184f68e1c2605aa76d",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "22590",
+      "town": "Town12",
+      "scenario_types": [
+        "ParkingExit"
+      ],
+      "route_fingerprint": "187ee62862487a504fd59615429959b94976e3ba5afe1dacda5a39048f077656",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "21188",
+      "town": "Town12",
+      "scenario_types": [
+        "HazardAtSideLaneTwoWays"
+      ],
+      "route_fingerprint": "c59ec75d2bccdab338a116c316d1cc19efd182183e4720f6db59a968a96ad30d",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "2724",
+      "town": "Town12",
+      "scenario_types": [
+        "ParkingExit"
+      ],
+      "route_fingerprint": "9229107781ccfc132bf6a4829dbc3929fb072a73fad9ec28d8e9a038f2795957",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "25169",
+      "town": "Town05",
+      "scenario_types": [
+        "Accident"
+      ],
+      "route_fingerprint": "365e65a28b900d8210132b5a13a2b75ccbafdfb9a2a1aede940fdea3013eb222",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "9646",
+      "town": "Town12",
+      "scenario_types": [
+        "VehicleTurningRoute"
+      ],
+      "route_fingerprint": "76dcbf5952f00e986a1cfbe8bbc554235cd8a27887e4dd0b0b01cc5b712159d4",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "4183",
+      "town": "Town12",
+      "scenario_types": [
+        "SignalizedJunctionLeftTurn"
+      ],
+      "route_fingerprint": "0cc73b2f5ce3de1d8b1f37a081e85544a8e3459f4bf09d7180a24a8c1c4a7204",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "22606",
+      "town": "Town12",
+      "scenario_types": [
+        "ParkingExit"
+      ],
+      "route_fingerprint": "2936dc2f99d47cab54f0e3a1bfb822ebaea7f17e14e220a89a046f9191680bd9",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "24519",
+      "town": "Town05",
+      "scenario_types": [
+        "ParkingCrossingPedestrian"
+      ],
+      "route_fingerprint": "44871173a337647af4f92ee92ea1b03ae1fa2fcff879169d06ba9819c116c35d",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "25753",
+      "town": "Town11",
+      "scenario_types": [
+        "ParkedObstacleTwoWays"
+      ],
+      "route_fingerprint": "635befbcc18e2947538daa53367a3fb6dd67771c455e7648bf93c3de04fda2b5",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "6673",
+      "town": "Town12",
+      "scenario_types": [
+        "OppositeVehicleRunningRedLight"
+      ],
+      "route_fingerprint": "a50f1a57f436248630ab3adfdf03c2898792952c7269e44194f1431163eecf8c",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "23697",
+      "town": "Town12",
+      "scenario_types": [
+        "HighwayCutIn"
+      ],
+      "route_fingerprint": "0b72ca99801d88c83b19727d24a974384906fe3cc836261eda48f0b4681ff92b",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "27043",
+      "town": "Town15",
+      "scenario_types": [
+        "SignalizedJunctionRightTurn"
+      ],
+      "route_fingerprint": "4913d084ba9d3c354fe9880d39f24452c4c783e2b8e1ce4b803a27db265a009c",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "29073",
+      "town": "Town13",
+      "scenario_types": [
+        "HazardAtSideLane"
+      ],
+      "route_fingerprint": "fd989e648b614d9334bf766f0c769725321f4068044aee41f7f7ce590f384497",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "17921",
+      "town": "Town12",
+      "scenario_types": [
+        "DynamicObjectCrossing"
+      ],
+      "route_fingerprint": "501220107e5d28d8f0ea592d85fc5c692077b7ae2af9a91755410424f79ec0c0",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "17892",
+      "town": "Town12",
+      "scenario_types": [
+        "DynamicObjectCrossing"
+      ],
+      "route_fingerprint": "874d1cd1f818b23258f255d36ff482203314ffe9452d44b262a659e6553ee957",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "21546",
+      "town": "Town12",
+      "scenario_types": [
+        "ParkedObstacleTwoWays"
+      ],
+      "route_fingerprint": "8c7cd7e9efbc4ca9946fa56aa859ed823f29c42c269c407b085126119f60b6f8",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "18777",
+      "town": "Town12",
+      "scenario_types": [
+        "ConstructionObstacle"
+      ],
+      "route_fingerprint": "41a1fd215ed3a7e0657bd677b8b7fbc68731e69758be94ea790e0e9fb8011e5a",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "14955",
+      "town": "Town12",
+      "scenario_types": [
+        "VanillaSignalizedTurnEncounterGreenLight"
+      ],
+      "route_fingerprint": "a35b73617db39cbddb4f9a99aef4db03954b310be393fe1ee7a49263eca842a0",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "23299",
+      "town": "Town12",
+      "scenario_types": [
+        "ControlLoss"
+      ],
+      "route_fingerprint": "ce2758caad0c13847ff96a97b141c7483059fbf6035be668e8646aa5202f2e91",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "11215",
+      "town": "Town12",
+      "scenario_types": [
+        "VehicleTurningRoutePedestrian"
+      ],
+      "route_fingerprint": "78a38a38eb1f21e834bad36fb24da5ab37627e166cad986e6df71a5476ca4127",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "24151",
+      "town": "Town13",
+      "scenario_types": [
+        "MergerIntoSlowTraffic"
+      ],
+      "route_fingerprint": "99d580aa26d5708da65e056834908d1ebdd0b8b3ab5a0fecb5a0fccaa604d43f",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "24162",
+      "town": "Town12",
+      "scenario_types": [
+        "MergerIntoSlowTrafficV2"
+      ],
+      "route_fingerprint": "56a61072445cd798c3602f8c2d595d08a17307c9cfe36cdad150d880eedd8049",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "34436",
+      "town": "Town13",
+      "scenario_types": [
+        "SignalizedJunctionLeftTurnEnterFlow"
+      ],
+      "route_fingerprint": "2f523ed2e024aad868cfffac41be1cc9e457744cc3540660fa3bae6de8e1da8c",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "9102",
+      "town": "Town12",
+      "scenario_types": [
+        "OppositeVehicleTakingPriority"
+      ],
+      "route_fingerprint": "78aeb0a73a1a3596ca589897d6b0e0f2a4c65a42436feaaaf812cdae9479bebc",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "19486",
+      "town": "Town12",
+      "scenario_types": [
+        "ParkedObstacle"
+      ],
+      "route_fingerprint": "dc020e92b32ce040975e59d46b10df0b1578265586fa6993432bb4ce32382d6a",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "24679",
+      "town": "Town05",
+      "scenario_types": [
+        "ParkingCutIn"
+      ],
+      "route_fingerprint": "4a11949bfb195b945723fa9a774270b14f1dc17ea1a3493fc6487628d4f9ae3c",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "28147",
+      "town": "Town10HD",
+      "scenario_types": [
+        "SignalizedJunctionLeftTurnEnterFlow"
+      ],
+      "route_fingerprint": "4a4e3512908f61835f6a057eb83ce400c7e8ebdf38be7a47db1e6bdb6ef16348",
+      "execution": "passed_on_explicit_map_variant",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": [
+        "bench2drive-real.json",
+        "bench2drive-service-real.json"
+      ],
+      "loaded_town": "Town10HD_Opt",
+      "native_route_success": true,
+      "activated_scenarios": [
+        "SignalizedJunctionLeftTurnEnterFlow_1"
+      ],
+      "completed_scenarios": [],
+      "physical_ticks": 405,
+      "service_decision_steps": 188,
+      "official_scores": {
+        "score_route": 100,
+        "score_penalty": 0.6,
+        "score_composed": 60.0
+      }
+    },
+    {
+      "route_id": "15071",
+      "town": "Town12",
+      "scenario_types": [
+        "VanillaSignalizedTurnEncounterGreenLight"
+      ],
+      "route_fingerprint": "c09d8bbb4c7be629da31b96c1c7ea9ea3a1e85609e3835105d6fc7f010f42043",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "24948",
+      "town": "Town07",
+      "scenario_types": [
+        "SignalizedJunctionRightTurn"
+      ],
+      "route_fingerprint": "cb88252d7fa320cd038bdfdd434d4d9f9f0e3c14c630cbf5f575c30f04db509b",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "3502",
+      "town": "Town13",
+      "scenario_types": [
+        "StaticCutIn"
+      ],
+      "route_fingerprint": "c65fd30c87c0b0a777656321bf3933471c51c42096f7ca764d0b9dabada918a5",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "17280",
+      "town": "Town12",
+      "scenario_types": [
+        "VanillaNonSignalizedTurnEncounterStopsign"
+      ],
+      "route_fingerprint": "cf4996c4752fe5d44bd38157388aa43e68cc3e2ed05350afb14590ea119b3c2a",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "22331",
+      "town": "Town12",
+      "scenario_types": [
+        "StaticCutIn"
+      ],
+      "route_fingerprint": "329468a5a5cac67dbaacc77e4de1588afc52653f750e0f8af106ab4bfb243322",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "14382",
+      "town": "Town12",
+      "scenario_types": [
+        "PedestrianCrossing"
+      ],
+      "route_fingerprint": "72b95fccce2d9dc03f4f5fb11d5d17a1f9d207dab3d80fd784f06914c50e63f9",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "21009",
+      "town": "Town12",
+      "scenario_types": [
+        "HazardAtSideLaneTwoWays"
+      ],
+      "route_fingerprint": "6eed772376e04f8f4eda99a6e0494e4f0ba8dd70e66e53112ec0b14540aba6ae",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "30691",
+      "town": "Town13",
+      "scenario_types": [
+        "AccidentTwoWays"
+      ],
+      "route_fingerprint": "8213a91d233c12333e12d5ed15238fb000db59e3b13e006899475947a8839fde",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "4",
+      "town": "Town12",
+      "scenario_types": [
+        "InterurbanActorFlow"
+      ],
+      "route_fingerprint": "257b604dd366e7867f0aa8a9c3f182fc5465a99f4bef8132706e85e662223474",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "12",
+      "town": "Town12",
+      "scenario_types": [
+        "InterurbanActorFlow"
+      ],
+      "route_fingerprint": "7bb6a90585447b0c4fc17d287786f88ded6f6731ba304b41075eb8d5b7c3cd9f",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "24",
+      "town": "Town12",
+      "scenario_types": [
+        "InterurbanActorFlow"
+      ],
+      "route_fingerprint": "363fbdbd6e45875a90a6a105ea8096ad0e8a247f11ddc5864d9221886ac8d0b1",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "28",
+      "town": "Town12",
+      "scenario_types": [
+        "InterurbanActorFlow"
+      ],
+      "route_fingerprint": "78ce2dd5d6c31eacff515be5d6cc6be2fc92bf0cb9778e99d8b68c50abbb544e",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "2614",
+      "town": "Town12",
+      "scenario_types": [
+        "ConstructionObstacleTwoWays"
+      ],
+      "route_fingerprint": "5182cce2e087fe55e1e0a727c438b9434f6cf4bdc2fdc048152a4888c24c067c",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "10791",
+      "town": "Town12",
+      "scenario_types": [
+        "VehicleTurningRoutePedestrian"
+      ],
+      "route_fingerprint": "62cc3aaf4349533a160a23a26aacc42723a73cf3ab11488cf938bdfb539e842b",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "22622",
+      "town": "Town12",
+      "scenario_types": [
+        "ParkingExit"
+      ],
+      "route_fingerprint": "22f4b6af3d7f78607664e35acb3a706d967c32dad8d54aa2dafc2380bc99c31f",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "4734",
+      "town": "Town12",
+      "scenario_types": [
+        "SignalizedJunctionLeftTurn"
+      ],
+      "route_fingerprint": "efb9b30dccbc1f142e16e672e1a6ba6738cbecc9643e942938944e271df33cdc",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "30596",
+      "town": "Town13",
+      "scenario_types": [
+        "AccidentTwoWays"
+      ],
+      "route_fingerprint": "b9193a930f7b88a321257fe2be2dbb40bf12f92de51d9622e3019075fc4b66e6",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "18647",
+      "town": "Town12",
+      "scenario_types": [
+        "ConstructionObstacle"
+      ],
+      "route_fingerprint": "6ef3896fb03fead469f5bcadcc36b32ac0a6cf2b45cbb3ef28441fa9c483c173",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "16502",
+      "town": "Town12",
+      "scenario_types": [
+        "VanillaNonSignalizedTurn"
+      ],
+      "route_fingerprint": "3a71dc9cb8524ba7c8f0f0d9a448545f98f0f32e686a87d95ebdfc4325cea12c",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "9218",
+      "town": "Town12",
+      "scenario_types": [
+        "OppositeVehicleTakingPriority"
+      ],
+      "route_fingerprint": "05ccaa24e67fbca0913a39e718f367eeb3cc6d955a742bfbcbb34a63f5dd7041",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "10552",
+      "town": "Town12",
+      "scenario_types": [
+        "VehicleTurningRoutePedestrian"
+      ],
+      "route_fingerprint": "e3038ba2cbb957d0ae6650f4713891faab868e3033f53a5ffb987d0c36d3bfe5",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "30313",
+      "town": "Town13",
+      "scenario_types": [
+        "ConstructionObstacleTwoWays"
+      ],
+      "route_fingerprint": "896f096ec5a5b9c0d5ce14f2ececf66c9ae0ca7eaa18c99564c99cc04808d63a",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "34867",
+      "town": "Town13",
+      "scenario_types": [
+        "SignalizedJunctionLeftTurnEnterFlow"
+      ],
+      "route_fingerprint": "0380ad052877d29a465d8e0d760af17c27dcf83e2136c0c1866df39ca1b2e891",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "37223",
+      "town": "Town13",
+      "scenario_types": [
+        "MergerIntoSlowTrafficV2"
+      ],
+      "route_fingerprint": "1d78e9d73ef2315c8d84f0c8c1c845f07ace5343c37ae8bc62c4de87d211ffc6",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "21994",
+      "town": "Town12",
+      "scenario_types": [
+        "VehicleOpensDoorTwoWays"
+      ],
+      "route_fingerprint": "cfc8743eb99be5e6fcbd95f6bfc45ddfa591cd66a3ea5c56184cc7153f9ca7bf",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "29629",
+      "town": "Town13",
+      "scenario_types": [
+        "ConstructionObstacleTwoWays"
+      ],
+      "route_fingerprint": "017d3c7655a22d3312008793ff1e26246f1ad80a390fcf0fc73b1893ff4e5654",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "18551",
+      "town": "Town12",
+      "scenario_types": [
+        "ConstructionObstacle"
+      ],
+      "route_fingerprint": "0d2f4656577cbb778c5ab2bd23978b4af4bbdd8027798ca179eba83969ea5edf",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "18543",
+      "town": "Town12",
+      "scenario_types": [
+        "ConstructionObstacle"
+      ],
+      "route_fingerprint": "a3889e305280a70fe7b4dc9440121e7e197f69d21cb56dab83b7ceb9bfd0eeed",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "6951",
+      "town": "Town12",
+      "scenario_types": [
+        "NonSignalizedJunctionLeftTurn"
+      ],
+      "route_fingerprint": "6cb1eabfc6a31f3008aaa692d3d7daa5eecbd80eafefac079ff3d41fe957904b",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "21496",
+      "town": "Town12",
+      "scenario_types": [
+        "ParkedObstacleTwoWays"
+      ],
+      "route_fingerprint": "02531fc079ccccb11d89bd61c0b2d9ffd3ba3a3add2a9eb07f48d4bf06d8ed5d",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "26365",
+      "town": "Town03",
+      "scenario_types": [
+        "ParkingExit"
+      ],
+      "route_fingerprint": "40373a631a4cb491ab9e3fdac2bd9e2c6dfeec7b715eab3ce4e4744c9b414b70",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "17965",
+      "town": "Town12",
+      "scenario_types": [
+        "DynamicObjectCrossing"
+      ],
+      "route_fingerprint": "4ab4d0b18ab136768fc84f3b4b71b7c0b3e5137f99279b01367bb8f60e7be886",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "27916",
+      "town": "Town05",
+      "scenario_types": [
+        "VanillaNonSignalizedTurn"
+      ],
+      "route_fingerprint": "edb3ba06eba65396a5d2544c62eb4493b2faeef89df5b85cf77faa308411b2ed",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "24099",
+      "town": "Town13",
+      "scenario_types": [
+        "MergerIntoSlowTrafficV2"
+      ],
+      "route_fingerprint": "4e3698be5291fd8c282aad4d4360f5a04ba4e6937a48dd49729852482ad55884",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "18160",
+      "town": "Town12",
+      "scenario_types": [
+        "DynamicObjectCrossing"
+      ],
+      "route_fingerprint": "59e3f33c616a9f3e68c2da940eab413df58de136cb8da0d90dd73d12e1e44f6d",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "16522",
+      "town": "Town12",
+      "scenario_types": [
+        "VanillaNonSignalizedTurn"
+      ],
+      "route_fingerprint": "2f8f04497e1708425bb41fb49015d0643355eb82fa0f0f0b1aaafc03954e56c9",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "30283",
+      "town": "Town13",
+      "scenario_types": [
+        "ConstructionObstacleTwoWays"
+      ],
+      "route_fingerprint": "40ac0b767fd525a000b5084de42c6c3db08c4c45a4a87e7af24f97a588207e16",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "18907",
+      "town": "Town12",
+      "scenario_types": [
+        "Accident"
+      ],
+      "route_fingerprint": "ce1d5989de785d5643a6b0e0e099b4607be2fb7fdd5d28262ab4096f0a01291d",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "27823",
+      "town": "Town15",
+      "scenario_types": [
+        "T_Junction"
+      ],
+      "route_fingerprint": "c0ed44a81cbaa52aaf7cc8fcb76c7e833194bd0ad6d9b5ad9ed78efb932eddac",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "18857",
+      "town": "Town12",
+      "scenario_types": [
+        "ConstructionObstacle"
+      ],
+      "route_fingerprint": "50b12761a992b354c8862e89787dbfc4cdf434eb925c6e288755e2395abd846f",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "21411",
+      "town": "Town12",
+      "scenario_types": [
+        "HazardAtSideLaneTwoWays"
+      ],
+      "route_fingerprint": "5082bf35c1d6a3d4bd2ae7a8a282c3a41210b47677715a067c83b00688b83574",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "25134",
+      "town": "Town10HD",
+      "scenario_types": [
+        "T_Junction"
+      ],
+      "route_fingerprint": "9040e5b15ff98f4d86ee45e30f8a614b13fae40c9bf081144d5a391aa0e4c799",
+      "execution": "passed_on_explicit_map_variant",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": [
+        "bench2drive-real.json",
+        "bench2drive-service-real.json"
+      ],
+      "loaded_town": "Town10HD_Opt",
+      "native_route_success": false,
+      "activated_scenarios": [
+        "T_Junction_1"
+      ],
+      "completed_scenarios": [],
+      "physical_ticks": 1000,
+      "service_decision_steps": 10,
+      "official_scores": {
+        "score_route": 0.0,
+        "score_penalty": 1.0,
+        "score_composed": 0.0
+      }
+    },
+    {
+      "route_id": "23199",
+      "town": "Town12",
+      "scenario_types": [
+        "ControlLoss"
+      ],
+      "route_fingerprint": "214c7378c5844824c9318d89627055aa657e98e307ba4d078800c979e80a63bf",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "21102",
+      "town": "Town12",
+      "scenario_types": [
+        "HazardAtSideLaneTwoWays"
+      ],
+      "route_fingerprint": "65c30d6db7bb97e0f8522d65c81368ddde3cffcc00a23883b2e642d38699f6a9",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "18490",
+      "town": "Town12",
+      "scenario_types": [
+        "ConstructionObstacle"
+      ],
+      "route_fingerprint": "5d53b2b26d52a2254beade2b30776d5fa0eeeac0384f2a4cad4d527a453cb616",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "7165",
+      "town": "Town12",
+      "scenario_types": [
+        "NonSignalizedJunctionLeftTurn"
+      ],
+      "route_fingerprint": "15f4ab97fa9a38a77367aa5155ada8bbea3c60631b84441d8c00f30ea2e82f2c",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "29856",
+      "town": "Town13",
+      "scenario_types": [
+        "ConstructionObstacleTwoWays"
+      ],
+      "route_fingerprint": "47a1902eeb8ef52147f03231c3780ea2bf17f079366d6fc6f92b0d5a1d4b0bbe",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "24622",
+      "town": "Town11",
+      "scenario_types": [
+        "ConstructionObstacle"
+      ],
+      "route_fingerprint": "2670e3a11c9f7f88b4bd0f9c17754f8648e2e72752e168f03be08ee6d795c0ca",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "26990",
+      "town": "Town03",
+      "scenario_types": [
+        "NonSignalizedJunctionLeftTurn"
+      ],
+      "route_fingerprint": "8fc63503df2981ebfd4c4504e8c36ffbad23e935db394d2cf579544e23eebc15",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "4027",
+      "town": "Town12",
+      "scenario_types": [
+        "SignalizedJunctionLeftTurn"
+      ],
+      "route_fingerprint": "5bfc95453e3051db77bfc715add32a0961e351b96cb5fe66e75a40bd842a79ea",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "15483",
+      "town": "Town12",
+      "scenario_types": [
+        "VanillaSignalizedTurnEncounterRedLight"
+      ],
+      "route_fingerprint": "dcf688c4be48333bf153fb69c5589248f9a2666c64bef8f0824c2ee91723b3e4",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "22584",
+      "town": "Town12",
+      "scenario_types": [
+        "ParkingExit"
+      ],
+      "route_fingerprint": "729f2b83586e5be2961f87b4cbf14d0e5b1605bce70367a3072f169e86df5410",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "23469",
+      "town": "Town12",
+      "scenario_types": [
+        "ControlLoss"
+      ],
+      "route_fingerprint": "cede506c35723b16a887f566b82d7a7e1ed7a67aff8d436e394221deac17ee1c",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "37447",
+      "town": "Town12",
+      "scenario_types": [
+        "MergerIntoSlowTrafficV2"
+      ],
+      "route_fingerprint": "bcf5787e3d16b34231b2830cbc05966eb05d006f5b0035029b36f39ff4deede7",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "21503",
+      "town": "Town12",
+      "scenario_types": [
+        "ParkedObstacleTwoWays"
+      ],
+      "route_fingerprint": "c2a68a91c9c1e75ec6f77dd9c7c08493db5f4cc24ca158f56f09336a6ebf38c8",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "24758",
+      "town": "Town07",
+      "scenario_types": [
+        "ControlLoss"
+      ],
+      "route_fingerprint": "3120196c5975a079557dc1f15cfd8ac4d92881c2a51707ad12c3dee991888919",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "25774",
+      "town": "Town11",
+      "scenario_types": [
+        "ParkedObstacleTwoWays"
+      ],
+      "route_fingerprint": "e36d6bde47f8278dd1ac88034c7c8f60a33e1ebe4eaebafb8b3c4f14058fa971",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "4582",
+      "town": "Town12",
+      "scenario_types": [
+        "SignalizedJunctionLeftTurn"
+      ],
+      "route_fingerprint": "5d17ae8d5dcd92e8c988ad838ed9d041194eb2f14e24c4490ce668e563c669a8",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "20999",
+      "town": "Town12",
+      "scenario_types": [
+        "HazardAtSideLaneTwoWays"
+      ],
+      "route_fingerprint": "b46fbbe51ed57aa9ce8bc36e51a1295211248ccfb81c7dcadbc2e87499a3b686",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "30008",
+      "town": "Town13",
+      "scenario_types": [
+        "ConstructionObstacleTwoWays"
+      ],
+      "route_fingerprint": "34e3a1a624deddc2202086a74a11e64e5df29c7431538f8abba0b14ff15ef7da",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "18027",
+      "town": "Town12",
+      "scenario_types": [
+        "DynamicObjectCrossing"
+      ],
+      "route_fingerprint": "62cbbac943ac8a6fc4593cc48f750e54b790e3c8fef8e0923713964a18293bf7",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "7230",
+      "town": "Town12",
+      "scenario_types": [
+        "NonSignalizedJunctionLeftTurn"
+      ],
+      "route_fingerprint": "8e497dcd85c1a99b116e50bcba114be09efc905a4dfd5ac6672768b1bd7c57dc",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "35907",
+      "town": "Town12",
+      "scenario_types": [
+        "CrossingBicycleFlow"
+      ],
+      "route_fingerprint": "2bd63db330449e23b1dfb2cb700939a30cbb7717d0b331549d0be9aefaa78529",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "7456",
+      "town": "Town12",
+      "scenario_types": [
+        "NonSignalizedJunctionLeftTurn"
+      ],
+      "route_fingerprint": "5d7fff4eb34bc7874b1a1bd6a003292fc3d8965d8f5e08f202011e5846e8a3c6",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "37391",
+      "town": "Town13",
+      "scenario_types": [
+        "MergerIntoSlowTrafficV2"
+      ],
+      "route_fingerprint": "2c7081f2b7a037928314a06f23598f37f941288e509ddfb256bd0fe2eb632cc0",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "2460",
+      "town": "Town12",
+      "scenario_types": [
+        "DynamicObjectCrossing"
+      ],
+      "route_fingerprint": "1e1722a1ad4d0faef98ec69333b46aaa9158d46efd782792c08e662ad72d56d0",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "31736",
+      "town": "Town13",
+      "scenario_types": [
+        "VehicleOpensDoorTwoWays"
+      ],
+      "route_fingerprint": "8f05c999d80cdc3e4fd6fb770bd2249c8ed7b60b3b0db72194b4fa6462b46567",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "27787",
+      "town": "Town11",
+      "scenario_types": [
+        "VanillaSignalizedTurnEncounterRedLight"
+      ],
+      "route_fingerprint": "2700adb18ad6f1d2da95a98e98399b2d0904b83aa9f5acea401680ff833c8e3c",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "26370",
+      "town": "Town15",
+      "scenario_types": [
+        "VehicleOpensDoorTwoWays"
+      ],
+      "route_fingerprint": "9457957211179a9b6285371877d8e081618563abab4b3a29783a2b26bfb7a4fb",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "10089",
+      "town": "Town12",
+      "scenario_types": [
+        "VehicleTurningRoute"
+      ],
+      "route_fingerprint": "13686620c0efdb3785b4f2d09cf46325a22c303e10a62f5ebee9a23b0b3f4d17",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "25727",
+      "town": "Town04",
+      "scenario_types": [
+        "AccidentTwoWays"
+      ],
+      "route_fingerprint": "2759cea866977eabf352d653a87cf931a089f16aab6f3a2676471d2fbf46e394",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "19207",
+      "town": "Town12",
+      "scenario_types": [
+        "Accident"
+      ],
+      "route_fingerprint": "c6dd7a47dccbc4f39cce4ed7bd154bb7b57b8a97248bcfcac37a7de184d8eac7",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "9395",
+      "town": "Town12",
+      "scenario_types": [
+        "OppositeVehicleTakingPriority"
+      ],
+      "route_fingerprint": "4e05b092c91dc353d0962518850ff510a637267342b86e64e91814542dcb3855",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "26153",
+      "town": "Town15",
+      "scenario_types": [
+        "ParkedObstacleTwoWays"
+      ],
+      "route_fingerprint": "93df566728c88067d042fd865287c377525d7d0648e7b32a0e7a174058cb1836",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "27994",
+      "town": "Town11",
+      "scenario_types": [
+        "T_Junction"
+      ],
+      "route_fingerprint": "fa7bcb22e2b09337013acbb645ee5029b2689995ffc529d273adef940c8b9761",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "27297",
+      "town": "Town11",
+      "scenario_types": [
+        "VehicleTurningRoutePedestrian"
+      ],
+      "route_fingerprint": "8633adcb0624b7a39d679a1e805b2bd832b3ee8a2b0f956be4cb9c08273b203c",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "11738",
+      "town": "Town12",
+      "scenario_types": [
+        "EnterActorFlow"
+      ],
+      "route_fingerprint": "dc293a8409b1093701fb6678fb01a7a31fe0aa97f055f259faa54b7337838503",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "31654",
+      "town": "Town13",
+      "scenario_types": [
+        "VehicleOpensDoorTwoWays"
+      ],
+      "route_fingerprint": "66e1c1f3ab87477938b4ded1e4865cd3503d419eca6cd4b8dd49780142183c8a",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "16542",
+      "town": "Town12",
+      "scenario_types": [
+        "VanillaNonSignalizedTurn"
+      ],
+      "route_fingerprint": "9a6008d102931a450b4b8baf40b105ac69f8c0875b92d04bdee23466b69bf050",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "24906",
+      "town": "Town03",
+      "scenario_types": [
+        "Accident"
+      ],
+      "route_fingerprint": "75f105b71f15712cc1183fc564cec328f645af71bdb39e17bba21da926983c81",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "35623",
+      "town": "Town12",
+      "scenario_types": [
+        "CrossingBicycleFlow"
+      ],
+      "route_fingerprint": "bc1e3d71646b1f6f17b8e3d0283523e5f51265d8acb09b7fd4ea2c6c229afc4b",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "4621",
+      "town": "Town12",
+      "scenario_types": [
+        "SignalizedJunctionLeftTurn"
+      ],
+      "route_fingerprint": "06e5e82c78ac56039b1045340f633d61b6b2355b23db3b9723b9b3d40faa0ba6",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "10793",
+      "town": "Town12",
+      "scenario_types": [
+        "VehicleTurningRoutePedestrian"
+      ],
+      "route_fingerprint": "cf39294f07ff6a6799aedb99e3abf4663531f36c16d6c5d272452ea27bae5814",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "17853",
+      "town": "Town12",
+      "scenario_types": [
+        "DynamicObjectCrossing"
+      ],
+      "route_fingerprint": "775ae0d2a92b39b30794ac1bb149c833d8f555abe2c1338ab447baec71b6ee50",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "4619",
+      "town": "Town12",
+      "scenario_types": [
+        "SignalizedJunctionLeftTurn"
+      ],
+      "route_fingerprint": "c3bde4fbf38e01aba6817c1f1635f98271b9d1faac40515011339119d6c6c23c",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "24693",
+      "town": "Town15",
+      "scenario_types": [
+        "ParkingCrossingPedestrian"
+      ],
+      "route_fingerprint": "d0c6775a4ebba4f79b04b36d0051799d8d19bd5b46a5a4a2ec1616d03f24cfe7",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "24955",
+      "town": "Town04",
+      "scenario_types": [
+        "ConstructionObstacle"
+      ],
+      "route_fingerprint": "3a64ec5b4780f92b743c8399eec1bed699c309c6fe20a6441809b29b6df5aa24",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "28008",
+      "town": "Town05",
+      "scenario_types": [
+        "T_Junction"
+      ],
+      "route_fingerprint": "767c380ecc6fcd809b6c88135bda57ee3af6084d2dbddbfbbe52bd93eccba786",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "31124",
+      "town": "Town13",
+      "scenario_types": [
+        "AccidentTwoWays"
+      ],
+      "route_fingerprint": "6d6b238f807485f6b7582e5d39a30962eb31e8301b981b57ab472d5bfbc59f66",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "23604",
+      "town": "Town12",
+      "scenario_types": [
+        "ControlLoss"
+      ],
+      "route_fingerprint": "f70c457fb20eee3fb52b0af11d6e67e75802e5025be8140d37095d3056c52c50",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "25986",
+      "town": "Town04",
+      "scenario_types": [
+        "ParkedObstacleTwoWays"
+      ],
+      "route_fingerprint": "1c664bbf2bc1804f49ef1d270585a6dad1356ca1967e3448164a677dacca4611",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "11010",
+      "town": "Town12",
+      "scenario_types": [
+        "VehicleTurningRoutePedestrian"
+      ],
+      "route_fingerprint": "f1b677e8401bfd4995a8ab660bc60392a9e66da18df2f031f3fbe1a86fec78e7",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    },
+    {
+      "route_id": "10220",
+      "town": "Town12",
+      "scenario_types": [
+        "VehicleTurningRoute"
+      ],
+      "route_fingerprint": "97670561602b7375b3723da10a9c50eee48e22419a0a35b5e0aa6883580bdccb",
+      "execution": "not_run",
+      "native_takeover": "not_run",
+      "native_prefix_replay": "unsupported",
+      "evidence": []
+    }
+  ]
+}

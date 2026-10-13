@@ -1,0 +1,46 @@
+{
+  "backend": "fake",
+  "python": "3.11.16 (main, Sep  2 2026, 23:39:52) [GCC 15.3.0]",
+  "prefix": "/home/czh/software/miniconda3/envs/carla-client-test",
+  "episodes": 3,
+  "steps": 300,
+  "independent_client": true,
+  "structured_ms": {
+    "backend_seconds": {
+      "p50": 0.02055550430668518,
+      "p95": 0.050714454846456654
+    },
+    "roundtrip_seconds": {
+      "p50": 0.18244149759993888,
+      "p95": 0.3083340510784183
+    },
+    "transport_and_copy_seconds": {
+      "p50": 0.15751050159451552,
+      "p95": 0.2622629006509669
+    }
+  },
+  "synthetic_512kib_echo_ms": {
+    "backend_seconds": {
+      "p50": 0.003327502781758085,
+      "p95": 0.005195596531848421
+    },
+    "roundtrip_seconds": {
+      "p50": 1.8999484964297153,
+      "p95": 2.335390553707839
+    },
+    "transport_and_copy_seconds": {
+      "p50": 1.8970759956573602,
+      "p95": 2.331341949320631
+    }
+  },
+  "close_then_reconnect": true,
+  "server_python": "3.10.20 | packaged by conda-forge | (main, Jun 11 2026, 03:31:56) [GCC 14.3.0]",
+  "server_prefix": "/home/czh/software/miniconda3/envs/CARLA-RL-Base",
+  "measurement_kind": "cross_conda_posix_ipc_fake_backend",
+  "real_carla": false,
+  "notes": [
+    "Measured with a fake transport backend, not CARLA physics.",
+    "The independent client environment contains easycarla-client, NumPy and posix_ipc; no CARLA, Scenic, Torch or easycarla environment package.",
+    "Transport-and-copy includes scheduling and serialization; backend_seconds is not simulator time."
+  ]
+}

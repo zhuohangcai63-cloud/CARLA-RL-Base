@@ -1,0 +1,33 @@
+path_base: ..
+backend: carla
+simulation:
+  port: 2000
+  tm_port: 8000
+  # More time for initialization; this does not repair native SIGSEGV crashes.
+  timeout: 90.0
+  reload_on_reset: true
+  no_rendering_mode: false
+  map_layers: all
+  spectator_as_ego: false
+  # CARLA 0.9.15 WorldSettings defaults, explicit to avoid inheriting another
+  # map's distances when loading with reset_settings=False.
+  tile_stream_distance: 3000.0
+  actor_active_distance: 2000.0
+  map_overrides:
+    Town12:
+      tile_stream_distance: 650.0
+      actor_active_distance: 650.0
+    Town13:
+      tile_stream_distance: 650.0
+      actor_active_distance: 650.0
+scenario:
+  source: bench2drive
+  manifest: configs/manifests/v004_eval220.json
+  purpose: eval
+  fallback: null
+task:
+  profile: bench2drive_native
+observations:
+  rgb: false
+  bev: false
+  lidar: false

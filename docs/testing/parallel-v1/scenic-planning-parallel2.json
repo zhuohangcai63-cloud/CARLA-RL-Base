@@ -1,0 +1,274 @@
+{
+  "schema_version": 1,
+  "instances": [
+    "planning_0",
+    "planning_1"
+  ],
+  "mode": "parallel",
+  "requests_per_repetition": 1000,
+  "repetitions": [
+    {
+      "valid_requests": 1000,
+      "physical_ticks": 2000,
+      "resets": 2,
+      "step_seconds": 8.036017123027705,
+      "reset_seconds": 0.12359467899659649,
+      "elapsed_seconds": 8.172973219989217,
+      "step_throughput": 124.43975475542953,
+      "end_to_end_throughput": 122.3544936565104,
+      "batch_latency_p50_seconds": 0.01543803349341033,
+      "batch_latency_p95_seconds": 0.020714791099453574,
+      "timing_mean_seconds": {
+        "simulation_seconds": 0.002033650597149972,
+        "control_commit_seconds": 0.0003221432480349904,
+        "observation_seconds": 0.0031964820777793646,
+        "history_seconds": 0.00321653783734655,
+        "scenario_seconds": 0.0007307366127643035,
+        "sensor_wait_seconds": 0.0041476142510364295,
+        "environment_seconds": 0.014146630651899613,
+        "backend_seconds": 0.014172717165172799,
+        "roundtrip_seconds": 0.015452547251567013,
+        "transport_and_copy_seconds": 0.0012798300863942132
+      },
+      "terminal_events": []
+    },
+    {
+      "valid_requests": 1000,
+      "physical_ticks": 2000,
+      "resets": 2,
+      "step_seconds": 8.626407408009982,
+      "reset_seconds": 0.1253491759998724,
+      "elapsed_seconds": 8.766225788989686,
+      "step_throughput": 115.92311291389484,
+      "end_to_end_throughput": 114.07417788120316,
+      "batch_latency_p50_seconds": 0.01592363249801565,
+      "batch_latency_p95_seconds": 0.023625328091293335,
+      "timing_mean_seconds": {
+        "simulation_seconds": 0.0020035976250219393,
+        "control_commit_seconds": 0.00032250461979128886,
+        "observation_seconds": 0.003527880546709639,
+        "history_seconds": 0.0034384741317480803,
+        "scenario_seconds": 0.0007752671496709809,
+        "sensor_wait_seconds": 0.004150699744262965,
+        "environment_seconds": 0.014751990972203203,
+        "backend_seconds": 0.01477859901197371,
+        "roundtrip_seconds": 0.016060421551941546,
+        "transport_and_copy_seconds": 0.001281822539967834
+      },
+      "terminal_events": []
+    },
+    {
+      "valid_requests": 1000,
+      "physical_ticks": 2000,
+      "resets": 2,
+      "step_seconds": 8.187106616984238,
+      "reset_seconds": 0.12961530599568505,
+      "elapsed_seconds": 8.33823953999672,
+      "step_throughput": 122.14327317119452,
+      "end_to_end_throughput": 119.9293921940258,
+      "batch_latency_p50_seconds": 0.015507008996792138,
+      "batch_latency_p95_seconds": 0.02246716580339125,
+      "timing_mean_seconds": {
+        "simulation_seconds": 0.00202437835780438,
+        "control_commit_seconds": 0.00032389538333518433,
+        "observation_seconds": 0.003289494171360275,
+        "history_seconds": 0.0032165657835867023,
+        "scenario_seconds": 0.0007386829296592623,
+        "sensor_wait_seconds": 0.004145604109246051,
+        "environment_seconds": 0.014244796860119095,
+        "backend_seconds": 0.014270783901069081,
+        "roundtrip_seconds": 0.015583163884148234,
+        "transport_and_copy_seconds": 0.0013123799830791541
+      },
+      "terminal_events": []
+    }
+  ],
+  "seed": 7,
+  "action": [
+    0.0,
+    0.0,
+    1.0
+  ],
+  "workload": "stationary_brake; NPCs and scene continue ticking",
+  "started_at": 1791810958.258711,
+  "status": "completed",
+  "service_epochs": {
+    "0": "1e8730de-50c4-4615-97a6-a1cd6229587d",
+    "1": "893305c6-5b17-4a33-a8a9-3464ecdada95"
+  },
+  "initialization": {
+    "0": {
+      "effective_world_settings": {
+        "synchronous_mode": true,
+        "fixed_delta_seconds": 0.05,
+        "no_rendering_mode": true,
+        "substepping": true,
+        "max_substeps": 10,
+        "max_substep_delta_time": 0.01,
+        "tile_stream_distance": 3000.0,
+        "actor_active_distance": 2000.0,
+        "spectator_as_ego": false,
+        "map_layers_request": "all",
+        "map_name": "Town10HD"
+      },
+      "scenario": {
+        "source": "scenic",
+        "scenario_id": "interaction_follow",
+        "seed": 7,
+        "source_sha256": "cd727e47203609271a8904a9142028f85479f0b3e7fed2d152e914b859ea2a32",
+        "file": "/home/czh/workspace/CARLA-RL-Base/scenarios/scenic/interaction_follow.scenic",
+        "town": "Town10HD",
+        "iterations": 1,
+        "parameters": {
+          "scenario_name": "interaction_follow",
+          "weather": "ClearNoon",
+          "traffic_light_policy": "off",
+          "ego_spawn_index": 0,
+          "destination_spawn_index": 30,
+          "min_route_distance": 100,
+          "number_of_vehicles": 0,
+          "number_of_walkers": 0
+        },
+        "generation_failures": [],
+        "seeds": {
+          "scenic_python": 7,
+          "scenic_numpy": 7,
+          "route": 7,
+          "spawn": 7,
+          "streams_independent": true,
+          "traffic_manager": 7,
+          "pedestrians": 7,
+          "events": 8,
+          "crossing": 9,
+          "lead_brake": 10,
+          "reactive_npc": 7
+        },
+        "ego_spawn_index": 0,
+        "destination_spawn_index": 30,
+        "background_vehicles_requested": 0,
+        "background_vehicles_spawned": 0,
+        "reactive_routes": {
+          "lead_near": {
+            "route_kind": "follow",
+            "validation": "geometry_only"
+          },
+          "lead_far": {
+            "route_kind": "follow",
+            "validation": "geometry_only"
+          }
+        }
+      },
+      "geometry": {
+        "rear_axle_offset": [
+          -1.386406421661377,
+          -1.3806261449644808e-06,
+          0.3078577518463135
+        ],
+        "bbox_offset": [
+          0.02921886183321476,
+          6.189419536895002e-07,
+          0.7358604073524475
+        ],
+        "bbox_valid": true,
+        "rear_axle_valid": true,
+        "wheelbase": 3.004647731781006,
+        "size": [
+          4.791779518127441,
+          2.163450002670288,
+          1.4876600503921509
+        ],
+        "max_steer_angle": 1.221730351448059
+      }
+    },
+    "1": {
+      "effective_world_settings": {
+        "synchronous_mode": true,
+        "fixed_delta_seconds": 0.05,
+        "no_rendering_mode": true,
+        "substepping": true,
+        "max_substeps": 10,
+        "max_substep_delta_time": 0.01,
+        "tile_stream_distance": 3000.0,
+        "actor_active_distance": 2000.0,
+        "spectator_as_ego": false,
+        "map_layers_request": "all",
+        "map_name": "Town10HD"
+      },
+      "scenario": {
+        "source": "scenic",
+        "scenario_id": "interaction_follow",
+        "seed": 8,
+        "source_sha256": "cd727e47203609271a8904a9142028f85479f0b3e7fed2d152e914b859ea2a32",
+        "file": "/home/czh/workspace/CARLA-RL-Base/scenarios/scenic/interaction_follow.scenic",
+        "town": "Town10HD",
+        "iterations": 1,
+        "parameters": {
+          "scenario_name": "interaction_follow",
+          "weather": "ClearNoon",
+          "traffic_light_policy": "off",
+          "ego_spawn_index": 0,
+          "destination_spawn_index": 30,
+          "min_route_distance": 100,
+          "number_of_vehicles": 0,
+          "number_of_walkers": 0
+        },
+        "generation_failures": [],
+        "seeds": {
+          "scenic_python": 8,
+          "scenic_numpy": 8,
+          "route": 8,
+          "spawn": 8,
+          "streams_independent": true,
+          "traffic_manager": 8,
+          "pedestrians": 8,
+          "events": 9,
+          "crossing": 10,
+          "lead_brake": 11,
+          "reactive_npc": 8
+        },
+        "ego_spawn_index": 0,
+        "destination_spawn_index": 30,
+        "background_vehicles_requested": 0,
+        "background_vehicles_spawned": 0,
+        "reactive_routes": {
+          "lead_near": {
+            "route_kind": "follow",
+            "validation": "geometry_only"
+          },
+          "lead_far": {
+            "route_kind": "follow",
+            "validation": "geometry_only"
+          }
+        }
+      },
+      "geometry": {
+        "rear_axle_offset": [
+          -1.386406421661377,
+          -1.3806261449644808e-06,
+          0.3078577518463135
+        ],
+        "bbox_offset": [
+          0.02921886183321476,
+          6.189419536895002e-07,
+          0.7358604073524475
+        ],
+        "bbox_valid": true,
+        "rear_axle_valid": true,
+        "wheelbase": 3.004647731781006,
+        "size": [
+          4.791779518127441,
+          2.163450002670288,
+          1.4876600503921509
+        ],
+        "max_steer_angle": 1.221730351448059
+      }
+    }
+  },
+  "progress": {
+    "repetition": 2,
+    "valid_requests": 1000,
+    "elapsed_seconds": 8.331287687004078
+  },
+  "finished_at": 1791810983.5577974,
+  "cleanup_errors": []
+}

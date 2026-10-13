@@ -1,0 +1,15 @@
+START 334 Town07 SignalizedJunctionLeftTurn
+LOADED 334 Carla/Maps/Town07
+PREPARED 334
+WARNING: Cannot spawn actor vehicle.* at position Location(x=-140.921997, y=52.007153, z=0.000000)
+END 334 tick_budget_reached 1500 ticks 11.46s 
+START 24948 Town07 SignalizedJunctionRightTurn
+LOADED 24948 Carla/Maps/Town07
+PREPARED 24948
+WARNING: Cannot spawn actor vehicle.* at position Location(x=-59.492054, y=55.336395, z=0.034874)
+WARNING: Cannot spawn actor vehicle.* at position Location(x=-140.695114, y=48.909004, z=0.000000)
+END 24948 completed 303 ticks 1.41s 
+START 24758 Town07 ControlLoss
+LOADED 24758 Carla/Maps/Town07
+PREPARED 24758
+END 24758 completed 400 ticks 1.42s 

@@ -1,0 +1,16 @@
+path_base: ../..
+simulation:
+  timeout: 90
+  physics_dt: 0.05
+  decision_dt: 0.1
+  history_dt: 0.1
+  no_rendering_mode: true
+  reload_on_reset: true
+observations:
+  profile: planning_v1
+scenario:
+  source: scenic
+  town: Town10HD
+  file: scenarios/scenic/interaction_follow.scenic
+experiments:
+  enabled: true

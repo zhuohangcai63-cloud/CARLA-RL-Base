@@ -1,0 +1,12 @@
+{
+  "purpose": "single-variable diagnostic, not a proven fix",
+  "baseline": "conservative-v2-profile.json",
+  "difference": {
+    "r.Vulkan.UseBufferBinning": 1
+  },
+  "unchanged_single_allocation_default": 0,
+  "engine_ini": "[Core.System]\nPaths=../../../Engine/Content\nPaths=%GAMEDIR%Content\nPaths=../../../Engine/Plugins/Media/MediaCompositing/Content\nPaths=../../../Engine/Plugins/Experimental/ChaosSolverPlugin/Content\nPaths=../../../Engine/Plugins/Experimental/PythonScriptPlugin/Content\nPaths=../../../Engine/Plugins/Experimental/MotoSynth/Content\nPaths=../../../Engine/Plugins/Experimental/ChaosNiagara/Content\nPaths=../../../Engine/Plugins/Experimental/GeometryProcessing/Content\nPaths=../../../Engine/Plugins/Experimental/ChaosClothEditor/Content\nPaths=../../../Engine/Plugins/Experimental/GeometryCollectionPlugin/Content\nPaths=../../../Engine/Plugins/Runtime/AudioSynesthesia/Content\nPaths=../../../Engine/Plugins/Runtime/Synthesis/Content\nPaths=../../../Engine/Plugins/Runtime/HairStrands/Content\nPaths=../../../Engine/Plugins/Enterprise/DatasmithContent/Content\nPaths=../../../Engine/Plugins/Editor/GeometryMode/Content\nPaths=../../../Engine/Plugins/Editor/SpeedTreeImporter/Content\nPaths=../../../Engine/Plugins/Developer/AnimationSharing/Content\nPaths=../../../Engine/Plugins/2D/Paper2D/Content\nPaths=../../../Engine/Plugins/FX/Niagara/Content\nPaths=../../../CarlaUE4/Plugins/Carla/Content\nPaths=../../../CarlaUE4/Plugins/HoudiniEngine/Content\nPaths=../../../CarlaUE4/Plugins/CarlaTools/Content\nPaths=../../../CarlaUE4/Plugins/Streetmap/Content\n\n\n[ConsoleVariables]\nr.Vulkan.EnableDefrag=0\nr.Vulkan.WaitForIdleOnSubmit=0\nr.AsyncPipelineCompile=0\nr.Vulkan.UseBufferBinning=1\n",
+  "engine_ini_sha256": "1b47bd26d306add24edec606b8e371d657ec9e2f6af88924a4842544918e2f18",
+  "readonly_wrapper": "readonly-cvar-v4-wrapper-source.txt",
+  "rationale": "Validation of original v2 cumulative sequence reports VkBuffer copy overflow 4/8 bytes and indexed draw overflow 8 bytes, involving small pooled buffers; investigate binned allocation without changing other profile flags."
+}

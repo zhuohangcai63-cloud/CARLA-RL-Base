@@ -1,0 +1,4 @@
+START 3816 Town13 HighwayCutIn
+LOADED 3816 Carla/Maps/Town13/Town13
+PREPARED 3816
+END 3816 tick_budget_reached 1000 ticks 70.77s 

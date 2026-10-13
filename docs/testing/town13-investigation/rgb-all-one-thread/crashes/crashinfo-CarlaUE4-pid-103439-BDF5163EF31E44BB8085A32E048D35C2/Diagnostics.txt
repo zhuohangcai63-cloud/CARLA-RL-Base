@@ -1,0 +1,42 @@
+Generating report for minidump
+
+Application version 4.26.2.0
+ ... built from changelist 0
+
+OS version Linux 7.0.0-34-generic (network name: czh-Default-string)
+Running 14 x86_64 processors (20 logical cores)
+Exception was "SIGSEGV: invalid attempt to read memory at address 0x0000000000000094"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+CarlaUE4-Linux-Shipping!FVulkanVertexInputStateInfo::Generate(FVulkanVertexDeclaration*, unsigned int) [/home/jenkins/UnrealEngine_4.26/Engine/Source/Runtime/VulkanRHI/Private/VulkanVertexDeclaration.cpp:102]
+CarlaUE4-Linux-Shipping!FVulkanPipelineStateCacheManager::CreateGfxEntry(FGraphicsPipelineStateInitializer const&, FVulkanDescriptorSetsLayoutInfo&, FGfxPipelineDesc*) [/home/jenkins/UnrealEngine_4.26/Engine/Source/Runtime/VulkanRHI/Private/VulkanPipeline.cpp:1497]
+CarlaUE4-Linux-Shipping!FVulkanPipelineStateCacheManager::RHICreateGraphicsPipelineState(FGraphicsPipelineStateInitializer const&) [/home/jenkins/UnrealEngine_4.26/Engine/Source/Runtime/VulkanRHI/Private/VulkanPipeline.cpp:1779]
+CarlaUE4-Linux-Shipping!FVulkanDynamicRHI::RHICreateGraphicsPipelineState(FGraphicsPipelineStateInitializer const&) [/home/jenkins/UnrealEngine_4.26/Engine/Source/Runtime/VulkanRHI/Private/VulkanPipeline.cpp:1897]
+CarlaUE4-Linux-Shipping!PipelineStateCache::GetAndOrCreateGraphicsPipelineState(FRHICommandList&, FGraphicsPipelineStateInitializer const&, EApplyRendertargetOption) [/home/jenkins/UnrealEngine_4.26/Engine/Source/Runtime/RHI/Private/PipelineStateCache.cpp:1412]
+CarlaUE4-Linux-Shipping!SetGraphicsPipelineState(FRHICommandList&, FGraphicsPipelineStateInitializer const&, EApplyRendertargetOption, bool) [/home/jenkins/UnrealEngine_4.26/Engine/Source/Runtime/RHI/Private/PipelineStateCache.cpp:339]
+CarlaUE4-Linux-Shipping!FMeshDrawCommand::SubmitDraw(FMeshDrawCommand const&, Experimental::TRobinHoodHashSet<FGraphicsMinimalPipelineStateInitializer, DefaultKeyFuncs<FGraphicsMinimalPipelineStateInitializer, false>, TSizedDefaultAllocator<32> > const&, FRHIVertexBuffer*, int, unsigned int, FRHICommandList&, FMeshDrawCommandStateCache&) [/home/jenkins/UnrealEngine_4.26/Engine/Source/Runtime/Renderer/Private/MeshPassProcessor.cpp:1141]
+CarlaUE4-Linux-Shipping!SubmitMeshDrawCommandsRange(TArray<FVisibleMeshDrawCommand, TMemStackAllocator<0u> > const&, Experimental::TRobinHoodHashSet<FGraphicsMinimalPipelineStateInitializer, DefaultKeyFuncs<FGraphicsMinimalPipelineStateInitializer, false>, TSizedDefaultAllocator<32> > const&, FRHIVertexBuffer*, int, bool, int, int, unsigned int, FRHICommandList&) [/home/jenkins/UnrealEngine_4.26/Engine/Source/Runtime/Renderer/Private/MeshPassProcessor.cpp:1256]
+CarlaUE4-Linux-Shipping!FParallelMeshDrawCommandPass::DispatchDraw(FParallelCommandListSet*, FRHICommandList&) const [/home/jenkins/UnrealEngine_4.26/Engine/Source/Runtime/Renderer/Private/MeshDrawCommands.cpp:1345]
+CarlaUE4-Linux-Shipping!FDeferredShadingSceneRenderer::RenderPrePass(FRHICommandListImmediate&, TFunctionRef<void ()>) [/home/jenkins/UnrealEngine_4.26/Engine/Source/Runtime/Renderer/Private/DepthRendering.cpp:676]
+CarlaUE4-Linux-Shipping!FDeferredShadingSceneRenderer::Render_CARLA(FRHICommandListImmediate&, FGBufferRequest*) [/home/jenkins/UnrealEngine_4.26/Engine/Source/Runtime/Renderer/Private/DeferredShadingRenderer.cpp:1973]
+CarlaUE4-Linux-Shipping!FRendererModule::BeginRenderingViewFamily(FCanvas*, FSceneViewFamily*)::$_17::operator()(FRHICommandListImmediate&) const [/home/jenkins/UnrealEngine_4.26/Engine/Source/Runtime/Renderer/Private/SceneRendering.cpp:3887]
+CarlaUE4-Linux-Shipping!FRendererModule::BeginRenderingViewFamily(FCanvas*, FSceneViewFamily*) [/home/jenkins/UnrealEngine_4.26/Engine/Source/Runtime/Renderer/Private/SceneRendering.cpp:3881]
+CarlaUE4-Linux-Shipping!UGameViewportClient::Draw(FViewport*, FCanvas*) [/home/jenkins/UnrealEngine_4.26/Engine/Source/Runtime/Engine/Private/GameViewportClient.cpp:1630]
+CarlaUE4-Linux-Shipping!FViewport::Draw(bool) [/home/jenkins/UnrealEngine_4.26/Engine/Source/Runtime/Engine/Private/UnrealClient.cpp:1557]
+CarlaUE4-Linux-Shipping!UGameEngine::RedrawViewports(bool) [/home/jenkins/UnrealEngine_4.26/Engine/Source/Runtime/Engine/Private/GameEngine.cpp:702]
+CarlaUE4-Linux-Shipping!UGameEngine::Tick(float, bool) [/home/jenkins/UnrealEngine_4.26/Engine/Source/Runtime/Engine/Private/GameEngine.cpp:1908]
+CarlaUE4-Linux-Shipping!FEngineLoop::Tick() [/home/jenkins/UnrealEngine_4.26/Engine/Source/Runtime/Launch/Private/LaunchEngineLoop.cpp:4830]
+CarlaUE4-Linux-Shipping!GuardedMain(char16_t const*) [/home/jenkins/UnrealEngine_4.26/Engine/Source/Runtime/Launch/Private/Launch.cpp:171]
+CarlaUE4-Linux-Shipping!CommonUnixMain(int, char**, int (*)(char16_t const*), void (*)()) [/home/jenkins/UnrealEngine_4.26/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:264]
+libc.so.6!UnknownFunction(0x2a1c9)
+libc.so.6!__libc_start_main(+0x8a)
+CarlaUE4-Linux-Shipping!_start()
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!

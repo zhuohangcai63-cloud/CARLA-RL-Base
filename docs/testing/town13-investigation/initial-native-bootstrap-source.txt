@@ -1,0 +1,13 @@
+import carla, time, runpy, sys
+end=time.monotonic()+90
+while True:
+ try:
+  c=carla.Client('127.0.0.1',2600);c.set_timeout(1);c.get_server_version();w=c.get_world();break
+ except RuntimeError:
+  if time.monotonic()>end:raise
+  time.sleep(.2)
+c.set_timeout(90)
+s=w.get_settings();s.no_rendering_mode=True;s.spectator_as_ego=False;s.synchronous_mode=True;s.fixed_delta_seconds=.05;s.tile_stream_distance=650;s.actor_active_distance=650;w.apply_settings(s)
+print('BOOTSTRAPPED',flush=True)
+sys.argv=sys.argv[1:]
+runpy.run_path(sys.argv[0],run_name='__main__')

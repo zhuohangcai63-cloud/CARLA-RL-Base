@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "status": "client_passed",
+  "started_utc": "2026-09-28T04:58:19.534258+00:00",
+  "scope": "one owned simulator and one client; no readiness, restart or replay",
+  "server_exit_before_stop": null,
+  "peaks": {
+    "server_rss_kib": 8365204,
+    "gpu_0_memory_used_mib": 7828.0
+  },
+  "sample_count": 80,
+  "server_command": [
+    "/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping",
+    "CarlaUE4",
+    "-RenderOffScreen",
+    "-quality-level=Epic",
+    "-nosound",
+    "-ResX=400",
+    "-ResY=300",
+    "-norhithread",
+    "-UserDir=/tmp/easycarla-town13-conservative-v2-profile",
+    "-carla-rpc-port=2600",
+    "-carla-streaming-port=2601",
+    "-carla-secondary-port=2602"
+  ],
+  "client_command": [
+    "env",
+    "PYTHONFAULTHANDLER=1",
+    "EASYCARLA_LARGE_MAP_PORT=2600",
+    "EASYCARLA_LARGE_MAP_REPORT_DIR=/home/czh/workspace/CARLA-RL-Base/docs/testing/town13-investigation/scenic-large-maps-barrier-v2",
+    "/home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python",
+    "/tmp/carla_ready_run.py",
+    "-m",
+    "pytest",
+    "tests/test_large_map_integration.py",
+    "-q",
+    "-s",
+    "--junitxml=/home/czh/workspace/CARLA-RL-Base/docs/testing/town13-investigation/scenic-large-maps-barrier-v2/integration-results.xml"
+  ],
+  "server_pid": 207259,
+  "client_pid": 207261,
+  "client_exit_before_stop": 0,
+  "client_cleanup": {
+    "signals": [],
+    "exit_code": 0,
+    "leader_exit_before_signal": 0,
+    "log_complete": true,
+    "log_error": null,
+    "group_alive": false
+  },
+  "client_exit": 0,
+  "explicit_server_stop": true,
+  "server_cleanup": {
+    "signals": [
+      "SIGTERM",
+      "SIGKILL"
+    ],
+    "exit_code": -9,
+    "leader_exit_before_signal": null,
+    "log_complete": true,
+    "log_error": null,
+    "group_alive": false
+  },
+  "server_exit": -9,
+  "shutdown_crash": false,
+  "shutdown_forced_kill": true,
+  "shutdown_failed": true,
+  "shutdown_outcome": "forced_kill",
+  "crash_files": [],
+  "crash_copy_errors": [],
+  "elapsed_seconds": 142.38023316599902,
+  "finished_utc": "2026-09-28T05:00:41.914502+00:00",
+  "passed": false
+}

@@ -1,0 +1,19 @@
+{
+  "route_id": "23842",
+  "status": "server_crashed_outcome_unknown",
+  "takeover_verified": false,
+  "dependency_patch_version": 4,
+  "simulation_config": {
+    "port": 2300,
+    "tm_port": 8300,
+    "timeout": 90,
+    "reload_on_reset": false,
+    "no_rendering_mode": true,
+    "map_layers": "none",
+    "tile_stream_distance": 500,
+    "actor_active_distance": 500
+  },
+  "error": "CARLA exited with native Signal 11 during the test. The client remained waiting in native calls and was terminated after the server was confirmed dead. No completed Python report is available; initialization/takeover phase is unknown. No action was replayed.",
+  "server_log": "platform-highway23842-server-crash.txt",
+  "scope": "An attempted one-route role handoff validation; neither handoff nor mechanism switch is verified."
+}

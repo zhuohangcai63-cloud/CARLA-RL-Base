@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "status": "harness_error",
+  "started_utc": "2026-09-28T03:48:19.469574+00:00",
+  "scope": "one owned simulator and one client; no readiness, restart or replay",
+  "server_exit_before_stop": null,
+  "peaks": {},
+  "sample_count": 0,
+  "error": "OSError: [Errno 98] Address already in use",
+  "elapsed_seconds": 0.00010524699973757379,
+  "finished_utc": "2026-09-28T03:48:19.469689+00:00",
+  "passed": false
+}

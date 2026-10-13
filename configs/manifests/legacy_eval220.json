@@ -1,0 +1,2869 @@
+{
+  "version": 1,
+  "source": "bench2drive",
+  "name": "legacy_eval220",
+  "split": "eval",
+  "upstream_commit": "acbeb0dd8aa99dd0e71b9b75bb542f6fe7c7f3d8",
+  "entries": [
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "1711",
+      "town": "Town12",
+      "scenario_types": [
+        "ParkingCutIn"
+      ],
+      "route_fingerprint": "7871331a28a74d57ebffbf9bc2f8d01a8b53f48c08ec5a19a8e9c9b75872db83",
+      "trigger_fingerprints": [
+        "8cabaf52be0c4c0a5660e409c31284773c04b42b29538db88d818f52e37f8885"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "1773",
+      "town": "Town12",
+      "scenario_types": [
+        "ParkedObstacle"
+      ],
+      "route_fingerprint": "7070bff2d463c53f532520a72f894403f5ea0a91650d35bcc920748498455308",
+      "trigger_fingerprints": [
+        "c316a6146331e604147a4526994e9a550b4ac735aa983b18e405e64b055a08b6"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "1790",
+      "town": "Town12",
+      "scenario_types": [
+        "HazardAtSideLane"
+      ],
+      "route_fingerprint": "cef55a8f46a4b5bf773a298dd2dfc983f38445baf6b3039deeb0d96d2ffc3c6a",
+      "trigger_fingerprints": [
+        "f8068d1243eddd730fde9f65c7bc974e0696db58c914bf348860c28199beedde"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "1792",
+      "town": "Town12",
+      "scenario_types": [
+        "HazardAtSideLane"
+      ],
+      "route_fingerprint": "d524df10d4d1b56a698e0a5083b09c788e7624310ff09bf79d9310e3a12cfa58",
+      "trigger_fingerprints": [
+        "4910b5b67d9784c410f9b0e7406a2ca4f0c5ee1c5f38746c4e0a033048bfeab5"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "1825",
+      "town": "Town12",
+      "scenario_types": [
+        "ConstructionObstacleTwoWays"
+      ],
+      "route_fingerprint": "9229107781ccfc132bf6a4829dbc3929fb072a73fad9ec28d8e9a038f2795957",
+      "trigger_fingerprints": [
+        "821b9370c6a2fc08178a4dc7fcc1a8cf46971b8e8e682263bc891ffe1c89380f"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "1833",
+      "town": "Town12",
+      "scenario_types": [
+        "ConstructionObstacleTwoWays"
+      ],
+      "route_fingerprint": "537b355e137e0bdf91fe915bf4ac8a522ab68ab68425645d040bb980d1a8bafb",
+      "trigger_fingerprints": [
+        "e4d1cb992085011b0c2d7f65e1291e1d332d458bbea6ef5b5bb2e53488405864"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "1852",
+      "town": "Town12",
+      "scenario_types": [
+        "AccidentTwoWays"
+      ],
+      "route_fingerprint": "12859f738ab11f7d9465517bc005cd8211bc3f711bee8d67258e1be0eeba1235",
+      "trigger_fingerprints": [
+        "4976355bd386590554120d66fa73742e22bd831414946ded52e9f675290f62ff"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "1956",
+      "town": "Town12",
+      "scenario_types": [
+        "ParkingExit"
+      ],
+      "route_fingerprint": "15c53abfcbb66c540d2dd27d7ac8f67a71b7ef20405f19f4a203724fe702d692",
+      "trigger_fingerprints": [
+        "b60e6a68e2c0a618dce6d43158272ac2b590f79735d6886f81729a9d6111f363"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "2050",
+      "town": "Town12",
+      "scenario_types": [
+        "SignalizedJunctionRightTurn"
+      ],
+      "route_fingerprint": "0f6d6dbc0eeab259aa25b35ec80381ed9f3341819c6231d79b92a75113425160",
+      "trigger_fingerprints": [
+        "eb29c232445ad1a1dc38e432ec3b8a442dbcecfbc014c302471f5ce716d179b2"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "2082",
+      "town": "Town12",
+      "scenario_types": [
+        "OppositeVehicleRunningRedLight"
+      ],
+      "route_fingerprint": "2b64888b3e42309e7685e03cfe1c37742aa667051eb556268b72bf44e060ae51",
+      "trigger_fingerprints": [
+        "372e0a68c23c6655b43052ed1d670ec917c73490e1570f75f373bba93912e73e"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "2084",
+      "town": "Town12",
+      "scenario_types": [
+        "NonSignalizedJunctionLeftTurn"
+      ],
+      "route_fingerprint": "6d63a58683c21c3936e3f6365c558555be2e8d761dabcd1ccf0bc8606d2e7f0d",
+      "trigger_fingerprints": [
+        "01d7637ef67420dba23da51266c2aa183d3b53c41f3d63cb00fc7b2269c1709d"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "2086",
+      "town": "Town12",
+      "scenario_types": [
+        "NonSignalizedJunctionLeftTurn"
+      ],
+      "route_fingerprint": "6298ab0b4aa98ab317fc9f8413dd73597f2b8525159a5f623970d66eb8c8bc55",
+      "trigger_fingerprints": [
+        "1bdcbff0ffff92602e4801354479fca8677deb40c7549cced8f7fae7d8392720"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "2091",
+      "town": "Town12",
+      "scenario_types": [
+        "NonSignalizedJunctionLeftTurn"
+      ],
+      "route_fingerprint": "98caab5573837c608e7f793faee1b8b446415c50342b8bb8b27639132cd65170",
+      "trigger_fingerprints": [
+        "c884f64a645f0ebd18fe3c167385272cde64ecd6b84a5254c015ac36b40378f9"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "2115",
+      "town": "Town12",
+      "scenario_types": [
+        "NonSignalizedJunctionRightTurn"
+      ],
+      "route_fingerprint": "6fe7925d2c0295dcdfa749c151c82b0f79717daf205d22ac6d87d5df5d7815d8",
+      "trigger_fingerprints": [
+        "7d49e38ef17125c3766c1e04c788b8fc6ccd5fcf2aa4876c40460f0c3d30d505"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "2127",
+      "town": "Town12",
+      "scenario_types": [
+        "OppositeVehicleTakingPriority"
+      ],
+      "route_fingerprint": "3626bba16a02f5de5964d318bfca280ec50ce6d08ce1f4a83964a67b8cbe3133",
+      "trigger_fingerprints": [
+        "d94617fd44f5355d0ed5df02d6e8901a1e3233906873f3d886e2d9ccef0d2eb6"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "2129",
+      "town": "Town12",
+      "scenario_types": [
+        "OppositeVehicleTakingPriority"
+      ],
+      "route_fingerprint": "4e085b2c0f91a4ac7d5a02c3e55c2843a07bd69de26ea6337a8ce664dc75dee0",
+      "trigger_fingerprints": [
+        "1eec84b946d0181c6a8aee7eab3b49bf437c1bf3d8dff54ba911f3e308d7fe27"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "2143",
+      "town": "Town12",
+      "scenario_types": [
+        "OppositeVehicleTakingPriority"
+      ],
+      "route_fingerprint": "310fe9b0010e4af23a6504bdc288c5d057cca0e8e22af1262feafc1beb983603",
+      "trigger_fingerprints": [
+        "6b3f5ee76af7b7239cb4a6e51c331f9568603237a9447ad53f15ba83e70f859c"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "2144",
+      "town": "Town12",
+      "scenario_types": [
+        "VehicleTurningRoute"
+      ],
+      "route_fingerprint": "8741d4c30d249be52bad8ed35202c19205cecb69caf79ec2ea0845f1db8d24c6",
+      "trigger_fingerprints": [
+        "754914f36359d5ededeb8a66e17385339784b82736f1d1b1fd68f8ff1a674fab"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "2164",
+      "town": "Town12",
+      "scenario_types": [
+        "VehicleTurningRoutePedestrian"
+      ],
+      "route_fingerprint": "d8cb182897bc745fff6975e8172312591d389d8cd66d54e0a5848b577f90d8a6",
+      "trigger_fingerprints": [
+        "2201b9da4ec7fd5d983460edb29107df095fc984ca13985f15aea27b89dcbacb"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "2201",
+      "town": "Town12",
+      "scenario_types": [
+        "EnterActorFlow"
+      ],
+      "route_fingerprint": "4fd9495c7f8c25b16790bc7a4c0ce95f7dec7821824284feae7dee3cd3eb436a",
+      "trigger_fingerprints": [
+        "7b24df5dbb500556076dc4b79127e8315b798da1093c6e61e0028335b0f053c5"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "2204",
+      "town": "Town12",
+      "scenario_types": [
+        "BlockedIntersection"
+      ],
+      "route_fingerprint": "fb1bee15a3fb79299331d9deb37d6cd221b5ffd597648bb69bb6e3ad49f668d7",
+      "trigger_fingerprints": [
+        "23e07e0ba045a7de2dd5f8422d41cb61261ebddb84a15d4647f657943107f1bb"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "2215",
+      "town": "Town12",
+      "scenario_types": [
+        "BlockedIntersection"
+      ],
+      "route_fingerprint": "e07b7320ff8a46c6875767559612c7301d50a1758ea5fbe65b12acb5ab3803c7",
+      "trigger_fingerprints": [
+        "baa66e852ae4daef5879f230aaa031e17bd9a7473828c5f9c673f146476357c0"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "2273",
+      "town": "Town12",
+      "scenario_types": [
+        "MergerIntoSlowTraffic"
+      ],
+      "route_fingerprint": "13f1404c70e2c04362aa15a31dd2db833d3b56047435879d622eddffdf0baae3",
+      "trigger_fingerprints": [
+        "64b17ee589da71431098e4d06c51dd8f5e39d82abad896a7172ffd95bd40ec59"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "2283",
+      "town": "Town12",
+      "scenario_types": [
+        "MergerIntoSlowTraffic"
+      ],
+      "route_fingerprint": "142ad434eb2f8290275f7ab2035961a355466cc5039ab0df95f15f794632b481",
+      "trigger_fingerprints": [
+        "a72ae7ab66d04b92d6aabdfdad3b304aced03573d43eb53a4491f15290497316"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "2286",
+      "town": "Town12",
+      "scenario_types": [
+        "HighwayCutIn"
+      ],
+      "route_fingerprint": "e1df60fbf10059441e41748b48eb267c866875bdad9c7b634873e378b4baea2b",
+      "trigger_fingerprints": [
+        "babafeb39e9f7f5f6f0a6806058ed382599046c84488474079f9a14f27c9b545"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "2373",
+      "town": "Town12",
+      "scenario_types": [
+        "VanillaSignalizedTurnEncounterRedLight"
+      ],
+      "route_fingerprint": "b3e6fc617bc0ea6680fb30993730243ef6409cc28bdfe1f56fc3e679c5d59168",
+      "trigger_fingerprints": [
+        "1b09aaf52033f73f49dc5b9c62683be9320d99dff2c4f05c04de7dbe9002071c"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "2390",
+      "town": "Town12",
+      "scenario_types": [
+        "VanillaNonSignalizedTurn"
+      ],
+      "route_fingerprint": "1add4777abe7de2df30e3f9c972a486e9a0fe3c533cc28b7eea9d8325c2eb7dd",
+      "trigger_fingerprints": [
+        "1bfde5703cadd43581cb185dd671688778d379c35e5c7c8427914efc57bdb3a8"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "2397",
+      "town": "Town12",
+      "scenario_types": [
+        "VanillaNonSignalizedTurn"
+      ],
+      "route_fingerprint": "55c9b239c9d59129fa9b56c79c906f63246245b1a1d95ab3ae9bf14c48aeb4d5",
+      "trigger_fingerprints": [
+        "2b77a6f42ffa152d448cc4cbc9fbe7330ebc0f6939b126163d41ed790f6a1695"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "2403",
+      "town": "Town12",
+      "scenario_types": [
+        "VanillaNonSignalizedTurn"
+      ],
+      "route_fingerprint": "deb915efaaebca26dff441b4e31146a14a6c7328fb58a0f65bd1b3084e64bbf2",
+      "trigger_fingerprints": [
+        "33cc4593b4298f44f114354374756b81c24162fca1895ca16ed1fd69b951f8a9"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "2416",
+      "town": "Town12",
+      "scenario_types": [
+        "VanillaNonSignalizedTurnEncounterStopsign"
+      ],
+      "route_fingerprint": "4dd62ab2d52cf860127f570e13b66ce9069367efa80a18f7597dcb321695b95b",
+      "trigger_fingerprints": [
+        "505d28fac146e32bafb0af7166b58774b68a923bc634917473dc483304fdf699"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "2509",
+      "town": "Town12",
+      "scenario_types": [
+        "ConstructionObstacle"
+      ],
+      "route_fingerprint": "e4eb1e9ffb5117522fbd7983cb2528a3e621d68e1b5fdfbe23e1ce55f3a64e4c",
+      "trigger_fingerprints": [
+        "e4b5715dc36014dc91f648c21e1fe22f8ecabda55dcf381560d8dc8c1f67d1cb"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "2513",
+      "town": "Town12",
+      "scenario_types": [
+        "ConstructionObstacle"
+      ],
+      "route_fingerprint": "54f7ae94cdab5893c133e114f445b34947ec5fe02a3974083eb9dbdb5cdb4a0f",
+      "trigger_fingerprints": [
+        "282fec0fb14d59f36f90c018e72b83f9c5267adbbc4b2ed74a8015e52662ff19"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "2534",
+      "town": "Town12",
+      "scenario_types": [
+        "Accident"
+      ],
+      "route_fingerprint": "fa3d8f9780aaedf969cfdd7800d45c3251bc871932f7ec02b7a81238df32efd2",
+      "trigger_fingerprints": [
+        "82f9434ed86f8cec643f628d28cce59b478ac96c0adae870b6163db02d6d44ee"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "2539",
+      "town": "Town12",
+      "scenario_types": [
+        "Accident"
+      ],
+      "route_fingerprint": "90273fca6fc0ce8c6f054d7ad0b413012f66b041c3016e998fc494f7d94dba62",
+      "trigger_fingerprints": [
+        "053e7c0cbfb5215e7c3a9fe946977f596fd46ab9822affb1a6fde6647ea67701"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "2554",
+      "town": "Town12",
+      "scenario_types": [
+        "ParkedObstacle"
+      ],
+      "route_fingerprint": "0407cc4606c5091a1f3c19353b4b4dab34da65a9a680f1549dcdbef60109bc5f",
+      "trigger_fingerprints": [
+        "cb274eae16e393a7623106e2a2e380bd6ecd60b681f116a689d6ee476de91370"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "2606",
+      "town": "Town12",
+      "scenario_types": [
+        "ConstructionObstacleTwoWays"
+      ],
+      "route_fingerprint": "d596a1fd57d575b3849dcec96a0b06e44dc4748e093a699f3afd2113b5fe4bd8",
+      "trigger_fingerprints": [
+        "c33cba16f2f72a970b8b5dea603b2c808a41f46487d234c74408ba421119160e"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "2643",
+      "town": "Town12",
+      "scenario_types": [
+        "AccidentTwoWays"
+      ],
+      "route_fingerprint": "714c7e22af6b509244c8411e1dccf9188e2bf1471fec59fa3f81c602c65e37af",
+      "trigger_fingerprints": [
+        "12cc618236356c52cadd1289177f3c71886aec1d024bc1cc97c0b10dc46aa28f"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "2664",
+      "town": "Town12",
+      "scenario_types": [
+        "ParkedObstacleTwoWays"
+      ],
+      "route_fingerprint": "c06a23e6c3548ad4227706964d326f80d13b4101da8b5f054e55af04b56fb90b",
+      "trigger_fingerprints": [
+        "db6ced5f82185c59d7f3cda8bb2a692ac893188c0572ad5cd1e7bee88c4663d9"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "2668",
+      "town": "Town12",
+      "scenario_types": [
+        "ParkedObstacleTwoWays"
+      ],
+      "route_fingerprint": "49d82d12fb9f0df5afede9316a72369b79ca412f7475c85d4977497f0ba1add9",
+      "trigger_fingerprints": [
+        "726fcaed5043f60958df933320af060df1639645f44090280aa8624c78f72bd2"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "2709",
+      "town": "Town12",
+      "scenario_types": [
+        "StaticCutIn"
+      ],
+      "route_fingerprint": "9d60b38f98d05df62807a15a823dbcf1a4473375b5d6d0391e8fb35e96f1dfcb",
+      "trigger_fingerprints": [
+        "d74f6511c9b3fb81a99cdaee7b0076638866e8a54d5d2583025bd3214e6eb68e"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "2715",
+      "town": "Town12",
+      "scenario_types": [
+        "StaticCutIn"
+      ],
+      "route_fingerprint": "c4fcd7c84e08ac08a5623d0fb9b565c91769e86ae557c97b15f3cf619a878cc7",
+      "trigger_fingerprints": [
+        "978d5be93f530066bbf11246257f38eb11842b37b1d06d2a896962357221f181"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "2790",
+      "town": "Town12",
+      "scenario_types": [
+        "InvadingTurn"
+      ],
+      "route_fingerprint": "e55fe4bda209bc8c74050342f746601d4c346bbe6368cffe87d0a74197d18535",
+      "trigger_fingerprints": [
+        "93414784e29192cf8fa24b724903b9db19e84ba0820661272a686e54b2c067fb"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "2802",
+      "town": "Town12",
+      "scenario_types": [
+        "InvadingTurn"
+      ],
+      "route_fingerprint": "2e9977dfb4d524f51d5f751a315360f33be1def54ca251e4b0071618db2ceddb",
+      "trigger_fingerprints": [
+        "ab8e783ae146168a519dc4e07b3b2c0976bcc1a3c2b93ba4c43a72f7bc947ec7"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "2844",
+      "town": "Town12",
+      "scenario_types": [
+        "OppositeVehicleRunningRedLight"
+      ],
+      "route_fingerprint": "595777e001b28d6c60bcdf621391acfa08c18968b5479e7823950ba3402d095a",
+      "trigger_fingerprints": [
+        "fd1866e0a35cec915fffe97fa718bce90ddcddf1e91692e1ba06a60402c92631"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "2847",
+      "town": "Town12",
+      "scenario_types": [
+        "OppositeVehicleRunningRedLight"
+      ],
+      "route_fingerprint": "08a444163291d5a534e7ffdc5b34b5ecdb2ed717d76b6b723bbd5456f74c48a7",
+      "trigger_fingerprints": [
+        "90b365dc36f3c5c03a966c8280f5ab9d9d7f87e07c1cbb55f566c5357c6e14e0"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "2881",
+      "town": "Town12",
+      "scenario_types": [
+        "NonSignalizedJunctionLeftTurn"
+      ],
+      "route_fingerprint": "bb4c4f45e6bb81584a19de14ffa420899e529af648a59c774ef19fba5d9ec2bb",
+      "trigger_fingerprints": [
+        "41f62e508cd51cfbba81c405450ddd756cf74d023440076b01fda2ff1a4597af"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "2903",
+      "town": "Town12",
+      "scenario_types": [
+        "NonSignalizedJunctionRightTurn"
+      ],
+      "route_fingerprint": "a5a8632879f6caf3128dcebd5d9f3a7090b6c1ebc251301508ba3c0161274170",
+      "trigger_fingerprints": [
+        "da9d25fbe2c7845fbc45fb73feec4b0e13c4ad67417b3703b9dfcc031c7dd9a3"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "2913",
+      "town": "Town12",
+      "scenario_types": [
+        "OppositeVehicleTakingPriority"
+      ],
+      "route_fingerprint": "2383e13212a2d33c4892cdabd163fad44b3ee9202750eb478f4019a3c697cb7f",
+      "trigger_fingerprints": [
+        "fa7541daae5d41eabff04716f33d67af67f46418b645c081beb176d82ff9c021"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "2943",
+      "town": "Town12",
+      "scenario_types": [
+        "VehicleTurningRoute"
+      ],
+      "route_fingerprint": "4ed1705cb8d6456c13c9e4b30ffe9ebd3f1aadfdc676f8c8a2f4e1e8a19ad5db",
+      "trigger_fingerprints": [
+        "754914f36359d5ededeb8a66e17385339784b82736f1d1b1fd68f8ff1a674fab"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "2989",
+      "town": "Town12",
+      "scenario_types": [
+        "BlockedIntersection"
+      ],
+      "route_fingerprint": "0af779a46de8443846396e17b768510b47579549a37c0ae88b085a7fe75f7d72",
+      "trigger_fingerprints": [
+        "21ff0f67dee0131545b11b9f212f6a449ed89303975d51f115299d2440aa9d27"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "3048",
+      "town": "Town12",
+      "scenario_types": [
+        "MergerIntoSlowTraffic"
+      ],
+      "route_fingerprint": "690d3675761c4c2faeb905fd2c69cc569f9823e145eb49b8d8fefd6f569e85c3",
+      "trigger_fingerprints": [
+        "a323315be6f3041208406e76c8730cbdb23dfadc8bb267be4565e1f8a4daaaea"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "3072",
+      "town": "Town12",
+      "scenario_types": [
+        "HighwayCutIn"
+      ],
+      "route_fingerprint": "8a77430bff65b7ace835de70ac0af7df7b67c7c10c4115860e068011164cef53",
+      "trigger_fingerprints": [
+        "2f39a2dca61cd49d0c17c1c7bca41315e01d3c8508600b7ccb4598aa3912fc8f"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "3074",
+      "town": "Town12",
+      "scenario_types": [
+        "HighwayCutIn"
+      ],
+      "route_fingerprint": "560614b25c6b7c2b5db7f99d7f33ba9100bc49ec70288f37a04365791bbb5d68",
+      "trigger_fingerprints": [
+        "46d5cefeffa8400ac9b8fe436b9c1ed83f6422acce4ba54ef65e0194009d3a48"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "3080",
+      "town": "Town12",
+      "scenario_types": [
+        "HighwayCutIn"
+      ],
+      "route_fingerprint": "119f13ac6021227170c9dfe228f8c8568d94bb006ace685b6bea66aad89fab70",
+      "trigger_fingerprints": [
+        "c30333718c2f195366fca1121daf8124edf847d854b41b5807d6d3ae414b61f2"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "3086",
+      "town": "Town12",
+      "scenario_types": [
+        "CrossingBicycleFlow"
+      ],
+      "route_fingerprint": "eeb297a45a07a24d18f842eb98aa86995b3cd0eed60675558618860bc1fae790",
+      "trigger_fingerprints": [
+        "9e5ca9b4aeeeabc83990a46420fc2c50d085f907e02f810d6f9028c12748502a"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "3090",
+      "town": "Town12",
+      "scenario_types": [
+        "CrossingBicycleFlow"
+      ],
+      "route_fingerprint": "2f3485926e9df7cd6280da34b095fdf176e9593a0173ddd0e8a2df9fa4df80b5",
+      "trigger_fingerprints": [
+        "e6a23788feecfd0cc3a4f2332dcc3d806b9f178beed2223bc48063592bb8417e"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "3093",
+      "town": "Town12",
+      "scenario_types": [
+        "CrossingBicycleFlow"
+      ],
+      "route_fingerprint": "6987df645835d1f1bb0fa19b67226be621ff13ec3c9d3a63b882965ad167ac36",
+      "trigger_fingerprints": [
+        "541b8cfd6faf489f9c97446b3ae50ee5c54ba0c15401d6be1f6a686394757cac"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "3099",
+      "town": "Town12",
+      "scenario_types": [
+        "CrossingBicycleFlow"
+      ],
+      "route_fingerprint": "f1a778f6044812fff9bf3779dda0e56c0c5a869abbea7a15ccce2cd9871ff866",
+      "trigger_fingerprints": [
+        "dc99c4212eed4cd1fc9ffc3ffe22e42efb9f96f37e4b433b74b9049542771799"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "3100",
+      "town": "Town12",
+      "scenario_types": [
+        "CrossingBicycleFlow"
+      ],
+      "route_fingerprint": "c7977d9cd3c5c4e10bab2f60b8f02be697d2e464c5b489916641ddda7cb435a6",
+      "trigger_fingerprints": [
+        "1790e4a5d7af29d68a9b0bdfb017238710e9c6b643bee2b1b23668d7ad2d1ff8"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "3144",
+      "town": "Town12",
+      "scenario_types": [
+        "VanillaSignalizedTurnEncounterRedLight"
+      ],
+      "route_fingerprint": "c3fec74e112634dfa7aca4ee06955f4e87424bd121b5b00d4dab52250358c242",
+      "trigger_fingerprints": [
+        "f992e254e1830b954b58ebb0c31b5f1ec3858c967f8e824329b903b5a85a0bc7"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "3178",
+      "town": "Town12",
+      "scenario_types": [
+        "VanillaNonSignalizedTurn"
+      ],
+      "route_fingerprint": "d3d8f40a5e7d13ae1204904f523e578c399fb1ea0a7e6381a7d66ccebad373b4",
+      "trigger_fingerprints": [
+        "c8b3312c885e8b167a9364acadd2182b06acdce88e6b8e21977f58ae30a16a13"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "3184",
+      "town": "Town12",
+      "scenario_types": [
+        "VanillaNonSignalizedTurnEncounterStopsign"
+      ],
+      "route_fingerprint": "057ed3402fe23af27a801d048fb6f19ded788acc84fd705a5c2f943477bb8f2e",
+      "trigger_fingerprints": [
+        "5d404c6d1fb1b457ed35474806994b722c26e5315af2a43f7acf59a824efa9e4"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "3189",
+      "town": "Town12",
+      "scenario_types": [
+        "VanillaNonSignalizedTurnEncounterStopsign"
+      ],
+      "route_fingerprint": "771a61a594d4fddd7db9f49b58194b7babc65810f88e70c6d11a500619037f57",
+      "trigger_fingerprints": [
+        "1ce35b0af5f202aa76d991da4d5b0fb38fef13914123acd86515a336c1f82a64"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "3248",
+      "town": "Town13",
+      "scenario_types": [
+        "ParkingCrossingPedestrian"
+      ],
+      "route_fingerprint": "f3dd176a34dbbf5d1245e9178546622c2f0db4c19620b5d88935c9246e9a836f",
+      "trigger_fingerprints": [
+        "cd8708ef10a775790971baea04af1d61a88bfe98cb95412bc8490882a36f9426"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "3255",
+      "town": "Town13",
+      "scenario_types": [
+        "ParkingCrossingPedestrian"
+      ],
+      "route_fingerprint": "199ac306889417834dd0dcd66fc33c42e8af730fbe81e60ec707cfd7ef45b0fd",
+      "trigger_fingerprints": [
+        "63caf5385c2b923c4e8dbc95d0191bffbde2ad1efa21f62255226bf4c7124166"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "3307",
+      "town": "Town13",
+      "scenario_types": [
+        "Accident"
+      ],
+      "route_fingerprint": "ebc225393e0459d42049c2267a2f7787c4a441446df8a50021bef53f00c47996",
+      "trigger_fingerprints": [
+        "745404942afbec97cfa9522de49ddcd37bf0071cac24558d8b2aff1c696e40a8"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "3364",
+      "town": "Town13",
+      "scenario_types": [
+        "YieldToEmergencyVehicle"
+      ],
+      "route_fingerprint": "f0873b4c83616afc61723a27ab547c82eb0cadf9315c5a209d5784baa1932cca",
+      "trigger_fingerprints": [
+        "a58bdb078050106fae0810a20151f739942d73076e817d59e6e0feecc7bd6452"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "3373",
+      "town": "Town13",
+      "scenario_types": [
+        "YieldToEmergencyVehicle"
+      ],
+      "route_fingerprint": "77fa52ffbda89817be4a5032e9e2ecbf4974fa9b3a25ff106952997135404e36",
+      "trigger_fingerprints": [
+        "184863626ef181b9e9802ff2c356d4349e128479af01a5fa7f3022132fbfa6d3"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "3378",
+      "town": "Town13",
+      "scenario_types": [
+        "YieldToEmergencyVehicle"
+      ],
+      "route_fingerprint": "3f101a6bc5e70bedd997fdd8b8f270c11d258de6a8ca449cc90a54d646eb1805",
+      "trigger_fingerprints": [
+        "f3339ceba1a282be819c694e2c32415a2570ce6da264cc1038cbc60d1c0a851a"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "3380",
+      "town": "Town13",
+      "scenario_types": [
+        "YieldToEmergencyVehicle"
+      ],
+      "route_fingerprint": "13564fcb29729cf53f67a553d5cb54084d6b523c83e322365db2f085a8bb22a3",
+      "trigger_fingerprints": [
+        "39df62e6abba5cf3a130de1ed8219d2edec99a872c31dcfacbc0055fbb37c03b"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "3410",
+      "town": "Town13",
+      "scenario_types": [
+        "AccidentTwoWays"
+      ],
+      "route_fingerprint": "5957006c03e7ec80b1c6386b3d489c26f3caec0745bf397863fde095b07ddb48",
+      "trigger_fingerprints": [
+        "dfa37111a72ac840b312b0d229e6cbab0b6543026785ea366e27c7501062d402"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "3436",
+      "town": "Town13",
+      "scenario_types": [
+        "HazardAtSideLaneTwoWays"
+      ],
+      "route_fingerprint": "72cefeb6afdff1c8d21f30aaa992e970eb172c0fb962713960c9b49c0add0184",
+      "trigger_fingerprints": [
+        "a56c426d5bf99374183474140e3344e54bc05d6d71c9ff2e3f71f703779bdd4d"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "3457",
+      "town": "Town13",
+      "scenario_types": [
+        "ParkedObstacleTwoWays"
+      ],
+      "route_fingerprint": "405df3f4a247a876e835d9f8e77b2eea4a6c0dfe28aec535b3a9c8cabd158665",
+      "trigger_fingerprints": [
+        "7d0510433a6112c4c8d1db164ccd5a24d3c33b4ff4f0688bfcf7de85bbf4f877"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "3464",
+      "town": "Town13",
+      "scenario_types": [
+        "VehicleOpensDoorTwoWays"
+      ],
+      "route_fingerprint": "71ae8d081f1f0e25af23a87cdc00b8e3a942b7d3b6968db146616a33104bd2bd",
+      "trigger_fingerprints": [
+        "889a984ef686369aae1ebf1c8d73d33c89d5068cbb408eaeeff78dafb6bb5888"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "3472",
+      "town": "Town13",
+      "scenario_types": [
+        "VehicleOpensDoorTwoWays"
+      ],
+      "route_fingerprint": "e1f787726c91e85a2203638730c64ca02166179eabf2fe60f982b28ae63c3b19",
+      "trigger_fingerprints": [
+        "2a1f8a1eb0866c4a43233c57ddd54d318aa3f21444c8f6919841c8f37bd88bba"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "3476",
+      "town": "Town13",
+      "scenario_types": [
+        "VehicleOpensDoorTwoWays"
+      ],
+      "route_fingerprint": "f1f137ee5d0b1904cc91fdea58b8c72bfa3788ccced082693a8efdd71ada4c6b",
+      "trigger_fingerprints": [
+        "5249c01c897f826ccd38b3fe0a2ef048978abedb21e6d336fa48a26be097cf54"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "3482",
+      "town": "Town13",
+      "scenario_types": [
+        "VehicleOpensDoorTwoWays"
+      ],
+      "route_fingerprint": "5c9a5823c705b370b1693e303281802d1ab613cdaf3743c5996824ff9254178f",
+      "trigger_fingerprints": [
+        "fbca87de69a74026783c7fadad55ae4e0e7a8b605208d4387d364d21daf02f88"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "3514",
+      "town": "Town13",
+      "scenario_types": [
+        "ParkingExit"
+      ],
+      "route_fingerprint": "7648edd26e42a5998208d15b15713d69db2ad917afcfd5dcdd8a4829b1dbe091",
+      "trigger_fingerprints": [
+        "f7f5e9bc2279d3a070408b760d1896f5c41b77f5431229e52c0e73dd67f0b2b3"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "3520",
+      "town": "Town13",
+      "scenario_types": [
+        "ParkingExit"
+      ],
+      "route_fingerprint": "30517948f1f1df0482c4bf0ce8f66ffea33bcededae7ac8a4a68d6b8e0c5e47e",
+      "trigger_fingerprints": [
+        "6d4c84f0b64614adafa02c68cde69b024e193aa3f6202f1ee57cf3586d3c4571"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "3540",
+      "town": "Town13",
+      "scenario_types": [
+        "HardBreakRoute"
+      ],
+      "route_fingerprint": "802e807fed28dc0bde35a71c26df4ce558aaeb3e2483863a668f0da64019b2d0",
+      "trigger_fingerprints": [
+        "cc1151ac7a0bf806e9d8100fa5fed8d1cc95588dd42ef627786e7884ed5caa34"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "3561",
+      "town": "Town13",
+      "scenario_types": [
+        "ControlLoss"
+      ],
+      "route_fingerprint": "2056fc5e10dfe53e4d1cb039ccc8a6dbcf3e970960c210f1ff0b9a15de003fd5",
+      "trigger_fingerprints": [
+        "76dd4502662720a72164229ef859836e94d5b2b05c399c34dd1cd78e6684f5aa"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "3564",
+      "town": "Town13",
+      "scenario_types": [
+        "InvadingTurn"
+      ],
+      "route_fingerprint": "190b168f20857cae7047cb22752ecac39fbd9e85913ee808d4e8d6ea8e97e2cf",
+      "trigger_fingerprints": [
+        "e2784ead54a7230cec6a6be9d00350e102e516b1bf188a40a8767d65f7e5d189"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "3572",
+      "town": "Town13",
+      "scenario_types": [
+        "InvadingTurn"
+      ],
+      "route_fingerprint": "cda29de593ecab6c6a50d36ab40ff027e9e56244a7dd5b3ecef102acfeca586e",
+      "trigger_fingerprints": [
+        "ea652715cd376af8c38c250545c1243b70012808facaf96a9f999b9bbf4869e2"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "3575",
+      "town": "Town13",
+      "scenario_types": [
+        "InvadingTurn"
+      ],
+      "route_fingerprint": "2a9ddfdcb9ce1b33690dee8d48e1b5310f8e8ec98057ca7ecc41f815a1ed48fe",
+      "trigger_fingerprints": [
+        "f139223f2ccc9ce8abf43d03ab86135d11e998e3ab45a5dbe2d8e1530b749ad8"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "3666",
+      "town": "Town13",
+      "scenario_types": [
+        "NonSignalizedJunctionRightTurn"
+      ],
+      "route_fingerprint": "dd04bfc763b31583d599d7be36a6a9ac13368e1fa3c079ac0a07e3bd5be84a15",
+      "trigger_fingerprints": [
+        "5c5dbb70fe4dea14ca43d4ac7550fb715ded6e6af20fcf34709fd439896027f5"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "3670",
+      "town": "Town13",
+      "scenario_types": [
+        "NonSignalizedJunctionRightTurn"
+      ],
+      "route_fingerprint": "8a06edcbee14a056dba42d0754455aa17c8ccfce664da981f993fe368308aaf2",
+      "trigger_fingerprints": [
+        "782277ea426ff11f98e74137a28a580123702344f33827d1c9f51841453f253c"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "3676",
+      "town": "Town13",
+      "scenario_types": [
+        "NonSignalizedJunctionRightTurn"
+      ],
+      "route_fingerprint": "1be43a24cc235efbf17fd04dbb8d22448dd1a25ebd2e545ce79f53742be1439d",
+      "trigger_fingerprints": [
+        "688b65b4514bfe96ce6d297de1b17b8a9babf5127da3f21ddd9a50e3335ad318"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "3697",
+      "town": "Town13",
+      "scenario_types": [
+        "OppositeVehicleTakingPriority"
+      ],
+      "route_fingerprint": "f80abf44d1973640c687f368523614fa54604ad6fbe025e492d1b27f32549a15",
+      "trigger_fingerprints": [
+        "f4ed823e12c0615e9d98831db189f2f9e5e020c0d95f989ed9d89c6d9af0e674"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "3708",
+      "town": "Town13",
+      "scenario_types": [
+        "VehicleTurningRoute"
+      ],
+      "route_fingerprint": "c513e431d43046048f6c8542533e99c8045cda267dddf09fb74e3584c7fd9f78",
+      "trigger_fingerprints": [
+        "4a4fe5abfdbd4e2e6396dd1473a0875c23b57bb7dcb8442c547f1b3ad785a44d"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "3712",
+      "town": "Town13",
+      "scenario_types": [
+        "VehicleTurningRoute"
+      ],
+      "route_fingerprint": "6de57923af4844d503aa3868f473af68a3f5b30648f0cbd2329f9710503f1c42",
+      "trigger_fingerprints": [
+        "e57fc6d72bec96fbb99e5acb51cdf8cc481bb6bcab17c4ee3cbf2c1ca2d2f791"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "3717",
+      "town": "Town13",
+      "scenario_types": [
+        "VehicleTurningRoute"
+      ],
+      "route_fingerprint": "01c9f8555ec5bd0519a9d329823bc29799d7e76cc5756b77fb77ffa7bbd8befd",
+      "trigger_fingerprints": [
+        "08bc42b64cb98a2169fd06166d344b92ea444e07238ec2062e2d72f00d775978"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "3731",
+      "town": "Town13",
+      "scenario_types": [
+        "VehicleTurningRoutePedestrian"
+      ],
+      "route_fingerprint": "0849d632bdd121f46ff5a6bc23b207bdfac167512bd792a0ef34a7ed39a27ae9",
+      "trigger_fingerprints": [
+        "94ba90eb42ec90b4a64f42c9345987c653888649e0c21285ae24ab8093f7f8e0"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "3737",
+      "town": "Town13",
+      "scenario_types": [
+        "VehicleTurningRoutePedestrian"
+      ],
+      "route_fingerprint": "bdd6a411a07389c0b010e7c777da012e8b048470e3bddf3445810a3b665df43a",
+      "trigger_fingerprints": [
+        "bc83384999278dea4af021da99d2daddea072b61902b419a24591fbc1c309f1a"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "3749",
+      "town": "Town13",
+      "scenario_types": [
+        "EnterActorFlow"
+      ],
+      "route_fingerprint": "5aaaa2b3aca3c29a16d7d2e19f7b14e6ef9c7ac138b87687893a229b047d340f",
+      "trigger_fingerprints": [
+        "aec09d3280eb436537572186681bd0da65cae11b6dd0bc356e0daeb30f44f935"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "3785",
+      "town": "Town13",
+      "scenario_types": [
+        "MergerIntoSlowTraffic"
+      ],
+      "route_fingerprint": "1ee2813e520f6e4480cab55798c69db17f1c57856b55ffd8aa76a069a39d27f8",
+      "trigger_fingerprints": [
+        "4983ed92302c1939a2cc01c947f28b26b64cded45c06992146b0778fab10177c"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "3800",
+      "town": "Town13",
+      "scenario_types": [
+        "MergerIntoSlowTraffic"
+      ],
+      "route_fingerprint": "c5b17ff0f488baddd1d03175bb9fc5c8488eb6dee8258b65235ec4eea1276b9f",
+      "trigger_fingerprints": [
+        "7edd5955a00b68c392250f8bce159c6e013be1e5ef88abd252404ca7c52db3aa"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "3813",
+      "town": "Town13",
+      "scenario_types": [
+        "HighwayCutIn"
+      ],
+      "route_fingerprint": "29107a064ba34c19dd85576ae0e5ce9e0da7dc012bb5265ad7f37e266c2ace05",
+      "trigger_fingerprints": [
+        "a1395873cfc1a8eaeed5a6aa839f8a3398fa366b989e30c27aca6b41e55a7dc4"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "3865",
+      "town": "Town13",
+      "scenario_types": [
+        "VanillaSignalizedTurnEncounterRedLight"
+      ],
+      "route_fingerprint": "54c310a474448943129088e0f5a04f79de373104047fe4abb7f3745e8d243186",
+      "trigger_fingerprints": [
+        "e5c63be85d2999f860e84c578f62cb71ec362b13ec7f9556cc0d31f6b01bc0ec"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "3869",
+      "town": "Town13",
+      "scenario_types": [
+        "VanillaSignalizedTurnEncounterRedLight"
+      ],
+      "route_fingerprint": "81b5ba7a9dd3637e3060d69f877a24f7ddabb0dfd2ffd4c5da3221e96016c742",
+      "trigger_fingerprints": [
+        "f079802102c891809241db81c80fe95261ac7b4edbbd5b7f7c39ce2a7e2e01ca"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "3876",
+      "town": "Town13",
+      "scenario_types": [
+        "VanillaSignalizedTurnEncounterRedLight"
+      ],
+      "route_fingerprint": "3b751873f7fdfd3914dee3ac8755d7220823829a8e6b88dd481b06d7db47dabb",
+      "trigger_fingerprints": [
+        "a5acd05de7341a14ac9b596ec3d4b43105520f06f37bf890f3bc80a2f093e16e"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "3890",
+      "town": "Town13",
+      "scenario_types": [
+        "VanillaNonSignalizedTurn"
+      ],
+      "route_fingerprint": "94aeffe947935e54ceb192ef6d8ca0024ff2068333a4ef3755cfd168314f8684",
+      "trigger_fingerprints": [
+        "3d01ef442fb8b4c20fce240093862d21fa2547fe858bc30ceb091e8072f33e88"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "3904",
+      "town": "Town13",
+      "scenario_types": [
+        "VanillaNonSignalizedTurnEncounterStopsign"
+      ],
+      "route_fingerprint": "2be60e44023b2d4bfcc646a6b1cf76f5edf06178200dcc1559405fff3053c9cf",
+      "trigger_fingerprints": [
+        "6a9231dbdf10ba2149739ac52ee25601440d162fe4c8f7e6cbed503668920e31"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "3905",
+      "town": "Town13",
+      "scenario_types": [
+        "VanillaNonSignalizedTurnEncounterStopsign"
+      ],
+      "route_fingerprint": "c1ae90bf85a480ba655ebe4552146870ca6870cbdc75e78b420a8d750751cdad",
+      "trigger_fingerprints": [
+        "47acb9823eedef3a92747e1fe51bcac5ce05e097420d67b4f72451ea5900e1d3"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "3936",
+      "town": "Town12",
+      "scenario_types": [
+        "SignalizedJunctionLeftTurn"
+      ],
+      "route_fingerprint": "e37b1f634ba0a8b7ab2a9e7c9df973c15eb769a1ad8a4b1bcb524097174d4230",
+      "trigger_fingerprints": [
+        "66c02fea340b1da9fbb08425cc7002ac1d9d4d6e75613c432aed51bd1effcb35"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "4183",
+      "town": "Town12",
+      "scenario_types": [
+        "SignalizedJunctionLeftTurn"
+      ],
+      "route_fingerprint": "0cc73b2f5ce3de1d8b1f37a081e85544a8e3459f4bf09d7180a24a8c1c4a7204",
+      "trigger_fingerprints": [
+        "e69e105b314568ddfeedf5953163a35c92d81aef74a27b04a99a5383cc9f8ad9"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "4468",
+      "town": "Town12",
+      "scenario_types": [
+        "SignalizedJunctionLeftTurn"
+      ],
+      "route_fingerprint": "e28622b927955deb494f2edccea29df493034f3e1306ad96d77689fc85c7c54f",
+      "trigger_fingerprints": [
+        "cc2e013e25c64c474fe30f76f37899b0497b60865d6b605571679c928b265c8d"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "4669",
+      "town": "Town12",
+      "scenario_types": [
+        "SignalizedJunctionLeftTurn"
+      ],
+      "route_fingerprint": "8399796fa51b85780169e90353af411f39067db781d64086842a21806a311700",
+      "trigger_fingerprints": [
+        "90d1e0efaf291498b9de20f0b7428357168a2254c124e653a8779dbab62ca58a"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "4683",
+      "town": "Town12",
+      "scenario_types": [
+        "SignalizedJunctionLeftTurn"
+      ],
+      "route_fingerprint": "14f4fce8e8bd0bd0c2018f93c2e1d7641375ae9cd7f0f60185eb76de422b878c",
+      "trigger_fingerprints": [
+        "d4c8547aa9d43307eb318c7488c097a0525ab3f3a673fcc2b89765c9354477bc"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "4937",
+      "town": "Town12",
+      "scenario_types": [
+        "SignalizedJunctionRightTurn"
+      ],
+      "route_fingerprint": "cc2dee6e3efa77e12d138a075214b795f10b20a02e8c3509d17c06df68ba2bb2",
+      "trigger_fingerprints": [
+        "a8e1cff8e676eabce02db87d257da4f40ab5e03fb11e1b48ff59ee468f4b9fd9"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "10857",
+      "town": "Town12",
+      "scenario_types": [
+        "VehicleTurningRoutePedestrian"
+      ],
+      "route_fingerprint": "f94d1b95bc5051097ac4e880af85fea698a87de7e77f71fb496bffe1f0e65332",
+      "trigger_fingerprints": [
+        "9de9e689707b5b677346cb96328a5f8365f73ae0e4c08559d8299c1f0d28cd18"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "11381",
+      "town": "Town12",
+      "scenario_types": [
+        "VehicleTurningRoutePedestrian"
+      ],
+      "route_fingerprint": "67583ce0144cedea6436e415c1cf72cfa72d296c9eaccd0d53c612e15680c244",
+      "trigger_fingerprints": [
+        "dc3250fdc9b4f925eab23a7e48b40efb4002d83dc4bdac4396828c0c12ba60b1"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "11715",
+      "town": "Town12",
+      "scenario_types": [
+        "EnterActorFlow"
+      ],
+      "route_fingerprint": "cab24191213eca88bc04dff52ca27e63aa85ec00b91cfa4eca1df4d90423a0b8",
+      "trigger_fingerprints": [
+        "41627557e35ec145237b9ac39fa650fed1cef539028155a99e16ecafeff90ff3"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "11755",
+      "town": "Town12",
+      "scenario_types": [
+        "EnterActorFlow"
+      ],
+      "route_fingerprint": "aa1b1066ea594dfdb6bb6c52586ee9f965e8209bfce82719321e2ee38a256bf7",
+      "trigger_fingerprints": [
+        "edc343ec12a81167e805a6fee6295af03b97eab87628570bc05612655f3d5d5c"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "14194",
+      "town": "Town12",
+      "scenario_types": [
+        "PedestrianCrossing"
+      ],
+      "route_fingerprint": "3ee2610a8908e2f733a73aebe996cbb65353b14c8c41987841c9616add538543",
+      "trigger_fingerprints": [
+        "dea2b2a2e614c7f06dfb0a3ac7bfdffc8fce2f4be2d51b37ad83f45062de77ac"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "14842",
+      "town": "Town12",
+      "scenario_types": [
+        "VanillaSignalizedTurnEncounterGreenLight"
+      ],
+      "route_fingerprint": "a011771c07ee488b5f37242adf35e6ab83ac2f3e90930b174b3123ca13c27871",
+      "trigger_fingerprints": [
+        "040186a858e74a302d850b47e87109e418a7f36a95178194897253d7747d4612"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "14862",
+      "town": "Town12",
+      "scenario_types": [
+        "VanillaSignalizedTurnEncounterGreenLight"
+      ],
+      "route_fingerprint": "1b12d8bc0daec1600dcf17c9a3e254a7e2e5ac6eb0e4ea5b4600f370d36d9903",
+      "trigger_fingerprints": [
+        "1e77fce50cc5c7b228751d4cbae021e4eb4a91d18d515299a39b84b5df279c71"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "14909",
+      "town": "Town12",
+      "scenario_types": [
+        "VanillaSignalizedTurnEncounterGreenLight"
+      ],
+      "route_fingerprint": "fe493ebcb318789f4a77eea224a686aeb9a76101edf09c1b7188584209971dda",
+      "trigger_fingerprints": [
+        "5c0b42e5ef3cbc206fca2ab41fa051ab93825dedca3a27f82c79b8c31bc0efcb"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "17563",
+      "town": "Town12",
+      "scenario_types": [
+        "SequentialLaneChange"
+      ],
+      "route_fingerprint": "3ac0de80f510aec8aa7c0379e93a242c59353dd463a161c4a465b32698c494c5",
+      "trigger_fingerprints": [
+        "7ad249a960bd6acbc1a4cf647c2c34806e344b0c202c9e24b62f3deca99a2f4b"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "17569",
+      "town": "Town12",
+      "scenario_types": [
+        "SequentialLaneChange"
+      ],
+      "route_fingerprint": "5e1a182b1c783a81a7945eb21abdbc3b933653c44611bacd476e7ec5b86610c5",
+      "trigger_fingerprints": [
+        "3db2625207a02c96f11e7d81631412659fd880dce081e8d216c034c350607fe2"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "17598",
+      "town": "Town12",
+      "scenario_types": [
+        "SequentialLaneChange"
+      ],
+      "route_fingerprint": "93c7c1a9e2cddfeea68aae90304b1e18a027b9198ac3d43b7b07eb21c36580ce",
+      "trigger_fingerprints": [
+        "72014f276c9f3eb87d9d729e6297af97b93e6f8f5c9892270bcd1238e889b8fd"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "17635",
+      "town": "Town12",
+      "scenario_types": [
+        "SequentialLaneChange"
+      ],
+      "route_fingerprint": "b6f05d9618ba9c71a1d59293988588e815a08c9ee874fd4985631b4a00b732f2",
+      "trigger_fingerprints": [
+        "4e9372cc9328900af00095ecf0715f371b59f11c6291c75871c6eb4a09192f0f"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "17655",
+      "town": "Town12",
+      "scenario_types": [
+        "SequentialLaneChange"
+      ],
+      "route_fingerprint": "1ec4385a3343a1bc78bb73aa718a752ce222d18191cd63e99d667fff8469af03",
+      "trigger_fingerprints": [
+        "5c3d8b85b3a0f22ec8d39e2c281d93a1dcec67a613c128d1800efb69b71591a6"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "17752",
+      "town": "Town12",
+      "scenario_types": [
+        "DynamicObjectCrossing"
+      ],
+      "route_fingerprint": "a75e1fd5cb9ae50c9c5845b96a6334bf88225750c18869b6bc9af7fbbc060c9c",
+      "trigger_fingerprints": [
+        "38a3533e89e024ba787c79ff8c10104560e3fb29b98e1efcb6b9aaba9dc4edc5"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "18252",
+      "town": "Town12",
+      "scenario_types": [
+        "ParkingCrossingPedestrian"
+      ],
+      "route_fingerprint": "56dfb39f9537333206aadcad8a6db3b30fa201afd0e55e48a3ce9918c82502b3",
+      "trigger_fingerprints": [
+        "e1810640413a0509ab225a8d00c01985604502a01d0b634f7e824e8cabdcd3aa"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "18305",
+      "town": "Town12",
+      "scenario_types": [
+        "ParkingCutIn"
+      ],
+      "route_fingerprint": "6f01379205a8a5bd2bfba8f46803fc0f67ed0579183746648fadbf25c1302aa9",
+      "trigger_fingerprints": [
+        "3c50aee3e9f563e5b078694dcde07e0606edeb338eb35ec00a659ca46cecd655"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "18311",
+      "town": "Town12",
+      "scenario_types": [
+        "ParkingCutIn"
+      ],
+      "route_fingerprint": "02531fc079ccccb11d89bd61c0b2d9ffd3ba3a3add2a9eb07f48d4bf06d8ed5d",
+      "trigger_fingerprints": [
+        "63b0bc32b5567cc8e7e3528c16dea5d387a418559ee1900f2077c78b21fdb1a5"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "18356",
+      "town": "Town12",
+      "scenario_types": [
+        "ParkingCutIn"
+      ],
+      "route_fingerprint": "34ad770c948f2a278e37ec5dd616280072de8b8bda03628a7ca6fe14f1aacaa1",
+      "trigger_fingerprints": [
+        "ac87a89ba023c6cc42df746a940c1e9c41852be02a3a9f6d341b22a820ce588f"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "20920",
+      "town": "Town12",
+      "scenario_types": [
+        "ConstructionObstacleTwoWays"
+      ],
+      "route_fingerprint": "34ad770c948f2a278e37ec5dd616280072de8b8bda03628a7ca6fe14f1aacaa1",
+      "trigger_fingerprints": [
+        "2986832e3426e83a72174791c9df8b21ce1095f1f6ccc1f59f2f7e8251c9c9ee"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "23658",
+      "town": "Town12",
+      "scenario_types": [
+        "HighwayExit"
+      ],
+      "route_fingerprint": "b6beceed0e8619518c466b447aea22a11ecf61e4a5cdd17d112485091e8d6ef0",
+      "trigger_fingerprints": [
+        "56e46b6ba2b434328744fd1ec0f92834b22af9e2cc76a51cec4181ec53f7838f"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "23659",
+      "town": "Town12",
+      "scenario_types": [
+        "HighwayExit"
+      ],
+      "route_fingerprint": "e4f723201b9b53b7c212b25952cc5fe4a19e213de647aacc7eebb797c96c67a6",
+      "trigger_fingerprints": [
+        "bbdce58b65d2d957ecf1acedebcffda04451da5f548d4a4d16d10f9e72b7477e"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "23670",
+      "town": "Town13",
+      "scenario_types": [
+        "HighwayExit"
+      ],
+      "route_fingerprint": "99d580aa26d5708da65e056834908d1ebdd0b8b3ab5a0fecb5a0fccaa604d43f",
+      "trigger_fingerprints": [
+        "1995adfcdec658ceb5ec3342f929fb5bf552b78ef811e2caa87d776f837cb7f2"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "23687",
+      "town": "Town12",
+      "scenario_types": [
+        "HighwayExit"
+      ],
+      "route_fingerprint": "f68c825c8e1340cacb89bbfc2f2cea5908360be8b7f05caa03c817d9cb9af683",
+      "trigger_fingerprints": [
+        "9c268853205bf049218d2a8ecbad80285e6f7d99349b66d2537de56b40f3d281"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "23695",
+      "town": "Town13",
+      "scenario_types": [
+        "InterurbanAdvancedActorFlow"
+      ],
+      "route_fingerprint": "4a8da0025e3e222bfc02529ba82be0bfef34edd21a7a88163bc1e9a7ce822b26",
+      "trigger_fingerprints": [
+        "d38a9fceae37cda96e06e3a9546d9b0eaf37634a6c3b123bc4984555887892c2"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "23700",
+      "town": "Town12",
+      "scenario_types": [
+        "InterurbanAdvancedActorFlow"
+      ],
+      "route_fingerprint": "d6785e189ee9f6c706a29d267915023d01ded863d9e1494c517b442f58db969a",
+      "trigger_fingerprints": [
+        "aba3769cea1bde4357caf6526219ef36dfb0ffe0dc1cf33acc863e41e296ab59"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "23708",
+      "town": "Town12",
+      "scenario_types": [
+        "InterurbanAdvancedActorFlow"
+      ],
+      "route_fingerprint": "d271fb00116e6735b6ffa38aa196ba47e988ed92bbfc96254c162d7e4897ce09",
+      "trigger_fingerprints": [
+        "b647b73b1c5a93c9f2c8b9422262e2b2e334b5b927e4f8693825960b9ad31322"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "23771",
+      "town": "Town12",
+      "scenario_types": [
+        "MergerIntoSlowTrafficV2"
+      ],
+      "route_fingerprint": "53f2a72dff570b0ee0469e97dd741cf5e67c4262fe4d30d214e039ac7933f51e",
+      "trigger_fingerprints": [
+        "b8090a90fc579fd02019f21a81aa9985763e6cc21f0b0839d63aa5c348032ef1"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "23901",
+      "town": "Town13",
+      "scenario_types": [
+        "InterurbanActorFlow"
+      ],
+      "route_fingerprint": "3ce2b55cb900aa63f0bb560c8f35c7eb8b8f2841c3452c7cdbe88d69ed501347",
+      "trigger_fingerprints": [
+        "80d2f491837a02848d35022855e9b114e65c7e843c074d5bee479e98393f7988"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "23910",
+      "town": "Town12",
+      "scenario_types": [
+        "InterurbanActorFlow"
+      ],
+      "route_fingerprint": "162a52bbee21809bbc0bc0a6f3d0bf5587df9c79a13a30091bec569d6408787d",
+      "trigger_fingerprints": [
+        "8527c22cb2c88e8f38aef81b72b15af7e49578ba2f5f248dea07de4fb23ccd09"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "23918",
+      "town": "Town13",
+      "scenario_types": [
+        "InterurbanActorFlow"
+      ],
+      "route_fingerprint": "81bf5fc6147ba568f792a75d4311199a3a6f652ec82abef614339286d62241ea",
+      "trigger_fingerprints": [
+        "7cd7a14a734d75772ec65f0bfefcc3887aa715d6f0b93c28af3480455d85cb19"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "23930",
+      "town": "Town12",
+      "scenario_types": [
+        "InterurbanActorFlow"
+      ],
+      "route_fingerprint": "ce81f15c5c68745cc9d34c7bdc85a1eb137b1f09548a7fc57f656e76542c9120",
+      "trigger_fingerprints": [
+        "9d1a67590b5537d6e67ee05920f5af293753ff0e32f5c6232706adb6aa956143"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "24041",
+      "town": "Town13",
+      "scenario_types": [
+        "HighwayExit"
+      ],
+      "route_fingerprint": "4ecc795da9890e332d318e33c890f3d7d188f77d4c8047640774d629cf696462",
+      "trigger_fingerprints": [
+        "ca4cba8a3885a16ea1c20b4c06475b662c91bfb3984a7d5a74cdcd7a65a07b85"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "24071",
+      "town": "Town13",
+      "scenario_types": [
+        "InterurbanAdvancedActorFlow"
+      ],
+      "route_fingerprint": "4a8da0025e3e222bfc02529ba82be0bfef34edd21a7a88163bc1e9a7ce822b26",
+      "trigger_fingerprints": [
+        "d38a9fceae37cda96e06e3a9546d9b0eaf37634a6c3b123bc4984555887892c2"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "24078",
+      "town": "Town12",
+      "scenario_types": [
+        "InterurbanAdvancedActorFlow"
+      ],
+      "route_fingerprint": "d6785e189ee9f6c706a29d267915023d01ded863d9e1494c517b442f58db969a",
+      "trigger_fingerprints": [
+        "aba3769cea1bde4357caf6526219ef36dfb0ffe0dc1cf33acc863e41e296ab59"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "24092",
+      "town": "Town13",
+      "scenario_types": [
+        "MergerIntoSlowTrafficV2"
+      ],
+      "route_fingerprint": "55944c927595299994c3f25db974e5f39bb70775ed7461be31901681f53e15ea",
+      "trigger_fingerprints": [
+        "4bd07db2e6389fb672f044fa1f5a671ceb07c718d6f53069cd14996322f62d67"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "24098",
+      "town": "Town12",
+      "scenario_types": [
+        "InterurbanActorFlow"
+      ],
+      "route_fingerprint": "162a52bbee21809bbc0bc0a6f3d0bf5587df9c79a13a30091bec569d6408787d",
+      "trigger_fingerprints": [
+        "8527c22cb2c88e8f38aef81b72b15af7e49578ba2f5f248dea07de4fb23ccd09"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "24206",
+      "town": "Town03",
+      "scenario_types": [
+        "ParkingCrossingPedestrian"
+      ],
+      "route_fingerprint": "fb6ce3876530a22f3af8c3394d640f846eec38356956f5e88970fc34841a5a97",
+      "trigger_fingerprints": [
+        "98d0fa5157821f6df074d528445b0b6279efb8bbb724f25d791be2398e136a63"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "24211",
+      "town": "Town01",
+      "scenario_types": [
+        "DynamicObjectCrossing"
+      ],
+      "route_fingerprint": "966712a7ae9dd42146c49b756803af1c64dae6b7ef94cb44896ae486c65fa4f6",
+      "trigger_fingerprints": [
+        "f1470186f14cdfa19a527af4ebbc674fe62f4a792f1cea9c12ab9ea1fd2e57d2"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "24224",
+      "town": "Town02",
+      "scenario_types": [
+        "DynamicObjectCrossing"
+      ],
+      "route_fingerprint": "8f6fe33fbe0d1c5f9cb8cb719d09fc7235952cb07bb730e5cd762e32c0e172db",
+      "trigger_fingerprints": [
+        "e7c20378c80c3e245f24ddc031f8c998f45c220936a8fdbd021049b0bab4d273"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "24240",
+      "town": "Town10HD",
+      "scenario_types": [
+        "Accident"
+      ],
+      "route_fingerprint": "30e38203271a740d55b28b927321c2b06c1edc9403dace97393ff9ef8b5952e3",
+      "trigger_fingerprints": [
+        "01448c351b5b4eb536560bdb620ce273c162d361a52dff0fb368d87e03d0e338"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "24252",
+      "town": "Town11",
+      "scenario_types": [
+        "DynamicObjectCrossing"
+      ],
+      "route_fingerprint": "3322d205d312946eb3e86b76192c3840f120935ffff5f37f127bfb6ee2e58ee8",
+      "trigger_fingerprints": [
+        "4eceb9efa1c222aa54c5969c9851ca94b0082b0979e46309c209f7bf30cf8071"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "24258",
+      "town": "Town07",
+      "scenario_types": [
+        "HazardAtSideLaneTwoWays"
+      ],
+      "route_fingerprint": "fd53407ba74dcf70b2be58b6bdd0027536489ae49a1b986f4de4baa4f0597d30",
+      "trigger_fingerprints": [
+        "53fd9f43db3426990fb7d5df142300bca023dbb5b2bae23878171d31c4342aab"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "24294",
+      "town": "Town02",
+      "scenario_types": [
+        "ParkingCrossingPedestrian"
+      ],
+      "route_fingerprint": "56e403383731f67301d04037f19c43bb5ef506879cd97b23a752763a7b3677f6",
+      "trigger_fingerprints": [
+        "e5690e9acada3ea3b438cce69bfd828eb3be0f2349e30703665b61b1f7e76aa7"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "24330",
+      "town": "Town10HD",
+      "scenario_types": [
+        "HardBreakRoute"
+      ],
+      "route_fingerprint": "30e38203271a740d55b28b927321c2b06c1edc9403dace97393ff9ef8b5952e3",
+      "trigger_fingerprints": [
+        "0ef8a795b225cd38142ad509970d6432db887be36d6a3aaa917837fd2fac58f4"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "24333",
+      "town": "Town15",
+      "scenario_types": [
+        "DynamicObjectCrossing"
+      ],
+      "route_fingerprint": "264c1e15c2adc0014d5dc64e3a807adfe4af797d1665a01a7d861eb2c1e6defa",
+      "trigger_fingerprints": [
+        "fd84625a1da6e9529cf7c5ef9d41de1505eedeeed25a1577a397c873db0e867e"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "24340",
+      "town": "Town10HD",
+      "scenario_types": [
+        "ControlLoss"
+      ],
+      "route_fingerprint": "30e38203271a740d55b28b927321c2b06c1edc9403dace97393ff9ef8b5952e3",
+      "trigger_fingerprints": [
+        "b5ea1800437e229ced721ca08c4ebd88bd11c21d5aa30f41f0c2e0792652eb13"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "24367",
+      "town": "Town06",
+      "scenario_types": [
+        "ConstructionObstacle"
+      ],
+      "route_fingerprint": "5489b07f5d6a02ec10224b551c02a55a76db1f7a49eefd95d1420d3a4f670d14",
+      "trigger_fingerprints": [
+        "31e276ade044ad5b72ea52d059a0c77a037269407ae28df9fce60396a221cdb9"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "24757",
+      "town": "Town06",
+      "scenario_types": [
+        "ParkedObstacle"
+      ],
+      "route_fingerprint": "76eca6a4882381915b91e41c6690de5a806e43202aebe072a712ba181ca432c3",
+      "trigger_fingerprints": [
+        "ac16221f7411d2a481f1b5f1c24691e84c7250828aa904ef3ee3465902979fd4"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "24759",
+      "town": "Town05",
+      "scenario_types": [
+        "ParkingCutIn"
+      ],
+      "route_fingerprint": "f0e236522583c4ed1a2e790898e98e28ad18cb3aaa34a9e8faad2a9e1647b471",
+      "trigger_fingerprints": [
+        "99e042ac5993adc2d2d598975cbe7b72e622d5b9f93721ea2ee0c0610593c26f"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "24781",
+      "town": "Town01",
+      "scenario_types": [
+        "HardBreakRoute"
+      ],
+      "route_fingerprint": "8113cfee3a663c957c2546a0c2b2f153a7ad605c1db4518d5e6b92528085987b",
+      "trigger_fingerprints": [
+        "15e958de2f7d03f98ae5c2f765315f635f4e20006b0ab1af2d4fe8e27e033357"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "24784",
+      "town": "Town02",
+      "scenario_types": [
+        "ControlLoss"
+      ],
+      "route_fingerprint": "56e403383731f67301d04037f19c43bb5ef506879cd97b23a752763a7b3677f6",
+      "trigger_fingerprints": [
+        "01096bb4444b91092fca49f778326768ee90a6afd2b56532b60f3ee846fda97c"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "24785",
+      "town": "Town04",
+      "scenario_types": [
+        "ConstructionObstacle"
+      ],
+      "route_fingerprint": "ae67550652be2dc40b714a62a1a3914d22bfe97f2e997924aa3b9ecfbd30eccb",
+      "trigger_fingerprints": [
+        "36b7ca98567001ecc9b7a34b4d062ad6ed3277d13758bb3104aaaa91d95237de"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "24795",
+      "town": "Town04",
+      "scenario_types": [
+        "ConstructionObstacle"
+      ],
+      "route_fingerprint": "3a64ec5b4780f92b743c8399eec1bed699c309c6fe20a6441809b29b6df5aa24",
+      "trigger_fingerprints": [
+        "b0321457ce7520ba78e0c19540c6369cb755d2939cc3db34492cd3ee6c9dec82"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "24816",
+      "town": "Town03",
+      "scenario_types": [
+        "Accident"
+      ],
+      "route_fingerprint": "55c03832e21b5b2e9b0cda560d743473844a8b140723b2384c7dd5f135f5eb0d",
+      "trigger_fingerprints": [
+        "e2ecabdb51928bf9d61bf59dd83ca5dbe1965895d6b19e049d060a6d4972f4bd"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "24841",
+      "town": "Town01",
+      "scenario_types": [
+        "ControlLoss"
+      ],
+      "route_fingerprint": "b38ab7ac060a0f7734436029e857126d12822e877ef06b91cf32099866617b30",
+      "trigger_fingerprints": [
+        "f7369a2eba2be6764610217ea16db56e973dd312bd27be379c68f34c10475b15"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "25300",
+      "town": "Town04",
+      "scenario_types": [
+        "HazardAtSideLane"
+      ],
+      "route_fingerprint": "3bc2fc5ee68bc589c0c817ea88a40b74cb833a5f5d9af3458a2e4833847baec0",
+      "trigger_fingerprints": [
+        "7a145265aad52befd9c7615f6bdd3a3376ed8d6ddf6536eb4436de0a50807669"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "25318",
+      "town": "Town05",
+      "scenario_types": [
+        "ParkedObstacle"
+      ],
+      "route_fingerprint": "697e96f1f03403cd1f731f83d6d934482a15ce947a56e2c42f243baab4fd9795",
+      "trigger_fingerprints": [
+        "b6ebe7304f31f06e0eeb745520a95857200ee742d0ed39371f257db4a8d316e7"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "25358",
+      "town": "Town06",
+      "scenario_types": [
+        "StaticCutIn"
+      ],
+      "route_fingerprint": "7117d853f0bcd3be86db1bd799a8fe336a77299deb896520e0ca9cfbd9b9181d",
+      "trigger_fingerprints": [
+        "94cfc2ea957a7f8bd38a6bca3f37cf1a2c870d8cbd28d6cd9c3c2ceb60a188e9"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "25378",
+      "town": "Town03",
+      "scenario_types": [
+        "YieldToEmergencyVehicle"
+      ],
+      "route_fingerprint": "e99d52ba2d8999b90dca6235fc2598ca4329611588246a71c9feda6248c10684",
+      "trigger_fingerprints": [
+        "d0aa5093120893ac2d6d93aeb0511e125db68da8b9f2f4a06201d55504b120b5"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "25381",
+      "town": "Town05",
+      "scenario_types": [
+        "HazardAtSideLane"
+      ],
+      "route_fingerprint": "2f01945dcc672c1ef6db6434e195ddc1cae1b323dedb1fedf12df3d7a8592b21",
+      "trigger_fingerprints": [
+        "ca893024222ea65ed00ef0ae3e2b1d9e5b92b3c40ca0d46ac03c6c8bca1d833a"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "25383",
+      "town": "Town15",
+      "scenario_types": [
+        "ParkedObstacle"
+      ],
+      "route_fingerprint": "1f160ac1b40096d0283d90ae934636661cb792e829afb7928de8bc517c93ac54",
+      "trigger_fingerprints": [
+        "c12117dee0662fc41ee2520b66842dee3d965e7402d31cabd212652f31f9f96e"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "25424",
+      "town": "Town11",
+      "scenario_types": [
+        "ConstructionObstacleTwoWays"
+      ],
+      "route_fingerprint": "2e12f2b81dab119bb60b717af9898444a5b79ece36ac3c71db60eb7d88d4d237",
+      "trigger_fingerprints": [
+        "74bd2d72ff2b3d5474b09492579ce00cf34ebab910163c6066cf91a21c048d39"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "25439",
+      "town": "Town15",
+      "scenario_types": [
+        "HazardAtSideLane"
+      ],
+      "route_fingerprint": "d21970596a118e1fd8e6b27ee89111bf54881e9feb3f1386a28acb28d8bff216",
+      "trigger_fingerprints": [
+        "f687ac137d5f2b4382d846575612ef78ed02e2b7f21fdfefcf9824cd2fe2ded1"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "25845",
+      "town": "Town15",
+      "scenario_types": [
+        "AccidentTwoWays"
+      ],
+      "route_fingerprint": "eeaa825429ec39bf4f3ab4c362a120875189984648c7ac8fdac334da68b8dc9b",
+      "trigger_fingerprints": [
+        "19df2910d9b1c960f327a6bb4bf96a0f0ef4695fd682bdbb92de27ec4821ef0f"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "25854",
+      "town": "Town03",
+      "scenario_types": [
+        "HazardAtSideLaneTwoWays"
+      ],
+      "route_fingerprint": "9bd98726a7afdefb1e11b1e1b72c9831084824d606c63d4501e09594b2f7b548",
+      "trigger_fingerprints": [
+        "addee568ed1155630a729f3d4fd0477e5f1ec7d525781da724f18eafaf15b2a3"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "25857",
+      "town": "Town05",
+      "scenario_types": [
+        "AccidentTwoWays"
+      ],
+      "route_fingerprint": "7191e32c4b03fd02871f3f194c554f8cdb09da31eb07c581a2ceec9c21212151",
+      "trigger_fingerprints": [
+        "546ae09657034d3e9d06c2673cc6dc43047aff18f3c31fcc9842c04b22d31d40"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "25863",
+      "town": "Town07",
+      "scenario_types": [
+        "PedestrianCrossing"
+      ],
+      "route_fingerprint": "5e072a5cd184d2826c5131ab1d334b9c589f8c47fe56ac7258b090fd4feca7ea",
+      "trigger_fingerprints": [
+        "120aed426c70372f7b2eecbc8d0222ba7636be64c4331fa68db9544d09487a04"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "25865",
+      "town": "Town11",
+      "scenario_types": [
+        "ParkedObstacleTwoWays"
+      ],
+      "route_fingerprint": "06c2e3cf5605d6ccfd4c8dd9916710dea1f2a3c86b2c8b5de1069721f039e457",
+      "trigger_fingerprints": [
+        "4b3733ecb710a9f0ce8b691f3483220d70781c2fb8b973620a0d2f4166a46f2a"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "25896",
+      "town": "Town03",
+      "scenario_types": [
+        "ParkedObstacleTwoWays"
+      ],
+      "route_fingerprint": "9bd98726a7afdefb1e11b1e1b72c9831084824d606c63d4501e09594b2f7b548",
+      "trigger_fingerprints": [
+        "ff0d91fcc12d0d74a978d52696a3143428b3bd3ca499d7e71d410a899a1cc16a"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "25928",
+      "town": "Town11",
+      "scenario_types": [
+        "VehicleOpensDoorTwoWays"
+      ],
+      "route_fingerprint": "3a9dacca0012dfb83f43b52390ff5af74a6cbf98c650dcbab70d5c5fc635d161",
+      "trigger_fingerprints": [
+        "66be26820006378a1eabba254dd13c82baabc30b0c9a0045c12165502d75837d"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "25951",
+      "town": "Town04",
+      "scenario_types": [
+        "HazardAtSideLaneTwoWays"
+      ],
+      "route_fingerprint": "136ee3e6d5bf76a158578f08330764b8e71f73c9b9aa3e12b9db993c23bc57e6",
+      "trigger_fingerprints": [
+        "e14168a9a156ea0811f4f118b9580386c0bc32aa46fdb4520bfc2e9dffc113b3"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "25955",
+      "town": "Town05",
+      "scenario_types": [
+        "HazardAtSideLaneTwoWays"
+      ],
+      "route_fingerprint": "9de22ab02195a717384c154d5805e3b4b21bcd208f578ed7a262875b33158da9",
+      "trigger_fingerprints": [
+        "62627d42bb466d85b055260cf4cb39e7ba6a7abadf3262fa5938416fd45ca6fc"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "25968",
+      "town": "Town07",
+      "scenario_types": [
+        "VanillaSignalizedTurnEncounterGreenLight"
+      ],
+      "route_fingerprint": "d887c6eff36039f25416349691a64af97d64a7eae26da0babee6e509f85f68d4",
+      "trigger_fingerprints": [
+        "084fa5452a0e3e91c36766fc569ffe92a30f6b8b972f81ebc8cbfae21ce58bbd"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "25975",
+      "town": "Town07",
+      "scenario_types": [
+        "VanillaSignalizedTurnEncounterGreenLight"
+      ],
+      "route_fingerprint": "97d8f49ce9e628e395d38f252a248d85393e6a0f326d817f7732fcc7d17e188b",
+      "trigger_fingerprints": [
+        "35910f7c9c2a39e98cc496c022b3b7b2dd78edd1ed342faffb0b45e474908845"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "26393",
+      "town": "Town03",
+      "scenario_types": [
+        "ParkingExit"
+      ],
+      "route_fingerprint": "e115360cfb41342ec1048e70be109fea0e5a7d656b5a3d4e8ce8751a70dcfe82",
+      "trigger_fingerprints": [
+        "64cda98e776ecda8fa2cf9c325d34c6adc0767f83c000449d786dafde1653a09"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "26394",
+      "town": "Town06",
+      "scenario_types": [
+        "MergerIntoSlowTrafficV2"
+      ],
+      "route_fingerprint": "39bd7b1d2d702b6388378ba83e5a70c2397492bb5f8d07c449d63a786709bfbd",
+      "trigger_fingerprints": [
+        "c84c81f3c6b3a60ae04e49df532a3fe92644cbe50d65254b7368263f0eb76b0b"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "26396",
+      "town": "Town05",
+      "scenario_types": [
+        "StaticCutIn"
+      ],
+      "route_fingerprint": "3592dc019c9683b87432ca4c902a4baeb97d76264ea7a01bcb05480253ddd657",
+      "trigger_fingerprints": [
+        "562108ee8252fb11448dd6c2645c12602758c012304662bca9f8e491c0ffaaf4"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "26401",
+      "town": "Town06",
+      "scenario_types": [
+        "MergerIntoSlowTrafficV2"
+      ],
+      "route_fingerprint": "0a3282822e73a5a6666c8989b9dbfe8a0b166552c9ecbe811b6782df15bb699b",
+      "trigger_fingerprints": [
+        "ae3970ab69afcf15667b26544f46bca640f216e1f9bd926bebd6043b376c587d"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "26405",
+      "town": "Town15",
+      "scenario_types": [
+        "StaticCutIn"
+      ],
+      "route_fingerprint": "b4cce811ede825ec48e35e3f85457ec83d84393d34aa9e197465173a70d48d8f",
+      "trigger_fingerprints": [
+        "2ce29a790c046227d9c8c57ff84431f00bdee0c8f98b77681bd97df1f43061c4"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "26406",
+      "town": "Town04",
+      "scenario_types": [
+        "HardBreakRoute"
+      ],
+      "route_fingerprint": "ae67550652be2dc40b714a62a1a3914d22bfe97f2e997924aa3b9ecfbd30eccb",
+      "trigger_fingerprints": [
+        "291aaac5903b85a5bebebd986458ff72046b27b616e12b6b6e55fc523884f46d"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "26408",
+      "town": "Town06",
+      "scenario_types": [
+        "MergerIntoSlowTrafficV2"
+      ],
+      "route_fingerprint": "b98e7aa287b27ad1d21ee7c57a1ee85ca703113fe846b1194a851fac90ad5748",
+      "trigger_fingerprints": [
+        "77c2a8b314f95022513b27de804751ef4cb1e15c1cdd9cf5dd514aa48e505798"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "26418",
+      "town": "Town11",
+      "scenario_types": [
+        "ControlLoss"
+      ],
+      "route_fingerprint": "269d83c4f9b2663486477fb8d45c039ea8ff4e697690b97d70c64753ab629d95",
+      "trigger_fingerprints": [
+        "ffcffc861ddda6a7b897f5d83d9b9083ce1552222703c69cb86c7cae6f1e3bd7"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "26435",
+      "town": "Town03",
+      "scenario_types": [
+        "ParkingExit"
+      ],
+      "route_fingerprint": "9bd98726a7afdefb1e11b1e1b72c9831084824d606c63d4501e09594b2f7b548",
+      "trigger_fingerprints": [
+        "95d2af7218bac9d506477a18d979d60acac7ccf75b8b917ce166a17559148831"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "26456",
+      "town": "Town03",
+      "scenario_types": [
+        "HardBreakRoute"
+      ],
+      "route_fingerprint": "9bd98726a7afdefb1e11b1e1b72c9831084824d606c63d4501e09594b2f7b548",
+      "trigger_fingerprints": [
+        "374d1c840ad1372b5dec2e8fa32799ed10ac95ceec0dc227c8afd4d3d5192616"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "26458",
+      "town": "Town07",
+      "scenario_types": [
+        "T_Junction"
+      ],
+      "route_fingerprint": "6113764cb7108b8bc2b3300a280ae6e2dd033b7089d3890bdafb43dbb5d6a590",
+      "trigger_fingerprints": [
+        "11a990f542afbc5c6dc470bb20666f37ce81d06b64545284de6d258b5b78fa0c"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "26944",
+      "town": "Town04",
+      "scenario_types": [
+        "OppositeVehicleRunningRedLight"
+      ],
+      "route_fingerprint": "326c8fbcf14de016fbcfb6b067cd9d2ba279fed37d91bd99d3fdd173f8e9d051",
+      "trigger_fingerprints": [
+        "d211e8616da75489e4ab3f0ae85e9795b99b95acbb6f490cf52acf9d14fa75d5"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "26950",
+      "town": "Town03",
+      "scenario_types": [
+        "OppositeVehicleRunningRedLight"
+      ],
+      "route_fingerprint": "abacc9a8b060859eaa19ea705791d94f7b6dc2fa359cfc327daddfddaff252ad",
+      "trigger_fingerprints": [
+        "a17de3c7355a1c0558330d52d99af02437c1c787127c8ab4d0dfdc26f0ee856a"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "26956",
+      "town": "Town05",
+      "scenario_types": [
+        "SignalizedJunctionRightTurn"
+      ],
+      "route_fingerprint": "e9d0ee86e715d049fd7bacb0d90bc189d00ec471032c6b4dcaae560848c47916",
+      "trigger_fingerprints": [
+        "9be414a88eb7e4a32a9528a1eec583eb5140dfaf0073df3225e92fdeb0e05d34"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "26966",
+      "town": "Town05",
+      "scenario_types": [
+        "SignalizedJunctionRightTurn"
+      ],
+      "route_fingerprint": "7eab9767828fe3dab9e1fe22b3dd0fe1256755fa37fea5b551b41f9b4b0b4767",
+      "trigger_fingerprints": [
+        "d2d9ddc7d913e4989d703e945b22fe58cfc66b866d7f5ed20a276a626b54b90a"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "26990",
+      "town": "Town03",
+      "scenario_types": [
+        "NonSignalizedJunctionLeftTurn"
+      ],
+      "route_fingerprint": "8fc63503df2981ebfd4c4504e8c36ffbad23e935db394d2cf579544e23eebc15",
+      "trigger_fingerprints": [
+        "8d1428932d8278b3d961da7434c418e3b3d536221f73c1978a6bc5f8565b782d"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "27018",
+      "town": "Town15",
+      "scenario_types": [
+        "SignalizedJunctionRightTurn"
+      ],
+      "route_fingerprint": "f9f3347808cc716f652f738d2dce42cbbf6a12836e24e10afa4dfe688c302cdd",
+      "trigger_fingerprints": [
+        "e7a60e8ee0ca59f33ae727d0801b87af6608e8c03cdd059c8ff050b0a9ec73fd"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "27494",
+      "town": "Town04",
+      "scenario_types": [
+        "BlockedIntersection"
+      ],
+      "route_fingerprint": "9abfb6afc32ec330670d186c5df4880b98bb8592420ac33e2cd511b3261aa48f",
+      "trigger_fingerprints": [
+        "a283e54f363feb690e43eef7160df8283ab58752a515af4ff2eae7ad0e3a4019"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "27506",
+      "town": "Town05",
+      "scenario_types": [
+        "EnterActorFlow"
+      ],
+      "route_fingerprint": "8f254b9849c10239389ad23b33b697c60ff1bf50c82e75e80ce92dbd6e8d6296",
+      "trigger_fingerprints": [
+        "056bebb9bc22bb42a42195197d55c07e4dc8966e3d69cf2c05c51b313fff1744"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "27515",
+      "town": "Town03",
+      "scenario_types": [
+        "PedestrianCrossing"
+      ],
+      "route_fingerprint": "fe1921dd57d009d557e9d2852d3d9bb3f588e29c44e9b56f7d233c21fe00b898",
+      "trigger_fingerprints": [
+        "f365c544603c48d3151006d6cd6feb33155cbfaba4e8f5a694f3ad13e5918645"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "27529",
+      "town": "Town04",
+      "scenario_types": [
+        "PedestrianCrossing"
+      ],
+      "route_fingerprint": "be4f8dd0389b2c36110d3a4555bbdaf69ecc3c56446132a13d9351edf6572361",
+      "trigger_fingerprints": [
+        "d951078ca5c86f8d2d2729e71c3609bd47339f3054ba53521d70bd624bbf6e3b"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "27532",
+      "town": "Town11",
+      "scenario_types": [
+        "BlockedIntersection"
+      ],
+      "route_fingerprint": "0fc0acda9024697d39c331bf901f3a6ff6580af7afbc099bcff804021bff1577",
+      "trigger_fingerprints": [
+        "d413965dea572d65eb5033139ed168ab41cb3e813974d74e46c04a153a3e41c5"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "27582",
+      "town": "Town11",
+      "scenario_types": [
+        "PedestrianCrossing"
+      ],
+      "route_fingerprint": "35d9cd3f2d757e4f0b9b92c738ba81bb7896a893695bd94932239c3a6815e882",
+      "trigger_fingerprints": [
+        "45c8f4504b637f85bb875191165582c04d29a538b48f2e04976542911f109cb7"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "28035",
+      "town": "Town01",
+      "scenario_types": [
+        "T_Junction"
+      ],
+      "route_fingerprint": "d46ab893188f155dffcda8dcce2e7522ee5a09ae5e7b2d6c91040ab0f7054260",
+      "trigger_fingerprints": [
+        "4529fc0a7c93cd075bdf0f86ff1ad9a734886efd94d1e3b5bf3a9120290d2b71"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "28048",
+      "town": "Town02",
+      "scenario_types": [
+        "T_Junction"
+      ],
+      "route_fingerprint": "602ba0315e92766036150f4a347a2edb7ff659cc1c098ae8e3b7aa604fe37f63",
+      "trigger_fingerprints": [
+        "eeca97e633d894354e2f62aa9690be5e21911adba30dc8967e010fcfe34b1703"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "28087",
+      "town": "Town04",
+      "scenario_types": [
+        "NonSignalizedJunctionLeftTurnEnterFlow"
+      ],
+      "route_fingerprint": "e5ca9c20c2f6e0320d76dfaf4149d60d19497e59646503891bf54b6124422091",
+      "trigger_fingerprints": [
+        "293b80787fd4996cbbd3eef1b6f8597d49bfc8172262846f9bb87063b367f5b1"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "28093",
+      "town": "Town04",
+      "scenario_types": [
+        "NonSignalizedJunctionLeftTurnEnterFlow"
+      ],
+      "route_fingerprint": "3afa90701b53652b5bf34a30cb0eee2e7c1f08535faafe9508bdfb34b5333a55",
+      "trigger_fingerprints": [
+        "a0b2c471b4133df4c32e52c70791d78ad02676f3c26650051f18a44671d2d576"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "28099",
+      "town": "Town04",
+      "scenario_types": [
+        "SignalizedJunctionLeftTurnEnterFlow"
+      ],
+      "route_fingerprint": "d17afbc19a3a3f21ea443be644bc03f4e64a3e26d911b6adeb0be8fe98a038cd",
+      "trigger_fingerprints": [
+        "71f946a77eb4bc7b7ad1df9a69dca6e9577490c1fc7899abbf06c7568ce00905"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "28111",
+      "town": "Town04",
+      "scenario_types": [
+        "T_Junction"
+      ],
+      "route_fingerprint": "6587c1e0cb4c95b9dc06a38c5b74977e5be2bb95065b20f9769a6b24f0ca4951",
+      "trigger_fingerprints": [
+        "34e0534104f1fc0a6b77f6156917b2ae96da5094541ca370f0acd32159641963"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "28154",
+      "town": "Town10HD",
+      "scenario_types": [
+        "T_Junction"
+      ],
+      "route_fingerprint": "f81dfdbcb1759bd931753575267c7cf90180205859273f2b41c6160795f13eb4",
+      "trigger_fingerprints": [
+        "059453780370044f77113d89d4cfd2fadb2417d55aec09d103ed496b5b7f9a01"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "28198",
+      "town": "Town15",
+      "scenario_types": [
+        "SignalizedJunctionLeftTurnEnterFlow"
+      ],
+      "route_fingerprint": "59e6d12ecb7b39c65bb83d19fbaeb5c8eba7c1d98cc937093fc310fb96143f3b",
+      "trigger_fingerprints": [
+        "c5bfb1493ffb128b2a1b280a84446e02ec8f536359dee797c0a9bcb3c6aadd70"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "28210",
+      "town": "Town12",
+      "scenario_types": [
+        "NonSignalizedJunctionLeftTurnEnterFlow"
+      ],
+      "route_fingerprint": "cd0566faa1704b68e4bd6cfd010b18e31157c115fb6f7fef85b6bacd022fdc5d",
+      "trigger_fingerprints": [
+        "c8daa16e78b0cccc688e6e6af0ea01262c80e9493f98e375bb05d6e12ef9339e"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "28219",
+      "town": "Town12",
+      "scenario_types": [
+        "NonSignalizedJunctionLeftTurnEnterFlow"
+      ],
+      "route_fingerprint": "d5d8ba7c80db9968fc7059e1351e2a7a828ae923b26b49aceb1b413e37aa79bf",
+      "trigger_fingerprints": [
+        "139582c15d882f327260be8b4474a289ff65302b4e6941dece1cc6dc5f09d961"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "28229",
+      "town": "Town12",
+      "scenario_types": [
+        "NonSignalizedJunctionLeftTurnEnterFlow"
+      ],
+      "route_fingerprint": "169afc57bf1355abbc0cb49ef765da082f002a0b2534a288e4a3db31635e34b4",
+      "trigger_fingerprints": [
+        "af4a9912939e1797750a5a9f32cca19b7460836d062ec14ac3786db1203d3779"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "28241",
+      "town": "Town12",
+      "scenario_types": [
+        "SignalizedJunctionLeftTurnEnterFlow"
+      ],
+      "route_fingerprint": "36c08d9cd290f0adfc513c932963736b9387ab41f2ff59e1b1bf6c82a03166fa",
+      "trigger_fingerprints": [
+        "c7af0abf0ec3d364f8a66b45b8a7bfb7aadf500db3e58818d9181d9bf40e29cd"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "28243",
+      "town": "Town12",
+      "scenario_types": [
+        "SignalizedJunctionLeftTurnEnterFlow"
+      ],
+      "route_fingerprint": "b6e50a23b3dc715db0c40ff9d61d9f5753f7a40e46e3043484e0798a5aef4ba3",
+      "trigger_fingerprints": [
+        "1a728361a43a504403ae4bb2bab2707f6ea5fe91f77ed9330d4121ecea727dad"
+      ]
+    },
+    {
+      "file": "leaderboard/data/bench2drive220.xml",
+      "file_sha256": "ffff24b3a2b8584632730fb42de7cb6036af780c3952cfef08ee8cf96a712f88",
+      "route_id": "28330",
+      "town": "Town12",
+      "scenario_types": [
+        "SignalizedJunctionLeftTurnEnterFlow"
+      ],
+      "route_fingerprint": "d64d66d4649bf97470503a30e3c53c82e21e1c9761e60a289de272b9728ca3b0",
+      "trigger_fingerprints": [
+        "ff140330d1896776a85fcf5db98021db8fe35d7d7c7941ff8815a1954fa4260e"
+      ]
+    }
+  ]
+}

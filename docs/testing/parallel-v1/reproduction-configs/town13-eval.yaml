@@ -1,0 +1,27 @@
+backend: carla
+ipc:
+  static_bytes: 67108864
+observations:
+  history_frames: 21
+  profile: planning_v1
+path_base: /home/czh/workspace/CARLA-RL-Base
+performance:
+  deferred_observations: true
+scenario:
+  dependency_root: ~/.cache/easycarla/bench2drive/acbeb0dd8aa99dd0e71b9b75bb542f6fe7c7f3d8-p6
+  fallback: null
+  manifest: /tmp/easycarla-parallel-baseline/town13-eval.json
+  native_metrics: false
+  purpose: eval
+  source: bench2drive
+  terminal_statistics_only: true
+simulation:
+  decision_dt: 0.1
+  history_dt: 0.1
+  map_affinity: Town13
+  no_rendering_mode: true
+  physics_dt: 0.05
+  reload_on_reset: true
+  timeout: 90
+task:
+  profile: bench2drive_native

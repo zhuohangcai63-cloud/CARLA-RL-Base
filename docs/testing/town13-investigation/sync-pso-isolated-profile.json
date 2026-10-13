@@ -1,0 +1,9 @@
+{
+  "user_dir": "/tmp/easycarla-town13-sync-pso-profile",
+  "source_config": "/home/czh/.config/Epic/CarlaUE4/Saved/Config/LinuxNoEditor",
+  "engine_ini_sha256": "0e9cd780994135c5fa57c52d2ae356573c37aad644f62638df02a6030b74392b",
+  "intended_change": {
+    "r.AsyncPipelineCompile": 0
+  },
+  "purpose": "isolated configuration diagnostic, not a verified fix"
+}

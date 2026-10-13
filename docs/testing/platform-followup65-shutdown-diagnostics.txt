@@ -1,0 +1,31 @@
+Generating report for minidump
+
+Application version 4.26.2.0
+ ... built from changelist 0
+
+OS version Linux 7.0.0-34-generic (network name: czh-Default-string)
+Running 14 x86_64 processors (20 logical cores)
+Exception was "SIGSEGV: invalid attempt to read memory at address 0x00000000000000d8"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+CarlaUE4-Linux-Shipping!VulkanRHI::FMemoryManager::DumpMemory(bool) [/home/jenkins/UnrealEngine_4.26/Engine/Source/Runtime/VulkanRHI/Private/VulkanMemory.cpp:3245]
+CarlaUE4-Linux-Shipping!VulkanRHI::FVulkanResourceHeap::~FVulkanResourceHeap() [/home/jenkins/UnrealEngine_4.26/Engine/Source/Runtime/VulkanRHI/Private/VulkanMemory.cpp:1684]
+CarlaUE4-Linux-Shipping!VulkanRHI::FMemoryManager::Deinit() [/home/jenkins/UnrealEngine_4.26/Engine/Source/Runtime/VulkanRHI/Private/VulkanMemory.cpp:2291]
+CarlaUE4-Linux-Shipping!FVulkanDevice::Destroy() [/home/jenkins/UnrealEngine_4.26/Engine/Source/Runtime/VulkanRHI/Private/VulkanDevice.cpp:1158]
+CarlaUE4-Linux-Shipping!FVulkanDynamicRHI::Shutdown() [/home/jenkins/UnrealEngine_4.26/Engine/Source/Runtime/VulkanRHI/Private/VulkanRHI.cpp:328]
+CarlaUE4-Linux-Shipping!RHIExit() [/home/jenkins/UnrealEngine_4.26/Engine/Source/Runtime/RHI/Private/DynamicRHI.cpp:321]
+CarlaUE4-Linux-Shipping!FEngineLoop::Exit() [/home/jenkins/UnrealEngine_4.26/Engine/Source/Runtime/Launch/Private/LaunchEngineLoop.cpp:4219]
+CarlaUE4-Linux-Shipping!GuardedMain(char16_t const*) [/home/jenkins/UnrealEngine_4.26/Engine/Source/Runtime/Launch/Private/Launch.cpp:183]
+CarlaUE4-Linux-Shipping!CommonUnixMain(int, char**, int (*)(char16_t const*), void (*)()) [/home/jenkins/UnrealEngine_4.26/Engine/Source/Runtime/Unix/UnixCommonStartup/Private/UnixCommonStartup.cpp:264]
+libc.so.6!UnknownFunction(0x2a1c9)
+libc.so.6!__libc_start_main(+0x8a)
+CarlaUE4-Linux-Shipping!_start()
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!

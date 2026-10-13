@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "derived_at_utc": "2026-09-28T05:56:10.212567+00:00",
+  "status": "runtime_native_crash",
+  "scope": "First 11 routes, single-variable UseBufferBinning=1 versus v2 CPU-validation sequence; not full41 or220 acceptance",
+  "passed": false,
+  "source_sha256": {
+    "summary.json": "9f557b3ca02c5327f2d2e6d4f86dff8b15d1d036dc029373bdedcbf3bbe8eb16",
+    "probe.json": "54012a0876f5dcffdb31b387470b4b24acad2737ac3b2784aadb7a9e2f32d13d",
+    "client.txt": "e995885d9010e3bf659f2d37fff0952ef7ee8471cbcfde3a4e696a0aef0d7b45",
+    "server.txt": "8d9a5fea572ef2594c7aaacf488cbeea3a5c7fb1d54b65010b7082706fb02293",
+    "samples.jsonl": "0cc9e9d810477a5150755c2768d2502a252404488f23f2a34a8b6a10853ce286",
+    "diagnostic-environment.json": "3aa19764c20c75cc8557b0b9fded0b8ea81a47b95c2c553c919838f62077fd94"
+  },
+  "raw_probe_unchanged": true,
+  "returned_routes": 5,
+  "returned_execution_counts": {
+    "tick_budget_reached": 2,
+    "completed": 3
+  },
+  "confirmed_step_ticks_returned_routes": 3366,
+  "interrupted_route": [
+    {
+      "route_id": "29893",
+      "town": "Town13",
+      "scenario_types": [
+        "ConstructionObstacleTwoWays"
+      ],
+      "execution": "running",
+      "ticks": 0,
+      "activated": [],
+      "completed": []
+    }
+  ],
+  "interrupted_interpretation": "Unknown outcome during initialization after LOADED and before PREPARED; zero saved step ticks is not a valid transition or proof of zero initialization work.",
+  "not_run_count": 5,
+  "server_exit": -11,
+  "client_exit": -15,
+  "client_exit_explanation": "Supervisor SIGTERM after native server SIGSEGV, not independent client crash",
+  "elapsed_seconds": 353.2117778310003,
+  "peaks": {
+    "server_rss_kib": 9975040,
+    "gpu_0_memory_used_mib": 7854.0
+  },
+  "validation_messages_capped_per_id": {
+    "VUID-vkCreateDevice-ppEnabledExtensionNames-01387": 1,
+    "VUID-vkCmdWriteTimestamp-None-00830": 3,
+    "VUID-VkImageCreateInfo-flags-04738": 3,
+    "VUID-VkShaderModuleCreateInfo-pCode-08742": 3,
+    "Undefined-Value-ShaderOutputNotConsumed": 3,
+    "Undefined-Value-ShaderInputNotProduced": 3,
+    "VUID-RuntimeSpirv-OpImageWrite-07112": 3,
+    "VUID-vkCmdCopyBuffer-size-00116": 2,
+    "VUID-vkCmdDrawIndexed-robustBufferAccess2-07825": 2
+  },
+  "new_buffer_copy_sizes": [
+    9840,
+    9216
+  ],
+  "buffer_overflow_bytes": [
+    4,
+    8
+  ],
+  "native_crash": "libc memcpy -> FVulkanResourceMultiBuffer ctor VulkanIndexBuffer.cpp:136 -> FStaticMeshVertexBuffer TexCoord / InitRHI; invalid write at zero",
+  "parameter_effective": {
+    "UseBufferBinning": 1,
+    "SingleAllocationPerResource": 0
+  },
+  "shutdown_debug": "Not triggered: native server crashed during runtime before controlled shutdown; no native shutdown backtrace collected. Wrapper permission was restricted to this newly launched owned process and its supervisor.",
+  "redaction": [
+    {
+      "path": "native-town13-binning-validation11/crashes/crashinfo-CarlaUE4-pid-255129-F5AD8AC90C3B44A9810066F930F1E9A3/CrashContext.runtime-xml",
+      "sha256_before": "5959d4d9c0410927d6370719916a2b2e6f646c5c97a339b0676a38ac9062cfd4",
+      "sha256_after": "f252c42f863a1e20d21f70a06329f6ca55dcb30697f442c3849a9f3de7cc7bee",
+      "removed_fields": [
+        "MachineId",
+        "LoginId"
+      ]
+    }
+  ],
+  "limitations": [
+    "Binning changes resource layout but did not eliminate buffer boundary errors or native crashes; not recommended as a stability fix.",
+    "This comparison does not establish buffer boundary errors as the sole cause of every SIGSEGV.",
+    "No server restart or uncertain step replay occurred within this run."
+  ]
+}

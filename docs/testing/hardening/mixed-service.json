@@ -1,0 +1,264 @@
+{
+  "status": "passed",
+  "measurement_kind": "independent_client_service_measurement",
+  "instance": "hardening_mixed_90358",
+  "client_python": "3.11.16",
+  "client_prefix": "/home/czh/software/miniconda3/envs/carla-client-test",
+  "control": [
+    0.0,
+    0.15,
+    0.0
+  ],
+  "copy_observations": true,
+  "requested_episodes": 4,
+  "requested_steps_per_episode": 20,
+  "episodes": [
+    {
+      "index": 0,
+      "seed": 0,
+      "backend_reported": "carla",
+      "scenario": {
+        "source": "bench2drive",
+        "scenario_id": "25134",
+        "seed": 0,
+        "town": "Town10HD",
+        "scenario_types": [
+          "T_Junction"
+        ],
+        "loaded_town": "Town10HD",
+        "route_fingerprint": "9040e5b15ff98f4d86ee45e30f8a614b13fae40c9bf081144d5a391aa0e4c799",
+        "upstream_commit": "acbeb0dd8aa99dd0e71b9b75bb542f6fe7c7f3d8",
+        "patch_version": 3,
+        "native_npc": true,
+        "mechanism_replacements": [],
+        "generation_failure": null,
+        "native_validation": "not_run",
+        "repeatability_validation": "not_run",
+        "scenario_names": [
+          "T_Junction_1"
+        ]
+      },
+      "steps": 20,
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "index": 1,
+      "seed": 1,
+      "backend_reported": "carla",
+      "scenario": {
+        "source": "scenic",
+        "scenario_id": "interaction_follow",
+        "seed": 1,
+        "source_sha256": "cd727e47203609271a8904a9142028f85479f0b3e7fed2d152e914b859ea2a32",
+        "file": "/home/czh/workspace/CARLA-RL-Base/scenarios/scenic/interaction_follow.scenic",
+        "town": "Town10HD",
+        "iterations": 1,
+        "parameters": {
+          "scenario_name": "interaction_follow",
+          "weather": "ClearNoon",
+          "traffic_light_policy": "off",
+          "ego_spawn_index": 0,
+          "destination_spawn_index": 30,
+          "min_route_distance": 100,
+          "number_of_vehicles": 0,
+          "number_of_walkers": 0
+        },
+        "generation_failures": [],
+        "seeds": {
+          "scenic_python": 1,
+          "scenic_numpy": 1,
+          "route": 1,
+          "spawn": 1,
+          "streams_independent": true,
+          "traffic_manager": 1,
+          "pedestrians": 1,
+          "events": 2,
+          "crossing": 3,
+          "lead_brake": 4,
+          "reactive_npc": 1
+        },
+        "ego_spawn_index": 0,
+        "destination_spawn_index": 30,
+        "background_vehicles_requested": 0,
+        "background_vehicles_spawned": 0,
+        "reactive_routes": {}
+      },
+      "steps": 20,
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "index": 2,
+      "seed": 2,
+      "backend_reported": "carla",
+      "scenario": {
+        "source": "bench2drive",
+        "scenario_id": "28147",
+        "seed": 2,
+        "town": "Town10HD",
+        "scenario_types": [
+          "SignalizedJunctionLeftTurnEnterFlow"
+        ],
+        "loaded_town": "Town10HD",
+        "route_fingerprint": "4a4e3512908f61835f6a057eb83ce400c7e8ebdf38be7a47db1e6bdb6ef16348",
+        "upstream_commit": "acbeb0dd8aa99dd0e71b9b75bb542f6fe7c7f3d8",
+        "patch_version": 3,
+        "native_npc": true,
+        "mechanism_replacements": [],
+        "generation_failure": null,
+        "native_validation": "not_run",
+        "repeatability_validation": "not_run",
+        "scenario_names": [
+          "SignalizedJunctionLeftTurnEnterFlow_1"
+        ]
+      },
+      "steps": 20,
+      "terminated": false,
+      "truncated": false
+    },
+    {
+      "index": 3,
+      "seed": 3,
+      "backend_reported": "carla",
+      "scenario": {
+        "source": "scenic",
+        "scenario_id": "interaction_follow",
+        "seed": 3,
+        "source_sha256": "cd727e47203609271a8904a9142028f85479f0b3e7fed2d152e914b859ea2a32",
+        "file": "/home/czh/workspace/CARLA-RL-Base/scenarios/scenic/interaction_follow.scenic",
+        "town": "Town10HD",
+        "iterations": 1,
+        "parameters": {
+          "scenario_name": "interaction_follow",
+          "weather": "ClearNoon",
+          "traffic_light_policy": "off",
+          "ego_spawn_index": 0,
+          "destination_spawn_index": 30,
+          "min_route_distance": 100,
+          "number_of_vehicles": 0,
+          "number_of_walkers": 0
+        },
+        "generation_failures": [],
+        "seeds": {
+          "scenic_python": 3,
+          "scenic_numpy": 3,
+          "route": 3,
+          "spawn": 3,
+          "streams_independent": true,
+          "traffic_manager": 3,
+          "pedestrians": 3,
+          "events": 4,
+          "crossing": 5,
+          "lead_brake": 6,
+          "reactive_npc": 3
+        },
+        "ego_spawn_index": 0,
+        "destination_spawn_index": 30,
+        "background_vehicles_requested": 0,
+        "background_vehicles_spawned": 0,
+        "reactive_routes": {}
+      },
+      "steps": 20,
+      "terminated": false,
+      "truncated": false
+    }
+  ],
+  "simulation_timing_source": "service-provided info.timing; not inferred from wall-clock duration",
+  "wall_seconds": 9.393500887003029,
+  "metrics": {
+    "rpc_roundtrip_seconds": {
+      "count": 80,
+      "p50": 0.04241695299788262,
+      "p95": 0.09396094484873173,
+      "mean": 0.051630738800122346,
+      "min": 0.028024184997775592,
+      "max": 0.15388636699935887
+    },
+    "rpc_backend_seconds": {
+      "count": 80,
+      "p50": 0.04122370600089198,
+      "p95": 0.09317820535252393,
+      "mean": 0.050635832824900716,
+      "min": 0.027149392997671384,
+      "max": 0.15286094299517572
+    },
+    "transport_and_copy_seconds": {
+      "count": 80,
+      "p50": 0.0009983320014725905,
+      "p95": 0.001215746648449567,
+      "mean": 0.0009949059752216271,
+      "min": 0.0007171340039349161,
+      "max": 0.0013721080031245947
+    },
+    "simulation_seconds": {
+      "count": 80,
+      "p50": 0.008875207509845495,
+      "p95": 0.014392962645069916,
+      "mean": 0.009294180637789395,
+      "min": 0.00415267900825711,
+      "max": 0.03635224301251583
+    },
+    "control_commit_seconds": {
+      "count": 80,
+      "p50": 0.0009352900087833405,
+      "p95": 0.0013132873973518144,
+      "mean": 0.0009085016370590892,
+      "min": 0.00041865600360324606,
+      "max": 0.0015228740012389608
+    },
+    "observation_seconds": {
+      "count": 80,
+      "p50": 0.01706581699909293,
+      "p95": 0.03798405550078313,
+      "mean": 0.020147996912783128,
+      "min": 0.012384253001073375,
+      "max": 0.04998980600066716
+    },
+    "sensor_wait_seconds": {
+      "count": 80,
+      "p50": 0.008385356493818108,
+      "p95": 0.008447367190819932,
+      "mean": 0.0083895873867732,
+      "min": 0.008324670990987215,
+      "max": 0.008460855002340395
+    },
+    "environment_seconds": {
+      "count": 80,
+      "p50": 0.04118212049797876,
+      "p95": 0.09314564550259091,
+      "mean": 0.050596960337406925,
+      "min": 0.027117097000882495,
+      "max": 0.15282645900151692
+    },
+    "reset_roundtrip_seconds": {
+      "count": 4,
+      "p50": 0.24142353700153762,
+      "p95": 4.006859533800887,
+      "mean": 1.3054687692510925,
+      "min": 0.08308368000143673,
+      "max": 4.655944322999858
+    },
+    "initialization_seconds": {
+      "count": 4,
+      "p50": 0.2358582965025562,
+      "p95": 4.003593892099159,
+      "mean": 1.2998584747510904,
+      "min": 0.07414759200037224,
+      "max": 4.653569713998877
+    },
+    "observation_array_bytes": {
+      "count": 80,
+      "p50": 85904.0,
+      "p95": 85904.0,
+      "mean": 85904.0,
+      "min": 85904.0,
+      "max": 85904.0
+    }
+  },
+  "notes": [
+    "Passing this runner verifies successful communication, not driving task success.",
+    "Empty timing samples mean the backend did not supply that measurement.",
+    "Transport time includes scheduling, encoding, shared-memory transfer and copying."
+  ]
+}

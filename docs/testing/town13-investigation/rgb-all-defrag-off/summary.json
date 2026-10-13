@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "status": "server_exited_during_run",
+  "started_utc": "2026-09-28T03:44:39.555780+00:00",
+  "scope": "one owned simulator and one client; no readiness, restart or replay",
+  "server_exit_before_stop": -11,
+  "peaks": {
+    "server_rss_kib": 7433536,
+    "gpu_0_memory_used_mib": 6621.0
+  },
+  "sample_count": 55,
+  "server_command": [
+    "/home/czh/software/carla/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping",
+    "CarlaUE4",
+    "-RenderOffScreen",
+    "-quality-level=Low",
+    "-nosound",
+    "-ResX=400",
+    "-ResY=300",
+    "-ini:Engine:[SystemSettings]:r.Vulkan.EnableDefrag=0",
+    "-carla-rpc-port=2600",
+    "-carla-streaming-port=2601",
+    "-carla-secondary-port=2602"
+  ],
+  "client_command": [
+    "/home/czh/software/miniconda3/envs/CARLA-RL-Base/bin/python",
+    "scripts/diagnose_carla_maps.py",
+    "--port",
+    "2600",
+    "--output",
+    "/home/czh/workspace/CARLA-RL-Base/docs/testing/town13-investigation/rgb-all-defrag-off/probe.json",
+    "--town",
+    "Town13",
+    "Town12",
+    "Town03",
+    "Town01",
+    "Town02",
+    "Town04",
+    "Town05",
+    "Town06",
+    "Town07",
+    "Town10HD",
+    "Town11",
+    "Town15",
+    "--repeats",
+    "2",
+    "--ticks",
+    "100",
+    "--timeout",
+    "90",
+    "--distance",
+    "650",
+    "--camera"
+  ],
+  "server_pid": 98158,
+  "client_pid": 98160,
+  "client_exit_before_stop": null,
+  "client_cleanup": {
+    "signals": [
+      "SIGTERM"
+    ],
+    "exit_code": -15,
+    "leader_exit_before_signal": null,
+    "log_complete": true,
+    "log_error": null,
+    "group_alive": false
+  },
+  "client_exit": -15,
+  "explicit_server_stop": false,
+  "server_cleanup": {
+    "signals": [],
+    "exit_code": -11,
+    "leader_exit_before_signal": -11,
+    "log_complete": true,
+    "log_error": null,
+    "group_alive": false
+  },
+  "server_exit": -11,
+  "shutdown_crash": false,
+  "shutdown_forced_kill": false,
+  "shutdown_failed": false,
+  "shutdown_outcome": "server_exited_before_stop",
+  "crash_files": [
+    "crashes/crashinfo-CarlaUE4-pid-98158-6C1145A403684A59B887FE35D30015E2"
+  ],
+  "crash_copy_errors": [],
+  "elapsed_seconds": 55.90666866699985,
+  "finished_utc": "2026-09-28T03:45:35.462459+00:00",
+  "passed": false
+}

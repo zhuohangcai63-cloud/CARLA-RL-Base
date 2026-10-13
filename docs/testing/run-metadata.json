@@ -1,0 +1,27 @@
+{
+  "recorded_at": "2026-09-27T14:07:14.910581+00:00",
+  "service_python": "3.10.20 | packaged by conda-forge | (main, Jun 11 2026, 03:31:56) [GCC 14.3.0]",
+  "service_prefix": "/home/czh/software/miniconda3/envs/CARLA-RL-Base",
+  "dependencies": {
+    "carla": "0.9.15",
+    "scenic": "3.1.1",
+    "gymnasium": "1.3.0",
+    "numpy": "2.2.6",
+    "posix_ipc": "1.3.2",
+    "py-trees": "0.8.3",
+    "requests": "2.34.2",
+    "psutil": "7.2.2",
+    "tabulate": "0.9.0",
+    "pytest": "8.4.2"
+  },
+  "wheel_build": "passed",
+  "unit_and_protocol_tests": {
+    "passed": 346,
+    "skipped": 12
+  },
+  "real_tests": "See README.md for per-capability passed/failed/not-run; not a full acceptance pass",
+  "wheels": {
+    "easycarla-0.2.0-py3-none-any.whl": "8711dae2396824af09a3f0003fff00bcf898bfac8527a10fcde36462c96cd975",
+    "easycarla_client-0.2.0-py3-none-any.whl": "8732cd89dc3d2c7d53ef4f4ae318c928bdbc506b3aba4498feef5cf5b31599a2"
+  }
+}
